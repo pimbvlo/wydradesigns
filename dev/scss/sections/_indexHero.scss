@@ -1,0 +1,56 @@
+/* =============
+    Variables
+============= */
+#indexHero {
+
+    background-image: url("../img/index/Hero.jpg");
+    background-position: center 50%;
+    background-repeat: no-repeat;
+    background-size: auto 150%;
+    height: 56vh;
+    @supports (background-blend-mode: multiply){
+        background-blend-mode: multiply;
+        background-color: $purple;
+        background-image: url("../img/index/HeroGrey.jpg");
+    }
+    @include md{
+        height: 64vh;
+    }
+    div {
+        align-items: flex-end;
+        display: flex;
+        justify-content: center;
+        // @include padding(null, 24px, null, 24px);
+
+        article {
+            margin-bottom: 56px;
+            // figure{
+            //     align-items: center;
+            //     background-color: $white;
+            //     border-radius: 500px;
+            //     display: flex;
+            //     height: 80px;
+            //     justify-content: center;
+            //     margin: 0 auto;
+            //     margin-bottom: 25vh;
+            //     padding: 24px;
+            //     width: 80px;
+            //
+            //     img{
+            //         width: 100%;
+            //
+            //     }
+            // }
+            h1 {
+                color: $white;
+                font-size: rem-calc(48);
+                line-height: rem-calc(56);
+                br{
+                    @include md{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}

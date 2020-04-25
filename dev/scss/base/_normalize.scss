@@ -26,6 +26,15 @@ body {
     //     background-color: $black;
     //     color: $white;
     // }
+    ::selection {
+        background: $orange;
+        color: $dark-purple;
+    }
+
+    ::-moz-selection {
+        background: $orange;
+        color: $dark-purple;
+    }
 }
 /**
  * Correct the font size and margin on `h1` elements within `section` and

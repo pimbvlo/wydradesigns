@@ -37,6 +37,12 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0; }
+  body ::selection {
+    background: #FF964C;
+    color: #0D001E; }
+  body ::-moz-selection {
+    background: #FF964C;
+    color: #0D001E; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -488,28 +494,51 @@ textarea {
     Footer
 ============= */
 /* =============
-    Variables
+    Index Hero
 ============= */
 #indexHero {
   background-image: url("../img/index/Hero.jpg");
-  background-position: center 50%;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto 150%;
-  height: 56vh; }
+  background-size: cover;
+  height: 72vh; }
   @supports (background-blend-mode: multiply) {
     #indexHero {
       background-blend-mode: multiply;
       background-color: #6613CE;
       background-image: url("../img/index/HeroGrey.jpg"); } }
+  @supports (background-attachment: fixed) {
+    #indexHero {
+      background-attachment: fixed; } }
   @media (min-width: 768px) {
     #indexHero {
-      height: 64vh; } }
+      background-position: center; } }
+  @media (min-width: 992px) {
+    #indexHero {
+      height: 72vh; } }
   #indexHero div {
     align-items: flex-end;
     display: flex;
     justify-content: center; }
     #indexHero div article {
       margin-bottom: 56px; }
+      #indexHero div article figure {
+        align-items: center;
+        background-color: #FCFCFC;
+        border-radius: 500px;
+        display: flex;
+        height: 64px;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 8vh;
+        padding: 16px;
+        width: 64px; }
+        @media (min-width: 768px) {
+          #indexHero div article figure {
+            margin-bottom: 10vh;
+            padding: 24px; } }
+        #indexHero div article figure img {
+          width: 100%; }
       #indexHero div article h1 {
         color: #FCFCFC;
         font-size: 3rem;
@@ -517,3 +546,34 @@ textarea {
         @media (min-width: 768px) {
           #indexHero div article h1 br {
             display: none; } }
+/* =============
+    Index Intro
+============= */
+#indexIntro div {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+  #indexIntro div article {
+    align-items: center;
+    border-bottom: 4px solid #FF964C;
+    border-top: 4px solid #FF964C;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-top: 16px; }
+    @media (min-width: 768px) {
+      #indexIntro div article {
+        width: 56vw; } }
+    @media (min-width: 992px) {
+      #indexIntro div article {
+        width: 48vw; } }
+    @media (min-width: 1200px) {
+      #indexIntro div article {
+        width: 32vw; } }
+    #indexIntro div article p {
+      padding-left: 8px;
+      padding-right: 8px; }
+      @media (min-width: 768px) {
+        #indexIntro div article p {
+          padding-left: 16px;
+          padding-right: 16px; } }

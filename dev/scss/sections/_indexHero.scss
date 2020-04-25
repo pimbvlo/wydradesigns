@@ -1,46 +1,57 @@
 /* =============
-    Variables
+    Index Hero
 ============= */
 #indexHero {
 
     background-image: url("../img/index/Hero.jpg");
-    background-position: center 50%;
+    background-position: center;
     background-repeat: no-repeat;
-    background-size: auto 150%;
-    height: 56vh;
+    background-size: cover;
+
+    height: 72vh;
     @supports (background-blend-mode: multiply){
         background-blend-mode: multiply;
         background-color: $purple;
         background-image: url("../img/index/HeroGrey.jpg");
     }
+    @supports (background-attachment: fixed){
+    background-attachment: fixed;
+    }
     @include md{
-        height: 64vh;
+        background-position: center;
+    }
+    @include lg{
+        height: 72vh;
     }
     div {
         align-items: flex-end;
         display: flex;
         justify-content: center;
-        // @include padding(null, 24px, null, 24px);
 
         article {
             margin-bottom: 56px;
-            // figure{
-            //     align-items: center;
-            //     background-color: $white;
-            //     border-radius: 500px;
-            //     display: flex;
-            //     height: 80px;
-            //     justify-content: center;
-            //     margin: 0 auto;
-            //     margin-bottom: 25vh;
-            //     padding: 24px;
-            //     width: 80px;
-            //
-            //     img{
-            //         width: 100%;
-            //
-            //     }
-            // }
+            figure{
+                align-items: center;
+                background-color: $white;
+                border-radius: 500px;
+                display: flex;
+                height: 64px;
+                justify-content: center;
+                margin: 0 auto;
+                margin-bottom: 8vh;
+                padding: 16px;
+                width: 64px;
+
+                @include md{
+                    margin-bottom: 10vh;
+                    padding: 24px;
+
+                }
+                img{
+                    width: 100%;
+
+                }
+            }
             h1 {
                 color: $white;
                 font-size: rem-calc(48);

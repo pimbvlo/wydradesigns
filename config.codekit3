@@ -51,14 +51,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/index/Hero_tmp1257808054": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/index/Hero_tmp1257808054",
-		"oF": 0
-		},
 	"/deploy/img/index/HeroGrey.jpg": {
 		"ft": 16384,
 		"iS": 2117165,
@@ -103,6 +95,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/indexHero.html",
+		"oF": 0
+		},
+	"/dev/indexIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/indexIntro.html",
 		"oF": 0
 		},
 	"/dev/js/scripts.js": {
@@ -268,6 +268,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_indexHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/_indexIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_indexIntro.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

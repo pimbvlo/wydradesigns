@@ -2,5 +2,84 @@
     Footer
 ============= */
 footer {
+    color: $white;
+    background-color: $dark-purple;
 
+    div {
+        article {
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-template-areas: "l l" "a c";
+            grid-gap: 16px;
+            @include sm {
+                grid-template-areas: "l ." "a c";
+            }
+            @include md {
+                grid-gap: 16px;
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: "l . ." "a . c";
+            }
+
+            figure {
+                grid-area: l;
+
+                img {
+                    width: 144px;
+                    @include lg{
+                        width: 168px;
+
+                    }
+                }
+            }
+
+            ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                grid-area: a;
+                width: 160px;
+
+                @include sm {
+                    @include margin(null, 32px, null, null);
+                }
+                @include md {
+                    @include margin(null, 56px, null, null);
+                    width: 194px;
+                }
+                @include lg {
+                    @include margin(null, 120px, null, null);
+                }
+
+                li {
+                    a {
+                        color: $white;
+                        font-size: rem-calc(32);
+                        @include padding(8px,8px,8px,8px);
+                        @include md {
+                            font-size: rem-calc(40);
+                            @include padding(2px,2px,2px,2px);
+                        }
+
+                        i {}
+                    }
+
+                    a:link,
+                    a:visited {
+                        color: $white;
+                    }
+
+                    a:active,
+                    a:hover {
+                        color: $orange;
+                    }
+                }
+            }
+
+            p {
+                grid-area: c;
+                text-align: right;
+                font-size: rem-calc(16);
+            }
+        }
+    }
 }

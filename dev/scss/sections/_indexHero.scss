@@ -8,20 +8,25 @@
     background-repeat: no-repeat;
     background-size: cover;
 
-    height: 72vh;
+    height: 64vh;
     @supports (background-blend-mode: multiply){
         background-blend-mode: multiply;
         background-color: $purple;
         background-image: url("../img/index/HeroGrey.jpg");
-    }
-    @supports (background-attachment: fixed){
-    background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
     }
     @include md{
         background-position: center;
     }
     @include lg{
         height: 72vh;
+        @supports (background-attachment: fixed){
+        background-attachment: fixed;
+        }
+
     }
     div {
         align-items: flex-end;

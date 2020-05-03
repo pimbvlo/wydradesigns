@@ -33,18 +33,18 @@ ul {
 .section-padding {
     padding: 56px 0px;
     @include md {
-        padding: 56px 0px;
+        padding: 64px 0px;
     }
     @include lg {
-        padding: 56px 0px;
+        padding: 80px 0px;
     }
 }
 .section-margin {
     margin: 56px 0px;
     @include md {
-        margin: 56px 0px;
+        margin: 64px 0px;
     }
     @include lg {
-        margin: 56px 0px;
+        margin: 80px 0px;
     }
 }

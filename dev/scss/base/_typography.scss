@@ -8,7 +8,7 @@ h4,
 h5,
 h6,
 p {
-    line-height: rem-calc(0);
+    // line-height: rem-calc(0);
     margin: 0;
     padding: 0;
     text-align: left;
@@ -30,6 +30,7 @@ h2 {
     font-weight: 600;
     letter-spacing: rem-calc(0.1);
     line-height: rem-calc(38);
+
     @include lg {
         font-size: rem-calc(40);
         line-height: rem-calc(56);
@@ -81,4 +82,10 @@ p {
         color: $purple;
         font-weight: 600;
     }
+}
+
+a{
+    text-decoration: none;
+    color: $orange;
+    transition: 0.25s;
 }

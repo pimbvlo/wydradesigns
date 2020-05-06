@@ -1,0 +1,16 @@
+/* =============
+    SHM Hero
+============= */
+#shmHero {
+    background-image: url("../img/case-studies/shm/shmHero.jpg");
+    background-position: 80% center;
+    @include md{
+        background-position: 80% top;
+    }
+    @include lg{
+        background-position: right center;
+    }
+    > div {
+        article {}
+    }
+}

@@ -14,7 +14,10 @@
             h3 {
                 @include margin(16px,null,8px,null);
                 @include md {
-                    @include margin(24px,null,16px,null);
+                    @include margin(34px,null,8px,null);
+                }
+                @include lg {
+                    @include margin(32px,null,16px,null);
                 }
             }
 
@@ -29,36 +32,36 @@
                     grid-gap: 24px;
                     grid-template-columns: repeat(3,1fr);
                 }
-                @include lg {
-                    grid-gap: 28px;
-                }
 
                 li {
-                    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, .06), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 8px 10px 1px rgba(0, 0, 0, .04);
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
                     border-radius: 16px;
+                    box-shadow: 0 5px 3px -3px rgba(0, 0, 0, .06), 0 3px 14px 2px rgba(0, 0, 0, .12), 0 8px 10px 1px rgba(0, 0, 0, .04);
                     cursor: pointer;
-                    transition: 0.25s;
+                    transition: 0.2s ease-in-out;
+                    background-color: $purple;
 
                     a {
-                        color: $white;
                         align-items: center;
+                        color: $white;
                         display: flex;
+                        height: 176px;
                         justify-content: center;
+                        transition: 0.1s;
                         width: 100%;
-                        height: 200px;
                         @include md {
-                            height: 240px;
+                            // height: 196px;
                         }
                         @include lg {
-                            height: 280px;
+                            height: 200px;
+                            opacity: 0;
                         }
                         @include margin(auto,null,auto,null);
 
                         div {
-                            h3 {
+                            h4 {
                                 text-align: center;
                                 @include margin(null,12px,4px,12px);
                             }
@@ -88,30 +91,50 @@
             }
 
             li:nth-child(1) {
-                background-image: url("../img/index/projects/FenderCover.jpg");
-                grid-area: f;
+                background-image: url("../img/index/projects/purple/FenderCover.jpg");
                 background-position: bottom center;
+                grid-area: f;
+                @include lg{
+                    background-image: url("../img/index/projects/FenderCover.jpg");
+                }
+
             }
 
             li:nth-child(2) {
-                background-image: url("../img/index/projects/SHMCover.jpg");
+                background-image: url("../img/index/projects/purple/SHMCover.jpg");
                 grid-area: shm;
+                @include lg{
+                    background-image: url("../img/index/projects/SHMCover.jpg");
+                }
+
             }
 
             li:nth-child(3) {
-                background-image: url("../img/index/projects/AntiCover.jpg");
+                background-image: url("../img/index/projects/purple/AntiCover.jpg");
                 grid-area: a;
+                @include lg{
+                    background-image: url("../img/index/projects/AntiCover.jpg");
+                }
+
             }
 
             li:nth-child(4) {
-                background-image: url("../img/index/projects/TPSCover.jpg");
+                background-image: url("../img/index/projects/purple/TPSCover.jpg");
                 grid-area: tps;
+                @include lg{
+                    background-image: url("../img/index/projects/TPSCover.jpg");
+                }
+
             }
 
             li:nth-child(5) {
-                background-image: url("../img/index/projects/ICMCover.jpg");
-                grid-area: icm;
+                background-image: url("../img/index/projects/purple/ICMCover.jpg");
                 background-position: bottom right;
+                grid-area: icm;
+                @include lg{
+                    background-image: url("../img/index/projects/ICMCover.jpg");
+                }
+
             }
         }
 
@@ -125,13 +148,21 @@
             }
 
             li:nth-child(1) {
-                background-image: url("../img/index/projects/TCover.jpg");
+                background-image: url("../img/index/projects/purple/TCover.jpg");
                 grid-area: t;
+                @include lg{
+                    background-image: url("../img/index/projects/TCover.jpg");
+                }
+
             }
 
             li:nth-child(2) {
-                background-image: url("../img/index/projects/SoACover.jpg");
+                background-image: url("../img/index/projects/purple/SoACover.jpg");
                 grid-area: soa;
+                @include lg{
+                    background-image: url("../img/index/projects/SoACover.jpg");
+                }
+
             }
         }
 
@@ -145,18 +176,30 @@
             }
 
             li:nth-child(1) {
-                background-image: url("../img/index/projects/ToLCover.jpg");
+                background-image: url("../img/index/projects/purple/ToLCover.jpg");
                 grid-area: tol;
+                @include lg{
+                    background-image: url("../img/index/projects/ToLCover.jpg");
+                }
+
             }
 
             li:nth-child(2) {
-                background-image: url("../img/index/projects/UnCover.jpg");
+                background-image: url("../img/index/projects/purple/UnCover.jpg");
                 grid-area: ul;
+                @include lg{
+                    background-image: url("../img/index/projects/UnCover.jpg");
+                }
+
             }
 
             li:nth-child(3) {
-                background-image: url("../img/index/projects/ClCover.jpg");
+                background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
+                @include lg{
+                    background-image: url("../img/index/projects/ClCover.jpg");
+                }
+
             }
         }
 
@@ -170,18 +213,30 @@
             }
 
             li:nth-child(1) {
-                background-image: url("../img/index/projects/BKCover.jpg");
+                background-image: url("../img/index/projects/purple/BKCover.jpg");
                 grid-area: bk;
+                @include lg{
+                    background-image: url("../img/index/projects/BKCover.jpg");
+                }
+
             }
 
             li:nth-child(2) {
-                background-image: url("../img/index/projects/SACover.jpg");
+                background-image: url("../img/index/projects/purple/SACover.jpg");
                 grid-area: sa;
+                @include lg{
+                    background-image: url("../img/index/projects/SACover.jpg");
+                }
+
             }
 
             li:nth-child(3) {
-                background-image: url("../img/index/projects/ClCover.jpg");
+                background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
+                @include lg{
+                    background-image: url("../img/index/projects/ClCover.jpg");
+                }
+
             }
         }
 
@@ -195,26 +250,47 @@
             }
 
             li:nth-child(1) {
-                background-image: url("../img/index/projects/SBCover.jpg");
+                background-image: url("../img/index/projects/purple/SBCover.jpg");
                 grid-area: sb;
+                @include lg{
+                    background-image: url("../img/index/projects/SBCover.jpg");
+                }
             }
 
             li:nth-child(2) {
-                background-image: url("../img/index/projects/ONCover.jpg");
+                background-image: url("../img/index/projects/purple/ONCover.jpg");
                 grid-area: on;
+                @include lg{
+                    background-image: url("../img/index/projects/ONCover.jpg");
+                }
+
             }
 
             li:nth-child(3) {
-                background-image: url("../img/index/projects/QVCover.jpg");
-                grid-area: qv;
+                background-image: url("../img/index/projects/purple/QVCover.jpg");
                 background-position: top right;
+                grid-area: qv;
+                // filter:saturate(0.5);
+                @include lg{
+                    background-image: url("../img/index/projects/QVCover.jpg");
+                }
+
             }
         }
         @include lg {
             li:hover {
                 box-shadow: none;
                 transform: translate(0px, 4px) scale(0.98);
-                opacity: 0.9;
+                @supports(filter: saturate(0.75)) {
+                    filter: saturate(0.75);
+                }
+                @supports(background-blend-mode: multiply) {
+                    background-blend-mode: multiply;
+                }
+
+                a {
+                    opacity: 1;
+                }
             }
         }
     }

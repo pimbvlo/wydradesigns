@@ -1,0 +1,14 @@
+/* =============
+    SHM Text
+============= */
+#shmText1 {
+    background-color: $grey-dark;
+
+    > div {
+        article {
+            p {
+                color: $white;
+            }
+        }
+    }
+}

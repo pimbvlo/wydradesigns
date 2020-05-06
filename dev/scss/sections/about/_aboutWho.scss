@@ -1,0 +1,73 @@
+/* =============
+    About Who
+============= */
+#aboutWho {
+
+    > div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-areas: "t" "p" "i";
+            grid-template-columns: repeat(1,1fr);
+            @include sm{
+                max-width: 560px;
+                @include margin(null, auto, null, auto);
+            }
+            @include md {
+                grid-gap: 24px;
+                max-width: none;
+                @include margin(0, 0, 0, 0);
+
+                grid-template-areas: "t t" "p i";
+                grid-template-columns: 60% auto;
+            }
+            @include lg {
+                grid-gap: 24px;
+                grid-template-areas: "t t t" "p . i";
+                grid-template-columns: 50% auto 40%;
+            }
+
+            h2 {
+                grid-area: t;
+            }
+
+            div {
+                grid-area: p;
+
+                p:nth-child(2) {
+                    @include padding(16px,null,null,null);
+                }
+            }
+
+            figure {
+                background-image: url("../img/about/SWydra.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                border-radius: 16px;
+                grid-area: i;
+                height: 30vh;
+                width: 100%;
+                max-width: 360px;
+                transition: background 0.25s ease-in-out;
+                @include margin(null, auto, null, auto);
+                @include sm{
+                    height: 40vh;
+                    max-width: 400px;
+
+                }
+                @include md{
+                    width: 100%;
+                    max-width: none;
+                    @include margin(0, 0, 0, 0);
+                }
+
+            }
+            @include lg{
+                figure:hover{
+                background-image: url("../img/about/SWydra_Personality.jpg");
+            }
+}
+        }
+    }
+}

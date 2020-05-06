@@ -21,6 +21,13 @@
 
 // Sections Styles
 // INDEX
-@import "sections/_indexHero";
-@import "sections/_indexIntro";
-@import "sections/_indexProjectList";
+@import "sections/index/_indexHero";
+@import "sections/index/_indexIntro";
+@import "sections/index/_indexProjectList";
+// ABOUT
+@import "sections/about/_aboutWho";
+// CASE STUDIES
+// SHM
+@import "sections/case-studies/_shmHero";
+@import "sections/case-studies/_shmIntro";
+@import "sections/case-studies/_shmText1";

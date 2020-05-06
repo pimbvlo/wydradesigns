@@ -1,0 +1,31 @@
+/* =============
+    SHM Intro
+============= */
+#shmIntro {
+    > div {
+        article {
+            p{
+                @include margin(null,null,40px,null);
+                @include lg{
+                    @include margin(null,null,56px,null);
+
+                }
+            }
+            ul{
+
+                li{
+
+                }
+                li:nth-child(1){
+                    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
+                    background-position: center 20%;
+
+                }
+                li:nth-child(2){
+                    background-image: url("../img/case-studies/shm/shmExperiments.jpg");
+
+                }
+            }
+        }
+    }
+}

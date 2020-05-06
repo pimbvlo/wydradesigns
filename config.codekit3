@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "32137",
 "files": {
+	"/deploy/about.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -18,6 +26,61 @@
 		"oAP": "/deploy/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/deploy/img/about/SWydra.jpg": {
+		"ft": 16384,
+		"iS": 421978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/SWydra.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/about/SWydra_Personality.jpg": {
+		"ft": 16384,
+		"iS": 440920,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/SWydra_Personality.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmExperiments.jpg": {
+		"ft": 16384,
+		"iS": 557407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmExperiments.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmHero.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmInfluence.jpg": {
+		"ft": 16384,
+		"iS": 363208,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmInfluence.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/deploy/img/global/favicon/Favicon.png": {
 		"ft": 32768,
@@ -158,6 +221,171 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/index/projects/purple/AntiCover.jpg": {
+		"ft": 16384,
+		"iS": 594768,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/AntiCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/BKCover.jpg": {
+		"ft": 16384,
+		"iS": 781361,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/BKCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/ClCover.jpg": {
+		"ft": 16384,
+		"iS": 166063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/ClCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/FenderCover.jpg": {
+		"ft": 16384,
+		"iS": 392197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/FenderCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/ICMCover.jpg": {
+		"ft": 16384,
+		"iS": 342488,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/ICMCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/ONCover.jpg": {
+		"ft": 16384,
+		"iS": 114746,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/ONCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/QVCover.jpg": {
+		"ft": 16384,
+		"iS": 302789,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/QVCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/SACover.jpg": {
+		"ft": 16384,
+		"iS": 414006,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/SACover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/SBCover.jpg": {
+		"ft": 16384,
+		"iS": 339315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/SBCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/SHMCover.jpg": {
+		"ft": 16384,
+		"iS": 834889,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/SHMCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/SoACover.jpg": {
+		"ft": 16384,
+		"iS": 295860,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/SoACover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/TCover.jpg": {
+		"ft": 16384,
+		"iS": 148636,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/TCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/ToLCover.jpg": {
+		"ft": 16384,
+		"iS": 99057,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/ToLCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/TPSCover.jpg": {
+		"ft": 16384,
+		"iS": 1055538,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/TPSCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/UnCover.jpg": {
+		"ft": 16384,
+		"iS": 378463,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/UnCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/deploy/img/index/projects/QVCover.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -276,12 +504,60 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"/dev/footer.kit": {
+	"/deploy/ScienceHistoryMuseum.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ScienceHistoryMuseum.html",
+		"oF": 0
+		},
+	"/dev/about.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/about.html",
+		"oF": 2
+		},
+	"/dev/about/aboutwho.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/footer.html",
+		"oAP": "/dev/about/aboutwho.html",
+		"oF": 0
+		},
+	"/dev/case-studies/shmHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shmHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/shmIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shmIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/shmText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shmText1.html",
+		"oF": 0
+		},
+	"/dev/global/footer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
 	"/dev/index.kit": {
@@ -292,28 +568,28 @@
 		"oAP": "/deploy/index.html",
 		"oF": 2
 		},
-	"/dev/indexHero.kit": {
+	"/dev/index/indexHero.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/indexHero.html",
+		"oAP": "/dev/index/indexHero.html",
 		"oF": 0
 		},
-	"/dev/indexIntro.kit": {
+	"/dev/index/indexIntro.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/indexIntro.html",
+		"oAP": "/dev/index/indexIntro.html",
 		"oF": 0
 		},
-	"/dev/indexProjectsList.kit": {
+	"/dev/index/indexProjectsList.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/indexProjectsList.html",
+		"oAP": "/dev/index/indexProjectsList.html",
 		"oF": 0
 		},
 	"/dev/js/scripts.js": {
@@ -326,6 +602,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/ScienceHistoryMuseum.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ScienceHistoryMuseum.html",
+		"oF": 2
 		},
 	"/dev/scss/base/_base.scss": {
 		"aP": 0,
@@ -470,7 +754,7 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/_indexHero.scss": {
+	"/dev/scss/sections/about/_aboutWho.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -478,12 +762,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_indexHero.css",
+		"oAP": "/dev/scss/sections/about/_aboutWho.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/_indexIntro.scss": {
+	"/dev/scss/sections/case-studies/_shmHero.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -491,12 +775,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_indexIntro.css",
+		"oAP": "/dev/scss/sections/case-studies/_shmHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/_indexProjectList.scss": {
+	"/dev/scss/sections/case-studies/_shmIntro.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -504,7 +788,59 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "/dev/scss/sections/_indexProjectList.css",
+		"oAP": "/dev/scss/sections/case-studies/_shmIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_shmText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_shmText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/index/_indexHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/index/_indexIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/index/_indexProjectList.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/index/_indexProjectList.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

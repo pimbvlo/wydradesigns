@@ -46,6 +46,15 @@ h3 {
     }
 }
 
+h4{
+    font-size: rem-calc(20);
+    font-weight: 500;
+    letter-spacing: rem-calc(0.04);
+    @include lg {
+        font-size: rem-calc(28);
+    }
+}
+
 h6 {
     color: $purple;
     font-family: 'Montserrat', sans-serif;

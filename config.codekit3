@@ -7,7 +7,7 @@
 		"uuidString": "9501D335-8457-4496-8509-AFB139CFE2D8"
 		}
 	],
-"creatorBuild": "32137",
+"creatorBuild": "32147",
 "files": {
 	"/deploy/about.html": {
 		"cB": 0,
@@ -49,6 +49,28 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/shm/shmBusKing.jpg": {
+		"ft": 16384,
+		"iS": 877643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBusKing.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBusTail.jpg": {
+		"ft": 16384,
+		"iS": 722690,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBusTail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/shm/shmExperiments.jpg": {
 		"ft": 16384,
 		"iS": 557407,
@@ -80,6 +102,39 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmLetterhead.jpg": {
+		"ft": 16384,
+		"iS": 1861461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmLetterhead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmPosters.jpg": {
+		"ft": 16384,
+		"iS": 1380662,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmPosters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmSubway.jpg": {
+		"ft": 16384,
+		"iS": 2085696,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmSubway.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/img/global/favicon/Favicon.png": {
@@ -528,28 +583,36 @@
 		"oAP": "/dev/about/aboutwho.html",
 		"oF": 0
 		},
-	"/dev/case-studies/shmHero.kit": {
+	"/dev/case-studies/shm/shmGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/case-studies/shmHero.html",
+		"oAP": "/dev/case-studies/shm/shmGallery.html",
 		"oF": 0
 		},
-	"/dev/case-studies/shmIntro.kit": {
+	"/dev/case-studies/shm/shmHero.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/case-studies/shmIntro.html",
+		"oAP": "/dev/case-studies/shm/shmHero.html",
 		"oF": 0
 		},
-	"/dev/case-studies/shmText1.kit": {
+	"/dev/case-studies/shm/shmIntro.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
-		"oAP": "/dev/case-studies/shmText1.html",
+		"oAP": "/dev/case-studies/shm/shmIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/shm/shmText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shm/shmText1.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {
@@ -763,6 +826,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/about/_aboutWho.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_shmGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_shmGallery.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

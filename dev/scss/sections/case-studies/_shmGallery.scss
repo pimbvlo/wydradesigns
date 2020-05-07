@@ -1,0 +1,73 @@
+/* =============
+    SHM Gallery
+============= */
+#shmGallery {
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas: "BT" "S" "BK" "P" "L";
+                grid-template-rows: 304px 240px 200px 200px 368px;
+                @include sm {
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "BT BT BT" "S BK L" "P P L";
+                    grid-template-rows: 304px 240px 304px;
+                }
+                @include lg {
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-areas: "BT BT BT BT L L L" "S S S S L L L" "P P P P P BK BK";
+                    grid-template-rows: 304px 304px 304px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/shm/shmBusTail.jpg");
+                    grid-area: BT;
+                    background-position: right center;
+                    @include sm{
+                        background-position: right 10%;
+                        background-size: auto 200%;
+
+                    }
+                    @include lg{
+                        background-size: cover;
+
+                    }
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/shm/shmSubway.jpg");
+                    grid-area: S;
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/shm/shmBusKing.jpg");
+                    grid-area: BK;
+                    background-position: 40% center;
+                    background-size: auto 150%;
+                    @include sm {
+                        background-size: auto 150%;
+                    }
+                    @include lg{
+                        background-size: cover;
+
+                    }
+
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/shm/shmPosters.jpg");
+                    grid-area: P;
+                    background-position: center top;
+                }
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/shm/shmLetterhead.jpg");
+                    grid-area: L;
+                    // background-position: center top;
+                }
+            }
+
+            div {}
+        }
+    }
+}

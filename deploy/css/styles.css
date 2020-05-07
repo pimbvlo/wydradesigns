@@ -374,9 +374,14 @@ ul {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.04);
   display: flex;
   height: 72vh; }
+  @media (min-width: 992px) {
+    .case-study-hero {
+      height: 80vh; }
+      @supports (background-attachment: fixed) {
+        .case-study-hero {
+          background-attachment: fixed; } } }
   .case-study-hero > div {
     align-items: flex-end;
     display: flex;
@@ -397,14 +402,14 @@ ul {
 /*
 * Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
 */
-.futureGradient {
-  background-image: linear-gradient(rgba(0, 0, 0, 0), cubic-bezier(0.39, 0.57, 0.56, 1), rgba(0, 0, 0, 0.6)); }
+.cs-hero-Gradient-future {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), cubic-bezier(0.39, 0.57, 0.56, 1), rgba(0, 0, 0, 0.6)); }
 
 /*
 * Fallback CSS
 */
-.forNowGradient {
-  background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.163194) 17.89%, rgba(0, 0, 0, 0.307556) 33.48%, rgba(0, 0, 0, 0.42825) 48.13%, rgba(0, 0, 0, 0.520444) 63.19%, rgba(0, 0, 0, 0.579306) 80.02%, rgba(0, 0, 0, 0.6) 100%); }
+.cs-hero-Gradient {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.163194) 17.89%, rgba(0, 0, 0, 0.307556) 33.48%, rgba(0, 0, 0, 0.42825) 48.13%, rgba(0, 0, 0, 0.520444) 63.19%, rgba(0, 0, 0, 0.579306) 80.02%, rgba(0, 0, 0, 0.6) 100%); }
 
 .case-study-intro-image > div article {
   grid-gap: 16px;
@@ -417,6 +422,9 @@ ul {
   .case-study-intro-image > div article p {
     grid-area: "p"; }
     @media (min-width: 456px) {
+      .case-study-intro-image > div article p {
+        width: 72%; } }
+    @media (min-width: 768px) {
       .case-study-intro-image > div article p {
         width: 50%; } }
   .case-study-intro-image > div article ul {
@@ -442,7 +450,7 @@ ul {
           height: 304px; } }
       @media (min-width: 992px) {
         .case-study-intro-image > div article ul li {
-          height: 504px; } }
+          height: 400px; } }
 .case-study-text > div article {
   grid-gap: 16px;
   display: grid;
@@ -454,6 +462,9 @@ ul {
   .case-study-text > div article p {
     grid-area: "p"; }
     @media (min-width: 456px) {
+      .case-study-text > div article p {
+        width: 72%; } }
+    @media (min-width: 768px) {
       .case-study-text > div article p {
         width: 50%; } }
   .case-study-text > div article ul {
@@ -480,6 +491,49 @@ ul {
       @media (min-width: 992px) {
         .case-study-text > div article ul li {
           height: 504px; } }
+.case-study-gallery > div article {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "h" "g" "b"; }
+  @media (min-width: 456px) {
+    .case-study-gallery > div article {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-areas: "h h" "g g" "b ."; } }
+  @media (min-width: 768px) {
+    .case-study-gallery > div article {
+      grid-gap: 24px;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "h . ." "g g g" "b b ."; } }
+  @media (min-width: 992px) {
+    .case-study-gallery > div article {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "h h . . ." "g g g g g" "b b . . ."; } }
+  .case-study-gallery > div article h2 {
+    grid-area: h; }
+  .case-study-gallery > div article ul {
+    grid-area: g;
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+    @media (min-width: 456px) {
+      .case-study-gallery > div article ul {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 768px) {
+      .case-study-gallery > div article ul {
+        grid-gap: 24px; } }
+    .case-study-gallery > div article ul li {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%; }
+  .case-study-gallery > div article div {
+    grid-area: b;
+    width: 100%; }
+    .case-study-gallery > div article div a {
+      width: 100%; }
+
 /* =============
     Typography
 ============= */
@@ -565,6 +619,60 @@ a {
 /* =============
     Buttons
 ============= */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  width: 100%;
+  box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.04);
+  transition: 0.2s ease-in-out; }
+  .btn > a {
+    padding-bottom: 16px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #FCFCFC;
+    width: 100%;
+    text-transform: uppercase; }
+    .btn > a i {
+      font-size: 1.5rem; }
+
+.btn:hover {
+  box-shadow: none;
+  transform: translate(0px, 4px) scale(0.98);
+  transition: 0.2s ease-in-out; }
+  .btn:hover > a {
+    color: #131618; }
+
+.btn-icon i {
+  margin-right: 8px; }
+
+/*
+* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 5)
+*/
+.btn-purple-future {
+  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #6613ce);
+  transition: background 0.2s ease; }
+
+.btn-purple-future:hover {
+  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #ff964c); }
+
+/*
+* Fallback CSS
+*/
+.btn-purple {
+  background-image: linear-gradient(150deg, #b813b9 0%, #ad13bd 28.28%, #9513c4 50%, #7813cb 71.72%, #6613ce 100%);
+  transition: background 0.2s ease; }
+
+.btn-purple:hover {
+  background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
+
 /* =============
     Forms
 ============= */
@@ -1064,7 +1172,7 @@ footer {
       background-position: 80% top; } }
   @media (min-width: 992px) {
     #shmHero {
-      background-position: right center; } }
+      background-position: right 56%; } }
 /* =============
     SHM Intro
 ============= */
@@ -1087,3 +1195,52 @@ footer {
   background-color: #19191A; }
   #shmText1 > div article p {
     color: #FCFCFC; }
+
+/* =============
+    SHM Gallery
+============= */
+#shmGallery > div article ul {
+  grid-template-areas: "BT" "S" "BK" "P" "L";
+  grid-template-rows: 304px 240px 200px 200px 368px; }
+  @media (min-width: 456px) {
+    #shmGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "BT BT BT" "S BK L" "P P L";
+      grid-template-rows: 304px 240px 304px; } }
+  @media (min-width: 992px) {
+    #shmGallery > div article ul {
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "BT BT BT BT L L L" "S S S S L L L" "P P P P P BK BK";
+      grid-template-rows: 304px 304px 304px; } }
+  #shmGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/shm/shmBusTail.jpg");
+    grid-area: BT;
+    background-position: right center; }
+    @media (min-width: 456px) {
+      #shmGallery > div article ul li:nth-child(1) {
+        background-position: right 10%;
+        background-size: auto 200%; } }
+    @media (min-width: 992px) {
+      #shmGallery > div article ul li:nth-child(1) {
+        background-size: cover; } }
+  #shmGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/shm/shmSubway.jpg");
+    grid-area: S; }
+  #shmGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/shm/shmBusKing.jpg");
+    grid-area: BK;
+    background-position: 40% center;
+    background-size: auto 150%; }
+    @media (min-width: 456px) {
+      #shmGallery > div article ul li:nth-child(3) {
+        background-size: auto 150%; } }
+    @media (min-width: 992px) {
+      #shmGallery > div article ul li:nth-child(3) {
+        background-size: cover; } }
+  #shmGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/shm/shmPosters.jpg");
+    grid-area: P;
+    background-position: center top; }
+  #shmGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/shm/shmLetterhead.jpg");
+    grid-area: L; }

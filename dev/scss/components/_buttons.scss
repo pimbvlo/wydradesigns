@@ -13,7 +13,7 @@
 
 
     > a {
-        @include padding(16px, 24px, 16px, 24px);
+        @include padding(12px, 24px, 12px, 24px);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -22,7 +22,10 @@
         color: $white;
         width: 100%;
         text-transform: uppercase;
-        
+        @include md{
+            @include padding(16px, 24px, 16px, 24px);
+
+        }
         i {
             font-size: rem-calc(24);
         }

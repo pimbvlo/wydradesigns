@@ -467,30 +467,6 @@ ul {
     @media (min-width: 768px) {
       .case-study-text > div article p {
         width: 50%; } }
-  .case-study-text > div article ul {
-    grid-area: "i";
-    grid-gap: 16px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%; }
-    @media (min-width: 456px) {
-      .case-study-text > div article ul {
-        grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 768px) {
-      .case-study-text > div article ul {
-        grid-gap: 24px; } }
-    .case-study-text > div article ul li {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 240px;
-      width: 100%; }
-      @media (min-width: 768px) {
-        .case-study-text > div article ul li {
-          height: 304px; } }
-      @media (min-width: 992px) {
-        .case-study-text > div article ul li {
-          height: 504px; } }
 .case-study-gallery > div article {
   grid-gap: 16px;
   display: grid;
@@ -602,11 +578,11 @@ h6 {
 p {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 1.5rem; }
+  line-height: 1.75rem; }
   @media (min-width: 992px) {
     p {
       font-size: 1.125rem;
-      line-height: 1.625rem; } }
+      line-height: 1.875rem; } }
   p span {
     color: #6613CE;
     font-weight: 600; }
@@ -628,10 +604,10 @@ a {
   box-shadow: 0 5px 3px -3px rgba(0, 0, 0, 0.06), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 8px 10px 1px rgba(0, 0, 0, 0.04);
   transition: 0.2s ease-in-out; }
   .btn > a {
-    padding-bottom: 16px;
+    padding-bottom: 12px;
     padding-left: 24px;
     padding-right: 24px;
-    padding-top: 16px;
+    padding-top: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -640,6 +616,12 @@ a {
     color: #FCFCFC;
     width: 100%;
     text-transform: uppercase; }
+    @media (min-width: 768px) {
+      .btn > a {
+        padding-bottom: 16px;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 16px; } }
     .btn > a i {
       font-size: 1.5rem; }
 
@@ -1244,3 +1226,85 @@ footer {
   #shmGallery > div article ul li:nth-child(5) {
     background-image: url("../img/case-studies/shm/shmLetterhead.jpg");
     grid-area: L; }
+
+/* =============
+    SA Hero
+============= */
+#saHero {
+  background-image: url("../img/case-studies/sa/saHero.jpg"); }
+  @media (min-width: 992px) {
+    #saHero {
+      background-position: center 80%; } }
+/* =============
+    SA Intro
+============= */
+/* =============
+    SA Text
+============= */
+#saText1 {
+  background-color: #19191A;
+  margin-top: 104px;
+  padding-top: 96px; }
+  #saText1 > div article {
+    grid-template-areas: "i" "p"; }
+    #saText1 > div article p {
+      color: #FCFCFC; }
+    #saText1 > div article div {
+      grid-area: i;
+      position: relative; }
+      #saText1 > div article div figure {
+        background-image: url("../img/case-studies/sa/saCover2.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 304px;
+        overflow-x: scroll;
+        position: absolute;
+        right: 0;
+        top: -168px;
+        width: 288px; }
+        @media (min-width: 456px) {
+          #saText1 > div article div figure {
+            height: 304px;
+            width: 320px; } }
+        @media (min-width: 768px) {
+          #saText1 > div article div figure {
+            height: 335px;
+            left: 400;
+            width: 504px; } }
+/* =============
+    SA Gallery
+============= */
+#saGallery > div article ul {
+  grid-template-areas: "C1" "ToC" "MS" "ISb1" "IS2";
+  grid-template-rows: 240px 224px 200px 200px 224px; }
+  @media (min-width: 456px) {
+    #saGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "C1 ToC ToC" "MS MS MS" "ISb1 ISb1 IS2";
+      grid-template-rows: 224px 400px 224px; } }
+  @media (min-width: 992px) {
+    #saGallery > div article ul {
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 . . . ." ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
+      grid-template-rows: 320px 192px 440px 304px; } }
+  #saGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/sa/saCover1.jpg");
+    grid-area: C1;
+    background-position: center 56%; }
+  #saGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/sa/saToC.jpg");
+    grid-area: ToC;
+    background-position: 32% center; }
+  #saGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/sa/saMainSpread.jpg");
+    grid-area: MS;
+    background-position: 32% center; }
+  #saGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/sa/saInsideSpread1b.jpg");
+    grid-area: ISb1;
+    background-position: 88% center; }
+  #saGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
+    grid-area: IS2;
+    background-position: 64% center; }

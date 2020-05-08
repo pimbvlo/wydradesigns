@@ -177,33 +177,6 @@ ul {
                 }
             }
 
-            ul {
-                grid-area: "i";
-                grid-gap: 16px;
-                display: grid;
-                grid-template-columns: repeat(1,1fr);
-                width: 100%;
-                @include sm {
-                    grid-template-columns: repeat(2,1fr);
-                }
-                @include md {
-                    grid-gap: 24px;
-                }
-
-                li {
-                    background-position: center;
-                    background-repeat: no-repeat;
-                    background-size: cover;
-                    height: 240px;
-                    width: 100%;
-                    @include md {
-                        height: 304px;
-                    }
-                    @include lg {
-                        height: 504px;
-                    }
-                }
-            }
         }
     }
 }

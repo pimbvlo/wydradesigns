@@ -49,6 +49,102 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/sa/saCover1.jpg": {
+		"ft": 16384,
+		"iS": 686263,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saCover1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saCover2.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saCover2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saCover2_tmp652862397": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saCover2_tmp652862397",
+		"oF": 0
+		},
+	"/deploy/img/case-studies/sa/saHero.jpg": {
+		"ft": 16384,
+		"iS": 1861376,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saInsideSpread1.jpg": {
+		"ft": 16384,
+		"iS": 614109,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saInsideSpread1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saInsideSpread1b.jpg": {
+		"ft": 16384,
+		"iS": 604281,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saInsideSpread1b.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saInsideSpread2.jpg": {
+		"ft": 16384,
+		"iS": 603420,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saInsideSpread2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saMainSpread.jpg": {
+		"ft": 16384,
+		"iS": 916123,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saMainSpread.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sa/saToC.jpg": {
+		"ft": 16384,
+		"iS": 524549,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sa/saToC.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/shm/shmBusKing.jpg": {
 		"ft": 16384,
 		"iS": 877643,
@@ -559,6 +655,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/Salt&Age.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Salt&Age.html",
+		"oF": 0
+		},
 	"/deploy/ScienceHistoryMuseum.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -581,6 +685,38 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/about/aboutwho.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sa/saGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sa/saGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sa/saHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sa/saHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sa/saIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sa/saIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sa/saText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sa/saText1.html",
 		"oF": 0
 		},
 	"/dev/case-studies/shm/shmGallery.kit": {
@@ -665,6 +801,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/Salt&Age.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Salt&Age.html",
+		"oF": 2
 		},
 	"/dev/ScienceHistoryMuseum.kit": {
 		"cB": 0,
@@ -826,6 +970,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/about/_aboutWho.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_saGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_saGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_saHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_saHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_saIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_saIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_saText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_saText1.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

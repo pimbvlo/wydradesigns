@@ -1,0 +1,45 @@
+/* =============
+    SA Text
+============= */
+#saText1 {
+    background-color: $grey-dark;
+    @include margin(104px,null,null,null);
+    @include padding(96px,null,null,null);
+
+    > div {
+        article {
+            grid-template-areas: "i" "p";
+
+            p {
+                color: $white;
+            }
+
+            div {
+                grid-area: i;
+                position: relative;
+
+                figure {
+                    background-image: url("../img/case-studies/sa/saCover2.png");
+                    background-position: left top;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    height: 304px;
+                    overflow-x: scroll;
+                    position: absolute;
+                    right: 0;
+                    top: -168px;
+                    width: 288px;
+                    @include sm {
+                        height: 304px;
+                        width: 320px;
+                    }
+                    @include md {
+                        height: 335px;
+                        left: 400;
+                        width: 504px;
+                    }
+                }
+            }
+        }
+    }
+}

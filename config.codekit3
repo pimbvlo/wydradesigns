@@ -27,6 +27,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/img/about/Hero.jpg": {
+		"ft": 16384,
+		"iS": 1489233,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/Hero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/about/HeroGrey.jpg": {
+		"ft": 16384,
+		"iS": 1185978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/about/HeroGrey.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/about/SWydra.jpg": {
 		"ft": 16384,
 		"iS": 421978,
@@ -70,14 +92,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"/deploy/img/case-studies/sa/saCover2_tmp652862397": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/img/case-studies/sa/saCover2_tmp652862397",
-		"oF": 0
 		},
 	"/deploy/img/case-studies/sa/saHero.jpg": {
 		"ft": 16384,
@@ -679,6 +693,14 @@
 		"oAP": "/deploy/about.html",
 		"oF": 2
 		},
+	"/dev/about/aboutHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/about/aboutHero.html",
+		"oF": 0
+		},
 	"/dev/about/aboutwho.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -759,6 +781,30 @@
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
+	"/dev/global/header.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/header.html",
+		"oF": 0
+		},
+	"/dev/global/nav-background.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/nav-background.html",
+		"oF": 0
+		},
+	"/dev/global/navigation.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/navigation.html",
+		"oF": 0
+		},
 	"/dev/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -790,6 +836,61 @@
 		"oA": 1,
 		"oAP": "/dev/index/indexProjectsList.html",
 		"oF": 0
+		},
+	"/dev/js/burger/burger-click.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burger/burger-click-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/burger/burger-mouseenter.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burger/burger-mouseenter-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/burger/burger-mouseleave.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burger/burger-mouseleave-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/burger/burger.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/burger/burger-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/navigation.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/navigation-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/dev/js/scripts.js": {
 		"bF": 0,
@@ -957,6 +1058,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/layout/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/about/_aboutHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/about/_aboutHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -2642,7 +2756,7 @@
 	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
-	"jsCheckerReservedNamesString": "",
+	"jsCheckerReservedNamesString": "gsap, ",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

@@ -2,4 +2,30 @@
     Nav Background
 ============= */
 #nav-bg {
+    background-color: $grey-pink;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 900;
+    @include dark {
+        background-color: $black;
+    }
+
+    @include lg{
+        display: none;
+    }
+    svg {
+        background-color: $blank;
+
+        circle {
+            fill: $grey-pink;
+            @include dark {
+                fill: $black;
+            }
+
+        }
+    }
 }

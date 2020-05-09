@@ -2,4 +2,150 @@
     Header
 ============= */
 header {
+    box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
+    position: fixed;
+    height: 64px;
+    width: 100%;
+    background-color: $white;
+    z-index: 1000;
+    @include dark {
+        background-color: $dark-purple;
+    }
+    @include lg{
+        height: 72px;
+    }
+
+    > div {
+        grid-area: header;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @include lg{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-areas: "h";
+        }
+
+        aside {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @include lg{
+                display: grid;
+                grid-template-columns: 25% auto 32%;
+                grid-template-areas: "l . n";
+                grid-area: h;
+            }
+            a {
+                line-height: rem-calc(0);
+                @include lg{
+                    grid-area: l;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    @include padding(16px,0px,16px,0px);
+                    @include lg {
+                        width: 80%;
+                        height: 80%;
+
+                    }
+                }
+
+                img:nth-child(1) {
+                    @include dark {
+                        display: none;
+                    }
+                }
+
+                img:nth-child(2) {
+                    display: none;
+                    @include dark {
+                        display: initial;
+                    }
+                }
+            }
+
+            // .cls-1 {
+            //     fill: $purple;
+            //     @include dark {
+            //         fill: $white;
+            //     }
+            // }
+            #lg-nav{
+                display: none;
+                @include lg{
+                    display: initial;
+                    grid-area: n;
+
+                }
+                ul{
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    li{
+                        a{
+                            transition: all 0.10s;
+                            font-size: rem-calc(18);
+                            span{
+                                border-bottom: 4px solid $dark-purple;
+                                font-weight: 600;
+                                color: $dark-purple;
+                                @include dark {
+                                    color: $white;
+                                    border-bottom: 4px solid $white;
+
+                                }
+
+                            }
+                        }
+                        a:link, a:visited{
+                            color: $purple;
+                            @include dark {
+                                color: $white;
+                            }
+
+
+                        }
+                        a:hover, a:active{
+                            // font-weight: 500;
+                            border-bottom: 3px solid $purple;
+                            @include dark {
+                                border-bottom: 3px solid $white;
+                            }
+
+
+
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    #burger-container {
+        @include lg{
+            display: none;
+        }
+        svg {
+            height: 40px;
+            cursor: pointer;
+
+            #burger-outline {
+                stroke: $purple;
+                @include dark {
+                    stroke: $white;
+                }
+            }
+
+            .burger-lines {
+                stroke: $purple;
+                @include dark {
+                    stroke: $white;
+                }
+            }
+        }
+    }
 }

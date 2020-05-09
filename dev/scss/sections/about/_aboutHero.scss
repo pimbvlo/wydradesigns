@@ -1,0 +1,24 @@
+/* =============
+    About Hero
+============= */
+#aboutHero {
+    background-image: url("../img/about/Hero.jpg");
+    background-position: center top;
+    height: 72vh;
+    @supports (background-blend-mode: multiply) {
+        background-blend-mode: multiply;
+        background-color: $orange;
+        background-image: url("../img/about/HeroGrey.jpg");
+    }
+    @include lg {
+        @supports (background-attachment: fixed) {
+            background-attachment: fixed;
+        }
+    }
+
+    > div {
+        article {
+            h1 {}
+        }
+    }
+}

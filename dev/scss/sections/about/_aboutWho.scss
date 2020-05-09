@@ -2,12 +2,12 @@
     About Who
 ============= */
 #aboutWho {
-
+    // @include margin(112px,null,null,null);
     > div {
         article {
             grid-gap: 16px;
             display: grid;
-            grid-template-areas: "t" "p" "i";
+            grid-template-areas:"p" "i";
             grid-template-columns: repeat(1,1fr);
             @include sm{
                 max-width: 560px;
@@ -18,18 +18,18 @@
                 max-width: none;
                 @include margin(0, 0, 0, 0);
 
-                grid-template-areas: "t t" "p i";
+                grid-template-areas:"p i";
                 grid-template-columns: 60% auto;
             }
             @include lg {
                 grid-gap: 24px;
-                grid-template-areas: "t t t" "p . i";
+                grid-template-areas: "p . i";
                 grid-template-columns: 50% auto 40%;
             }
 
-            h2 {
-                grid-area: t;
-            }
+            // h2 {
+            //     grid-area: t;
+            // }
 
             div {
                 grid-area: p;

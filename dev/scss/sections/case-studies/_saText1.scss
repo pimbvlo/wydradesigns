@@ -9,7 +9,10 @@
     > div {
         article {
             grid-template-areas: "i" "p";
+            @include sm{
+                grid-template-areas: "p i";
 
+            }
             p {
                 color: $white;
             }
@@ -34,9 +37,19 @@
                         width: 320px;
                     }
                     @include md {
-                        height: 335px;
+                        height: 336px;
                         left: 400;
                         width: 504px;
+                    }
+                    @include lg {
+                        height: 504px;
+                        left: 504;
+                        width: 520px;
+                    }
+                    @include xl {
+                        height: 520px;
+                        left: 504;
+                        width: 640px;
                     }
                 }
             }

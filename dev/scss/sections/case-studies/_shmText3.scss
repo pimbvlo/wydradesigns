@@ -1,0 +1,31 @@
+/* =============
+    SHM Text
+============= */
+#shmText3 {
+    background-color: $grey-dark;
+
+    > div {
+        article {
+            grid-template-areas: "p" "l";
+
+            @include sm{
+                grid-template-areas: "p l";
+
+
+            }
+
+            p {
+                color: $white;
+            }
+            figure{
+                grid-area: l;
+
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-image: url("../img/case-studies/shm/shmLogo.svg");
+                height: 104px;
+            }
+        }
+    }
+}

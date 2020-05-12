@@ -28,6 +28,10 @@ ul {
     @include lg {
         grid-template-columns: auto 904px auto;
     }
+    @include xl {
+        grid-template-columns: auto 1104px auto;
+    }
+
 
     > div {
         grid-area: content;
@@ -167,18 +171,24 @@ ul {
             display: grid;
             grid-template-columns: repeat(1,1fr);
             grid-template-areas: "p";
-            @include md {
-                grid-gap: 24px;
+            @include sm{
+                grid-template-columns: 72% auto;
+                grid-template-areas: "p .";
             }
+            @include md{
+                grid-template-columns: 50% auto;
+                grid-gap: 24px;
 
+
+            }
             p {
                 grid-area: "p";
-                @include sm {
-                    width: 72%;
-                }
-                @include md {
-                    width: 50%;
-                }
+                // @include sm {
+                //     width: 72%;
+                // }
+                // @include md {
+                //     width: 50%;
+                // }
             }
 
         }

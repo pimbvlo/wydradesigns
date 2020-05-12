@@ -50,6 +50,11 @@ header {
                         height: 80%;
 
                     }
+                    @include xl {
+                        width: 64%;
+                        height: 64%;
+
+                    }
                 }
 
                 img:nth-child(1) {

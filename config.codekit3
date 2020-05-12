@@ -137,6 +137,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/qv/qvBrochureInspiration1.jpg": {
+		"ft": 16384,
+		"iS": 649934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureInspiration1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureInspiration2.jpg": {
+		"ft": 16384,
+		"iS": 803976,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureInspiration2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureInspiration3.jpg": {
+		"ft": 16384,
+		"iS": 849923,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureInspiration3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/qv/qvBrochureOutside1.jpg": {
 		"ft": 16384,
 		"iS": 529430,
@@ -422,6 +455,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmLogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/shm/shmLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
 		},
 	"/deploy/img/case-studies/shm/shmPosters.jpg": {
 		"ft": 16384,
@@ -1022,6 +1065,22 @@
 		"oAP": "/dev/case-studies/shm/shmText1.html",
 		"oF": 0
 		},
+	"/dev/case-studies/shm/shmText2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shm/shmText2.html",
+		"oF": 0
+		},
+	"/dev/case-studies/shm/shmText3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/shm/shmText3.html",
+		"oF": 0
+		},
 	"/dev/global/footer.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1497,6 +1556,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_shmText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_shmText2.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_shmText2.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_shmText3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_shmText3.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

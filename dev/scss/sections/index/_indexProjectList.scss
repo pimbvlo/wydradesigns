@@ -58,6 +58,9 @@
                             height: 200px;
                             opacity: 0;
                         }
+                        @include xl {
+                            height: 240px;
+                        }
                         @include margin(auto,null,auto,null);
 
                         div {

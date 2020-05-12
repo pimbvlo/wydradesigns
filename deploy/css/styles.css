@@ -350,6 +350,9 @@ ul {
   @media (min-width: 992px) {
     .section-content {
       grid-template-columns: auto 904px auto; } }
+  @media (min-width: 1200px) {
+    .section-content {
+      grid-template-columns: auto 1104px auto; } }
   .section-content > div {
     grid-area: content; }
 
@@ -459,17 +462,17 @@ ul {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "p"; }
+  @media (min-width: 456px) {
+    .case-study-text > div article {
+      grid-template-columns: 72% auto;
+      grid-template-areas: "p ."; } }
   @media (min-width: 768px) {
     .case-study-text > div article {
+      grid-template-columns: 50% auto;
       grid-gap: 24px; } }
   .case-study-text > div article p {
     grid-area: "p"; }
-    @media (min-width: 456px) {
-      .case-study-text > div article p {
-        width: 72%; } }
-    @media (min-width: 768px) {
-      .case-study-text > div article p {
-        width: 50%; } }
+
 .case-study-gallery > div article {
   grid-gap: 16px;
   display: grid;
@@ -835,6 +838,10 @@ header {
             header > div aside a img {
               width: 80%;
               height: 80%; } }
+          @media (min-width: 1200px) {
+            header > div aside a img {
+              width: 64%;
+              height: 64%; } }
         @media (prefers-color-scheme: dark) {
           header > div aside a img:nth-child(1) {
             display: none; } }
@@ -1105,6 +1112,9 @@ footer {
         #indexProjectsList > div article ul li a {
           height: 200px;
           opacity: 0; } }
+      @media (min-width: 1200px) {
+        #indexProjectsList > div article ul li a {
+          height: 240px; } }
       #indexProjectsList > div article ul li a div h4 {
         text-align: center;
         margin-bottom: 4px;
@@ -1390,6 +1400,29 @@ footer {
     color: #FCFCFC; }
 
 /* =============
+    SHM Text
+============= */
+/* =============
+    SHM Text
+============= */
+#shmText3 {
+  background-color: #19191A; }
+  #shmText3 > div article {
+    grid-template-areas: "p" "l"; }
+    @media (min-width: 456px) {
+      #shmText3 > div article {
+        grid-template-areas: "p l"; } }
+    #shmText3 > div article p {
+      color: #FCFCFC; }
+    #shmText3 > div article figure {
+      grid-area: l;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-image: url("../img/case-studies/shm/shmLogo.svg");
+      height: 104px; }
+
+/* =============
     SHM Gallery
 ============= */
 #shmGallery > div article ul {
@@ -1485,6 +1518,9 @@ footer {
   padding-top: 96px; }
   #saText1 > div article {
     grid-template-areas: "i" "p"; }
+    @media (min-width: 456px) {
+      #saText1 > div article {
+        grid-template-areas: "p i"; } }
     #saText1 > div article p {
       color: #FCFCFC; }
     #saText1 > div article div {
@@ -1507,9 +1543,19 @@ footer {
             width: 320px; } }
         @media (min-width: 768px) {
           #saText1 > div article div figure {
-            height: 335px;
+            height: 336px;
             left: 400;
             width: 504px; } }
+        @media (min-width: 992px) {
+          #saText1 > div article div figure {
+            height: 504px;
+            left: 504;
+            width: 520px; } }
+        @media (min-width: 1200px) {
+          #saText1 > div article div figure {
+            height: 520px;
+            left: 504;
+            width: 640px; } }
 /* =============
     SA Gallery
 ============= */
@@ -1563,8 +1609,26 @@ footer {
 #qvText1 {
   background-color: #19191A; }
   #qvText1 > div article p {
-    color: #FCFCFC; }
-
+    color: #FCFCFC;
+    margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      #qvText1 > div article p {
+        margin-bottom: 56px; } }
+  #qvText1 > div article ul li {
+    filter: saturate(0.75); }
+  #qvText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration1.jpg"); }
+  #qvText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration2.jpg"); }
+  #qvText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration3.jpg");
+    filter: saturate(1); }
+    @media (min-width: 456px) {
+      #qvText1 > div article ul li:nth-child(3) {
+        grid-column: span 2; } }
+    @media (min-width: 992px) {
+      #qvText1 > div article ul li:nth-child(3) {
+        grid-column: span 1; } }
 /* =============
     QV Gallery
 ============= */

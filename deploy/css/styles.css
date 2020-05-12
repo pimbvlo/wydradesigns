@@ -1548,83 +1548,66 @@ footer {
     background-position: 64% center; }
 
 /* =============
-    SA Hero
+    QV Hero
 ============= */
-#saHero {
-  background-image: url("../img/case-studies/sa/saHero.jpg"); }
-  @media (min-width: 992px) {
-    #saHero {
-      background-position: center 80%; } }
+#qvHero {
+  background-image: url("../img/case-studies/qv/qvBrochureDetail2.jpg");
+  background-position: center 80%; }
+
 /* =============
-    SA Intro
+    QV Intro
 ============= */
 /* =============
-    SA Text
+    QV Text
 ============= */
-#saText1 {
-  background-color: #19191A;
-  margin-top: 104px;
-  padding-top: 96px; }
-  #saText1 > div article {
-    grid-template-areas: "i" "p"; }
-    #saText1 > div article p {
-      color: #FCFCFC; }
-    #saText1 > div article div {
-      grid-area: i;
-      position: relative; }
-      #saText1 > div article div figure {
-        background-image: url("../img/case-studies/sa/saCover2.png");
-        background-position: left top;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 304px;
-        overflow-x: scroll;
-        position: absolute;
-        right: 0;
-        top: -168px;
-        width: 288px; }
-        @media (min-width: 456px) {
-          #saText1 > div article div figure {
-            height: 304px;
-            width: 320px; } }
-        @media (min-width: 768px) {
-          #saText1 > div article div figure {
-            height: 335px;
-            left: 400;
-            width: 504px; } }
+#qvText1 {
+  background-color: #19191A; }
+  #qvText1 > div article p {
+    color: #FCFCFC; }
+
 /* =============
-    SA Gallery
+    QV Gallery
 ============= */
-#saGallery > div article ul {
-  grid-template-areas: "C1" "ToC" "MS" "ISb1" "IS2";
-  grid-template-rows: 240px 224px 200px 200px 224px; }
+#qvGallery > div article ul {
+  grid-template-areas: "BO2" "BO1" "BD3" "BI1" "BD4" "BI2";
+  grid-template-rows: 240px 400px 200px 400px 200px 320px; }
   @media (min-width: 456px) {
-    #saGallery > div article ul {
+    #qvGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "C1 ToC ToC" "MS MS MS" "ISb1 ISb1 IS2";
-      grid-template-rows: 224px 400px 224px; } }
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
+      grid-template-rows: 224px 104px 160px 400px 200px 400px; } }
+  @media (min-width: 768px) {
+    #qvGallery > div article ul {
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
+      grid-template-rows: 280px 104px 120px 200px 304px 600px; } }
   @media (min-width: 992px) {
-    #saGallery > div article ul {
+    #qvGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 . . . ." ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
-      grid-template-rows: 320px 192px 440px 304px; } }
-  #saGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/sa/saCover1.jpg");
-    grid-area: C1;
-    background-position: center 56%; }
-  #saGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/sa/saToC.jpg");
-    grid-area: ToC;
-    background-position: 32% center; }
-  #saGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/sa/saMainSpread.jpg");
-    grid-area: MS;
-    background-position: 32% center; }
-  #saGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/sa/saInsideSpread1b.jpg");
-    grid-area: ISb1;
-    background-position: 88% center; }
-  #saGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
-    grid-area: IS2;
-    background-position: 64% center; }
+      grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . BD3 BD3 BD3" ". BD4 BD4 BD4 BD3 BD3 BD3" "BI2 BI2 BI2 BI2 BI2 . .";
+      grid-template-rows: 320px 200px 200px 600px; } }
+  #qvGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
+    grid-area: BO2; }
+    @media (min-width: 768px) {
+      #qvGallery > div article ul li:nth-child(1) {
+        background-position: center bottom; } }
+  #qvGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/qv/qvBrochureOutside1.jpg");
+    grid-area: BO1; }
+  #qvGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/qv/qvBrochureDetail3.jpg");
+    grid-area: BD3;
+    background-position: center bottom; }
+  #qvGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
+    grid-area: BI1; }
+    @media (min-width: 768px) {
+      #qvGallery > div article ul li:nth-child(4) {
+        background-position: center 56%; } }
+  #qvGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
+    grid-area: BD4;
+    background-position: left top; }
+  #qvGallery > div article ul li:nth-child(6) {
+    background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
+    grid-area: BI2; }

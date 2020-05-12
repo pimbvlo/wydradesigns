@@ -7,31 +7,32 @@
             h2 {}
 
             ul {
-                grid-template-areas: "BT" "S" "BK" "P" "L";
-                grid-template-rows: 304px 240px 200px 200px 368px;
+                grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "P" "BO1" "LD1";
+                grid-template-rows: 304px 240px 136px 200px 280px 200px 400px 504px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
-                    grid-template-areas: "BT BT BT" "S BK L" "P P L";
-                    grid-template-rows: 304px 240px 304px;
+                    grid-template-areas: ". BT BT" "BK BK BO1" "P P BO1" "LO1 LO1 LO1" "S S ." "LBI1 LBI1 LD1";
+                    grid-template-rows: 280px 160px 240px 240px 160px 240px;
+                }
+                @include md {
+                    grid-template-rows: 280px 160px 240px 304px 160px 304px;
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas: "BT BT BT BT L L L" "S S S S L L L" "P P P P P BK BK";
-                    grid-template-rows: 304px 304px 304px;
+                    grid-template-areas: "BT BT BT BT . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1";
+                    grid-template-rows: 304px 240px 304px 240px 304px;
                 }
 
                 li:nth-child(1) {
                     background-image: url("../img/case-studies/shm/shmBusTail.jpg");
                     grid-area: BT;
                     background-position: right center;
-                    @include sm{
+                    @include sm {
                         background-position: right 10%;
                         background-size: auto 200%;
-
                     }
-                    @include lg{
+                    @include lg {
                         background-size: cover;
-
                     }
                 }
 
@@ -48,11 +49,9 @@
                     @include sm {
                         background-size: auto 150%;
                     }
-                    @include lg{
+                    @include lg {
                         background-size: cover;
-
                     }
-
                 }
 
                 li:nth-child(4) {
@@ -60,10 +59,43 @@
                     grid-area: P;
                     background-position: center top;
                 }
+
                 li:nth-child(5) {
-                    background-image: url("../img/case-studies/shm/shmLetterhead.jpg");
-                    grid-area: L;
-                    // background-position: center top;
+                    background-image: url("../img/case-studies/shm/shmBrochureOutside1.jpg");
+                    grid-area: BO1;
+                    background-size: auto 160%;
+                    @include sm {
+                        background-size: cover;
+                    }
+                    @include sm {
+                        background-size: auto 116%;
+                    }
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/shm/shmLetterheadOutside1.jpg");
+                    grid-area: LO1;
+                    // background-size: cover;
+                }
+
+                li:nth-child(7) {
+                    background-image: url("../img/case-studies/shm/shmLetterheadDetail1.jpg");
+                    grid-area: LD1;
+                    background-position: left center;
+                }
+                li:nth-child(8) {
+                    background-image: url("../img/case-studies/shm/shmBrochureInside1.jpg");
+                    grid-area: LBI1;
+                    background-size: cover;
+                    background-position: 44% center;
+                    @include md{
+                        background-position: center 80%;
+
+                    }
+                    @include lg{
+                        background-position: 40% 90%;
+
+                    }
                 }
             }
 

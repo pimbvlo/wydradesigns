@@ -94,47 +94,42 @@
                 background-image: url("../img/index/projects/purple/FenderCover.jpg");
                 background-position: bottom center;
                 grid-area: f;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/FenderCover.jpg");
                 }
-
             }
 
             li:nth-child(2) {
                 background-image: url("../img/index/projects/purple/SHMCover.jpg");
                 grid-area: shm;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/SHMCover.jpg");
                 }
-
             }
 
             li:nth-child(3) {
                 background-image: url("../img/index/projects/purple/AntiCover.jpg");
                 grid-area: a;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/AntiCover.jpg");
                 }
-
             }
 
             li:nth-child(4) {
                 background-image: url("../img/index/projects/purple/TPSCover.jpg");
                 grid-area: tps;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/TPSCover.jpg");
                 }
-
             }
 
             li:nth-child(5) {
                 background-image: url("../img/index/projects/purple/ICMCover.jpg");
                 background-position: bottom right;
                 grid-area: icm;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/ICMCover.jpg");
                 }
-
             }
         }
 
@@ -150,57 +145,62 @@
             li:nth-child(1) {
                 background-image: url("../img/index/projects/purple/TCover.jpg");
                 grid-area: t;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/TCover.jpg");
                 }
-
             }
 
             li:nth-child(2) {
                 background-image: url("../img/index/projects/purple/SoACover.jpg");
                 grid-area: soa;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/SoACover.jpg");
                 }
-
             }
         }
 
         ul:nth-child(7) {
-            grid-template-areas: "tol" "ul" "c";
+            grid-template-areas: "tol" "ul" "c" "qv";
             @include sm {
-                grid-template-areas: "tol ul" "c .";
+                grid-template-areas: "tol ul" "c qv";
             }
             @include md {
-                grid-template-areas: "tol ul c";
+                grid-template-areas: "tol ul c" "qv . .";
             }
 
             li:nth-child(1) {
                 background-image: url("../img/index/projects/purple/ToLCover.jpg");
                 grid-area: tol;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/ToLCover.jpg");
                 }
-
             }
 
             li:nth-child(2) {
                 background-image: url("../img/index/projects/purple/UnCover.jpg");
                 grid-area: ul;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/UnCover.jpg");
                 }
-
             }
 
             li:nth-child(3) {
                 background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/ClCover.jpg");
+                }
+            }
+            li:nth-child(4) {
+                background-image: url("../img/index/projects/purple/QVCover.jpg");
+                background-position: top right;
+                grid-area: qv;
+                @include lg{
+                    background-image: url("../img/index/projects/QVCover.jpg");
                 }
 
             }
+
         }
 
         ul:nth-child(9) {
@@ -215,44 +215,41 @@
             li:nth-child(1) {
                 background-image: url("../img/index/projects/purple/BKCover.jpg");
                 grid-area: bk;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/BKCover.jpg");
                 }
-
             }
 
             li:nth-child(2) {
                 background-image: url("../img/index/projects/purple/SACover.jpg");
                 grid-area: sa;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/SACover.jpg");
                 }
-
             }
 
             li:nth-child(3) {
                 background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/ClCover.jpg");
                 }
-
             }
         }
 
         ul:nth-child(11) {
-            grid-template-areas: "sb" "on""qv";
+            grid-template-areas: "sb" "on";
             @include sm {
-                grid-template-areas: "sb on" "qv .";
+                grid-template-areas: "sb on";
             }
             @include md {
-                grid-template-areas: "sb on qv";
+                grid-template-areas: "sb on .";
             }
 
             li:nth-child(1) {
                 background-image: url("../img/index/projects/purple/SBCover.jpg");
                 grid-area: sb;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/SBCover.jpg");
                 }
             }
@@ -260,21 +257,9 @@
             li:nth-child(2) {
                 background-image: url("../img/index/projects/purple/ONCover.jpg");
                 grid-area: on;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/ONCover.jpg");
                 }
-
-            }
-
-            li:nth-child(3) {
-                background-image: url("../img/index/projects/purple/QVCover.jpg");
-                background-position: top right;
-                grid-area: qv;
-                // filter:saturate(0.5);
-                @include lg{
-                    background-image: url("../img/index/projects/QVCover.jpg");
-                }
-
             }
         }
         @include lg {

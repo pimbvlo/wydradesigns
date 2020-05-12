@@ -71,6 +71,94 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/qv/qvBrochureDetail1.jpg": {
+		"ft": 16384,
+		"iS": 606505,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureDetail1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureDetail2.jpg": {
+		"ft": 16384,
+		"iS": 722555,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureDetail2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureDetail3.jpg": {
+		"ft": 16384,
+		"iS": 563672,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureDetail3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureDetail4.jpg": {
+		"ft": 16384,
+		"iS": 549557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureDetail4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureInside1.jpg": {
+		"ft": 16384,
+		"iS": 580934,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureInside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureInside2.jpg": {
+		"ft": 16384,
+		"iS": 457225,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureInside2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureOutside1.jpg": {
+		"ft": 16384,
+		"iS": 529430,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureOutside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/qv/qvBrochureOutside2.jpg": {
+		"ft": 16384,
+		"iS": 596437,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/qv/qvBrochureOutside2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/sa/saCover1.jpg": {
 		"ft": 16384,
 		"iS": 686263,
@@ -159,6 +247,72 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/shm/shmBrochureCover1.jpg": {
+		"ft": 16384,
+		"iS": 556805,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureCover1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBrochureCover2.jpg": {
+		"ft": 16384,
+		"iS": 588569,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureCover2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBrochureDetail1.jpg": {
+		"ft": 16384,
+		"iS": 526197,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureDetail1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBrochureInside1.jpg": {
+		"ft": 16384,
+		"iS": 444944,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureInside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBrochureInside2.jpg": {
+		"ft": 16384,
+		"iS": 514136,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureInside2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmBrochureOutside1.jpg": {
+		"ft": 16384,
+		"iS": 411195,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmBrochureOutside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/shm/shmBusKing.jpg": {
 		"ft": 16384,
 		"iS": 877643,
@@ -225,12 +379,56 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/shm/shmLetterheadDetail1.jpg": {
+		"ft": 16384,
+		"iS": 716930,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmLetterheadDetail1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmLetterheadInside1.jpg": {
+		"ft": 16384,
+		"iS": 577909,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmLetterheadInside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmLetterheadOutside1.jpg": {
+		"ft": 16384,
+		"iS": 476881,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmLetterheadOutside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/shm/shmPosters.jpg": {
 		"ft": 16384,
 		"iS": 1380662,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/shm/shmPosters.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/shm/shmProcess.jpg": {
+		"ft": 16384,
+		"iS": 1599866,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/shm/shmProcess.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -669,6 +867,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/QueenVillage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/QueenVillage.html",
+		"oF": 0
+		},
 	"/deploy/Salt&Age.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -707,6 +913,38 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/about/aboutwho.html",
+		"oF": 0
+		},
+	"/dev/case-studies/qv/qvGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/qv/qvGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/qv/qvHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/qv/qvHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/qv/qvIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/qv/qvIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/qv/qvText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/qv/qvText1.html",
 		"oF": 0
 		},
 	"/dev/case-studies/sa/saGallery.kit": {
@@ -903,6 +1141,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/dev/QueenVillage.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/QueenVillage.html",
+		"oF": 2
+		},
 	"/dev/Salt&Age.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1084,6 +1330,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/about/_aboutWho.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_qvGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_qvGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_qvHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_qvHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_qvIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_qvIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_qvText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_qvText1.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

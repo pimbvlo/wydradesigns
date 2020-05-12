@@ -137,6 +137,10 @@ ul {
                 @include md {
                     grid-gap: 24px;
                 }
+                @include lg{
+                    grid-template-columns: repeat(3,1fr);
+
+                }
 
                 li {
                     background-position: center;
@@ -145,10 +149,10 @@ ul {
                     height: 240px;
                     width: 100%;
                     @include md {
-                        height: 304px;
+                        height: 280px;
                     }
                     @include lg {
-                        height: 400px;
+                        height: 320px;
                     }
                 }
             }
@@ -189,12 +193,11 @@ ul {
             grid-template-columns: repeat(1,1fr);
             grid-template-areas: "h" "g" "b";
             @include sm {
-                grid-template-columns: repeat(2,1fr);
-                grid-template-areas: "h h" "g g" "b .";
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: "h h ." "g g g" "b b .";
             }
             @include md {
                 grid-gap: 24px;
-                grid-template-columns: repeat(3,1fr);
                 grid-template-areas: "h . ." "g g g" "b b .";
             }
             @include lg {

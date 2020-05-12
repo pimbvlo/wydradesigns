@@ -4,26 +4,33 @@
 #shmIntro {
     > div {
         article {
-            p{
+            p {
                 @include margin(null,null,40px,null);
-                @include lg{
+                @include lg {
                     @include margin(null,null,56px,null);
-
                 }
             }
-            ul{
 
-                li{
+            ul {
+                li {}
 
-                }
-                li:nth-child(1){
+                li:nth-child(1) {
                     background-image: url("../img/case-studies/shm/shmInfluence.jpg");
                     background-position: center 20%;
-
                 }
-                li:nth-child(2){
-                    background-image: url("../img/case-studies/shm/shmExperiments.jpg");
 
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/shm/shmExperiments.jpg");
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/shm/shmProcess.jpg");
+                    @include sm {
+                        grid-column: span 2;
+                    }
+                    @include lg {
+                        grid-column: span 1;
+                    }
                 }
             }
         }

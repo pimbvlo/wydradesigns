@@ -364,6 +364,9 @@ ul {
   @media (min-width: 992px) {
     .section-padding {
       padding: 80px 0; } }
+  @media (min-width: 1200px) {
+    .section-padding {
+      padding: 96px 0; } }
 .section-margin {
   margin: 56px 0; }
   @media (min-width: 768px) {
@@ -372,6 +375,9 @@ ul {
   @media (min-width: 992px) {
     .section-margin {
       margin: 80px 0; } }
+  @media (min-width: 1200px) {
+    .section-margin {
+      margin: 96px 0; } }
 .case-study-hero {
   align-items: flex-end;
   background-position: center;
@@ -630,12 +636,46 @@ a {
     .btn > a i {
       font-size: 1.5rem; }
 
+.btn:link > a, .btn:visited > a {
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #FCFCFC;
+  width: 100%;
+  text-transform: uppercase;
+  transition: 0.2s ease-in-out; }
+  @media (min-width: 768px) {
+    .btn:link > a, .btn:visited > a {
+      padding-bottom: 16px;
+      padding-left: 24px;
+      padding-right: 24px;
+      padding-top: 16px; } }
+  .btn:link > a i, .btn:visited > a i {
+    transition: 0.2s ease-in-out;
+    font-size: 1.5rem; }
+
 .btn:hover {
   box-shadow: none;
   transform: translate(0px, 4px) scale(0.98);
   transition: 0.2s ease-in-out; }
-  .btn:hover > a {
+  .btn:hover > a i {
+    transition: 0.2s ease-in-out;
+    transform: translate(-200%, 0px) scale(2); }
+    @media (min-width: 768px) {
+      .btn:hover > a i {
+        transform: translate(-400%, 0px) scale(2); } }
+.btn:active {
+  transition: 0.2s ease-in-out; }
+  .btn:active > a {
     color: #131618; }
+    .btn:active > a i {
+      color: #131618; }
 
 .btn-icon i {
   margin-right: 8px; }
@@ -647,7 +687,7 @@ a {
   background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #6613ce);
   transition: background 0.2s ease; }
 
-.btn-purple-future:hover {
+.btn-purple-future:active {
   background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #ff964c); }
 
 /*
@@ -657,7 +697,7 @@ a {
   background-image: linear-gradient(150deg, #b813b9 0%, #ad13bd 28.28%, #9513c4 50%, #7813cb 71.72%, #6613ce 100%);
   transition: background 0.2s ease; }
 
-.btn-purple:hover {
+.btn-purple:active {
   background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
 
 /* =============
@@ -1278,6 +1318,17 @@ footer {
       #indexProjectsList > div li:hover {
         background-blend-mode: multiply; } }
     #indexProjectsList > div li:hover a {
+      opacity: 1; }
+  #indexProjectsList > div li:active {
+    background-color: #FF964C;
+    transition: all 0.1s; }
+    @supports (filter: saturate(0.75)) {
+      #indexProjectsList > div li:active {
+        filter: saturate(0.75); } }
+    @supports (background-blend-mode: multiply) {
+      #indexProjectsList > div li:active {
+        background-blend-mode: multiply; } }
+    #indexProjectsList > div li:active a {
       opacity: 1; } }
 
 /* =============
@@ -1357,6 +1408,184 @@ footer {
     #aboutWho > div article figure:hover {
       background-image: url("../img/about/SWydra_Personality.jpg"); } }
 /* =============
+    ANTI Hero
+============= */
+#antiHero {
+  background-image: url("../img/case-studies/anti/antiHero.jpg");
+  background-position: center top; }
+  @media (min-width: 992px) {
+    #antiHero {
+      background-position: center; } }
+  @media (min-width: 1200px) {
+    #antiHero {
+      background-position: center bottom; } }
+/* =============
+    ANTI Intro
+============= */
+#antiIntro > div article p span {
+  font-size: 1.125rem; }
+  @media (min-width: 992px) {
+    #antiIntro > div article p span {
+      font-size: 1.25rem; } }
+/* =============
+    ANTI Text
+============= */
+#antiText1 {
+  background-color: #19191A; }
+  #antiText1 > div article {
+    grid-template-areas: "p" "l"; }
+    @media (min-width: 768px) {
+      #antiText1 > div article {
+        grid-template-areas: "p l"; } }
+    #antiText1 > div article p {
+      color: #FCFCFC; }
+    #antiText1 > div article figure {
+      grid-area: l;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-image: url("../img/case-studies/anti/antiExperiment.jpg");
+      height: 200px; }
+      @media (min-width: 768px) {
+        #antiText1 > div article figure {
+          height: 304px; } }
+      @media (min-width: 992px) {
+        #antiText1 > div article figure {
+          height: 320px; } }
+      @media (min-width: 1200px) {
+        #antiText1 > div article figure {
+          height: 100%; } }
+/* =============
+    ANTI Gallery
+============= */
+#antiGallery > div article ul {
+  grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "ACTD" "AFO";
+  grid-template-rows: 200px 504px 224px 144px 168px 224px; }
+  @media (min-width: 456px) {
+    #antiGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." "AntiDD AntiDD AntiDD" ". ACTD ACTD" "AFO AFO AFO";
+      grid-template-rows: 304px 80px 120px 104px 240px 200px 384px; } }
+  @media (min-width: 768px) {
+    #antiGallery > div article ul {
+      grid-template-rows: 344px 80px 144px 104px 240px 224px 400px; } }
+  @media (min-width: 992px) {
+    #antiGallery > div article ul {
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "ACF ACF ACF ACF ACF . ." ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
+      grid-template-rows: 504px 320px 304px 240px 640px; } }
+  #antiGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
+    grid-area: ACF; }
+  #antiGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/anti/antiOpen.jpg");
+    grid-area: AO;
+    background-position: center 90%; }
+  #antiGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
+    grid-area: ANF; }
+  #antiGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/anti/antiDogDetail.png");
+    grid-area: AntiDD;
+    background-size: contain; }
+  #antiGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
+    grid-area: ACTD;
+    background-position: center 80%; }
+  #antiGallery > div article ul li:nth-child(6) {
+    background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
+    grid-area: AFO;
+    background-position: center 90%; }
+    @media (min-width: 456px) {
+      #antiGallery > div article ul li:nth-child(6) {
+        background-position: center 80%; } }
+    @media (min-width: 992px) {
+      #antiGallery > div article ul li:nth-child(6) {
+        background-position: center 90%; } }
+/* =============
+    QV Hero
+============= */
+#qvHero {
+  background-image: url("../img/case-studies/qv/qvBrochureDetail2.jpg");
+  background-position: center 80%; }
+
+/* =============
+    QV Intro
+============= */
+/* =============
+    QV Text
+============= */
+#qvText1 {
+  background-color: #19191A; }
+  #qvText1 > div article p {
+    color: #FCFCFC;
+    margin-bottom: 40px; }
+    @media (min-width: 992px) {
+      #qvText1 > div article p {
+        margin-bottom: 56px; } }
+  #qvText1 > div article ul li {
+    filter: saturate(0.75); }
+  #qvText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration1.jpg"); }
+  #qvText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration2.jpg"); }
+  #qvText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/qv/qvBrochureInspiration3.jpg");
+    filter: saturate(1); }
+    @media (min-width: 456px) {
+      #qvText1 > div article ul li:nth-child(3) {
+        grid-column: span 2; } }
+    @media (min-width: 992px) {
+      #qvText1 > div article ul li:nth-child(3) {
+        grid-column: span 1; } }
+/* =============
+    QV Gallery
+============= */
+#qvGallery > div article ul {
+  grid-template-areas: "BO2" "BO1" "BD3" "BI1" "BD4" "BI2";
+  grid-template-rows: 240px 400px 200px 400px 200px 320px; }
+  @media (min-width: 456px) {
+    #qvGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
+      grid-template-rows: 224px 104px 160px 400px 200px 400px; } }
+  @media (min-width: 768px) {
+    #qvGallery > div article ul {
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
+      grid-template-rows: 280px 104px 120px 200px 304px 600px; } }
+  @media (min-width: 992px) {
+    #qvGallery > div article ul {
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . BD3 BD3 BD3" ". BD4 BD4 BD4 BD3 BD3 BD3" "BI2 BI2 BI2 BI2 BI2 . .";
+      grid-template-rows: 320px 200px 200px 600px; } }
+  #qvGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
+    grid-area: BO2; }
+    @media (min-width: 768px) {
+      #qvGallery > div article ul li:nth-child(1) {
+        background-position: center bottom; } }
+  #qvGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/qv/qvBrochureOutside1.jpg");
+    grid-area: BO1; }
+  #qvGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/qv/qvBrochureDetail3.jpg");
+    grid-area: BD3;
+    background-position: center bottom; }
+  #qvGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
+    grid-area: BI1; }
+    @media (min-width: 768px) {
+      #qvGallery > div article ul li:nth-child(4) {
+        background-position: center 56%; } }
+  #qvGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
+    grid-area: BD4;
+    background-position: left top; }
+  #qvGallery > div article ul li:nth-child(6) {
+    background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
+    grid-area: BI2; }
+
+/* =============
     SHM Hero
 ============= */
 #shmHero {
@@ -1430,21 +1659,21 @@ footer {
   grid-template-rows: 304px 240px 136px 200px 280px 200px 400px 504px; }
   @media (min-width: 456px) {
     #shmGallery > div article ul {
-      grid-template-columns: repeat(3, 1fr);
       grid-template-areas: ". BT BT" "BK BK BO1" "P P BO1" "LO1 LO1 LO1" "S S ." "LBI1 LBI1 LD1";
+      grid-template-columns: repeat(3, 1fr);
       grid-template-rows: 280px 160px 240px 240px 160px 240px; } }
   @media (min-width: 768px) {
     #shmGallery > div article ul {
       grid-template-rows: 280px 160px 240px 304px 160px 304px; } }
   @media (min-width: 992px) {
     #shmGallery > div article ul {
-      grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "BT BT BT BT . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1";
+      grid-template-columns: repeat(7, 1fr);
       grid-template-rows: 304px 240px 304px 240px 304px; } }
   #shmGallery > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/shm/shmBusTail.jpg");
-    grid-area: BT;
-    background-position: right center; }
+    background-position: right center;
+    grid-area: BT; }
     @media (min-width: 456px) {
       #shmGallery > div article ul li:nth-child(1) {
         background-position: right 10%;
@@ -1457,9 +1686,9 @@ footer {
     grid-area: S; }
   #shmGallery > div article ul li:nth-child(3) {
     background-image: url("../img/case-studies/shm/shmBusKing.jpg");
-    grid-area: BK;
     background-position: 40% center;
-    background-size: auto 150%; }
+    background-size: auto 150%;
+    grid-area: BK; }
     @media (min-width: 456px) {
       #shmGallery > div article ul li:nth-child(3) {
         background-size: auto 150%; } }
@@ -1468,30 +1697,28 @@ footer {
         background-size: cover; } }
   #shmGallery > div article ul li:nth-child(4) {
     background-image: url("../img/case-studies/shm/shmPosters.jpg");
-    grid-area: P;
-    background-position: center top; }
+    background-position: center top;
+    grid-area: P; }
   #shmGallery > div article ul li:nth-child(5) {
     background-image: url("../img/case-studies/shm/shmBrochureOutside1.jpg");
-    grid-area: BO1;
-    background-size: auto 160%; }
+    background-size: auto 160%;
+    grid-area: BO1; }
     @media (min-width: 456px) {
       #shmGallery > div article ul li:nth-child(5) {
-        background-size: cover; } }
-    @media (min-width: 456px) {
-      #shmGallery > div article ul li:nth-child(5) {
+        background-size: cover;
         background-size: auto 116%; } }
   #shmGallery > div article ul li:nth-child(6) {
     background-image: url("../img/case-studies/shm/shmLetterheadOutside1.jpg");
     grid-area: LO1; }
   #shmGallery > div article ul li:nth-child(7) {
     background-image: url("../img/case-studies/shm/shmLetterheadDetail1.jpg");
-    grid-area: LD1;
-    background-position: left center; }
+    background-position: left center;
+    grid-area: LD1; }
   #shmGallery > div article ul li:nth-child(8) {
     background-image: url("../img/case-studies/shm/shmBrochureInside1.jpg");
-    grid-area: LBI1;
+    background-position: 44% center;
     background-size: cover;
-    background-position: 44% center; }
+    grid-area: LBI1; }
     @media (min-width: 768px) {
       #shmGallery > div article ul li:nth-child(8) {
         background-position: center 80%; } }
@@ -1592,86 +1819,3 @@ footer {
     background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
     grid-area: IS2;
     background-position: 64% center; }
-
-/* =============
-    QV Hero
-============= */
-#qvHero {
-  background-image: url("../img/case-studies/qv/qvBrochureDetail2.jpg");
-  background-position: center 80%; }
-
-/* =============
-    QV Intro
-============= */
-/* =============
-    QV Text
-============= */
-#qvText1 {
-  background-color: #19191A; }
-  #qvText1 > div article p {
-    color: #FCFCFC;
-    margin-bottom: 40px; }
-    @media (min-width: 992px) {
-      #qvText1 > div article p {
-        margin-bottom: 56px; } }
-  #qvText1 > div article ul li {
-    filter: saturate(0.75); }
-  #qvText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/qv/qvBrochureInspiration1.jpg"); }
-  #qvText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/qv/qvBrochureInspiration2.jpg"); }
-  #qvText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/qv/qvBrochureInspiration3.jpg");
-    filter: saturate(1); }
-    @media (min-width: 456px) {
-      #qvText1 > div article ul li:nth-child(3) {
-        grid-column: span 2; } }
-    @media (min-width: 992px) {
-      #qvText1 > div article ul li:nth-child(3) {
-        grid-column: span 1; } }
-/* =============
-    QV Gallery
-============= */
-#qvGallery > div article ul {
-  grid-template-areas: "BO2" "BO1" "BD3" "BI1" "BD4" "BI2";
-  grid-template-rows: 240px 400px 200px 400px 200px 320px; }
-  @media (min-width: 456px) {
-    #qvGallery > div article ul {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
-      grid-template-rows: 224px 104px 160px 400px 200px 400px; } }
-  @media (min-width: 768px) {
-    #qvGallery > div article ul {
-      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
-      grid-template-rows: 280px 104px 120px 200px 304px 600px; } }
-  @media (min-width: 992px) {
-    #qvGallery > div article ul {
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . BD3 BD3 BD3" ". BD4 BD4 BD4 BD3 BD3 BD3" "BI2 BI2 BI2 BI2 BI2 . .";
-      grid-template-rows: 320px 200px 200px 600px; } }
-  #qvGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
-    grid-area: BO2; }
-    @media (min-width: 768px) {
-      #qvGallery > div article ul li:nth-child(1) {
-        background-position: center bottom; } }
-  #qvGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/qv/qvBrochureOutside1.jpg");
-    grid-area: BO1; }
-  #qvGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/qv/qvBrochureDetail3.jpg");
-    grid-area: BD3;
-    background-position: center bottom; }
-  #qvGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
-    grid-area: BI1; }
-    @media (min-width: 768px) {
-      #qvGallery > div article ul li:nth-child(4) {
-        background-position: center 56%; } }
-  #qvGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
-    grid-area: BD4;
-    background-position: left top; }
-  #qvGallery > div article ul li:nth-child(6) {
-    background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
-    grid-area: BI2; }

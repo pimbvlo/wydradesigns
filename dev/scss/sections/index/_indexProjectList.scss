@@ -280,6 +280,21 @@
                     opacity: 1;
                 }
             }
+            li:active {
+                background-color: $orange;
+                transition: all 0.1s;
+
+                @supports(filter: saturate(0.75)) {
+                    filter: saturate(0.75);
+                }
+                @supports(background-blend-mode: multiply) {
+                    background-blend-mode: multiply;
+                }
+
+                a {
+                    opacity: 1;
+                }
+            }
         }
     }
 }

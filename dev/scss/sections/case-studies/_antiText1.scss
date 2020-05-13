@@ -1,0 +1,37 @@
+/* =============
+    ANTI Text
+============= */
+#antiText1 {
+    background-color: $grey-dark;
+
+    > div {
+        article {
+            grid-template-areas: "p" "l";
+            @include md {
+                grid-template-areas: "p l";
+            }
+
+            p {
+                color: $white;
+            }
+
+            figure {
+                grid-area: l;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-image: url("../img/case-studies/anti/antiExperiment.jpg");
+                height: 200px;
+                @include md{
+                    height: 304px;
+                }
+                @include lg{
+                    height: 320px;
+                }
+                @include xl{
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

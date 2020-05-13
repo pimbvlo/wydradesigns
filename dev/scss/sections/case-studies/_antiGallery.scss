@@ -1,0 +1,75 @@
+/* =============
+    ANTI Gallery
+============= */
+#antiGallery {
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "ACTD" "AFO";
+                grid-template-rows: 200px 504px 224px 144px 168px 224px;
+                @include sm {
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ."
+                    "AntiDD AntiDD AntiDD"
+                    ". ACTD ACTD"
+                    "AFO AFO AFO";
+                    grid-template-rows: 304px 80px 120px 104px 240px 200px 384px;
+                }
+                @include md {
+                    grid-template-rows: 344px 80px 144px 104px 240px 224px 400px;
+                }
+                @include lg {
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-areas: "ACF ACF ACF ACF ACF . ." ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ."
+                    "AFO AFO AFO AFO AFO AFO AFO";
+                    grid-template-rows: 504px 320px 304px 240px 640px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
+                    grid-area: ACF;
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/anti/antiOpen.jpg");
+                    grid-area: AO;
+                    background-position: center 90%;
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
+                    grid-area: ANF;
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/anti/antiDogDetail.png");
+                    grid-area: AntiDD;
+                    background-size: contain;
+                }
+
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
+                    grid-area: ACTD;
+                    background-position: center 80%;
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
+                    grid-area: AFO;
+                    background-position: center 90%;
+
+                    @include sm{
+                        background-position: center 80%;
+                    }
+                    @include lg{
+                        background-position: center 90%;
+                    }
+                }
+            }
+
+            div {}
+        }
+    }
+}

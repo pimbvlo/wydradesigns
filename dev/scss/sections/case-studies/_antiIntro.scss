@@ -1,0 +1,19 @@
+/* =============
+    ANTI Intro
+============= */
+#antiIntro {
+    > div {
+        article {
+            p {
+                span{
+                    font-size: rem-calc(18);
+                    @include lg {
+                        font-size: rem-calc(20);
+                    }
+
+                }
+            }
+
+        }
+    }
+}

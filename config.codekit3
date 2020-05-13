@@ -17,6 +17,14 @@
 		"oAP": "/deploy/about.html",
 		"oF": 0
 		},
+	"/deploy/Antifogmatic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Antifogmatic.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -66,6 +74,149 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/about/SWydra_Personality.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiClosedFront.jpg": {
+		"ft": 16384,
+		"iS": 665556,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiClosedFront.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiClosedSide.jpg": {
+		"ft": 16384,
+		"iS": 341968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiClosedSide.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiClosedTopDetail.jpg": {
+		"ft": 16384,
+		"iS": 317959,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiClosedTopDetail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiDogDetail.png": {
+		"ft": 32768,
+		"iS": 304800,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiDogDetail.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiExperiment.jpg": {
+		"ft": 16384,
+		"iS": 380797,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiExperiment.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiFullOpen.jpg": {
+		"ft": 16384,
+		"iS": 437511,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiFullOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiHalfOpen.jpg": {
+		"ft": 16384,
+		"iS": 388892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiHalfOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiHero.jpg": {
+		"ft": 16384,
+		"iS": 399810,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiNeatBack.jpg": {
+		"ft": 16384,
+		"iS": 318033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiNeatBack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiNeatFront.jpg": {
+		"ft": 16384,
+		"iS": 367616,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiNeatFront.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiOpen.jpg": {
+		"ft": 16384,
+		"iS": 490047,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiOpenING.jpg": {
+		"ft": 16384,
+		"iS": 440146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiOpenING.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/anti/antiQuarterOpen.jpg": {
+		"ft": 16384,
+		"iS": 383613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiQuarterOpen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -969,6 +1120,46 @@
 		"oAP": "/dev/about/aboutwho.html",
 		"oF": 0
 		},
+	"/dev/Antifogmatic.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Antifogmatic.html",
+		"oF": 2
+		},
+	"/dev/case-studies/anti/antiGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/anti/antiGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/anti/antiHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/anti/antiHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/anti/antiIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/anti/antiIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/anti/antiText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/anti/antiText1.html",
+		"oF": 0
+		},
 	"/dev/case-studies/qv/qvGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1404,6 +1595,58 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_antiGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_antiGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_antiHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_antiHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_antiIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_antiIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_antiText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_antiText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/case-studies/_qvGallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1647,8 +1890,8 @@
 	"creationDate": 609447083.19991195,
 	"displayValue": "wydradesigns",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_brown",
-	"iconImageWasSetByUser": 0,
+	"iconImageName": "/deploy/img/global/favicon/Favicon.png",
+	"iconImageWasSetByUser": 1,
 	"lastBuiltDate": 609447799.49626696
 	},
 "projectSettings": {

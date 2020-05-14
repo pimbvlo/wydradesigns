@@ -32,6 +32,11 @@
                     grid-gap: 24px;
                     grid-template-columns: repeat(3,1fr);
                 }
+                @include lg {
+                    grid-gap: 32px;
+                }
+
+
 
                 li {
                     background-position: center;

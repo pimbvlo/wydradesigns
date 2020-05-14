@@ -428,6 +428,9 @@ ul {
   @media (min-width: 768px) {
     .case-study-intro-image > div article {
       grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    .case-study-intro-image > div article {
+      grid-gap: 32px; } }
   .case-study-intro-image > div article p {
     grid-area: "p"; }
     @media (min-width: 456px) {
@@ -450,7 +453,8 @@ ul {
         grid-gap: 24px; } }
     @media (min-width: 992px) {
       .case-study-intro-image > div article ul {
-        grid-template-columns: repeat(3, 1fr); } }
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px; } }
     .case-study-intro-image > div article ul li {
       background-position: center;
       background-repeat: no-repeat;
@@ -476,6 +480,9 @@ ul {
     .case-study-text > div article {
       grid-template-columns: 50% auto;
       grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    .case-study-text > div article {
+      grid-gap: 32px; } }
   .case-study-text > div article p {
     grid-area: "p"; }
 
@@ -496,6 +503,9 @@ ul {
     @media (min-width: 768px) {
       .case-study-gallery > div article ul {
         grid-gap: 24px; } }
+    @media (min-width: 992px) {
+      .case-study-gallery > div article ul {
+        grid-gap: 32px; } }
     .case-study-gallery > div article ul li {
       background-position: center;
       background-repeat: no-repeat;
@@ -1135,6 +1145,9 @@ footer {
     #indexProjectsList > div article ul {
       grid-gap: 24px;
       grid-template-columns: repeat(3, 1fr); } }
+  @media (min-width: 992px) {
+    #indexProjectsList > div article ul {
+      grid-gap: 32px; } }
   #indexProjectsList > div article ul li {
     background-position: center;
     background-repeat: no-repeat;
@@ -1378,7 +1391,7 @@ footer {
       grid-template-columns: 60% auto; } }
   @media (min-width: 992px) {
     #aboutWho > div article {
-      grid-gap: 24px;
+      grid-gap: 32px;
       grid-template-areas: "p . i";
       grid-template-columns: 50% auto 40%; } }
   #aboutWho > div article div {
@@ -1950,8 +1963,9 @@ footer {
     TPS Hero
 ============= */
 #tpsHero {
-  background-image: url("../img/case-studies/fender/fenderHero.jpg");
-  background-position: center bottom; }
+  background-image: url("../img/case-studies/tps/tpsHero.png");
+  background-color: #FCFCFC;
+  background-position: right top; }
 
 /* =============
     TPS Text
@@ -1959,84 +1973,60 @@ footer {
 #tpsText1 {
   background-color: #F0F0F0; }
   #tpsText1 > div article p {
-    margin-bottom: 48px; }
-    @media (min-width: 768px) {
-      #tpsText1 > div article p {
-        margin-bottom: 56px; } }
-    @media (min-width: 992px) {
-      #tpsText1 > div article p {
-        margin-bottom: 64px; } }
+    margin-bottom: 32px; }
     @media (min-width: 1200px) {
       #tpsText1 > div article p {
         margin-bottom: 80px; } }
   @media (min-width: 992px) {
     #tpsText1 > div article ul {
       grid-template-columns: repeat(4, 1fr); } }
-  #tpsText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg"); }
-  #tpsText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg"); }
   #tpsText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
-    background-position: 20% center; }
+    background-image: url("../img/case-studies/tps/tpsInspiration2.jpg"); }
   #tpsText1 > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
-    background-position: 40% center; }
+    background-image: url("../img/case-studies/tps/tpsInspiration1.jpg"); }
+  #tpsText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/tps/tpsLogo.svg");
+    background-size: contain; }
+  #tpsText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg"); }
 
 /* =============
     TPS Gallery
 ============= */
 #tpsGallery > div article ul {
-  grid-template-areas: "paragraph1" "FFS" "paragraph2" "FSB2" "FSBI2" "FBB1" "FBB2" "FB1" "FB2";
-  grid-template-rows: auto 224px auto 240px 344px 240px 304px 256px 280px; }
+  grid-template-areas: "paragraph1" "TBP" "TWB" "TBC" "TBS1" "TP";
+  grid-template-rows: auto 400px 280px 240px 200px 480px; }
   @media (min-width: 456px) {
     #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "FFS FFS FFS" "paragraph2 paragraph2 ." "FSB2 FSBI2 FSBI2" ". FSBI2 FSBI2" "FBB1 FBB1 ." "FBB2 FBB2 FBB2" "FB1 FB1 ." "FB2 FB2 FB2";
+      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" "TWB TWB TWB" "TBC TBS1 TBS1" "TP TP TP";
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 320px auto 240px 304px 400px 502px 304px 504px; } }
+      grid-template-rows: auto 504px 304px 232px 504px; } }
   @media (min-width: 768px) {
     #tpsGallery > div article ul {
-      grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px; } }
+      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
+      grid-template-rows: auto 504px 304px 280px 640px; } }
   @media (min-width: 992px) {
     #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "FFS FFS FFS FFS FFS FFS FFS" "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2" "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2" "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1" "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1" "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
+      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
       grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: auto 680px 200px auto 104px 280px 480px; } }
+      grid-template-rows: auto 200px 344px 304px; } }
   #tpsGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/fender/fenderFullSet.jpg");
-    grid-area: FFS; }
-    @media (min-width: 456px) {
-      #tpsGallery > div article ul li:nth-child(1) {
-        background-position: 100% center; } }
-    @media (min-width: 992px) {
-      #tpsGallery > div article ul li:nth-child(1) {
-        background-position: 80% center; } }
-    @media (min-width: 1200px) {
-      #tpsGallery > div article ul li:nth-child(1) {
-        background-position: 100% center; } }
+    background-image: url("../img/case-studies/tps/tpsBuildingPoster.jpg");
+    grid-area: TBP; }
   #tpsGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/fender/fenderSmallBox2.jpg");
-    grid-area: FSB2; }
+    background-image: url("../img/case-studies/tps/tpsWebBanner.jpg");
+    grid-area: TWB;
+    background-size: contain; }
   #tpsGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/fender/fenderSmallBoxInside2.jpg");
-    grid-area: FSBI2; }
+    background-image: url("../img/case-studies/tps/tpsBrochureCover.jpg");
+    grid-area: TBC; }
   #tpsGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/fender/fenderBigBox1.jpg");
-    grid-area: FBB1; }
+    background-image: url("../img/case-studies/tps/tpsBrochureSpread1.jpg");
+    grid-area: TBS1; }
   #tpsGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/fender/fenderBigBox2.jpg");
-    grid-area: FBB2; }
+    background-image: url("../img/case-studies/tps/tpsPoster.jpg");
+    grid-area: TP; }
   #tpsGallery > div article ul li:nth-child(6) {
-    background-image: url("../img/case-studies/fender/fenderBag1.jpg");
-    grid-area: FB1; }
-  #tpsGallery > div article ul li:nth-child(7) {
-    background-image: url("../img/case-studies/fender/fenderBag2.jpg");
-    grid-area: FB2; }
-  #tpsGallery > div article ul li:nth-child(8) {
     grid-area: paragraph1; }
-    #tpsGallery > div article ul li:nth-child(8) p {
-      width: 100%; }
-  #tpsGallery > div article ul li:nth-child(9) {
-    grid-area: paragraph2; }
-    #tpsGallery > div article ul li:nth-child(9) p {
+    #tpsGallery > div article ul li:nth-child(6) p {
       width: 100%; }

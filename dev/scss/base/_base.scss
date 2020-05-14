@@ -125,6 +125,9 @@ ul {
             @include md {
                 grid-gap: 24px;
             }
+            @include lg {
+                grid-gap: 32px;
+            }
 
             p {
                 grid-area: "p";
@@ -150,6 +153,7 @@ ul {
                 }
                 @include lg{
                     grid-template-columns: repeat(3,1fr);
+                    grid-gap: 32px;
 
                 }
 
@@ -188,6 +192,11 @@ ul {
 
 
             }
+            @include lg {
+                grid-gap: 32px;
+            }
+
+
             p {
                 grid-area: "p";
                 // @include sm {
@@ -222,6 +231,10 @@ ul {
                 @include md {
                     grid-gap: 24px;
                 }
+                @include lg {
+                    grid-gap: 32px;
+                }
+
 
                 li {
                     background-position: center;

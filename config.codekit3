@@ -878,6 +878,115 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/case-studies/tps/tpsBrochureCover.jpg": {
+		"ft": 16384,
+		"iS": 163244,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsBrochureCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsBrochureSpread1.jpg": {
+		"ft": 16384,
+		"iS": 314377,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsBrochureSpread1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsBuildingPoster.jpg": {
+		"ft": 16384,
+		"iS": 659351,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsBuildingPoster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsHero.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsHero.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsInspiration1.jpg": {
+		"ft": 16384,
+		"iS": 683435,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsInspiration1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsInspiration2.jpg": {
+		"ft": 16384,
+		"iS": 710439,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsInspiration2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsLogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/tps/tpsLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/tps/tpsPoster.jpg": {
+		"ft": 16384,
+		"iS": 652084,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsPoster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsWebBanner.jpg": {
+		"ft": 16384,
+		"iS": 418153,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsWebBanner.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tps/tpsWorkTogether.jpg": {
+		"ft": 16384,
+		"iS": 651539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tps/tpsWorkTogether.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/global/favicon/Favicon.png": {
 		"ft": 32768,
 		"iS": 692,

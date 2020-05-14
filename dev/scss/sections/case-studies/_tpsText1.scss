@@ -7,13 +7,7 @@
     > div {
         article {
             p {
-                @include margin(null,null,48px,null);
-                @include md {
-                    @include margin(null,null,56px,null);
-                }
-                @include lg {
-                    @include margin(null,null,64px,null);
-                }
+                @include margin(null,null,32px,null);
                 @include xl {
                     @include margin(null,null,80px,null);
                 }
@@ -23,26 +17,24 @@
                     grid-template-columns: repeat(4,1fr);
 
                 }
+
                 li {}
-
-                li:nth-child(1) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg");
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg");
-                }
-
                 li:nth-child(3) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
-                    background-position: 20% center;
+                    background-image: url("../img/case-studies/tps/tpsInspiration2.jpg");
 
                 }
+
                 li:nth-child(4) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
-                    background-position: 40% center;
-
+                    background-image: url("../img/case-studies/tps/tpsInspiration1.jpg");
                 }
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/tps/tpsLogo.svg");
+                    background-size: contain;
+                }
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg");
+                }
+
             }
 
         }

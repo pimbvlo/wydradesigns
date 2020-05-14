@@ -1,0 +1,50 @@
+/* =============
+    TPS Text
+============= */
+#tpsText1 {
+    background-color: $off-white;
+
+    > div {
+        article {
+            p {
+                @include margin(null,null,48px,null);
+                @include md {
+                    @include margin(null,null,56px,null);
+                }
+                @include lg {
+                    @include margin(null,null,64px,null);
+                }
+                @include xl {
+                    @include margin(null,null,80px,null);
+                }
+            }
+            ul {
+                @include lg{
+                    grid-template-columns: repeat(4,1fr);
+
+                }
+                li {}
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg");
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg");
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
+                    background-position: 20% center;
+
+                }
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
+                    background-position: 40% center;
+
+                }
+            }
+
+        }
+    }
+}

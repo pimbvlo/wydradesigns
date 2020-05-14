@@ -2,8 +2,8 @@
     SA Text
 ============= */
 #saText1 {
-    background-color: $grey-dark;
-    @include margin(104px,null,null,null);
+    background-color: $off-white;
+    @include margin(144px,null,null,null);
     @include padding(96px,null,null,null);
 
     > div {
@@ -14,7 +14,6 @@
 
             }
             p {
-                color: $white;
             }
 
             div {
@@ -34,6 +33,8 @@
                     width: 288px;
                     @include sm {
                         height: 304px;
+                        top: -176px;
+
                         width: 320px;
                     }
                     @include md {
@@ -45,10 +46,11 @@
                         height: 504px;
                         left: 504;
                         width: 520px;
+                        top: -152px;
+
                     }
                     @include xl {
                         height: 520px;
-                        left: 504;
                         width: 640px;
                     }
                 }

@@ -2,13 +2,45 @@
     SHM Text
 ============= */
 #shmText1 {
-    background-color: $grey-dark;
+    background-color: $off-white;
 
     > div {
         article {
             p {
-                color: $white;
+                @include margin(null,null,48px,null);
+                @include md {
+                    @include margin(null,null,56px,null);
+                }
+                @include lg {
+                    @include margin(null,null,64px,null);
+                }
+                @include xl {
+                    @include margin(null,null,80px,null);
+                }
             }
+            ul {
+                li {}
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
+                    background-position: center 20%;
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/shm/shmExperiments.jpg");
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/shm/shmProcess.jpg");
+                    @include sm {
+                        grid-column: span 2;
+                    }
+                    @include lg {
+                        grid-column: span 1;
+                    }
+                }
+            }
+
         }
     }
 }

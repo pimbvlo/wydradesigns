@@ -7,20 +7,42 @@
             h2 {}
 
             ul {
-                grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "P" "BO1" "LD1";
-                grid-template-rows: 304px 240px 136px 200px 280px 200px 400px 504px;
+                grid-template-areas:
+                "BT"
+                "S"
+                "LO1"
+                "BK"
+                "LBI1"
+                "paragraph"
+                "P"
+                "BO1"
+                "LD1";
+                grid-template-rows: 304px 240px 136px 200px 280px auto 200px 504px 480px;
                 @include sm {
-                    grid-template-areas: ". BT BT" "BK BK BO1" "P P BO1" "LO1 LO1 LO1" "S S ." "LBI1 LBI1 LD1";
+                    grid-template-areas:
+                    "paragraph paragraph ."
+                    "BK BK BO1"
+                    "BT BT BO1"
+                    "P P P"
+                    "LO1 LO1 LO1"
+                    "S S LD1"
+                    "LBI1 LBI1 LD1";
                     grid-template-columns: repeat(3,1fr);
-                    grid-template-rows: 280px 160px 240px 240px 160px 240px;
+                    grid-template-rows: auto 160px 224px 240px 240px 160px 240px;
                 }
                 @include md {
-                    grid-template-rows: 280px 160px 240px 304px 160px 304px;
+                    grid-template-rows: 280px 160px auto 304px 240px 160px 304px;
                 }
                 @include lg {
-                    grid-template-areas: "BT BT BT BT . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1";
+                    grid-template-areas:
+                    "paragraph paragraph paragraph paragraph . BO1 BO1"
+                    "S S S S S BO1 BO1"
+                    "BK BK . P P P P"
+                    "LD1 LD1 LD1 LO1 LO1 LO1 LO1"
+                    "LD1 LD1 LD1 . LBI1 LBI1 LBI1"
+                    "BT BT BT BT BT BT .";
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-rows: 304px 240px 304px 240px 304px;
+                    grid-template-rows: auto 240px 304px 240px 304px 304px;
                 }
 
                 li:nth-child(1) {
@@ -92,6 +114,12 @@
                     }
                     @include lg {
                         background-position: 40% 90%;
+                    }
+                }
+                li:nth-child(9){
+                    grid-area: paragraph;
+                    p{
+                        width: 100%;
                     }
                 }
             }

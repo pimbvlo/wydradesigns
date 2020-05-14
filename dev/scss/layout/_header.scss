@@ -4,15 +4,15 @@
 header {
     box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
     position: fixed;
-    height: 64px;
+    height: 72px;
     width: 100%;
     background-color: $white;
     z-index: 1000;
     @include dark {
         background-color: $dark-purple;
     }
-    @include lg{
-        height: 72px;
+    @include lg {
+        height: 80px;
     }
 
     > div {
@@ -20,7 +20,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        @include lg{
+        @include lg {
             display: grid;
             grid-template-columns: repeat(1,1fr);
             grid-template-areas: "h";
@@ -30,17 +30,19 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            @include lg{
+            @include lg {
                 display: grid;
                 grid-template-columns: 25% auto 32%;
                 grid-template-areas: "l . n";
                 grid-area: h;
             }
+
             a {
                 line-height: rem-calc(0);
-                @include lg{
+                @include lg {
                     grid-area: l;
                 }
+
                 img {
                     width: 100%;
                     height: 100%;
@@ -48,12 +50,10 @@ header {
                     @include lg {
                         width: 80%;
                         height: 80%;
-
                     }
                     @include xl {
                         width: 64%;
                         height: 64%;
-
                     }
                 }
 
@@ -70,70 +70,78 @@ header {
                     }
                 }
             }
-
             // .cls-1 {
             //     fill: $purple;
             //     @include dark {
             //         fill: $white;
             //     }
             // }
-            #lg-nav{
+            #lg-nav {
                 display: none;
-                @include lg{
+                @include lg {
                     display: initial;
                     grid-area: n;
-
                 }
-                ul{
+
+                ul {
                     display: flex;
                     align-items: center;
                     justify-content: space-between;
 
-                    li{
-                        a{
+                    li {
+                        a {
                             transition: all 0.10s;
                             font-size: rem-calc(18);
-                            span{
+
+                            span {
                                 border-bottom: 4px solid $dark-purple;
                                 font-weight: 600;
                                 color: $dark-purple;
                                 @include dark {
                                     color: $white;
                                     border-bottom: 4px solid $white;
-
                                 }
-
                             }
                         }
-                        a:link, a:visited{
+
+                        a:link,
+                        a:visited {
                             color: $purple;
                             @include dark {
                                 color: $white;
                             }
-
-
                         }
-                        a:hover, a:active{
-                            // font-weight: 500;
+
+                        a:active,
+                        a:hover {
                             border-bottom: 3px solid $purple;
                             @include dark {
                                 border-bottom: 3px solid $white;
                             }
-
-
-
                         }
+                        // a:active,
+                        // a:hover {
+                        //     background: linear-gradient(90deg,$dark-pink,$purple);
+                        //     -webkit-background-clip: text;
+                        //     -webkit-text-fill-color: transparent;
+                        //     // -webkit-box-decoration-break: clone;
+                        //     box-decoration-break: clone;
+                        //     text-shadow: none;
+                        //     // @include dark {
+                        //     //     border-bottom: 3px solid $white;
+                        //     // }
+                        // }
                     }
                 }
             }
-
         }
     }
 
     #burger-container {
-        @include lg{
+        @include lg {
             display: none;
         }
+
         svg {
             height: 40px;
             cursor: pointer;

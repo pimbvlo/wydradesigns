@@ -357,10 +357,10 @@ ul {
     grid-area: content; }
 
 .section-padding {
-  padding: 56px 0; }
+  padding: 64px 0; }
   @media (min-width: 768px) {
     .section-padding {
-      padding: 64px 0; } }
+      padding: 72px 0; } }
   @media (min-width: 992px) {
     .section-padding {
       padding: 80px 0; } }
@@ -368,10 +368,10 @@ ul {
     .section-padding {
       padding: 96px 0; } }
 .section-margin {
-  margin: 56px 0; }
+  margin: 64px 0; }
   @media (min-width: 768px) {
     .section-margin {
-      margin: 64px 0; } }
+      margin: 72px 0; } }
   @media (min-width: 992px) {
     .section-margin {
       margin: 80px 0; } }
@@ -483,21 +483,7 @@ ul {
   grid-gap: 16px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "h" "g" "b"; }
-  @media (min-width: 456px) {
-    .case-study-gallery > div article {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "h h ." "g g g" "b b ."; } }
-  @media (min-width: 768px) {
-    .case-study-gallery > div article {
-      grid-gap: 24px;
-      grid-template-areas: "h . ." "g g g" "b b ."; } }
-  @media (min-width: 992px) {
-    .case-study-gallery > div article {
-      grid-template-columns: repeat(5, 1fr);
-      grid-template-areas: "h h . . ." "g g g g g" "b b . . ."; } }
-  .case-study-gallery > div article h2 {
-    grid-area: h; }
+  grid-template-areas: "g"; }
   .case-study-gallery > div article ul {
     grid-area: g;
     grid-gap: 16px;
@@ -514,11 +500,6 @@ ul {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      width: 100%; }
-  .case-study-gallery > div article div {
-    grid-area: b;
-    width: 100%; }
-    .case-study-gallery > div article div a {
       width: 100%; }
 
 /* =============
@@ -570,16 +551,16 @@ h4 {
 h6 {
   color: #6613CE;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.005rem; }
+  @media (min-width: 456px) {
+    h6 {
+      font-size: 2.125rem;
+      letter-spacing: 0.0078125rem; } }
   @media (min-width: 768px) {
     h6 {
-      font-size: 1.75rem;
       letter-spacing: 0.0125rem; } }
-  @media (min-width: 992px) {
-    h6 {
-      font-size: 1.5rem; } }
   h6 span {
     color: #FCFCFC;
     font-weight: 600; }
@@ -748,7 +729,7 @@ textarea {
 ============= */
 #sm-nav {
   position: fixed;
-  top: 80px;
+  top: 104px;
   width: 100%;
   z-index: 950; }
   @media (min-width: 992px) {
@@ -765,7 +746,7 @@ textarea {
       transition: 0.25s;
       width: 100%;
       text-align: right;
-      margin-bottom: 24px;
+      margin-bottom: 32px;
       margin-left: 0;
       margin-right: 0px;
       margin-top: 0px; }
@@ -774,10 +755,6 @@ textarea {
           color: #FCFCFC; } }
       #sm-nav ul li h6 a {
         color: #6613CE;
-        padding-bottom: 10px;
-        padding-left: 0;
-        padding-right: 0px;
-        padding-top: 10px;
         text-decoration: none;
         transition: 0.25s;
         font-weight: 600; }
@@ -798,7 +775,7 @@ textarea {
           #sm-nav ul li h6 a:active,
           #sm-nav ul li h6 a:hover {
             border-bottom: 4px solid #FCFCFC; } }
-  #sm-nav ul li:nth-last-child(1) {
+  #sm-nav ul li:nth-last-child(1) h6 {
     margin-bottom: 0px; }
 
 /* =============
@@ -832,7 +809,7 @@ textarea {
 header {
   box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.08), 0 9px 46px 8px rgba(19, 22, 24, 0.05), 0 24px 38px 3px rgba(19, 22, 24, 0.06);
   position: fixed;
-  height: 64px;
+  height: 72px;
   width: 100%;
   background-color: #FCFCFC;
   z-index: 1000; }
@@ -841,7 +818,7 @@ header {
       background-color: #0D001E; } }
   @media (min-width: 992px) {
     header {
-      height: 72px; } }
+      height: 80px; } }
   header > div {
     grid-area: header;
     display: flex;
@@ -911,15 +888,19 @@ header {
                 header > div aside #lg-nav ul li a span {
                   color: #FCFCFC;
                   border-bottom: 4px solid #FCFCFC; } }
-          header > div aside #lg-nav ul li a:link, header > div aside #lg-nav ul li a:visited {
+          header > div aside #lg-nav ul li a:link,
+          header > div aside #lg-nav ul li a:visited {
             color: #6613CE; }
             @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:link, header > div aside #lg-nav ul li a:visited {
+              header > div aside #lg-nav ul li a:link,
+              header > div aside #lg-nav ul li a:visited {
                 color: #FCFCFC; } }
-          header > div aside #lg-nav ul li a:hover, header > div aside #lg-nav ul li a:active {
+          header > div aside #lg-nav ul li a:active,
+          header > div aside #lg-nav ul li a:hover {
             border-bottom: 3px solid #6613CE; }
             @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:hover, header > div aside #lg-nav ul li a:active {
+              header > div aside #lg-nav ul li a:active,
+              header > div aside #lg-nav ul li a:hover {
                 border-bottom: 3px solid #FCFCFC; } }
   @media (min-width: 992px) {
     header #burger-container {
@@ -1003,6 +984,31 @@ footer {
       grid-area: c;
       text-align: right;
       font-size: 1rem; }
+
+/* =============
+    CS Footer
+============= */
+#csFooter > div article {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "b"; }
+  @media (min-width: 456px) {
+    #csFooter > div article {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "b b ."; } }
+  @media (min-width: 768px) {
+    #csFooter > div article {
+      grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    #csFooter > div article {
+      grid-template-columns: repeat(5, 1fr);
+      grid-template-areas: "b b . . ."; } }
+  #csFooter > div article div {
+    grid-area: b;
+    width: 100%; }
+    #csFooter > div article div a {
+      width: 100%; }
 
 /* =============
     Index Hero
@@ -1422,58 +1428,66 @@ footer {
 /* =============
     ANTI Intro
 ============= */
-#antiIntro > div article p span {
-  font-size: 1.125rem; }
-  @media (min-width: 992px) {
-    #antiIntro > div article p span {
-      font-size: 1.25rem; } }
+#antiIntro > div {
+  align-items: center;
+  display: flex;
+  justify-content: center; }
+  #antiIntro > div article {
+    align-items: center;
+    border-bottom: 4px solid #0D001E;
+    border-top: 4px solid #0D001E;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 16px;
+    padding-top: 16px; }
+    @media (min-width: 768px) {
+      #antiIntro > div article {
+        width: 56vw; } }
+    @media (min-width: 992px) {
+      #antiIntro > div article {
+        width: 48vw; } }
+    @media (min-width: 1200px) {
+      #antiIntro > div article {
+        width: 32vw; } }
+    #antiIntro > div article p {
+      padding-left: 8px;
+      padding-right: 8px; }
+      @media (min-width: 768px) {
+        #antiIntro > div article p {
+          padding-left: 16px;
+          padding-right: 16px; } }
+      @media (min-width: 992px) {
+        #antiIntro > div article p {
+          font-size: 1.25rem; } }
+      #antiIntro > div article p span {
+        font-size: 1.125rem; }
+
 /* =============
     ANTI Text
 ============= */
 #antiText1 {
-  background-color: #19191A; }
-  #antiText1 > div article {
-    grid-template-areas: "p" "l"; }
-    @media (min-width: 768px) {
-      #antiText1 > div article {
-        grid-template-areas: "p l"; } }
-    #antiText1 > div article p {
-      color: #FCFCFC; }
-    #antiText1 > div article figure {
-      grid-area: l;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-image: url("../img/case-studies/anti/antiExperiment.jpg");
-      height: 200px; }
-      @media (min-width: 768px) {
-        #antiText1 > div article figure {
-          height: 304px; } }
-      @media (min-width: 992px) {
-        #antiText1 > div article figure {
-          height: 320px; } }
-      @media (min-width: 1200px) {
-        #antiText1 > div article figure {
-          height: 100%; } }
+  background-color: #F0F0F0; }
+
 /* =============
     ANTI Gallery
 ============= */
 #antiGallery > div article ul {
-  grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "ACTD" "AFO";
-  grid-template-rows: 200px 504px 224px 144px 168px 224px; }
+  grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "paragraph " "ACTD" "AFO";
+  grid-template-rows: 200px 504px 224px 144px auto 168px 224px; }
   @media (min-width: 456px) {
     #antiGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." "AntiDD AntiDD AntiDD" ". ACTD ACTD" "AFO AFO AFO";
-      grid-template-rows: 304px 80px 120px 104px 240px 200px 384px; } }
+      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." ". AntiDD AntiDD" "paragraph paragraph paragraph" ". ACTD ACTD" "AFO AFO AFO";
+      grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px; } }
   @media (min-width: 768px) {
     #antiGallery > div article ul {
-      grid-template-rows: 344px 80px 144px 104px 240px 224px 400px; } }
+      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
+      grid-template-rows: 304px 72px 80px 104px auto 176px 384px; } }
   @media (min-width: 992px) {
     #antiGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "ACF ACF ACF ACF ACF . ." ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
-      grid-template-rows: 504px 320px 304px 240px 640px; } }
+      grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
+      grid-template-rows: 400px 320px 304px 240px 640px; } }
   #antiGallery > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
     grid-area: ACF; }
@@ -1502,6 +1516,106 @@ footer {
     @media (min-width: 992px) {
       #antiGallery > div article ul li:nth-child(6) {
         background-position: center 90%; } }
+  #antiGallery > div article ul li:nth-child(7) {
+    grid-area: paragraph; }
+    #antiGallery > div article ul li:nth-child(7) p {
+      width: 100%; }
+
+/* =============
+    FENDER Hero
+============= */
+#fenderHero {
+  background-image: url("../img/case-studies/fender/fenderHero.jpg");
+  background-position: center bottom; }
+
+/* =============
+    FENDER Text
+============= */
+#fenderText1 {
+  background-color: #F0F0F0; }
+  #fenderText1 > div article p {
+    margin-bottom: 48px; }
+    @media (min-width: 768px) {
+      #fenderText1 > div article p {
+        margin-bottom: 56px; } }
+    @media (min-width: 992px) {
+      #fenderText1 > div article p {
+        margin-bottom: 64px; } }
+    @media (min-width: 1200px) {
+      #fenderText1 > div article p {
+        margin-bottom: 80px; } }
+  @media (min-width: 992px) {
+    #fenderText1 > div article ul {
+      grid-template-columns: repeat(4, 1fr); } }
+  #fenderText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg"); }
+  #fenderText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg"); }
+  #fenderText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
+    background-position: 20% center; }
+  #fenderText1 > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
+    background-position: 40% center; }
+
+/* =============
+    FENDER Gallery
+============= */
+#fenderGallery > div article ul {
+  grid-template-areas: "paragraph1" "FFS" "paragraph2" "FSB2" "FSBI2" "FBB1" "FBB2" "FB1" "FB2";
+  grid-template-rows: auto 224px auto 240px 344px 240px 304px 256px 280px; }
+  @media (min-width: 456px) {
+    #fenderGallery > div article ul {
+      grid-template-areas: "paragraph1 paragraph1 ." "FFS FFS FFS" "paragraph2 paragraph2 ." "FSB2 FSBI2 FSBI2" ". FSBI2 FSBI2" "FBB1 FBB1 ." "FBB2 FBB2 FBB2" "FB1 FB1 ." "FB2 FB2 FB2";
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: auto 320px auto 240px 304px 400px 502px 304px 504px; } }
+  @media (min-width: 768px) {
+    #fenderGallery > div article ul {
+      grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px; } }
+  @media (min-width: 992px) {
+    #fenderGallery > div article ul {
+      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "FFS FFS FFS FFS FFS FFS FFS" "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2" "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2" "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1" "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1" "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: auto 680px 200px auto 104px 280px 480px; } }
+  #fenderGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/fender/fenderFullSet.jpg");
+    grid-area: FFS; }
+    @media (min-width: 456px) {
+      #fenderGallery > div article ul li:nth-child(1) {
+        background-position: 100% center; } }
+    @media (min-width: 992px) {
+      #fenderGallery > div article ul li:nth-child(1) {
+        background-position: 80% center; } }
+    @media (min-width: 1200px) {
+      #fenderGallery > div article ul li:nth-child(1) {
+        background-position: 100% center; } }
+  #fenderGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/fender/fenderSmallBox2.jpg");
+    grid-area: FSB2; }
+  #fenderGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/fender/fenderSmallBoxInside2.jpg");
+    grid-area: FSBI2; }
+  #fenderGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/fender/fenderBigBox1.jpg");
+    grid-area: FBB1; }
+  #fenderGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/fender/fenderBigBox2.jpg");
+    grid-area: FBB2; }
+  #fenderGallery > div article ul li:nth-child(6) {
+    background-image: url("../img/case-studies/fender/fenderBag1.jpg");
+    grid-area: FB1; }
+  #fenderGallery > div article ul li:nth-child(7) {
+    background-image: url("../img/case-studies/fender/fenderBag2.jpg");
+    grid-area: FB2; }
+  #fenderGallery > div article ul li:nth-child(8) {
+    grid-area: paragraph1; }
+    #fenderGallery > div article ul li:nth-child(8) p {
+      width: 100%; }
+  #fenderGallery > div article ul li:nth-child(9) {
+    grid-area: paragraph2; }
+    #fenderGallery > div article ul li:nth-child(9) p {
+      width: 100%; }
+
 /* =============
     QV Hero
 ============= */
@@ -1510,15 +1624,11 @@ footer {
   background-position: center 80%; }
 
 /* =============
-    QV Intro
-============= */
-/* =============
     QV Text
 ============= */
 #qvText1 {
-  background-color: #19191A; }
+  background-color: #F0F0F0; }
   #qvText1 > div article p {
-    color: #FCFCFC;
     margin-bottom: 40px; }
     @media (min-width: 992px) {
       #qvText1 > div article p {
@@ -1542,22 +1652,22 @@ footer {
     QV Gallery
 ============= */
 #qvGallery > div article ul {
-  grid-template-areas: "BO2" "BO1" "BD3" "BI1" "BD4" "BI2";
-  grid-template-rows: 240px 400px 200px 400px 200px 320px; }
+  grid-template-areas: "BO2" "BO1" "BD3" "paragraph" "BI1" "BD4" "BI2";
+  grid-template-rows: 240px 400px 200px auto 400px 200px 320px; }
   @media (min-width: 456px) {
     #qvGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
-      grid-template-rows: 224px 104px 160px 400px 200px 400px; } }
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph paragraph" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
+      grid-template-rows: 224px 104px 160px auto 400px 200px 400px; } }
   @media (min-width: 768px) {
     #qvGallery > div article ul {
-      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
-      grid-template-rows: 280px 104px 120px 200px 304px 600px; } }
+      grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph ." "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
+      grid-template-rows: 280px 104px 120px auto 200px 304px 600px; } }
   @media (min-width: 992px) {
     #qvGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . BD3 BD3 BD3" ". BD4 BD4 BD4 BD3 BD3 BD3" "BI2 BI2 BI2 BI2 BI2 . .";
-      grid-template-rows: 320px 200px 200px 600px; } }
+      grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . ." "BI2 BI2 BI2 BI2 BI2 BD4 BD4";
+      grid-template-rows: 320px 200px auto 200px 400px; } }
   #qvGallery > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
     grid-area: BO2; }
@@ -1581,9 +1691,114 @@ footer {
     background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
     grid-area: BD4;
     background-position: left top; }
+    @media (min-width: 992px) {
+      #qvGallery > div article ul li:nth-child(5) {
+        background-position: 30% top; } }
   #qvGallery > div article ul li:nth-child(6) {
     background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
     grid-area: BI2; }
+  #qvGallery > div article ul li:nth-child(7) {
+    grid-area: paragraph; }
+    #qvGallery > div article ul li:nth-child(7) p {
+      width: 100%; }
+
+/* =============
+    SA Hero
+============= */
+#saHero {
+  background-image: url("../img/case-studies/sa/saHero.jpg"); }
+  @media (min-width: 992px) {
+    #saHero {
+      background-position: center 80%; } }
+/* =============
+    SA Text
+============= */
+#saText1 {
+  background-color: #F0F0F0;
+  margin-top: 144px;
+  padding-top: 96px; }
+  #saText1 > div article {
+    grid-template-areas: "i" "p"; }
+    @media (min-width: 456px) {
+      #saText1 > div article {
+        grid-template-areas: "p i"; } }
+    #saText1 > div article div {
+      grid-area: i;
+      position: relative; }
+      #saText1 > div article div figure {
+        background-image: url("../img/case-studies/sa/saCover2.png");
+        background-position: left top;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 304px;
+        overflow-x: scroll;
+        position: absolute;
+        right: 0;
+        top: -168px;
+        width: 288px; }
+        @media (min-width: 456px) {
+          #saText1 > div article div figure {
+            height: 304px;
+            top: -176px;
+            width: 320px; } }
+        @media (min-width: 768px) {
+          #saText1 > div article div figure {
+            height: 336px;
+            left: 400;
+            width: 504px; } }
+        @media (min-width: 992px) {
+          #saText1 > div article div figure {
+            height: 504px;
+            left: 504;
+            width: 520px;
+            top: -152px; } }
+        @media (min-width: 1200px) {
+          #saText1 > div article div figure {
+            height: 520px;
+            width: 640px; } }
+/* =============
+    SA Gallery
+============= */
+#saGallery > div article ul {
+  grid-template-areas: "C1" "paragraph" "ToC" "MS" "ISb1" "IS2";
+  grid-template-rows: 240px auto 224px 200px 200px 224px; }
+  @media (min-width: 456px) {
+    #saGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: "C1 ToC ToC" "paragraph paragraph ." "MS MS MS" "ISb1 ISb1 IS2";
+      grid-template-rows: 224px auto 400px 224px; } }
+  @media (min-width: 768px) {
+    #saGallery > div article ul {
+      grid-template-rows: 304px auto 504px 304px; } }
+  @media (min-width: 992px) {
+    #saGallery > div article ul {
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 paragraph paragraph paragraph paragraph" ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
+      grid-template-rows: 360px auto 440px 344px; } }
+  #saGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/sa/saCover1.jpg");
+    grid-area: C1;
+    background-position: center 56%; }
+  #saGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/sa/saToC.jpg");
+    grid-area: ToC;
+    background-position: 32% center; }
+  #saGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/sa/saMainSpread.jpg");
+    grid-area: MS;
+    background-position: 32% center; }
+  #saGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/sa/saInsideSpread1b.jpg");
+    grid-area: ISb1;
+    background-position: 88% center; }
+  #saGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
+    grid-area: IS2;
+    background-position: 64% center; }
+  #saGallery > div article ul li:nth-child(6) {
+    grid-area: paragraph; }
+    #saGallery > div article ul li:nth-child(6) p {
+      width: 100%; }
 
 /* =============
     SHM Hero
@@ -1598,39 +1813,34 @@ footer {
     #shmHero {
       background-position: right 56%; } }
 /* =============
-    SHM Intro
-============= */
-#shmIntro > div article p {
-  margin-bottom: 40px; }
-  @media (min-width: 992px) {
-    #shmIntro > div article p {
-      margin-bottom: 56px; } }
-#shmIntro > div article ul li:nth-child(1) {
-  background-image: url("../img/case-studies/shm/shmInfluence.jpg");
-  background-position: center 20%; }
-
-#shmIntro > div article ul li:nth-child(2) {
-  background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
-
-#shmIntro > div article ul li:nth-child(3) {
-  background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
-  @media (min-width: 456px) {
-    #shmIntro > div article ul li:nth-child(3) {
-      grid-column: span 2; } }
-  @media (min-width: 992px) {
-    #shmIntro > div article ul li:nth-child(3) {
-      grid-column: span 1; } }
-/* =============
     SHM Text
 ============= */
 #shmText1 {
-  background-color: #19191A; }
+  background-color: #F0F0F0; }
   #shmText1 > div article p {
-    color: #FCFCFC; }
-
-/* =============
-    SHM Text
-============= */
+    margin-bottom: 48px; }
+    @media (min-width: 768px) {
+      #shmText1 > div article p {
+        margin-bottom: 56px; } }
+    @media (min-width: 992px) {
+      #shmText1 > div article p {
+        margin-bottom: 64px; } }
+    @media (min-width: 1200px) {
+      #shmText1 > div article p {
+        margin-bottom: 80px; } }
+  #shmText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
+    background-position: center 20%; }
+  #shmText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
+  #shmText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
+    @media (min-width: 456px) {
+      #shmText1 > div article ul li:nth-child(3) {
+        grid-column: span 2; } }
+    @media (min-width: 992px) {
+      #shmText1 > div article ul li:nth-child(3) {
+        grid-column: span 1; } }
 /* =============
     SHM Text
 ============= */
@@ -1638,11 +1848,15 @@ footer {
   background-color: #19191A; }
   #shmText3 > div article {
     grid-template-areas: "p" "l"; }
-    @media (min-width: 456px) {
+    @media (min-width: 768px) {
       #shmText3 > div article {
         grid-template-areas: "p l"; } }
     #shmText3 > div article p {
-      color: #FCFCFC; }
+      color: #FCFCFC;
+      margin-bottom: 48px; }
+      @media (min-width: 768px) {
+        #shmText3 > div article p {
+          margin-bottom: 0px; } }
     #shmText3 > div article figure {
       grid-area: l;
       background-position: center;
@@ -1650,26 +1864,28 @@ footer {
       background-size: contain;
       background-image: url("../img/case-studies/shm/shmLogo.svg");
       height: 104px; }
-
+      @media (min-width: 768px) {
+        #shmText3 > div article figure {
+          height: 100%; } }
 /* =============
     SHM Gallery
 ============= */
 #shmGallery > div article ul {
-  grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "P" "BO1" "LD1";
-  grid-template-rows: 304px 240px 136px 200px 280px 200px 400px 504px; }
+  grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "paragraph" "P" "BO1" "LD1";
+  grid-template-rows: 304px 240px 136px 200px 280px auto 200px 504px 480px; }
   @media (min-width: 456px) {
     #shmGallery > div article ul {
-      grid-template-areas: ". BT BT" "BK BK BO1" "P P BO1" "LO1 LO1 LO1" "S S ." "LBI1 LBI1 LD1";
+      grid-template-areas: "paragraph paragraph ." "BK BK BO1" "BT BT BO1" "P P P" "LO1 LO1 LO1" "S S LD1" "LBI1 LBI1 LD1";
       grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 280px 160px 240px 240px 160px 240px; } }
+      grid-template-rows: auto 160px 224px 240px 240px 160px 240px; } }
   @media (min-width: 768px) {
     #shmGallery > div article ul {
-      grid-template-rows: 280px 160px 240px 304px 160px 304px; } }
+      grid-template-rows: 280px 160px auto 304px 240px 160px 304px; } }
   @media (min-width: 992px) {
     #shmGallery > div article ul {
-      grid-template-areas: "BT BT BT BT . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1";
+      grid-template-areas: "paragraph paragraph paragraph paragraph . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1" "BT BT BT BT BT BT .";
       grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: 304px 240px 304px 240px 304px; } }
+      grid-template-rows: auto 240px 304px 240px 304px 304px; } }
   #shmGallery > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/shm/shmBusTail.jpg");
     background-position: right center;
@@ -1725,97 +1941,102 @@ footer {
     @media (min-width: 992px) {
       #shmGallery > div article ul li:nth-child(8) {
         background-position: 40% 90%; } }
+  #shmGallery > div article ul li:nth-child(9) {
+    grid-area: paragraph; }
+    #shmGallery > div article ul li:nth-child(9) p {
+      width: 100%; }
+
 /* =============
-    SA Hero
+    TPS Hero
 ============= */
-#saHero {
-  background-image: url("../img/case-studies/sa/saHero.jpg"); }
+#tpsHero {
+  background-image: url("../img/case-studies/fender/fenderHero.jpg");
+  background-position: center bottom; }
+
+/* =============
+    TPS Text
+============= */
+#tpsText1 {
+  background-color: #F0F0F0; }
+  #tpsText1 > div article p {
+    margin-bottom: 48px; }
+    @media (min-width: 768px) {
+      #tpsText1 > div article p {
+        margin-bottom: 56px; } }
+    @media (min-width: 992px) {
+      #tpsText1 > div article p {
+        margin-bottom: 64px; } }
+    @media (min-width: 1200px) {
+      #tpsText1 > div article p {
+        margin-bottom: 80px; } }
   @media (min-width: 992px) {
-    #saHero {
-      background-position: center 80%; } }
+    #tpsText1 > div article ul {
+      grid-template-columns: repeat(4, 1fr); } }
+  #tpsText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg"); }
+  #tpsText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg"); }
+  #tpsText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
+    background-position: 20% center; }
+  #tpsText1 > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
+    background-position: 40% center; }
+
 /* =============
-    SA Intro
+    TPS Gallery
 ============= */
-/* =============
-    SA Text
-============= */
-#saText1 {
-  background-color: #19191A;
-  margin-top: 104px;
-  padding-top: 96px; }
-  #saText1 > div article {
-    grid-template-areas: "i" "p"; }
-    @media (min-width: 456px) {
-      #saText1 > div article {
-        grid-template-areas: "p i"; } }
-    #saText1 > div article p {
-      color: #FCFCFC; }
-    #saText1 > div article div {
-      grid-area: i;
-      position: relative; }
-      #saText1 > div article div figure {
-        background-image: url("../img/case-studies/sa/saCover2.png");
-        background-position: left top;
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 304px;
-        overflow-x: scroll;
-        position: absolute;
-        right: 0;
-        top: -168px;
-        width: 288px; }
-        @media (min-width: 456px) {
-          #saText1 > div article div figure {
-            height: 304px;
-            width: 320px; } }
-        @media (min-width: 768px) {
-          #saText1 > div article div figure {
-            height: 336px;
-            left: 400;
-            width: 504px; } }
-        @media (min-width: 992px) {
-          #saText1 > div article div figure {
-            height: 504px;
-            left: 504;
-            width: 520px; } }
-        @media (min-width: 1200px) {
-          #saText1 > div article div figure {
-            height: 520px;
-            left: 504;
-            width: 640px; } }
-/* =============
-    SA Gallery
-============= */
-#saGallery > div article ul {
-  grid-template-areas: "C1" "ToC" "MS" "ISb1" "IS2";
-  grid-template-rows: 240px 224px 200px 200px 224px; }
+#tpsGallery > div article ul {
+  grid-template-areas: "paragraph1" "FFS" "paragraph2" "FSB2" "FSBI2" "FBB1" "FBB2" "FB1" "FB2";
+  grid-template-rows: auto 224px auto 240px 344px 240px 304px 256px 280px; }
   @media (min-width: 456px) {
-    #saGallery > div article ul {
+    #tpsGallery > div article ul {
+      grid-template-areas: "paragraph1 paragraph1 ." "FFS FFS FFS" "paragraph2 paragraph2 ." "FSB2 FSBI2 FSBI2" ". FSBI2 FSBI2" "FBB1 FBB1 ." "FBB2 FBB2 FBB2" "FB1 FB1 ." "FB2 FB2 FB2";
       grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "C1 ToC ToC" "MS MS MS" "ISb1 ISb1 IS2";
-      grid-template-rows: 224px 400px 224px; } }
+      grid-template-rows: auto 320px auto 240px 304px 400px 502px 304px 504px; } }
+  @media (min-width: 768px) {
+    #tpsGallery > div article ul {
+      grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px; } }
   @media (min-width: 992px) {
-    #saGallery > div article ul {
+    #tpsGallery > div article ul {
+      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "FFS FFS FFS FFS FFS FFS FFS" "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2" "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2" "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1" "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1" "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
       grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 . . . ." ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
-      grid-template-rows: 320px 192px 440px 304px; } }
-  #saGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/sa/saCover1.jpg");
-    grid-area: C1;
-    background-position: center 56%; }
-  #saGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/sa/saToC.jpg");
-    grid-area: ToC;
-    background-position: 32% center; }
-  #saGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/sa/saMainSpread.jpg");
-    grid-area: MS;
-    background-position: 32% center; }
-  #saGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/sa/saInsideSpread1b.jpg");
-    grid-area: ISb1;
-    background-position: 88% center; }
-  #saGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
-    grid-area: IS2;
-    background-position: 64% center; }
+      grid-template-rows: auto 680px 200px auto 104px 280px 480px; } }
+  #tpsGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/fender/fenderFullSet.jpg");
+    grid-area: FFS; }
+    @media (min-width: 456px) {
+      #tpsGallery > div article ul li:nth-child(1) {
+        background-position: 100% center; } }
+    @media (min-width: 992px) {
+      #tpsGallery > div article ul li:nth-child(1) {
+        background-position: 80% center; } }
+    @media (min-width: 1200px) {
+      #tpsGallery > div article ul li:nth-child(1) {
+        background-position: 100% center; } }
+  #tpsGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/fender/fenderSmallBox2.jpg");
+    grid-area: FSB2; }
+  #tpsGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/fender/fenderSmallBoxInside2.jpg");
+    grid-area: FSBI2; }
+  #tpsGallery > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/fender/fenderBigBox1.jpg");
+    grid-area: FBB1; }
+  #tpsGallery > div article ul li:nth-child(5) {
+    background-image: url("../img/case-studies/fender/fenderBigBox2.jpg");
+    grid-area: FBB2; }
+  #tpsGallery > div article ul li:nth-child(6) {
+    background-image: url("../img/case-studies/fender/fenderBag1.jpg");
+    grid-area: FB1; }
+  #tpsGallery > div article ul li:nth-child(7) {
+    background-image: url("../img/case-studies/fender/fenderBag2.jpg");
+    grid-area: FB2; }
+  #tpsGallery > div article ul li:nth-child(8) {
+    grid-area: paragraph1; }
+    #tpsGallery > div article ul li:nth-child(8) p {
+      width: 100%; }
+  #tpsGallery > div article ul li:nth-child(9) {
+    grid-area: paragraph2; }
+    #tpsGallery > div article ul li:nth-child(9) p {
+      width: 100%; }

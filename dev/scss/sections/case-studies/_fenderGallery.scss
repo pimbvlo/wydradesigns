@@ -1,0 +1,110 @@
+/* =============
+    FENDER Gallery
+============= */
+#fenderGallery {
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas:
+                "paragraph1"
+                "FFS"
+                "paragraph2"
+                "FSB2"
+                "FSBI2"
+                "FBB1"
+                "FBB2"
+                "FB1"
+                "FB2";
+                grid-template-rows: auto 224px auto 240px 344px 240px 304px 256px 280px;
+                @include sm {
+                    grid-template-areas:
+                    "paragraph1 paragraph1 ."
+                    "FFS FFS FFS" "paragraph2 paragraph2 ."
+                    "FSB2 FSBI2 FSBI2"
+                    ". FSBI2 FSBI2"
+                    "FBB1 FBB1 ."
+                    "FBB2 FBB2 FBB2"
+                    "FB1 FB1 ."
+                    "FB2 FB2 FB2";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: auto 320px auto 240px 304px 400px 502px 304px 504px;
+                }
+                @include md {
+                    grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px;
+                }
+                @include lg {
+                    grid-template-areas:
+                    "paragraph1 paragraph1 paragraph1 paragraph1 . . ."
+                    "FFS FFS FFS FFS FFS FFS FFS"
+                    "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2"
+                    "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2"
+                    "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1"
+                    "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1"
+                    "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-rows: auto 680px 200px auto 104px 280px 480px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/fender/fenderFullSet.jpg");
+                    grid-area: FFS;
+                    @include sm{
+                        background-position: 100% center;
+                    }
+                    @include lg{
+                        background-position: 80% center;
+                    }
+                    @include xl{
+                        background-position: 100% center;
+                    }
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/fender/fenderSmallBox2.jpg");
+                    grid-area: FSB2;
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/fender/fenderSmallBoxInside2.jpg");
+                    grid-area: FSBI2;
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/fender/fenderBigBox1.jpg");
+                    grid-area: FBB1;
+                }
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/fender/fenderBigBox2.jpg");
+                    grid-area: FBB2;
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/fender/fenderBag1.jpg");
+                    grid-area: FB1;
+                }
+
+                li:nth-child(7) {
+                    background-image: url("../img/case-studies/fender/fenderBag2.jpg");
+                    grid-area: FB2;
+                }
+
+                li:nth-child(8){
+                    grid-area: paragraph1;
+                    p{
+                        width: 100%;
+                    }
+                }
+                li:nth-child(9){
+                    grid-area: paragraph2;
+                    p{
+                        width: 100%;
+                    }
+                }
+            }
+
+            div {}
+        }
+    }
+}

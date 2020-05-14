@@ -7,24 +7,29 @@
             h2 {}
 
             ul {
-                grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "ACTD" "AFO";
-                grid-template-rows: 200px 504px 224px 144px 168px 224px;
+                grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "paragraph ""ACTD" "AFO";
+                grid-template-rows: 200px 504px 224px 144px auto 168px 224px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
                     grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ."
-                    "AntiDD AntiDD AntiDD"
+                    ". AntiDD AntiDD"
+                    "paragraph paragraph paragraph"
                     ". ACTD ACTD"
                     "AFO AFO AFO";
-                    grid-template-rows: 304px 80px 120px 104px 240px 200px 384px;
+                    grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px;
                 }
                 @include md {
-                    grid-template-rows: 344px 80px 144px 104px 240px 224px 400px;
+                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD"
+                    "paragraph paragraph ."
+                    ". ACTD ACTD"
+                    "AFO AFO AFO";
+                    grid-template-rows: 304px 72px 80px 104px auto 176px 384px;
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas: "ACF ACF ACF ACF ACF . ." ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ."
+                    grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ."
                     "AFO AFO AFO AFO AFO AFO AFO";
-                    grid-template-rows: 504px 320px 304px 240px 640px;
+                    grid-template-rows: 400px 320px 304px 240px 640px;
                 }
 
                 li:nth-child(1) {
@@ -67,6 +72,13 @@
                         background-position: center 90%;
                     }
                 }
+                li:nth-child(7){
+                    grid-area: paragraph;
+                    p{
+                        width: 100%;
+                    }
+                }
+
             }
 
             div {}

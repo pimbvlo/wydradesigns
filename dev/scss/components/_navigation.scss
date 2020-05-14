@@ -3,7 +3,7 @@
 ============= */
 #sm-nav {
     position: fixed;
-    top: 80px;
+    top: 104px;
     width: 100%;
     z-index: 950;
     @include lg {
@@ -23,14 +23,13 @@
                 transition: 0.25s;
                 width: 100%;
                 text-align: right;
-                @include margin(0px, 0px, 24px, 0);
+                @include margin(0px, 0px, 32px, 0);
                 @include dark {
                     color: $white;
                 }
 
                 a {
                     color: $purple;
-                    @include padding(10px, 0px, 10px, 0);
                     text-decoration: none;
                     transition: 0.25s;
                     font-weight: 600;
@@ -58,7 +57,9 @@
         }
 
         li:nth-last-child(1) {
-            @include margin(null,null,0px,null);
+            h6{
+                @include margin(null,null,0px,null);
+            }
         }
     }
 }

@@ -35,6 +35,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/Fender.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Fender.html",
+		"oF": 0
+		},
 	"/deploy/img/about/Hero.jpg": {
 		"ft": 16384,
 		"iS": 1489233,
@@ -217,6 +225,226 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/anti/antiQuarterOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderBag1.jpg": {
+		"ft": 16384,
+		"iS": 513950,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderBag1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderBag2.jpg": {
+		"ft": 16384,
+		"iS": 552826,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderBag2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderBigBox1.jpg": {
+		"ft": 16384,
+		"iS": 464107,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderBigBox1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderBigBox2.jpg": {
+		"ft": 16384,
+		"iS": 611782,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderBigBox2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderFullSet.jpg": {
+		"ft": 16384,
+		"iS": 371097,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderFullSet.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderHero.jpg": {
+		"ft": 16384,
+		"iS": 629716,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderInspiration1.jpg": {
+		"ft": 16384,
+		"iS": 1326944,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderInspiration1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderInspiration2.jpg": {
+		"ft": 16384,
+		"iS": 900720,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderInspiration2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderInspiration3.jpg": {
+		"ft": 16384,
+		"iS": 600787,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderInspiration3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderInspiration4.jpg": {
+		"ft": 16384,
+		"iS": 477602,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderInspiration4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderInspiration5.jpg": {
+		"ft": 16384,
+		"iS": 1034603,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderInspiration5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderProgressBag.jpg": {
+		"ft": 16384,
+		"iS": 391996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderProgressBag.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderProgressBigBox.jpg": {
+		"ft": 16384,
+		"iS": 400928,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderProgressBigBox.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderProgressSmallBox.jpg": {
+		"ft": 16384,
+		"iS": 358146,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderProgressSmallBox.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBox1.jpg": {
+		"ft": 16384,
+		"iS": 340693,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBox1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBox2.jpg": {
+		"ft": 16384,
+		"iS": 326386,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBox2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBox3.jpg": {
+		"ft": 16384,
+		"iS": 295836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBox3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBox4.jpg": {
+		"ft": 16384,
+		"iS": 320126,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBox4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBoxInside1.jpg": {
+		"ft": 16384,
+		"iS": 387663,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBoxInside1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/fender/fenderSmallBoxInside2.jpg": {
+		"ft": 16384,
+		"iS": 533785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/fender/fenderSmallBoxInside2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1096,6 +1324,14 @@
 		"oAP": "/deploy/ScienceHistoryMuseum.html",
 		"oF": 0
 		},
+	"/deploy/ThePhiladelphiaSchool.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ThePhiladelphiaSchool.html",
+		"oF": 0
+		},
 	"/dev/about.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1160,6 +1396,30 @@
 		"oAP": "/dev/case-studies/anti/antiText1.html",
 		"oF": 0
 		},
+	"/dev/case-studies/fender/fenderGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/fender/fenderGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/fender/fenderHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/fender/fenderHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/fender/fenderText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/fender/fenderText1.html",
+		"oF": 0
+		},
 	"/dev/case-studies/qv/qvGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1174,14 +1434,6 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/qv/qvHero.html",
-		"oF": 0
-		},
-	"/dev/case-studies/qv/qvIntro.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/case-studies/qv/qvIntro.html",
 		"oF": 0
 		},
 	"/dev/case-studies/qv/qvText1.kit": {
@@ -1208,14 +1460,6 @@
 		"oAP": "/dev/case-studies/sa/saHero.html",
 		"oF": 0
 		},
-	"/dev/case-studies/sa/saIntro.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/case-studies/sa/saIntro.html",
-		"oF": 0
-		},
 	"/dev/case-studies/sa/saText1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1240,14 +1484,6 @@
 		"oAP": "/dev/case-studies/shm/shmHero.html",
 		"oF": 0
 		},
-	"/dev/case-studies/shm/shmIntro.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/case-studies/shm/shmIntro.html",
-		"oF": 0
-		},
 	"/dev/case-studies/shm/shmText1.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1256,20 +1492,52 @@
 		"oAP": "/dev/case-studies/shm/shmText1.html",
 		"oF": 0
 		},
-	"/dev/case-studies/shm/shmText2.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 1,
-		"oAP": "/dev/case-studies/shm/shmText2.html",
-		"oF": 0
-		},
 	"/dev/case-studies/shm/shmText3.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/shm/shmText3.html",
+		"oF": 0
+		},
+	"/dev/case-studies/tps/tpsGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/tps/tpsGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/tps/tpsHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/tps/tpsHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/tps/tpsText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/tps/tpsText1.html",
+		"oF": 0
+		},
+	"/dev/Fender.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Fender.html",
+		"oF": 2
+		},
+	"/dev/global/csFooter.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/csFooter.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {
@@ -1543,6 +1811,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/layout/_csFooter.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/layout/_csFooter.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1647,6 +1928,45 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_fenderGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_fenderGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_fenderHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_fenderHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_fenderText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_fenderText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/case-studies/_qvGallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1669,19 +1989,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_qvHero.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
-	"/dev/scss/sections/case-studies/_qvIntro.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/case-studies/_qvIntro.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1725,19 +2032,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/case-studies/_saIntro.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/case-studies/_saIntro.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/dev/scss/sections/case-studies/_saText1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1777,19 +2071,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/case-studies/_shmIntro.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/case-studies/_shmIntro.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/dev/scss/sections/case-studies/_shmText1.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1803,19 +2084,6 @@
 		"oS": 0,
 		"sct": 1
 		},
-	"/dev/scss/sections/case-studies/_shmText2.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"ec": 1,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/dev/scss/sections/case-studies/_shmText2.css",
-		"oF": 0,
-		"oS": 0,
-		"sct": 1
-		},
 	"/dev/scss/sections/case-studies/_shmText3.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1825,6 +2093,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_shmText3.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_tpsGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_tpsGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_tpsHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_tpsHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_tpsText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_tpsText1.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -1880,6 +2187,14 @@
 		"oF": 2,
 		"oS": 0,
 		"sct": 1
+		},
+	"/dev/ThePhiladelphiaSchool.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/ThePhiladelphiaSchool.html",
+		"oF": 2
 		}
 	},
 "hooks": [

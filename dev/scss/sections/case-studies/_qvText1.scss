@@ -2,13 +2,12 @@
     QV Text
 ============= */
 #qvText1 {
-    background-color: $grey-dark;
+    background-color: $off-white;
 
     > div {
         article {
 
             p {
-                color: $white;
                 @include margin(null,null,40px,null);
                 @include lg {
                     @include margin(null,null,56px,null);

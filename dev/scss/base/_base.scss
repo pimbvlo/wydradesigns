@@ -39,9 +39,9 @@ ul {
 }
 
 .section-padding {
-    padding: 56px 0;
+    padding: 64px 0;
     @include md {
-        padding: 64px 0;
+        padding: 72px 0;
     }
     @include lg {
         padding: 80px 0;
@@ -52,9 +52,9 @@ ul {
 }
 
 .section-margin {
-    margin: 56px 0;
+    margin: 64px 0;
     @include md {
-        margin: 64px 0;
+        margin: 72px 0;
     }
     @include lg {
         margin: 80px 0;
@@ -208,23 +208,7 @@ ul {
             grid-gap: 16px;
             display: grid;
             grid-template-columns: repeat(1,1fr);
-            grid-template-areas: "h" "g" "b";
-            @include sm {
-                grid-template-columns: repeat(3,1fr);
-                grid-template-areas: "h h ." "g g g" "b b .";
-            }
-            @include md {
-                grid-gap: 24px;
-                grid-template-areas: "h . ." "g g g" "b b .";
-            }
-            @include lg {
-                grid-template-columns: repeat(5,1fr);
-                grid-template-areas: "h h . . ." "g g g g g" "b b . . .";
-            }
-
-            h2 {
-                grid-area: h;
-            }
+            grid-template-areas: "g";
 
             ul {
                 grid-area: g;
@@ -247,14 +231,6 @@ ul {
                 }
             }
 
-            div {
-                grid-area: b;
-                width: 100%;
-
-                a {
-                    width: 100%;
-                }
-            }
         }
     }
 }

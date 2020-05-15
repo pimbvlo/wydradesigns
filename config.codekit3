@@ -35,6 +35,14 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/deploy/default.asp": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/default.asp",
+		"oF": 0
+		},
 	"/deploy/Fender.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1439,6 +1447,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/ThePhiladelphiaSchool.html",
+		"oF": 0
+		},
+	"/deploy/wydradesigns.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/wydradesigns.htaccess",
 		"oF": 0
 		},
 	"/dev/about.kit": {

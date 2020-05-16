@@ -594,30 +594,75 @@ a {
   color: #FF964C;
   transition: 0.25s; }
 
+.resume h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 1.875rem;
+  margin-bottom: 4px;
+  text-transform: capitalize; }
+
+.resume h2 {
+  font-size: 1.125rem;
+  font-weight: 700;
+  letter-spacing: 0.00625rem;
+  line-height: 1.5rem;
+  color: #6613CE;
+  text-transform: uppercase;
+  margin-bottom: 20px; }
+
+.resume h3 {
+  font-size: 1rem;
+  color: #19191A;
+  line-height: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 0.005rem;
+  opacity: 0.75; }
+
+.resume h4 {
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.0025rem;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+  margin-bottom: 4px; }
+
+.resume p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  margin-bottom: 8px; }
+  .resume p span {
+    color: #0D001E;
+    font-weight: 600; }
+
+.resume p:last-of-type {
+  margin-bottom: 0px; }
+
 /* =============
     Buttons
 ============= */
 .btn {
-  display: flex;
   align-items: center;
-  justify-content: center;
   border-radius: 100px;
-  width: 100%;
   box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-  transition: 0.2s ease-in-out; }
+  display: flex;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  width: 100%; }
   .btn > a {
     padding-bottom: 12px;
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 12px;
-    display: flex;
     align-items: center;
-    justify-content: center;
+    color: #FCFCFC;
+    display: flex;
     font-size: 1.5rem;
     font-weight: 600;
-    color: #FCFCFC;
-    width: 100%;
-    text-transform: uppercase; }
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%; }
     @media (min-width: 768px) {
       .btn > a {
         padding-bottom: 16px;
@@ -627,37 +672,40 @@ a {
     .btn > a i {
       font-size: 1.5rem; }
 
-.btn:link > a, .btn:visited > a {
+.btn:link > a,
+.btn:visited > a {
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
   padding-top: 12px;
-  display: flex;
   align-items: center;
-  justify-content: center;
+  color: #FCFCFC;
+  display: flex;
   font-size: 1.5rem;
   font-weight: 600;
-  color: #FCFCFC;
-  width: 100%;
+  justify-content: center;
   text-transform: uppercase;
-  transition: 0.2s ease-in-out; }
+  transition: 0.2s ease-in-out;
+  width: 100%; }
   @media (min-width: 768px) {
-    .btn:link > a, .btn:visited > a {
+    .btn:link > a,
+    .btn:visited > a {
       padding-bottom: 16px;
       padding-left: 24px;
       padding-right: 24px;
       padding-top: 16px; } }
-  .btn:link > a i, .btn:visited > a i {
-    transition: 0.2s ease-in-out;
-    font-size: 1.5rem; }
+  .btn:link > a i,
+  .btn:visited > a i {
+    font-size: 1.5rem;
+    transition: 0.2s ease-in-out; }
 
 .btn:hover {
   box-shadow: none;
   transform: translate(0px, 4px) scale(0.98);
   transition: 0.2s ease-in-out; }
   .btn:hover > a i {
-    transition: 0.2s ease-in-out;
-    transform: translate(-200%, 0px) scale(2); }
+    transform: translate(-200%, 0px) scale(2);
+    transition: 0.2s ease-in-out; }
     @media (min-width: 768px) {
       .btn:hover > a i {
         transform: translate(-400%, 0px) scale(2); } }
@@ -690,6 +738,10 @@ a {
 
 .btn-purple:active {
   background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
+
+.resume .btn:hover > a i {
+  transform: translate(0px, 0px) scale(1);
+  transition: 0.2s ease-in-out; }
 
 /* =============
     Forms
@@ -1426,6 +1478,270 @@ footer {
   @media (min-width: 992px) {
     #aboutWho > div article figure:hover {
       background-image: url("../img/about/SWydra_Personality.jpg"); } }
+/* =============
+    Resume Education
+============= */
+#resumeEducation {
+  background-color: #F0F0F0; }
+  #resumeEducation > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "btn" "edu"; }
+    #resumeEducation > div aside {
+      grid-area: btn;
+      grid-gap: 0px 16px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: "b";
+      padding-bottom: 64px;
+      padding-top: 72px; }
+      @media (min-width: 456px) {
+        #resumeEducation > div aside {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-areas: "b b ."; } }
+      @media (min-width: 768px) {
+        #resumeEducation > div aside {
+          grid-gap: 0px 24px;
+          padding-bottom: 72px; } }
+      @media (min-width: 992px) {
+        #resumeEducation > div aside {
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-areas: "b b . . .";
+          padding-bottom: 80px;
+          padding-top: 80px;
+          grid-gap: 0px 32px; } }
+      @media (min-width: 1200px) {
+        #resumeEducation > div aside {
+          padding-bottom: 96px; } }
+      #resumeEducation > div aside div {
+        grid-area: b;
+        width: 100%; }
+        #resumeEducation > div aside div a {
+          width: 100%; }
+    #resumeEducation > div article {
+      grid-area: edu; }
+      @media (min-width: 992px) {
+        #resumeEducation > div article {
+          width: 75%; } }
+/* =============
+    Resume Honors
+============= */
+#resumeHonors > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "h&a"; }
+  @media (min-width: 992px) {
+    #resumeHonors > div {
+      width: 75%; } }
+  #resumeHonors > div article {
+    grid-area: h #resumeHonors > div article a; }
+
+/* =============
+    Resume Courses
+============= */
+#resumeCourses {
+  background-color: #F0F0F0; }
+  #resumeCourses > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "rc"; }
+    @media (min-width: 992px) {
+      #resumeCourses > div {
+        width: 75%; } }
+    #resumeCourses > div article {
+      grid-area: rc; }
+      #resumeCourses > div article div {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-areas: "h2" "ul1" "ul2"; }
+        @media (min-width: 768px) {
+          #resumeCourses > div article div {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-areas: "h2 h2" "ul1 ul2";
+            grid-gap: 0px 24px; } }
+        @media (min-width: 992px) {
+          #resumeCourses > div article div {
+            grid-gap: 0 32px; } }
+        #resumeCourses > div article div h2 {
+          grid-area: h2; }
+        #resumeCourses > div article div ul li p:last-of-type {
+          margin-bottom: 8px; }
+        #resumeCourses > div article div ul li:last-of-type p:last-of-type {
+          margin-bottom: 0px; }
+        #resumeCourses > div article div ul:nth-child(2) {
+          grid-area: ul1;
+          margin-bottom: 8px; }
+          @media (min-width: 768px) {
+            #resumeCourses > div article div ul:nth-child(2) {
+              margin-bottom: 0px; } }
+        #resumeCourses > div article div ul:nth-child(3) {
+          grid-area: ul2; }
+
+/* =============
+    Resume Experience
+============= */
+#resumeExperience > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "h2" "Pfizer" "Pilam"; }
+  @media (min-width: 992px) {
+    #resumeExperience > div {
+      width: 75%; } }
+  #resumeExperience > div h2 {
+    grid-area: h2; }
+  #resumeExperience > div article {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 768px) {
+      #resumeExperience > div article {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 0 24px; } }
+    @media (min-width: 992px) {
+      #resumeExperience > div article {
+        grid-gap: 0 32px; } }
+    #resumeExperience > div article > div:nth-child(1) {
+      margin-bottom: 24px; }
+      @media (min-width: 768px) {
+        #resumeExperience > div article > div:nth-child(1) {
+          grid-column: span 2; } }
+    #resumeExperience > div article div:nth-child(2),
+    #resumeExperience > div article div:nth-child(3),
+    #resumeExperience > div article div:nth-child(4) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: "h4" "h3" "ul1";
+      margin-bottom: 16px; }
+      @media (min-width: 768px) {
+        #resumeExperience > div article div:nth-child(2),
+        #resumeExperience > div article div:nth-child(3),
+        #resumeExperience > div article div:nth-child(4) {
+          margin-bottom: auto; } }
+      #resumeExperience > div article div:nth-child(2) h4,
+      #resumeExperience > div article div:nth-child(3) h4,
+      #resumeExperience > div article div:nth-child(4) h4 {
+        grid-area: h4;
+        margin-bottom: 4px; }
+      #resumeExperience > div article div:nth-child(2) h3,
+      #resumeExperience > div article div:nth-child(3) h3,
+      #resumeExperience > div article div:nth-child(4) h3 {
+        grid-area: h3;
+        margin-bottom: 16px; }
+      #resumeExperience > div article div:nth-child(2) ul li p:last-of-type,
+      #resumeExperience > div article div:nth-child(3) ul li p:last-of-type,
+      #resumeExperience > div article div:nth-child(4) ul li p:last-of-type {
+        margin-bottom: 8px; }
+      #resumeExperience > div article div:nth-child(2) ul li:last-of-type p:last-of-type,
+      #resumeExperience > div article div:nth-child(3) ul li:last-of-type p:last-of-type,
+      #resumeExperience > div article div:nth-child(4) ul li:last-of-type p:last-of-type {
+        margin-bottom: 0px; }
+      #resumeExperience > div article div:nth-child(2) ul:nth-child(3),
+      #resumeExperience > div article div:nth-child(3) ul:nth-child(3),
+      #resumeExperience > div article div:nth-child(4) ul:nth-child(3) {
+        grid-area: ul1; }
+  #resumeExperience > div article:nth-child(2) {
+    grid-area: Pfizer;
+    margin-bottom: 32px; }
+  #resumeExperience > div article:nth-child(3) {
+    grid-area: Pilam; }
+    #resumeExperience > div article:nth-child(3) div:last-of-type {
+      margin-bottom: 0px; }
+
+/* =============
+    Resume Activities
+============= */
+#resumeActivities {
+  background-color: #F0F0F0; }
+  #resumeActivities > div {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "activities"; }
+    @media (min-width: 992px) {
+      #resumeActivities > div {
+        width: 75%; } }
+    #resumeActivities > div article {
+      grid-area: activities; }
+
+/* =============
+    Resume Skills
+============= */
+#resumeSkills > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "h2" "skills"; }
+  @media (min-width: 992px) {
+    #resumeSkills > div {
+      width: 75%; } }
+  #resumeSkills > div h2 {
+    grid-area: h2; }
+  #resumeSkills > div article {
+    grid-area: skills;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-flow: column;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 16px 0px; }
+    @media (min-width: 768px) {
+      #resumeSkills > div article {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 16px 24px;
+        grid-template-rows: auto auto; } }
+    @media (min-width: 992px) {
+      #resumeSkills > div article {
+        grid-gap: 16px 32px; } }
+    #resumeSkills > div article div:nth-child(1),
+    #resumeSkills > div article div:nth-child(2),
+    #resumeSkills > div article div:nth-child(3),
+    #resumeSkills > div article div:nth-child(4) {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: "h4" "ul1"; }
+      @media (min-width: 768px) {
+        #resumeSkills > div article div:nth-child(1),
+        #resumeSkills > div article div:nth-child(2),
+        #resumeSkills > div article div:nth-child(3),
+        #resumeSkills > div article div:nth-child(4) {
+          margin-bottom: auto; } }
+      #resumeSkills > div article div:nth-child(1) h4,
+      #resumeSkills > div article div:nth-child(2) h4,
+      #resumeSkills > div article div:nth-child(3) h4,
+      #resumeSkills > div article div:nth-child(4) h4 {
+        grid-area: h4;
+        margin-bottom: 4px; }
+      #resumeSkills > div article div:nth-child(1) ul,
+      #resumeSkills > div article div:nth-child(2) ul,
+      #resumeSkills > div article div:nth-child(3) ul,
+      #resumeSkills > div article div:nth-child(4) ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-flow: column;
+        grid-gap: 0 16px; }
+        @media (min-width: 768px) {
+          #resumeSkills > div article div:nth-child(1) ul,
+          #resumeSkills > div article div:nth-child(2) ul,
+          #resumeSkills > div article div:nth-child(3) ul,
+          #resumeSkills > div article div:nth-child(4) ul {
+            grid-template-columns: 40% auto; } }
+        @media (min-width: 992px) {
+          #resumeSkills > div article div:nth-child(1) ul,
+          #resumeSkills > div article div:nth-child(2) ul,
+          #resumeSkills > div article div:nth-child(3) ul,
+          #resumeSkills > div article div:nth-child(4) ul {
+            grid-template-columns: 24% auto; } }
+      #resumeSkills > div article div:nth-child(1) ul:nth-child(2),
+      #resumeSkills > div article div:nth-child(2) ul:nth-child(2),
+      #resumeSkills > div article div:nth-child(3) ul:nth-child(2),
+      #resumeSkills > div article div:nth-child(4) ul:nth-child(2) {
+        grid-area: ul1; }
+    #resumeSkills > div article div:nth-child(1) ul {
+      grid-template-rows: repeat(4, 1fr); }
+    #resumeSkills > div article div:nth-child(2) ul,
+    #resumeSkills > div article div:nth-child(4) ul {
+      grid-template-rows: repeat(3, 1fr); }
+    #resumeSkills > div article div:nth-child(3) ul {
+      grid-template-rows: repeat(2, 1fr); }
+    #resumeSkills > div article div:last-of-type {
+      margin-bottom: 0px; }
+
 /* =============
     ANTI Hero
 ============= */

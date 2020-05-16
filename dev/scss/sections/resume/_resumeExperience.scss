@@ -1,0 +1,92 @@
+/* =============
+    Resume Experience
+============= */
+#resumeExperience {
+    > div {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: "h2" "Pfizer" "Pilam";
+        @include lg{
+            width: 75%;
+
+        }
+
+
+        h2 {
+            grid-area: h2;
+        }
+
+        article {
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            @include md {
+                grid-template-columns: repeat(2,1fr);
+                grid-gap: 0 24px;
+            }
+            @include lg{
+                grid-gap: 0 32px;
+
+            }
+
+            > div:nth-child(1) {
+                @include margin(null,null,24px,null);
+                @include md {
+                    grid-column: span 2;
+                }
+            }
+
+            div:nth-child(2),
+            div:nth-child(3),
+            div:nth-child(4) {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-template-areas: "h4" "h3" "ul1";
+                @include margin(null,null,16px,null);
+                @include md{
+                    @include margin(null,null,auto,null);
+
+                }
+                h4 {
+                    grid-area: h4;
+                    @include margin(null,null,4px,null);
+                }
+
+                h3 {
+                    grid-area: h3;
+                    @include margin(null,null,16px,null);
+                }
+
+                ul {
+                    li {
+                        p:last-of-type {
+                            @include margin(null,null,8px,null);
+                        }
+                    }
+
+                    li:last-of-type {
+                        p:last-of-type {
+                            @include margin(null,null,0px,null);
+                        }
+                    }
+                }
+
+                ul:nth-child(3) {
+                    grid-area: ul1;
+                }
+            }
+        }
+
+        article:nth-child(2) {
+            grid-area: Pfizer;
+            @include margin(null,null,32px,null);
+        }
+
+        article:nth-child(3) {
+            grid-area: Pilam;
+
+            div:last-of-type {
+                @include margin(null,null,0px,null);
+            }
+        }
+    }
+}

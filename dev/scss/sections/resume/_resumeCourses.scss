@@ -1,0 +1,66 @@
+/* =============
+    Resume Courses
+============= */
+#resumeCourses {
+    background-color: $off-white;
+
+    > div {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-template-areas: "rc";
+        @include lg{
+            width: 75%;
+
+        }
+
+
+        article {
+            grid-area: rc;
+
+            div {
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                grid-template-areas: "h2" "ul1" "ul2";
+                @include md{
+                    grid-template-columns: repeat(2,1fr);
+                    grid-template-areas: "h2 h2" "ul1 ul2";
+                    grid-gap: 0px 24px;
+
+                }
+                @include lg{
+                    grid-gap: 0 32px;
+
+                }
+                h2 {
+                    grid-area: h2;
+                }
+
+                ul {
+                    li {
+                        p:last-of-type {
+                            @include margin(null,null,8px,null);
+                        }
+                    }
+
+                    li:last-of-type {
+                        p:last-of-type {
+                            @include margin(null,null,0px,null);
+                        }
+                    }
+                }
+                ul:nth-child(2){
+                    grid-area: ul1;
+                    @include margin(null,null,8px,null);
+                    @include md{
+                        @include margin(null,null,0px,null);
+
+                    }
+
+                }
+                ul:nth-child(3){
+                    grid-area: ul2;
+                }
+            }
+        }
+    }
+}

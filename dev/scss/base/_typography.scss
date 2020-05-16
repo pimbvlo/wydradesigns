@@ -102,3 +102,63 @@ a{
     color: $orange;
     transition: 0.25s;
 }
+
+.resume{
+
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: rem-calc(24);
+        font-weight: 800;
+        line-height: rem-calc(30);
+        @include margin(null,null,4px,null);
+        text-transform: capitalize;
+
+
+    }
+
+    h2 {
+        font-size: rem-calc(18);
+        font-weight: 700;
+        letter-spacing: rem-calc(0.1);
+        line-height: rem-calc(24);
+        color: $purple;
+        text-transform: uppercase;
+        @include margin(null,null,20px,null);
+    }
+
+    h3 {
+        font-size: rem-calc(16);
+        color: $grey-dark;
+        line-height: rem-calc(24);
+        font-weight: 500;
+        letter-spacing: rem-calc(0.08);
+        opacity: 0.75;
+    }
+
+    h4{
+        font-size: rem-calc(16);
+        font-weight: 700;
+        letter-spacing: rem-calc(0.04);
+        line-height: rem-calc(24);
+        text-transform: uppercase;
+        @include margin(null,null,4px,null);
+
+
+    }
+
+    p {
+        font-size: rem-calc(16);
+        font-weight: 400;
+        line-height: rem-calc(24);
+        @include margin(null,null,8px,null);
+
+        span {
+            color: $dark-purple;
+            font-weight: 600;
+        }
+    }
+    p:last-of-type{
+        @include margin(null,null,0px,null);
+
+    }
+}

@@ -51,6 +51,14 @@
 		"oAP": "/deploy/Fender.html",
 		"oF": 0
 		},
+	"/deploy/IceCreamMuseum.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/IceCreamMuseum.html",
+		"oF": 0
+		},
 	"/deploy/img/about/Hero.jpg": {
 		"ft": 16384,
 		"iS": 1489233,
@@ -233,6 +241,50 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/anti/antiQuarterOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bookcovers/bcCrawdads.jpg": {
+		"ft": 16384,
+		"iS": 222207,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bookcovers/bcCrawdads.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bookcovers/bcGreatGatsby.jpg": {
+		"ft": 16384,
+		"iS": 179238,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bookcovers/bcGreatGatsby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/cl/clPoster.jpg": {
+		"ft": 16384,
+		"iS": 296719,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/cl/clPoster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/cl/clPosterMockup.jpg": {
+		"ft": 16384,
+		"iS": 791480,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/cl/clPosterMockup.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -458,6 +510,178 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/icm/icmAbstract.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmAbstract.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmButtonPins.jpg": {
+		"ft": 16384,
+		"iS": 471116,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmButtonPins.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmCombo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmCombo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmHero.jpg": {
+		"ft": 16384,
+		"iS": 277220,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmLettered.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmLettered.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmLogoEdit.jpg": {
+		"ft": 16384,
+		"iS": 435916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmLogoEdit.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmLogoEdit1.jpg": {
+		"ft": 16384,
+		"iS": 707192,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmLogoEdit1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmLogoEdit2.jpg": {
+		"ft": 16384,
+		"iS": 843278,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmLogoEdit2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmPictographic.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmPictographic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmPresentationLayout.jpg": {
+		"ft": 16384,
+		"iS": 584982,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmPresentationLayout.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmStationaryMockup.jpg": {
+		"ft": 16384,
+		"iS": 323319,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmStationaryMockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/icm/icmWordList2.jpg": {
+		"ft": 16384,
+		"iS": 472902,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/icm/icmWordList2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/on/onPoster.jpg": {
+		"ft": 16384,
+		"iS": 354166,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/on/onPoster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/on/onPosterMockup.jpg": {
+		"ft": 16384,
+		"iS": 1074752,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/on/onPosterMockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/on/onProcess1.jpg": {
+		"ft": 16384,
+		"iS": 544495,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/on/onProcess1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/on/onProcess2.jpg": {
+		"ft": 16384,
+		"iS": 577246,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/on/onProcess2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/qv/qvBrochureDetail1.jpg": {
 		"ft": 16384,
 		"iS": 606505,
@@ -678,6 +902,88 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/sb/sbCaptionBox1.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox1.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbCaptionBox2.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox2.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbCaptionBox3.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox3.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbCaptionBox4.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox4.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbCaptionBox5.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox5.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbCaptionBox6.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/sb/sbCaptionBox6.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/sb/sbPoster.jpg": {
+		"ft": 16384,
+		"iS": 697820,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sb/sbPoster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sb/sbPosterMockup.jpg": {
+		"ft": 16384,
+		"iS": 1261508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sb/sbPosterMockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/shm/shmBrochureCover1.jpg": {
 		"ft": 16384,
 		"iS": 556805,
@@ -886,6 +1192,256 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/case-studies/soa/soaBobby.jpg": {
+		"ft": 16384,
+		"iS": 451441,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaBobby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaGemma.jpg": {
+		"ft": 16384,
+		"iS": 125814,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaGemma.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaJax.jpg": {
+		"ft": 16384,
+		"iS": 480189,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaJax.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest1.jpg": {
+		"ft": 16384,
+		"iS": 624542,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest2.jpg": {
+		"ft": 16384,
+		"iS": 338419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest3.jpg": {
+		"ft": 16384,
+		"iS": 184316,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest4.jpg": {
+		"ft": 16384,
+		"iS": 229367,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest5.jpg": {
+		"ft": 16384,
+		"iS": 207518,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTest6.jpg": {
+		"ft": 16384,
+		"iS": 742476,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTest6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTheme.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTheme.mp4",
+		"oF": 0
+		},
+	"/deploy/img/case-studies/soa/soaTimeline1.jpg": {
+		"ft": 16384,
+		"iS": 357728,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline2.jpg": {
+		"ft": 16384,
+		"iS": 436053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline3.jpg": {
+		"ft": 16384,
+		"iS": 441880,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline4.jpg": {
+		"ft": 16384,
+		"iS": 516760,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline5.jpg": {
+		"ft": 16384,
+		"iS": 492601,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline6.jpg": {
+		"ft": 16384,
+		"iS": 505616,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/soa/soaTimeline7.jpg": {
+		"ft": 16384,
+		"iS": 318026,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaTimeline7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolCoverStack.jpg": {
+		"ft": 16384,
+		"iS": 705473,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolCoverStack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolInside.jpg": {
+		"ft": 16384,
+		"iS": 853075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolInside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolInsideMap.jpg": {
+		"ft": 16384,
+		"iS": 678916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolInsideMap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolOutsideBack.jpg": {
+		"ft": 16384,
+		"iS": 651494,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolOutsideBack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/TOLProcess.jpg": {
+		"ft": 16384,
+		"iS": 730523,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolProcess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolStack.jpg": {
+		"ft": 16384,
+		"iS": 645077,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolStack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/tps/tpsBrochureCover.jpg": {
 		"ft": 16384,
 		"iS": 163244,
@@ -990,6 +1546,131 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/tps/tpsWorkTogether.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/triumph/triumphJerryCan.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/triumph/triumphJerryCan.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/triumph/triumphLogo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/triumph/triumphLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/triumph/triumphNavProcess.jpg": {
+		"ft": 16384,
+		"iS": 386529,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/triumph/triumphNavProcess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/triumph/triumphProcess.jpg": {
+		"ft": 16384,
+		"iS": 370715,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/triumph/triumphProcess.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/triumph/triumphRadio.jpg": {
+		"ft": 16384,
+		"iS": 285913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/triumph/triumphRadio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/triumph/triumphRadio.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/triumph/triumphRadio.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/triumph/triumphSpeedometer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/triumph/triumphSpeedometer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/triumph/triumphUI.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/triumph/triumphUI.mp4",
+		"oF": 0
+		},
+	"/deploy/img/case-studies/un/unPosterFull.jpg": {
+		"ft": 16384,
+		"iS": 320712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unPosterFull.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/un/unPosterMockup.jpg": {
+		"ft": 16384,
+		"iS": 252525,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unPosterMockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/un/unProcess1.jpg": {
+		"ft": 16384,
+		"iS": 482319,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unProcess1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/un/unProcess2.jpg": {
+		"ft": 16384,
+		"iS": 585290,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unProcess2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1561,6 +2242,30 @@
 		"oAP": "/dev/case-studies/fender/fenderText1.html",
 		"oF": 0
 		},
+	"/dev/case-studies/icm/icmGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/icm/icmGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/icm/icmHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/icm/icmHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/icm/icmText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/icm/icmText1.html",
+		"oF": 0
+		},
 	"/dev/case-studies/qv/qvGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -1712,6 +2417,14 @@
 		"oA": 1,
 		"oAP": "/dev/global/navigation.html",
 		"oF": 0
+		},
+	"/dev/IceCreamMuseum.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/IceCreamMuseum.html",
+		"oF": 2
 		},
 	"/dev/index.kit": {
 		"cB": 0,
@@ -2160,6 +2873,45 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_fenderText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_icmGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_icmGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_icmHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_icmHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_icmText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_icmText1.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

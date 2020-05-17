@@ -1,0 +1,51 @@
+/* =============
+    ICM Text
+============= */
+#icmText1 {
+    background-color: $off-white;
+
+    > div {
+        article {
+            p {
+                @include margin(null,null,48px,null);
+                @include md {
+                    @include margin(null,null,56px,null);
+                }
+                @include lg {
+                    @include margin(null,null,64px,null);
+                }
+                @include xl {
+                    @include margin(null,null,80px,null);
+                }
+            }
+
+            ul {
+                @include lg {
+                    grid-template-columns: repeat(4,1fr);
+                }
+
+                li {
+                    background-size: contain;
+                    height: 200px;
+
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/icm/icmAbstract.svg");
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/icm/icmPictographic.svg");
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/icm/icmLettered.svg");
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/icm/icmCombo.svg");
+                }
+            }
+        }
+    }
+}

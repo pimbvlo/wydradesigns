@@ -512,6 +512,16 @@ ul {
       background-size: cover;
       width: 100%; }
 
+.caption {
+  background-color: #FCFCFC;
+  border-radius: 24px;
+  box-shadow: 0 1px 12px -3px rgba(19, 22, 24, 0.05), 0 3px 24px 4px rgba(19, 22, 24, 0.02), 0 8px 16px 2px rgba(19, 22, 24, 0.04); }
+  .caption p {
+    margin-bottom: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px; }
+
 /* =============
     Typography
 ============= */
@@ -1943,6 +1953,88 @@ footer {
   #fenderGallery > div article ul li:nth-child(9) {
     grid-area: paragraph2; }
     #fenderGallery > div article ul li:nth-child(9) p {
+      width: 100%; }
+
+/* =============
+    ICM Hero
+============= */
+#icmHero {
+  background-image: url("../img/case-studies/icm/icmHero.jpg");
+  background-position: right bottom; }
+
+/* =============
+    ICM Text
+============= */
+#icmText1 {
+  background-color: #F0F0F0; }
+  #icmText1 > div article p {
+    margin-bottom: 48px; }
+    @media (min-width: 768px) {
+      #icmText1 > div article p {
+        margin-bottom: 56px; } }
+    @media (min-width: 992px) {
+      #icmText1 > div article p {
+        margin-bottom: 64px; } }
+    @media (min-width: 1200px) {
+      #icmText1 > div article p {
+        margin-bottom: 80px; } }
+  @media (min-width: 992px) {
+    #icmText1 > div article ul {
+      grid-template-columns: repeat(4, 1fr); } }
+  #icmText1 > div article ul li {
+    background-size: contain;
+    height: 200px; }
+  #icmText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/icm/icmAbstract.svg"); }
+  #icmText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/icm/icmPictographic.svg"); }
+  #icmText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/icm/icmLettered.svg"); }
+  #icmText1 > div article ul li:nth-child(4) {
+    background-image: url("../img/case-studies/icm/icmCombo.svg"); }
+
+/* =============
+    ICM Gallery
+============= */
+#icmGallery > div article ul {
+  grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
+  grid-template-rows: auto 200px 200px 176px; }
+  @media (min-width: 456px) {
+    #icmGallery > div article ul {
+      grid-template-areas: "ISM ISM ISM" "paragraph1 paragraph1 ." ". IBP IBP" "IPL IPL IPL";
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: 504px auto 200px 264px; } }
+  @media (min-width: 768px) {
+    #icmGallery > div article ul {
+      grid-template-rows: 680px auto 304px 400px; } }
+  @media (min-width: 992px) {
+    #icmGallery > div article ul {
+      grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: 744px auto 640px; } }
+  @media (min-width: 1200px) {
+    #icmGallery > div article ul {
+      grid-template-rows: 800px auto 704px; } }
+  #icmGallery > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/icm/icmStationaryMockup.jpg");
+    grid-area: ISM; }
+  #icmGallery > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/icm/icmButtonPins.jpg");
+    grid-area: IBP;
+    background-size: auto 150%; }
+    @media (min-width: 456px) {
+      #icmGallery > div article ul li:nth-child(2) {
+        background-size: cover; } }
+    @media (min-width: 992px) {
+      #icmGallery > div article ul li:nth-child(2) {
+        background-size: auto 200%; } }
+  #icmGallery > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/icm/icmPresentationLayout.jpg");
+    grid-area: IPL;
+    background-position: center 10%; }
+  #icmGallery > div article ul li:nth-child(4) {
+    grid-area: paragraph1; }
+    #icmGallery > div article ul li:nth-child(4) p {
       width: 100%; }
 
 /* =============

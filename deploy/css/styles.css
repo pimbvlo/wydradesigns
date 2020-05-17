@@ -2438,3 +2438,52 @@ footer {
     grid-area: paragraph1; }
     #tpsGallery > div article ul li:nth-child(6) p {
       width: 100%; }
+
+/* =============
+    TRIUMPH Hero
+============= */
+#triumphHero {
+  background-image: url("../img/case-studies/triumph/triumphHero.jpg");
+  background-position: center top; }
+
+/* =============
+    TRIUMPH Text
+============= */
+#triumphText1 {
+  background-color: #F0F0F0; }
+  #triumphText1 > div article {
+    grid-template-areas: "v"; }
+    @media (min-width: 456px) {
+      #triumphText1 > div article {
+        grid-template-areas: "v ."; } }
+    #triumphText1 > div article div {
+      grid-area: v;
+      position: relative; }
+      #triumphText1 > div article div video {
+        background-image: url("../img/case-studies/triumph/triumphHero.jpg");
+        background-position: right center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+
+/* =============
+    TRIUMPH Gallery
+============= */
+#triumphGallery > div article ul {
+  grid-template-areas: "Codepen" "paragraph";
+  grid-template-rows: auto auto; }
+  @media (min-width: 456px) {
+    #triumphGallery > div article ul {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-areas: ". Codepen Codepen" "paragraph paragraph ."; } }
+  @media (min-width: 992px) {
+    #triumphGallery > div article ul {
+      grid-template-areas: "Codepen Codepen Codepen paragraph paragraph paragraph paragraph";
+      grid-template-columns: repeat(7, 1fr);
+      grid-template-rows: auto; } }
+  #triumphGallery > div article ul li:nth-child(1) {
+    grid-area: Codepen;
+    height: 100%; }
+  #triumphGallery > div article ul li:nth-child(2) {
+    grid-area: paragraph; }
+    #triumphGallery > div article ul li:nth-child(2) p {
+      width: 100%; }

@@ -1420,7 +1420,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/tol/TOLProcess.jpg": {
+	"/deploy/img/case-studies/tol/tolProcess.jpg": {
 		"ft": 16384,
 		"iS": 730523,
 		"jF": 0,
@@ -1546,6 +1546,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/tps/tpsWorkTogether.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/triumph/triumphHero.jpg": {
+		"ft": 16384,
+		"iS": 86927,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/triumph/triumphHero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2146,6 +2157,14 @@
 		"oAP": "/deploy/ThePhiladelphiaSchool.html",
 		"oF": 0
 		},
+	"/deploy/TriumphUI.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/TriumphUI.html",
+		"oF": 0
+		},
 	"/deploy/wydradesigns.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -2346,6 +2365,14 @@
 		"oAP": "/dev/case-studies/shm/shmText3.html",
 		"oF": 0
 		},
+	"/dev/case-studies/soa/soaText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/dev/case-studies/soa/soaText1.html",
+		"oF": 0
+		},
 	"/dev/case-studies/tps/tpsGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2368,6 +2395,30 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/tps/tpsText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/triumph/triumphGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/triumph/triumphGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/triumph/triumphHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/triumph/triumphHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/triumph/triumphText1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/triumph/triumphText1.html",
 		"oF": 0
 		},
 	"/dev/Fender.kit": {
@@ -3085,6 +3136,45 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_triumphGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_triumphGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_triumphHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_triumphHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_triumphText1.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_triumphText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/index/_indexHero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3221,6 +3311,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/ThePhiladelphiaSchool.html",
+		"oF": 2
+		},
+	"/dev/TriumphUI.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/TriumphUI.html",
 		"oF": 2
 		}
 	},

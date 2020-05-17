@@ -1,0 +1,30 @@
+/* =============
+    TRIUMPH Text
+============= */
+#triumphText1 {
+    background-color: $off-white;
+
+    > div {
+        article {
+            grid-template-areas: "v";
+            @include sm{
+                grid-template-areas: "v .";
+
+            }
+
+            div {
+                grid-area: v;
+                position: relative;
+                video{
+                    background-image: url("../img/case-studies/triumph/triumphHero.jpg");
+                    background-position: right center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+
+                    // font-family: 'Montserrat', sans-serif;
+
+                }
+            }
+        }
+    }
+}

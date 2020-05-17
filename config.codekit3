@@ -1686,12 +1686,34 @@
 		"oAP": "/deploy/img/case-studies/triumph/triumphUI.mp4",
 		"oF": 0
 		},
+	"/deploy/img/case-studies/un/unHero.jpg": {
+		"ft": 16384,
+		"iS": 4248344,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/un/unPosterFull.jpg": {
 		"ft": 16384,
 		"iS": 320712,
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/un/unPosterFull.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/un/unPosterHanging.jpg": {
+		"ft": 16384,
+		"iS": 531770,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/un/unPosterHanging.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2224,6 +2246,14 @@
 		"oAP": "/deploy/TypefacesOfLondon.html",
 		"oF": 0
 		},
+	"/deploy/unLikable.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/unLikable.html",
+		"oF": 0
+		},
 	"/deploy/wydradesigns.htaccess": {
 		"cB": 0,
 		"ft": 8192,
@@ -2502,6 +2532,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/triumph/triumphText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/un/unGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/un/unGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/un/unHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/un/unHero.html",
 		"oF": 0
 		},
 	"/dev/Fender.kit": {
@@ -3310,6 +3356,32 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_unGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_unGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_unHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_unHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/index/_indexHero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3470,6 +3542,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/TypefacesOfLondon.html",
+		"oF": 2
+		},
+	"/dev/unLikable.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/unLikable.html",
 		"oF": 2
 		}
 	},

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 2880 1800" style="enable-background:new 0 0 2880 1800;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#F9D505;stroke-width:78.2605;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#F9D505;stroke-width:71.146;stroke-miterlimit:10;}
+	.st2{fill:#231F20;}
+	.st3{fill:none;stroke:#7FBB42;stroke-width:180.6221;stroke-miterlimit:10;}
+	.st4{fill:none;stroke:#7FBB42;stroke-width:164.2019;stroke-miterlimit:10;}
+	.st5{fill:none;stroke:#EA7D23;stroke-width:78.2605;stroke-miterlimit:10;}
+	.st6{display:none;fill:#231F20;}
+	.st7{font-family:'GillSans-SemiBold';}
+	.st8{font-size:154.0638px;}
+	.st9{letter-spacing:3;}
+	.st10{fill:none;stroke:#EA7D23;stroke-width:71.146;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#0098D5;stroke-width:71.3057;stroke-miterlimit:10;}
+	.st12{fill:none;stroke:#0098D5;stroke-width:64.8234;stroke-miterlimit:10;}
+	.st13{fill:none;stroke:#A3A3A6;stroke-width:116.2031;stroke-miterlimit:10;}
+	.st14{fill:none;stroke:#A3A3A6;stroke-width:105.6392;stroke-miterlimit:10;}
+	.st15{fill:none;stroke:#B46728;stroke-width:78.2605;stroke-miterlimit:10;}
+	.st16{fill:none;stroke:#B46728;stroke-width:56.9168;stroke-miterlimit:10;}
+	.st17{fill:none;stroke:#B46728;stroke-width:71.146;stroke-miterlimit:10;}
+</style>
+<g id="Behance_Hero_Thicc">
+</g>
+<g id="Behance_Hero_Skinny">
+</g>
+<g id="Behance_Cover">
+	<g id="Grotesque">
+		<path class="st0" d="M511.1-1240.4h934.6c214.6,0,388.6,174,388.6,388.6v1922.5c0,103.1,40.9,201.9,113.8,274.8l429.6,422.5
+			c72.9,72.9,171.7,113.8,274.8,113.8h756"/>
+		<line class="st1" x1="2160.9" y1="1558.3" x2="2231.4" y2="1487.9"/>
+		<line class="st1" x1="1829.3" y1="24.1" x2="1929" y2="24.1"/>
+		<line class="st1" x1="1829.3" y1="615.4" x2="1929" y2="615.4"/>
+	</g>
+	<g id="Humanist">
+		<path class="st3" d="M-4548.2-1827.4l2404.9,2404.9c168.2,168.2,396.3,262.7,634.1,262.7h3441.4c237.8,0,466,94.5,634.1,262.7
+			l293.5,293.5"/>
+		<line class="st4" x1="1032.5" y1="840" x2="1032.5" y2="610.1"/>
+		<rect x="2859.7" y="1396.5" class="st4" width="618.1" height="618.1"/>
+	</g>
+	<g id="Display">
+		<path class="st5" d="M1134.3,1765.9h934.6c214.6,0,388.6-174,388.6-388.6V771.1c0-103.1,40.9-201.9,113.8-274.8l344.8-344.8"/>
+		<g>
+			<text transform="matrix(1 0 0 1 972.0046 121.8719)" class="st6 st7 st8 st9">KADE LETTER FABRIEK</text>
+		</g>
+		<line class="st10" x1="2815.2" y1="50.7" x2="3016.9" y2="252.4"/>
+		<line class="st10" x1="1725.6" y1="1766.9" x2="1725.6" y2="1866.6"/>
+		<line class="st10" x1="2457.4" y1="1111.7" x2="2557.1" y2="1111.7"/>
+		<line class="st10" x1="1134.3" y1="1623.3" x2="1134.3" y2="1908.6"/>
+	</g>
+	<g id="Geometric">
+		<path class="st11" d="M652.3,183.9l169.8,169.8c66.4,66.4,156.4,103.7,250.3,103.7h1127.8"/>
+		<line class="st12" x1="2200.2" y1="587.4" x2="2200.2" y2="327.4"/>
+		<rect x="406.9" y="-61.6" class="st12" width="244" height="244"/>
+	</g>
+	<g id="Serif">
+		<path class="st13" d="M791.5,1501.9c108.2,108.2,169,255,169,408v1790.5c0,153,60.8,299.8,169,408l1180.2,1180.2"/>
+		<line class="st13" x1="-3177" y1="-2466.7" x2="392.4" y2="1102.8"/>
+		<line class="st14" x1="-94.8" y1="617.7" x2="9.9" y2="513.1"/>
+		<rect x="393.9" y="1104.2" class="st14" width="397.6" height="397.6"/>
+	</g>
+</g>
+</svg>

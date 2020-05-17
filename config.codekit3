@@ -1398,6 +1398,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/tol/tolHero.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/tol/tolHero.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/case-studies/tol/tolInside.jpg": {
 		"ft": 16384,
 		"iS": 853075,
@@ -1415,6 +1425,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/tol/tolInsideMap.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolLocations.jpg": {
+		"ft": 16384,
+		"iS": 294117,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolLocations.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1448,6 +1469,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/tol/tolStack.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/tol/tolTrainMap.jpg": {
+		"ft": 16384,
+		"iS": 177044,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/tol/tolTrainMap.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2408,6 +2440,22 @@
 		"oAP": "/dev/case-studies/soa/soaHero.html",
 		"oF": 0
 		},
+	"/dev/case-studies/tol/tolGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/tol/tolGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/tol/tolHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/tol/tolHero.html",
+		"oF": 0
+		},
 	"/dev/case-studies/tps/tpsGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3154,6 +3202,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_soaHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_tolGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_tolGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_tolHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_tolHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

@@ -1214,6 +1214,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/soa/soaHero.jpg": {
+		"ft": 16384,
+		"iS": 421461,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/soa/soaHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/soa/soaJax.jpg": {
 		"ft": 16384,
 		"iS": 480189,
@@ -1420,7 +1431,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/tol/tolProcess.jpg": {
+	"/deploy/img/case-studies/tol/TOLProcess.jpg": {
 		"ft": 16384,
 		"iS": 730523,
 		"jF": 0,
@@ -2149,6 +2160,14 @@
 		"oAP": "/deploy/ShawnWydra_Resume.pdf",
 		"oF": 0
 		},
+	"/deploy/SonsOfAnarchy.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/SonsOfAnarchy.html",
+		"oF": 0
+		},
 	"/deploy/ThePhiladelphiaSchool.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2163,6 +2182,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/TriumphUI.html",
+		"oF": 0
+		},
+	"/deploy/TypefacesOfLondon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/TypefacesOfLondon.html",
 		"oF": 0
 		},
 	"/deploy/wydradesigns.htaccess": {
@@ -2365,12 +2392,20 @@
 		"oAP": "/dev/case-studies/shm/shmText3.html",
 		"oF": 0
 		},
-	"/dev/case-studies/soa/soaText1.kit": {
+	"/dev/case-studies/soa/soaGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
-		"oAP": "/dev/case-studies/soa/soaText1.html",
+		"oA": 1,
+		"oAP": "/dev/case-studies/soa/soaGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/soa/soaHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/soa/soaHero.html",
 		"oF": 0
 		},
 	"/dev/case-studies/tps/tpsGallery.kit": {
@@ -3097,6 +3132,32 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_soaGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_soaGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_soaHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_soaHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/case-studies/_tpsGallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3305,6 +3366,14 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/SonsOfAnarchy.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/SonsOfAnarchy.html",
+		"oF": 2
+		},
 	"/dev/ThePhiladelphiaSchool.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -3319,6 +3388,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/TriumphUI.html",
+		"oF": 2
+		},
+	"/dev/TypefacesOfLondon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/TypefacesOfLondon.html",
 		"oF": 2
 		}
 	},

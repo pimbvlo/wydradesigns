@@ -2368,76 +2368,62 @@ footer {
       width: 100%; }
 
 /* =============
-    TPS Hero
+    SOA Hero
 ============= */
-#tpsHero {
-  background-image: url("../img/case-studies/tps/tpsHero.png");
-  background-color: #FCFCFC;
-  background-position: right top; }
+#soaHero {
+  background-image: url("../img/case-studies/soa/soaHero.jpg");
+  background-position: center top; }
 
 /* =============
-    TPS Text
+    SOA Gallery
 ============= */
-#tpsText1 {
+#soaGallery {
   background-color: #F0F0F0; }
-  #tpsText1 > div article p {
-    margin-bottom: 32px; }
-    @media (min-width: 1200px) {
-      #tpsText1 > div article p {
-        margin-bottom: 80px; } }
-  @media (min-width: 992px) {
-    #tpsText1 > div article ul {
-      grid-template-columns: repeat(4, 1fr); } }
-  #tpsText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/tps/tpsInspiration2.jpg"); }
-  #tpsText1 > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/tps/tpsInspiration1.jpg"); }
-  #tpsText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/tps/tpsLogo.svg");
-    background-size: contain; }
-  #tpsText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg"); }
-
-/* =============
-    TPS Gallery
-============= */
-#tpsGallery > div article ul {
-  grid-template-areas: "paragraph1" "TBP" "TWB" "TBC" "TBS1" "TP";
-  grid-template-rows: auto 400px 280px 240px 200px 480px; }
-  @media (min-width: 456px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" "TWB TWB TWB" "TBC TBS1 TBS1" "TP TP TP";
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 504px 304px 232px 504px; } }
-  @media (min-width: 768px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
-      grid-template-rows: auto 504px 304px 280px 640px; } }
-  @media (min-width: 992px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: auto 200px 344px 304px; } }
-  #tpsGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/tps/tpsBuildingPoster.jpg");
-    grid-area: TBP; }
-  #tpsGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/tps/tpsWebBanner.jpg");
-    grid-area: TWB;
-    background-size: contain; }
-  #tpsGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/tps/tpsBrochureCover.jpg");
-    grid-area: TBC; }
-  #tpsGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/tps/tpsBrochureSpread1.jpg");
-    grid-area: TBS1; }
-  #tpsGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/tps/tpsPoster.jpg");
-    grid-area: TP; }
-  #tpsGallery > div article ul li:nth-child(6) {
-    grid-area: paragraph1; }
-    #tpsGallery > div article ul li:nth-child(6) p {
-      width: 100%; }
+  #soaGallery > div article ul {
+    grid-template-areas: "v" "paragraph1" "ST1" "ST2" "ST3" "ST4" "ST5" "ST6" "ST7";
+    grid-template-rows: auto auto 80px 80px 80px 80px 80px 80px 80px; }
+    @media (min-width: 456px) {
+      #soaGallery > div article ul {
+        grid-template-areas: "v v v" "paragraph1 paragraph1 ." "ST1 ST1 ST2" "ST3 . ST4" "ST6 ST6 ." "ST7 ST5 ST5" ". ST5 ST5";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto auto 80px 80px 184px 80px 80px; } }
+    @media (min-width: 992px) {
+      #soaGallery > div article ul {
+        grid-template-areas: "v v v v v v v" ". paragraph1 paragraph1 paragraph1 paragraph1 . ." "ST1 ST3 ST3 ST5 ST5 ST6 ." "ST2 ST2 ST4 ST5 ST5 . ST7";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto auto 184px 184px; } }
+    #soaGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/soa/soaTimeline1.jpg");
+      grid-area: ST1; }
+    #soaGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/soa/soaTimeline2.jpg");
+      grid-area: ST2; }
+    #soaGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/soa/soaTimeline3.jpg");
+      grid-area: ST3; }
+    #soaGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/soa/soaTimeline4.jpg");
+      grid-area: ST4; }
+    #soaGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/soa/soaTimeline5.jpg");
+      grid-area: ST5; }
+    #soaGallery > div article ul li:nth-child(6) {
+      background-image: url("../img/case-studies/soa/soaTimeline6.jpg");
+      grid-area: ST6; }
+    #soaGallery > div article ul li:nth-child(7) {
+      background-image: url("../img/case-studies/soa/soaTimeline7.jpg");
+      grid-area: ST7; }
+    #soaGallery > div article ul li:nth-child(8) {
+      grid-area: paragraph1; }
+      #soaGallery > div article ul li:nth-child(8) p {
+        width: 100%; }
+    #soaGallery > div article ul li:nth-child(9) {
+      grid-area: v; }
+      #soaGallery > div article ul li:nth-child(9) video {
+        background-image: url("../img/case-studies/soa/soaTimeline1.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
 
 /* =============
     TRIUMPH Hero

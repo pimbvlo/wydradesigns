@@ -1861,6 +1861,50 @@ footer {
       width: 100%; }
 
 /* =============
+    CL Hero
+============= */
+#clHero {
+  background-image: url("../img/case-studies/cl/clHero.jpg");
+  background-position: center top; }
+
+/* =============
+    CL Gallery
+============= */
+#clGallery {
+  background-color: #F0F0F0; }
+  #clGallery > div article ul {
+    grid-template-areas: "CP" "paragraph1" "CPM";
+    grid-template-rows: 400px auto 600px; }
+    @media (min-width: 456px) {
+      #clGallery > div article ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "CP CP CP" "paragraph1 paragraph1 paragraph1" ". CPM CPM";
+        grid-template-rows: 600px auto 400px; } }
+    @media (min-width: 768px) {
+      #clGallery > div article ul {
+        grid-template-rows: 800px auto 504px; } }
+    @media (min-width: 992px) {
+      #clGallery > div article ul {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: "paragraph1 paragraph1 paragraph1 CP CP CP CP" "CPM CPM CPM CPM CPM . .";
+        grid-template-rows: 744px 504px; } }
+    #clGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/cl/clPoster.jpg");
+      grid-area: CP;
+      background-size: contain; }
+    #clGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/cl/clPosterMockup.jpg");
+      grid-area: CPM;
+      background-position: 30% center; }
+      @media (min-width: 456px) {
+        #clGallery > div article ul li:nth-child(2) {
+          background-position: 40% center; } }
+    #clGallery > div article ul li:nth-child(3) {
+      grid-area: paragraph1; }
+      #clGallery > div article ul li:nth-child(3) p {
+        width: 100%; }
+
+/* =============
     FENDER Hero
 ============= */
 #fenderHero {

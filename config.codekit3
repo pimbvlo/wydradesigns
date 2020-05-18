@@ -25,6 +25,14 @@
 		"oAP": "/deploy/Antifogmatic.html",
 		"oF": 0
 		},
+	"/deploy/Clarendon.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Clarendon.html",
+		"oF": 0
+		},
 	"/deploy/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -263,6 +271,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/bookcovers/bcGreatGatsby.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/cl/clHero.jpg": {
+		"ft": 16384,
+		"iS": 156995,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/cl/clHero.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2326,6 +2345,22 @@
 		"oAP": "/dev/case-studies/anti/antiText1.html",
 		"oF": 0
 		},
+	"/dev/case-studies/cl/clGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/cl/clGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/cl/clHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/cl/clHero.html",
+		"oF": 0
+		},
 	"/dev/case-studies/fender/fenderGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2549,6 +2584,14 @@
 		"oA": 1,
 		"oAP": "/dev/case-studies/un/unHero.html",
 		"oF": 0
+		},
+	"/dev/Clarendon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Clarendon.html",
+		"oF": 2
 		},
 	"/dev/Fender.kit": {
 		"cB": 0,
@@ -3014,6 +3057,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_antiText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_clGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_clGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_clHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_clHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

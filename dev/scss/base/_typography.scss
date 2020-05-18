@@ -94,6 +94,10 @@ p {
     span {
         color: $purple;
         font-weight: 600;
+        @include dark{
+            color: $light-purple;
+
+        }
     }
 }
 

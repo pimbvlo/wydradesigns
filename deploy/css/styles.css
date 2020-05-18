@@ -37,6 +37,10 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0; }
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #19191A;
+      color: #FCFCFC; } }
   body ::selection {
     background: #FF964C;
     color: #0D001E;
@@ -598,7 +602,9 @@ p {
   p span {
     color: #6613CE;
     font-weight: 600; }
-
+    @media (prefers-color-scheme: dark) {
+      p span {
+        color: #C494FF; } }
 a {
   text-decoration: none;
   color: #FF964C;

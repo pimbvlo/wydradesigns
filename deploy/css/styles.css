@@ -2166,6 +2166,46 @@ footer {
       width: 100%; }
 
 /* =============
+    ON Hero
+============= */
+#onHero {
+  background-image: url("../img/case-studies/on/onHero.jpg");
+  background-position: center top; }
+
+/* =============
+    ON Gallery
+============= */
+#onGallery {
+  background-color: #F0F0F0; }
+  #onGallery > div article ul {
+    grid-template-areas: "OP" "paragraph1" "OPM";
+    grid-template-rows: 304px auto 480px; }
+    @media (min-width: 456px) {
+      #onGallery > div article ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "OP OP ." "paragraph1 paragraph1 ." ". OPM OPM";
+        grid-template-rows: 400px auto 600px; } }
+    @media (min-width: 768px) {
+      #onGallery > div article ul {
+        grid-template-rows: 504px auto 680px; } }
+    @media (min-width: 992px) {
+      #onGallery > div article ul {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: "paragraph1 paragraph1 paragraph1 OP OP OP OP" ". . . OP OP OP OP" "OPM OPM OPM OPM OPM . .";
+        grid-template-rows: auto 200px 800px; } }
+    #onGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/on/onPoster.jpg");
+      grid-area: OP;
+      background-size: contain; }
+    #onGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/on/onPosterMockup.jpg");
+      grid-area: OPM; }
+    #onGallery > div article ul li:nth-child(3) {
+      grid-area: paragraph1; }
+      #onGallery > div article ul li:nth-child(3) p {
+        width: 100%; }
+
+/* =============
     QV Hero
 ============= */
 #qvHero {

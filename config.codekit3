@@ -1688,7 +1688,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/tol/tolProcess.jpg": {
+	"/deploy/img/case-studies/tol/TOLProcess.jpg": {
 		"ft": 16384,
 		"iS": 730523,
 		"jF": 0,
@@ -2410,6 +2410,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/OscarNiemeyer.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/OscarNiemeyer.html",
+		"oF": 0
+		},
 	"/deploy/QueenVillage.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2656,6 +2664,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/icm/icmText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/on/onGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/on/onGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/on/onHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/on/onHero.html",
 		"oF": 0
 		},
 	"/dev/case-studies/qv/qvGallery.kit": {
@@ -3003,6 +3027,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/OscarNiemeyer.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/OscarNiemeyer.html",
+		"oF": 2
 		},
 	"/dev/QueenVillage.kit": {
 		"cB": 0,
@@ -3444,6 +3476,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_icmText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_onGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_onGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_onHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_onHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

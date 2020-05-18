@@ -3,6 +3,10 @@
 ============= */
 #soaGallery {
     background-color: $off-white;
+    @include dark{
+        background-color: $black;
+    }
+
     > div {
         article {
             h2 {}

@@ -9,7 +9,7 @@ header {
     background-color: $white;
     z-index: 1000;
     @include dark {
-        background-color: $dark-purple;
+        background-color: $black;
     }
     @include lg {
         height: 80px;

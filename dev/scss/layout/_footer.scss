@@ -4,6 +4,9 @@
 footer {
     color: $white;
     background-color: $dark-purple;
+    @include dark{
+        background-color: $black;
+    }
 
     div {
         article {

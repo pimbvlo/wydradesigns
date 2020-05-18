@@ -3,6 +3,10 @@
 ============= */
 #icmText1 {
     background-color: $off-white;
+    @include dark {
+        background-color: $black;
+    }
+
 
     > div {
         article {
@@ -32,18 +36,34 @@
 
                 li:nth-child(1) {
                     background-image: url("../img/case-studies/icm/icmAbstract.svg");
+                    @include dark {
+                        background-image: url("../img/case-studies/icm/icmAbstractWhite.svg");
+                    }
+
                 }
 
                 li:nth-child(2) {
                     background-image: url("../img/case-studies/icm/icmPictographic.svg");
+                    @include dark {
+                        background-image: url("../img/case-studies/icm/icmPictographicWhite.svg");
+                    }
+
                 }
 
                 li:nth-child(3) {
                     background-image: url("../img/case-studies/icm/icmLettered.svg");
+                    @include dark {
+                        background-image: url("../img/case-studies/icm/icmLetteredWhite.svg");
+                    }
+
                 }
 
                 li:nth-child(4) {
                     background-image: url("../img/case-studies/icm/icmCombo.svg");
+                    @include dark {
+                        background-image: url("../img/case-studies/icm/icmComboWhite.svg");
+                    }
+
                 }
             }
         }

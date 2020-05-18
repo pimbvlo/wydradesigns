@@ -626,7 +626,9 @@ a {
   color: #6613CE;
   text-transform: uppercase;
   margin-bottom: 20px; }
-
+  @media (prefers-color-scheme: dark) {
+    .resume h2 {
+      color: #C494FF; } }
 .resume h3 {
   font-size: 1rem;
   color: #19191A;
@@ -634,7 +636,9 @@ a {
   font-weight: 500;
   letter-spacing: 0.005rem;
   opacity: 0.75; }
-
+  @media (prefers-color-scheme: dark) {
+    .resume h3 {
+      color: #F9F5FF; } }
 .resume h4 {
   font-size: 1rem;
   font-weight: 700;
@@ -651,7 +655,9 @@ a {
   .resume p span {
     color: #0D001E;
     font-weight: 600; }
-
+    @media (prefers-color-scheme: dark) {
+      .resume p span {
+        color: #C494FF; } }
 .resume p:last-of-type {
   margin-bottom: 0px; }
 
@@ -893,7 +899,7 @@ header {
   z-index: 1000; }
   @media (prefers-color-scheme: dark) {
     header {
-      background-color: #0D001E; } }
+      background-color: #131618; } }
   @media (min-width: 992px) {
     header {
       height: 80px; } }
@@ -1002,6 +1008,9 @@ header {
 footer {
   color: #FCFCFC;
   background-color: #0D001E; }
+  @media (prefers-color-scheme: dark) {
+    footer {
+      background-color: #131618; } }
   footer div article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1499,6 +1508,9 @@ footer {
 ============= */
 #resumeEducation {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #resumeEducation {
+      background-color: #131618; } }
   #resumeEducation > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1557,6 +1569,9 @@ footer {
 ============= */
 #resumeCourses {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #resumeCourses {
+      background-color: #131618; } }
   #resumeCourses > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1667,6 +1682,9 @@ footer {
 ============= */
 #resumeActivities {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #resumeActivities {
+      background-color: #131618; } }
   #resumeActivities > div {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -1785,6 +1803,10 @@ footer {
     justify-content: center;
     padding-bottom: 16px;
     padding-top: 16px; }
+    @media (prefers-color-scheme: dark) {
+      #antiIntro > div article {
+        border-bottom: 4px solid #F9F5FF;
+        border-top: 4px solid #F9F5FF; } }
     @media (min-width: 768px) {
       #antiIntro > div article {
         width: 56vw; } }
@@ -1812,7 +1834,9 @@ footer {
 ============= */
 #antiText1 {
   background-color: #F0F0F0; }
-
+  @media (prefers-color-scheme: dark) {
+    #antiText1 {
+      background-color: #131618; } }
 /* =============
     ANTI Gallery
 ============= */
@@ -1847,6 +1871,9 @@ footer {
     background-image: url("../img/case-studies/anti/antiDogDetail.png");
     grid-area: AntiDD;
     background-size: contain; }
+    @media (prefers-color-scheme: dark) {
+      #antiGallery > div article ul li:nth-child(4) {
+        background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
   #antiGallery > div article ul li:nth-child(5) {
     background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
     grid-area: ACTD;
@@ -1877,6 +1904,9 @@ footer {
 ============= */
 #bkGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #bkGallery {
+      background-color: #131618; } }
   #bkGallery > div article ul {
     grid-template-areas: "BS1" "paragraph1" "BC2" "BD2" "BS6" "BQ" "BD4" "BD3" "BS5";
     grid-template-rows: 192px auto 160px 80px 160px 200px 104px 120px 160px; }
@@ -1962,6 +1992,9 @@ footer {
 ============= */
 #clGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #clGallery {
+      background-color: #131618; } }
   #clGallery > div article ul {
     grid-template-areas: "CP" "paragraph1" "CPM";
     grid-template-rows: 400px auto 600px; }
@@ -2006,6 +2039,9 @@ footer {
 ============= */
 #fenderText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #fenderText1 {
+      background-color: #131618; } }
   #fenderText1 > div article p {
     margin-bottom: 48px; }
     @media (min-width: 768px) {
@@ -2101,6 +2137,9 @@ footer {
 ============= */
 #icmText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #icmText1 {
+      background-color: #131618; } }
   #icmText1 > div article p {
     margin-bottom: 48px; }
     @media (min-width: 768px) {
@@ -2120,13 +2159,24 @@ footer {
     height: 200px; }
   #icmText1 > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/icm/icmAbstract.svg"); }
+    @media (prefers-color-scheme: dark) {
+      #icmText1 > div article ul li:nth-child(1) {
+        background-image: url("../img/case-studies/icm/icmAbstractWhite.svg"); } }
   #icmText1 > div article ul li:nth-child(2) {
     background-image: url("../img/case-studies/icm/icmPictographic.svg"); }
+    @media (prefers-color-scheme: dark) {
+      #icmText1 > div article ul li:nth-child(2) {
+        background-image: url("../img/case-studies/icm/icmPictographicWhite.svg"); } }
   #icmText1 > div article ul li:nth-child(3) {
     background-image: url("../img/case-studies/icm/icmLettered.svg"); }
+    @media (prefers-color-scheme: dark) {
+      #icmText1 > div article ul li:nth-child(3) {
+        background-image: url("../img/case-studies/icm/icmLetteredWhite.svg"); } }
   #icmText1 > div article ul li:nth-child(4) {
     background-image: url("../img/case-studies/icm/icmCombo.svg"); }
-
+    @media (prefers-color-scheme: dark) {
+      #icmText1 > div article ul li:nth-child(4) {
+        background-image: url("../img/case-studies/icm/icmComboWhite.svg"); } }
 /* =============
     ICM Gallery
 ============= */
@@ -2183,6 +2233,9 @@ footer {
 ============= */
 #onGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #onGallery {
+      background-color: #131618; } }
   #onGallery > div article ul {
     grid-template-areas: "OP" "paragraph1" "OPM";
     grid-template-rows: 304px auto 480px; }
@@ -2223,6 +2276,9 @@ footer {
 ============= */
 #qvText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #qvText1 {
+      background-color: #131618; } }
   #qvText1 > div article p {
     margin-bottom: 40px; }
     @media (min-width: 992px) {
@@ -2312,6 +2368,9 @@ footer {
   background-color: #F0F0F0;
   margin-top: 144px;
   padding-top: 96px; }
+  @media (prefers-color-scheme: dark) {
+    #saText1 {
+      background-color: #131618; } }
   #saText1 > div article {
     grid-template-areas: "i" "p"; }
     @media (min-width: 456px) {
@@ -2407,6 +2466,9 @@ footer {
 ============= */
 #sbGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #sbGallery {
+      background-color: #131618; } }
   #sbGallery > div article ul {
     grid-template-areas: "SP1" "SP2" "paragraph1" "SPZ1" "SPZ2" "SBPM";
     grid-template-rows: 304px 304px auto 200px 200px 304px; }
@@ -2472,6 +2534,9 @@ footer {
 ============= */
 #shmText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #shmText1 {
+      background-color: #131618; } }
   #shmText1 > div article p {
     margin-bottom: 48px; }
     @media (min-width: 768px) {
@@ -2613,6 +2678,9 @@ footer {
 ============= */
 #soaGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #soaGallery {
+      background-color: #131618; } }
   #soaGallery > div article ul {
     grid-template-areas: "v" "paragraph1" "ST1" "ST2" "ST3" "ST4" "ST5" "ST6" "ST7";
     grid-template-rows: auto auto 80px 80px 80px 80px 80px 80px 80px; }
@@ -2672,6 +2740,9 @@ footer {
 ============= */
 #tpsText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #tpsText1 {
+      background-color: #131618; } }
   #tpsText1 > div article p {
     margin-bottom: 32px; }
     @media (min-width: 1200px) {
@@ -2743,6 +2814,9 @@ footer {
 ============= */
 #triumphText1 {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #triumphText1 {
+      background-color: #131618; } }
   #triumphText1 > div article {
     grid-template-areas: "v"; }
     @media (min-width: 456px) {
@@ -2792,6 +2866,9 @@ footer {
 ============= */
 #tolGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #tolGallery {
+      background-color: #131618; } }
   #tolGallery > div article ul {
     grid-template-areas: "TIM" "paragraph1" "TCS" "TS" "TTM" "paragraph2" "TI" "TOB";
     grid-template-rows: 240px auto 344px 160px 304px auto 280px 280px; }
@@ -2848,6 +2925,9 @@ footer {
 ============= */
 #unGallery {
   background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #unGallery {
+      background-color: #131618; } }
   #unGallery > div article ul {
     grid-template-areas: "UPF" "paragraph1" "UPH";
     grid-template-rows: 400px auto 400px; }

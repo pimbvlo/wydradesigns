@@ -3,6 +3,9 @@
 ============= */
 #sbGallery {
     background-color: $off-white;
+    @include dark{
+        background-color: $black;
+    }
 
     > div {
         article {

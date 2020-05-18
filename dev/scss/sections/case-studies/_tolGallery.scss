@@ -3,6 +3,10 @@
 ============= */
 #tolGallery {
     background-color: $off-white;
+    @include dark{
+        background-color: $black;
+    }
+
     > div {
         article {
             ul {

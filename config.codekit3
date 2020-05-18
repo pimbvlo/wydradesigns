@@ -163,6 +163,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/case-studies/anti/antiDogDetailWhite.png": {
+		"ft": 32768,
+		"iS": 102561,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/anti/antiDogDetailWhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/case-studies/anti/antiExperiment.jpg": {
 		"ft": 16384,
 		"iS": 380797,
@@ -245,7 +256,7 @@
 		"iS": 440146,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/case-studies/anti/antiOpenING.jpg",
+		"oAP": "/deploy/img/case-studies/anti/antiOpening.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
@@ -734,6 +745,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/case-studies/icm/icmAbstractWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmAbstractWhite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/case-studies/icm/icmButtonPins.jpg": {
 		"ft": 16384,
 		"iS": 471116,
@@ -755,6 +776,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/img/case-studies/icm/icmComboWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmComboWhite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/case-studies/icm/icmHero.jpg": {
 		"ft": 16384,
 		"iS": 277220,
@@ -771,6 +802,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/case-studies/icm/icmLettered.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmLetteredWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmLetteredWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -814,6 +855,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/case-studies/icm/icmPictographic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/icm/icmPictographicWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/icm/icmPictographicWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -2490,6 +2541,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/imglg/case-studies/anti/antiDogDetailWhite.png": {
+		"ft": 32768,
+		"iS": 331978,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/anti/antiDogDetailWhite.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/imglg/case-studies/anti/antiExperiment.jpg": {
 		"ft": 16384,
 		"iS": 380797,
@@ -3061,6 +3123,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/imglg/case-studies/icm/icmAbstractWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/imglg/case-studies/icm/icmAbstractWhite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/imglg/case-studies/icm/icmButtonPins.jpg": {
 		"ft": 16384,
 		"iS": 471116,
@@ -3082,6 +3154,16 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/deploy/imglg/case-studies/icm/icmComboWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/imglg/case-studies/icm/icmComboWhite.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/imglg/case-studies/icm/icmHero.jpg": {
 		"ft": 16384,
 		"iS": 278746,
@@ -3098,6 +3180,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/imglg/case-studies/icm/icmLettered.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/imglg/case-studies/icm/icmLetteredWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/imglg/case-studies/icm/icmLetteredWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -3141,6 +3233,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/imglg/case-studies/icm/icmPictographic.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/imglg/case-studies/icm/icmPictographicWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/imglg/case-studies/icm/icmPictographicWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,

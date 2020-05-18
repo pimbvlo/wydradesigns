@@ -3,6 +3,9 @@
 ============= */
 #resumeEducation {
     background-color: $off-white;
+    @include dark{
+        background-color: $black;
+    }
 
     > div {
         display: grid;

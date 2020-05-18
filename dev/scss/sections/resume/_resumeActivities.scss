@@ -3,6 +3,10 @@
 ============= */
 #resumeActivities {
     background-color: $off-white;
+    @include dark {
+        background-color: $black;
+    }
+
     > div {
         display: grid;
         grid-template-columns: repeat(1,1fr);

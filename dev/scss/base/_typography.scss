@@ -128,6 +128,10 @@ a{
         color: $purple;
         text-transform: uppercase;
         @include margin(null,null,20px,null);
+        @include dark{
+            color: $light-purple;
+        }
+
     }
 
     h3 {
@@ -137,6 +141,10 @@ a{
         font-weight: 500;
         letter-spacing: rem-calc(0.08);
         opacity: 0.75;
+        @include dark{
+            color: $grey-pink;
+        }
+
     }
 
     h4{
@@ -159,6 +167,10 @@ a{
         span {
             color: $dark-purple;
             font-weight: 600;
+            @include dark{
+                color: $light-purple;
+            }
+
         }
     }
     p:last-of-type{

@@ -11,24 +11,16 @@
                 grid-template-rows: 200px 504px 224px 144px auto 168px 224px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
-                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ."
-                    ". AntiDD AntiDD"
-                    "paragraph paragraph paragraph"
-                    ". ACTD ACTD"
-                    "AFO AFO AFO";
+                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." ". AntiDD AntiDD" "paragraph paragraph paragraph" ". ACTD ACTD" "AFO AFO AFO";
                     grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px;
                 }
                 @include md {
-                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD"
-                    "paragraph paragraph ."
-                    ". ACTD ACTD"
-                    "AFO AFO AFO";
+                    grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
                     grid-template-rows: 304px 72px 80px 104px auto 176px 384px;
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ."
-                    "AFO AFO AFO AFO AFO AFO AFO";
+                    grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
                     grid-template-rows: 400px 320px 304px 240px 640px;
                 }
 
@@ -52,6 +44,9 @@
                     background-image: url("../img/case-studies/anti/antiDogDetail.png");
                     grid-area: AntiDD;
                     background-size: contain;
+                    @include dark {
+                        background-image: url("../img/case-studies/anti/antiDogDetailWhite.png");
+                    }
                 }
 
                 li:nth-child(5) {
@@ -64,21 +59,21 @@
                     background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
                     grid-area: AFO;
                     background-position: center 90%;
-
-                    @include sm{
+                    @include sm {
                         background-position: center 80%;
                     }
-                    @include lg{
+                    @include lg {
                         background-position: center 90%;
                     }
                 }
-                li:nth-child(7){
+
+                li:nth-child(7) {
                     grid-area: paragraph;
-                    p{
+
+                    p {
                         width: 100%;
                     }
                 }
-
             }
 
             div {}

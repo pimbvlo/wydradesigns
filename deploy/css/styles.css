@@ -389,6 +389,10 @@ ul {
   background-size: cover;
   display: flex;
   height: 72vh; }
+  .case-study-hero > div article h1 {
+    text-align: center; }
+  .case-study-hero > div article h4 {
+    text-align: center; }
   @media (min-width: 992px) {
     .case-study-hero {
       height: 80vh; }

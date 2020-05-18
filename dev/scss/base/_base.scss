@@ -72,6 +72,16 @@ ul {
     background-size: cover;
     display: flex;
     height: 72vh;
+    >div{
+        article{
+            h1{
+                text-align: center;
+            }
+            h4{
+                text-align: center;
+            }
+        }
+    }
     @include lg {
         height: 80vh;
         @supports (background-attachment: fixed) {

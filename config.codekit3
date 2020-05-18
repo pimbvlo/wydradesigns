@@ -5062,7 +5062,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/case-studies/fender/fenderGallery.html",
 		"oF": 0
 		},
@@ -5070,7 +5070,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/case-studies/fender/fenderHero.html",
 		"oF": 0
 		},
@@ -5078,7 +5078,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "/dev/case-studies/fender/fenderText1.html",
 		"oF": 0
 		},
@@ -5320,6 +5320,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/Clarendon.html",
+		"oF": 2
+		},
+	"/dev/Fender.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Fender.html",
 		"oF": 2
 		},
 	"/dev/global/csFooter.kit": {

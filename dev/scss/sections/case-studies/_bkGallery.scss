@@ -1,0 +1,110 @@
+/* =============
+    BK Gallery
+============= */
+#bkGallery {
+    background-color: $off-white;
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas: "BS1" "paragraph1" "BC2" "BD2" "BS6" "BQ" "BD4" "BD3" "BS5";
+                grid-template-rows: 192px auto 160px 80px 160px 200px 104px 120px 160px;
+                @include sm {
+                    grid-template-areas: "BS1 BS1 BS1" "paragraph1 paragraph1 ." "BD2 BC2 BC2" "BS6 BS6 ." "BD4 BD4 BD4" ". BD3 BD3" "BQ BQ BQ" ". BS5 BS5";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: 264px auto 200px 200px 120px 200px 200px 240px;
+                }
+                @include md {
+                    grid-template-rows: 400px auto 200px 240px 160px 200px 304px 280;
+                }
+                @include lg {
+                    grid-template-areas: "BS1 BS1 BS1 BS1 BS1 BS1 BS1" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 BD2 BD2" ". BC2 BC2 BC2 BC2 BD2 BD2" "BS6 BS6 BS6 BS6 BQ BQ BQ" "BD4 BD4 BD4 . BQ BQ BQ" "BS5 BS5 BS5 BD3 BD3 BD3 BD3"
+                    ". . . BD3 BD3 BD3 BD3";
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-rows: 480px auto 304px 200px 104px 200px 304px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/bk/bkSpread1.jpg");
+                    grid-area: BS1;
+                    background-position: center;
+                    @include sm {
+                        background-position: center 50%;
+                    }
+                    @include md {
+                        background-position: center 90%;
+                    }
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/bk/bkCover2.jpg");
+                    grid-area: BC2;
+                    background-size: auto 180%;
+                    background-position: center 80%;
+                    @include md {
+                        background-size: cover;
+                    }
+                    @include lg {
+                        background-size: auto 150%;
+                    }
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/bk/bkDetail2.jpg");
+                    grid-area: BD2;
+                    background-position: center top;
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/bk/bkSpread6.jpg");
+                    grid-area: BS6;
+                    @include md {
+                        background-position: center 60%;
+                    }
+                }
+
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/bk/bkDetail4.jpg");
+                    grid-area: BD4;
+                    background-position: center 30%;
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/bk/bkDetail3.jpg");
+                    grid-area: BD3;
+                    background-position: center 40%;
+                    @include sm {
+                        background-position: center 60%;
+                    }
+                }
+
+                li:nth-child(7) {
+                    background-image: url("../img/case-studies/bk/bkQuote.jpg");
+                    grid-area: BQ;
+                }
+
+                li:nth-child(8) {
+                    background-image: url("../img/case-studies/bk/bkSpread5.jpg");
+                    grid-area: BS5;
+                    background-position: center 70%;
+
+                    @include sm {
+                        background-position: center 80%;
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    grid-area: paragraph1;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+
+            div {}
+        }
+    }
+}

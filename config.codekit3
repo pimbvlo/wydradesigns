@@ -25,6 +25,14 @@
 		"oAP": "/deploy/Antifogmatic.html",
 		"oF": 0
 		},
+	"/deploy/BarbaraKasten.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/BarbaraKasten.html",
+		"oF": 0
+		},
 	"/deploy/Clarendon.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -249,6 +257,182 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/case-studies/anti/antiQuarterOpen.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkCover1.jpg": {
+		"ft": 16384,
+		"iS": 516492,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkCover1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkCover2.jpg": {
+		"ft": 16384,
+		"iS": 585295,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkCover2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkDetail1.jpg": {
+		"ft": 16384,
+		"iS": 608440,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkDetail1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkDetail2.jpg": {
+		"ft": 16384,
+		"iS": 631569,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkDetail2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkDetail3.jpg": {
+		"ft": 16384,
+		"iS": 668988,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkDetail3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkDetail4.jpg": {
+		"ft": 16384,
+		"iS": 733883,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkDetail4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkHero.jpg": {
+		"ft": 16384,
+		"iS": 724086,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkIndexOfImagery.jpg": {
+		"ft": 16384,
+		"iS": 601763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkIndexOfImagery.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkQuote.jpg": {
+		"ft": 16384,
+		"iS": 511766,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkQuote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread1.jpg": {
+		"ft": 16384,
+		"iS": 486871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread2.jpg": {
+		"ft": 16384,
+		"iS": 627884,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread3.jpg": {
+		"ft": 16384,
+		"iS": 668954,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread4.jpg": {
+		"ft": 16384,
+		"iS": 630757,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread5.jpg": {
+		"ft": 16384,
+		"iS": 663737,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread6.jpg": {
+		"ft": 16384,
+		"iS": 634287,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/bk/bkSpread7.jpg": {
+		"ft": 16384,
+		"iS": 698559,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/bk/bkSpread7.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -657,6 +841,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/on/onHero.jpg": {
+		"ft": 16384,
+		"iS": 133826,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/on/onHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/case-studies/on/onPoster.jpg": {
 		"ft": 16384,
 		"iS": 354166,
@@ -981,12 +1176,34 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
-	"/deploy/img/case-studies/sb/sbPoster.jpg": {
+	"/deploy/img/case-studies/sb/sbHero.jpg": {
+		"ft": 16384,
+		"iS": 41658,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sb/sbHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sb/sbPoster1.jpg": {
 		"ft": 16384,
 		"iS": 697820,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/case-studies/sb/sbPoster.jpg",
+		"oAP": "/deploy/img/case-studies/sb/sbPoster1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/sb/sbPoster2.jpg": {
+		"ft": 16384,
+		"iS": 728070,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/sb/sbPoster2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1471,7 +1688,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/tol/TOLProcess.jpg": {
+	"/deploy/img/case-studies/tol/tolProcess.jpg": {
 		"ft": 16384,
 		"iS": 730523,
 		"jF": 0,
@@ -2241,6 +2458,14 @@
 		"oAP": "/deploy/SonsOfAnarchy.html",
 		"oF": 0
 		},
+	"/deploy/SouthwarkBermondsey.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/SouthwarkBermondsey.html",
+		"oF": 0
+		},
 	"/deploy/ThePhiladelphiaSchool.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2313,6 +2538,14 @@
 		"oAP": "/deploy/Antifogmatic.html",
 		"oF": 2
 		},
+	"/dev/BarbaraKasten.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/BarbaraKasten.html",
+		"oF": 2
+		},
 	"/dev/case-studies/anti/antiGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2345,6 +2578,22 @@
 		"oAP": "/dev/case-studies/anti/antiText1.html",
 		"oF": 0
 		},
+	"/dev/case-studies/bk/bkGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/bk/bkGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/bk/bkHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/bk/bkHero.html",
+		"oF": 0
+		},
 	"/dev/case-studies/cl/clGallery.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -2365,7 +2614,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/case-studies/fender/fenderGallery.html",
 		"oF": 0
 		},
@@ -2373,7 +2622,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/case-studies/fender/fenderHero.html",
 		"oF": 0
 		},
@@ -2381,7 +2630,7 @@
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "/dev/case-studies/fender/fenderText1.html",
 		"oF": 0
 		},
@@ -2455,6 +2704,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/sa/saText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sb/sbGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sb/sbGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/sb/sbHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/sb/sbHero.html",
 		"oF": 0
 		},
 	"/dev/case-studies/shm/shmGallery.kit": {
@@ -2591,14 +2856,6 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/Clarendon.html",
-		"oF": 2
-		},
-	"/dev/Fender.kit": {
-		"cB": 0,
-		"ft": 2048,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/deploy/Fender.html",
 		"oF": 2
 		},
 	"/dev/global/csFooter.kit": {
@@ -3061,6 +3318,32 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/case-studies/_bkGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_bkGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_bkHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_bkHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/case-studies/_clGallery.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -3239,6 +3522,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_saText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_sbGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_sbGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_sbHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_sbHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -3587,6 +3896,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/SonsOfAnarchy.html",
+		"oF": 2
+		},
+	"/dev/SouthwarkBermondsey.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/SouthwarkBermondsey.html",
 		"oF": 2
 		},
 	"/dev/ThePhiladelphiaSchool.kit": {

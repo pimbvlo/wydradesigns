@@ -2,7 +2,7 @@
     Nav Background
 ============= */
 #nav-bg {
-    background-color: $grey-pink;
+    background-color: $light-pink;
     height: 50px;
     overflow: hidden;
     position: fixed;
@@ -21,7 +21,7 @@
         background-color: $blank;
 
         circle {
-            fill: $grey-pink;
+            fill: $light-pink;
             @include dark {
                 fill: $black;
             }

@@ -251,7 +251,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/anti/antiOpenING.jpg": {
+	"/deploy/img/case-studies/anti/antiOpening.jpg": {
 		"ft": 16384,
 		"iS": 440146,
 		"jF": 0,
@@ -5330,6 +5330,14 @@
 		"oAP": "/deploy/Fender.html",
 		"oF": 2
 		},
+	"/dev/global/burger-container.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/burger-container.html",
+		"oF": 0
+		},
 	"/dev/global/csFooter.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -5346,12 +5354,36 @@
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
 	"/dev/global/header.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/header.html",
+		"oF": 0
+		},
+	"/dev/global/links.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/links.html",
+		"oF": 0
+		},
+	"/dev/global/logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/logo.html",
 		"oF": 0
 		},
 	"/dev/global/nav-background.kit": {

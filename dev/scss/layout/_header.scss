@@ -43,9 +43,8 @@ header {
                     grid-area: l;
                 }
 
-                img {
-                    width: 100%;
-                    height: 100%;
+                svg {
+                    height: 40px;
                     @include padding(16px,0px,16px,0px);
                     @include lg {
                         width: 80%;
@@ -55,18 +54,14 @@ header {
                         width: 64%;
                         height: 64%;
                     }
-                }
+                    #wydradesigns{
+                        fill: $purple;
 
-                img:nth-child(1) {
-                    @include dark {
-                        display: none;
-                    }
-                }
+                        @include dark{
+                            fill: $white;
 
-                img:nth-child(2) {
-                    display: none;
-                    @include dark {
-                        display: initial;
+                        }
+
                     }
                 }
             }

@@ -39,7 +39,7 @@ body {
   margin: 0; }
   @media (prefers-color-scheme: dark) {
     body {
-      background-color: #19191A;
+      background-color: #1E1E20;
       color: #FCFCFC; } }
   body ::selection {
     background: #FF964C;
@@ -635,14 +635,14 @@ a {
       color: #C494FF; } }
 .resume h3 {
   font-size: 1rem;
-  color: #19191A;
+  color: #1E1E20;
   line-height: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.005rem;
   opacity: 0.75; }
   @media (prefers-color-scheme: dark) {
     .resume h3 {
-      color: #F9F5FF; } }
+      color: #F0DBFF; } }
 .resume h4 {
   font-size: 1rem;
   font-weight: 700;
@@ -870,7 +870,7 @@ textarea {
     Nav Background
 ============= */
 #nav-bg {
-  background-color: #F9F5FF;
+  background-color: #F0DBFF;
   height: 50px;
   overflow: hidden;
   position: fixed;
@@ -887,7 +887,7 @@ textarea {
   #nav-bg svg {
     background-color: rgba(0, 0, 0, 0); }
     #nav-bg svg circle {
-      fill: #F9F5FF; }
+      fill: #F0DBFF; }
       @media (prefers-color-scheme: dark) {
         #nav-bg svg circle {
           fill: #131618; } }
@@ -932,29 +932,25 @@ header {
         @media (min-width: 992px) {
           header > div aside a {
             grid-area: l; } }
-        header > div aside a img {
-          width: 100%;
-          height: 100%;
+        header > div aside a svg {
+          height: 40px;
           padding-bottom: 16px;
           padding-left: 0px;
           padding-right: 0px;
           padding-top: 16px; }
           @media (min-width: 992px) {
-            header > div aside a img {
+            header > div aside a svg {
               width: 80%;
               height: 80%; } }
           @media (min-width: 1200px) {
-            header > div aside a img {
+            header > div aside a svg {
               width: 64%;
               height: 64%; } }
-        @media (prefers-color-scheme: dark) {
-          header > div aside a img:nth-child(1) {
-            display: none; } }
-        header > div aside a img:nth-child(2) {
-          display: none; }
-          @media (prefers-color-scheme: dark) {
-            header > div aside a img:nth-child(2) {
-              display: initial; } }
+          header > div aside a svg #wydradesigns {
+            fill: #6613CE; }
+            @media (prefers-color-scheme: dark) {
+              header > div aside a svg #wydradesigns {
+                fill: #FCFCFC; } }
       header > div aside #lg-nav {
         display: none; }
         @media (min-width: 992px) {
@@ -1809,8 +1805,8 @@ footer {
     padding-top: 16px; }
     @media (prefers-color-scheme: dark) {
       #antiIntro > div article {
-        border-bottom: 4px solid #F9F5FF;
-        border-top: 4px solid #F9F5FF; } }
+        border-bottom: 4px solid #F0DBFF;
+        border-top: 4px solid #F0DBFF; } }
     @media (min-width: 768px) {
       #antiIntro > div article {
         width: 56vw; } }
@@ -2569,7 +2565,7 @@ footer {
     SHM Text
 ============= */
 #shmText3 {
-  background-color: #19191A; }
+  background-color: #1E1E20; }
   #shmText3 > div article {
     grid-template-areas: "p" "l"; }
     @media (min-width: 768px) {

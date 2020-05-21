@@ -13,6 +13,48 @@ html {
 /* =============
     Variables
 ============= */
+:root {
+  --background: #FCFCFC;
+  --off-background: #F0F0F0;
+  --font-color: #0D001E;
+  --highlight-font-color: #6613CE;
+  --top-background: #FCFCFC;
+  --purple-to-white: #6613CE;
+  --white-to-purple: #FCFCFC;
+  --mobile-nav: #FE3DFF;
+  --mobile-nav-bg: #F9F5FF;
+  --white: #FCFCFC;
+  --grey-mid: #454546;
+  --grey-dark: #1E1E20;
+  --black: #131618;
+  --blank: rgba(0,0,0,0);
+  --orange: #FF964C;
+  --pink: #FE3DFF;
+  --dark-pink: #B813B9;
+  --purple: #6613CE;
+  --dark-purple: #0D001E; }
+
+[data-theme="dark"] {
+  --background: #131618;
+  --off-background: #1E1E20;
+  --font-color: #FCFCFC;
+  --highlight-font-color: #C494FF;
+  --top-background: #232325;
+  --purple-to-white: #FCFCFC;
+  --white-to-purple: #6613CE;
+  --mobile-nav: #131618;
+  --mobile-nav-bg: #131618;
+  --white: #FCFCFC;
+  --grey-mid: #454546;
+  --grey-dark: #1E1E20;
+  --black: #131618;
+  --blank: rgba(0,0,0,0);
+  --orange: #FFA566;
+  --pink: #F9F5FF;
+  --dark-pink: #B813B9;
+  --purple: #C494FF;
+  --dark-purple: #0D001E; }
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -32,23 +74,19 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  background-color: #FCFCFC;
-  color: #0D001E;
+  background-color: var(--background);
+  color: var(--font-color);
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   margin: 0; }
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #19191A;
-      color: #FCFCFC; } }
   body ::selection {
-    background: #FF964C;
-    color: #0D001E;
-    opacity: 0.99; }
+    background: var(--orange);
+    color: var(--dark-purple);
+    opacity: 1; }
   body ::-moz-selection {
-    background: #FF964C;
-    color: #0D001E;
-    opacity: 0.99; }
+    background: var(--orange);
+    color: var(--dark-purple);
+    opacity: 1; }
 
 /**
  * Correct the font size and margin on `h1` elements within `section` and
@@ -604,15 +642,13 @@ p {
       font-size: 1.125rem;
       line-height: 1.875rem; } }
   p span {
-    color: #6613CE;
+    color: var(--highlight-font-color);
     font-weight: 600; }
-    @media (prefers-color-scheme: dark) {
-      p span {
-        color: #C494FF; } }
+
 a {
   text-decoration: none;
-  color: #FF964C;
-  transition: 0.25s; }
+  color: var(--orange);
+  transition: all 0.25s ease-in-out; }
 
 .resume h1 {
   font-family: 'Montserrat', sans-serif;
@@ -627,15 +663,13 @@ a {
   font-weight: 700;
   letter-spacing: 0.00625rem;
   line-height: 1.5rem;
-  color: #6613CE;
+  color: var(--purple);
   text-transform: uppercase;
   margin-bottom: 20px; }
-  @media (prefers-color-scheme: dark) {
-    .resume h2 {
-      color: #C494FF; } }
+
 .resume h3 {
   font-size: 1rem;
-  color: #19191A;
+  color: #1E1E20;
   line-height: 1.5rem;
   font-weight: 500;
   letter-spacing: 0.005rem;
@@ -695,9 +729,6 @@ a {
         padding-left: 24px;
         padding-right: 24px;
         padding-top: 16px; } }
-    .btn > a i {
-      font-size: 1.5rem; }
-
 .btn:link > a,
 .btn:visited > a {
   padding-bottom: 12px;
@@ -720,11 +751,6 @@ a {
       padding-left: 24px;
       padding-right: 24px;
       padding-top: 16px; } }
-  .btn:link > a i,
-  .btn:visited > a i {
-    font-size: 1.5rem;
-    transition: 0.2s ease-in-out; }
-
 .btn:hover {
   box-shadow: none;
   transform: translate(0px, 4px) scale(0.98);
@@ -739,35 +765,57 @@ a {
   transition: 0.2s ease-in-out; }
   .btn:active > a {
     color: #131618; }
-    .btn:active > a i {
-      color: #131618; }
 
-.btn-icon i {
-  margin-right: 8px; }
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px; }
 
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 5)
-*/
-.btn-purple-future {
-  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #6613ce);
-  transition: background 0.2s ease; }
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0; }
 
-.btn-purple-future:active {
-  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #ff964c); }
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s; }
 
-/*
-* Fallback CSS
-*/
-.btn-purple {
-  background-image: linear-gradient(150deg, #b813b9 0%, #ad13bd 28.28%, #9513c4 50%, #7813cb 71.72%, #6613ce 100%);
-  transition: background 0.2s ease; }
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s; }
 
-.btn-purple:active {
-  background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
+input:checked + .slider {
+  background-color: #6613CE; }
 
-.resume .btn:hover > a i {
-  transform: translate(0px, 0px) scale(1);
-  transition: 0.2s ease-in-out; }
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3; }
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px); }
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px; }
+
+.slider.round:before {
+  border-radius: 50%; }
 
 /* =============
     Forms
@@ -888,9 +936,20 @@ textarea {
     background-color: rgba(0, 0, 0, 0); }
     #nav-bg svg circle {
       fill: #F9F5FF; }
-      @media (prefers-color-scheme: dark) {
-        #nav-bg svg circle {
-          fill: #131618; } }
+
+#toggle {
+  text-align: center;
+  position: fixed;
+  background-color: #FCFCFC;
+  top: 120px;
+  left: 0;
+  z-index: 1100;
+  padding: 32px;
+  box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.08), 0 9px 46px 8px rgba(19, 22, 24, 0.05), 0 24px 38px 3px rgba(19, 22, 24, 0.06); }
+  #toggle h4 {
+    font-size: 1rem;
+    color: #0D001E; }
+
 /* =============
     Header
 ============= */
@@ -899,11 +958,8 @@ header {
   position: fixed;
   height: 72px;
   width: 100%;
-  background-color: #FCFCFC;
+  background-color: var(--top-background);
   z-index: 1000; }
-  @media (prefers-color-scheme: dark) {
-    header {
-      background-color: #131618; } }
   @media (min-width: 992px) {
     header {
       height: 80px; } }
@@ -932,29 +988,22 @@ header {
         @media (min-width: 992px) {
           header > div aside a {
             grid-area: l; } }
-        header > div aside a img {
-          width: 100%;
-          height: 100%;
+        header > div aside a svg {
+          height: 24px;
           padding-bottom: 16px;
           padding-left: 0px;
           padding-right: 0px;
-          padding-top: 16px; }
+          padding-top: 24px; }
           @media (min-width: 992px) {
-            header > div aside a img {
+            header > div aside a svg {
               width: 80%;
               height: 80%; } }
           @media (min-width: 1200px) {
-            header > div aside a img {
+            header > div aside a svg {
               width: 64%;
               height: 64%; } }
-        @media (prefers-color-scheme: dark) {
-          header > div aside a img:nth-child(1) {
-            display: none; } }
-        header > div aside a img:nth-child(2) {
-          display: none; }
-          @media (prefers-color-scheme: dark) {
-            header > div aside a img:nth-child(2) {
-              display: initial; } }
+          header > div aside a svg #Logo {
+            fill: var(--purple-to-white); }
       header > div aside #lg-nav {
         display: none; }
         @media (min-width: 992px) {
@@ -969,27 +1018,15 @@ header {
             transition: all 0.10s;
             font-size: 1.125rem; }
             header > div aside #lg-nav ul li a span {
-              border-bottom: 4px solid #0D001E;
+              border-bottom: 4px solid var(--purple-to-white);
               font-weight: 600;
-              color: #0D001E; }
-              @media (prefers-color-scheme: dark) {
-                header > div aside #lg-nav ul li a span {
-                  color: #FCFCFC;
-                  border-bottom: 4px solid #FCFCFC; } }
+              color: var(--purple-to-white); }
           header > div aside #lg-nav ul li a:link,
           header > div aside #lg-nav ul li a:visited {
-            color: #6613CE; }
-            @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:link,
-              header > div aside #lg-nav ul li a:visited {
-                color: #FCFCFC; } }
+            color: var(--purple-to-white); }
           header > div aside #lg-nav ul li a:active,
           header > div aside #lg-nav ul li a:hover {
-            border-bottom: 3px solid #6613CE; }
-            @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:active,
-              header > div aside #lg-nav ul li a:hover {
-                border-bottom: 3px solid #FCFCFC; } }
+            border-bottom: 3px solid var(--purple-to-white); }
   @media (min-width: 992px) {
     header #burger-container {
       display: none; } }
@@ -997,15 +1034,10 @@ header {
     height: 40px;
     cursor: pointer; }
     header #burger-container svg #burger-outline {
-      stroke: #6613CE; }
-      @media (prefers-color-scheme: dark) {
-        header #burger-container svg #burger-outline {
-          stroke: #FCFCFC; } }
+      stroke: var(--purple-to-white); }
     header #burger-container svg .burger-lines {
-      stroke: #6613CE; }
-      @media (prefers-color-scheme: dark) {
-        header #burger-container svg .burger-lines {
-          stroke: #FCFCFC; } }
+      stroke: var(--purple-to-white); }
+
 /* =============
     Footer
 ============= */
@@ -1014,7 +1046,7 @@ footer {
   background-color: #0D001E; }
   @media (prefers-color-scheme: dark) {
     footer {
-      background-color: #131618; } }
+      background-color: #1E1E20; } }
   footer div article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -2569,7 +2601,7 @@ footer {
     SHM Text
 ============= */
 #shmText3 {
-  background-color: #19191A; }
+  background-color: #1E1E20; }
   #shmText3 > div article {
     grid-template-areas: "p" "l"; }
     @media (min-width: 768px) {

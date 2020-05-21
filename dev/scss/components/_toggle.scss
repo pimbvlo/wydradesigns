@@ -1,0 +1,15 @@
+#toggle{
+    text-align: center;
+    position: fixed;
+    background-color: $white;
+    top: 120px;
+    left: 0;
+    z-index: 1100;
+    padding: 32px;
+    box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
+    h4{
+        font-size: rem-calc(16);
+        color: $dark-purple;
+
+    }
+}

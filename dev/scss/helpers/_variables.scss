@@ -14,17 +14,80 @@ $screen-lg-min: 992px;
 // Large desktops
 $screen-xl-min: 1200px;
 
-// Colors
+// Colors SASS Variables
 $white: #FCFCFC;
 $off-white: #F0F0F0;
-$grey-pink: #F9F5FF;
 $grey-mid: #454546;
-$grey-dark: #19191A;
+$grey-dark: #1E1E20;
 $black: #131618;
 $blank: rgba(0,0,0,0);
+
+$light-orange: #FFA566;
 $orange: #FF964C;
+
+$light-pink: #F9F5FF;
 $pink: #FE3DFF;
 $dark-pink: #B813B9;
+
 $light-purple: #C494FF;
 $purple: #6613CE;
 $dark-purple: #0D001E;
+
+// Colors CSS Variables
+:root {
+    // --white: #000;
+    // --link-color:#1C75B9;
+    // --link-white-color:#fff;
+    // --bg-color: rgb(243,243,243);
+    --background: #FCFCFC;
+    --off-background: #F0F0F0;
+    --font-color: #0D001E;
+    --highlight-font-color: #6613CE;
+    --top-background: #FCFCFC;
+    --purple-to-white: #6613CE;
+    --white-to-purple: #FCFCFC;
+    --mobile-nav: #FE3DFF;
+    --mobile-nav-bg: #F9F5FF;
+
+    --white: #FCFCFC;
+    --grey-mid: #454546;
+    --grey-dark: #1E1E20;
+    --black: #131618;
+    --blank: rgba(0,0,0,0);
+
+    // --light-orange: #FFA566;
+    --orange: #FF964C;
+
+    --pink: #FE3DFF;
+    --dark-pink: #B813B9;
+
+    --purple: #6613CE;
+    --dark-purple: #0D001E;
+
+}
+//dark theme
+[data-theme="dark"] {
+    --background: #131618;
+    --off-background: #1E1E20;
+    --font-color: #FCFCFC;
+    --highlight-font-color: #C494FF;
+    --top-background: #232325;
+    --purple-to-white: #FCFCFC;
+    --white-to-purple: #6613CE;
+    --mobile-nav: #131618;
+    --mobile-nav-bg: #131618;
+
+    --white: #FCFCFC;
+    --grey-mid: #454546;
+    --grey-dark: #1E1E20;
+    --black: #131618;
+    --blank: rgba(0,0,0,0);
+
+    --orange: #FFA566;
+
+    --pink: #F9F5FF;
+    --dark-pink: #B813B9;
+
+    --purple: #C494FF;
+    --dark-purple: #0D001E;
+}

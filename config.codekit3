@@ -5330,6 +5330,14 @@
 		"oAP": "/deploy/Fender.html",
 		"oF": 2
 		},
+	"/dev/global/burger-container.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/burger-container.html",
+		"oF": 0
+		},
 	"/dev/global/csFooter.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -5346,12 +5354,36 @@
 		"oAP": "/dev/global/footer.html",
 		"oF": 0
 		},
+	"/dev/global/head.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head.html",
+		"oF": 0
+		},
 	"/dev/global/header.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/header.html",
+		"oF": 0
+		},
+	"/dev/global/links.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/links.html",
+		"oF": 0
+		},
+	"/dev/global/logo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/logo.html",
 		"oF": 0
 		},
 	"/dev/global/nav-background.kit": {
@@ -5368,6 +5400,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/navigation.html",
+		"oF": 0
+		},
+	"/dev/global/toggle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/toggle.html",
 		"oF": 0
 		},
 	"/dev/IceCreamMuseum.kit": {
@@ -5473,6 +5513,17 @@
 		"oA": 0,
 		"oAP": "/deploy/js/scripts-min.js",
 		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"/dev/js/toggle.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/dev/js/toggle-min.js",
+		"oF": 0,
 		"sC": 3,
 		"tS": 0
 		},
@@ -5651,6 +5702,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/components/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/components/_toggle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/components/_toggle.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1

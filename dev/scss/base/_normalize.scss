@@ -17,25 +17,29 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-    background-color: $white;
-    color: $dark-purple;
+    background-color: var(--background);
+    color: var(--font-color);
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
     margin: 0;
-    @include dark {
-        background-color: $grey-dark;
-        color: $white;
-    }
+    // @include dark {
+    //     background-color: $black;
+    //     color: $white;
+    //     background-color: var(--background);
+    //     color: var(--font-color);
+    //
+    // }
+
     ::selection {
-        background: $orange;
-        color: $dark-purple;
-        opacity: 0.99;
+        background: var(--orange);
+        color: var(--dark-purple);
+        opacity: 1;
     }
 
     ::-moz-selection {
-        background: $orange;
-        color: $dark-purple;
-        opacity: 0.99;
+        background: var(--orange);
+        color: var(--dark-purple);
+        opacity: 1;
     }
 }
 /**

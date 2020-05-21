@@ -8,7 +8,9 @@
     @include dark{
         background-color: $black;
     }
-
+    // [data-theme="dark"] {
+    //     background-color: $black;
+    // }
 
     > div {
         article {

@@ -251,7 +251,7 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/deploy/img/case-studies/anti/antiOpening.jpg": {
+	"/deploy/img/case-studies/anti/antiOpenING.jpg": {
 		"ft": 16384,
 		"iS": 440146,
 		"jF": 0,
@@ -5344,6 +5344,14 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/global/csFooter.html",
+		"oF": 0
+		},
+	"/dev/global/face.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/face.html",
 		"oF": 0
 		},
 	"/dev/global/footer.kit": {

@@ -15,10 +15,10 @@ p {
 }
 
 h1 {
-    font-size: rem-calc(32);
+    font-size: rem-calc(30);
     font-weight: 700;
     letter-spacing: rem-calc(0.1);
-    line-height: rem-calc(40);
+    line-height: rem-calc(36);
     @include lg {
         font-size: rem-calc(40);
         line-height: rem-calc(56);

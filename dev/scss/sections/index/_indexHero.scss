@@ -7,7 +7,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
+    min-height: 504px;
     height: 72vh;
     @supports (background-blend-mode: multiply){
         background-blend-mode: multiply;
@@ -20,6 +20,7 @@
     }
     @include md{
         background-position: center;
+
     }
     @include lg{
         @supports (background-attachment: fixed){
@@ -39,19 +40,23 @@
                 background-color: $white;
                 border-radius: 500px;
                 display: flex;
-                height: 64px;
+                height: 56px;
                 justify-content: center;
-                @include margin(0,auto,6vh,auto);
+                @include margin(0,auto,56px,auto);
                 @include padding(16px,16px,16px,16px);
-                width: 64px;
+                width: 56px;
 
                 @include md{
-                    @include margin(null,null,8vh,null);
-                    @include padding(24px,24px,24px,24px);
-
+                    @include margin(null,null,4vh,null);
+                    height: 72px;
+                    width: 72px;
                 }
-                img{
+                @include md{
+                    @include margin(null,null,6vh,null);
+                }
+                svg{
                     width: 100%;
+
 
                 }
             }

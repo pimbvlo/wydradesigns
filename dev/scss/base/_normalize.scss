@@ -29,13 +29,13 @@ body {
     ::selection {
         background: $orange;
         color: $dark-purple;
-        opacity: 0.99;
+        opacity: 1;
     }
 
     ::-moz-selection {
         background: $orange;
         color: $dark-purple;
-        opacity: 0.99;
+        opacity: 1;
     }
 }
 /**

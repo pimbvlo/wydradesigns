@@ -4,11 +4,17 @@
 #aboutHero {
     background-image: url("../img/about/Hero.jpg");
     background-position: center top;
+    min-height: 504px;
     height: 72vh;
     @supports (background-blend-mode: multiply) {
         background-blend-mode: multiply;
-        background-color: $orange;
+        background-color: $light-orange;
+
         background-image: url("../img/about/HeroGrey.jpg");
+        @include dark{
+            background-color: $orange;
+
+        }
     }
     @include lg {
         @supports (background-attachment: fixed) {

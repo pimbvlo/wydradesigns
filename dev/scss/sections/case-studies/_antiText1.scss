@@ -2,10 +2,6 @@
     ANTI Text
 ============= */
 #antiText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
 
 
     > div {

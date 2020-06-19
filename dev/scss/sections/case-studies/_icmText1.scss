@@ -2,11 +2,6 @@
     ICM Text
 ============= */
 #icmText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
 
     > div {
         article {

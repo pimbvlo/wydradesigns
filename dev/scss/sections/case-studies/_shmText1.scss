@@ -2,9 +2,9 @@
     SHM Text
 ============= */
 #shmText1 {
-    // background-color: $off-white;
+    background-color: $off-white;
     @include dark{
-        background-color: $grey-dark;
+        background-color: $grey-dark-extra;
     }
 
 

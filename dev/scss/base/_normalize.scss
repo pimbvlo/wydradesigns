@@ -31,7 +31,9 @@ body {
         color: $dark-purple;
         opacity: 1;
         @include dark{
-            background-color: $light-orange;
+            // background-color: $light-orange;
+            // color: $white;
+
         }
     }
 
@@ -40,7 +42,9 @@ body {
         color: $dark-purple;
         opacity: 1;
         @include dark{
-            background-color: $light-orange;
+            // background-color: $light-orange;
+            // color: $white;
+
         }
 
     }

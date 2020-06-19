@@ -2,12 +2,6 @@
     TPS Text
 ============= */
 #tpsText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
-
     > div {
         article {
             p {

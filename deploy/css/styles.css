@@ -45,16 +45,11 @@ body {
     background: #FF964C;
     color: #0D001E;
     opacity: 1; }
-    @media (prefers-color-scheme: dark) {
-      body ::selection {
-        background-color: #FFA566; } }
   body ::-moz-selection {
     background: #FF964C;
     color: #0D001E;
     opacity: 1; }
-    @media (prefers-color-scheme: dark) {
-      body ::-moz-selection {
-        background-color: #FFA566; } }
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -1837,107 +1832,112 @@ footer {
 /* =============
     ANTI Intro
 ============= */
-#antiIntro > div {
-  align-items: center;
-  display: flex;
-  justify-content: center; }
-  #antiIntro > div article {
+#antiIntro {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #antiIntro {
+      background-color: #161618; } }
+  #antiIntro > div {
     align-items: center;
-    border-bottom: 4px solid #0D001E;
-    border-top: 4px solid #0D001E;
     display: flex;
-    justify-content: center;
-    padding-bottom: 16px;
-    padding-top: 16px; }
-    @media (prefers-color-scheme: dark) {
-      #antiIntro > div article {
-        border-bottom: 4px solid #EACCFF;
-        border-top: 4px solid #EACCFF; } }
-    @media (min-width: 768px) {
-      #antiIntro > div article {
-        width: 56vw; } }
-    @media (min-width: 992px) {
-      #antiIntro > div article {
-        width: 48vw; } }
-    @media (min-width: 1200px) {
-      #antiIntro > div article {
-        width: 32vw; } }
-    #antiIntro > div article p {
-      padding-left: 8px;
-      padding-right: 8px; }
+    justify-content: center; }
+    #antiIntro > div article {
+      align-items: center;
+      border-bottom: 4px solid #0D001E;
+      border-top: 4px solid #0D001E;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 16px;
+      padding-top: 16px; }
+      @media (prefers-color-scheme: dark) {
+        #antiIntro > div article {
+          border-bottom: 4px solid #EACCFF;
+          border-top: 4px solid #EACCFF; } }
       @media (min-width: 768px) {
-        #antiIntro > div article p {
-          padding-left: 16px;
-          padding-right: 16px; } }
+        #antiIntro > div article {
+          width: 56vw; } }
       @media (min-width: 992px) {
-        #antiIntro > div article p {
-          font-size: 1.25rem; } }
-      #antiIntro > div article p span {
-        font-size: 1.125rem; }
+        #antiIntro > div article {
+          width: 48vw; } }
+      @media (min-width: 1200px) {
+        #antiIntro > div article {
+          width: 32vw; } }
+      #antiIntro > div article p {
+        padding-left: 8px;
+        padding-right: 8px; }
+        @media (min-width: 768px) {
+          #antiIntro > div article p {
+            padding-left: 16px;
+            padding-right: 16px; } }
+        @media (min-width: 992px) {
+          #antiIntro > div article p {
+            font-size: 1.25rem; } }
+        #antiIntro > div article p span {
+          font-size: 1.125rem; }
 
 /* =============
     ANTI Text
 ============= */
-#antiText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #antiText1 {
-      background-color: #161618; } }
 /* =============
     ANTI Gallery
 ============= */
-#antiGallery > div article ul {
-  grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "paragraph " "ACTD" "AFO";
-  grid-template-rows: 200px 504px 224px 144px auto 168px 224px; }
-  @media (min-width: 504px) {
-    #antiGallery > div article ul {
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." ". AntiDD AntiDD" "paragraph paragraph paragraph" ". ACTD ACTD" "AFO AFO AFO";
-      grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px; } }
-  @media (min-width: 768px) {
-    #antiGallery > div article ul {
-      grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
-      grid-template-rows: 304px 72px 80px 104px auto 176px 384px; } }
-  @media (min-width: 992px) {
-    #antiGallery > div article ul {
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
-      grid-template-rows: 400px 320px 304px 240px 640px; } }
-  #antiGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
-    grid-area: ACF; }
-  #antiGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/anti/antiOpen.jpg");
-    grid-area: AO;
-    background-position: center 90%; }
-  #antiGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
-    grid-area: ANF; }
-  #antiGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/anti/antiDogDetail.png");
-    grid-area: AntiDD;
-    background-size: contain; }
-    @media (prefers-color-scheme: dark) {
-      #antiGallery > div article ul li:nth-child(4) {
-        background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
-  #antiGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
-    grid-area: ACTD;
-    background-position: center 80%; }
-  #antiGallery > div article ul li:nth-child(6) {
-    background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
-    grid-area: AFO;
-    background-position: center 90%; }
+#antiGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #antiGallery {
+      background-color: #161618; } }
+  #antiGallery > div article ul {
+    grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "paragraph " "ACTD" "AFO";
+    grid-template-rows: 200px 504px 224px 144px auto 168px 224px; }
     @media (min-width: 504px) {
-      #antiGallery > div article ul li:nth-child(6) {
-        background-position: center 80%; } }
+      #antiGallery > div article ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." ". AntiDD AntiDD" "paragraph paragraph paragraph" ". ACTD ACTD" "AFO AFO AFO";
+        grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px; } }
+    @media (min-width: 768px) {
+      #antiGallery > div article ul {
+        grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
+        grid-template-rows: 304px 72px 80px 104px auto 176px 384px; } }
     @media (min-width: 992px) {
-      #antiGallery > div article ul li:nth-child(6) {
-        background-position: center 90%; } }
-  #antiGallery > div article ul li:nth-child(7) {
-    grid-area: paragraph; }
-    #antiGallery > div article ul li:nth-child(7) p {
-      width: 100%; }
+      #antiGallery > div article ul {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
+        grid-template-rows: 400px 320px 304px 240px 640px; } }
+    #antiGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
+      grid-area: ACF; }
+    #antiGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/anti/antiOpen.jpg");
+      grid-area: AO;
+      background-position: center 90%; }
+    #antiGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
+      grid-area: ANF; }
+    #antiGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/anti/antiDogDetail.png");
+      grid-area: AntiDD;
+      background-size: contain; }
+      @media (prefers-color-scheme: dark) {
+        #antiGallery > div article ul li:nth-child(4) {
+          background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
+    #antiGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
+      grid-area: ACTD;
+      background-position: center 80%; }
+    #antiGallery > div article ul li:nth-child(6) {
+      background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
+      grid-area: AFO;
+      background-position: center 90%; }
+      @media (min-width: 504px) {
+        #antiGallery > div article ul li:nth-child(6) {
+          background-position: center 80%; } }
+      @media (min-width: 992px) {
+        #antiGallery > div article ul li:nth-child(6) {
+          background-position: center 90%; } }
+    #antiGallery > div article ul li:nth-child(7) {
+      grid-area: paragraph; }
+      #antiGallery > div article ul li:nth-child(7) p {
+        width: 100%; }
 
 /* =============
     Attention to Detail Hero
@@ -2675,91 +2675,93 @@ footer {
 /* =============
     ICM Text
 ============= */
-#icmText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #icmText1 {
-      background-color: #161618; } }
-  #icmText1 > div article p {
-    margin-bottom: 48px; }
-    @media (min-width: 768px) {
-      #icmText1 > div article p {
-        margin-bottom: 56px; } }
-    @media (min-width: 992px) {
-      #icmText1 > div article p {
-        margin-bottom: 64px; } }
-    @media (min-width: 1200px) {
-      #icmText1 > div article p {
-        margin-bottom: 80px; } }
+#icmText1 > div article p {
+  margin-bottom: 48px; }
+  @media (min-width: 768px) {
+    #icmText1 > div article p {
+      margin-bottom: 56px; } }
   @media (min-width: 992px) {
-    #icmText1 > div article ul {
-      grid-template-columns: repeat(4, 1fr); } }
-  #icmText1 > div article ul li {
-    background-size: contain;
-    height: 200px; }
-  #icmText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/icm/icmAbstract.svg"); }
-    @media (prefers-color-scheme: dark) {
-      #icmText1 > div article ul li:nth-child(1) {
-        background-image: url("../img/case-studies/icm/icmAbstractWhite.svg"); } }
-  #icmText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/icm/icmPictographic.svg"); }
-    @media (prefers-color-scheme: dark) {
-      #icmText1 > div article ul li:nth-child(2) {
-        background-image: url("../img/case-studies/icm/icmPictographicWhite.svg"); } }
-  #icmText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/icm/icmLettered.svg"); }
-    @media (prefers-color-scheme: dark) {
-      #icmText1 > div article ul li:nth-child(3) {
-        background-image: url("../img/case-studies/icm/icmLetteredWhite.svg"); } }
-  #icmText1 > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/icm/icmCombo.svg"); }
-    @media (prefers-color-scheme: dark) {
-      #icmText1 > div article ul li:nth-child(4) {
-        background-image: url("../img/case-studies/icm/icmComboWhite.svg"); } }
+    #icmText1 > div article p {
+      margin-bottom: 64px; } }
+  @media (min-width: 1200px) {
+    #icmText1 > div article p {
+      margin-bottom: 80px; } }
+@media (min-width: 992px) {
+  #icmText1 > div article ul {
+    grid-template-columns: repeat(4, 1fr); } }
+
+#icmText1 > div article ul li {
+  background-size: contain;
+  height: 200px; }
+
+#icmText1 > div article ul li:nth-child(1) {
+  background-image: url("../img/case-studies/icm/icmAbstract.svg"); }
+  @media (prefers-color-scheme: dark) {
+    #icmText1 > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/icm/icmAbstractWhite.svg"); } }
+#icmText1 > div article ul li:nth-child(2) {
+  background-image: url("../img/case-studies/icm/icmPictographic.svg"); }
+  @media (prefers-color-scheme: dark) {
+    #icmText1 > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/icm/icmPictographicWhite.svg"); } }
+#icmText1 > div article ul li:nth-child(3) {
+  background-image: url("../img/case-studies/icm/icmLettered.svg"); }
+  @media (prefers-color-scheme: dark) {
+    #icmText1 > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/icm/icmLetteredWhite.svg"); } }
+#icmText1 > div article ul li:nth-child(4) {
+  background-image: url("../img/case-studies/icm/icmCombo.svg"); }
+  @media (prefers-color-scheme: dark) {
+    #icmText1 > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/icm/icmComboWhite.svg"); } }
 /* =============
     ICM Gallery
 ============= */
-#icmGallery > div article ul {
-  grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
-  grid-template-rows: auto 200px 200px 176px; }
-  @media (min-width: 504px) {
-    #icmGallery > div article ul {
-      grid-template-areas: "ISM ISM ISM" "paragraph1 paragraph1 ." ". IBP IBP" "IPL IPL IPL";
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: 504px auto 200px 264px; } }
-  @media (min-width: 768px) {
-    #icmGallery > div article ul {
-      grid-template-rows: 680px auto 304px 400px; } }
-  @media (min-width: 992px) {
-    #icmGallery > div article ul {
-      grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: 744px auto 640px; } }
-  @media (min-width: 1200px) {
-    #icmGallery > div article ul {
-      grid-template-rows: 800px auto 704px; } }
-  #icmGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/icm/icmStationaryMockup.jpg");
-    grid-area: ISM; }
-  #icmGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/icm/icmButtonPins.jpg");
-    grid-area: IBP;
-    background-size: auto 150%; }
+#icmGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #icmGallery {
+      background-color: #161618; } }
+  #icmGallery > div article ul {
+    grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
+    grid-template-rows: auto 200px 200px 176px; }
     @media (min-width: 504px) {
-      #icmGallery > div article ul li:nth-child(2) {
-        background-size: cover; } }
+      #icmGallery > div article ul {
+        grid-template-areas: "ISM ISM ISM" "paragraph1 paragraph1 ." ". IBP IBP" "IPL IPL IPL";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 504px auto 200px 264px; } }
+    @media (min-width: 768px) {
+      #icmGallery > div article ul {
+        grid-template-rows: 680px auto 304px 400px; } }
     @media (min-width: 992px) {
-      #icmGallery > div article ul li:nth-child(2) {
-        background-size: auto 200%; } }
-  #icmGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/icm/icmPresentationLayout.jpg");
-    grid-area: IPL;
-    background-position: center 10%; }
-  #icmGallery > div article ul li:nth-child(4) {
-    grid-area: paragraph1; }
-    #icmGallery > div article ul li:nth-child(4) p {
-      width: 100%; }
+      #icmGallery > div article ul {
+        grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 744px auto 640px; } }
+    @media (min-width: 1200px) {
+      #icmGallery > div article ul {
+        grid-template-rows: 800px auto 704px; } }
+    #icmGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/icm/icmStationaryMockup.jpg");
+      grid-area: ISM; }
+    #icmGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/icm/icmButtonPins.jpg");
+      grid-area: IBP;
+      background-size: auto 150%; }
+      @media (min-width: 504px) {
+        #icmGallery > div article ul li:nth-child(2) {
+          background-size: cover; } }
+      @media (min-width: 992px) {
+        #icmGallery > div article ul li:nth-child(2) {
+          background-size: auto 200%; } }
+    #icmGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/icm/icmPresentationLayout.jpg");
+      grid-area: IPL;
+      background-position: center 10%; }
+    #icmGallery > div article ul li:nth-child(4) {
+      grid-area: paragraph1; }
+      #icmGallery > div article ul li:nth-child(4) p {
+        width: 100%; }
 
 /* =============
     Movebo Hero
@@ -3177,70 +3179,64 @@ footer {
 /* =============
     SHM Text
 ============= */
-@media (prefers-color-scheme: dark) {
-  #shmText1 {
-    background-color: #1E1E20; } }
-
-#shmText1 > div article p {
-  margin-bottom: 48px; }
-  @media (min-width: 768px) {
-    #shmText1 > div article p {
-      margin-bottom: 56px; } }
-  @media (min-width: 992px) {
-    #shmText1 > div article p {
-      margin-bottom: 64px; } }
-  @media (min-width: 1200px) {
-    #shmText1 > div article p {
-      margin-bottom: 80px; } }
-#shmText1 > div article ul li:nth-child(1) {
-  background-image: url("../img/case-studies/shm/shmInfluence.jpg");
-  background-position: center 20%; }
-
-#shmText1 > div article ul li:nth-child(2) {
-  background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
-
-#shmText1 > div article ul li:nth-child(3) {
-  background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
-  @media (min-width: 504px) {
-    #shmText1 > div article ul li:nth-child(3) {
-      grid-column: span 2; } }
-  @media (min-width: 992px) {
-    #shmText1 > div article ul li:nth-child(3) {
-      grid-column: span 1; } }
+#shmText1 {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #shmText1 {
+      background-color: #161618; } }
+  #shmText1 > div article p {
+    margin-bottom: 48px; }
+    @media (min-width: 768px) {
+      #shmText1 > div article p {
+        margin-bottom: 56px; } }
+    @media (min-width: 992px) {
+      #shmText1 > div article p {
+        margin-bottom: 64px; } }
+    @media (min-width: 1200px) {
+      #shmText1 > div article p {
+        margin-bottom: 80px; } }
+  #shmText1 > div article ul li:nth-child(1) {
+    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
+    background-position: center 20%; }
+  #shmText1 > div article ul li:nth-child(2) {
+    background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
+  #shmText1 > div article ul li:nth-child(3) {
+    background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
+    @media (min-width: 504px) {
+      #shmText1 > div article ul li:nth-child(3) {
+        grid-column: span 2; } }
+    @media (min-width: 992px) {
+      #shmText1 > div article ul li:nth-child(3) {
+        grid-column: span 1; } }
 /* =============
     SHM Text
 ============= */
-#shmText3 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #shmText3 {
-      background-color: #161618; } }
-  #shmText3 > div article {
-    grid-template-areas: "p" "l"; }
+#shmText3 > div article {
+  grid-template-areas: "p" "l"; }
+  @media (min-width: 768px) {
+    #shmText3 > div article {
+      grid-template-areas: "p l"; } }
+  #shmText3 > div article p {
+    margin-bottom: 48px; }
+    @media (prefers-color-scheme: dark) {
+      #shmText3 > div article p {
+        color: #FCFCFC; } }
     @media (min-width: 768px) {
-      #shmText3 > div article {
-        grid-template-areas: "p l"; } }
-    #shmText3 > div article p {
-      margin-bottom: 48px; }
-      @media (prefers-color-scheme: dark) {
-        #shmText3 > div article p {
-          color: #FCFCFC; } }
-      @media (min-width: 768px) {
-        #shmText3 > div article p {
-          margin-bottom: 0px; } }
-    #shmText3 > div article figure {
-      grid-area: l;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: contain;
-      height: 104px;
-      background-image: url("../img/case-studies/shm/shmLogoBlack.svg"); }
-      @media (prefers-color-scheme: dark) {
-        #shmText3 > div article figure {
-          background-image: url("../img/case-studies/shm/shmLogoWhite.svg"); } }
-      @media (min-width: 768px) {
-        #shmText3 > div article figure {
-          height: 100%; } }
+      #shmText3 > div article p {
+        margin-bottom: 0px; } }
+  #shmText3 > div article figure {
+    grid-area: l;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 104px;
+    background-image: url("../img/case-studies/shm/shmLogoBlack.svg"); }
+    @media (prefers-color-scheme: dark) {
+      #shmText3 > div article figure {
+        background-image: url("../img/case-studies/shm/shmLogoWhite.svg"); } }
+    @media (min-width: 768px) {
+      #shmText3 > div article figure {
+        height: 100%; } }
 /* =============
     SHM Gallery
 ============= */
@@ -3397,69 +3393,73 @@ footer {
 /* =============
     TPS Text
 ============= */
-#tpsText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #tpsText1 {
-      background-color: #161618; } }
-  #tpsText1 > div article p {
-    margin-bottom: 32px; }
-    @media (min-width: 1200px) {
-      #tpsText1 > div article p {
-        margin-bottom: 80px; } }
-  @media (min-width: 992px) {
-    #tpsText1 > div article ul {
-      grid-template-columns: repeat(4, 1fr); } }
-  #tpsText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/tps/tpsInspiration2.jpg"); }
-  #tpsText1 > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/tps/tpsInspiration1.jpg"); }
-  #tpsText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/tps/tpsLogo.svg");
-    background-size: contain; }
-  #tpsText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg"); }
+#tpsText1 > div article p {
+  margin-bottom: 32px; }
+  @media (min-width: 1200px) {
+    #tpsText1 > div article p {
+      margin-bottom: 80px; } }
+@media (min-width: 992px) {
+  #tpsText1 > div article ul {
+    grid-template-columns: repeat(4, 1fr); } }
+
+#tpsText1 > div article ul li:nth-child(3) {
+  background-image: url("../img/case-studies/tps/tpsInspiration2.jpg"); }
+
+#tpsText1 > div article ul li:nth-child(4) {
+  background-image: url("../img/case-studies/tps/tpsInspiration1.jpg"); }
+
+#tpsText1 > div article ul li:nth-child(1) {
+  background-image: url("../img/case-studies/tps/tpsLogo.svg");
+  background-size: contain; }
+
+#tpsText1 > div article ul li:nth-child(2) {
+  background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg"); }
 
 /* =============
     TPS Gallery
 ============= */
-#tpsGallery > div article ul {
-  grid-template-areas: "paragraph1" "TBP" "TWB" "TBC" "TBS1" "TP";
-  grid-template-rows: auto 400px 280px 240px 200px 480px; }
-  @media (min-width: 504px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" "TWB TWB TWB" "TBC TBS1 TBS1" "TP TP TP";
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 504px 304px 232px 504px; } }
-  @media (min-width: 768px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
-      grid-template-rows: auto 504px 304px 280px 640px; } }
-  @media (min-width: 992px) {
-    #tpsGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: auto 200px 344px 304px; } }
-  #tpsGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/tps/tpsBuildingPoster.jpg");
-    grid-area: TBP; }
-  #tpsGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/tps/tpsWebBanner.jpg");
-    grid-area: TWB;
-    background-size: contain; }
-  #tpsGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/tps/tpsBrochureCover.jpg");
-    grid-area: TBC; }
-  #tpsGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/tps/tpsBrochureSpread1.jpg");
-    grid-area: TBS1; }
-  #tpsGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/tps/tpsPoster.jpg");
-    grid-area: TP; }
-  #tpsGallery > div article ul li:nth-child(6) {
-    grid-area: paragraph1; }
-    #tpsGallery > div article ul li:nth-child(6) p {
-      width: 100%; }
+#tpsGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #tpsGallery {
+      background-color: #161618; } }
+  #tpsGallery > div article ul {
+    grid-template-areas: "paragraph1" "TBP" "TWB" "TBC" "TBS1" "TP";
+    grid-template-rows: auto 400px 280px 240px 200px 480px; }
+    @media (min-width: 504px) {
+      #tpsGallery > div article ul {
+        grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" "TWB TWB TWB" "TBC TBS1 TBS1" "TP TP TP";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 504px 304px 232px 504px; } }
+    @media (min-width: 768px) {
+      #tpsGallery > div article ul {
+        grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
+        grid-template-rows: auto 504px 304px 280px 640px; } }
+    @media (min-width: 992px) {
+      #tpsGallery > div article ul {
+        grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto 200px 344px 304px; } }
+    #tpsGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/tps/tpsBuildingPoster.jpg");
+      grid-area: TBP; }
+    #tpsGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/tps/tpsWebBanner.jpg");
+      grid-area: TWB;
+      background-size: contain; }
+    #tpsGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/tps/tpsBrochureCover.jpg");
+      grid-area: TBC; }
+    #tpsGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/tps/tpsBrochureSpread1.jpg");
+      grid-area: TBS1; }
+    #tpsGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/tps/tpsPoster.jpg");
+      grid-area: TP; }
+    #tpsGallery > div article ul li:nth-child(6) {
+      grid-area: paragraph1; }
+      #tpsGallery > div article ul li:nth-child(6) p {
+        width: 100%; }
 
 /* =============
     TRIUMPH Hero

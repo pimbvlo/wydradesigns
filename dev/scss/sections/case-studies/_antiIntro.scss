@@ -2,6 +2,11 @@
     ANTI Intro
 ============= */
 #antiIntro {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
     > div {
         align-items: center;
         display: flex;

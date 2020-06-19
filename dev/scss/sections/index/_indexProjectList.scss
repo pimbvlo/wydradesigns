@@ -31,7 +31,7 @@
                 }
                 @include md {
                     grid-gap: 24px;
-                    grid-template-columns: repeat(3,1fr);
+                    // grid-template-columns: repeat(3,1fr);
                 }
                 @include lg {
                     grid-gap: 32px;
@@ -58,14 +58,14 @@
                         transition: 0.1s;
                         width: 100%;
                         @include md {
-                            // height: 196px;
+                            height: 240px;
                         }
                         @include lg {
-                            height: 200px;
+                            height: 280px;
                             opacity: 0;
                         }
                         @include xl {
-                            height: 240px;
+                            height: 304px;
                         }
                         @include margin(auto,null,auto,null);
 
@@ -98,7 +98,7 @@
                 grid-template-areas: "f shm" "a tps" "icm .";
             }
             @include md {
-                grid-template-areas: "f shm a" "tps icm .";
+                // grid-template-areas: "f shm a" "tps icm .";
             }
 
             li:nth-child(1) {
@@ -135,6 +135,10 @@
             }
 
             li:nth-child(5) {
+                /* =============
+                    TURNED OFF
+                ============= */
+                display: none;
                 background-image: url("../img/index/projects/purple/ICMCover.jpg");
                 background-position: bottom right;
                 grid-area: icm;
@@ -150,7 +154,7 @@
                 grid-template-areas: "atd t" "soa m";
             }
             @include md {
-                grid-template-areas: "atd t m" "soa . .";
+                // grid-template-areas: "atd t m" "soa . .";
             }
 
             li:nth-child(1) {
@@ -192,7 +196,7 @@
                 grid-template-areas: "tol ul" "c qv";
             }
             @include md {
-                grid-template-areas: "tol ul c" "qv . .";
+                // grid-template-areas: "tol ul c" "qv . .";
             }
 
             li:nth-child(1) {
@@ -212,6 +216,11 @@
             }
 
             li:nth-child(3) {
+                /* =============
+                    TURNED OFF
+                ============= */
+                display: none;
+
                 background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
                 @include lg {
@@ -219,6 +228,11 @@
                 }
             }
             li:nth-child(4) {
+                /* =============
+                    TURNED OFF
+                ============= */
+                display: none;
+
                 background-image: url("../img/index/projects/purple/QVCover.jpg");
                 background-position: top right;
                 grid-area: qv;
@@ -236,7 +250,7 @@
                 grid-template-areas: "bk sa";
             }
             @include md {
-                grid-template-areas: "bk sa .";
+                // grid-template-areas: "bk sa .";
             }
 
             li:nth-child(1) {
@@ -263,14 +277,19 @@
                 }
             }
         }
-
+        /* =============
+            TURNED OFF
+        ============= */
+        h3:nth-child(10),ul:nth-child(11){
+            display: none;
+        }
         ul:nth-child(11) {
             grid-template-areas: "sb" "on";
             @include sm {
                 grid-template-areas: "sb on";
             }
             @include md {
-                grid-template-areas: "sb on .";
+                // grid-template-areas: "sb on .";
             }
 
             li:nth-child(1) {

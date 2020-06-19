@@ -2,6 +2,11 @@
     Index Intro
 ============= */
 #indexIntro {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
     div{
         align-items: center;
         display: flex;
@@ -14,6 +19,9 @@
             justify-content: center;
 
             @include padding(16px, null, 16px, null);
+            @include sm{
+                width: 76vw;
+            }
             @include md{
                 width: 56vw;
             }

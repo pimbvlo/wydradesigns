@@ -1179,287 +1179,296 @@ footer {
 /* =============
     Index Intro
 ============= */
-#indexIntro div {
-  align-items: center;
-  display: flex;
-  justify-content: center; }
-  #indexIntro div article {
+#indexIntro {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #indexIntro {
+      background-color: #161618; } }
+  #indexIntro div {
     align-items: center;
-    border-bottom: 4px solid #FF964C;
-    border-top: 4px solid #FF964C;
     display: flex;
-    justify-content: center;
-    padding-bottom: 16px;
-    padding-top: 16px; }
-    @media (min-width: 768px) {
-      #indexIntro div article {
-        width: 56vw; } }
-    @media (min-width: 992px) {
-      #indexIntro div article {
-        width: 48vw; } }
-    @media (min-width: 1200px) {
-      #indexIntro div article {
-        width: 32vw; } }
-    #indexIntro div article p {
-      padding-left: 8px;
-      padding-right: 8px; }
+    justify-content: center; }
+    #indexIntro div article {
+      align-items: center;
+      border-bottom: 4px solid #FF964C;
+      border-top: 4px solid #FF964C;
+      display: flex;
+      justify-content: center;
+      padding-bottom: 16px;
+      padding-top: 16px; }
+      @media (min-width: 504px) {
+        #indexIntro div article {
+          width: 76vw; } }
       @media (min-width: 768px) {
-        #indexIntro div article p {
-          padding-left: 16px;
-          padding-right: 16px; } }
+        #indexIntro div article {
+          width: 56vw; } }
+      @media (min-width: 992px) {
+        #indexIntro div article {
+          width: 48vw; } }
+      @media (min-width: 1200px) {
+        #indexIntro div article {
+          width: 32vw; } }
+      #indexIntro div article p {
+        padding-left: 8px;
+        padding-right: 8px; }
+        @media (min-width: 768px) {
+          #indexIntro div article p {
+            padding-left: 16px;
+            padding-right: 16px; } }
 /* =============
     Index Project List
 ============= */
-#indexProjectsList > div article h2 {
-  margin-bottom: 16px; }
-
-@media (min-width: 768px) {
-  #indexProjectsList > div article {
-    margin-bottom: 24px; } }
-
-#indexProjectsList > div article h3 {
-  margin-bottom: 8px;
-  margin-top: 16px; }
+#indexProjectsList > div {
+  /* =============
+            TURNED OFF
+        ============= */ }
+  #indexProjectsList > div article h2 {
+    margin-bottom: 16px; }
   @media (min-width: 768px) {
-    #indexProjectsList > div article h3 {
-      margin-bottom: 8px;
-      margin-top: 34px; } }
-  @media (min-width: 992px) {
-    #indexProjectsList > div article h3 {
-      margin-bottom: 16px;
-      margin-top: 32px; } }
-#indexProjectsList > div article ul {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); }
-  @media (min-width: 504px) {
-    #indexProjectsList > div article ul {
-      grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div article ul {
-      grid-gap: 24px;
-      grid-template-columns: repeat(3, 1fr); } }
-  @media (min-width: 992px) {
-    #indexProjectsList > div article ul {
-      grid-gap: 32px; } }
-  #indexProjectsList > div article ul li {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 16px;
-    box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
-    background-color: #6613CE; }
-    #indexProjectsList > div article ul li a {
-      align-items: center;
-      color: #FCFCFC;
-      display: flex;
-      height: 176px;
-      justify-content: center;
-      transition: 0.1s;
-      width: 100%;
-      margin-bottom: auto;
-      margin-top: auto; }
+    #indexProjectsList > div article {
+      margin-bottom: 24px; } }
+  #indexProjectsList > div article h3 {
+    margin-bottom: 8px;
+    margin-top: 16px; }
+    @media (min-width: 768px) {
+      #indexProjectsList > div article h3 {
+        margin-bottom: 8px;
+        margin-top: 34px; } }
+    @media (min-width: 992px) {
+      #indexProjectsList > div article h3 {
+        margin-bottom: 16px;
+        margin-top: 32px; } }
+  #indexProjectsList > div article ul {
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); }
+    @media (min-width: 504px) {
+      #indexProjectsList > div article ul {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 768px) {
+      #indexProjectsList > div article ul {
+        grid-gap: 24px; } }
+    @media (min-width: 992px) {
+      #indexProjectsList > div article ul {
+        grid-gap: 32px; } }
+    #indexProjectsList > div article ul li {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 16px;
+      box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
+      cursor: pointer;
+      transition: 0.2s ease-in-out;
+      background-color: #6613CE; }
+      #indexProjectsList > div article ul li a {
+        align-items: center;
+        color: #FCFCFC;
+        display: flex;
+        height: 176px;
+        justify-content: center;
+        transition: 0.1s;
+        width: 100%;
+        margin-bottom: auto;
+        margin-top: auto; }
+        @media (min-width: 768px) {
+          #indexProjectsList > div article ul li a {
+            height: 240px; } }
+        @media (min-width: 992px) {
+          #indexProjectsList > div article ul li a {
+            height: 280px;
+            opacity: 0; } }
+        @media (min-width: 1200px) {
+          #indexProjectsList > div article ul li a {
+            height: 304px; } }
+        #indexProjectsList > div article ul li a div h4 {
+          text-align: center;
+          margin-bottom: 4px;
+          margin-left: 12px;
+          margin-right: 12px; }
+        #indexProjectsList > div article ul li a div p {
+          text-align: center;
+          margin-left: 12px;
+          margin-right: 12px;
+          font-family: 'IBM Plex Mono', monospace;
+          opacity: 0.9; }
+      #indexProjectsList > div article ul li a:link,
+      #indexProjectsList > div article ul li a:visited {
+        color: #FCFCFC; }
+  #indexProjectsList > div ul:nth-child(3) {
+    grid-template-areas: "f" "shm" "a" "tps" "icm"; }
+    @media (min-width: 504px) {
+      #indexProjectsList > div ul:nth-child(3) {
+        grid-template-areas: "f shm" "a tps" "icm ."; } }
+    #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
+      background-image: url("../img/index/projects/purple/FenderCover.jpg");
+      background-position: bottom center;
+      grid-area: f; }
       @media (min-width: 992px) {
-        #indexProjectsList > div article ul li a {
-          height: 200px;
-          opacity: 0; } }
-      @media (min-width: 1200px) {
-        #indexProjectsList > div article ul li a {
-          height: 240px; } }
-      #indexProjectsList > div article ul li a div h4 {
-        text-align: center;
-        margin-bottom: 4px;
-        margin-left: 12px;
-        margin-right: 12px; }
-      #indexProjectsList > div article ul li a div p {
-        text-align: center;
-        margin-left: 12px;
-        margin-right: 12px;
-        font-family: 'IBM Plex Mono', monospace;
-        opacity: 0.9; }
-    #indexProjectsList > div article ul li a:link,
-    #indexProjectsList > div article ul li a:visited {
-      color: #FCFCFC; }
-
-#indexProjectsList > div ul:nth-child(3) {
-  grid-template-areas: "f" "shm" "a" "tps" "icm"; }
-  @media (min-width: 504px) {
-    #indexProjectsList > div ul:nth-child(3) {
-      grid-template-areas: "f shm" "a tps" "icm ."; } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div ul:nth-child(3) {
-      grid-template-areas: "f shm a" "tps icm ."; } }
-  #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
-    background-image: url("../img/index/projects/purple/FenderCover.jpg");
-    background-position: bottom center;
-    grid-area: f; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
-        background-image: url("../img/index/projects/FenderCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
-    background-image: url("../img/index/projects/purple/SHMCover.jpg");
-    grid-area: shm; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
-        background-image: url("../img/index/projects/SHMCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
-    background-image: url("../img/index/projects/purple/AntiCover.jpg");
-    grid-area: a; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
-        background-image: url("../img/index/projects/AntiCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
-    background-image: url("../img/index/projects/purple/TPSCover.jpg");
-    grid-area: tps; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
-        background-image: url("../img/index/projects/TPSCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
-    background-image: url("../img/index/projects/purple/ICMCover.jpg");
-    background-position: bottom right;
-    grid-area: icm; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
-        background-image: url("../img/index/projects/ICMCover.jpg"); } }
-#indexProjectsList > div ul:nth-child(5) {
-  grid-template-areas: "atd" "t" "soa" "m"; }
-  @media (min-width: 504px) {
-    #indexProjectsList > div ul:nth-child(5) {
-      grid-template-areas: "atd t" "soa m"; } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div ul:nth-child(5) {
-      grid-template-areas: "atd t m" "soa . ."; } }
-  #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
-    background-image: url("../img/index/projects/purple/TCover.jpg");
-    grid-area: t; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
-        background-image: url("../img/index/projects/TCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
-    background-image: url("../img/index/projects/purple/SoACover.jpg");
-    grid-area: soa; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
-        background-image: url("../img/index/projects/SoACover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
-    background-image: url("../img/index/projects/purple/MCover.jpg");
-    grid-area: m;
-    background-position: right center; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
-        background-image: url("../img/index/projects/MCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
-    background-image: url("../img/index/projects/purple/ATDCover.jpg");
-    grid-area: atd;
-    background-position: left bottom; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
-        background-image: url("../img/index/projects/ATDCover.jpg"); } }
-#indexProjectsList > div ul:nth-child(7) {
-  grid-template-areas: "tol" "ul" "c" "qv"; }
-  @media (min-width: 504px) {
-    #indexProjectsList > div ul:nth-child(7) {
-      grid-template-areas: "tol ul" "c qv"; } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div ul:nth-child(7) {
-      grid-template-areas: "tol ul c" "qv . ."; } }
-  #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
-    background-image: url("../img/index/projects/purple/ToLCover.jpg");
-    grid-area: tol; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
-        background-image: url("../img/index/projects/ToLCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
-    background-image: url("../img/index/projects/purple/UnCover.jpg");
-    grid-area: ul; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
-        background-image: url("../img/index/projects/UnCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
-    background-image: url("../img/index/projects/purple/ClCover.jpg");
-    grid-area: c; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
-        background-image: url("../img/index/projects/ClCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
-    background-image: url("../img/index/projects/purple/QVCover.jpg");
-    background-position: top right;
-    grid-area: qv; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
-        background-image: url("../img/index/projects/QVCover.jpg"); } }
-#indexProjectsList > div ul:nth-child(9) {
-  grid-template-areas: "bk" "sa"; }
-  @media (min-width: 504px) {
-    #indexProjectsList > div ul:nth-child(9) {
-      grid-template-areas: "bk sa"; } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div ul:nth-child(9) {
-      grid-template-areas: "bk sa ."; } }
-  #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
-    background-image: url("../img/index/projects/purple/BKCover.jpg");
-    grid-area: bk; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
-        background-image: url("../img/index/projects/BKCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
-    background-image: url("../img/index/projects/purple/SACover.jpg");
-    grid-area: sa; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
-        background-image: url("../img/index/projects/SACover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
-    background-image: url("../img/index/projects/purple/ClCover.jpg");
-    grid-area: c; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
-        background-image: url("../img/index/projects/ClCover.jpg"); } }
-#indexProjectsList > div ul:nth-child(11) {
-  grid-template-areas: "sb" "on"; }
-  @media (min-width: 504px) {
-    #indexProjectsList > div ul:nth-child(11) {
-      grid-template-areas: "sb on"; } }
-  @media (min-width: 768px) {
-    #indexProjectsList > div ul:nth-child(11) {
-      grid-template-areas: "sb on ."; } }
-  #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
-    background-image: url("../img/index/projects/purple/SBCover.jpg");
-    grid-area: sb; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
-        background-image: url("../img/index/projects/SBCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
-    background-image: url("../img/index/projects/purple/ONCover.jpg");
-    grid-area: on; }
-    @media (min-width: 992px) {
-      #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
-        background-image: url("../img/index/projects/ONCover.jpg"); } }
-@media (min-width: 992px) {
-  #indexProjectsList > div li:hover {
-    box-shadow: none;
-    transform: translate(0px, 4px) scale(0.98); }
-    @supports (filter: saturate(0.75)) {
-      #indexProjectsList > div li:hover {
-        filter: saturate(0.75); } }
-    @supports (background-blend-mode: multiply) {
-      #indexProjectsList > div li:hover {
-        background-blend-mode: multiply; } }
-    #indexProjectsList > div li:hover a {
-      opacity: 1; }
-  #indexProjectsList > div li:active {
-    background-color: #FF964C;
-    transition: all 0.1s; }
-    @supports (filter: saturate(0.75)) {
-      #indexProjectsList > div li:active {
-        filter: saturate(0.75); } }
-    @supports (background-blend-mode: multiply) {
-      #indexProjectsList > div li:active {
-        background-blend-mode: multiply; } }
-    #indexProjectsList > div li:active a {
-      opacity: 1; } }
-
+        #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
+          background-image: url("../img/index/projects/FenderCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
+      background-image: url("../img/index/projects/purple/SHMCover.jpg");
+      grid-area: shm; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
+          background-image: url("../img/index/projects/SHMCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
+      background-image: url("../img/index/projects/purple/AntiCover.jpg");
+      grid-area: a; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
+          background-image: url("../img/index/projects/AntiCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
+      background-image: url("../img/index/projects/purple/TPSCover.jpg");
+      grid-area: tps; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
+          background-image: url("../img/index/projects/TPSCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
+      /* =============
+                    TURNED OFF
+                ============= */
+      display: none;
+      background-image: url("../img/index/projects/purple/ICMCover.jpg");
+      background-position: bottom right;
+      grid-area: icm; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
+          background-image: url("../img/index/projects/ICMCover.jpg"); } }
+  #indexProjectsList > div ul:nth-child(5) {
+    grid-template-areas: "atd" "t" "soa" "m"; }
+    @media (min-width: 504px) {
+      #indexProjectsList > div ul:nth-child(5) {
+        grid-template-areas: "atd t" "soa m"; } }
+    #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
+      background-image: url("../img/index/projects/purple/TCover.jpg");
+      grid-area: t; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
+          background-image: url("../img/index/projects/TCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
+      background-image: url("../img/index/projects/purple/SoACover.jpg");
+      grid-area: soa; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
+          background-image: url("../img/index/projects/SoACover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
+      background-image: url("../img/index/projects/purple/MCover.jpg");
+      grid-area: m;
+      background-position: right center; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
+          background-image: url("../img/index/projects/MCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
+      background-image: url("../img/index/projects/purple/ATDCover.jpg");
+      grid-area: atd;
+      background-position: left bottom; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
+          background-image: url("../img/index/projects/ATDCover.jpg"); } }
+  #indexProjectsList > div ul:nth-child(7) {
+    grid-template-areas: "tol" "ul" "c" "qv"; }
+    @media (min-width: 504px) {
+      #indexProjectsList > div ul:nth-child(7) {
+        grid-template-areas: "tol ul" "c qv"; } }
+    #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
+      background-image: url("../img/index/projects/purple/ToLCover.jpg");
+      grid-area: tol; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
+          background-image: url("../img/index/projects/ToLCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
+      background-image: url("../img/index/projects/purple/UnCover.jpg");
+      grid-area: ul; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
+          background-image: url("../img/index/projects/UnCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
+      /* =============
+                    TURNED OFF
+                ============= */
+      display: none;
+      background-image: url("../img/index/projects/purple/ClCover.jpg");
+      grid-area: c; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
+          background-image: url("../img/index/projects/ClCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
+      /* =============
+                    TURNED OFF
+                ============= */
+      display: none;
+      background-image: url("../img/index/projects/purple/QVCover.jpg");
+      background-position: top right;
+      grid-area: qv; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
+          background-image: url("../img/index/projects/QVCover.jpg"); } }
+  #indexProjectsList > div ul:nth-child(9) {
+    grid-template-areas: "bk" "sa"; }
+    @media (min-width: 504px) {
+      #indexProjectsList > div ul:nth-child(9) {
+        grid-template-areas: "bk sa"; } }
+    #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
+      background-image: url("../img/index/projects/purple/BKCover.jpg");
+      grid-area: bk; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
+          background-image: url("../img/index/projects/BKCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
+      background-image: url("../img/index/projects/purple/SACover.jpg");
+      grid-area: sa; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
+          background-image: url("../img/index/projects/SACover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
+      background-image: url("../img/index/projects/purple/ClCover.jpg");
+      grid-area: c; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
+          background-image: url("../img/index/projects/ClCover.jpg"); } }
+  #indexProjectsList > div h3:nth-child(10), #indexProjectsList > div ul:nth-child(11) {
+    display: none; }
+  #indexProjectsList > div ul:nth-child(11) {
+    grid-template-areas: "sb" "on"; }
+    @media (min-width: 504px) {
+      #indexProjectsList > div ul:nth-child(11) {
+        grid-template-areas: "sb on"; } }
+    #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
+      background-image: url("../img/index/projects/purple/SBCover.jpg");
+      grid-area: sb; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
+          background-image: url("../img/index/projects/SBCover.jpg"); } }
+    #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
+      background-image: url("../img/index/projects/purple/ONCover.jpg");
+      grid-area: on; }
+      @media (min-width: 992px) {
+        #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
+          background-image: url("../img/index/projects/ONCover.jpg"); } }
+  @media (min-width: 992px) {
+    #indexProjectsList > div li:hover {
+      box-shadow: none;
+      transform: translate(0px, 4px) scale(0.98); }
+      @supports (filter: saturate(0.75)) {
+        #indexProjectsList > div li:hover {
+          filter: saturate(0.75); } }
+      @supports (background-blend-mode: multiply) {
+        #indexProjectsList > div li:hover {
+          background-blend-mode: multiply; } }
+      #indexProjectsList > div li:hover a {
+        opacity: 1; }
+    #indexProjectsList > div li:active {
+      background-color: #FF964C;
+      transition: all 0.1s; }
+      @supports (filter: saturate(0.75)) {
+        #indexProjectsList > div li:active {
+          filter: saturate(0.75); } }
+      @supports (background-blend-mode: multiply) {
+        #indexProjectsList > div li:active {
+          background-blend-mode: multiply; } }
+      #indexProjectsList > div li:active a {
+        opacity: 1; } }
 /* =============
     About Hero
 ============= */

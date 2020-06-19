@@ -2,12 +2,14 @@
     Header
 ============= */
 header {
+
     box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
     position: fixed;
     height: 72px;
     width: 100%;
     background-color: $white;
     z-index: 1000;
+    top: 0px;
     @include dark {
         background-color: $grey-mid-extra;
         box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .03), 0 9px 46px 8px rgba(19, 22, 24, .01), 0 24px 38px 3px rgba(19, 22, 24, .02);
@@ -32,6 +34,8 @@ header {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            width: 100%;
+
             @include lg {
                 display: grid;
                 grid-template-columns: auto auto 32%;

@@ -1,0 +1,64 @@
+/* =============
+    404 Main
+============= */
+#FourOhFourMain {
+    height: 64vh;
+    background-image: url("../img/404/404op2.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    >div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        article{
+            display: grid;
+            grid-gap: 16px;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-areas: "h1""p""btn";
+            @include margin(16vh,null,null,null);
+            @include dark{
+                color: $dark-purple;
+            }
+            @include sm {
+                grid-template-columns: repeat(3,1fr);
+                grid-template-areas: "h1 h1 h1" "p p ." "btn btn .";
+            }
+            @include md {
+                grid-gap: 24px;
+            }
+            @include lg {
+                grid-template-columns: repeat(5,1fr);
+                grid-template-areas: "h1 h1 h1 h1 h1" "p p . . ." "btn btn . . .";
+                grid-gap: 0px 32px;
+
+            }
+
+
+            h1{
+                font-size: rem-calc(48);
+                grid-area: h1;
+            }
+            p{
+                grid-area: p;
+            }
+            div{
+                grid-area: btn;
+                @include margin(64px,null,null,null);
+                @include md {
+                    @include margin(72px,null,null,null);
+                }
+                @include lg {
+                    @include margin(80px,null,null,null);
+                }
+                @include xl {
+                    @include margin(96px,null,null,null);
+                }
+
+                a{
+                    i{}
+                }
+            }
+        }
+    }
+}

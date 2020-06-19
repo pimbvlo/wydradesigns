@@ -30,12 +30,19 @@ body {
         background: $orange;
         color: $dark-purple;
         opacity: 1;
+        @include dark{
+            background-color: $light-orange;
+        }
     }
 
     ::-moz-selection {
         background: $orange;
         color: $dark-purple;
         opacity: 1;
+        @include dark{
+            background-color: $light-orange;
+        }
+
     }
 }
 /**

@@ -45,6 +45,15 @@
 @import "sections/case-studies/_antiText1";
 @import "sections/case-studies/_antiGallery";
 
+// ATTENTION TO DETAIL
+@import "sections/case-studies/_atdHero";
+@import "sections/case-studies/_atdIntro";
+@import "sections/case-studies/_atdGallery";
+@import "sections/case-studies/_atdColor";
+@import "sections/case-studies/_atdIconography";
+@import "sections/case-studies/_atdImagery";
+@import "sections/case-studies/_atdLogo";
+
 // BARBARA KASTEN
 @import "sections/case-studies/_bkHero";
 @import "sections/case-studies/_bkGallery";
@@ -62,6 +71,10 @@
 @import "sections/case-studies/_icmHero";
 @import "sections/case-studies/_icmText1";
 @import "sections/case-studies/_icmGallery";
+
+// MOVEBO MUSEUM
+@import "sections/case-studies/_mHero";
+@import "sections/case-studies/_mGallery";
 
 // OSCAR NIEMEYER
 @import "sections/case-studies/_onHero";
@@ -108,3 +121,6 @@
 // unLIKABLE
 @import "sections/case-studies/_unHero";
 @import "sections/case-studies/_unGallery";
+
+// 404
+@import "sections/404/_404main";

@@ -45,11 +45,16 @@ body {
     background: #FF964C;
     color: #0D001E;
     opacity: 1; }
+    @media (prefers-color-scheme: dark) {
+      body ::selection {
+        background-color: #FFA566; } }
   body ::-moz-selection {
     background: #FF964C;
     color: #0D001E;
     opacity: 1; }
-
+    @media (prefers-color-scheme: dark) {
+      body ::-moz-selection {
+        background-color: #FFA566; } }
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -497,10 +502,8 @@ ul {
 .case-study-gallery > div article {
   grid-gap: 16px;
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "g"; }
+  grid-template-columns: repeat(1, 1fr); }
   .case-study-gallery > div article ul {
-    grid-area: g;
     grid-gap: 16px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -609,11 +612,25 @@ p {
     @media (prefers-color-scheme: dark) {
       p span {
         color: #C494FF; } }
+  p a {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 700; }
+
 a {
   text-decoration: none;
-  color: #FF964C;
+  color: #6613CE;
   transition: 0.25s; }
-
+  a:hover {
+    color: #0D001E; }
+  a:active {
+    color: #A35200; }
+  @media (prefers-color-scheme: dark) {
+    a {
+      color: #C494FF; }
+      a:hover {
+        color: #EACCFF; }
+      a:active {
+        color: #FFA566; } }
 .resume h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -623,12 +640,13 @@ a {
   text-transform: capitalize; }
 
 .resume h2 {
-  font-size: 1.125rem;
+  font-size: 1.25rem;
   font-weight: 700;
   letter-spacing: 0.00625rem;
   line-height: 1.5rem;
   color: #6613CE;
   text-transform: uppercase;
+  font-family: 'IBM Plex Mono', monospace;
   margin-bottom: 20px; }
   @media (prefers-color-scheme: dark) {
     .resume h2 {
@@ -642,14 +660,16 @@ a {
   opacity: 0.75; }
   @media (prefers-color-scheme: dark) {
     .resume h3 {
-      color: #F0DBFF; } }
+      color: #EACCFF;
+      opacity: 1; } }
 .resume h4 {
   font-size: 1rem;
   font-weight: 700;
   letter-spacing: 0.0025rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  margin-bottom: 4px; }
+  margin-bottom: 4px;
+  font-family: 'IBM Plex Mono', monospace; }
 
 .resume p {
   font-size: 1rem;
@@ -661,7 +681,7 @@ a {
     font-weight: 600; }
     @media (prefers-color-scheme: dark) {
       .resume p span {
-        color: #C494FF; } }
+        color: #EACCFF; } }
 .resume p:last-of-type {
   margin-bottom: 0px; }
 
@@ -765,7 +785,7 @@ a {
 .btn-purple:active {
   background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
 
-.resume .btn:hover > a i {
+.btn-no-hover .btn:hover > a i {
   transform: translate(0px, 0px) scale(1);
   transition: 0.2s ease-in-out; }
 
@@ -828,7 +848,6 @@ textarea {
     #sm-nav ul li h6 {
       background-color: rgba(0, 0, 0, 0);
       border: none;
-      color: #6613CE;
       cursor: pointer;
       text-decoration: none;
       transition: 0.25s;
@@ -842,7 +861,6 @@ textarea {
         #sm-nav ul li h6 {
           color: #FCFCFC; } }
       #sm-nav ul li h6 a {
-        color: #6613CE;
         text-decoration: none;
         transition: 0.25s;
         font-weight: 600; }
@@ -851,7 +869,7 @@ textarea {
             color: #FCFCFC; } }
       #sm-nav ul li h6 a:link,
       #sm-nav ul li h6 a:visited {
-        color: #6613CE; }
+        color: #F0F0F0; }
         @media (prefers-color-scheme: dark) {
           #sm-nav ul li h6 a:link,
           #sm-nav ul li h6 a:visited {
@@ -870,7 +888,6 @@ textarea {
     Nav Background
 ============= */
 #nav-bg {
-  background-color: #F0DBFF;
   height: 50px;
   overflow: hidden;
   position: fixed;
@@ -887,10 +904,10 @@ textarea {
   #nav-bg svg {
     background-color: rgba(0, 0, 0, 0); }
     #nav-bg svg circle {
-      fill: #F0DBFF; }
+      fill: #6613CE; }
       @media (prefers-color-scheme: dark) {
         #nav-bg svg circle {
-          fill: #131618; } }
+          fill: #0D001E; } }
 /* =============
     Header
 ============= */
@@ -900,7 +917,8 @@ header {
   height: 72px;
   width: 100%;
   background-color: #FCFCFC;
-  z-index: 1000; }
+  z-index: 1000;
+  top: 0px; }
   @media (prefers-color-scheme: dark) {
     header {
       background-color: #28282A;
@@ -921,7 +939,8 @@ header {
     header > div aside {
       display: flex;
       align-items: center;
-      justify-content: space-between; }
+      justify-content: space-between;
+      width: 100%; }
       @media (min-width: 992px) {
         header > div aside {
           display: grid;
@@ -1257,7 +1276,9 @@ footer {
       #indexProjectsList > div article ul li a div p {
         text-align: center;
         margin-left: 12px;
-        margin-right: 12px; }
+        margin-right: 12px;
+        font-family: 'IBM Plex Mono', monospace;
+        opacity: 0.9; }
     #indexProjectsList > div article ul li a:link,
     #indexProjectsList > div article ul li a:visited {
       color: #FCFCFC; }
@@ -1303,13 +1324,13 @@ footer {
       #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
         background-image: url("../img/index/projects/ICMCover.jpg"); } }
 #indexProjectsList > div ul:nth-child(5) {
-  grid-template-areas: "t" "soa"; }
+  grid-template-areas: "atd" "t" "soa" "m"; }
   @media (min-width: 504px) {
     #indexProjectsList > div ul:nth-child(5) {
-      grid-template-areas: "t soa"; } }
+      grid-template-areas: "atd t" "soa m"; } }
   @media (min-width: 768px) {
     #indexProjectsList > div ul:nth-child(5) {
-      grid-template-areas: "t soa ."; } }
+      grid-template-areas: "atd t m" "soa . ."; } }
   #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
     background-image: url("../img/index/projects/purple/TCover.jpg");
     grid-area: t; }
@@ -1322,6 +1343,20 @@ footer {
     @media (min-width: 992px) {
       #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
         background-image: url("../img/index/projects/SoACover.jpg"); } }
+  #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
+    background-image: url("../img/index/projects/purple/MCover.jpg");
+    grid-area: m;
+    background-position: right center; }
+    @media (min-width: 992px) {
+      #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
+        background-image: url("../img/index/projects/MCover.jpg"); } }
+  #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
+    background-image: url("../img/index/projects/purple/ATDCover.jpg");
+    grid-area: atd;
+    background-position: left bottom; }
+    @media (min-width: 992px) {
+      #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
+        background-image: url("../img/index/projects/ATDCover.jpg"); } }
 #indexProjectsList > div ul:nth-child(7) {
   grid-template-areas: "tol" "ul" "c" "qv"; }
   @media (min-width: 504px) {
@@ -1807,8 +1842,8 @@ footer {
     padding-top: 16px; }
     @media (prefers-color-scheme: dark) {
       #antiIntro > div article {
-        border-bottom: 4px solid #F0DBFF;
-        border-top: 4px solid #F0DBFF; } }
+        border-bottom: 4px solid #EACCFF;
+        border-top: 4px solid #EACCFF; } }
     @media (min-width: 768px) {
       #antiIntro > div article {
         width: 56vw; } }
@@ -1894,6 +1929,500 @@ footer {
     grid-area: paragraph; }
     #antiGallery > div article ul li:nth-child(7) p {
       width: 100%; }
+
+/* =============
+    Attention to Detail Hero
+============= */
+#atdHero {
+  background-image: url("../img/case-studies/atd/atdHero.jpg");
+  background-position: 64% top; }
+  @media (min-width: 768px) {
+    #atdHero {
+      background-position: center top; } }
+/* =============
+    Attention to Detail Intro
+============= */
+#atdIntro > div {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start; }
+  @media (min-width: 504px) {
+    #atdIntro > div article {
+      width: 72%; } }
+  @media (min-width: 768px) {
+    #atdIntro > div article {
+      width: 50%; } }
+  @media (min-width: 992px) {
+    #atdIntro > div article p {
+      font-size: 1.25rem; } }
+/* =============
+    Attention to Detail Gallery
+============= */
+#atdGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #atdGallery {
+      background-color: #161618; } }
+  #atdGallery > div article ul {
+    grid-template-areas: "AWMLD" "APMBHO" "AEMBT" "AIMR";
+    grid-template-rows: 160px 160px 280px 680px; }
+    @media (min-width: 504px) {
+      #atdGallery > div article ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "AWMLD AWMLD ." "APMBHO APMBHO APMBHO" "AEMBT AEMBT AIMR";
+        grid-template-rows: 176px 256px 288px; } }
+    @media (min-width: 768px) {
+      #atdGallery > div article ul {
+        grid-template-areas: "AWMLD AWMLD ASFive" "APMBHO APMBHO APMBHO" "ASEight ASEight AIMR" "AEMBT AEMBT ASSix";
+        grid-template-rows: 176px 256px 288px 280px; } }
+    @media (min-width: 992px) {
+      #atdGallery > div article ul {
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" ". . APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
+        grid-template-rows: 280px 280px 168px 200px 280px; } }
+    @media (min-width: 1200px) {
+      #atdGallery > div article ul {
+        grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" "APMBHO APMBHO APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
+        grid-template-rows: 280px 400px 168px 200px 280px; } }
+    #atdGallery > div article ul li {
+      background-size: contain; }
+    #atdGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/atd/atdWebMobileLeftDown.png");
+      grid-area: AWMLD; }
+    #atdGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/atd/atdPrintMacBookHeadOn.png");
+      grid-area: APMBHO; }
+    #atdGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/atd/atdEnvMacBookTilted.png");
+      grid-area: AEMBT; }
+    #atdGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/atd/atdIndexMobileRight.png");
+      grid-area: AIMR; }
+    #atdGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/atd/atdScreenshot5.png");
+      display: none;
+      background-size: cover; }
+      @media (min-width: 768px) {
+        #atdGallery > div article ul li:nth-child(5) {
+          display: initial;
+          grid-area: ASFive; } }
+    #atdGallery > div article ul li:nth-child(6) {
+      background-image: url("../img/case-studies/atd/atdScreenshot6.png");
+      display: none;
+      background-size: cover;
+      background-position: right top; }
+      @media (min-width: 768px) {
+        #atdGallery > div article ul li:nth-child(6) {
+          display: initial;
+          grid-area: ASSix; } }
+    #atdGallery > div article ul li:nth-child(7) {
+      background-image: url("../img/case-studies/atd/atdScreenshot8.png");
+      display: none;
+      background-size: cover;
+      background-position: 10% top; }
+      @media (min-width: 768px) {
+        #atdGallery > div article ul li:nth-child(7) {
+          display: initial;
+          grid-area: ASEight; } }
+      @media (min-width: 992px) {
+        #atdGallery > div article ul li:nth-child(7) {
+          background-position: center top; } }
+/* =============
+    Attention to Detail Color
+============= */
+#atdColor > div article {
+  grid-template-areas: "h2" "color-grid" "p"; }
+  @media (min-width: 504px) {
+    #atdColor > div article {
+      grid-template-columns: 72% auto;
+      grid-template-areas: "h2 h2" "color-grid color-grid" "p ."; } }
+  @media (min-width: 768px) {
+    #atdColor > div article {
+      grid-template-columns: 50% auto;
+      grid-gap: 24px; } }
+  @media (min-width: 992px) {
+    #atdColor > div article {
+      grid-gap: 32px; } }
+  #atdColor > div article h2 {
+    grid-area: h2; }
+  #atdColor > div article div:nth-child(2) {
+    grid-area: color-grid;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "web-color" "print-color" "env-color"; }
+    @media (min-width: 768px) {
+      #atdColor > div article div:nth-child(2) {
+        grid-gap: 24px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "web-color print-color env-color"; } }
+    @media (min-width: 992px) {
+      #atdColor > div article div:nth-child(2) {
+        grid-gap: 32px; } }
+    #atdColor > div article div:nth-child(2) .color-palette {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding-bottom: 16px;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 16px;
+      border-radius: 16px;
+      background-color: #F0F0F0;
+      width: auto;
+      box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.02), 0 9px 46px 8px rgba(19, 22, 24, 0.012), 0 24px 38px 3px rgba(19, 22, 24, 0.012); }
+      @media (min-width: 992px) {
+        #atdColor > div article div:nth-child(2) .color-palette {
+          grid-gap: 24px;
+          padding-bottom: 24px;
+          padding-left: 24px;
+          padding-right: 24px;
+          padding-top: 24px; } }
+      @media (min-width: 992px) {
+        #atdColor > div article div:nth-child(2) .color-palette {
+          padding-bottom: 32px;
+          padding-left: 32px;
+          padding-right: 32px;
+          padding-top: 32px; } }
+      #atdColor > div article div:nth-child(2) .color-palette li {
+        height: 72px;
+        border-radius: 16px;
+        transition: all 0.2s ease-in-out;
+        box-shadow: none; }
+        @media (min-width: 504px) {
+          #atdColor > div article div:nth-child(2) .color-palette li {
+            height: 104px; } }
+        @media (min-width: 768px) {
+          #atdColor > div article div:nth-child(2) .color-palette li {
+            height: 44px;
+            border-radius: 8px; } }
+        @media (min-width: 992px) {
+          #atdColor > div article div:nth-child(2) .color-palette li {
+            height: 56px;
+            border-radius: 104px; }
+            #atdColor > div article div:nth-child(2) .color-palette li:hover {
+              transform: scale(1.08);
+              box-shadow: 0 1px 8px -4px rgba(19, 22, 24, 0.04), 0 4px 20px 4px rgba(19, 22, 24, 0.03), 0 12px 14px 3px rgba(19, 22, 24, 0.04);
+              transition: all 0.2s ease-in-out; } }
+        @media (min-width: 1200px) {
+          #atdColor > div article div:nth-child(2) .color-palette li {
+            height: 78px;
+            border-radius: 104px; } }
+        #atdColor > div article div:nth-child(2) .color-palette li:last-of-type {
+          grid-area: p;
+          height: auto;
+          border-radius: none;
+          background-color: rgba(0, 0, 0, 0);
+          width: auto;
+          color: #0D001E; }
+          #atdColor > div article div:nth-child(2) .color-palette li:last-of-type:hover {
+            transform: scale(1);
+            transition: all 0.2s ease-in-out;
+            box-shadow: none; }
+          #atdColor > div article div:nth-child(2) .color-palette li:last-of-type h2 {
+            font-size: 1.75rem;
+            line-height: 2.375rem; }
+    #atdColor > div article div:nth-child(2) ul:nth-child(1) {
+      grid-template-areas: "color-white off-white color-black" "turqouise dark-blue ." "color-yellow . ." "p p p";
+      grid-area: web-color; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(1) {
+        background-color: #FCFCFC;
+        grid-area: color-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(2) {
+        background-color: #E9E8E7;
+        grid-area: off-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(3) {
+        background-color: #1A1A1A;
+        grid-area: color-black; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(4) {
+        background-color: #10DAD7;
+        grid-area: turqouise; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(5) {
+        background-color: #003A4C;
+        grid-area: dark-blue; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(6) {
+        background-color: #FFBF00;
+        grid-area: color-yellow; }
+    #atdColor > div article div:nth-child(2) ul:nth-child(2) {
+      grid-template-areas: "color-white off-white color-black" "light-red color-red dark-red" "color-yellow . ." "p p p";
+      grid-area: print-color; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
+        background-color: #FCFCFC;
+        grid-area: color-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
+        background-color: #E9E8E7;
+        grid-area: off-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
+        background-color: #1A1A1A;
+        grid-area: color-black; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
+        background-color: #F28092;
+        grid-area: light-red; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
+        background-color: #E60026;
+        grid-area: color-red; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(6) {
+        background-color: #72051B;
+        grid-area: dark-red; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(7) {
+        background-color: #FFBF00;
+        grid-area: color-yellow; }
+    #atdColor > div article div:nth-child(2) ul:nth-child(3) {
+      grid-template-areas: "color-white off-white color-black" "light-purple color-purple dark-purple" "color-yellow color-shadow ." "p p p";
+      grid-area: env-color; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(1) {
+        background-color: #FCFCFC;
+        grid-area: color-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(2) {
+        background-color: #E9E8E7;
+        grid-area: off-white; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(3) {
+        background-color: #1A1A1A;
+        grid-area: color-black; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(4) {
+        background-color: #B89FDF;
+        grid-area: light-purple; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(5) {
+        background-color: #7140BF;
+        grid-area: color-purple; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(6) {
+        background-color: #382468;
+        grid-area: dark-purple; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(7) {
+        background-color: #FFBF00;
+        grid-area: color-yellow; }
+      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(8) {
+        background-color: rgba(0, 0, 0, 0);
+        box-shadow: 0 1px 7px -2px rgba(19, 22, 24, 0.12), 0 4px 24px 4px rgba(19, 22, 24, 0.1), 0 12px 18px 2px rgba(19, 22, 24, 0.11);
+        grid-area: color-shadow; }
+  #atdColor > div article p:nth-child(3) {
+    grid-area: p; }
+
+/* =============
+    Attention to Detail Iconography
+============= */
+#atdIconography {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #atdIconography {
+      background-color: #161618; } }
+  #atdIconography > div article {
+    grid-template-areas: "h2" "icon-grid" "p1" "p2"; }
+    @media (min-width: 504px) {
+      #atdIconography > div article {
+        grid-template-columns: 72% auto;
+        grid-template-areas: "h2 h2" "icon-grid icon-grid" "p1 ." "p2 ."; } }
+    @media (min-width: 768px) {
+      #atdIconography > div article {
+        grid-template-columns: 50% auto;
+        grid-gap: 24px; } }
+    @media (min-width: 992px) {
+      #atdIconography > div article {
+        grid-gap: 32px; } }
+    #atdIconography > div article h2 {
+      grid-area: h2; }
+    #atdIconography > div article div:nth-child(2) {
+      grid-area: icon-grid; }
+      #atdIconography > div article div:nth-child(2) ul {
+        display: grid;
+        grid-gap: 16px;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "shape-halftone shape-square shape-outline-triangle" "shape-dotted-circle shape-dotted-circle shape-lines" "shape-dotted-square shape-two-zig-zag-uneven shape-two-zig-zag-uneven"; }
+        @media (min-width: 504px) {
+          #atdIconography > div article div:nth-child(2) ul {
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-areas: ". shape-halftone shape-halftone . shape-square" ". shape-halftone shape-halftone shape-outline-triangle ." "shape-dotted-circle . shape-two-zig-zag-uneven shape-two-zig-zag-uneven ." "shape-lines shape-lines . . shape-dotted-square"; } }
+        @media (min-width: 768px) {
+          #atdIconography > div article div:nth-child(2) ul {
+            grid-gap: 24px;
+            grid-template-columns: repeat(9, 1fr);
+            grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square ."; } }
+        @media (min-width: 992px) {
+          #atdIconography > div article div:nth-child(2) ul {
+            grid-gap: 32px; } }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(1) {
+          grid-area: shape-halftone; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(2) {
+          grid-area: shape-square; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(3) {
+          grid-area: shape-lines; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(4) {
+          grid-area: shape-outline-triangle; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(5) {
+          grid-area: shape-dotted-circle; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(6) {
+          grid-area: shape-dotted-square; }
+        #atdIconography > div article div:nth-child(2) ul li:nth-child(7) {
+          grid-area: shape-two-zig-zag-uneven; }
+    #atdIconography > div article p:nth-child(3) {
+      grid-area: p1; }
+    #atdIconography > div article p:nth-child(4) {
+      grid-area: p2; }
+
+/* =============
+    Attention to Detail Iconography SVG Edits
+============= */
+@media (prefers-color-scheme: dark) {
+  #atdDottedCircle #ShapeDottedCircle #Oval {
+    stroke: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdDottedSquare .st0,
+  #atdDottedSquare .st1 {
+    stroke: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdHalftone #PatternHalftoneOffset {
+    fill: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdLines #ShapeOutlineLines {
+    stroke: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdOutlineTriangle #ShapeOutlineTriangle #Triangle {
+    stroke: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdSquare #ShapeSolidSquare {
+    fill: #FCFCFC;
+    stroke: #FCFCFC; } }
+
+@media (prefers-color-scheme: dark) {
+  #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2,
+  #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2-Copy {
+    stroke: #FCFCFC; } }
+
+/* =============
+    Attention to Detail Imagery
+============= */
+#atdImagery > div article {
+  grid-template-areas: "h2" "p1" "icon-grid" "p2"; }
+  @media (min-width: 504px) {
+    #atdImagery > div article {
+      grid-template-areas: "h2 h2" "p1 ." "icon-grid icon-grid" "p2 .";
+      grid-template-columns: 72% auto; } }
+  @media (min-width: 768px) {
+    #atdImagery > div article {
+      grid-gap: 24px;
+      grid-template-columns: 50% auto; } }
+  @media (min-width: 992px) {
+    #atdImagery > div article {
+      grid-gap: 32px; } }
+  #atdImagery > div article h2 {
+    grid-area: h2; }
+  #atdImagery > div article div:nth-child(2) {
+    grid-area: icon-grid; }
+    #atdImagery > div article div:nth-child(2) ul {
+      grid-gap: 16px;
+      display: grid;
+      grid-template-areas: ". line-length ." "screenshot3 screenshot3 screenshot3" ". margins ." ". wcag ." "screenshot1 screenshot1 screenshot1" ". pictogram ." "screenshot2 screenshot2 screenshot2" "screenshot4 screenshot4 screenshot4";
+      grid-template-columns: auto 90% auto;
+      grid-template-rows: auto 200px auto auto 304px auto 80px 280px; }
+      @media (min-width: 504px) {
+        #atdImagery > div article div:nth-child(2) ul {
+          grid-template-areas: "line-length line-length . screenshot3 screenshot3" "margins margins wcag wcag ." "margins margins . screenshot1 screenshot1" ". pictogram pictogram pictogram ." "screenshot2 screenshot2 screenshot2 screenshot4 screenshot4" ". . . screenshot4 screenshot4";
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-rows: 152px auto 200px auto 80px 104px; } }
+      @media (min-width: 768px) {
+        #atdImagery > div article div:nth-child(2) ul {
+          grid-gap: 24px;
+          grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3" "line-length line-length line-length line-length line-length . . . ." ". margins margins margins margins wcag wcag wcag ." ". margins margins margins margins . screenshot1 screenshot1 screenshot1" "pictogram pictogram pictogram pictogram pictogram pictogram . . ." "screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot4 screenshot4 screenshot4" ". . . . . . screenshot4 screenshot4 screenshot4";
+          grid-template-columns: repeat(9, 1fr);
+          grid-template-rows: auto 64px auto 220px auto 130px 40px; } }
+      @media (min-width: 992px) {
+        #atdImagery > div article div:nth-child(2) ul {
+          grid-gap: 32px;
+          grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3 margins margins margins" "line-length line-length line-length line-length line-length . . . . margins margins margins" ". screenshot1 screenshot1 screenshot1 screenshot1 . . wcag wcag wcag wcag wcag" "pictogram pictogram pictogram pictogram pictogram pictogram . . screenshot4 screenshot4 screenshot4 ." "pictogram pictogram pictogram pictogram pictogram pictogram . . . . . ." "pictogram pictogram pictogram pictogram pictogram pictogram screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2";
+          grid-template-columns: repeat(12, 1fr);
+          grid-template-rows: 144px auto auto 200px auto 96px; } }
+      @media (min-width: 1200px) {
+        #atdImagery > div article div:nth-child(2) ul {
+          grid-template-rows: 176px auto auto 224px auto 112px; } }
+      #atdImagery > div article div:nth-child(2) ul li {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(1) {
+        grid-area: line-length; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(2) {
+        grid-area: margins; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(3) {
+        grid-area: wcag; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(4) {
+        grid-area: pictogram; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(5) {
+        background-image: url("../img/case-studies/atd/atdScreenshot1.png");
+        background-position: left center;
+        grid-area: screenshot1; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(6) {
+        background-image: url("../img/case-studies/atd/atdScreenshot2.png");
+        background-position: center 20%;
+        grid-area: screenshot2; }
+        @media (min-width: 992px) {
+          #atdImagery > div article div:nth-child(2) ul li:nth-child(6) {
+            background-position: center 40%; } }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(7) {
+        background-image: url("../img/case-studies/atd/atdScreenshot3.png");
+        grid-area: screenshot3; }
+      #atdImagery > div article div:nth-child(2) ul li:nth-child(8) {
+        background-image: url("../img/case-studies/atd/atdScreenshot4.png");
+        background-position: left center;
+        grid-area: screenshot4; }
+  #atdImagery > div article p:nth-child(3) {
+    grid-area: p1; }
+  #atdImagery > div article p:nth-child(4) {
+    grid-area: p2; }
+
+/* =============
+    Attention to Detail Imagery SVG Edits
+============= */
+@media (prefers-color-scheme: dark) {
+  #atdPictogram #atdSquareVM1 {
+    stroke: #7140BF;
+    fill: #7140BF; } }
+
+/* =============
+    Attention to Detail Logo
+============= */
+#atdLogo {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #atdLogo {
+      background-color: #161618; } }
+  #atdLogo > div article {
+    grid-template-areas: "h2" "icon-grid" "p1"; }
+    @media (min-width: 504px) {
+      #atdLogo > div article {
+        grid-template-areas: "h2 h2" "icon-grid ." "p1 .";
+        grid-template-columns: 72% auto; } }
+    @media (min-width: 768px) {
+      #atdLogo > div article {
+        grid-gap: 24px;
+        grid-template-columns: 50% auto; } }
+    @media (min-width: 992px) {
+      #atdLogo > div article {
+        grid-gap: 32px;
+        grid-template-areas: "h2 h2" "p1 icon-grid"; } }
+    #atdLogo > div article h2 {
+      grid-area: h2; }
+    #atdLogo > div article div:nth-child(2) {
+      grid-area: icon-grid; }
+      #atdLogo > div article div:nth-child(2) ul {
+        grid-gap: 16px;
+        display: grid;
+        grid-template-areas: ". logo .";
+        grid-template-columns: auto 90% auto; }
+        #atdLogo > div article div:nth-child(2) ul li:nth-child(1) {
+          grid-area: logo; }
+    #atdLogo > div article p:nth-child(3) {
+      grid-area: p1; }
+
+/* =============
+    Attention to Detail Imagery SVG Edits
+============= */
+@media (prefers-color-scheme: dark) {
+  #atdLogoSVG .cls-2, #atdLogoSVG #atdD {
+    fill: #FAFAFA; } }
 
 /* =============
     BK Hero
@@ -2224,6 +2753,111 @@ footer {
       width: 100%; }
 
 /* =============
+    Movebo Hero
+============= */
+#mHero {
+  background-image: url("../img/case-studies/m/mHero.jpg");
+  background-position: 24% top; }
+
+/* =============
+    Movebo Gallery
+============= */
+#mGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #mGallery {
+      background-color: #161618; } }
+  #mGallery > div article ul {
+    grid-template-areas: "MMHO" "paragraph1" "MSOne" "MMBHO" "MTHO" "MSTwo" "MSThree";
+    grid-template-rows: 504px auto 200px 192px 400px 160px 160px; }
+    @media (min-width: 504px) {
+      #mGallery > div article ul {
+        grid-template-areas: "MMHO MMHO MMHO" "paragraph1 paragraph1 ." "MSOne MSOne MSOne" "MMBHO MMBHO MMBHO" "MTHO MTHO MSThree" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 600px auto 200px 264px 80px 200px 264px; } }
+    @media (min-width: 768px) {
+      #mGallery > div article ul {
+        grid-template-areas: "MMTLD MMTLD MMTLD" "paragraph1 paragraph1 ." "MSOne MSOne MSThree" "MMBT MMBT MMBT" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
+        grid-template-rows: 400px auto 320px 600px 400px 400px; } }
+    @media (min-width: 992px) {
+      #mGallery > div article ul {
+        grid-template-areas: "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1" "MSOne MSOne MSOne MSOne MSOne MSThree MSThree" "MTHO MTHO MMBT MMBT MMBT MMBT MMBT" "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto 264px 416px 440px; } }
+    @media (min-width: 1200px) {
+      #mGallery > div article ul {
+        grid-template-rows: 280px 344px 560px 480px; } }
+    #mGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/m/mMobileHeadOn.png");
+      grid-area: MMHO;
+      background-size: auto 104%;
+      background-position: center top; }
+      @media (min-width: 768px) {
+        #mGallery > div article ul li:nth-child(1) {
+          display: none; } }
+    #mGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/m/mMobileTiltLeftDown.png");
+      display: none; }
+      @media (min-width: 768px) {
+        #mGallery > div article ul li:nth-child(2) {
+          display: initial;
+          background-size: auto 110%;
+          background-position: center top;
+          grid-area: MMTLD; } }
+      @media (min-width: 992px) {
+        #mGallery > div article ul li:nth-child(2) {
+          background-size: 110% auto; } }
+    #mGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/m/mMacBookTilt.png");
+      display: none; }
+      @media (min-width: 768px) {
+        #mGallery > div article ul li:nth-child(3) {
+          grid-area: MMBT;
+          background-size: contain;
+          display: initial; } }
+    #mGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/m/mTabletHeadOn.png");
+      grid-area: MTHO;
+      background-size: auto 424px;
+      background-position: left top; }
+      @media (min-width: 504px) {
+        #mGallery > div article ul li:nth-child(4) {
+          background-size: auto 448px; } }
+      @media (min-width: 992px) {
+        #mGallery > div article ul li:nth-child(4) {
+          background-size: auto 344px; } }
+    #mGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/m/mMacBookHeadOn.png");
+      grid-area: MMBHO;
+      background-size: contain; }
+      @media (min-width: 768px) {
+        #mGallery > div article ul li:nth-child(5) {
+          display: none; } }
+    #mGallery > div article ul li:nth-child(6) {
+      background-image: url("../img/case-studies/m/mScreenshot1.png");
+      grid-area: MSOne;
+      background-position: center top; }
+      @media (min-width: 504px) {
+        #mGallery > div article ul li:nth-child(6) {
+          background-position: right center; } }
+      @media (min-width: 992px) {
+        #mGallery > div article ul li:nth-child(6) {
+          background-position: center top; } }
+    #mGallery > div article ul li:nth-child(7) {
+      background-image: url("../img/case-studies/m/mScreenshot2.png");
+      grid-area: MSTwo; }
+    #mGallery > div article ul li:nth-child(8) {
+      background-image: url("../img/case-studies/m/mScreenshot3.png");
+      grid-area: MSThree; }
+      @media (min-width: 768px) {
+        #mGallery > div article ul li:nth-child(8) {
+          background-position: 80% center; } }
+    #mGallery > div article ul li:nth-child(9) {
+      grid-area: paragraph1; }
+      #mGallery > div article ul li:nth-child(9) p {
+        width: 100%; }
+
+/* =============
     ON Hero
 ============= */
 #onHero {
@@ -2534,48 +3168,54 @@ footer {
 /* =============
     SHM Text
 ============= */
-#shmText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #shmText1 {
-      background-color: #161618; } }
-  #shmText1 > div article p {
-    margin-bottom: 48px; }
-    @media (min-width: 768px) {
-      #shmText1 > div article p {
-        margin-bottom: 56px; } }
-    @media (min-width: 992px) {
-      #shmText1 > div article p {
-        margin-bottom: 64px; } }
-    @media (min-width: 1200px) {
-      #shmText1 > div article p {
-        margin-bottom: 80px; } }
-  #shmText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
-    background-position: center 20%; }
-  #shmText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
-  #shmText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
-    @media (min-width: 504px) {
-      #shmText1 > div article ul li:nth-child(3) {
-        grid-column: span 2; } }
-    @media (min-width: 992px) {
-      #shmText1 > div article ul li:nth-child(3) {
-        grid-column: span 1; } }
+@media (prefers-color-scheme: dark) {
+  #shmText1 {
+    background-color: #1E1E20; } }
+
+#shmText1 > div article p {
+  margin-bottom: 48px; }
+  @media (min-width: 768px) {
+    #shmText1 > div article p {
+      margin-bottom: 56px; } }
+  @media (min-width: 992px) {
+    #shmText1 > div article p {
+      margin-bottom: 64px; } }
+  @media (min-width: 1200px) {
+    #shmText1 > div article p {
+      margin-bottom: 80px; } }
+#shmText1 > div article ul li:nth-child(1) {
+  background-image: url("../img/case-studies/shm/shmInfluence.jpg");
+  background-position: center 20%; }
+
+#shmText1 > div article ul li:nth-child(2) {
+  background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
+
+#shmText1 > div article ul li:nth-child(3) {
+  background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
+  @media (min-width: 504px) {
+    #shmText1 > div article ul li:nth-child(3) {
+      grid-column: span 2; } }
+  @media (min-width: 992px) {
+    #shmText1 > div article ul li:nth-child(3) {
+      grid-column: span 1; } }
 /* =============
     SHM Text
 ============= */
 #shmText3 {
-  background-color: #161618; }
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #shmText3 {
+      background-color: #161618; } }
   #shmText3 > div article {
     grid-template-areas: "p" "l"; }
     @media (min-width: 768px) {
       #shmText3 > div article {
         grid-template-areas: "p l"; } }
     #shmText3 > div article p {
-      color: #FCFCFC;
       margin-bottom: 48px; }
+      @media (prefers-color-scheme: dark) {
+        #shmText3 > div article p {
+          color: #FCFCFC; } }
       @media (min-width: 768px) {
         #shmText3 > div article p {
           margin-bottom: 0px; } }
@@ -2584,89 +3224,97 @@ footer {
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
-      background-image: url("../img/case-studies/shm/shmLogo.svg");
-      height: 104px; }
+      height: 104px;
+      background-image: url("../img/case-studies/shm/shmLogoBlack.svg"); }
+      @media (prefers-color-scheme: dark) {
+        #shmText3 > div article figure {
+          background-image: url("../img/case-studies/shm/shmLogoWhite.svg"); } }
       @media (min-width: 768px) {
         #shmText3 > div article figure {
           height: 100%; } }
 /* =============
     SHM Gallery
 ============= */
-#shmGallery > div article ul {
-  grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "paragraph" "P" "BO1" "LD1";
-  grid-template-rows: 304px 240px 136px 200px 280px auto 200px 504px 480px; }
-  @media (min-width: 504px) {
-    #shmGallery > div article ul {
-      grid-template-areas: "paragraph paragraph ." "BK BK BO1" "BT BT BO1" "P P P" "LO1 LO1 LO1" "S S LD1" "LBI1 LBI1 LD1";
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 160px 224px 240px 240px 160px 240px; } }
-  @media (min-width: 768px) {
-    #shmGallery > div article ul {
-      grid-template-rows: 280px 160px auto 304px 240px 160px 304px; } }
-  @media (min-width: 992px) {
-    #shmGallery > div article ul {
-      grid-template-areas: "paragraph paragraph paragraph paragraph . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1" "BT BT BT BT BT BT .";
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: auto 240px 304px 240px 304px 304px; } }
-  #shmGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/shm/shmBusTail.jpg");
-    background-position: right center;
-    grid-area: BT; }
+#shmGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #shmGallery {
+      background-color: #161618; } }
+  #shmGallery > div article ul {
+    grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "paragraph" "P" "BO1" "LD1";
+    grid-template-rows: 304px 240px 136px 200px 280px auto 200px 504px 480px; }
     @media (min-width: 504px) {
-      #shmGallery > div article ul li:nth-child(1) {
-        background-position: right 10%;
-        background-size: auto 200%; } }
-    @media (min-width: 992px) {
-      #shmGallery > div article ul li:nth-child(1) {
-        background-size: cover; } }
-  #shmGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/shm/shmSubway.jpg");
-    grid-area: S; }
-  #shmGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/shm/shmBusKing.jpg");
-    background-position: 40% center;
-    background-size: auto 150%;
-    grid-area: BK; }
-    @media (min-width: 504px) {
-      #shmGallery > div article ul li:nth-child(3) {
-        background-size: auto 150%; } }
-    @media (min-width: 992px) {
-      #shmGallery > div article ul li:nth-child(3) {
-        background-size: cover; } }
-  #shmGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/shm/shmPosters.jpg");
-    background-position: center top;
-    grid-area: P; }
-  #shmGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/shm/shmBrochureOutside1.jpg");
-    background-size: auto 160%;
-    grid-area: BO1; }
-    @media (min-width: 504px) {
-      #shmGallery > div article ul li:nth-child(5) {
-        background-size: cover;
-        background-size: auto 116%; } }
-  #shmGallery > div article ul li:nth-child(6) {
-    background-image: url("../img/case-studies/shm/shmLetterheadOutside1.jpg");
-    grid-area: LO1; }
-  #shmGallery > div article ul li:nth-child(7) {
-    background-image: url("../img/case-studies/shm/shmLetterheadDetail1.jpg");
-    background-position: left center;
-    grid-area: LD1; }
-  #shmGallery > div article ul li:nth-child(8) {
-    background-image: url("../img/case-studies/shm/shmBrochureInside1.jpg");
-    background-position: 44% center;
-    background-size: cover;
-    grid-area: LBI1; }
+      #shmGallery > div article ul {
+        grid-template-areas: "paragraph paragraph ." "BK BK BO1" "BT BT BO1" "P P P" "LO1 LO1 LO1" "S S LD1" "LBI1 LBI1 LD1";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto 160px 224px 240px 240px 160px 240px; } }
     @media (min-width: 768px) {
-      #shmGallery > div article ul li:nth-child(8) {
-        background-position: center 80%; } }
+      #shmGallery > div article ul {
+        grid-template-rows: 280px 160px auto 304px 240px 160px 304px; } }
     @media (min-width: 992px) {
-      #shmGallery > div article ul li:nth-child(8) {
-        background-position: 40% 90%; } }
-  #shmGallery > div article ul li:nth-child(9) {
-    grid-area: paragraph; }
-    #shmGallery > div article ul li:nth-child(9) p {
-      width: 100%; }
+      #shmGallery > div article ul {
+        grid-template-areas: "paragraph paragraph paragraph paragraph . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1" "BT BT BT BT BT BT .";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: auto 240px 304px 240px 304px 304px; } }
+    #shmGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/shm/shmBusTail.jpg");
+      background-position: right center;
+      grid-area: BT; }
+      @media (min-width: 504px) {
+        #shmGallery > div article ul li:nth-child(1) {
+          background-position: right 10%;
+          background-size: auto 200%; } }
+      @media (min-width: 992px) {
+        #shmGallery > div article ul li:nth-child(1) {
+          background-size: cover; } }
+    #shmGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/shm/shmSubway.jpg");
+      grid-area: S; }
+    #shmGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/shm/shmBusKing.jpg");
+      background-position: 40% center;
+      background-size: auto 150%;
+      grid-area: BK; }
+      @media (min-width: 504px) {
+        #shmGallery > div article ul li:nth-child(3) {
+          background-size: auto 150%; } }
+      @media (min-width: 992px) {
+        #shmGallery > div article ul li:nth-child(3) {
+          background-size: cover; } }
+    #shmGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/shm/shmPosters.jpg");
+      background-position: center top;
+      grid-area: P; }
+    #shmGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/shm/shmBrochureOutside1.jpg");
+      background-size: auto 160%;
+      grid-area: BO1; }
+      @media (min-width: 504px) {
+        #shmGallery > div article ul li:nth-child(5) {
+          background-size: cover;
+          background-size: auto 116%; } }
+    #shmGallery > div article ul li:nth-child(6) {
+      background-image: url("../img/case-studies/shm/shmLetterheadOutside1.jpg");
+      grid-area: LO1; }
+    #shmGallery > div article ul li:nth-child(7) {
+      background-image: url("../img/case-studies/shm/shmLetterheadDetail1.jpg");
+      background-position: left center;
+      grid-area: LD1; }
+    #shmGallery > div article ul li:nth-child(8) {
+      background-image: url("../img/case-studies/shm/shmBrochureInside1.jpg");
+      background-position: 44% center;
+      background-size: cover;
+      grid-area: LBI1; }
+      @media (min-width: 768px) {
+        #shmGallery > div article ul li:nth-child(8) {
+          background-position: center 80%; } }
+      @media (min-width: 992px) {
+        #shmGallery > div article ul li:nth-child(8) {
+          background-position: 40% 90%; } }
+    #shmGallery > div article ul li:nth-child(9) {
+      grid-area: paragraph; }
+      #shmGallery > div article ul li:nth-child(9) p {
+        width: 100%; }
 
 /* =============
     SOA Hero
@@ -2820,10 +3468,10 @@ footer {
     #triumphText1 {
       background-color: #161618; } }
   #triumphText1 > div article {
-    grid-template-areas: "v"; }
+    grid-template-areas: "p" "v"; }
     @media (min-width: 504px) {
       #triumphText1 > div article {
-        grid-template-areas: "v ."; } }
+        grid-template-areas: "v p"; } }
     #triumphText1 > div article div {
       grid-area: v;
       position: relative; }
@@ -2957,3 +3605,55 @@ footer {
       grid-area: paragraph1; }
       #unGallery > div article ul li:nth-child(3) p {
         width: 100%; }
+
+/* =============
+    404 Main
+============= */
+#FourOhFourMain {
+  height: 64vh;
+  background-image: url("../img/404/404op2.jpg");
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  #FourOhFourMain > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; }
+    #FourOhFourMain > div article {
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-areas: "h1" "p" "btn";
+      margin-top: 16vh; }
+      @media (prefers-color-scheme: dark) {
+        #FourOhFourMain > div article {
+          color: #0D001E; } }
+      @media (min-width: 504px) {
+        #FourOhFourMain > div article {
+          grid-template-columns: repeat(3, 1fr);
+          grid-template-areas: "h1 h1 h1" "p p ." "btn btn ."; } }
+      @media (min-width: 768px) {
+        #FourOhFourMain > div article {
+          grid-gap: 24px; } }
+      @media (min-width: 992px) {
+        #FourOhFourMain > div article {
+          grid-template-columns: repeat(5, 1fr);
+          grid-template-areas: "h1 h1 h1 h1 h1" "p p . . ." "btn btn . . .";
+          grid-gap: 0px 32px; } }
+      #FourOhFourMain > div article h1 {
+        font-size: 3rem;
+        grid-area: h1; }
+      #FourOhFourMain > div article p {
+        grid-area: p; }
+      #FourOhFourMain > div article div {
+        grid-area: btn;
+        margin-top: 64px; }
+        @media (min-width: 768px) {
+          #FourOhFourMain > div article div {
+            margin-top: 72px; } }
+        @media (min-width: 992px) {
+          #FourOhFourMain > div article div {
+            margin-top: 80px; } }
+        @media (min-width: 1200px) {
+          #FourOhFourMain > div article div {
+            margin-top: 96px; } }

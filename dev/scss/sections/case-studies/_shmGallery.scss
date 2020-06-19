@@ -2,6 +2,11 @@
     SHM Gallery
 ============= */
 #shmGallery {
+    background-color: $off-white;
+    @include dark{
+        background-color: $grey-dark-extra;
+    }
+
     > div {
         article {
             h2 {}

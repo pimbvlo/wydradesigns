@@ -13,6 +13,7 @@
 
             h3 {
                 @include margin(16px,null,8px,null);
+
                 @include md {
                     @include margin(34px,null,8px,null);
                 }
@@ -77,6 +78,8 @@
                             p {
                                 text-align: center;
                                 @include margin(null,12px,null,12px);
+                                font-family: 'IBM Plex Mono', monospace;
+                                opacity: 0.9;
                             }
                         }
                     }
@@ -142,12 +145,12 @@
         }
 
         ul:nth-child(5) {
-            grid-template-areas: "t" "soa";
+            grid-template-areas: "atd" "t" "soa" "m" ;
             @include sm {
-                grid-template-areas: "t soa";
+                grid-template-areas: "atd t" "soa m";
             }
             @include md {
-                grid-template-areas: "t soa .";
+                grid-template-areas: "atd t m" "soa . .";
             }
 
             li:nth-child(1) {
@@ -163,6 +166,22 @@
                 grid-area: soa;
                 @include lg {
                     background-image: url("../img/index/projects/SoACover.jpg");
+                }
+            }
+            li:nth-child(3) {
+                background-image: url("../img/index/projects/purple/MCover.jpg");
+                grid-area: m;
+                background-position: right center;
+                @include lg {
+                    background-image: url("../img/index/projects/MCover.jpg");
+                }
+            }
+            li:nth-child(4) {
+                background-image: url("../img/index/projects/purple/ATDCover.jpg");
+                grid-area: atd;
+                background-position: left bottom;
+                @include lg {
+                    background-image: url("../img/index/projects/ATDCover.jpg");
                 }
             }
         }

@@ -1,0 +1,136 @@
+/* =============
+    Movebo Gallery
+============= */
+#mGallery {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas: "MMHO" "paragraph1" "MSOne" "MMBHO" "MTHO" "MSTwo" "MSThree";
+                grid-template-rows: 504px auto 200px 192px 400px 160px 160px;
+                @include sm {
+                    grid-template-areas: "MMHO MMHO MMHO" "paragraph1 paragraph1 ." "MSOne MSOne MSOne" "MMBHO MMBHO MMBHO" "MTHO MTHO MSThree" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: 600px auto 200px 264px 80px 200px 264px;
+                }
+                @include md {
+                    grid-template-areas: "MMTLD MMTLD MMTLD" "paragraph1 paragraph1 ." "MSOne MSOne MSThree" "MMBT MMBT MMBT" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
+                    grid-template-rows: 400px auto 320px 600px 400px 400px;
+                }
+                @include lg {
+                    grid-template-areas:
+                    "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1"
+                    "MSOne MSOne MSOne MSOne MSOne MSThree MSThree"
+                    "MTHO MTHO MMBT MMBT MMBT MMBT MMBT"
+                    "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-rows: auto 264px 416px 440px;
+                }
+                @include xl {
+                    grid-template-rows: 280px 344px 560px 480px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/m/mMobileHeadOn.png");
+                    grid-area: MMHO;
+                    background-size: auto 104%;
+                    background-position: center top;
+                    @include md {
+                        display: none;
+                    }
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/m/mMobileTiltLeftDown.png");
+                    display: none;
+                    @include md {
+                        display: initial;
+                        background-size: auto 110%;
+                        background-position: center top;
+                        grid-area: MMTLD;
+                    }
+                    @include lg{
+                        background-size: 110% auto;
+
+                    }
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/m/mMacBookTilt.png");
+                    display: none;
+                    @include md {
+                        grid-area: MMBT;
+                        background-size: contain;
+                        display: initial;
+                    }
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/m/mTabletHeadOn.png");
+                    grid-area: MTHO;
+                    background-size: auto 424px;
+                    background-position: left top;
+                    @include sm {
+                        background-size: auto 448px;
+                    }
+                    @include lg {
+                        background-size: auto 344px;
+                    }
+                }
+
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/m/mMacBookHeadOn.png");
+                    grid-area: MMBHO;
+                    background-size: contain;
+                    @include md {
+                        display: none;
+                    }
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/m/mScreenshot1.png");
+                    grid-area: MSOne;
+                    background-position: center top;
+                    @include sm {
+                        background-position: right center;
+                    }
+                    @include lg {
+                        background-position: center top;
+                    }
+                }
+
+                li:nth-child(7) {
+                    background-image: url("../img/case-studies/m/mScreenshot2.png");
+                    grid-area: MSTwo;
+                }
+
+                li:nth-child(8) {
+                    background-image: url("../img/case-studies/m/mScreenshot3.png");
+                    grid-area: MSThree;
+                    @include md{
+                        background-position: 80% center;
+                    }
+
+                }
+
+                li:nth-child(9) {
+                    grid-area: paragraph1;
+
+                    p {
+                        width: 100%;
+                        a{
+                        }
+                    }
+                }
+            }
+
+            div {}
+        }
+    }
+}

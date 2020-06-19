@@ -1,0 +1,160 @@
+/* =============
+    Attention to Detail Iconography
+============= */
+#atdIconography {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            grid-template-areas: "h2" "icon-grid" "p1" "p2";
+            @include sm {
+                grid-template-columns: 72% auto;
+                grid-template-areas: "h2 h2" "icon-grid icon-grid""p1 .""p2 .";
+            }
+            @include md {
+                grid-template-columns: 50% auto;
+                grid-gap: 24px;
+            }
+            @include lg {
+                grid-gap: 32px;
+            }
+
+            h2 {
+                grid-area: h2;
+            }
+
+            div:nth-child(2) {
+                grid-area: icon-grid;
+
+                ul {
+                    display: grid;
+                    grid-gap: 16px;
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "shape-halftone shape-square shape-outline-triangle" "shape-dotted-circle shape-dotted-circle shape-lines" "shape-dotted-square shape-two-zig-zag-uneven shape-two-zig-zag-uneven";
+                    @include sm {
+                        grid-template-columns: repeat(5,1fr);
+                        grid-template-areas: ". shape-halftone shape-halftone . shape-square" ". shape-halftone shape-halftone shape-outline-triangle ." "shape-dotted-circle . shape-two-zig-zag-uneven shape-two-zig-zag-uneven ." "shape-lines shape-lines . . shape-dotted-square";
+                    }
+                    @include md {
+                        grid-gap: 24px;
+                        grid-template-columns: repeat(9,1fr);
+                        grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square .";
+                    }
+                    @include lg {
+                        grid-gap: 32px;
+                    }
+
+                    li {
+                        div {}
+                    }
+
+                    li:nth-child(1) {
+                        grid-area: shape-halftone;
+                    }
+
+                    li:nth-child(2) {
+                        grid-area: shape-square;
+                    }
+
+                    li:nth-child(3) {
+                        grid-area: shape-lines;
+                    }
+
+                    li:nth-child(4) {
+                        grid-area: shape-outline-triangle;
+                    }
+
+                    li:nth-child(5) {
+                        grid-area: shape-dotted-circle;
+                    }
+
+                    li:nth-child(6) {
+                        grid-area: shape-dotted-square;
+                    }
+
+                    li:nth-child(7) {
+                        grid-area: shape-two-zig-zag-uneven;
+                    }
+                }
+            }
+
+            p:nth-child(3) {
+                grid-area: p1;
+            }
+
+            p:nth-child(4) {
+                grid-area: p2;
+            }
+        }
+    }
+}
+/* =============
+    Attention to Detail Iconography SVG Edits
+============= */
+#atdDottedCircle {
+    #ShapeDottedCircle {
+        #Oval {
+            @include dark {
+                stroke: $white;
+            }
+        }
+    }
+}
+
+#atdDottedSquare {
+    .st0,
+    .st1 {
+        @include dark {
+            stroke: $white;
+        }
+    }
+}
+
+#atdHalftone {
+    #PatternHalftoneOffset {
+        @include dark {
+            fill: $white;
+        }
+    }
+}
+
+#atdLines {
+    #ShapeOutlineLines {
+        @include dark {
+            stroke: $white;
+        }
+    }
+}
+
+#atdOutlineTriangle {
+    #ShapeOutlineTriangle {
+        #Triangle {
+            @include dark {
+                stroke: $white;
+            }
+        }
+    }
+}
+
+#atdSquare {
+    #ShapeSolidSquare {
+            @include dark {
+                fill: $white;
+                stroke: $white;
+            }
+    }
+}
+
+#atdTwoZigZagUneven {
+    #Pattern2ZigZagUneven {
+        #Path-2,
+        #Path-2-Copy {
+            @include dark {
+                stroke: $white;
+            }
+        }
+    }
+}

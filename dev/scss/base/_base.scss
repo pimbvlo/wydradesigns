@@ -221,10 +221,10 @@ ul {
             grid-gap: 16px;
             display: grid;
             grid-template-columns: repeat(1,1fr);
-            grid-template-areas: "g";
+            // grid-template-areas: "g";
 
             ul {
-                grid-area: g;
+                // grid-area: g;
                 grid-gap: 16px;
                 display: grid;
                 grid-template-columns: repeat(1,1fr);

@@ -1,0 +1,126 @@
+/* =============
+    Attention to Detail Imagery
+============= */
+#atdImagery {
+    > div {
+        article {
+            grid-template-areas: "h2" "p1" "icon-grid" "p2";
+            @include sm {
+                grid-template-areas: "h2 h2" "p1 ." "icon-grid icon-grid""p2 .";
+                grid-template-columns: 72% auto;
+            }
+            @include md {
+                grid-gap: 24px;
+                grid-template-columns: 50% auto;
+            }
+            @include lg {
+                grid-gap: 32px;
+            }
+
+            h2 {
+                grid-area: h2;
+            }
+
+            div:nth-child(2) {
+                grid-area: icon-grid;
+
+                ul {
+                    grid-gap: 16px;
+                    display: grid;
+                    grid-template-areas: ". line-length ." "screenshot3 screenshot3 screenshot3" ". margins ." ". wcag ." "screenshot1 screenshot1 screenshot1" ". pictogram ." "screenshot2 screenshot2 screenshot2" "screenshot4 screenshot4 screenshot4";
+                    grid-template-columns: auto 90% auto;
+                    grid-template-rows: auto 200px auto auto 304px auto 80px 280px;
+                    @include sm {
+                        grid-template-areas: "line-length line-length . screenshot3 screenshot3" "margins margins wcag wcag ." "margins margins . screenshot1 screenshot1" ". pictogram pictogram pictogram ." "screenshot2 screenshot2 screenshot2 screenshot4 screenshot4" ". . . screenshot4 screenshot4";
+                        grid-template-columns: repeat(5,1fr);
+                        grid-template-rows: 152px auto 200px auto 80px 104px;
+                    }
+                    @include md {
+                        grid-gap: 24px;
+                        grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3" "line-length line-length line-length line-length line-length . . . ." ". margins margins margins margins wcag wcag wcag ." ". margins margins margins margins . screenshot1 screenshot1 screenshot1" "pictogram pictogram pictogram pictogram pictogram pictogram . . ." "screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot4 screenshot4 screenshot4" ". . . . . . screenshot4 screenshot4 screenshot4";
+                        grid-template-columns: repeat(9,1fr);
+                        grid-template-rows: auto 64px auto 220px auto 130px 40px;
+                    }
+                    @include lg {
+                        grid-gap: 32px;
+                        grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3 margins margins margins" "line-length line-length line-length line-length line-length . . . . margins margins margins" ". screenshot1 screenshot1 screenshot1 screenshot1 . . wcag wcag wcag wcag wcag" "pictogram pictogram pictogram pictogram pictogram pictogram . . screenshot4 screenshot4 screenshot4 ." "pictogram pictogram pictogram pictogram pictogram pictogram . . . . . ." "pictogram pictogram pictogram pictogram pictogram pictogram screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2";
+                        grid-template-columns: repeat(12,1fr);
+                        grid-template-rows: 144px auto auto 200px auto 96px;
+                    }
+                    @include xl {
+                        grid-template-rows: 176px auto auto 224px auto 112px;
+                    }
+
+                    li {
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: cover;
+
+                        div {}
+                    }
+
+                    li:nth-child(1) {
+                        grid-area: line-length;
+                    }
+
+                    li:nth-child(2) {
+                        grid-area: margins;
+                    }
+
+                    li:nth-child(3) {
+                        grid-area: wcag;
+                    }
+
+                    li:nth-child(4) {
+                        grid-area: pictogram;
+                    }
+
+                    li:nth-child(5) {
+                        background-image: url("../img/case-studies/atd/atdScreenshot1.png");
+                        background-position: left center;
+                        grid-area: screenshot1;
+                    }
+
+                    li:nth-child(6) {
+                        background-image: url("../img/case-studies/atd/atdScreenshot2.png");
+                        background-position: center 20%;
+                        grid-area: screenshot2;
+                        @include lg {
+                            background-position: center 40%;
+                        }
+                    }
+
+                    li:nth-child(7) {
+                        background-image: url("../img/case-studies/atd/atdScreenshot3.png");
+                        grid-area: screenshot3;
+                    }
+
+                    li:nth-child(8) {
+                        background-image: url("../img/case-studies/atd/atdScreenshot4.png");
+                        background-position: left center;
+                        grid-area: screenshot4;
+                    }
+                }
+            }
+
+            p:nth-child(3) {
+                grid-area: p1;
+            }
+
+            p:nth-child(4) {
+                grid-area: p2;
+            }
+        }
+    }
+}
+/* =============
+    Attention to Detail Imagery SVG Edits
+============= */
+#atdPictogram {
+    #atdSquareVM1 {
+        @include dark {
+            stroke: #7140BF;
+            fill: #7140BF;
+        }
+    }
+}

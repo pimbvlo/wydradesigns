@@ -7,8 +7,16 @@
 		"uuidString": "9501D335-8457-4496-8509-AFB139CFE2D8"
 		}
 	],
-"creatorBuild": "32147",
+"creatorBuild": "32186",
 "files": {
+	"/deploy/404.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/404.html",
+		"oF": 0
+		},
 	"/deploy/about.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -23,6 +31,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/Antifogmatic.html",
+		"oF": 0
+		},
+	"/deploy/AttentionToDetail.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/AttentionToDetail.html",
 		"oF": 0
 		},
 	"/deploy/BarbaraKasten.html": {
@@ -74,6 +90,28 @@
 		"oA": 0,
 		"oAP": "/deploy/IceCreamMuseum.html",
 		"oF": 0
+		},
+	"/deploy/img/404/404op1.jpg": {
+		"ft": 16384,
+		"iS": 148625,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/404/404op1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/404/404op2.jpg": {
+		"ft": 16384,
+		"iS": 176431,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/404/404op2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/deploy/img/about/Hero.jpg": {
 		"ft": 16384,
@@ -271,6 +309,413 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdEnvMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 532450,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdEnvMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdEnvMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 1203801,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdEnvMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdEnvMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 188731,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdEnvMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdEnvMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 260857,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdEnvMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdEnvMobileRight.png": {
+		"ft": 32768,
+		"iS": 257298,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdEnvMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdHero.jpg": {
+		"ft": 16384,
+		"iS": 540979,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 160794,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMacBookHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 164968,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMacBookHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 1028240,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMacBookTiltedGrid.png": {
+		"ft": 32768,
+		"iS": 968663,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMacBookTiltedGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 249331,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 186023,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 302210,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileLeftDownGrid.png": {
+		"ft": 32768,
+		"iS": 226519,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileLeftDownGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileRight.png": {
+		"ft": 32768,
+		"iS": 313761,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexMobileRightGrid.png": {
+		"ft": 32768,
+		"iS": 221671,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexMobileRightGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdIndexTabletHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 153504,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdIndexTabletHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdPrintMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 140588,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdPrintMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdPrintMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 941190,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdPrintMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdPrintMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 343296,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdPrintMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdPrintMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 358086,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdPrintMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdPrintMobileRight.png": {
+		"ft": 32768,
+		"iS": 404629,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdPrintMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot1.png": {
+		"ft": 32768,
+		"iS": 369666,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot2.png": {
+		"ft": 32768,
+		"iS": 4294,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot3.png": {
+		"ft": 32768,
+		"iS": 263432,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot4.png": {
+		"ft": 32768,
+		"iS": 92622,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot5.png": {
+		"ft": 32768,
+		"iS": 448872,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot6.png": {
+		"ft": 32768,
+		"iS": 87470,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot7.png": {
+		"ft": 32768,
+		"iS": 1328963,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdScreenshot8.png": {
+		"ft": 32768,
+		"iS": 217763,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdScreenshot8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdWebMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 273945,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdWebMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdWebMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 989488,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdWebMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdWebMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 334351,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdWebMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdWebMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 328219,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdWebMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/atdWebMobileRight.png": {
+		"ft": 32768,
+		"iS": 383197,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/atdWebMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/envVisualMessaging1.png": {
+		"ft": 32768,
+		"iS": 706531,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/envVisualMessaging1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/atd/envVisualMessaging1Shadow1.png": {
+		"ft": 32768,
+		"iS": 4652,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/atd/envVisualMessaging1Shadow1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/case-studies/bk/bkCover1.jpg": {
@@ -903,6 +1348,116 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/img/case-studies/m/mHero.jpg": {
+		"ft": 16384,
+		"iS": 278889,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 571682,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mMacBookTilt.png": {
+		"ft": 32768,
+		"iS": 824306,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mMacBookTilt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 292950,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mMobileTiltLeftDown.png": {
+		"ft": 32768,
+		"iS": 308684,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mMobileTiltLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mMobileTiltRight.png": {
+		"ft": 32768,
+		"iS": 412210,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mMobileTiltRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mScreenshot1.png": {
+		"ft": 32768,
+		"iS": 112396,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mScreenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mScreenshot2.png": {
+		"ft": 32768,
+		"iS": 678064,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mScreenshot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mScreenshot3.png": {
+		"ft": 32768,
+		"iS": 195818,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mScreenshot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/img/case-studies/m/mTabletHeadOn.png": {
+		"ft": 32768,
+		"iS": 385061,
+		"oA": 0,
+		"oAP": "/deploy/img/case-studies/m/mTabletHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/case-studies/on/onHero.jpg": {
 		"ft": 16384,
 		"iS": 133826,
@@ -1452,6 +2007,26 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/img/case-studies/shm/shmLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/shm/shmLogoBlack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/shm/shmLogoBlack.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/case-studies/shm/shmLogoWhite.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/case-studies/shm/shmLogoWhite.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -2134,6 +2709,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/index/projects/ATDCover.jpg": {
+		"ft": 16384,
+		"iS": 193307,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/ATDCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/index/projects/BKCover.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -2178,6 +2764,17 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/img/index/projects/MCover.jpg": {
+		"ft": 16384,
+		"iS": 25613,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/MCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/index/projects/ONCover.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -2198,6 +2795,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/ATDCover.jpg": {
+		"ft": 16384,
+		"iS": 363491,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/ATDCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/deploy/img/index/projects/purple/BKCover.jpg": {
@@ -2239,6 +2847,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/img/index/projects/purple/ICMCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/img/index/projects/purple/MCover.jpg": {
+		"ft": 16384,
+		"iS": 18382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/index/projects/purple/MCover.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -2453,6 +3072,28 @@
 		"opt": 1,
 		"q": 100
 		},
+	"/deploy/imglg/404/404op1.jpg": {
+		"ft": 16384,
+		"iS": 1029145,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/404/404op1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/404/404op2.jpg": {
+		"ft": 16384,
+		"iS": 1090614,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/404/404op2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/imglg/about/Hero.jpg": {
 		"ft": 16384,
 		"iS": 1489233,
@@ -2574,6 +3215,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/imglg/case-studies/anti/antiFullOpen.png": {
+		"ft": 32768,
+		"iS": 486990,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/anti/antiFullOpen.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/imglg/case-studies/anti/antiHalfOpen.jpg": {
 		"ft": 16384,
 		"iS": 388892,
@@ -2649,6 +3301,413 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdEnvMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 2254620,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdEnvMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdEnvMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 4988972,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdEnvMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdEnvMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 828890,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdEnvMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdEnvMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 1067644,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdEnvMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdEnvMobileRight.png": {
+		"ft": 32768,
+		"iS": 1313179,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdEnvMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdHero.jpg": {
+		"ft": 16384,
+		"iS": 4248453,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 846159,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMacBookHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 835441,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMacBookHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 4301471,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMacBookTiltedGrid.png": {
+		"ft": 32768,
+		"iS": 4520342,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMacBookTiltedGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 900247,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 707868,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 1081987,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileLeftDownGrid.png": {
+		"ft": 32768,
+		"iS": 952877,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileLeftDownGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileRight.png": {
+		"ft": 32768,
+		"iS": 1321909,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexMobileRightGrid.png": {
+		"ft": 32768,
+		"iS": 1124647,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexMobileRightGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdIndexTabletHeadOnGrid.png": {
+		"ft": 32768,
+		"iS": 778856,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdIndexTabletHeadOnGrid.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdPrintMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 881473,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdPrintMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdPrintMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 4406586,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdPrintMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdPrintMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 1092318,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdPrintMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdPrintMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 1195356,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdPrintMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdPrintMobileRight.png": {
+		"ft": 32768,
+		"iS": 1498412,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdPrintMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot1.png": {
+		"ft": 32768,
+		"iS": 1033869,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot2.png": {
+		"ft": 32768,
+		"iS": 28612,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot3.png": {
+		"ft": 32768,
+		"iS": 672217,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot4.png": {
+		"ft": 32768,
+		"iS": 316004,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot5.png": {
+		"ft": 32768,
+		"iS": 448872,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot6.png": {
+		"ft": 32768,
+		"iS": 87470,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot6.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot7.png": {
+		"ft": 32768,
+		"iS": 1328963,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot7.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdScreenshot8.png": {
+		"ft": 32768,
+		"iS": 217763,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdScreenshot8.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdWebMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 1124469,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdWebMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdWebMacBookTilted.png": {
+		"ft": 32768,
+		"iS": 4352340,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdWebMacBookTilted.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdWebMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 1054490,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdWebMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdWebMobileLeftDown.png": {
+		"ft": 32768,
+		"iS": 1180810,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdWebMobileLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/atdWebMobileRight.png": {
+		"ft": 32768,
+		"iS": 1462591,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/atdWebMobileRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/envVisualMessaging1.png": {
+		"ft": 32768,
+		"iS": 706531,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/envVisualMessaging1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/atd/envVisualMessaging1Shadow1.png": {
+		"ft": 32768,
+		"iS": 4652,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/atd/envVisualMessaging1Shadow1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/imglg/case-studies/bk/bkCover1.jpg": {
@@ -2946,6 +4005,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/fender/fenderFullSet.png": {
+		"ft": 32768,
+		"iS": 446720,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/fender/fenderFullSet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/imglg/case-studies/fender/fenderHero.jpg": {
@@ -3281,6 +4351,116 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/imglg/case-studies/m/mHero.jpg": {
+		"ft": 16384,
+		"iS": 1645635,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mHero.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mMacBookHeadOn.png": {
+		"ft": 32768,
+		"iS": 1546117,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mMacBookHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mMacBookTilt.png": {
+		"ft": 32768,
+		"iS": 2887766,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mMacBookTilt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mMobileHeadOn.png": {
+		"ft": 32768,
+		"iS": 835493,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mMobileHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mMobileTiltLeftDown.png": {
+		"ft": 32768,
+		"iS": 1041802,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mMobileTiltLeftDown.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mMobileTiltRight.png": {
+		"ft": 32768,
+		"iS": 1606066,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mMobileTiltRight.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mScreenshot1.png": {
+		"ft": 32768,
+		"iS": 354151,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mScreenshot1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mScreenshot2.png": {
+		"ft": 32768,
+		"iS": 2600285,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mScreenshot2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mScreenshot3.png": {
+		"ft": 32768,
+		"iS": 584993,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mScreenshot3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/m/mTabletHeadOn.png": {
+		"ft": 32768,
+		"iS": 1148675,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/m/mTabletHeadOn.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/imglg/case-studies/on/onHero.jpg": {
 		"ft": 16384,
 		"iS": 133826,
@@ -3402,6 +4582,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/imglg/case-studies/qv/qvBrochureInside2.png": {
+		"ft": 32768,
+		"iS": 590508,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/qv/qvBrochureInside2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/imglg/case-studies/qv/qvBrochureInspiration1.jpg": {
 		"ft": 16384,
 		"iS": 649934,
@@ -3455,6 +4646,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/case-studies/qv/qvBrochureOutside2.png": {
+		"ft": 32768,
+		"iS": 716140,
+		"oA": 0,
+		"oAP": "/deploy/imglg/case-studies/qv/qvBrochureOutside2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"/deploy/imglg/case-studies/qv/qvHero.jpg": {
@@ -3830,6 +5032,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "/deploy/imglg/case-studies/shm/shmLogo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/imglg/case-studies/shm/shmLogoBlack.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/imglg/case-studies/shm/shmLogoBlack.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 52780316221407,
@@ -4512,6 +5724,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/imglg/index/projects/ATDCover.jpg": {
+		"ft": 16384,
+		"iS": 769994,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/index/projects/ATDCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/imglg/index/projects/BKCover.jpg": {
 		"ft": 16384,
 		"iS": 503523,
@@ -4556,6 +5779,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/deploy/imglg/index/projects/MCover.jpg": {
+		"ft": 16384,
+		"iS": 111268,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/index/projects/MCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/imglg/index/projects/ONCover.jpg": {
 		"ft": 16384,
 		"iS": 108596,
@@ -4576,6 +5810,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/index/projects/purple/ATDCover.jpg": {
+		"ft": 16384,
+		"iS": 645948,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/index/projects/purple/ATDCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/deploy/imglg/index/projects/purple/BKCover.jpg": {
@@ -4617,6 +5862,17 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/deploy/imglg/index/projects/purple/ICMCover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/deploy/imglg/index/projects/purple/MCover.jpg": {
+		"ft": 16384,
+		"iS": 123557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/imglg/index/projects/purple/MCover.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -4850,6 +6106,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/deploy/Movebo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Movebo.html",
+		"oF": 0
+		},
 	"/deploy/OscarNiemeyer.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -4954,6 +6218,22 @@
 		"oAP": "/deploy/wydradesigns.htaccess",
 		"oF": 0
 		},
+	"/dev/404.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/404.html",
+		"oF": 2
+		},
+	"/dev/404/404main.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/404/404main.html",
+		"oF": 0
+		},
 	"/dev/about.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -4984,6 +6264,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/deploy/Antifogmatic.html",
+		"oF": 2
+		},
+	"/dev/AttentionToDetail.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/AttentionToDetail.html",
 		"oF": 2
 		},
 	"/dev/BarbaraKasten.kit": {
@@ -5024,6 +6312,158 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/anti/antiText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdColor.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdColor.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdHero.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdIconography.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdIconography.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdImagery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdImagery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdIntro.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdIntro.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/atdLogo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/atdLogo.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdDottedCircle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdDottedCircle.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdDottedSquare.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdDottedSquare.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdHalftoneOffset.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdHalftoneOffset.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdLines.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdLines.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdLogo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdLogo.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdOutlineTriangle.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdOutlineTriangle.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdPrintBestPractices1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdPrintBestPractices1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdSquare.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdSquare.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdTwoZigZagUneven.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdTwoZigZagUneven.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdType3.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdType3.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdVisualMessaging1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdVisualMessaging1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/atd/img/atdWebBestPractices1.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/atd/img/atdWebBestPractices1.html",
 		"oF": 0
 		},
 	"/dev/case-studies/bk/bkGallery.kit": {
@@ -5104,6 +6544,22 @@
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/dev/case-studies/icm/icmText1.html",
+		"oF": 0
+		},
+	"/dev/case-studies/m/mGallery.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/m/mGallery.html",
+		"oF": 0
+		},
+	"/dev/case-studies/m/mHero.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/case-studies/m/mHero.html",
 		"oF": 0
 		},
 	"/dev/case-studies/on/onGallery.kit": {
@@ -5370,6 +6826,46 @@
 		"oAP": "/dev/global/head.html",
 		"oF": 0
 		},
+	"/dev/global/head/description.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head/description.html",
+		"oF": 0
+		},
+	"/dev/global/head/favicon.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head/favicon.html",
+		"oF": 0
+		},
+	"/dev/global/head/font-awesome.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head/font-awesome.html",
+		"oF": 0
+		},
+	"/dev/global/head/fonts.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head/fonts.html",
+		"oF": 0
+		},
+	"/dev/global/head/meta.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/dev/global/head/meta.html",
+		"oF": 0
+		},
 	"/dev/global/header.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -5515,6 +7011,14 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"/dev/Movebo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/deploy/Movebo.html",
+		"oF": 2
 		},
 	"/dev/OscarNiemeyer.kit": {
 		"cB": 0,
@@ -5760,6 +7264,19 @@
 		"oS": 0,
 		"sct": 1
 		},
+	"/dev/scss/sections/404/_404main.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/404/_404main.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
 	"/dev/scss/sections/about/_aboutHero.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -5834,6 +7351,97 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_antiText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdColor.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdColor.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdHero.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdIconography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdIconography.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdImagery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdImagery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdIntro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdIntro.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_atdLogo.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_atdLogo.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -5964,6 +7572,32 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/case-studies/_icmText1.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_mGallery.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_mGallery.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 1
+		},
+	"/dev/scss/sections/case-studies/_mHero.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/case-studies/_mHero.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 1
@@ -7035,6 +8669,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"default-case-last": {
+			"active": 0,
+			"optionString": ""
+			},
 		"default-param-last": {
 			"active": 0,
 			"optionString": ""
@@ -7447,6 +9085,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-loss-of-precision": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-magic-numbers": {
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
@@ -7562,6 +9204,10 @@
 		"no-regex-spaces": {
 			"active": 1,
 			"optionString": ""
+			},
+		"no-restricted-exports": {
+			"active": 0,
+			"optionString": "{'restrictedNamedExports': []}"
 			},
 		"no-restricted-globals": {
 			"active": 0,
@@ -7706,6 +9352,10 @@
 		"no-use-before-define": {
 			"active": 0,
 			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-backreference": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-useless-call": {
 			"active": 0,

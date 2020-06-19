@@ -1,0 +1,10 @@
+/* =============
+    Attention to Detail Hero
+============= */
+#atdHero {
+    background-image: url("../img/case-studies/atd/atdHero.jpg");
+    background-position: 64% top;
+    @include md{
+        background-position: center top;
+    }
+}

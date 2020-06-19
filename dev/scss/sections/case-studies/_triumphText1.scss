@@ -9,12 +9,13 @@
 
     > div {
         article {
-            grid-template-areas: "v";
+            grid-template-areas: "p""v";
             @include sm{
-                grid-template-areas: "v .";
-
+                grid-template-areas: "v p";
             }
+            p{
 
+            };
             div {
                 grid-area: v;
                 position: relative;

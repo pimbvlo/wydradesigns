@@ -46,8 +46,9 @@
                     border-radius: 16px;
                     box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
                     cursor: pointer;
-                    transition: 0.2s ease-in-out;
+                    transition: all 0.2s ease-in-out;
                     background-color: $purple;
+                    transform-origin: center bottom;
 
                     a {
                         align-items: center;
@@ -65,7 +66,7 @@
                             opacity: 0;
                         }
                         @include xl {
-                            height: 304px;
+                            height: 320px;
                         }
                         @include margin(auto,null,auto,null);
 
@@ -311,7 +312,9 @@
         @include lg {
             li:hover {
                 box-shadow: none;
-                transform: translate(0px, 4px) scale(0.98);
+                transform: scale(1.04);
+                transition: all 0.2s ease-in-out;
+
                 @supports(filter: saturate(0.75)) {
                     filter: saturate(0.75);
                 }
@@ -325,7 +328,7 @@
             }
             li:active {
                 background-color: $orange;
-                transition: all 0.1s;
+                transition: all 0.1s ease-in-out;
 
                 @supports(filter: saturate(0.75)) {
                     filter: saturate(0.75);

@@ -5,7 +5,7 @@
     > div {
         article {
             ul {
-                grid-template-areas: "C1" "paragraph" "ToC" "MS" "ISb1" "IS2" ;
+                grid-template-areas: "C1" "paragraph" "ToC" "MS" "ISb1" "IS2";
                 grid-template-rows: 240px auto 224px 200px 200px 224px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
@@ -25,42 +25,39 @@
                     background-image: url("../img/case-studies/sa/saCover1.jpg");
                     grid-area: C1;
                     background-position: center 56%;
-
                 }
 
                 li:nth-child(2) {
                     background-image: url("../img/case-studies/sa/saToC.jpg");
                     grid-area: ToC;
                     background-position: 32% center;
-
                 }
 
                 li:nth-child(3) {
                     background-image: url("../img/case-studies/sa/saMainSpread.jpg");
                     grid-area: MS;
                     background-position: 32% center;
-
                 }
 
                 li:nth-child(4) {
                     background-image: url("../img/case-studies/sa/saInsideSpread1b.jpg");
                     grid-area: ISb1;
                     background-position: 88% center;
-
                 }
+
                 li:nth-child(5) {
                     background-image: url("../img/case-studies/sa/saInsideSpread2.jpg");
                     grid-area: IS2;
                     background-position: 64% center;
-
                 }
-                li:nth-child(6){
+
+                li:nth-child(6) {
                     grid-area: paragraph;
-                    p{
+
+                    p {
                         width: 100%;
                     }
                 }
-
             }
         }
     }

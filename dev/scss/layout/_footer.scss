@@ -4,7 +4,7 @@
 footer {
     color: $white;
     background-color: $dark-purple;
-    @include dark{
+    @include dark {
         background-color: $grey-mid-extra;
     }
 
@@ -28,9 +28,8 @@ footer {
 
                 img {
                     width: 144px;
-                    @include lg{
+                    @include lg {
                         width: 168px;
-
                     }
                 }
             }
@@ -41,7 +40,6 @@ footer {
                 align-items: center;
                 grid-area: a;
                 width: 160px;
-
                 @include sm {
                     @include margin(null, 32px, null, null);
                 }

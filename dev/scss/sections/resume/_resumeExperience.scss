@@ -4,13 +4,11 @@
 #resumeExperience {
     > div {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-areas: "h2" "Pfizer" "Pilam";
-        @include lg{
+        grid-template-columns: repeat(1,1fr);
+        @include lg {
             width: 75%;
-
         }
-
 
         h2 {
             grid-area: h2;
@@ -20,12 +18,11 @@
             display: grid;
             grid-template-columns: repeat(1,1fr);
             @include md {
-                grid-template-columns: repeat(2,1fr);
                 grid-gap: 0 24px;
+                grid-template-columns: repeat(2,1fr);
             }
-            @include lg{
+            @include lg {
                 grid-gap: 0 32px;
-
             }
 
             > div:nth-child(1) {
@@ -39,13 +36,13 @@
             div:nth-child(3),
             div:nth-child(4) {
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
                 grid-template-areas: "h4" "h3" "ul1";
+                grid-template-columns: repeat(1,1fr);
                 @include margin(null,null,16px,null);
-                @include md{
+                @include md {
                     @include margin(null,null,auto,null);
-
                 }
+
                 h4 {
                     grid-area: h4;
                     @include margin(null,null,4px,null);

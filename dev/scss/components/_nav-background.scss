@@ -13,10 +13,10 @@
     @include dark {
         background-color: $black;
     }
-
-    @include lg{
+    @include lg {
         display: none;
     }
+
     svg {
         background-color: $blank;
 
@@ -25,7 +25,6 @@
             @include dark {
                 fill: $dark-purple;
             }
-
         }
     }
 }

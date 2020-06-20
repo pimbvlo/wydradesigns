@@ -3,22 +3,23 @@
 ============= */
 #qvText1 {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
     > div {
         article {
-
             p {
                 @include margin(null,null,40px,null);
                 @include lg {
                     @include margin(null,null,56px,null);
                 }
-
             }
+
             ul {
-                li {filter:saturate(0.75);}
+                li {
+                    filter:saturate(0.75);
+                }
 
                 li:nth-child(1) {
                     background-image: url("../img/case-studies/qv/qvBrochureInspiration1.jpg");
@@ -39,7 +40,6 @@
                     }
                 }
             }
-
         }
     }
 }

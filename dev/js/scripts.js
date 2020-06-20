@@ -6,7 +6,7 @@
 // @codekit-prepend "burger/burger-click.js";
 
 
-$(document).ready(function() {
-    // gsap.registerPlugin(ScrollToPlugin);
-    console.log("ready!");
-});
+// $(document).ready(function() {
+//     // gsap.registerPlugin(ScrollToPlugin);
+//     // console.log("ready!");
+// });

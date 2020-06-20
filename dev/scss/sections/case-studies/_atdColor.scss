@@ -6,12 +6,12 @@
         article {
             grid-template-areas: "h2" "color-grid" "p";
             @include sm {
-                grid-template-columns: 72% auto;
                 grid-template-areas: "h2 h2" "color-grid color-grid""p .";
+                grid-template-columns: 72% auto;
             }
             @include md {
-                grid-template-columns: 50% auto;
                 grid-gap: 24px;
+                grid-template-columns: 50% auto;
             }
             @include lg {
                 grid-gap: 32px;
@@ -22,15 +22,15 @@
             }
 
             div:nth-child(2) {
-                grid-area: color-grid;
-                display: grid;
                 grid-gap: 16px;
-                grid-template-columns: repeat(1,1fr);
+                display: grid;
+                grid-area: color-grid;
                 grid-template-areas: "web-color" "print-color" "env-color";
+                grid-template-columns: repeat(1,1fr);
                 @include md {
                     grid-gap: 24px;
-                    grid-template-columns: repeat(3,1fr);
                     grid-template-areas: "web-color print-color env-color";
+                    grid-template-columns: repeat(3,1fr);
                 }
                 @include lg {
                     grid-gap: 32px;
@@ -40,10 +40,10 @@
                     display: grid;
                     grid-template-columns: repeat(3,1fr);
                     @include padding(16px,16px,16px,16px);
-                    border-radius: 16px;
                     background-color: $off-white;
-                    width: auto;
+                    border-radius: 16px;
                     box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .02), 0 9px 46px 8px rgba(19, 22, 24, .012), 0 24px 38px 3px rgba(19, 22, 24, .012);
+                    width: auto;
                     @include lg {
                         grid-gap: 24px;
                         @include padding(24px,24px,24px,24px);
@@ -53,47 +53,45 @@
                     }
 
                     li {
-                        height: 72px;
                         border-radius: 16px;
-                        transition: all 0.2s ease-in-out;
                         box-shadow: none;
+                        height: 72px;
+                        transition: all 0.2s ease-in-out;
                         @include sm {
                             height: 104px;
                         }
                         @include md {
-                            height: 44px;
                             border-radius: 8px;
+                            height: 44px;
                         }
                         @include lg {
-                            height: 56px;
                             border-radius: 104px;
+                            height: 56px;
 
                             &:hover {
-                                transform: scale(1.08);
                                 box-shadow: 0 1px 8px -4px rgba(19, 22, 24, .04), 0 4px 20px 4px rgba(19, 22, 24, .03), 0 12px 14px 3px rgba(19, 22, 24, .04);
-
+                                transform: scale(1.08);
                                 transition: all 0.2s ease-in-out;
                             }
                         }
                         @include xl {
-                            height: 78px;
                             border-radius: 104px;
+                            height: 78px;
                         }
 
                         &:last-of-type {
+                            background-color: $blank;
+                            border-radius: none;
+                            color: $dark-purple;
                             grid-area: p;
                             height: auto;
-                            border-radius: none;
-                            background-color: $blank;
                             width: auto;
-                            color: $dark-purple;
+
                             &:hover {
+                                box-shadow: none;
                                 transform: scale(1);
                                 transition: all 0.2s ease-in-out;
-                                box-shadow: none;
-
                             }
-
 
                             h2 {
                                 font-size: rem-calc(28);
@@ -104,8 +102,8 @@
                 }
 
                 ul:nth-child(1) {
-                    grid-template-areas: "color-white off-white color-black" "turqouise dark-blue ." "color-yellow . ." "p p p";
                     grid-area: web-color;
+                    grid-template-areas: "color-white off-white color-black" "turqouise dark-blue ." "color-yellow . ." "p p p";
 
                     li:nth-child(1) {
                         background-color: #FCFCFC;
@@ -139,8 +137,8 @@
                 }
 
                 ul:nth-child(2) {
-                    grid-template-areas: "color-white off-white color-black" "light-red color-red dark-red" "color-yellow . ." "p p p";
                     grid-area: print-color;
+                    grid-template-areas: "color-white off-white color-black" "light-red color-red dark-red" "color-yellow . ." "p p p";
 
                     li:nth-child(1) {
                         background-color: #FCFCFC;
@@ -179,8 +177,8 @@
                 }
 
                 ul:nth-child(3) {
-                    grid-template-areas: "color-white off-white color-black" "light-purple color-purple dark-purple" "color-yellow color-shadow ." "p p p";
                     grid-area: env-color;
+                    grid-template-areas: "color-white off-white color-black" "light-purple color-purple dark-purple" "color-yellow color-shadow ." "p p p";
 
                     li:nth-child(1) {
                         background-color: #FCFCFC;

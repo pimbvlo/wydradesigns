@@ -3,24 +3,18 @@
 ============= */
 #onGallery {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
-
 
     > div {
         article {
             ul {
-                grid-template-areas:
-                "OP" "paragraph1" "OPM";
+                grid-template-areas: "OP" "paragraph1" "OPM";
                 grid-template-rows: 304px auto 480px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
-                    grid-template-areas:
-                    "OP OP ."
-                    "paragraph1 paragraph1 ."
-                    ". OPM OPM"
-                    ;
+                    grid-template-areas: "OP OP ." "paragraph1 paragraph1 ." ". OPM OPM";
                     grid-template-rows: 400px auto 600px;
                 }
                 @include md {
@@ -28,11 +22,7 @@
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas:
-
-                    "paragraph1 paragraph1 paragraph1 OP OP OP OP"
-                    ". . . OP OP OP OP"
-                    "OPM OPM OPM OPM OPM . .";
+                    grid-template-areas: "paragraph1 paragraph1 paragraph1 OP OP OP OP" ". . . OP OP OP OP" "OPM OPM OPM OPM OPM . .";
                     grid-template-rows: auto 200px 800px;
                 }
 
@@ -45,7 +35,6 @@
                 li:nth-child(2) {
                     background-image: url("../img/case-studies/on/onPosterMockup.jpg");
                     grid-area: OPM;
-
                 }
 
                 li:nth-child(3) {

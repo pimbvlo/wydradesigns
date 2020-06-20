@@ -32,7 +32,6 @@ ul {
         grid-template-columns: auto 1104px auto;
     }
 
-
     > div {
         grid-area: content;
     }
@@ -62,7 +61,6 @@ ul {
     @include xl {
         margin: 96px 0;
     }
-
 }
 
 .case-study-hero {
@@ -72,12 +70,14 @@ ul {
     background-size: cover;
     display: flex;
     height: 72vh;
-    >div{
-        article{
-            h1{
+
+    > div {
+        article {
+            h1 {
                 text-align: center;
             }
-            h4{
+
+            h4 {
                 text-align: center;
             }
         }
@@ -161,10 +161,9 @@ ul {
                 @include md {
                     grid-gap: 24px;
                 }
-                @include lg{
+                @include lg {
                     grid-template-columns: repeat(3,1fr);
                     grid-gap: 32px;
-
                 }
 
                 li {
@@ -192,25 +191,21 @@ ul {
             display: grid;
             grid-template-columns: repeat(1,1fr);
             grid-template-areas: "p";
-            @include sm{
+            @include sm {
                 grid-template-columns: 72% auto;
                 grid-template-areas: "p .";
             }
-            @include md{
+            @include md {
                 grid-template-columns: 50% auto;
                 grid-gap: 24px;
-
-
             }
             @include lg {
                 grid-gap: 32px;
             }
 
-
             p {
                 grid-area: "p";
             }
-
         }
     }
 }
@@ -222,7 +217,6 @@ ul {
             display: grid;
             grid-template-columns: repeat(1,1fr);
             // grid-template-areas: "g";
-
             ul {
                 // grid-area: g;
                 grid-gap: 16px;
@@ -239,7 +233,6 @@ ul {
                     grid-gap: 32px;
                 }
 
-
                 li {
                     background-position: center;
                     background-repeat: no-repeat;
@@ -247,20 +240,17 @@ ul {
                     width: 100%;
                 }
             }
-
         }
     }
 }
-.caption{
+
+.caption {
     // color: $white;
     background-color: $white;
     border-radius: 24px;
     box-shadow: 0 1px 12px -3px rgba(19, 22, 24, .05), 0 3px 24px 4px rgba(19, 22, 24, .02), 0 8px 16px 2px rgba(19, 22, 24, .04);
 
-    p{
+    p {
         @include margin(16px,32px,16px,32px);
-
-
     }
-
 }

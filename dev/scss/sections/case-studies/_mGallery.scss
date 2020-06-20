@@ -24,11 +24,7 @@
                     grid-template-rows: 400px auto 320px 600px 400px 400px;
                 }
                 @include lg {
-                    grid-template-areas:
-                    "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1"
-                    "MSOne MSOne MSOne MSOne MSOne MSThree MSThree"
-                    "MTHO MTHO MMBT MMBT MMBT MMBT MMBT"
-                    "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
+                    grid-template-areas: "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1" "MSOne MSOne MSOne MSOne MSOne MSThree MSThree" "MTHO MTHO MMBT MMBT MMBT MMBT MMBT" "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
                     grid-template-columns: repeat(7,1fr);
                     grid-template-rows: auto 264px 416px 440px;
                 }
@@ -55,9 +51,8 @@
                         background-position: center top;
                         grid-area: MMTLD;
                     }
-                    @include lg{
+                    @include lg {
                         background-size: 110% auto;
-
                     }
                 }
 
@@ -113,10 +108,9 @@
                 li:nth-child(8) {
                     background-image: url("../img/case-studies/m/mScreenshot3.png");
                     grid-area: MSThree;
-                    @include md{
+                    @include md {
                         background-position: 80% center;
                     }
-
                 }
 
                 li:nth-child(9) {
@@ -124,8 +118,8 @@
 
                     p {
                         width: 100%;
-                        a{
-                        }
+
+                        a {}
                     }
                 }
             }

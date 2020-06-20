@@ -13,7 +13,6 @@
 
             h3 {
                 @include margin(16px,null,8px,null);
-
                 @include md {
                     @include margin(34px,null,8px,null);
                 }
@@ -37,18 +36,16 @@
                     grid-gap: 32px;
                 }
 
-
-
                 li {
+                    background-color: $purple;
                     background-position: center;
                     background-repeat: no-repeat;
                     background-size: cover;
                     border-radius: 16px;
                     box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
                     cursor: pointer;
-                    transition: all 0.2s ease-in-out;
-                    background-color: $purple;
                     transform-origin: center bottom;
+                    transition: all 0.2s ease-in-out;
 
                     a {
                         align-items: center;
@@ -136,12 +133,12 @@
             }
 
             li:nth-child(5) {
+                background-image: url("../img/index/projects/purple/ICMCover.jpg");
+                background-position: bottom right;
                 /* =============
                     TURNED OFF
                 ============= */
                 display: none;
-                background-image: url("../img/index/projects/purple/ICMCover.jpg");
-                background-position: bottom right;
                 grid-area: icm;
                 @include lg {
                     background-image: url("../img/index/projects/ICMCover.jpg");
@@ -150,7 +147,7 @@
         }
 
         ul:nth-child(5) {
-            grid-template-areas: "atd" "t" "soa" "m" ;
+            grid-template-areas: "atd" "t" "soa" "m";
             @include sm {
                 grid-template-areas: "atd t" "soa m";
             }
@@ -173,18 +170,20 @@
                     background-image: url("../img/index/projects/SoACover.jpg");
                 }
             }
+
             li:nth-child(3) {
                 background-image: url("../img/index/projects/purple/MCover.jpg");
-                grid-area: m;
                 background-position: right center;
+                grid-area: m;
                 @include lg {
                     background-image: url("../img/index/projects/MCover.jpg");
                 }
             }
+
             li:nth-child(4) {
                 background-image: url("../img/index/projects/purple/ATDCover.jpg");
-                grid-area: atd;
                 background-position: left bottom;
+                grid-area: atd;
                 @include lg {
                     background-image: url("../img/index/projects/ATDCover.jpg");
                 }
@@ -217,32 +216,29 @@
             }
 
             li:nth-child(3) {
+                background-image: url("../img/index/projects/purple/ClCover.jpg");
                 /* =============
                     TURNED OFF
                 ============= */
                 display: none;
-
-                background-image: url("../img/index/projects/purple/ClCover.jpg");
                 grid-area: c;
                 @include lg {
                     background-image: url("../img/index/projects/ClCover.jpg");
                 }
             }
+
             li:nth-child(4) {
+                background-image: url("../img/index/projects/purple/QVCover.jpg");
+                background-position: top right;
                 /* =============
                     TURNED OFF
                 ============= */
                 display: none;
-
-                background-image: url("../img/index/projects/purple/QVCover.jpg");
-                background-position: top right;
                 grid-area: qv;
-                @include lg{
+                @include lg {
                     background-image: url("../img/index/projects/QVCover.jpg");
                 }
-
             }
-
         }
 
         ul:nth-child(9) {
@@ -281,9 +277,11 @@
         /* =============
             TURNED OFF
         ============= */
-        h3:nth-child(10),ul:nth-child(11){
+        h3:nth-child(10),
+        ul:nth-child(11) {
             display: none;
         }
+
         ul:nth-child(11) {
             grid-template-areas: "sb" "on";
             @include sm {
@@ -314,7 +312,6 @@
                 box-shadow: none;
                 transform: scale(1.04);
                 transition: all 0.2s ease-in-out;
-
                 @supports(filter: saturate(0.75)) {
                     filter: saturate(0.75);
                 }
@@ -326,10 +323,10 @@
                     opacity: 1;
                 }
             }
+
             li:active {
                 background-color: $orange;
                 transition: all 0.1s ease-in-out;
-
                 @supports(filter: saturate(0.75)) {
                     filter: saturate(0.75);
                 }

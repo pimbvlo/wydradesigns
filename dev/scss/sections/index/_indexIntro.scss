@@ -7,38 +7,36 @@
         background-color: $grey-dark-extra;
     }
 
-    div{
+    div {
         align-items: center;
         display: flex;
         justify-content: center;
-        article{
+
+        article {
             align-items: center;
             border-bottom: 4px solid $orange;
             border-top: 4px solid $orange;
             display: flex;
             justify-content: center;
-
             @include padding(16px, null, 16px, null);
-            @include sm{
+            @include sm {
                 width: 76vw;
             }
-            @include md{
+            @include md {
                 width: 56vw;
             }
-            @include lg{
+            @include lg {
                 width: 48vw;
             }
-            @include xl{
+            @include xl {
                 width: 32vw;
             }
 
-            p{
+            p {
                 @include padding(null, 8px, null, 8px);
-
-                @include md{
-                @include padding(null, 16px, null, 16px);
+                @include md {
+                    @include padding(null, 16px, null, 16px);
                 }
-
             }
         }
     }

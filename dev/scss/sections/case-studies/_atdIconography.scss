@@ -11,12 +11,12 @@
         article {
             grid-template-areas: "h2" "icon-grid" "p1" "p2";
             @include sm {
-                grid-template-columns: 72% auto;
                 grid-template-areas: "h2 h2" "icon-grid icon-grid""p1 .""p2 .";
+                grid-template-columns: 72% auto;
             }
             @include md {
-                grid-template-columns: 50% auto;
                 grid-gap: 24px;
+                grid-template-columns: 50% auto;
             }
             @include lg {
                 grid-gap: 32px;
@@ -30,18 +30,18 @@
                 grid-area: icon-grid;
 
                 ul {
-                    display: grid;
                     grid-gap: 16px;
-                    grid-template-columns: repeat(3,1fr);
+                    display: grid;
                     grid-template-areas: "shape-halftone shape-square shape-outline-triangle" "shape-dotted-circle shape-dotted-circle shape-lines" "shape-dotted-square shape-two-zig-zag-uneven shape-two-zig-zag-uneven";
+                    grid-template-columns: repeat(3,1fr);
                     @include sm {
-                        grid-template-columns: repeat(5,1fr);
                         grid-template-areas: ". shape-halftone shape-halftone . shape-square" ". shape-halftone shape-halftone shape-outline-triangle ." "shape-dotted-circle . shape-two-zig-zag-uneven shape-two-zig-zag-uneven ." "shape-lines shape-lines . . shape-dotted-square";
+                        grid-template-columns: repeat(5,1fr);
                     }
                     @include md {
                         grid-gap: 24px;
-                        grid-template-columns: repeat(9,1fr);
                         grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square .";
+                        grid-template-columns: repeat(9,1fr);
                     }
                     @include lg {
                         grid-gap: 32px;
@@ -141,10 +141,10 @@
 
 #atdSquare {
     #ShapeSolidSquare {
-            @include dark {
-                fill: $white;
-                stroke: $white;
-            }
+        @include dark {
+            fill: $white;
+            stroke: $white;
+        }
     }
 }
 

@@ -4,7 +4,7 @@
 #atdHero {
     background-image: url("../img/case-studies/atd/atdHero.jpg");
     background-position: 64% top;
-    @include md{
+    @include md {
         background-position: center top;
     }
 }

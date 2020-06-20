@@ -3,10 +3,9 @@
 ============= */
 #shmText1 {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
-
 
     > div {
         article {
@@ -22,6 +21,7 @@
                     @include margin(null,null,80px,null);
                 }
             }
+
             ul {
                 li {}
 
@@ -44,7 +44,6 @@
                     }
                 }
             }
-
         }
     }
 }

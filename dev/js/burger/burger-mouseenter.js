@@ -20,8 +20,7 @@ $("#burger-container").on("mouseenter", function() {
     // console.log("mouse enter");
 
     if (canYouSeeNav === false) {
-        console.log("is open false mouseEnter");
-
+        // console.log("is open false mouseEnter");
         // play the timeline to combine the lines into 1 line
         linesToLine.invalidate().restart();
         linesToLine.play();

@@ -2,18 +2,16 @@
     Header
 ============= */
 header {
-
     box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
     position: fixed;
     height: 72px;
     width: 100%;
     background-color: $white;
     z-index: 1000;
-    top: 0px;
+    top: 0;
     @include dark {
         background-color: $grey-mid-extra;
         box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .03), 0 9px 46px 8px rgba(19, 22, 24, .01), 0 24px 38px 3px rgba(19, 22, 24, .02);
-
     }
     @include lg {
         height: 80px;
@@ -35,14 +33,13 @@ header {
             align-items: center;
             justify-content: space-between;
             width: 100%;
-
             @include lg {
                 display: grid;
                 grid-template-columns: auto auto 32%;
                 grid-template-areas: "l . n";
                 grid-area: h;
             }
-            @include xl{
+            @include xl {
                 grid-template-columns: auto auto 28%;
             }
 
@@ -63,14 +60,11 @@ header {
                     //     width: 64%;
                     //     height: 64%;
                     // }
-                    #wydradesigns{
+                    #wydradesigns {
                         fill: $purple;
-
-                        @include dark{
+                        @include dark {
                             fill: $white;
-
                         }
-
                     }
                 }
             }
@@ -123,18 +117,6 @@ header {
                                 border-bottom: 3px solid $white;
                             }
                         }
-                        // a:active,
-                        // a:hover {
-                        //     background: linear-gradient(90deg,$dark-pink,$purple);
-                        //     -webkit-background-clip: text;
-                        //     -webkit-text-fill-color: transparent;
-                        //     // -webkit-box-decoration-break: clone;
-                        //     box-decoration-break: clone;
-                        //     text-shadow: none;
-                        //     // @include dark {
-                        //     //     border-bottom: 3px solid $white;
-                        //     // }
-                        // }
                     }
                 }
             }

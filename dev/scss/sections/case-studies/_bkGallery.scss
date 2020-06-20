@@ -3,7 +3,7 @@
 ============= */
 #bkGallery {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
@@ -23,8 +23,7 @@
                     grid-template-rows: 400px auto 200px 240px 160px 200px 304px 280;
                 }
                 @include lg {
-                    grid-template-areas: "BS1 BS1 BS1 BS1 BS1 BS1 BS1" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 BD2 BD2" ". BC2 BC2 BC2 BC2 BD2 BD2" "BS6 BS6 BS6 BS6 BQ BQ BQ" "BD4 BD4 BD4 . BQ BQ BQ" "BS5 BS5 BS5 BD3 BD3 BD3 BD3"
-                    ". . . BD3 BD3 BD3 BD3";
+                    grid-template-areas: "BS1 BS1 BS1 BS1 BS1 BS1 BS1" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 BD2 BD2" ". BC2 BC2 BC2 BC2 BD2 BD2" "BS6 BS6 BS6 BS6 BQ BQ BQ" "BD4 BD4 BD4 . BQ BQ BQ" "BS5 BS5 BS5 BD3 BD3 BD3 BD3" ". . . BD3 BD3 BD3 BD3";
                     grid-template-columns: repeat(7,1fr);
                     grid-template-rows: 480px auto 304px 200px 104px 200px 304px;
                 }
@@ -92,11 +91,9 @@
                     background-image: url("../img/case-studies/bk/bkSpread5.jpg");
                     grid-area: BS5;
                     background-position: center 70%;
-
                     @include sm {
                         background-position: center 80%;
                     }
-
                 }
 
                 li:nth-child(9) {

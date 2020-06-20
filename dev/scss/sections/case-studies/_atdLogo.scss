@@ -21,7 +21,6 @@
             @include lg {
                 grid-gap: 32px;
                 grid-template-areas: "h2 h2" "p1 icon-grid";
-
             }
 
             h2 {
@@ -57,7 +56,8 @@
     Attention to Detail Imagery SVG Edits
 ============= */
 #atdLogoSVG {
-    .cls-2, #atdD {
+    #atdD,
+    .cls-2 {
         @include dark {
             fill: #FAFAFA;
         }

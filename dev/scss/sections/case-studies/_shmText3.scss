@@ -10,12 +10,10 @@
             }
 
             p {
-
                 @include margin(null,null,48px,null);
-                @include dark{
+                @include dark {
                     color: $white;
                 }
-
                 @include md {
                     @include margin(null,null,0px,null);
                 }
@@ -28,12 +26,10 @@
                 background-size: contain;
                 height: 104px;
                 background-image: url("../img/case-studies/shm/shmLogoBlack.svg");
-
-                @include dark{
+                @include dark {
                     background-image: url("../img/case-studies/shm/shmLogoWhite.svg");
                 }
-
-                @include md{
+                @include md {
                     height: 100%;
                 }
             }

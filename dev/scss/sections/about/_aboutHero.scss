@@ -4,8 +4,8 @@
 #aboutHero {
     background-image: url("../img/about/Hero.jpg");
     background-position: center top;
-    min-height: 504px;
     height: 72vh;
+    min-height: 504px;
     @supports (background-blend-mode: multiply) {
         background-blend-mode: multiply;
         background-color: $light-orange;

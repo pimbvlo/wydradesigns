@@ -3,7 +3,7 @@
 ============= */
 #saHero {
     background-image: url("../img/case-studies/sa/saHero.jpg");
-    @include lg{
+    @include lg {
         background-position: center 80%;
     }
 }

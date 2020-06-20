@@ -4,13 +4,11 @@
 #resumeHonors {
     > div {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-areas: "h&a";
-        @include lg{
+        grid-template-columns: repeat(1,1fr);
+        @include lg {
             width: 75%;
-
         }
-
 
         article {
             grid-area: h&a;

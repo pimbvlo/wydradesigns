@@ -2,32 +2,29 @@
     Index Hero
 ============= */
 #indexHero {
-
     background-image: url("../img/index/Hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 504px;
     height: 72vh;
-    @supports (background-blend-mode: multiply){
+    min-height: 504px;
+    @supports (background-blend-mode: multiply) {
         background-blend-mode: multiply;
         background-color: $purple;
         background-image: url("../img/index/HeroGrey.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-
     }
-    @include md{
+    @include md {
         background-position: center;
-
     }
-    @include lg{
-        @supports (background-attachment: fixed){
-        background-attachment: fixed;
+    @include lg {
+        @supports (background-attachment: fixed) {
+            background-attachment: fixed;
         }
-
     }
+
     div {
         align-items: flex-end;
         display: flex;
@@ -35,7 +32,8 @@
 
         article {
             @include margin(null,null,56px,null);
-            figure{
+
+            figure {
                 align-items: center;
                 background-color: $white;
                 border-radius: 500px;
@@ -45,27 +43,27 @@
                 @include margin(0,auto,56px,auto);
                 @include padding(16px,16px,16px,16px);
                 width: 56px;
-
-                @include md{
+                @include md {
                     @include margin(null,null,4vh,null);
                     height: 72px;
                     width: 72px;
                 }
-                @include md{
+                @include md {
                     @include margin(null,null,6vh,null);
                 }
-                svg{
+
+                svg {
                     width: 100%;
-
-
                 }
             }
+
             h1 {
                 color: $white;
                 font-size: rem-calc(48);
                 line-height: rem-calc(56);
-                br{
-                    @include md{
+
+                br {
+                    @include md {
                         display: none;
                     }
                 }

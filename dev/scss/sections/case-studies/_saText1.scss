@@ -5,20 +5,18 @@
     background-color: $off-white;
     @include margin(144px,null,null,null);
     @include padding(96px,null,null,null);
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
-
 
     > div {
         article {
             grid-template-areas: "i" "p";
-            @include sm{
+            @include sm {
                 grid-template-areas: "p i";
+            }
 
-            }
-            p {
-            }
+            p {}
 
             div {
                 grid-area: i;
@@ -38,7 +36,6 @@
                     @include sm {
                         height: 304px;
                         top: -176px;
-
                         width: 320px;
                     }
                     @include md {
@@ -51,7 +48,6 @@
                         left: 504;
                         width: 520px;
                         top: -152px;
-
                     }
                     @include xl {
                         height: 520px;

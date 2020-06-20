@@ -95,10 +95,10 @@ p {
             color: $light-purple;
         }
     }
-    a{
+
+    a {
         font-family: 'IBM Plex Mono', monospace;
         font-weight: 700;
-
     }
 }
 
@@ -106,21 +106,24 @@ a {
     text-decoration: none;
     color: $purple;
     transition: 0.25s;
-    &:hover{
+
+    &:hover {
         color: $dark-purple;
     }
-    &:active{
+
+    &:active {
         color: $dark-orange;
     }
     @include dark {
         color: $light-purple;
-        &:hover{
+
+        &:hover {
             color: $light-pink;
         }
-        &:active{
+
+        &:active {
             color: $light-orange;
         }
-
     }
 }
 
@@ -142,7 +145,6 @@ a {
         color: $purple;
         text-transform: uppercase;
         font-family: 'IBM Plex Mono', monospace;
-
         @include margin(null,null,20px,null);
         @include dark {
             color: $light-purple;
@@ -156,7 +158,6 @@ a {
         font-weight: 500;
         letter-spacing: rem-calc(0.08);
         opacity: 0.75;
-
         @include dark {
             color: $light-pink;
             opacity: 1;
@@ -171,7 +172,6 @@ a {
         text-transform: uppercase;
         @include margin(null,null,4px,null);
         font-family: 'IBM Plex Mono', monospace;
-
     }
 
     p {

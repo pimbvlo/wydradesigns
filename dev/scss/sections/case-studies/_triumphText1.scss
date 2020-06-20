@@ -3,30 +3,29 @@
 ============= */
 #triumphText1 {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
     > div {
         article {
             grid-template-areas: "p""v";
-            @include sm{
+            @include sm {
                 grid-template-areas: "v p";
             }
-            p{
 
-            };
+            p {};
+
             div {
                 grid-area: v;
                 position: relative;
-                video{
+
+                video {
                     background-image: url("../img/case-studies/triumph/triumphHero.jpg");
                     background-position: right center;
                     background-repeat: no-repeat;
                     background-size: cover;
-
                     // font-family: 'Montserrat', sans-serif;
-
                 }
             }
         }

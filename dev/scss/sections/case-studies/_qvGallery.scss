@@ -5,7 +5,7 @@
     > div {
         article {
             ul {
-                grid-template-areas: "BO2" "BO1" "BD3" "paragraph" "BI1" "BD4" "BI2" ;
+                grid-template-areas: "BO2" "BO1" "BD3" "paragraph" "BI1" "BD4" "BI2";
                 grid-template-rows: 240px 400px 200px auto 400px 200px 320px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
@@ -18,11 +18,7 @@
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas:
-                    "BO1 BO1 . BO2 BO2 BO2 BO2"
-                    "BO1 BO1 . . paragraph paragraph paragraph"
-                    "BD3 BD3 BD3 BD3 paragraph paragraph paragraph"
-                     "BI2 BI2 BI2 BI2 BI2 . .""BI2 BI2 BI2 BI2 BI2 BD4 BD4";
+                    grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . .""BI2 BI2 BI2 BI2 BI2 BD4 BD4";
                     grid-template-rows: 320px 200px auto 200px 400px;
                 }
 
@@ -57,7 +53,7 @@
                     background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
                     grid-area: BD4;
                     background-position: left top;
-                    @include lg{
+                    @include lg {
                         background-position: 30% top;
                     }
                 }
@@ -66,13 +62,14 @@
                     background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
                     grid-area: BI2;
                 }
-                li:nth-child(7){
+
+                li:nth-child(7) {
                     grid-area: paragraph;
-                    p{
+
+                    p {
                         width: 100%;
                     }
                 }
-
             }
         }
     }

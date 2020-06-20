@@ -3,37 +3,35 @@
 ============= */
 #resumeEducation {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
     > div {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-areas: "btn" "edu";
-
+        grid-template-columns: repeat(1,1fr);
 
         aside {
-            grid-area: btn;
-            grid-gap: 0px 16px;
+            grid-gap: 0 16px;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-area: btn;
             grid-template-areas: "b";
+            grid-template-columns: repeat(1,1fr);
             @include padding(72px,null,64px,null);
             @include sm {
-                grid-template-columns: repeat(3,1fr);
                 grid-template-areas: "b b .";
+                grid-template-columns: repeat(3,1fr);
             }
             @include md {
-                grid-gap: 0px 24px;
+                grid-gap: 0 24px;
                 @include padding(null,null,72px,null);
             }
             @include lg {
-                grid-template-columns: repeat(5,1fr);
+                grid-gap: 0 32px;
                 grid-template-areas: "b b . . .";
+                grid-template-columns: repeat(5,1fr);
                 @include padding(80px,null,80px,null);
-                grid-gap: 0px 32px;
-
             }
             @include xl {
                 @include padding(null,null,96px,null);
@@ -51,11 +49,9 @@
 
         article {
             grid-area: edu;
-            @include lg{
+            @include lg {
                 width: 75%;
-
             }
-
         }
     }
 }

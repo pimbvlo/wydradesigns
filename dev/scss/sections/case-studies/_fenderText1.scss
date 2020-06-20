@@ -3,7 +3,7 @@
 ============= */
 #fenderText1 {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
@@ -21,11 +21,12 @@
                     @include margin(null,null,80px,null);
                 }
             }
-            ul {
-                @include lg{
-                    grid-template-columns: repeat(4,1fr);
 
+            ul {
+                @include lg {
+                    grid-template-columns: repeat(4,1fr);
                 }
+
                 li {}
 
                 li:nth-child(1) {
@@ -39,15 +40,13 @@
                 li:nth-child(3) {
                     background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
                     background-position: 20% center;
-
                 }
+
                 li:nth-child(4) {
                     background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
                     background-position: 40% center;
-
                 }
             }
-
         }
     }
 }

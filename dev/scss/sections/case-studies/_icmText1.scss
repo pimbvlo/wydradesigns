@@ -2,7 +2,6 @@
     ICM Text
 ============= */
 #icmText1 {
-
     > div {
         article {
             p {
@@ -26,7 +25,6 @@
                 li {
                     background-size: contain;
                     height: 200px;
-
                 }
 
                 li:nth-child(1) {
@@ -34,7 +32,6 @@
                     @include dark {
                         background-image: url("../img/case-studies/icm/icmAbstractWhite.svg");
                     }
-
                 }
 
                 li:nth-child(2) {
@@ -42,7 +39,6 @@
                     @include dark {
                         background-image: url("../img/case-studies/icm/icmPictographicWhite.svg");
                     }
-
                 }
 
                 li:nth-child(3) {
@@ -50,7 +46,6 @@
                     @include dark {
                         background-image: url("../img/case-studies/icm/icmLetteredWhite.svg");
                     }
-
                 }
 
                 li:nth-child(4) {
@@ -58,7 +53,6 @@
                     @include dark {
                         background-image: url("../img/case-studies/icm/icmComboWhite.svg");
                     }
-
                 }
             }
         }

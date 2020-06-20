@@ -3,52 +3,26 @@
 ============= */
 #tolGallery {
     background-color: $off-white;
-    @include dark{
+    @include dark {
         background-color: $grey-dark-extra;
     }
 
     > div {
         article {
             ul {
-                grid-template-areas:
-                "TIM"
-                "paragraph1"
-                "TCS"
-                "TS"
-                "TTM"
-                "paragraph2"
-                "TI"
-                "TOB"
-                ;
+                grid-template-areas: "TIM" "paragraph1" "TCS" "TS" "TTM" "paragraph2" "TI" "TOB";
                 grid-template-rows: 240px auto 344px 160px 304px auto 280px 280px;
                 @include sm {
                     grid-template-columns: repeat(3,1fr);
-                    grid-template-areas:
-                    ". TIM TIM"
-                    "paragraph1 paragraph1 ."
-                    "TCS TS TS"
-                    "TTM TTM ."
-                    "paragraph2 paragraph2 paragraph2"
-                    ". TI TI"
-                    "TOB TOB TOB";
-                    grid-template-rows: 304px auto 200px 304px auto 328px
-                    400px;
+                    grid-template-areas: ". TIM TIM" "paragraph1 paragraph1 ." "TCS TS TS" "TTM TTM ." "paragraph2 paragraph2 paragraph2" ". TI TI" "TOB TOB TOB";
+                    grid-template-rows: 304px auto 200px 304px auto 328px 400px;
                 }
                 @include md {
                     grid-template-rows: 312px auto 304px 440px auto 400px 504px;
-
                 }
                 @include lg {
                     grid-template-columns: repeat(7,1fr);
-                    grid-template-areas:
-                    "TIM TIM TIM TIM TIM . ."
-                    "TCS TCS . paragraph1 paragraph1 paragraph1 paragraph1"
-                    "TCS TCS . . TS TS TS"
-                    "TTM TTM TTM TTM TS TS TS"
-                    "TTM TTM TTM TTM . . ."
-                    ". paragraph2 paragraph2 paragraph2 paragraph2 . ."
-                    ". . TI TI TI TI TI"
-                    "TOB TOB TOB TOB . . .";
+                    grid-template-areas: "TIM TIM TIM TIM TIM . ." "TCS TCS . paragraph1 paragraph1 paragraph1 paragraph1" "TCS TCS . . TS TS TS" "TTM TTM TTM TTM TS TS TS" "TTM TTM TTM TTM . . ." ". paragraph2 paragraph2 paragraph2 paragraph2 . ." ". . TI TI TI TI TI" "TOB TOB TOB TOB . . .";
                     grid-template-rows: 480px auto 200px 72px 400px auto 504px 480px;
                 }
 
@@ -77,24 +51,27 @@
                     background-image: url("../img/case-studies/tol/tolInside.jpg");
                     grid-area: TI;
                 }
+
                 li:nth-child(6) {
                     background-image: url("../img/case-studies/tol/tolOutsideBack.jpg");
                     grid-area: TOB;
                 }
 
-                li:nth-child(7){
+                li:nth-child(7) {
                     grid-area: paragraph1;
-                    p{
-                        width: 100%;
-                    }
-                }
-                li:nth-child(8){
-                    grid-area: paragraph2;
-                    p{
+
+                    p {
                         width: 100%;
                     }
                 }
 
+                li:nth-child(8) {
+                    grid-area: paragraph2;
+
+                    p {
+                        width: 100%;
+                    }
+                }
             }
         }
     }

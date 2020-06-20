@@ -7,34 +7,30 @@
         background-color: $grey-dark-extra;
     }
 
-
     > div {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
         grid-template-areas: "rc";
-        @include lg{
+        grid-template-columns: repeat(1,1fr);
+        @include lg {
             width: 75%;
-
         }
-
 
         article {
             grid-area: rc;
 
             div {
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
                 grid-template-areas: "h2" "ul1" "ul2";
-                @include md{
-                    grid-template-columns: repeat(2,1fr);
+                grid-template-columns: repeat(1,1fr);
+                @include md {
+                    grid-gap: 0 24px;
                     grid-template-areas: "h2 h2" "ul1 ul2";
-                    grid-gap: 0px 24px;
-
+                    grid-template-columns: repeat(2,1fr);
                 }
-                @include lg{
+                @include lg {
                     grid-gap: 0 32px;
-
                 }
+
                 h2 {
                     grid-area: h2;
                 }
@@ -52,16 +48,16 @@
                         }
                     }
                 }
-                ul:nth-child(2){
+
+                ul:nth-child(2) {
                     grid-area: ul1;
                     @include margin(null,null,8px,null);
-                    @include md{
+                    @include md {
                         @include margin(null,null,0px,null);
-
                     }
-
                 }
-                ul:nth-child(3){
+
+                ul:nth-child(3) {
                     grid-area: ul2;
                 }
             }

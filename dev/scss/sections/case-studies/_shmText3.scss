@@ -10,12 +10,12 @@
             }
 
             p {
-                @include margin(null,null,48px,null);
+                @include margin(0px,0px,48px,0px);
                 @include dark {
                     color: $white;
                 }
                 @include md {
-                    @include margin(null,null,0px,null);
+                    @include margin(0px,0px,0px,0px);
                 }
             }
 

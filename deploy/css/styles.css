@@ -627,7 +627,7 @@ a {
   font-size: 1.5rem;
   font-weight: 800;
   line-height: 1.875rem;
-  margin: 4px;
+  margin: 0px 0px 4px 0px;
   text-transform: capitalize; }
 
 .resume h2 {
@@ -638,7 +638,7 @@ a {
   color: #6613CE;
   text-transform: uppercase;
   font-family: 'IBM Plex Mono', monospace;
-  margin: 20px; }
+  margin: 0px 0px 20px 0px; }
   @media (prefers-color-scheme: dark) {
     .resume h2 {
       color: #C494FF; } }
@@ -659,14 +659,14 @@ a {
   letter-spacing: 0.0025rem;
   line-height: 1.5rem;
   text-transform: uppercase;
-  margin: 4px;
+  margin: 0px 0px 4px 0px;
   font-family: 'IBM Plex Mono', monospace; }
 
 .resume p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5rem;
-  margin: 8px; }
+  margin: 0px 0px 8px 0px; }
   .resume p span {
     color: #0D001E;
     font-weight: 600; }
@@ -674,7 +674,7 @@ a {
       .resume p span {
         color: #EACCFF; } }
 .resume p:last-of-type {
-  margin: 0px; }
+  margin: 0px 0px auto 0px; }
 
 /* =============
     Buttons
@@ -1027,14 +1027,14 @@ footer {
       width: 160px; }
       @media (min-width: 504px) {
         footer div article ul {
-          margin: 32px; } }
+          margin: 0px 32px 0px 0px; } }
       @media (min-width: 768px) {
         footer div article ul {
-          margin: 56px;
+          margin: 0px 56px 0px 0px;
           width: 194px; } }
       @media (min-width: 992px) {
         footer div article ul {
-          margin: 120px; } }
+          margin: 0px 120px 0px 0px; } }
       footer div article ul li a {
         color: #FCFCFC;
         font-size: 2rem;
@@ -1109,7 +1109,7 @@ footer {
     display: flex;
     justify-content: center; }
     #indexHero div article {
-      margin: 56px; }
+      margin: 0px 0px 56px 0px; }
       #indexHero div article figure {
         align-items: center;
         background-color: #FCFCFC;
@@ -1122,12 +1122,12 @@ footer {
         width: 56px; }
         @media (min-width: 768px) {
           #indexHero div article figure {
-            margin: 4vh;
+            margin: 0px auto 4vh auto;
             height: 72px;
             width: 72px; } }
         @media (min-width: 768px) {
           #indexHero div article figure {
-            margin: 6vh; } }
+            margin: 0px auto 6vh auto; } }
         #indexHero div article figure svg {
           width: 100%; }
       #indexHero div article h1 {
@@ -1155,7 +1155,7 @@ footer {
       border-top: 4px solid #FF964C;
       display: flex;
       justify-content: center;
-      padding: 16px 16px; }
+      padding: 16px 0px 16px 0px; }
       @media (min-width: 504px) {
         #indexIntro div article {
           width: 76vw; } }
@@ -1169,10 +1169,10 @@ footer {
         #indexIntro div article {
           width: 32vw; } }
       #indexIntro div article p {
-        padding: 8px 8px; }
+        padding: 0px 8px 0px 8px; }
         @media (min-width: 768px) {
           #indexIntro div article p {
-            padding: 16px 16px; } }
+            padding: 0px 16px 0px 16px; } }
 /* =============
     Index Project List
 ============= */
@@ -1181,18 +1181,18 @@ footer {
             TURNED OFF
         ============= */ }
   #indexProjectsList > div article h2 {
-    margin: 16px; }
+    margin: 0px 0px 16px 0px; }
   @media (min-width: 768px) {
     #indexProjectsList > div article {
-      margin: 24px; } }
+      margin: 0px 0px 24px 0px; } }
   #indexProjectsList > div article h3 {
-    margin: 16px 8px; }
+    margin: 16px 0px 8px 0px; }
     @media (min-width: 768px) {
       #indexProjectsList > div article h3 {
-        margin: 34px 8px; } }
+        margin: 32px 0px 8px 0px; } }
     @media (min-width: 992px) {
       #indexProjectsList > div article h3 {
-        margin: 32px 16px; } }
+        margin: 40px 0px 24px 0px; } }
   #indexProjectsList > div article ul {
     grid-gap: 16px;
     display: grid;
@@ -1224,7 +1224,7 @@ footer {
         justify-content: center;
         transition: 0.1s;
         width: 100%;
-        margin: auto auto; }
+        margin: auto 0px auto 0px; }
         @media (min-width: 768px) {
           #indexProjectsList > div article ul li a {
             height: 240px; } }
@@ -1237,10 +1237,10 @@ footer {
             height: 320px; } }
         #indexProjectsList > div article ul li a div h4 {
           text-align: center;
-          margin: 12px 4px 12px; }
+          margin: 0px 12px 4px 12px; }
         #indexProjectsList > div article ul li a div p {
           text-align: center;
-          margin: 12px 12px;
+          margin: 0px 12px 0px 12px;
           font-family: 'IBM Plex Mono', monospace;
           opacity: 0.9; }
       #indexProjectsList > div article ul li a:link,
@@ -1470,7 +1470,13 @@ footer {
   #aboutWho > div article div {
     grid-area: p; }
     #aboutWho > div article div p:nth-child(2) {
-      padding: 16px; }
+      padding: 16px 0px 0px 0px; }
+      @media (min-width: 768px) {
+        #aboutWho > div article div p:nth-child(2) {
+          padding: 24px 0px 0px 0px; } }
+      @media (min-width: 992px) {
+        #aboutWho > div article div p:nth-child(2) {
+          padding: 32px 0px 0px 0px; } }
   #aboutWho > div article figure {
     background-image: url("../img/about/SWydra.jpg");
     background-position: center;
@@ -1513,7 +1519,7 @@ footer {
       grid-area: btn;
       grid-template-areas: "b";
       grid-template-columns: repeat(1, 1fr);
-      padding: 72px 64px; }
+      padding: 72px 0px 64px 0px; }
       @media (min-width: 504px) {
         #resumeEducation > div aside {
           grid-template-areas: "b b .";
@@ -1521,16 +1527,16 @@ footer {
       @media (min-width: 768px) {
         #resumeEducation > div aside {
           grid-gap: 0 24px;
-          padding: 72px; } }
+          padding: 72px 0px 72px 0px; } }
       @media (min-width: 992px) {
         #resumeEducation > div aside {
           grid-gap: 0 32px;
           grid-template-areas: "b b . . .";
           grid-template-columns: repeat(5, 1fr);
-          padding: 80px 80px; } }
+          padding: 80px 0px 80px 0px; } }
       @media (min-width: 1200px) {
         #resumeEducation > div aside {
-          padding: 96px; } }
+          padding: 80px 0px 96px 0px; } }
       #resumeEducation > div aside div {
         grid-area: b;
         width: 100%; }
@@ -1586,15 +1592,15 @@ footer {
         #resumeCourses > div article div h2 {
           grid-area: h2; }
         #resumeCourses > div article div ul li p:last-of-type {
-          margin: 8px; }
+          margin: 0px 0px 8px 0px; }
         #resumeCourses > div article div ul li:last-of-type p:last-of-type {
-          margin: 0px; }
+          margin: 0px 0px 0px 0px; }
         #resumeCourses > div article div ul:nth-child(2) {
           grid-area: ul1;
-          margin: 8px; }
+          margin: 0px 0px 8px 0px; }
           @media (min-width: 768px) {
             #resumeCourses > div article div ul:nth-child(2) {
-              margin: 0px; } }
+              margin: 0px 0px 0px 0px; } }
         #resumeCourses > div article div ul:nth-child(3) {
           grid-area: ul2; }
 
@@ -1621,7 +1627,7 @@ footer {
       #resumeExperience > div article {
         grid-gap: 0 32px; } }
     #resumeExperience > div article > div:nth-child(1) {
-      margin: 24px; }
+      margin: 0px 0px 24px 0px; }
       @media (min-width: 768px) {
         #resumeExperience > div article > div:nth-child(1) {
           grid-column: span 2; } }
@@ -1631,41 +1637,43 @@ footer {
       display: grid;
       grid-template-areas: "h4" "h3" "ul1";
       grid-template-columns: repeat(1, 1fr);
-      margin: 16px; }
+      margin: 0px 0px 16px 0px; }
       @media (min-width: 768px) {
         #resumeExperience > div article div:nth-child(2),
         #resumeExperience > div article div:nth-child(3),
         #resumeExperience > div article div:nth-child(4) {
-          margin: auto; } }
+          margin: 0px 0px 16px 0px; } }
       #resumeExperience > div article div:nth-child(2) h4,
       #resumeExperience > div article div:nth-child(3) h4,
       #resumeExperience > div article div:nth-child(4) h4 {
         grid-area: h4;
-        margin: 4px; }
+        margin: 0px 0px 4px 0px; }
       #resumeExperience > div article div:nth-child(2) h3,
       #resumeExperience > div article div:nth-child(3) h3,
       #resumeExperience > div article div:nth-child(4) h3 {
         grid-area: h3;
-        margin: 16px; }
+        margin: 0px 0px 16px 0px; }
       #resumeExperience > div article div:nth-child(2) ul li p:last-of-type,
       #resumeExperience > div article div:nth-child(3) ul li p:last-of-type,
       #resumeExperience > div article div:nth-child(4) ul li p:last-of-type {
-        margin: 8px; }
+        margin: 0px 0px 8px 0px; }
       #resumeExperience > div article div:nth-child(2) ul li:last-of-type p:last-of-type,
       #resumeExperience > div article div:nth-child(3) ul li:last-of-type p:last-of-type,
       #resumeExperience > div article div:nth-child(4) ul li:last-of-type p:last-of-type {
-        margin: 0px; }
+        margin: 0px 0px auto 0px; }
       #resumeExperience > div article div:nth-child(2) ul:nth-child(3),
       #resumeExperience > div article div:nth-child(3) ul:nth-child(3),
       #resumeExperience > div article div:nth-child(4) ul:nth-child(3) {
         grid-area: ul1; }
   #resumeExperience > div article:nth-child(2) {
     grid-area: Pfizer;
-    margin: 32px; }
+    margin: 0px 0px 32px 0px; }
   #resumeExperience > div article:nth-child(3) {
     grid-area: Pilam; }
+    #resumeExperience > div article:nth-child(3) div:nth-child(2) {
+      margin: 0px 0px auto 0px; }
     #resumeExperience > div article:nth-child(3) div:last-of-type {
-      margin: 0px; }
+      margin: 0px 0px 0px 0px; }
 
 /* =============
     Resume Activities
@@ -1703,12 +1711,12 @@ footer {
     grid-area: skills;
     grid-auto-flow: column;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto auto auto auto; }
+    grid-template-rows: repeat(4, auto); }
     @media (min-width: 768px) {
       #resumeSkills > div article {
         grid-gap: 16px 24px;
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: auto auto; } }
+        grid-template-rows: repeat(2, auto); } }
     @media (min-width: 992px) {
       #resumeSkills > div article {
         grid-gap: 16px 32px; } }
@@ -1724,13 +1732,13 @@ footer {
         #resumeSkills > div article div:nth-child(2),
         #resumeSkills > div article div:nth-child(3),
         #resumeSkills > div article div:nth-child(4) {
-          margin: auto; } }
+          margin: 0px 0px auto 0px; } }
       #resumeSkills > div article div:nth-child(1) h4,
       #resumeSkills > div article div:nth-child(2) h4,
       #resumeSkills > div article div:nth-child(3) h4,
       #resumeSkills > div article div:nth-child(4) h4 {
         grid-area: h4;
-        margin: 4px; }
+        margin: 0px 0px 4px 0px; }
       #resumeSkills > div article div:nth-child(1) ul,
       #resumeSkills > div article div:nth-child(2) ul,
       #resumeSkills > div article div:nth-child(3) ul,
@@ -1764,7 +1772,7 @@ footer {
     #resumeSkills > div article div:nth-child(3) ul {
       grid-template-rows: repeat(2, 1fr); }
     #resumeSkills > div article div:last-of-type {
-      margin: 0px; }
+      margin: 0px 0px 0px 0px; }
 
 /* =============
     ANTI Hero
@@ -1796,7 +1804,7 @@ footer {
       border-top: 4px solid #0D001E;
       display: flex;
       justify-content: center;
-      padding: 16px 16px; }
+      padding: 16px 0px 16px 0px; }
       @media (prefers-color-scheme: dark) {
         #antiIntro > div article {
           border-bottom: 4px solid #EACCFF;
@@ -1811,10 +1819,10 @@ footer {
         #antiIntro > div article {
           width: 32vw; } }
       #antiIntro > div article p {
-        padding: 8px 8px; }
+        padding: 0px 8px 0px 8px; }
         @media (min-width: 768px) {
           #antiIntro > div article p {
-            padding: 16px 16px; } }
+            padding: 0px 16px 0px 16px; } }
         @media (min-width: 992px) {
           #antiIntro > div article p {
             font-size: 1.25rem; } }
@@ -2521,16 +2529,16 @@ footer {
     #fenderText1 {
       background-color: #161618; } }
   #fenderText1 > div article p {
-    margin: 48px; }
+    margin: 0px 0px 48px 0px; }
     @media (min-width: 768px) {
       #fenderText1 > div article p {
-        margin: 56px; } }
+        margin: 0px 0px 56px 0px; } }
     @media (min-width: 992px) {
       #fenderText1 > div article p {
-        margin: 64px; } }
+        margin: 0px 0px 64px 0px; } }
     @media (min-width: 1200px) {
       #fenderText1 > div article p {
-        margin: 80px; } }
+        margin: 0px 0px 80px 0px; } }
   @media (min-width: 992px) {
     #fenderText1 > div article ul {
       grid-template-columns: repeat(4, 1fr); } }
@@ -2614,16 +2622,16 @@ footer {
     ICM Text
 ============= */
 #icmText1 > div article p {
-  margin: 48px; }
+  margin: 0px 0px 48px 0px; }
   @media (min-width: 768px) {
     #icmText1 > div article p {
-      margin: 56px; } }
+      margin: 0px 0px 56px 0px; } }
   @media (min-width: 992px) {
     #icmText1 > div article p {
-      margin: 64px; } }
+      margin: 0px 0px 64px 0px; } }
   @media (min-width: 1200px) {
     #icmText1 > div article p {
-      margin: 80px; } }
+      margin: 0px 0px 80px 0px; } }
 @media (min-width: 992px) {
   #icmText1 > div article ul {
     grid-template-columns: repeat(4, 1fr); } }
@@ -2865,10 +2873,10 @@ footer {
     #qvText1 {
       background-color: #161618; } }
   #qvText1 > div article p {
-    margin: 40px; }
+    margin: 0px 0px 40px 0px; }
     @media (min-width: 992px) {
       #qvText1 > div article p {
-        margin: 56px; } }
+        margin: 0px 0px 56px 0px; } }
   #qvText1 > div article ul li {
     filter: saturate(0.75); }
   #qvText1 > div article ul li:nth-child(1) {
@@ -2951,8 +2959,8 @@ footer {
 ============= */
 #saText1 {
   background-color: #F0F0F0;
-  margin: 144px;
-  padding: 96px; }
+  margin: 144px 0px 0px 0px;
+  padding: 96px 0px 0px 0px; }
   @media (prefers-color-scheme: dark) {
     #saText1 {
       background-color: #161618; } }
@@ -3123,16 +3131,16 @@ footer {
     #shmText1 {
       background-color: #161618; } }
   #shmText1 > div article p {
-    margin: 48px; }
+    margin: 0px 0px 48px 0px; }
     @media (min-width: 768px) {
       #shmText1 > div article p {
-        margin: 56px; } }
+        margin: 0px 0px 56px 0px; } }
     @media (min-width: 992px) {
       #shmText1 > div article p {
-        margin: 64px; } }
+        margin: 0px 0px 64px 0px; } }
     @media (min-width: 1200px) {
       #shmText1 > div article p {
-        margin: 80px; } }
+        margin: 0px 0px 80px 0px; } }
   #shmText1 > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/shm/shmInfluence.jpg");
     background-position: center 20%; }
@@ -3155,13 +3163,13 @@ footer {
     #shmText3 > div article {
       grid-template-areas: "p l"; } }
   #shmText3 > div article p {
-    margin: 48px; }
+    margin: 0px 0px 48px 0px; }
     @media (prefers-color-scheme: dark) {
       #shmText3 > div article p {
         color: #FCFCFC; } }
     @media (min-width: 768px) {
       #shmText3 > div article p {
-        margin: 0px; } }
+        margin: 0px 0px 0px 0px; } }
   #shmText3 > div article figure {
     grid-area: l;
     background-position: center;
@@ -3332,10 +3340,10 @@ footer {
     TPS Text
 ============= */
 #tpsText1 > div article p {
-  margin: 32px; }
+  margin: 0px 0px 32px 0px; }
   @media (min-width: 1200px) {
     #tpsText1 > div article p {
-      margin: 80px; } }
+      margin: 0px 0px 80px 0px; } }
 @media (min-width: 992px) {
   #tpsText1 > div article ul {
     grid-template-columns: repeat(4, 1fr); } }
@@ -3571,7 +3579,7 @@ footer {
       display: grid;
       grid-template-areas: "h1" "p" "btn";
       grid-template-columns: repeat(1, 1fr);
-      margin: 16vh; }
+      margin: 16vh 0px 0px 0px; }
       @media (prefers-color-scheme: dark) {
         #FourOhFourMain > div article {
           color: #0D001E; } }
@@ -3594,13 +3602,13 @@ footer {
         grid-area: p; }
       #FourOhFourMain > div article div {
         grid-area: btn;
-        margin: 64px; }
+        margin: 64px 0px 0px 0px; }
         @media (min-width: 768px) {
           #FourOhFourMain > div article div {
-            margin: 72px; } }
+            margin: 72px 0px 0px 0px; } }
         @media (min-width: 992px) {
           #FourOhFourMain > div article div {
-            margin: 80px; } }
+            margin: 80px 0px 0px 0px; } }
         @media (min-width: 1200px) {
           #FourOhFourMain > div article div {
-            margin: 96px; } }
+            margin: 96px 0px 0px 0px; } }

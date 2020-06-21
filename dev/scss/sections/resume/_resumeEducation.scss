@@ -18,23 +18,23 @@
             grid-area: btn;
             grid-template-areas: "b";
             grid-template-columns: repeat(1,1fr);
-            @include padding(72px,null,64px,null);
+            @include padding(72px,0px,64px,0px);
             @include sm {
                 grid-template-areas: "b b .";
                 grid-template-columns: repeat(3,1fr);
             }
             @include md {
                 grid-gap: 0 24px;
-                @include padding(null,null,72px,null);
+                @include padding(72px,0px,72px,0px);
             }
             @include lg {
                 grid-gap: 0 32px;
                 grid-template-areas: "b b . . .";
                 grid-template-columns: repeat(5,1fr);
-                @include padding(80px,null,80px,null);
+                @include padding(80px,0px,80px,0px);
             }
             @include xl {
-                @include padding(null,null,96px,null);
+                @include padding(80px,0px,96px,0px);
             }
 
             div {

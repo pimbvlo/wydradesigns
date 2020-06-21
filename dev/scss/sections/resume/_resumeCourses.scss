@@ -38,22 +38,22 @@
                 ul {
                     li {
                         p:last-of-type {
-                            @include margin(null,null,8px,null);
+                            @include margin(0px,0px,8px,0px);
                         }
                     }
 
                     li:last-of-type {
                         p:last-of-type {
-                            @include margin(null,null,0px,null);
+                            @include margin(0px,0px,0px,0px);
                         }
                     }
                 }
 
                 ul:nth-child(2) {
                     grid-area: ul1;
-                    @include margin(null,null,8px,null);
+                    @include margin(0px,0px,8px,0px);
                     @include md {
-                        @include margin(null,null,0px,null);
+                        @include margin(0px,0px,0px,0px);
                     }
                 }
 

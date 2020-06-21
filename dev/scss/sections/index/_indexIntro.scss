@@ -18,7 +18,7 @@
             border-top: 4px solid $orange;
             display: flex;
             justify-content: center;
-            @include padding(16px, null, 16px, null);
+            @include padding(16px, 0px, 16px, 0px);
             @include sm {
                 width: 76vw;
             }
@@ -33,9 +33,9 @@
             }
 
             p {
-                @include padding(null, 8px, null, 8px);
+                @include padding(0px, 8px, 0px, 8px);
                 @include md {
-                    @include padding(null, 16px, null, 16px);
+                    @include padding(0px, 16px, 0px, 16px);
                 }
             }
         }

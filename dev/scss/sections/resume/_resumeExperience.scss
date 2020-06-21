@@ -26,7 +26,7 @@
             }
 
             > div:nth-child(1) {
-                @include margin(null,null,24px,null);
+                @include margin(0px,0px,24px,0px);
                 @include md {
                     grid-column: span 2;
                 }
@@ -38,31 +38,31 @@
                 display: grid;
                 grid-template-areas: "h4" "h3" "ul1";
                 grid-template-columns: repeat(1,1fr);
-                @include margin(null,null,16px,null);
+                @include margin(0px,0px,16px,0px);
                 @include md {
-                    @include margin(null,null,auto,null);
+                    @include margin(0px,0px,16px,0px);
                 }
 
                 h4 {
                     grid-area: h4;
-                    @include margin(null,null,4px,null);
+                    @include margin(0px,0px,4px,0px);
                 }
 
                 h3 {
                     grid-area: h3;
-                    @include margin(null,null,16px,null);
+                    @include margin(0px,0px,16px,0px);
                 }
 
                 ul {
                     li {
                         p:last-of-type {
-                            @include margin(null,null,8px,null);
+                            @include margin(0px,0px,8px,0px);
                         }
                     }
 
                     li:last-of-type {
                         p:last-of-type {
-                            @include margin(null,null,0px,null);
+                            @include margin(0px,0px,auto,0px);
                         }
                     }
                 }
@@ -75,14 +75,23 @@
 
         article:nth-child(2) {
             grid-area: Pfizer;
-            @include margin(null,null,32px,null);
+            @include margin(0px,0px,32px,0px);
         }
 
         article:nth-child(3) {
             grid-area: Pilam;
+            div:nth-child(2){
+                @include margin(0px,0px,auto,0px);
 
+                li:last-of-type {
+
+                    p:last-of-type {
+                    }
+                }
+
+            }
             div:last-of-type {
-                @include margin(null,null,0px,null);
+                @include margin(0px,0px,0px,0px);
             }
         }
     }

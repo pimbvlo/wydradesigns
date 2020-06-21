@@ -16,7 +16,7 @@
             display: grid;
             grid-template-areas: "h1""p""btn";
             grid-template-columns: repeat(1,1fr);
-            @include margin(16vh,null,null,null);
+            @include margin(16vh,0px,0px,0px);
             @include dark{
                 color: $dark-purple;
             }
@@ -44,15 +44,15 @@
             }
             div{
                 grid-area: btn;
-                @include margin(64px,null,null,null);
+                @include margin(64px,0px,0px,0px);
                 @include md {
-                    @include margin(72px,null,null,null);
+                    @include margin(72px,0px,0px,0px);
                 }
                 @include lg {
-                    @include margin(80px,null,null,null);
+                    @include margin(80px,0px,0px,0px);
                 }
                 @include xl {
-                    @include margin(96px,null,null,null);
+                    @include margin(96px,0px,0px,0px);
                 }
 
                 a{

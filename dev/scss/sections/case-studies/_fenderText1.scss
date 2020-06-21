@@ -10,15 +10,15 @@
     > div {
         article {
             p {
-                @include margin(null,null,48px,null);
+                @include margin(0px,0px,48px,0px);
                 @include md {
-                    @include margin(null,null,56px,null);
+                    @include margin(0px,0px,56px,0px);
                 }
                 @include lg {
-                    @include margin(null,null,64px,null);
+                    @include margin(0px,0px,64px,0px);
                 }
                 @include xl {
-                    @include margin(null,null,80px,null);
+                    @include margin(0px,0px,80px,0px);
                 }
             }
 

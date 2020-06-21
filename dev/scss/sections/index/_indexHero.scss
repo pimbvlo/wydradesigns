@@ -31,7 +31,7 @@
         justify-content: center;
 
         article {
-            @include margin(null,null,56px,null);
+            @include margin(0px,0px,56px,0px);
 
             figure {
                 align-items: center;
@@ -44,12 +44,12 @@
                 @include padding(16px,16px,16px,16px);
                 width: 56px;
                 @include md {
-                    @include margin(null,null,4vh,null);
+                    @include margin(0px,auto,4vh,auto);
                     height: 72px;
                     width: 72px;
                 }
                 @include md {
-                    @include margin(null,null,6vh,null);
+                    @include margin(0px,auto,6vh,auto);
                 }
 
                 svg {

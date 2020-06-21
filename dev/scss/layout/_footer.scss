@@ -41,14 +41,14 @@ footer {
                 grid-area: a;
                 width: 160px;
                 @include sm {
-                    @include margin(null, 32px, null, null);
+                    @include margin(0px, 32px, 0px, 0px);
                 }
                 @include md {
-                    @include margin(null, 56px, null, null);
+                    @include margin(0px, 56px, 0px, 0px);
                     width: 194px;
                 }
                 @include lg {
-                    @include margin(null, 120px, null, null);
+                    @include margin(0px, 120px, 0px, 0px);
                 }
 
                 li {

@@ -5,19 +5,19 @@
     > div {
         article {
             h2 {
-                @include margin(null,null,16px,null);
+                @include margin(0px,0px,16px,0px);
             }
             @include md {
-                @include margin(null,null,24px,null);
+                @include margin(0px,0px,24px,0px);
             }
 
             h3 {
-                @include margin(16px,null,8px,null);
+                @include margin(16px,0px,8px,0px);
                 @include md {
-                    @include margin(34px,null,8px,null);
+                    @include margin(32px,0px,8px,0px);
                 }
                 @include lg {
-                    @include margin(32px,null,16px,null);
+                    @include margin(40px,0px,24px,0px);
                 }
             }
 
@@ -65,17 +65,17 @@
                         @include xl {
                             height: 320px;
                         }
-                        @include margin(auto,null,auto,null);
+                        @include margin(auto,0px,auto,0px);
 
                         div {
                             h4 {
                                 text-align: center;
-                                @include margin(null,12px,4px,12px);
+                                @include margin(0px,12px,4px,12px);
                             }
 
                             p {
                                 text-align: center;
-                                @include margin(null,12px,null,12px);
+                                @include margin(0px,12px,0px,12px);
                                 font-family: 'IBM Plex Mono', monospace;
                                 opacity: 0.9;
                             }

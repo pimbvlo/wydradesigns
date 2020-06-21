@@ -133,7 +133,7 @@ a {
         font-size: rem-calc(24);
         font-weight: 800;
         line-height: rem-calc(30);
-        @include margin(null,null,4px,null);
+        @include margin(0px,0px,4px,0px);
         text-transform: capitalize;
     }
 
@@ -145,7 +145,7 @@ a {
         color: $purple;
         text-transform: uppercase;
         font-family: 'IBM Plex Mono', monospace;
-        @include margin(null,null,20px,null);
+        @include margin(0px,0px,20px,0px);
         @include dark {
             color: $light-purple;
         }
@@ -170,7 +170,7 @@ a {
         letter-spacing: rem-calc(0.04);
         line-height: rem-calc(24);
         text-transform: uppercase;
-        @include margin(null,null,4px,null);
+        @include margin(0px,0px,4px,0px);
         font-family: 'IBM Plex Mono', monospace;
     }
 
@@ -178,7 +178,7 @@ a {
         font-size: rem-calc(16);
         font-weight: 400;
         line-height: rem-calc(24);
-        @include margin(null,null,8px,null);
+        @include margin(0px,0px,8px,0px);
 
         span {
             color: $dark-purple;
@@ -191,6 +191,6 @@ a {
     }
 
     p:last-of-type {
-        @include margin(null,null,0px,null);
+        @include margin(0px,0px,auto,0px);
     }
 }

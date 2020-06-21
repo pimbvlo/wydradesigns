@@ -35,7 +35,13 @@
                 grid-area: p;
 
                 p:nth-child(2) {
-                    @include padding(16px,null,null,null);
+                    @include padding(16px,0px,0px,0px);
+                    @include md{
+                        @include padding(24px,0px,0px,0px);
+                    }
+                    @include lg{
+                        @include padding(32px,0px,0px,0px);
+                    }
                 }
             }
 

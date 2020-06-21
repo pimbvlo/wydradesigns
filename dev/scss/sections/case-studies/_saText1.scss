@@ -3,8 +3,8 @@
 ============= */
 #saText1 {
     background-color: $off-white;
-    @include margin(144px,null,null,null);
-    @include padding(96px,null,null,null);
+    @include margin(144px,0px,0px,0px);
+    @include padding(96px,0px,0px,0px);
     @include dark {
         background-color: $grey-dark-extra;
     }

@@ -81,7 +81,9 @@
         article:nth-child(3) {
             grid-area: Pilam;
             div:nth-child(2){
-                @include margin(0px,0px,auto,0px);
+                @include md{
+                    @include margin(0px,0px,auto,0px);
+                }
 
                 li:last-of-type {
 

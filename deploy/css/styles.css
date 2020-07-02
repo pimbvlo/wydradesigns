@@ -1214,7 +1214,7 @@ footer {
       border-radius: 16px;
       box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
       cursor: pointer;
-      transform-origin: center bottom;
+      transform-origin: center 90%;
       transition: all 0.2s ease-in-out; }
       #indexProjectsList > div article ul li a {
         align-items: center;
@@ -1401,7 +1401,7 @@ footer {
           background-image: url("../img/index/projects/ONCover.jpg"); } }
   @media (min-width: 992px) {
     #indexProjectsList > div li:hover {
-      box-shadow: none;
+      box-shadow: 0 16px 6px -6px rgba(19, 22, 24, 0.04), 0 12px 32px 8px rgba(19, 22, 24, 0.1), 0 16px 20px 2px rgba(19, 22, 24, 0.02);
       transform: scale(1.04);
       transition: all 0.2s ease-in-out; }
       @supports (filter: saturate(0.75)) {
@@ -1670,8 +1670,9 @@ footer {
     margin: 0px 0px 32px 0px; }
   #resumeExperience > div article:nth-child(3) {
     grid-area: Pilam; }
-    #resumeExperience > div article:nth-child(3) div:nth-child(2) {
-      margin: 0px 0px auto 0px; }
+    @media (min-width: 768px) {
+      #resumeExperience > div article:nth-child(3) div:nth-child(2) {
+        margin: 0px 0px auto 0px; } }
     #resumeExperience > div article:nth-child(3) div:last-of-type {
       margin: 0px 0px 0px 0px; }
 

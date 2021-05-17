@@ -682,11 +682,14 @@ a {
 .btn {
   align-items: center;
   border-radius: 100px;
-  box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
+  box-shadow: 0 5px 3px -3px rgba(184, 19, 185, 0.08), 0 3px 14px 2px rgba(184, 19, 185, 0.16), 0 8px 10px 1px rgba(184, 19, 185, 0.24);
   display: flex;
   justify-content: center;
   transition: 0.2s ease-in-out;
   width: 100%; }
+  @media (prefers-color-scheme: dark) {
+    .btn {
+      box-shadow: none; } }
   .btn > a {
     padding: 12px 24px 12px 24px;
     align-items: center;
@@ -696,13 +699,18 @@ a {
     font-weight: 600;
     justify-content: center;
     text-transform: uppercase;
+    letter-spacing: 0.0625rem;
     width: 100%; }
     @media (min-width: 768px) {
       .btn > a {
-        padding: 16px 24px 16px 24px; } }
+        padding: 16px 24px 16px 24px;
+        letter-spacing: 0.125rem;
+        font-size: 1.75rem; } }
     .btn > a i {
       font-size: 1.5rem; }
-
+      @media (min-width: 768px) {
+        .btn > a i {
+          font-size: 1.75rem; } }
 .btn:link > a,
 .btn:visited > a {
   padding: 12px 24px 12px 24px;
@@ -729,11 +737,11 @@ a {
   transform: translate(0px, 4px) scale(0.98);
   transition: 0.2s ease-in-out; }
   .btn:hover > a i {
-    transform: translate(-200%, 0px) scale(2);
+    transform: translate(-200%, 0px) scale(1.25);
     transition: 0.2s ease-in-out; }
     @media (min-width: 768px) {
       .btn:hover > a i {
-        transform: translate(-400%, 0px) scale(2); } }
+        transform: translate(-304%, 0px) scale(1.25); } }
 .btn:active {
   transition: 0.2s ease-in-out; }
   .btn:active > a {
@@ -1178,226 +1186,251 @@ footer {
 ============= */
 #indexProjectsList > div {
   /* =============
-            TURNED OFF
-        ============= */ }
-  #indexProjectsList > div article h2 {
-    margin: 0px 0px 16px 0px; }
-  @media (min-width: 768px) {
-    #indexProjectsList > div article {
-      margin: 0px 0px 24px 0px; } }
-  #indexProjectsList > div article h3 {
-    margin: 16px 0px 8px 0px; }
-    @media (min-width: 768px) {
-      #indexProjectsList > div article h3 {
-        margin: 32px 0px 8px 0px; } }
-    @media (min-width: 992px) {
-      #indexProjectsList > div article h3 {
-        margin: 40px 0px 24px 0px; } }
-  #indexProjectsList > div article ul {
-    grid-gap: 16px;
+    TURNED OFF
+============= */ }
+  #indexProjectsList > div article {
     display: grid;
-    grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 504px) {
-      #indexProjectsList > div article ul {
-        grid-template-columns: repeat(2, 1fr); } }
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "heading" "UX" "Branding" "Type" "Publication"; }
+    #indexProjectsList > div article h2 {
+      grid-area: heading;
+      margin: 0px 0px 16px 0px; }
     @media (min-width: 768px) {
-      #indexProjectsList > div article ul {
-        grid-gap: 24px; } }
-    @media (min-width: 992px) {
-      #indexProjectsList > div article ul {
-        grid-gap: 32px; } }
-    #indexProjectsList > div article ul li {
-      background-color: #6613CE;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      border-radius: 16px;
-      box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-      cursor: pointer;
-      transform-origin: center 90%;
-      transition: all 0.2s ease-in-out; }
-      #indexProjectsList > div article ul li a {
-        align-items: center;
-        color: #FCFCFC;
-        display: flex;
-        height: 176px;
-        justify-content: center;
-        transition: 0.1s;
-        width: 100%;
-        margin: auto 0px auto 0px; }
-        @media (min-width: 768px) {
-          #indexProjectsList > div article ul li a {
-            height: 240px; } }
+      #indexProjectsList > div article {
+        margin: 0px 0px 24px 0px; } }
+    #indexProjectsList > div article div h3 {
+      margin: 16px 0px 8px 0px; }
+      @media (min-width: 768px) {
+        #indexProjectsList > div article div h3 {
+          margin: 32px 0px 8px 0px; } }
+      @media (min-width: 992px) {
+        #indexProjectsList > div article div h3 {
+          margin: 40px 0px 24px 0px; } }
+    #indexProjectsList > div article div ul {
+      grid-gap: 16px;
+      display: grid;
+      grid-template-columns: repeat(1, 1fr); }
+      @media (min-width: 504px) {
+        #indexProjectsList > div article div ul {
+          grid-template-columns: repeat(2, 1fr); } }
+      @media (min-width: 768px) {
+        #indexProjectsList > div article div ul {
+          grid-gap: 24px; } }
+      @media (min-width: 992px) {
+        #indexProjectsList > div article div ul {
+          grid-gap: 32px; } }
+      #indexProjectsList > div article div ul li {
+        background-color: #6613CE;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 16px;
+        box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
+        cursor: pointer;
+        transform-origin: center 90%;
+        transition: all 0.2s ease-in-out; }
+        @media (prefers-color-scheme: dark) {
+          #indexProjectsList > div article div ul li {
+            box-shadow: none; } }
+        #indexProjectsList > div article div ul li a {
+          align-items: center;
+          color: #FCFCFC;
+          display: flex;
+          height: 176px;
+          justify-content: center;
+          transition: 0.1s;
+          width: 100%;
+          margin: auto 0px auto 0px; }
+          @media (min-width: 768px) {
+            #indexProjectsList > div article div ul li a {
+              height: 240px; } }
+          @media (min-width: 992px) {
+            #indexProjectsList > div article div ul li a {
+              height: 280px;
+              opacity: 0; } }
+          @media (min-width: 1200px) {
+            #indexProjectsList > div article div ul li a {
+              height: 320px; } }
+          #indexProjectsList > div article div ul li a div h4 {
+            text-align: center;
+            margin: 0px 12px 4px 12px; }
+          #indexProjectsList > div article div ul li a div p {
+            text-align: center;
+            margin: 0px 12px 0px 12px;
+            font-family: 'IBM Plex Mono', monospace;
+            opacity: 0.9; }
+        #indexProjectsList > div article div ul li a:link,
+        #indexProjectsList > div article div ul li a:visited {
+          color: #FCFCFC; }
+      @media (prefers-color-scheme: dark) {
+        #indexProjectsList > div article div ul li:hover {
+          box-shadow: none; } }
+  #indexProjectsList > div div:nth-child(2) {
+    grid-area: Branding; }
+    #indexProjectsList > div div:nth-child(2) ul:nth-child(2) {
+      grid-template-areas: "f" "shm" "a" "tps" "icm"; }
+      @media (min-width: 504px) {
+        #indexProjectsList > div div:nth-child(2) ul:nth-child(2) {
+          grid-template-areas: "f shm" "a tps" "icm ."; } }
+      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
+        background-image: url("../img/index/projects/purple/FenderCover.jpg");
+        background-position: bottom center;
+        grid-area: f; }
         @media (min-width: 992px) {
-          #indexProjectsList > div article ul li a {
-            height: 280px;
-            opacity: 0; } }
-        @media (min-width: 1200px) {
-          #indexProjectsList > div article ul li a {
-            height: 320px; } }
-        #indexProjectsList > div article ul li a div h4 {
-          text-align: center;
-          margin: 0px 12px 4px 12px; }
-        #indexProjectsList > div article ul li a div p {
-          text-align: center;
-          margin: 0px 12px 0px 12px;
-          font-family: 'IBM Plex Mono', monospace;
-          opacity: 0.9; }
-      #indexProjectsList > div article ul li a:link,
-      #indexProjectsList > div article ul li a:visited {
-        color: #FCFCFC; }
-  #indexProjectsList > div ul:nth-child(3) {
-    grid-template-areas: "f" "shm" "a" "tps" "icm"; }
-    @media (min-width: 504px) {
-      #indexProjectsList > div ul:nth-child(3) {
-        grid-template-areas: "f shm" "a tps" "icm ."; } }
-    #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
-      background-image: url("../img/index/projects/purple/FenderCover.jpg");
-      background-position: bottom center;
-      grid-area: f; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(3) li:nth-child(1) {
-          background-image: url("../img/index/projects/FenderCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
-      background-image: url("../img/index/projects/purple/SHMCover.jpg");
-      grid-area: shm; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(3) li:nth-child(2) {
-          background-image: url("../img/index/projects/SHMCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
-      background-image: url("../img/index/projects/purple/AntiCover.jpg");
-      grid-area: a; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(3) li:nth-child(3) {
-          background-image: url("../img/index/projects/AntiCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
-      background-image: url("../img/index/projects/purple/TPSCover.jpg");
-      grid-area: tps; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(3) li:nth-child(4) {
-          background-image: url("../img/index/projects/TPSCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
-      background-image: url("../img/index/projects/purple/ICMCover.jpg");
-      background-position: bottom right;
-      /* =============
-                    TURNED OFF
-                ============= */
-      display: none;
-      grid-area: icm; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(3) li:nth-child(5) {
-          background-image: url("../img/index/projects/ICMCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(5) {
-    grid-template-areas: "atd" "t" "soa" "m"; }
-    @media (min-width: 504px) {
-      #indexProjectsList > div ul:nth-child(5) {
-        grid-template-areas: "atd t" "soa m"; } }
-    #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
-      background-image: url("../img/index/projects/purple/TCover.jpg");
-      grid-area: t; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(5) li:nth-child(1) {
-          background-image: url("../img/index/projects/TCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
-      background-image: url("../img/index/projects/purple/SoACover.jpg");
-      grid-area: soa; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(5) li:nth-child(2) {
-          background-image: url("../img/index/projects/SoACover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
-      background-image: url("../img/index/projects/purple/MCover.jpg");
-      background-position: right center;
-      grid-area: m; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(5) li:nth-child(3) {
-          background-image: url("../img/index/projects/MCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
-      background-image: url("../img/index/projects/purple/ATDCover.jpg");
-      background-position: left bottom;
-      grid-area: atd; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(5) li:nth-child(4) {
-          background-image: url("../img/index/projects/ATDCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(7) {
-    grid-template-areas: "tol" "ul" "c" "qv"; }
-    @media (min-width: 504px) {
-      #indexProjectsList > div ul:nth-child(7) {
-        grid-template-areas: "tol ul" "c qv"; } }
-    #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
-      background-image: url("../img/index/projects/purple/ToLCover.jpg");
-      grid-area: tol; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(7) li:nth-child(1) {
-          background-image: url("../img/index/projects/ToLCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
-      background-image: url("../img/index/projects/purple/UnCover.jpg");
-      grid-area: ul; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(7) li:nth-child(2) {
-          background-image: url("../img/index/projects/UnCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
-      background-image: url("../img/index/projects/purple/ClCover.jpg");
-      /* =============
-                    TURNED OFF
-                ============= */
-      display: none;
-      grid-area: c; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(7) li:nth-child(3) {
-          background-image: url("../img/index/projects/ClCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
-      background-image: url("../img/index/projects/purple/QVCover.jpg");
-      background-position: top right;
-      /* =============
-                    TURNED OFF
-                ============= */
-      display: none;
-      grid-area: qv; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(7) li:nth-child(4) {
-          background-image: url("../img/index/projects/QVCover.jpg"); } }
-  #indexProjectsList > div ul:nth-child(9) {
-    grid-template-areas: "bk" "sa"; }
-    @media (min-width: 504px) {
-      #indexProjectsList > div ul:nth-child(9) {
-        grid-template-areas: "bk sa"; } }
-    #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
-      background-image: url("../img/index/projects/purple/BKCover.jpg");
-      grid-area: bk; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(9) li:nth-child(1) {
-          background-image: url("../img/index/projects/BKCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
-      background-image: url("../img/index/projects/purple/SACover.jpg");
-      grid-area: sa; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(9) li:nth-child(2) {
-          background-image: url("../img/index/projects/SACover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
-      background-image: url("../img/index/projects/purple/ClCover.jpg");
-      grid-area: c; }
-      @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(9) li:nth-child(3) {
-          background-image: url("../img/index/projects/ClCover.jpg"); } }
-  #indexProjectsList > div h3:nth-child(10),
-  #indexProjectsList > div ul:nth-child(11) {
+          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
+            background-image: url("../img/index/projects/FenderCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
+        background-image: url("../img/index/projects/purple/SHMCover.jpg");
+        grid-area: shm; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
+            background-image: url("../img/index/projects/SHMCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
+        background-image: url("../img/index/projects/purple/AntiCover.jpg");
+        grid-area: a; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
+            background-image: url("../img/index/projects/AntiCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
+        background-image: url("../img/index/projects/purple/TPSCover.jpg");
+        grid-area: tps; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
+            background-image: url("../img/index/projects/TPSCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
+        background-image: url("../img/index/projects/purple/ICMCover.jpg");
+        background-position: bottom right;
+        /* =============
+                TURNED OFF
+            ============= */
+        display: none;
+        grid-area: icm; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
+            background-image: url("../img/index/projects/ICMCover.jpg"); } }
+  #indexProjectsList > div div:nth-child(3) {
+    grid-area: UX; }
+    #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
+      grid-template-areas: "atd" "tt" "t" "m" "soa"; }
+      @media (min-width: 504px) {
+        #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
+          grid-template-areas: "atd tt" "t m" "soa ."; } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
+        background-image: url("../img/index/projects/purple/TCover.jpg");
+        grid-area: t; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
+            background-image: url("../img/index/projects/TCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
+        background-image: url("../img/index/projects/purple/SoACover.jpg");
+        grid-area: soa; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
+            background-image: url("../img/index/projects/SoACover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
+        background-image: url("../img/index/projects/purple/MCover.jpg");
+        background-position: right center;
+        grid-area: m; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
+            background-image: url("../img/index/projects/MCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
+        background-image: url("../img/index/projects/purple/ATDCover.jpg");
+        background-position: left bottom;
+        grid-area: atd; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
+            background-image: url("../img/index/projects/ATDCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
+        background-image: url("../img/index/projects/purple/TTCover.jpg");
+        grid-area: tt; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
+            background-image: url("../img/index/projects/TTCover.jpg"); } }
+  #indexProjectsList > div div:nth-child(4) {
+    grid-area: Type; }
+    #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {
+      grid-template-areas: "tol" "ul" "c" "qv"; }
+      @media (min-width: 504px) {
+        #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {
+          grid-template-areas: "tol ul" "c qv"; } }
+      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
+        background-image: url("../img/index/projects/purple/ToLCover.jpg");
+        grid-area: tol; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
+            background-image: url("../img/index/projects/ToLCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
+        background-image: url("../img/index/projects/purple/UnCover.jpg");
+        grid-area: ul; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
+            background-image: url("../img/index/projects/UnCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
+        background-image: url("../img/index/projects/purple/ClCover.jpg");
+        /* =============
+                TURNED OFF
+            ============= */
+        display: none;
+        grid-area: c; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
+            background-image: url("../img/index/projects/ClCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
+        background-image: url("../img/index/projects/purple/QVCover.jpg");
+        background-position: top right;
+        /* =============
+                TURNED OFF
+            ============= */
+        display: none;
+        grid-area: qv; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
+            background-image: url("../img/index/projects/QVCover.jpg"); } }
+  #indexProjectsList > div div:nth-child(5) {
+    grid-area: Publication; }
+    #indexProjectsList > div div:nth-child(5) ul:nth-child(2) {
+      grid-template-areas: "bk" "sa"; }
+      @media (min-width: 504px) {
+        #indexProjectsList > div div:nth-child(5) ul:nth-child(2) {
+          grid-template-areas: "bk sa"; } }
+      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
+        background-image: url("../img/index/projects/purple/BKCover.jpg");
+        grid-area: bk; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
+            background-image: url("../img/index/projects/BKCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
+        background-image: url("../img/index/projects/purple/SACover.jpg");
+        grid-area: sa; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
+            background-image: url("../img/index/projects/SACover.jpg"); } }
+      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
+        background-image: url("../img/index/projects/purple/ClCover.jpg");
+        grid-area: c; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
+            background-image: url("../img/index/projects/ClCover.jpg"); } }
+  #indexProjectsList > div div:nth-child(6) h3:nth-child(1),
+  #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
     display: none; }
-  #indexProjectsList > div ul:nth-child(11) {
+  #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
     grid-template-areas: "sb" "on"; }
     @media (min-width: 504px) {
-      #indexProjectsList > div ul:nth-child(11) {
+      #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
         grid-template-areas: "sb on"; } }
-    #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
+    #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
       background-image: url("../img/index/projects/purple/SBCover.jpg");
       grid-area: sb; }
       @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(11) li:nth-child(1) {
+        #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
           background-image: url("../img/index/projects/SBCover.jpg"); } }
-    #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
+    #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
       background-image: url("../img/index/projects/purple/ONCover.jpg");
       grid-area: on; }
       @media (min-width: 992px) {
-        #indexProjectsList > div ul:nth-child(11) li:nth-child(2) {
+        #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
           background-image: url("../img/index/projects/ONCover.jpg"); } }
   @media (min-width: 992px) {
     #indexProjectsList > div li:hover {

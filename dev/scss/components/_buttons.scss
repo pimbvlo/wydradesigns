@@ -4,11 +4,14 @@
 .btn {
     align-items: center;
     border-radius: 100px;
-    box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
+    box-shadow: 0 5px 3px -3px rgba(184, 19, 185, .08), 0 3px 14px 2px rgba(184, 19, 185, .16), 0 8px 10px 1px rgba(184, 19, 185, .24);
     display: flex;
     justify-content: center;
     transition: 0.2s ease-in-out;
     width: 100%;
+    @include dark {
+        box-shadow: none;
+    }
 
     > a {
         @include padding(12px, 24px, 12px, 24px);
@@ -19,13 +22,19 @@
         font-weight: 600;
         justify-content: center;
         text-transform: uppercase;
+        letter-spacing: rem-calc(1);
         width: 100%;
         @include md {
             @include padding(16px, 24px, 16px, 24px);
+            letter-spacing: rem-calc(2);
+            font-size: rem-calc(28);
         }
 
         i {
             font-size: rem-calc(24);
+            @include md {
+                font-size: rem-calc(28);
+            }
         }
     }
 }
@@ -61,10 +70,10 @@
 
     > a {
         i {
-            transform: translate(-200%, 0px) scale(2);
+            transform: translate(-200%, 0px) scale(1.25);
             transition: 0.2s ease-in-out;
             @include md {
-                transform: translate(-400%, 0px) scale(2);
+                transform: translate(-304%, 0px) scale(1.25);
             }
         }
     }

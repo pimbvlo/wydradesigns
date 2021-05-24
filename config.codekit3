@@ -3421,6 +3421,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/projects\/purple\/TinderCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 21443,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/purple\/TinderCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg" : {
       "ft" : 16384,
       "iS" : 99057,
@@ -3560,6 +3573,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/projects\/TinderCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 29863,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/TinderCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6986,6 +7012,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/projects\/purple\/TinderCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 91015,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TinderCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/projects\/purple\/ToLCover.jpg" : {
       "ft" : 16384,
       "iS" : 96718,
@@ -7122,6 +7161,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/projects\/TCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/projects\/TinderCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 110378,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

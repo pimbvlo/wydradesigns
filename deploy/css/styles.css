@@ -1311,19 +1311,21 @@ footer {
   #indexProjectsList > div div:nth-child(3) {
     grid-area: UX; }
     #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-      grid-template-areas: "atd" "tt" "targe" "t" "m" "soa"; }
+      grid-template-areas: "atd" "tt" "targe" "m" "tinder"; }
       @media (min-width: 504px) {
         #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-          grid-template-areas: "atd tt" "targe t" "m soa"; } }
+          grid-template-areas: "atd tt" "targe m" "tinder ."; } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
         background-image: url("../img/index/projects/purple/TCover.jpg");
-        grid-area: t; }
+        grid-area: t;
+        display: none; }
         @media (min-width: 992px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
             background-image: url("../img/index/projects/TCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
         background-image: url("../img/index/projects/purple/SoACover.jpg");
-        grid-area: soa; }
+        grid-area: soa;
+        display: none; }
         @media (min-width: 992px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
             background-image: url("../img/index/projects/SoACover.jpg"); } }
@@ -1353,6 +1355,12 @@ footer {
         @media (min-width: 992px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
             background-image: url("../img/index/projects/TargetCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
+        background-image: url("../img/index/projects/purple/TinderCover.jpg");
+        grid-area: tinder; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
+            background-image: url("../img/index/projects/TinderCover.jpg"); } }
   #indexProjectsList > div div:nth-child(4) {
     grid-area: Type; }
     #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {

@@ -75,8 +75,7 @@
                 }
             }
 
-            div:nth-child(2),
-            div:nth-child(4) {
+            div:nth-child(2){
                 ul {
                     grid-template-rows: repeat(3,1fr);
                 }
@@ -85,6 +84,11 @@
             div:nth-child(3) {
                 ul {
                     grid-template-rows: repeat(2,1fr);
+                }
+            }
+            div:nth-child(4) {
+                ul {
+                    grid-template-rows: repeat(5,1fr);
                 }
             }
 

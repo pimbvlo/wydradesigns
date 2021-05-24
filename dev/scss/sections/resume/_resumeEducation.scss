@@ -52,6 +52,9 @@
             @include lg {
                 width: 75%;
             }
+            div:nth-child(1){
+                @include margin(0px,0px,24px,0px);
+            }
         }
     }
 }

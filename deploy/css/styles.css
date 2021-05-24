@@ -1594,6 +1594,9 @@ footer {
       @media (min-width: 992px) {
         #resumeEducation > div article {
           width: 75%; } }
+      #resumeEducation > div article div:nth-child(1) {
+        margin: 0px 0px 24px 0px; }
+
 /* =============
     Resume Honors
 ============= */
@@ -1814,11 +1817,12 @@ footer {
         grid-area: ul1; }
     #resumeSkills > div article div:nth-child(1) ul {
       grid-template-rows: repeat(4, 1fr); }
-    #resumeSkills > div article div:nth-child(2) ul,
-    #resumeSkills > div article div:nth-child(4) ul {
+    #resumeSkills > div article div:nth-child(2) ul {
       grid-template-rows: repeat(3, 1fr); }
     #resumeSkills > div article div:nth-child(3) ul {
       grid-template-rows: repeat(2, 1fr); }
+    #resumeSkills > div article div:nth-child(4) ul {
+      grid-template-rows: repeat(5, 1fr); }
     #resumeSkills > div article div:last-of-type {
       margin: 0px 0px 0px 0px; }
 

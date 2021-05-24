@@ -1311,10 +1311,10 @@ footer {
   #indexProjectsList > div div:nth-child(3) {
     grid-area: UX; }
     #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-      grid-template-areas: "atd" "tt" "t" "m" "soa"; }
+      grid-template-areas: "atd" "tt" "targe" "t" "m" "soa"; }
       @media (min-width: 504px) {
         #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-          grid-template-areas: "atd tt" "t m" "soa ."; } }
+          grid-template-areas: "atd tt" "targe t" "m soa"; } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
         background-image: url("../img/index/projects/purple/TCover.jpg");
         grid-area: t; }
@@ -1347,6 +1347,12 @@ footer {
         @media (min-width: 992px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
             background-image: url("../img/index/projects/TTCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
+        background-image: url("../img/index/projects/purple/TargetCover.jpg");
+        grid-area: targe; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
+            background-image: url("../img/index/projects/TargetCover.jpg"); } }
   #indexProjectsList > div div:nth-child(4) {
     grid-area: Type; }
     #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {

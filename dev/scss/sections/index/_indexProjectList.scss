@@ -170,9 +170,9 @@
             grid-area: UX;
 
             ul:nth-child(2) {
-                grid-template-areas: "atd" "tt" "t" "m" "soa";
+                grid-template-areas: "atd" "tt" "targe" "t" "m" "soa";
                 @include sm {
-                    grid-template-areas: "atd tt" "t m" "soa .";
+                    grid-template-areas: "atd tt" "targe t" "m soa";
                 }
                 @include md {
                     // grid-template-areas: "atd t m" "soa . .";
@@ -217,6 +217,13 @@
                     grid-area: tt;
                     @include lg {
                         background-image: url("../img/index/projects/TTCover.jpg");
+                    }
+                }
+                li:nth-child(6) {
+                    background-image: url("../img/index/projects/purple/TargetCover.jpg");
+                    grid-area: targe;
+                    @include lg {
+                        background-image: url("../img/index/projects/TargetCover.jpg");
                     }
                 }
             }

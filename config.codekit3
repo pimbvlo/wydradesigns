@@ -3213,6 +3213,26 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/projects\/MediumLogoBlack.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/index\/projects\/MediumLogoBlack.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/index\/projects\/MediumLogoWhite.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/index\/projects\/MediumLogoWhite.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/index\/projects\/ONCover.jpg" : {
       "ft" : 16384,
       "iS" : 27321,
@@ -6804,11 +6824,21 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/imglg\/index\/projects\/MediumLogo.svg" : {
+    "\/deploy\/imglg\/index\/projects\/MediumLogoBlack.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/deploy\/imglg\/index\/projects\/MediumLogo.svg",
+      "oAP" : "\/deploy\/imglg\/index\/projects\/MediumLogoBlack.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/imglg\/index\/projects\/MediumLogoWhite.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/MediumLogoWhite.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

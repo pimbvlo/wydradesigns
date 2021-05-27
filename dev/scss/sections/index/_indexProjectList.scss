@@ -54,6 +54,8 @@
                         transition: all 0.2s ease-in-out;
                         @include dark {
                             box-shadow: none;
+                            // background-color: $grey-mid;
+
                         }
 
                         a {
@@ -100,6 +102,56 @@
                     li:hover {
                         @include dark {
                             box-shadow: none;
+                        }
+                    }
+
+                    .external-link {
+                        position: relative;
+                        overflow: hidden;
+
+                        aside:nth-child(1) {
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            height: 200px;
+                            width: 104px;
+                            transform: rotate(45deg);
+                            transform-origin: center;
+                            position: absolute;
+                            top: -104px;
+                            left: -40px;
+                            z-index: 1000;
+                            pointer-events: none;
+                            background-color: $dark-pink;
+
+                            @include dark{
+                                background-color: $light-purple;
+                            }
+                            @include lg{
+                                background-color: rgba(0,0,0,0.64);
+                                @include dark{
+                                    background-color: $purple;
+                                }
+                            }
+                            img{
+                                height: 20px;
+                                width: 100%;
+                                transform: rotate(-45deg);
+                                @include margin(20px, 0px, 0px, 56px);
+                                content: url("../img/index/projects/MediumLogoWhite.svg");
+                                @include dark{
+                                    content: url("../img/index/projects/MediumLogoBlack.svg");
+                                    @include lg{
+                                        content: url("../img/index/projects/MediumLogoWhite.svg");
+                                    }
+                                }
+                            }
+                        }
+
+                        :hover{
+                            img{
+                                transform: scale(1.2);
+                            }
                         }
                     }
                 }
@@ -221,6 +273,7 @@
                         background-image: url("../img/index/projects/TTCover.jpg");
                     }
                 }
+
                 li:nth-child(6) {
                     background-image: url("../img/index/projects/purple/TargetCover.jpg");
                     grid-area: targe;
@@ -228,6 +281,7 @@
                         background-image: url("../img/index/projects/TargetCover.jpg");
                     }
                 }
+
                 li:nth-child(7) {
                     background-image: url("../img/index/projects/purple/TinderCover.jpg");
                     grid-area: tinder;
@@ -330,7 +384,7 @@
                 }
             }
         }
-/* =============
+        /* =============
     TURNED OFF
 ============= */
         div:nth-child(6) {

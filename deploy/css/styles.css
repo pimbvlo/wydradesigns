@@ -826,7 +826,7 @@ textarea {
   position: fixed;
   top: 104px;
   width: 100%;
-  z-index: 950; }
+  z-index: 9500; }
   @media (min-width: 992px) {
     #sm-nav {
       display: none; } }
@@ -878,7 +878,7 @@ textarea {
   right: 0;
   top: 0;
   width: 100%;
-  z-index: 900; }
+  z-index: 9000; }
   @media (prefers-color-scheme: dark) {
     #nav-bg {
       background-color: #131618; } }
@@ -901,7 +901,7 @@ header {
   height: 72px;
   width: 100%;
   background-color: #FCFCFC;
-  z-index: 1000;
+  z-index: 10000;
   top: 0; }
   @media (prefers-color-scheme: dark) {
     header {
@@ -1265,6 +1265,46 @@ footer {
       @media (prefers-color-scheme: dark) {
         #indexProjectsList > div article div ul li:hover {
           box-shadow: none; } }
+      #indexProjectsList > div article div ul .external-link {
+        position: relative;
+        overflow: hidden; }
+        #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 200px;
+          width: 104px;
+          transform: rotate(45deg);
+          transform-origin: center;
+          position: absolute;
+          top: -104px;
+          left: -40px;
+          z-index: 1000;
+          pointer-events: none;
+          background-color: #B813B9; }
+          @media (prefers-color-scheme: dark) {
+            #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
+              background-color: #C494FF; } }
+          @media (min-width: 992px) {
+            #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
+              background-color: rgba(0, 0, 0, 0.64); } }
+  @media (min-width: 992px) and (prefers-color-scheme: dark) {
+    #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
+      background-color: #6613CE; } }
+          #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
+            height: 20px;
+            width: 100%;
+            transform: rotate(-45deg);
+            margin: 20px 0px 0px 56px;
+            content: url("../img/index/projects/MediumLogoWhite.svg"); }
+            @media (prefers-color-scheme: dark) {
+              #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
+                content: url("../img/index/projects/MediumLogoBlack.svg"); } }
+  @media (prefers-color-scheme: dark) and (min-width: 992px) {
+    #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
+      content: url("../img/index/projects/MediumLogoWhite.svg"); } }
+        #indexProjectsList > div article div ul .external-link :hover img {
+          transform: scale(1.2); }
   #indexProjectsList > div div:nth-child(2) {
     grid-area: Branding; }
     #indexProjectsList > div div:nth-child(2) ul:nth-child(2) {

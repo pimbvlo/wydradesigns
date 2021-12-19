@@ -222,9 +222,9 @@
             grid-area: UX;
 
             ul:nth-child(2) {
-                grid-template-areas: "atd" "tt" "targe" "m" "tinder";
+                grid-template-areas: "secondlife" "atd" "tt" "targe" "m" "tinder" ;
                 @include sm {
-                    grid-template-areas: "atd tt" "targe m" "tinder .";
+                    grid-template-areas: "secondlife atd" "tt targe" "m tinder";
                 }
                 @include md {
                     // grid-template-areas: "atd t m" "soa . .";
@@ -287,6 +287,13 @@
                     grid-area: tinder;
                     @include lg {
                         background-image: url("../img/index/projects/TinderCover.jpg");
+                    }
+                }
+                li:nth-child(8) {
+                    background-image: url("../img/index/projects/purple/SecondLifeCover.jpg");
+                    grid-area: secondlife;
+                    @include lg {
+                        background-image: url("../img/index/projects/SecondLifeCover.jpg");
                     }
                 }
             }

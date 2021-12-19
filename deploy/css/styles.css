@@ -1351,10 +1351,10 @@ footer {
   #indexProjectsList > div div:nth-child(3) {
     grid-area: UX; }
     #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-      grid-template-areas: "atd" "tt" "targe" "m" "tinder"; }
+      grid-template-areas: "secondlife" "atd" "tt" "targe" "m" "tinder"; }
       @media (min-width: 504px) {
         #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-          grid-template-areas: "atd tt" "targe m" "tinder ."; } }
+          grid-template-areas: "secondlife atd" "tt targe" "m tinder"; } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
         background-image: url("../img/index/projects/purple/TCover.jpg");
         grid-area: t;
@@ -1401,6 +1401,12 @@ footer {
         @media (min-width: 992px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
             background-image: url("../img/index/projects/TinderCover.jpg"); } }
+      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
+        background-image: url("../img/index/projects/purple/SecondLifeCover.jpg");
+        grid-area: secondlife; }
+        @media (min-width: 992px) {
+          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
+            background-image: url("../img/index/projects/SecondLifeCover.jpg"); } }
   #indexProjectsList > div div:nth-child(4) {
     grid-area: Type; }
     #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {

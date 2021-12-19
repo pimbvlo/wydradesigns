@@ -3389,6 +3389,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/projects\/purple\/SecondLifeCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 202563,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/purple\/SecondLifeCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg" : {
       "ft" : 16384,
       "iS" : 834889,
@@ -3541,6 +3554,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/projects\/SecondLifeCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 118254,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/SecondLifeCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7000,6 +7026,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/projects\/purple\/SecondLifeCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 363357,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SecondLifeCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/projects\/purple\/SHMCover.jpg" : {
       "ft" : 16384,
       "iS" : 305667,
@@ -7149,6 +7188,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/projects\/SBCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/projects\/SecondLifeCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 466895,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

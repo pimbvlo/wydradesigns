@@ -13,6 +13,9 @@ html {
 /* =============
     Variables
 ============= */
+/* =============
+    Variables
+============= */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -536,17 +539,22 @@ h6,
 p {
   margin: 0;
   padding: 0;
-  text-align: left; }
+  text-align: left;
+  font-family: 'Elza', sans-serif; }
 
 h1 {
-  font-size: 1.875rem;
-  font-weight: 700;
-  letter-spacing: 0.00625rem;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
   line-height: 2.25rem; }
+  @media (min-width: 768px) {
+    h1 {
+      font-size: 3.25rem;
+      line-height: 3rem; } }
   @media (min-width: 992px) {
     h1 {
-      font-size: 2.5rem;
-      line-height: 3.5rem; } }
+      font-size: 4.25rem;
+      line-height: 4rem; } }
 h2 {
   font-size: 1.75rem;
   font-weight: 600;
@@ -572,7 +580,6 @@ h4 {
       font-size: 1.75rem; } }
 h6 {
   color: #6613CE;
-  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 500;
   letter-spacing: 0.005rem; }
@@ -622,60 +629,6 @@ a {
         color: #EACCFF; }
       a:active {
         color: #FFA566; } }
-.resume h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 1.875rem;
-  margin: 0px 0px 4px 0px;
-  text-transform: capitalize; }
-
-.resume h2 {
-  font-size: 1.25rem;
-  font-weight: 700;
-  letter-spacing: 0.00625rem;
-  line-height: 1.5rem;
-  color: #6613CE;
-  text-transform: uppercase;
-  font-family: 'IBM Plex Mono', monospace;
-  margin: 0px 0px 20px 0px; }
-  @media (prefers-color-scheme: dark) {
-    .resume h2 {
-      color: #C494FF; } }
-.resume h3 {
-  font-size: 1rem;
-  color: #1E1E20;
-  line-height: 1.5rem;
-  font-weight: 500;
-  letter-spacing: 0.005rem;
-  opacity: 0.75; }
-  @media (prefers-color-scheme: dark) {
-    .resume h3 {
-      color: #EACCFF;
-      opacity: 1; } }
-.resume h4 {
-  font-size: 1rem;
-  font-weight: 700;
-  letter-spacing: 0.0025rem;
-  line-height: 1.5rem;
-  text-transform: uppercase;
-  margin: 0px 0px 4px 0px;
-  font-family: 'IBM Plex Mono', monospace; }
-
-.resume p {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5rem;
-  margin: 0px 0px 8px 0px; }
-  .resume p span {
-    color: #0D001E;
-    font-weight: 600; }
-    @media (prefers-color-scheme: dark) {
-      .resume p span {
-        color: #EACCFF; } }
-.resume p:last-of-type {
-  margin: 0px 0px auto 0px; }
-
 /* =============
     Buttons
 ============= */
@@ -1091,7 +1044,6 @@ footer {
     Index Hero
 ============= */
 #indexHero {
-  background-image: url("../img/index/Hero.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1101,7 +1053,6 @@ footer {
     #indexHero {
       background-blend-mode: multiply;
       background-color: #6613CE;
-      background-image: url("../img/index/HeroGrey.jpg");
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover; } }

@@ -12,16 +12,21 @@ p {
     margin: 0;
     padding: 0;
     text-align: left;
+    font-family: 'Elza', sans-serif;
 }
 
 h1 {
-    font-size: rem-calc(30);
-    font-weight: 700;
-    letter-spacing: rem-calc(0.1);
+    font-size: rem-calc(40);
+    font-style: normal;
+    font-weight: 600;
     line-height: rem-calc(36);
+    @include md{
+        font-size: rem-calc(52);
+        line-height: rem-calc(48);
+    }
     @include lg {
-        font-size: rem-calc(40);
-        line-height: rem-calc(56);
+        font-size: rem-calc(68);
+        line-height: rem-calc(64);
     }
 }
 
@@ -56,7 +61,6 @@ h4 {
 
 h6 {
     color: $purple;
-    font-family: 'Montserrat', sans-serif;
     font-size: rem-calc(32);
     font-weight: 500;
     letter-spacing: rem-calc(0.08);
@@ -124,73 +128,5 @@ a {
         &:active {
             color: $light-orange;
         }
-    }
-}
-
-.resume {
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: rem-calc(24);
-        font-weight: 800;
-        line-height: rem-calc(30);
-        @include margin(0px,0px,4px,0px);
-        text-transform: capitalize;
-    }
-
-    h2 {
-        font-size: rem-calc(20);
-        font-weight: 700;
-        letter-spacing: rem-calc(0.1);
-        line-height: rem-calc(24);
-        color: $purple;
-        text-transform: uppercase;
-        font-family: 'IBM Plex Mono', monospace;
-        @include margin(0px,0px,20px,0px);
-        @include dark {
-            color: $light-purple;
-        }
-    }
-
-    h3 {
-        font-size: rem-calc(16);
-        color: $grey-dark;
-        line-height: rem-calc(24);
-        font-weight: 500;
-        letter-spacing: rem-calc(0.08);
-        opacity: 0.75;
-        @include dark {
-            color: $light-pink;
-            opacity: 1;
-        }
-    }
-
-    h4 {
-        font-size: rem-calc(16);
-        font-weight: 700;
-        letter-spacing: rem-calc(0.04);
-        line-height: rem-calc(24);
-        text-transform: uppercase;
-        @include margin(0px,0px,4px,0px);
-        font-family: 'IBM Plex Mono', monospace;
-    }
-
-    p {
-        font-size: rem-calc(16);
-        font-weight: 400;
-        line-height: rem-calc(24);
-        @include margin(0px,0px,8px,0px);
-
-        span {
-            color: $dark-purple;
-            font-weight: 600;
-            @include dark {
-                color: $light-pink;
-                // opacity: 0.95;
-            }
-        }
-    }
-
-    p:last-of-type {
-        @include margin(0px,0px,auto,0px);
     }
 }

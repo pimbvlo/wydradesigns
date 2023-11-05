@@ -2,7 +2,6 @@
     Index Hero
 ============= */
 #indexHero {
-    background-image: url("../img/index/Hero.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,7 +10,6 @@
     @supports (background-blend-mode: multiply) {
         background-blend-mode: multiply;
         background-color: $purple;
-        background-image: url("../img/index/HeroGrey.jpg");
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;

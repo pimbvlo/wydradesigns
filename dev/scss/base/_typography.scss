@@ -8,11 +8,9 @@ h4,
 h5,
 h6,
 p {
-    // line-height: rem-calc(0);
     margin: 0;
     padding: 0;
     text-align: left;
-    font-family: 'Elza', sans-serif;
 }
 
 h1 {
@@ -29,60 +27,43 @@ h1 {
         line-height: rem-calc(64);
     }
 }
-
 h2 {
+
     font-size: rem-calc(28);
-    font-weight: 600;
-    letter-spacing: rem-calc(0.1);
-    line-height: rem-calc(38);
-    @include lg {
+    font-style: normal;
+    font-weight: 400;
+    line-height: rem-calc(32);
+    @include md{
         font-size: rem-calc(40);
-        line-height: rem-calc(56);
+        line-height: rem-calc(48);
+    }
+    @include lg {
+        font-size: rem-calc(52);
+        line-height: rem-calc(64);
     }
 }
-
 h3 {
-    font-size: rem-calc(24);
+
+    font-size: rem-calc(16);
+    font-style: normal;
     font-weight: 500;
-    letter-spacing: rem-calc(0.08);
+    line-height: rem-calc(24);
+    @include md{
+        font-size: rem-calc(24);
+        line-height: rem-calc(28);
+    }
     @include lg {
-        font-size: rem-calc(32);
+        font-size: rem-calc(36);
+        line-height: rem-calc(44);
     }
 }
-
 h4 {
-    font-size: rem-calc(20);
-    font-weight: 500;
-    letter-spacing: rem-calc(0.04);
-    @include lg {
-        font-size: rem-calc(28);
-    }
-}
 
-h6 {
-    color: $purple;
-    font-size: rem-calc(32);
-    font-weight: 500;
-    letter-spacing: rem-calc(0.08);
-    @include sm {
-        font-size: rem-calc(34);
-        letter-spacing: rem-calc(0.125);
-    }
-    @include md {
-        letter-spacing: rem-calc(0.2);
-    }
-    // @include lg {
-    //     font-size: rem-calc(24);
-    // }
-    span {
-        color: $white;
-        font-weight: 600;
-        @include lg {
-            color: $purple;
-        }
-    }
+    font-size: rem-calc(16);
+    font-style: normal;
+    font-weight: 600;
+    line-height: rem-calc(24);
 }
-
 p {
     font-size: rem-calc(16);
     font-weight: 400;
@@ -92,41 +73,22 @@ p {
         line-height: rem-calc(30);
     }
 
-    span {
-        color: $purple;
-        font-weight: 600;
-        @include dark {
-            color: $light-purple;
-        }
-    }
-
     a {
-        font-family: 'IBM Plex Mono', monospace;
+        font-family: 'Elza', monospace;
         font-weight: 700;
     }
 }
 
 a {
     text-decoration: none;
-    color: $purple;
+    color: red;
     transition: 0.25s;
 
     &:hover {
-        color: $dark-purple;
+        color: blue;
     }
 
     &:active {
-        color: $dark-orange;
-    }
-    @include dark {
-        color: $light-purple;
-
-        &:hover {
-            color: $light-pink;
-        }
-
-        &:active {
-            color: $light-orange;
-        }
+        color: green;
     }
 }

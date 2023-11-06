@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34127",
   "files" : {
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
     "\/deploy\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -8492,6 +8500,20 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/helpers\/_colorVariables.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_colorVariables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -8506,7 +8528,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/scss\/helpers\/_screenVariables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -8514,7 +8536,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/scss\/helpers\/_screenVariables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

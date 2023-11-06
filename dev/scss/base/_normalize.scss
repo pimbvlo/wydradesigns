@@ -18,35 +18,20 @@ html {
  */
 body {
     background-color: $white;
-    color: $dark-purple;
-    font-family: 'Poppins', sans-serif;
+    color: $black;
+    font-family: 'Elza', sans-serif;
     font-weight: 400;
     margin: 0;
-    @include dark {
-        background-color: $grey-dark;
-        color: $white;
-    }
     ::selection {
-        background: $orange;
-        color: $dark-purple;
+        background: $primary;
+        color: $on-primary;
         opacity: 1;
-        @include dark{
-            // background-color: $light-orange;
-            // color: $white;
-
-        }
     }
 
     ::-moz-selection {
-        background: $orange;
-        color: $dark-purple;
+        background: $primary;
+        color: $on-primary;
         opacity: 1;
-        @include dark{
-            // background-color: $light-orange;
-            // color: $white;
-
-        }
-
     }
 }
 /**

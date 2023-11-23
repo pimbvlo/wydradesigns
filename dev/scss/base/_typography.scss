@@ -13,50 +13,63 @@ p {
     text-align: left;
 }
 
+// Display
 h1 {
     font-size: rem-calc(40);
     font-style: normal;
     font-weight: 600;
     line-height: rem-calc(36);
-    @include md{
+
+    @include md {
         font-size: rem-calc(52);
         line-height: rem-calc(48);
     }
+
     @include lg {
         font-size: rem-calc(68);
         line-height: rem-calc(64);
     }
 }
+
+// Headline
 h2 {
 
     font-size: rem-calc(28);
     font-style: normal;
     font-weight: 400;
     line-height: rem-calc(32);
-    @include md{
+
+    @include md {
         font-size: rem-calc(40);
         line-height: rem-calc(48);
     }
+
     @include lg {
         font-size: rem-calc(52);
         line-height: rem-calc(64);
     }
 }
+
+// Title
 h3 {
 
     font-size: rem-calc(16);
     font-style: normal;
     font-weight: 500;
     line-height: rem-calc(24);
-    @include md{
+
+    @include md {
         font-size: rem-calc(24);
         line-height: rem-calc(28);
     }
+
     @include lg {
         font-size: rem-calc(36);
         line-height: rem-calc(44);
     }
 }
+
+// Kicker
 h4 {
 
     font-size: rem-calc(16);
@@ -64,10 +77,24 @@ h4 {
     font-weight: 600;
     line-height: rem-calc(24);
 }
+
+// Button Labels
+h6 {
+    // leading-trim: both;
+    // text-edge: cap;
+    font-size: rem-calc(16);
+    font-style: normal;
+    font-weight: 700;
+    line-height: rem-calc(20);
+    text-transform: capitalize;
+}
+
+// Body
 p {
     font-size: rem-calc(16);
     font-weight: 400;
     line-height: rem-calc(28);
+
     @include lg {
         font-size: rem-calc(18);
         line-height: rem-calc(30);
@@ -81,14 +108,14 @@ p {
 
 a {
     text-decoration: none;
-    color: red;
+    color: blue;
     transition: 0.25s;
 
     &:hover {
-        color: blue;
+        color: darkblue;
     }
 
     &:active {
-        color: green;
+        color: red;
     }
 }

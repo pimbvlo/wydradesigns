@@ -1,0 +1,57 @@
+/* =============
+    Index Project One
+============= */
+#indexProjectOne {
+    article {
+        display: flex;
+        flex-direction: column;
+
+        @include md {
+            flex-direction: row;
+            align-items: center;
+        }
+
+        img {
+            aspect-ratio: 3/2 auto;
+            width: 100%;
+            height: auto;
+            border-radius: 2px;
+            background-image: none;
+            // background-color: red;
+            object-fit: cover;
+            @include md{
+                width: 50%;
+            }
+            @include lg{
+                // width: auto;
+                height: 60vh;
+                
+            }
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            h2 {}
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+
+                li {}
+            }
+
+            .button {
+                align-self: initial;
+
+                @include sm {
+                    align-self: flex-start;
+                }
+
+            }
+
+        }
+    }
+}

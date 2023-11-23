@@ -1,0 +1,24 @@
+.chip,
+.chip-icon{
+    font-size: rem-calc(16);
+    font-weight: 600;
+    line-height: rem-calc(20);
+    text-transform: uppercase;
+    @supports (leading-trim: both) and (text-edge: cap) {
+        leading-trim: both;
+        text-edge: cap;
+    }
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 4px;
+}
+.chip{
+    padding: 4px 12px;
+    border: 1px solid $outline-variant;
+}
+.chip-icon{
+    padding: 4px 8px 4px 12px;
+    column-gap: 4px;
+    background-color: $inverse-surface;
+}

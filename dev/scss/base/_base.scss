@@ -15,54 +15,6 @@ ul {
     }
 }
 
-.section-content {
-    display: grid;
-    grid-template-areas: ". content .";
-    grid-template-columns: 16px auto 16px;
-    @include sm {
-        grid-template-columns: 24px auto 24px;
-    }
-    @include md {
-        grid-template-columns: 40px auto 40px;
-    }
-    @include lg {
-        grid-template-columns: auto 904px auto;
-    }
-    @include xl {
-        grid-template-columns: auto 1104px auto;
-    }
-
-    > div {
-        grid-area: content;
-    }
-}
-
-.section-padding {
-    padding: 64px 0;
-    @include md {
-        padding: 72px 0;
-    }
-    @include lg {
-        padding: 80px 0;
-    }
-    @include xl {
-        padding: 96px 0;
-    }
-}
-
-.section-margin {
-    margin: 64px 0;
-    @include md {
-        margin: 72px 0;
-    }
-    @include lg {
-        margin: 80px 0;
-    }
-    @include xl {
-        margin: 96px 0;
-    }
-}
-
 .case-study-hero {
     align-items: flex-end;
     background-position: center;
@@ -71,7 +23,7 @@ ul {
     display: flex;
     height: 72vh;
 
-    > div {
+    >div {
         article {
             h1 {
                 text-align: center;
@@ -82,14 +34,16 @@ ul {
             }
         }
     }
+
     @include lg {
         height: 80vh;
+
         @supports (background-attachment: fixed) {
             background-attachment: fixed;
         }
     }
 
-    > div {
+    >div {
         align-items: flex-end;
         display: flex;
         height: 50%;
@@ -98,12 +52,12 @@ ul {
         article {
             color: $white;
             text-align: center;
-            @include margin(null,auto,null,auto);
+            @include margin(null, auto, null, auto);
             max-width: 80%;
 
             h1 {
                 text-align: center;
-                @include margin(null,null, 8px, null);
+                @include margin(null, null, 8px, null);
             }
 
             i {
@@ -112,38 +66,44 @@ ul {
         }
     }
 }
+
 /*
 * Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
 */
 .cs-hero-Gradient-future {
-    background-image: linear-gradient(to bottom, hsla(0,0%,0%,0), cubic-bezier(0.39, 0.57, 0.56, 1), hsla(0,0%,0%,0.6));
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), cubic-bezier(0.39, 0.57, 0.56, 1), hsla(0, 0%, 0%, 0.6));
 }
+
 /*
 * Fallback CSS
 */
 .cs-hero-Gradient {
-    background-image: linear-gradient(to bottom, hsla(0,0%,0%,0) 0%, hsla(0,0%,0%,0.16319444442) 17.89%, hsla(0,0%,0%,0.30755555555999997) 33.48%, hsla(0,0%,0%,0.42824999999999996) 48.13%, hsla(0,0%,0%,0.5204444444399999) 63.19%, hsla(0,0%,0%,0.57930555558) 80.02%, hsla(0,0%,0%,0.6) 100%);
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.16319444442) 17.89%, hsla(0, 0%, 0%, 0.30755555555999997) 33.48%, hsla(0, 0%, 0%, 0.42824999999999996) 48.13%, hsla(0, 0%, 0%, 0.5204444444399999) 63.19%, hsla(0, 0%, 0%, 0.57930555558) 80.02%, hsla(0, 0%, 0%, 0.6) 100%);
 }
 
 .case-study-intro-image {
-    > div {
+    >div {
         article {
             grid-gap: 16px;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-areas: "p" "i";
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "p""i";
+
             @include md {
                 grid-gap: 24px;
             }
+
             @include lg {
                 grid-gap: 32px;
             }
 
             p {
                 grid-area: "p";
+
                 @include sm {
                     width: 72%;
                 }
+
                 @include md {
                     width: 50%;
                 }
@@ -153,16 +113,19 @@ ul {
                 grid-area: "i";
                 grid-gap: 16px;
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
+                grid-template-columns: repeat(1, 1fr);
                 width: 100%;
+
                 @include sm {
-                    grid-template-columns: repeat(2,1fr);
+                    grid-template-columns: repeat(2, 1fr);
                 }
+
                 @include md {
                     grid-gap: 24px;
                 }
+
                 @include lg {
-                    grid-template-columns: repeat(3,1fr);
+                    grid-template-columns: repeat(3, 1fr);
                     grid-gap: 32px;
                 }
 
@@ -172,9 +135,11 @@ ul {
                     background-size: cover;
                     height: 240px;
                     width: 100%;
+
                     @include md {
                         height: 280px;
                     }
+
                     @include lg {
                         height: 320px;
                     }
@@ -185,20 +150,23 @@ ul {
 }
 
 .case-study-text {
-    > div {
+    >div {
         article {
             grid-gap: 16px;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(1, 1fr);
             grid-template-areas: "p";
+
             @include sm {
                 grid-template-columns: 72% auto;
                 grid-template-areas: "p .";
             }
+
             @include md {
                 grid-template-columns: 50% auto;
                 grid-gap: 24px;
             }
+
             @include lg {
                 grid-gap: 32px;
             }
@@ -211,24 +179,28 @@ ul {
 }
 
 .case-study-gallery {
-    > div {
+    >div {
         article {
             grid-gap: 16px;
             display: grid;
-            grid-template-columns: repeat(1,1fr);
+            grid-template-columns: repeat(1, 1fr);
+
             // grid-template-areas: "g";
             ul {
                 // grid-area: g;
                 grid-gap: 16px;
                 display: grid;
-                grid-template-columns: repeat(1,1fr);
+                grid-template-columns: repeat(1, 1fr);
                 width: 100%;
+
                 @include sm {
-                    grid-template-columns: repeat(2,1fr);
+                    grid-template-columns: repeat(2, 1fr);
                 }
+
                 @include md {
                     grid-gap: 24px;
                 }
+
                 @include lg {
                     grid-gap: 32px;
                 }
@@ -251,6 +223,10 @@ ul {
     box-shadow: 0 1px 12px -3px rgba(19, 22, 24, .05), 0 3px 24px 4px rgba(19, 22, 24, .02), 0 8px 16px 2px rgba(19, 22, 24, .04);
 
     p {
-        @include margin(16px,32px,16px,32px);
+        @include margin(16px, 32px, 16px, 32px);
     }
 }
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+  }

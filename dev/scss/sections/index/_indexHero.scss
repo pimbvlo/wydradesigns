@@ -3,68 +3,183 @@
 ============= */
 #indexHero {
     background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 72vh;
-    min-height: 504px;
-    @supports (background-blend-mode: multiply) {
-        background-blend-mode: multiply;
-        background-color: $purple;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
+    background-image: url("../img/index/TilePhoto.svg");
+    background-repeat: repeat;
+    background-size: 16%;
+    height: 40vh;
+    min-height: 200px;
+    background-color: $surface-variant;
+    // margin-top: 72px;
+    @include md{
+        background-size: 12%;
     }
-    @include md {
-        background-position: center;
+    @include lg{
+        height: 48vh;
+        background-size: 6%;
     }
-    @include lg {
-        @supports (background-attachment: fixed) {
-            background-attachment: fixed;
-        }
+    @include xl{
+        background-size: 4%;
     }
 
-    div {
-        align-items: flex-end;
+
+    article {
+
+        align-items: flex-start;
         display: flex;
-        justify-content: center;
+        justify-content: flex-end;
+        flex-direction: column;
 
-        article {
-            @include margin(0px,0px,56px,0px);
+        h1 {
+            color: $on-surface;
+        }
 
-            figure {
-                align-items: center;
-                background-color: $white;
-                border-radius: 500px;
-                display: flex;
-                height: 56px;
-                justify-content: center;
-                @include margin(0,auto,56px,auto);
-                @include padding(16px,16px,16px,16px);
-                width: 56px;
-                @include md {
-                    @include margin(0px,auto,4vh,auto);
-                    height: 72px;
-                    width: 72px;
-                }
-                @include md {
-                    @include margin(0px,auto,6vh,auto);
-                }
+        .splitflap {
+            position: relative;
+            min-width: 12vw;
+            height: 12vw;
+            font-family: "littlebit-dotty-variable", monospace;
+            font-variation-settings: "DOTS"200;
+            text-align: center;
+            color: $on-inverse-surface;
+            font-size: 8vw;
+            line-height: 100%;
 
-                svg {
-                    width: 100%;
-                }
+            @include lg{
+                min-width: 10vw;
+                height: 10vw;
+                font-size: 7vw;  
+            }
+            @include xl{
+                min-width: 5.5vw;
+                height: 5.5vw;
+                font-size: 4vw;  
+            }
+            
+
+        }
+
+        .center {
+            position: relative;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            @include lg{
+                justify-content:flex-start;
+                gap: 12px;
+            }
+        }
+
+        .top {
+            position: relative;
+            height: 50%;
+            width: 100%;
+            background-color: $inverse-surface;
+            border-radius: 10px 10px 0 0;
+            overflow: hidden;
+            z-index: 0;
+            @include md {
+                border-radius: 16px 16px 0 0;
             }
 
-            h1 {
-                color: $white;
-                font-size: rem-calc(48);
-                line-height: rem-calc(56);
+        }
 
-                br {
-                    @include md {
-                        display: none;
-                    }
-                }
+        div {
+            perspective: 200px;
+
+            @include md {
+                perspective: 360px;
+            }
+
+            @include lg {
+                perspective: 480px;
+            }
+        }
+
+        .bottom {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            margin-top: -50%;
+            border-radius: 10px;
+            z-index: -1;
+            background-color: $black;
+            background-image: linear-gradient(rgba(59, 182, 235, 0), $inverse-surface);
+            transform-origin: center;
+            @include md {
+                border-radius: 16px;
+            }
+
+        }
+
+        .nextHalf {
+            position: relative;
+            height: 50%;
+            width: 100%;
+            margin-top: -100%;
+            overflow: hidden;
+            border-radius: 10px 10px 0 0;
+            z-index: 2;
+            background-color: $black;
+            background-image: linear-gradient($inverse-surface, rgba(59, 182, 235, 0));
+            transform-origin: bottom;
+            @include md {
+                border-radius: 16px 16px 0 0;
+            }
+
+        }
+
+        .nextFull {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            background-color: $inverse-surface;
+            margin-top: -50%;
+            border-radius: 10px;
+            z-index: -3;
+            @include md {
+                border-radius: 16px;
+            }
+
+        }
+
+        .flip1 {
+            animation: flip1 ease-in 1;
+            animation-duration: 1s;
+        }
+
+        .flip2 {
+            animation: flip2 ease-out 1;
+            animation-duration: 1s;
+        }
+
+        @keyframes flip1 {
+            0% {
+                transform: rotateX(0deg);
+                background-color: $inverse-surface;
+            }
+
+            50% {
+                transform: rotateX(90deg);
+                background-color: $black;
+            }
+
+            100% {
+                transform: rotateX(90deg);
+            }
+        }
+
+        @keyframes flip2 {
+            0% {
+                transform: rotateX(-90deg);
+            }
+
+            50% {
+                transform: rotateX(-90deg);
+            }
+
+            100% {
+                transform: rotateX(0deg);
+                background-color: $inverse-surface;
             }
         }
     }

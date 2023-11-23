@@ -1,33 +1,42 @@
-/* =============
-    Reference Colors
-============= */
-$primary0: rgba(0, 0, 0, 1);
-$primary10: rgba(16, 2, 29, 1);
-$primary20: rgba(32, 4, 57, 1);
-$primary30: rgba(49, 7, 86, 1);
-$primary40: rgba(65, 9, 114, 1);
-$primary50: rgba(81, 11, 143, 1);
-$primary60: rgba(116, 60, 165, 1);
-$primary70: rgba(151, 109, 188, 1);
-$primary80: rgba(185, 157, 210, 1);
-$primary90: rgba(220, 206, 233, 1);
-$primary95: rgba(238, 231, 244, 1);
-$primary99: rgba(246, 243, 249, 1);
-$primary100: rgba(255, 255, 255, 1);
+// OLD COLORS TO DELETE LATER
+$white: #FCFCFC;
+$off-white: #F0F0F0;
+$grey-mid: #454546;
+$grey-mid-extra: #28282A;
+$grey-dark: #1E1E20;
+$grey-dark-extra: #161618;
+$black: #131618;
+$blank: rgba(0, 0, 0, 0);
 
-$secondary0: rgba(0, 0, 0, 1);
-$secondary10: rgba(2, 29, 27, 1);
-$secondary20: rgba(4, 57, 54, 1);
-$secondary30: rgba(7, 86, 80, 1);
-$secondary40: rgba(9, 114, 107, 1);
-$secondary50: rgba(11, 143, 134, 1);
-$secondary60: rgba(60, 165, 158, 1);
-$secondary70: rgba(109, 188, 182, 1);
-$secondary80: rgba(157, 210, 207, 1);
-$secondary90: rgba(206, 233, 231, 1);
-$secondary95: rgba(231, 244, 243, 1);
-$secondary99: rgba(243, 249, 249, 1);
-$secondary100: rgba(255, 255, 255, 1);
+
+$light-orange: #FFA566;
+$orange: #FF964C;
+$dark-orange: #A35200;
+
+$light-pink: #EACCFF;
+$pink: #FE3DFF;
+$dark-pink: #B813B9;
+
+$light-purple: #C494FF;
+$purple: #6613CE;
+$dark-purple: #0D001E;
+/* =============
+    Color Variables
+============= */
+// Reference Colors
+$primary0: rgba(0, 0, 0, 1);
+$primary10: rgba(21, 0, 39, 1);
+$primary20: rgba(41, 0, 78, 1);
+$primary30: rgba(62, 0, 116, 1);
+$primary40: rgba(82, 0, 155, 1);
+$primary50: rgba(103, 0, 194, 1);
+$primary60: rgba(133, 51, 206, 1);
+$primary70: rgba(164, 102, 218, 1);
+$primary80: rgba(194, 153, 231, 1);
+$primary90: rgba(225, 204, 243, 1);
+$primary95: rgba(240, 229, 249, 1);
+$primary99: rgba(247, 242, 252, 1);
+$primary100: rgba(255, 255, 255, 1);
 
 $neutral0: rgba(0, 0, 0, 1);
 $neutral10: rgba(43, 43, 43, 1);
@@ -57,42 +66,38 @@ $neutral-variant95: rgba(253, 253, 254, 1);
 $neutral-variant99: rgba(254, 254, 254, 1);
 $neutral-variant100: rgba(255, 255, 255, 1);
 
-
-/* =============
-    Token Colors
-============= */
-
 // Colors
 $white: $neutral100;
 $black: $neutral0;
+
 // Primary
 $primary: $primary50;
 $on-primary: $primary100;
-$primary-container: $primary80;
+
+$primary-container: $primary90;
 $on-primary-container: $primary10;
 
-// Secondary
-$secondary: $secondary50;
-$on-secondary: $secondary100;
-$secondary-container: $secondary80;
-$on-secondary-container: $secondary10;
+$inverse-primary: $primary90;
+$on-inverse-primary: $primary10;
 
 // Background
-// $background: $background50;
-// $on-background: $background100;
-// $background-container: $background80;
-// $on-background-container: $background10;
+$background: $neutral99;
+$on-background: $neutral10;
 
 // Surface
-// $surface: $surface50;
-// $on-surface: $surface100;
-// $surface-container: $surface80;
-// $on-surface-container: $surface10;
-// $surface-variant: $surface50;
-// $on-surface-variant: $surface100;
-// $inverse-surface: $surface80;
-// $on-inverse-surface: $surface10;
+$surface: $neutral99;
+$on-surface: $neutral10;
+
+$surface-variant: $neutral-variant80;
+$on-surface-variant: $neutral-variant10;
+
+$inverse-surface: $neutral10;
+$on-inverse-surface: $neutral80;
 
 // Outline
 $outline: $neutral30;
-$outline-variant: $neutral-variant30;
+$outline-variant: $neutral-variant40;
+
+// Shadow
+
+$shadow: $black;

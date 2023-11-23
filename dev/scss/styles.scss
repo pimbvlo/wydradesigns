@@ -4,6 +4,8 @@
 @import "helpers/_mixins";
 @import "helpers/_screenVariables";
 @import "helpers/_colorVariables";
+@import "helpers/_paddingVariables";
+
 
 // Base Styles
 @import "base/_normalize";
@@ -12,9 +14,10 @@
 
 // Components Styles
 @import "components/_buttons";
+@import "components/_chips";
 @import "components/_forms";
+@import "components/_icons";
 @import "components/_navigation";
-@import "components/_nav-background";
 
 // Layout Styles
 @import "layout/_header";
@@ -24,6 +27,7 @@
 // Sections Styles
 // INDEX
 @import "sections/index/_indexHero";
+@import "sections/index/_indexProjectOne";
 @import "sections/index/_indexIntro";
 @import "sections/index/_indexProjectList";
 

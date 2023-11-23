@@ -1,21 +1,18 @@
-var burgerSpeed = 0.25;
+var burgerSpeed = 0.5;
 
 
 var canYouSeeNav = false;
 
 gsap.set("#nav-bg", {
-    scaleX: 0,
-    alpha: 0.5
+    scale: 0,
+    alpha: 0.5,
+    display: "none"
 });
 gsap.set("#sm-nav ul li", {
-    alpha: 0
+    alpha: 0,
+    display: "none"
 });
 
-// hide outline
-gsap.set("#burger-outline", {
-    alpha: 0,
-    transformOrigin: "50% 50%"
-});
 // reset the roation pin for the lines
 gsap.set(".burger-lines", {
     transformOrigin: "50% 50%"

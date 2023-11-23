@@ -11,11 +11,89 @@ html {
 /* ---------------- Retina Images ----------------  */
 /* ---------------- Padding/Margin Helpers ----------------  */
 /* =============
-    Variables
+    Screen Variables
 ============= */
 /* =============
-    Variables
+    Color Variables
 ============= */
+/* =============
+    Padding Variables
+============= */
+.bkpt-side-margin {
+  margin: 0px 20px; }
+  @media (min-width: 768px) {
+    .bkpt-side-margin {
+      margin: 0px 40px; } }
+  @media (min-width: 1024px) {
+    .bkpt-side-margin {
+      margin: 0px 64px; } }
+.gap-h {
+  column-gap: 20px; }
+  @media (min-width: 768px) {
+    .gap-h {
+      column-gap: 24px; } }
+  @media (min-width: 1024px) {
+    .gap-h {
+      column-gap: 36px; } }
+.gap-v {
+  row-gap: 20px; }
+  @media (min-width: 768px) {
+    .gap-v {
+      row-gap: 24px; } }
+  @media (min-width: 1024px) {
+    .gap-v {
+      row-gap: 36px; } }
+.padding-tb {
+  padding: 20px 0px; }
+  @media (min-width: 768px) {
+    .padding-tb {
+      padding: 24px 0px; } }
+  @media (min-width: 1024px) {
+    .padding-tb {
+      padding: 36px 0px; } }
+.padding-lr {
+  padding: 0px 20px; }
+  @media (min-width: 768px) {
+    .padding-lr {
+      padding: 0px 24px; } }
+  @media (min-width: 1024px) {
+    .padding-lr {
+      padding: 0px 36px; } }
+.section-content {
+  display: grid;
+  grid-template-areas: ". content .";
+  grid-template-columns: 20px auto 20px; }
+  @media (min-width: 504px) {
+    .section-content {
+      grid-template-columns: 20px auto 20px; } }
+  @media (min-width: 768px) {
+    .section-content {
+      grid-template-columns: 40px auto 40px; } }
+  @media (min-width: 1024px) {
+    .section-content {
+      grid-template-columns: 64px auto 64px; } }
+  @media (min-width: 1440px) {
+    .section-content {
+      grid-template-columns: 64px auto 64px; } }
+  .section-content :first-child {
+    grid-area: content; }
+
+.section-margin {
+  margin: 68px 0px; }
+  @media (min-width: 768px) {
+    .section-margin {
+      margin: 100px 0px; } }
+  @media (min-width: 1024px) {
+    .section-margin {
+      margin: 148px 0px; } }
+.section-padding {
+  padding: 68px 0px; }
+  @media (min-width: 768px) {
+    .section-padding {
+      padding: 100px 0px; } }
+  @media (min-width: 1024px) {
+    .section-padding {
+      padding: 148px 0px; } }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -26,7 +104,7 @@ html {
 html {
   -webkit-text-size-adjust: 100%;
   /* 2 */
-  line-height: 1.15;
+  line-height: 1.25;
   /* 1 */ }
 
 /* Sections
@@ -35,22 +113,18 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  background-color: #FCFCFC;
-  color: #0D001E;
-  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+  color: #2b2b2b;
+  font-family: 'Elza', sans-serif;
   font-weight: 400;
   margin: 0; }
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #1E1E20;
-      color: #FCFCFC; } }
   body ::selection {
-    background: #FF964C;
-    color: #0D001E;
+    background: #e1ccf3;
+    color: #150027;
     opacity: 1; }
   body ::-moz-selection {
-    background: #FF964C;
-    color: #0D001E;
+    background: #e1ccf3;
+    color: #150027;
     opacity: 1; }
 
 /**
@@ -75,12 +149,15 @@ hr {
   overflow: visible;
   /* 2 */ }
 
+table {
+  border: 0px; }
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: monospace, monospace;
+  font-family: ocr-b-std, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -119,7 +196,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
+  font-family: ocr-b-std, monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -153,7 +230,11 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  border-style: none; }
+  background-image: url("../img/global/GenericImage.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 0px; }
 
 /* Forms
    ========================================================================== */
@@ -161,6 +242,12 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+button {
+  border: none;
+  text-decoration: none;
+  fill: none;
+  background: none; }
+
 button,
 input,
 optgroup,
@@ -344,47 +431,6 @@ ul {
   ul li {
     list-style: none; }
 
-.section-content {
-  display: grid;
-  grid-template-areas: ". content .";
-  grid-template-columns: 16px auto 16px; }
-  @media (min-width: 504px) {
-    .section-content {
-      grid-template-columns: 24px auto 24px; } }
-  @media (min-width: 768px) {
-    .section-content {
-      grid-template-columns: 40px auto 40px; } }
-  @media (min-width: 992px) {
-    .section-content {
-      grid-template-columns: auto 904px auto; } }
-  @media (min-width: 1200px) {
-    .section-content {
-      grid-template-columns: auto 1104px auto; } }
-  .section-content > div {
-    grid-area: content; }
-
-.section-padding {
-  padding: 64px 0; }
-  @media (min-width: 768px) {
-    .section-padding {
-      padding: 72px 0; } }
-  @media (min-width: 992px) {
-    .section-padding {
-      padding: 80px 0; } }
-  @media (min-width: 1200px) {
-    .section-padding {
-      padding: 96px 0; } }
-.section-margin {
-  margin: 64px 0; }
-  @media (min-width: 768px) {
-    .section-margin {
-      margin: 72px 0; } }
-  @media (min-width: 992px) {
-    .section-margin {
-      margin: 80px 0; } }
-  @media (min-width: 1200px) {
-    .section-margin {
-      margin: 96px 0; } }
 .case-study-hero {
   align-items: flex-end;
   background-position: center;
@@ -396,7 +442,7 @@ ul {
     text-align: center; }
   .case-study-hero > div article h4 {
     text-align: center; }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     .case-study-hero {
       height: 80vh; }
       @supports (background-attachment: fixed) {
@@ -408,7 +454,7 @@ ul {
     height: 50%;
     width: 100%; }
     .case-study-hero > div article {
-      color: #FCFCFC;
+      color: white;
       text-align: center;
       margin: auto auto;
       max-width: 80%; }
@@ -438,7 +484,7 @@ ul {
   @media (min-width: 768px) {
     .case-study-intro-image > div article {
       grid-gap: 24px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     .case-study-intro-image > div article {
       grid-gap: 32px; } }
   .case-study-intro-image > div article p {
@@ -461,7 +507,7 @@ ul {
     @media (min-width: 768px) {
       .case-study-intro-image > div article ul {
         grid-gap: 24px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       .case-study-intro-image > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 32px; } }
@@ -474,7 +520,7 @@ ul {
       @media (min-width: 768px) {
         .case-study-intro-image > div article ul li {
           height: 280px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         .case-study-intro-image > div article ul li {
           height: 320px; } }
 .case-study-text > div article {
@@ -490,7 +536,7 @@ ul {
     .case-study-text > div article {
       grid-template-columns: 50% auto;
       grid-gap: 24px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     .case-study-text > div article {
       grid-gap: 32px; } }
   .case-study-text > div article p {
@@ -511,7 +557,7 @@ ul {
     @media (min-width: 768px) {
       .case-study-gallery > div article ul {
         grid-gap: 24px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       .case-study-gallery > div article ul {
         grid-gap: 32px; } }
     .case-study-gallery > div article ul li {
@@ -521,11 +567,14 @@ ul {
       width: 100%; }
 
 .caption {
-  background-color: #FCFCFC;
+  background-color: white;
   border-radius: 24px;
   box-shadow: 0 1px 12px -3px rgba(19, 22, 24, 0.05), 0 3px 24px 4px rgba(19, 22, 24, 0.02), 0 8px 16px 2px rgba(19, 22, 24, 0.04); }
   .caption p {
     margin: 16px 32px 16px 32px; }
+
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48; }
 
 /* =============
     Typography
@@ -539,8 +588,7 @@ h6,
 p {
   margin: 0;
   padding: 0;
-  text-align: left;
-  font-family: 'Elza', sans-serif; }
+  text-align: left; }
 
 h1 {
   font-size: 2.5rem;
@@ -551,84 +599,70 @@ h1 {
     h1 {
       font-size: 3.25rem;
       line-height: 3rem; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     h1 {
       font-size: 4.25rem;
       line-height: 4rem; } }
 h2 {
   font-size: 1.75rem;
-  font-weight: 600;
-  letter-spacing: 0.00625rem;
-  line-height: 2.375rem; }
-  @media (min-width: 992px) {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; }
+  @media (min-width: 768px) {
     h2 {
       font-size: 2.5rem;
-      line-height: 3.5rem; } }
+      line-height: 3rem; } }
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 3.25rem;
+      line-height: 4rem; } }
 h3 {
-  font-size: 1.5rem;
+  font-size: 1rem;
+  font-style: normal;
   font-weight: 500;
-  letter-spacing: 0.005rem; }
-  @media (min-width: 992px) {
-    h3 {
-      font-size: 2rem; } }
-h4 {
-  font-size: 1.25rem;
-  font-weight: 500;
-  letter-spacing: 0.0025rem; }
-  @media (min-width: 992px) {
-    h4 {
-      font-size: 1.75rem; } }
-h6 {
-  color: #6613CE;
-  font-size: 2rem;
-  font-weight: 500;
-  letter-spacing: 0.005rem; }
-  @media (min-width: 504px) {
-    h6 {
-      font-size: 2.125rem;
-      letter-spacing: 0.0078125rem; } }
+  line-height: 1.5rem; }
   @media (min-width: 768px) {
-    h6 {
-      letter-spacing: 0.0125rem; } }
-  h6 span {
-    color: #FCFCFC;
-    font-weight: 600; }
-    @media (min-width: 992px) {
-      h6 span {
-        color: #6613CE; } }
+    h3 {
+      font-size: 1.5rem;
+      line-height: 1.75rem; } }
+  @media (min-width: 1024px) {
+    h3 {
+      font-size: 2.25rem;
+      line-height: 2.75rem; } }
+h4 {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; }
+
+h6 {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25rem;
+  text-transform: capitalize; }
+
 p {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.75rem; }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     p {
       font-size: 1.125rem;
       line-height: 1.875rem; } }
-  p span {
-    color: #6613CE;
-    font-weight: 600; }
-    @media (prefers-color-scheme: dark) {
-      p span {
-        color: #C494FF; } }
   p a {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Elza', monospace;
     font-weight: 700; }
 
 a {
   text-decoration: none;
-  color: #6613CE;
+  color: blue;
   transition: 0.25s; }
   a:hover {
-    color: #0D001E; }
+    color: darkblue; }
   a:active {
-    color: #A35200; }
-  @media (prefers-color-scheme: dark) {
-    a {
-      color: #C494FF; }
-      a:hover {
-        color: #EACCFF; }
-      a:active {
-        color: #FFA566; } }
+    color: red; }
+
 /* =============
     Buttons
 ============= */
@@ -646,7 +680,7 @@ a {
   .btn > a {
     padding: 12px 24px 12px 24px;
     align-items: center;
-    color: #FCFCFC;
+    color: white;
     display: flex;
     font-size: 1.5rem;
     font-weight: 600;
@@ -668,7 +702,7 @@ a {
 .btn:visited > a {
   padding: 12px 24px 12px 24px;
   align-items: center;
-  color: #FCFCFC;
+  color: white;
   display: flex;
   font-size: 1.5rem;
   font-weight: 600;
@@ -698,9 +732,9 @@ a {
 .btn:active {
   transition: 0.2s ease-in-out; }
   .btn:active > a {
-    color: #131618; }
+    color: black; }
     .btn:active > a i {
-      color: #131618; }
+      color: black; }
 
 .btn-icon i {
   margin: 8px; }
@@ -728,6 +762,116 @@ a {
 .btn-no-hover .btn:hover > a i {
   transform: translate(0px, 0px) scale(1);
   transition: 0.2s ease-in-out; }
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  align-self: flex-start; }
+  .button > a {
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 20px;
+    color: #6700c2;
+    line-height: 1.25rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    width: 100%; }
+  .button:link > a, .button:visited > a {
+    color: #6700c2; }
+  .button:hover > a {
+    background-color: rgba(103, 0, 194, 0.08);
+    color: #6700c2; }
+  .button:active > a {
+    background-color: rgba(103, 0, 194, 0.1);
+    color: #6700c2; }
+
+.button-icon-left > a {
+  flex-direction: row-reverse;
+  padding: 12px 16px 12px 20px; }
+
+.button-icon-right > a {
+  padding: 12px 20px 12px 16px; }
+
+.button-filled {
+  background-color: #6700c2;
+  box-shadow: none; }
+  .button-filled > a {
+    color: white; }
+  .button-filled:link, .button-filled:visited {
+    box-shadow: none; }
+    .button-filled:link > a, .button-filled:visited > a {
+      color: white; }
+  .button-filled:hover {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.07), 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
+    .button-filled:hover > a {
+      background-color: rgba(255, 255, 255, 0.08);
+      color: white; }
+  .button-filled:active {
+    box-shadow: none; }
+    .button-filled:active > a {
+      background-color: rgba(255, 255, 255, 0.1);
+      color: white; }
+
+.button-tonal {
+  background-color: #e1ccf3;
+  box-shadow: none; }
+  .button-tonal > a {
+    color: #150027; }
+  .button-tonal:link, .button-tonal:visited {
+    box-shadow: none; }
+    .button-tonal:link > a, .button-tonal:visited > a {
+      color: #150027; }
+  .button-tonal:hover {
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.07), 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
+    .button-tonal:hover > a {
+      background-color: rgba(21, 0, 39, 0.08);
+      color: #150027; }
+  .button-tonal:active {
+    box-shadow: none; }
+    .button-tonal:active > a {
+      background-color: rgba(21, 0, 39, 0.1);
+      color: #150027; }
+
+.button-outline {
+  border: 2px solid #6700c2; }
+  .button-outline:focus, .button-outline:active {
+    border: 2px solid #150027; }
+
+.button-text {
+  margin-left: -20px; }
+
+.button-text-icon-right {
+  margin-left: -16px; }
+
+.chip,
+.chip-icon {
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px; }
+  @supports (leading-trim: both) and (text-edge: cap) {
+    .chip,
+    .chip-icon {
+      leading-trim: both;
+      text-edge: cap; } }
+
+.chip {
+  padding: 4px 12px;
+  border: 1px solid #beb9c3; }
+
+.chip-icon {
+  padding: 4px 8px 4px 12px;
+  column-gap: 4px;
+  background-color: #2b2b2b; }
 
 /* =============
     Forms
@@ -772,190 +916,93 @@ input[type=text],
 textarea {
   -webkit-appearance: none; }
 
+.material-symbols-outlined {
+  font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
+
 /* =============
     Navigation
 ============= */
-#sm-nav {
-  position: fixed;
-  top: 104px;
-  width: 100%;
-  z-index: 9500; }
-  @media (min-width: 992px) {
-    #sm-nav {
-      display: none; } }
-  #sm-nav ul li {
-    display: none; }
-    #sm-nav ul li h6 {
-      background-color: rgba(0, 0, 0, 0);
-      border: none;
-      cursor: pointer;
-      text-decoration: none;
-      transition: 0.25s;
-      width: 100%;
-      text-align: right;
-      margin: 0px 0px 32px 0; }
-      @media (prefers-color-scheme: dark) {
-        #sm-nav ul li h6 {
-          color: #FCFCFC; } }
-      #sm-nav ul li h6 a {
-        text-decoration: none;
-        transition: 0.25s;
-        font-weight: 600; }
-        @media (prefers-color-scheme: dark) {
-          #sm-nav ul li h6 a {
-            color: #FCFCFC; } }
-      #sm-nav ul li h6 a:link,
-      #sm-nav ul li h6 a:visited {
-        color: #F0F0F0; }
-        @media (prefers-color-scheme: dark) {
-          #sm-nav ul li h6 a:link,
-          #sm-nav ul li h6 a:visited {
-            color: #FCFCFC; } }
-      #sm-nav ul li h6 a:active,
-      #sm-nav ul li h6 a:hover {
-        border-bottom: 4px solid #0D001E; }
-        @media (prefers-color-scheme: dark) {
-          #sm-nav ul li h6 a:active,
-          #sm-nav ul li h6 a:hover {
-            border-bottom: 4px solid #FCFCFC; } }
-  #sm-nav ul li:nth-last-child(1) h6 {
-    margin: 0px; }
-
-/* =============
-    Nav Background
-============= */
-#nav-bg {
-  height: 50px;
-  overflow: hidden;
-  position: fixed;
-  right: 0;
-  top: 0;
-  width: 100%;
-  z-index: 9000; }
-  @media (prefers-color-scheme: dark) {
-    #nav-bg {
-      background-color: #131618; } }
-  @media (min-width: 992px) {
-    #nav-bg {
-      display: none; } }
-  #nav-bg svg {
-    background-color: rgba(0, 0, 0, 0); }
-    #nav-bg svg circle {
-      fill: #6613CE; }
-      @media (prefers-color-scheme: dark) {
-        #nav-bg svg circle {
-          fill: #0D001E; } }
 /* =============
     Header
 ============= */
 header {
-  box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.08), 0 9px 46px 8px rgba(19, 22, 24, 0.05), 0 24px 38px 3px rgba(19, 22, 24, 0.06);
   position: fixed;
-  height: 72px;
+  height: 80px;
+  background-color: #fdfdfd;
   width: 100%;
-  background-color: #FCFCFC;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
   z-index: 10000;
-  top: 0; }
-  @media (prefers-color-scheme: dark) {
-    header {
-      background-color: #28282A;
-      box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.03), 0 9px 46px 8px rgba(19, 22, 24, 0.01), 0 24px 38px 3px rgba(19, 22, 24, 0.02); } }
-  @media (min-width: 992px) {
-    header {
-      height: 80px; } }
-  header > div {
-    grid-area: header;
+  /* The side navigation menu */ }
+  header > a > svg {
+    height: 32px;
+    width: 100%; }
+    header > a > svg #wydradesigns {
+      fill: #150027; }
+  header #burger-container {
+    height: 64px;
+    width: 64px;
+    z-index: 15000;
+    position: absolute;
+    right: 20px;
+    margin-right: -8px; }
+    @media (min-width: 768px) {
+      header #burger-container {
+        right: 40px; } }
+    @media (min-width: 1024px) {
+      header #burger-container {
+        right: 64px; } }
+    header #burger-container g path {
+      fill: none;
+      stroke: #6700c2; }
+  header .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 10000;
+    top: 0;
+    right: 0;
+    background-color: #2b2b2b;
+    overflow-x: hidden;
+    padding-top: 80px;
+    transition: all 0.5s;
     display: flex;
-    justify-content: space-between;
-    align-items: center; }
-    @media (min-width: 992px) {
-      header > div {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-areas: "h"; } }
-    header > div aside {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      width: 100%; }
-      @media (min-width: 992px) {
-        header > div aside {
-          display: grid;
-          grid-template-columns: auto auto 32%;
-          grid-template-areas: "l . n";
-          grid-area: h; } }
-      @media (min-width: 1200px) {
-        header > div aside {
-          grid-template-columns: auto auto 28%; } }
-      header > div aside a {
-        line-height: 0; }
-        @media (min-width: 992px) {
-          header > div aside a {
-            grid-area: l; } }
-        header > div aside a svg {
-          height: 28px;
-          padding: 16px 0px 16px 0px; }
-          header > div aside a svg #wydradesigns {
-            fill: #6613CE; }
-            @media (prefers-color-scheme: dark) {
-              header > div aside a svg #wydradesigns {
-                fill: #FCFCFC; } }
-      header > div aside #lg-nav {
-        display: none; }
-        @media (min-width: 992px) {
-          header > div aside #lg-nav {
-            display: initial;
-            grid-area: n; } }
-        header > div aside #lg-nav ul {
-          display: flex;
-          align-items: center;
-          justify-content: space-between; }
-          header > div aside #lg-nav ul li a {
-            transition: all 0.10s;
-            font-size: 1.125rem; }
-            header > div aside #lg-nav ul li a span {
-              border-bottom: 4px solid #0D001E;
-              font-weight: 600;
-              color: #0D001E; }
-              @media (prefers-color-scheme: dark) {
-                header > div aside #lg-nav ul li a span {
-                  color: #FCFCFC;
-                  border-bottom: 4px solid #FCFCFC; } }
-          header > div aside #lg-nav ul li a:link,
-          header > div aside #lg-nav ul li a:visited {
-            color: #6613CE; }
-            @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:link,
-              header > div aside #lg-nav ul li a:visited {
-                color: #FCFCFC; } }
-          header > div aside #lg-nav ul li a:active,
-          header > div aside #lg-nav ul li a:hover {
-            border-bottom: 3px solid #6613CE; }
-            @media (prefers-color-scheme: dark) {
-              header > div aside #lg-nav ul li a:active,
-              header > div aside #lg-nav ul li a:hover {
-                border-bottom: 3px solid #FCFCFC; } }
-  @media (min-width: 992px) {
-    header #burger-container {
-      display: none; } }
-  header #burger-container svg {
-    height: 40px;
-    cursor: pointer; }
-    header #burger-container svg #burger-outline {
-      stroke: #6613CE; }
-      @media (prefers-color-scheme: dark) {
-        header #burger-container svg #burger-outline {
-          stroke: #FCFCFC; } }
-    header #burger-container svg .burger-lines {
-      stroke: #6613CE; }
-      @media (prefers-color-scheme: dark) {
-        header #burger-container svg .burger-lines {
-          stroke: #FCFCFC; } }
+    flex-direction: column;
+    gap: 20px; }
+    header .sidenav a {
+      margin-left: 48px;
+      padding: 16px 20px;
+      text-decoration: none;
+      font-size: 24px;
+      color: #e1ccf3;
+      display: block;
+      transition: 0.3s; }
+      @media (min-width: 768px) {
+        header .sidenav a {
+          padding: 8px 40px; } }
+      @media (min-width: 1024px) {
+        header .sidenav a {
+          padding: 16px 40px; } }
+      header .sidenav a:hover {
+        background-color: #e1ccf3;
+        color: #150027; }
+    header .sidenav div {
+      position: absolute;
+      height: 100%;
+      width: 48px;
+      background-color: #e1ccf3;
+      background-image: url(../img/global/FloorDots.svg);
+      background-size: 32%;
+      top: 0;
+      left: 0;
+      z-index: 1000; }
+
 /* =============
     Footer
 ============= */
 footer {
-  color: #FCFCFC;
+  color: white;
   background-color: #0D001E; }
   @media (prefers-color-scheme: dark) {
     footer {
@@ -977,7 +1024,7 @@ footer {
       grid-area: l; }
       footer div article figure img {
         width: 144px; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           footer div article figure img {
             width: 168px; } }
     footer div article ul {
@@ -993,11 +1040,11 @@ footer {
         footer div article ul {
           margin: 0px 56px 0px 0px;
           width: 240px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         footer div article ul {
           margin: 0px 120px 0px 0px; } }
       footer div article ul li a {
-        color: #FCFCFC;
+        color: white;
         font-size: 2rem;
         padding: 8px 8px 8px 8px; }
         @media (min-width: 768px) {
@@ -1006,7 +1053,7 @@ footer {
             padding: 2px 2px 2px 2px; } }
       footer div article ul li a:link,
       footer div article ul li a:visited {
-        color: #FCFCFC; }
+        color: white; }
       footer div article ul li a:active,
       footer div article ul li a:hover {
         color: #FF964C; }
@@ -1030,7 +1077,7 @@ footer {
   @media (min-width: 768px) {
     #csFooter > div article {
       grid-gap: 24px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #csFooter > div article {
       grid-template-columns: repeat(5, 1fr);
       grid-template-areas: "b b . . ."; } }
@@ -1045,57 +1092,176 @@ footer {
 ============= */
 #indexHero {
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 72vh;
-  min-height: 504px; }
-  @supports (background-blend-mode: multiply) {
-    #indexHero {
-      background-blend-mode: multiply;
-      background-color: #6613CE;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; } }
+  background-image: url("../img/index/TilePhoto.svg");
+  background-repeat: repeat;
+  background-size: 16%;
+  height: 40vh;
+  min-height: 200px;
+  background-color: #f8f5fb; }
   @media (min-width: 768px) {
     #indexHero {
-      background-position: center; } }
-  @media (min-width: 992px) {
-    @supports (background-attachment: fixed) {
-      #indexHero {
-        background-attachment: fixed; } } }
-  #indexHero div {
-    align-items: flex-end;
+      background-size: 12%; } }
+  @media (min-width: 1024px) {
+    #indexHero {
+      height: 48vh;
+      background-size: 6%; } }
+  @media (min-width: 1440px) {
+    #indexHero {
+      background-size: 4%; } }
+  #indexHero article {
+    align-items: flex-start;
     display: flex;
-    justify-content: center; }
-    #indexHero div article {
-      margin: 0px 0px 56px 0px; }
-      #indexHero div article figure {
-        align-items: center;
-        background-color: #FCFCFC;
-        border-radius: 500px;
-        display: flex;
-        height: 56px;
-        justify-content: center;
-        margin: 0 auto 56px auto;
-        padding: 16px 16px 16px 16px;
-        width: 56px; }
-        @media (min-width: 768px) {
-          #indexHero div article figure {
-            margin: 0px auto 4vh auto;
-            height: 72px;
-            width: 72px; } }
-        @media (min-width: 768px) {
-          #indexHero div article figure {
-            margin: 0px auto 6vh auto; } }
-        #indexHero div article figure svg {
-          width: 100%; }
-      #indexHero div article h1 {
-        color: #FCFCFC;
-        font-size: 3rem;
-        line-height: 3.5rem; }
-        @media (min-width: 768px) {
-          #indexHero div article h1 br {
-            display: none; } }
+    justify-content: flex-end;
+    flex-direction: column; }
+    #indexHero article h1 {
+      color: #2b2b2b; }
+    #indexHero article .splitflap {
+      position: relative;
+      min-width: 12vw;
+      height: 12vw;
+      font-family: "littlebit-dotty-variable", monospace;
+      font-variation-settings: "DOTS" 200;
+      text-align: center;
+      color: #efefef;
+      font-size: 8vw;
+      line-height: 100%; }
+      @media (min-width: 1024px) {
+        #indexHero article .splitflap {
+          min-width: 10vw;
+          height: 10vw;
+          font-size: 7vw; } }
+      @media (min-width: 1440px) {
+        #indexHero article .splitflap {
+          min-width: 5.5vw;
+          height: 5.5vw;
+          font-size: 4vw; } }
+    #indexHero article .center {
+      position: relative;
+      width: 100%;
+      display: flex;
+      justify-content: space-between; }
+      @media (min-width: 1024px) {
+        #indexHero article .center {
+          justify-content: flex-start;
+          gap: 12px; } }
+    #indexHero article .top {
+      position: relative;
+      height: 50%;
+      width: 100%;
+      background-color: #2b2b2b;
+      border-radius: 10px 10px 0 0;
+      overflow: hidden;
+      z-index: 0; }
+      @media (min-width: 768px) {
+        #indexHero article .top {
+          border-radius: 16px 16px 0 0; } }
+    #indexHero article div {
+      perspective: 200px; }
+      @media (min-width: 768px) {
+        #indexHero article div {
+          perspective: 360px; } }
+      @media (min-width: 1024px) {
+        #indexHero article div {
+          perspective: 480px; } }
+    #indexHero article .bottom {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      margin-top: -50%;
+      border-radius: 10px;
+      z-index: -1;
+      background-color: black;
+      background-image: linear-gradient(rgba(59, 182, 235, 0), #2b2b2b);
+      transform-origin: center; }
+      @media (min-width: 768px) {
+        #indexHero article .bottom {
+          border-radius: 16px; } }
+    #indexHero article .nextHalf {
+      position: relative;
+      height: 50%;
+      width: 100%;
+      margin-top: -100%;
+      overflow: hidden;
+      border-radius: 10px 10px 0 0;
+      z-index: 2;
+      background-color: black;
+      background-image: linear-gradient(#2b2b2b, rgba(59, 182, 235, 0));
+      transform-origin: bottom; }
+      @media (min-width: 768px) {
+        #indexHero article .nextHalf {
+          border-radius: 16px 16px 0 0; } }
+    #indexHero article .nextFull {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      background-color: #2b2b2b;
+      margin-top: -50%;
+      border-radius: 10px;
+      z-index: -3; }
+      @media (min-width: 768px) {
+        #indexHero article .nextFull {
+          border-radius: 16px; } }
+    #indexHero article .flip1 {
+      animation: flip1 ease-in 1;
+      animation-duration: 1s; }
+    #indexHero article .flip2 {
+      animation: flip2 ease-out 1;
+      animation-duration: 1s; }
+
+@keyframes flip1 {
+  0% {
+    transform: rotateX(0deg);
+    background-color: #2b2b2b; }
+  50% {
+    transform: rotateX(90deg);
+    background-color: black; }
+  100% {
+    transform: rotateX(90deg); } }
+
+@keyframes flip2 {
+  0% {
+    transform: rotateX(-90deg); }
+  50% {
+    transform: rotateX(-90deg); }
+  100% {
+    transform: rotateX(0deg);
+    background-color: #2b2b2b; } }
+
+/* =============
+    Index Project One
+============= */
+#indexProjectOne article {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    #indexProjectOne article {
+      flex-direction: row;
+      align-items: center; } }
+  #indexProjectOne article img {
+    aspect-ratio: 3/2 auto;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+    background-image: none;
+    object-fit: cover; }
+    @media (min-width: 768px) {
+      #indexProjectOne article img {
+        width: 50%; } }
+    @media (min-width: 1024px) {
+      #indexProjectOne article img {
+        height: 60vh; } }
+  #indexProjectOne article div {
+    display: flex;
+    flex-direction: column; }
+    #indexProjectOne article div ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px; }
+    #indexProjectOne article div .button {
+      align-self: initial; }
+      @media (min-width: 504px) {
+        #indexProjectOne article div .button {
+          align-self: flex-start; } }
 /* =============
     Index Intro
 ============= */
@@ -1121,10 +1287,10 @@ footer {
       @media (min-width: 768px) {
         #indexIntro div article {
           width: 56vw; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #indexIntro div article {
           width: 48vw; } }
-      @media (min-width: 1200px) {
+      @media (min-width: 1440px) {
         #indexIntro div article {
           width: 32vw; } }
       #indexIntro div article p {
@@ -1154,7 +1320,7 @@ footer {
       @media (min-width: 768px) {
         #indexProjectsList > div article div h3 {
           margin: 32px 0px 8px 0px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #indexProjectsList > div article div h3 {
           margin: 40px 0px 24px 0px; } }
     #indexProjectsList > div article div ul {
@@ -1167,7 +1333,7 @@ footer {
       @media (min-width: 768px) {
         #indexProjectsList > div article div ul {
           grid-gap: 24px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #indexProjectsList > div article div ul {
           grid-gap: 32px; } }
       #indexProjectsList > div article div ul li {
@@ -1185,7 +1351,7 @@ footer {
             box-shadow: none; } }
         #indexProjectsList > div article div ul li a {
           align-items: center;
-          color: #FCFCFC;
+          color: white;
           display: flex;
           height: 176px;
           justify-content: center;
@@ -1195,11 +1361,11 @@ footer {
           @media (min-width: 768px) {
             #indexProjectsList > div article div ul li a {
               height: 240px; } }
-          @media (min-width: 992px) {
+          @media (min-width: 1024px) {
             #indexProjectsList > div article div ul li a {
               height: 280px;
               opacity: 0; } }
-          @media (min-width: 1200px) {
+          @media (min-width: 1440px) {
             #indexProjectsList > div article div ul li a {
               height: 320px; } }
           #indexProjectsList > div article div ul li a div h4 {
@@ -1212,7 +1378,7 @@ footer {
             opacity: 0.9; }
         #indexProjectsList > div article div ul li a:link,
         #indexProjectsList > div article div ul li a:visited {
-          color: #FCFCFC; }
+          color: white; }
       @media (prefers-color-scheme: dark) {
         #indexProjectsList > div article div ul li:hover {
           box-shadow: none; } }
@@ -1236,10 +1402,10 @@ footer {
           @media (prefers-color-scheme: dark) {
             #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
               background-color: #C494FF; } }
-          @media (min-width: 992px) {
+          @media (min-width: 1024px) {
             #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
               background-color: rgba(0, 0, 0, 0.64); } }
-  @media (min-width: 992px) and (prefers-color-scheme: dark) {
+  @media (min-width: 1024px) and (prefers-color-scheme: dark) {
     #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
       background-color: #6613CE; } }
           #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
@@ -1251,7 +1417,7 @@ footer {
             @media (prefers-color-scheme: dark) {
               #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
                 content: url("../img/index/projects/MediumLogoBlack.svg"); } }
-  @media (prefers-color-scheme: dark) and (min-width: 992px) {
+  @media (prefers-color-scheme: dark) and (min-width: 1024px) {
     #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
       content: url("../img/index/projects/MediumLogoWhite.svg"); } }
         #indexProjectsList > div article div ul .external-link :hover img {
@@ -1267,25 +1433,25 @@ footer {
         background-image: url("../img/index/projects/purple/FenderCover.jpg");
         background-position: bottom center;
         grid-area: f; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
             background-image: url("../img/index/projects/FenderCover.jpg"); } }
       #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
         background-image: url("../img/index/projects/purple/SHMCover.jpg");
         grid-area: shm; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
             background-image: url("../img/index/projects/SHMCover.jpg"); } }
       #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
         background-image: url("../img/index/projects/purple/AntiCover.jpg");
         grid-area: a; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
             background-image: url("../img/index/projects/AntiCover.jpg"); } }
       #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
         background-image: url("../img/index/projects/purple/TPSCover.jpg");
         grid-area: tps; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
             background-image: url("../img/index/projects/TPSCover.jpg"); } }
       #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
@@ -1296,7 +1462,7 @@ footer {
             ============= */
         display: none;
         grid-area: icm; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
             background-image: url("../img/index/projects/ICMCover.jpg"); } }
   #indexProjectsList > div div:nth-child(3) {
@@ -1310,52 +1476,52 @@ footer {
         background-image: url("../img/index/projects/purple/TCover.jpg");
         grid-area: t;
         display: none; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
             background-image: url("../img/index/projects/TCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
         background-image: url("../img/index/projects/purple/SoACover.jpg");
         grid-area: soa;
         display: none; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
             background-image: url("../img/index/projects/SoACover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
         background-image: url("../img/index/projects/purple/MCover.jpg");
         background-position: right center;
         grid-area: m; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
             background-image: url("../img/index/projects/MCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
         background-image: url("../img/index/projects/purple/ATDCover.jpg");
         background-position: left bottom;
         grid-area: atd; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
             background-image: url("../img/index/projects/ATDCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
         background-image: url("../img/index/projects/purple/TTCover.jpg");
         grid-area: tt; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
             background-image: url("../img/index/projects/TTCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
         background-image: url("../img/index/projects/purple/TargetCover.jpg");
         grid-area: targe; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
             background-image: url("../img/index/projects/TargetCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
         background-image: url("../img/index/projects/purple/TinderCover.jpg");
         grid-area: tinder; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
             background-image: url("../img/index/projects/TinderCover.jpg"); } }
       #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
         background-image: url("../img/index/projects/purple/SecondLifeCover.jpg");
         grid-area: secondlife; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
             background-image: url("../img/index/projects/SecondLifeCover.jpg"); } }
   #indexProjectsList > div div:nth-child(4) {
@@ -1368,13 +1534,13 @@ footer {
       #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
         background-image: url("../img/index/projects/purple/ToLCover.jpg");
         grid-area: tol; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
             background-image: url("../img/index/projects/ToLCover.jpg"); } }
       #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
         background-image: url("../img/index/projects/purple/UnCover.jpg");
         grid-area: ul; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
             background-image: url("../img/index/projects/UnCover.jpg"); } }
       #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
@@ -1384,7 +1550,7 @@ footer {
             ============= */
         display: none;
         grid-area: c; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
             background-image: url("../img/index/projects/ClCover.jpg"); } }
       #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
@@ -1395,7 +1561,7 @@ footer {
             ============= */
         display: none;
         grid-area: qv; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
             background-image: url("../img/index/projects/QVCover.jpg"); } }
   #indexProjectsList > div div:nth-child(5) {
@@ -1408,19 +1574,19 @@ footer {
       #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
         background-image: url("../img/index/projects/purple/BKCover.jpg");
         grid-area: bk; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
             background-image: url("../img/index/projects/BKCover.jpg"); } }
       #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
         background-image: url("../img/index/projects/purple/SACover.jpg");
         grid-area: sa; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
             background-image: url("../img/index/projects/SACover.jpg"); } }
       #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
         background-image: url("../img/index/projects/purple/ClCover.jpg");
         grid-area: c; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
             background-image: url("../img/index/projects/ClCover.jpg"); } }
   #indexProjectsList > div div:nth-child(6) h3:nth-child(1),
@@ -1434,16 +1600,16 @@ footer {
     #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
       background-image: url("../img/index/projects/purple/SBCover.jpg");
       grid-area: sb; }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
           background-image: url("../img/index/projects/SBCover.jpg"); } }
     #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
       background-image: url("../img/index/projects/purple/ONCover.jpg");
       grid-area: on; }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
           background-image: url("../img/index/projects/ONCover.jpg"); } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #indexProjectsList > div li:hover {
       box-shadow: 0 16px 6px -6px rgba(19, 22, 24, 0.04), 0 12px 32px 8px rgba(19, 22, 24, 0.1), 0 16px 20px 2px rgba(19, 22, 24, 0.02);
       transform: scale(1.04);
@@ -1483,7 +1649,7 @@ footer {
       @media (prefers-color-scheme: dark) {
         #aboutHero {
           background-color: #FF964C; } } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     @supports (background-attachment: fixed) {
       #aboutHero {
         background-attachment: fixed; } } }
@@ -1506,7 +1672,7 @@ footer {
       margin: 0 0 0 0;
       grid-template-areas: "p i";
       grid-template-columns: 60% auto; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #aboutWho > div article {
       grid-gap: 32px;
       grid-template-areas: "p . i";
@@ -1518,7 +1684,7 @@ footer {
       @media (min-width: 768px) {
         #aboutWho > div article div p:nth-child(2) {
           padding: 24px 0px 0px 0px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #aboutWho > div article div p:nth-child(2) {
           padding: 32px 0px 0px 0px; } }
   #aboutWho > div article figure {
@@ -1542,7 +1708,7 @@ footer {
         width: 100%;
         max-width: none;
         margin: 0 0 0 0; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #aboutWho > div article figure:hover {
       background-image: url("../img/about/SWydra_Personality.jpg"); } }
 /* =============
@@ -1572,13 +1738,13 @@ footer {
         #resumeEducation > div aside {
           grid-gap: 0 24px;
           padding: 72px 0px 72px 0px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #resumeEducation > div aside {
           grid-gap: 0 32px;
           grid-template-areas: "b b . . .";
           grid-template-columns: repeat(5, 1fr);
           padding: 80px 0px 80px 0px; } }
-      @media (min-width: 1200px) {
+      @media (min-width: 1440px) {
         #resumeEducation > div aside {
           padding: 80px 0px 96px 0px; } }
       #resumeEducation > div aside div {
@@ -1588,7 +1754,7 @@ footer {
           width: 100%; }
     #resumeEducation > div article {
       grid-area: edu; }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #resumeEducation > div article {
           width: 75%; } }
       #resumeEducation > div article div:nth-child(1) {
@@ -1601,7 +1767,7 @@ footer {
   display: grid;
   grid-template-areas: "h&a";
   grid-template-columns: repeat(1, 1fr); }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #resumeHonors > div {
       width: 75%; } }
   #resumeHonors > div article {
@@ -1619,7 +1785,7 @@ footer {
     display: grid;
     grid-template-areas: "rc";
     grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #resumeCourses > div {
         width: 75%; } }
     #resumeCourses > div article {
@@ -1633,7 +1799,7 @@ footer {
             grid-gap: 0 24px;
             grid-template-areas: "h2 h2" "ul1 ul2";
             grid-template-columns: repeat(2, 1fr); } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #resumeCourses > div article div {
             grid-gap: 0 32px; } }
         #resumeCourses > div article div h2 {
@@ -1658,7 +1824,7 @@ footer {
   display: grid;
   grid-template-areas: "h2" "Pfizer" "Pilam";
   grid-template-columns: repeat(1, 1fr); }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #resumeExperience > div {
       width: 75%; } }
   #resumeExperience > div h2 {
@@ -1670,7 +1836,7 @@ footer {
       #resumeExperience > div article {
         grid-gap: 0 24px;
         grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #resumeExperience > div article {
         grid-gap: 0 32px; } }
     #resumeExperience > div article > div:nth-child(1) {
@@ -1735,7 +1901,7 @@ footer {
     display: grid;
     grid-template-areas: "activities";
     grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #resumeActivities > div {
         width: 75%; } }
     #resumeActivities > div article {
@@ -1748,7 +1914,7 @@ footer {
   display: grid;
   grid-template-areas: "h2" "skills";
   grid-template-columns: repeat(1, 1fr); }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #resumeSkills > div {
       width: 75%; } }
   #resumeSkills > div h2 {
@@ -1765,7 +1931,7 @@ footer {
         grid-gap: 16px 24px;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, auto); } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #resumeSkills > div article {
         grid-gap: 16px 32px; } }
     #resumeSkills > div article div:nth-child(1),
@@ -1801,7 +1967,7 @@ footer {
           #resumeSkills > div article div:nth-child(3) ul,
           #resumeSkills > div article div:nth-child(4) ul {
             grid-template-columns: 40% auto; } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #resumeSkills > div article div:nth-child(1) ul,
           #resumeSkills > div article div:nth-child(2) ul,
           #resumeSkills > div article div:nth-child(3) ul,
@@ -1829,10 +1995,10 @@ footer {
 #antiHero {
   background-image: url("../img/case-studies/anti/antiHero.jpg");
   background-position: center top; }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #antiHero {
       background-position: center; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #antiHero {
       background-position: center bottom; } }
 /* =============
@@ -1861,10 +2027,10 @@ footer {
       @media (min-width: 768px) {
         #antiIntro > div article {
           width: 56vw; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #antiIntro > div article {
           width: 48vw; } }
-      @media (min-width: 1200px) {
+      @media (min-width: 1440px) {
         #antiIntro > div article {
           width: 32vw; } }
       #antiIntro > div article p {
@@ -1872,7 +2038,7 @@ footer {
         @media (min-width: 768px) {
           #antiIntro > div article p {
             padding: 0px 16px 0px 16px; } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #antiIntro > div article p {
             font-size: 1.25rem; } }
         #antiIntro > div article p span {
@@ -1901,7 +2067,7 @@ footer {
       #antiGallery > div article ul {
         grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
         grid-template-rows: 304px 72px 80px 104px auto 176px 384px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #antiGallery > div article ul {
         grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
         grid-template-columns: repeat(7, 1fr);
@@ -1934,7 +2100,7 @@ footer {
       @media (min-width: 504px) {
         #antiGallery > div article ul li:nth-child(6) {
           background-position: center 80%; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #antiGallery > div article ul li:nth-child(6) {
           background-position: center 90%; } }
     #antiGallery > div article ul li:nth-child(7) {
@@ -1964,7 +2130,7 @@ footer {
   @media (min-width: 768px) {
     #atdIntro > div article {
       width: 50%; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #atdIntro > div article p {
       font-size: 1.25rem; } }
 /* =============
@@ -1987,12 +2153,12 @@ footer {
       #atdGallery > div article ul {
         grid-template-areas: "AWMLD AWMLD ASFive" "APMBHO APMBHO APMBHO" "ASEight ASEight AIMR" "AEMBT AEMBT ASSix";
         grid-template-rows: 176px 256px 288px 280px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #atdGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" ". . APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
         grid-template-rows: 280px 280px 168px 200px 280px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #atdGallery > div article ul {
         grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" "APMBHO APMBHO APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
         grid-template-rows: 280px 400px 168px 200px 280px; } }
@@ -2036,7 +2202,7 @@ footer {
         #atdGallery > div article ul li:nth-child(7) {
           display: initial;
           grid-area: ASEight; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #atdGallery > div article ul li:nth-child(7) {
           background-position: center top; } }
 /* =============
@@ -2052,7 +2218,7 @@ footer {
     #atdColor > div article {
       grid-gap: 24px;
       grid-template-columns: 50% auto; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #atdColor > div article {
       grid-gap: 32px; } }
   #atdColor > div article h2 {
@@ -2068,7 +2234,7 @@ footer {
         grid-gap: 24px;
         grid-template-areas: "web-color print-color env-color";
         grid-template-columns: repeat(3, 1fr); } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #atdColor > div article div:nth-child(2) {
         grid-gap: 32px; } }
     #atdColor > div article div:nth-child(2) .color-palette {
@@ -2079,11 +2245,11 @@ footer {
       border-radius: 16px;
       box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.02), 0 9px 46px 8px rgba(19, 22, 24, 0.012), 0 24px 38px 3px rgba(19, 22, 24, 0.012);
       width: auto; }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #atdColor > div article div:nth-child(2) .color-palette {
           grid-gap: 24px;
           padding: 24px 24px 24px 24px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #atdColor > div article div:nth-child(2) .color-palette {
           padding: 32px 32px 32px 32px; } }
       #atdColor > div article div:nth-child(2) .color-palette li {
@@ -2098,7 +2264,7 @@ footer {
           #atdColor > div article div:nth-child(2) .color-palette li {
             border-radius: 8px;
             height: 44px; } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #atdColor > div article div:nth-child(2) .color-palette li {
             border-radius: 104px;
             height: 56px; }
@@ -2106,7 +2272,7 @@ footer {
               box-shadow: 0 1px 8px -4px rgba(19, 22, 24, 0.04), 0 4px 20px 4px rgba(19, 22, 24, 0.03), 0 12px 14px 3px rgba(19, 22, 24, 0.04);
               transform: scale(1.08);
               transition: all 0.2s ease-in-out; } }
-        @media (min-width: 1200px) {
+        @media (min-width: 1440px) {
           #atdColor > div article div:nth-child(2) .color-palette li {
             border-radius: 104px;
             height: 78px; } }
@@ -2218,7 +2384,7 @@ footer {
       #atdIconography > div article {
         grid-gap: 24px;
         grid-template-columns: 50% auto; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #atdIconography > div article {
         grid-gap: 32px; } }
     #atdIconography > div article h2 {
@@ -2239,7 +2405,7 @@ footer {
             grid-gap: 24px;
             grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square .";
             grid-template-columns: repeat(9, 1fr); } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #atdIconography > div article div:nth-child(2) ul {
             grid-gap: 32px; } }
         #atdIconography > div article div:nth-child(2) ul li:nth-child(1) {
@@ -2266,34 +2432,34 @@ footer {
 ============= */
 @media (prefers-color-scheme: dark) {
   #atdDottedCircle #ShapeDottedCircle #Oval {
-    stroke: #FCFCFC; } }
+    stroke: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdDottedSquare .st0,
   #atdDottedSquare .st1 {
-    stroke: #FCFCFC; } }
+    stroke: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdHalftone #PatternHalftoneOffset {
-    fill: #FCFCFC; } }
+    fill: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdLines #ShapeOutlineLines {
-    stroke: #FCFCFC; } }
+    stroke: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdOutlineTriangle #ShapeOutlineTriangle #Triangle {
-    stroke: #FCFCFC; } }
+    stroke: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdSquare #ShapeSolidSquare {
-    fill: #FCFCFC;
-    stroke: #FCFCFC; } }
+    fill: white;
+    stroke: white; } }
 
 @media (prefers-color-scheme: dark) {
   #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2,
   #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2-Copy {
-    stroke: #FCFCFC; } }
+    stroke: white; } }
 
 /* =============
     Attention to Detail Imagery
@@ -2308,7 +2474,7 @@ footer {
     #atdImagery > div article {
       grid-gap: 24px;
       grid-template-columns: 50% auto; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #atdImagery > div article {
       grid-gap: 32px; } }
   #atdImagery > div article h2 {
@@ -2332,13 +2498,13 @@ footer {
           grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3" "line-length line-length line-length line-length line-length . . . ." ". margins margins margins margins wcag wcag wcag ." ". margins margins margins margins . screenshot1 screenshot1 screenshot1" "pictogram pictogram pictogram pictogram pictogram pictogram . . ." "screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot4 screenshot4 screenshot4" ". . . . . . screenshot4 screenshot4 screenshot4";
           grid-template-columns: repeat(9, 1fr);
           grid-template-rows: auto 64px auto 220px auto 130px 40px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #atdImagery > div article div:nth-child(2) ul {
           grid-gap: 32px;
           grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3 margins margins margins" "line-length line-length line-length line-length line-length . . . . margins margins margins" ". screenshot1 screenshot1 screenshot1 screenshot1 . . wcag wcag wcag wcag wcag" "pictogram pictogram pictogram pictogram pictogram pictogram . . screenshot4 screenshot4 screenshot4 ." "pictogram pictogram pictogram pictogram pictogram pictogram . . . . . ." "pictogram pictogram pictogram pictogram pictogram pictogram screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2";
           grid-template-columns: repeat(12, 1fr);
           grid-template-rows: 144px auto auto 200px auto 96px; } }
-      @media (min-width: 1200px) {
+      @media (min-width: 1440px) {
         #atdImagery > div article div:nth-child(2) ul {
           grid-template-rows: 176px auto auto 224px auto 112px; } }
       #atdImagery > div article div:nth-child(2) ul li {
@@ -2361,7 +2527,7 @@ footer {
         background-image: url("../img/case-studies/atd/atdScreenshot2.png");
         background-position: center 20%;
         grid-area: screenshot2; }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #atdImagery > div article div:nth-child(2) ul li:nth-child(6) {
             background-position: center 40%; } }
       #atdImagery > div article div:nth-child(2) ul li:nth-child(7) {
@@ -2402,7 +2568,7 @@ footer {
       #atdLogo > div article {
         grid-gap: 24px;
         grid-template-columns: 50% auto; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #atdLogo > div article {
         grid-gap: 32px;
         grid-template-areas: "h2 h2" "p1 icon-grid"; } }
@@ -2453,7 +2619,7 @@ footer {
     @media (min-width: 768px) {
       #bkGallery > div article ul {
         grid-template-rows: 400px auto 200px 240px 160px 200px 304px 280; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #bkGallery > div article ul {
         grid-template-areas: "BS1 BS1 BS1 BS1 BS1 BS1 BS1" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 BD2 BD2" ". BC2 BC2 BC2 BC2 BD2 BD2" "BS6 BS6 BS6 BS6 BQ BQ BQ" "BD4 BD4 BD4 . BQ BQ BQ" "BS5 BS5 BS5 BD3 BD3 BD3 BD3" ". . . BD3 BD3 BD3 BD3";
         grid-template-columns: repeat(7, 1fr);
@@ -2476,7 +2642,7 @@ footer {
       @media (min-width: 768px) {
         #bkGallery > div article ul li:nth-child(2) {
           background-size: cover; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #bkGallery > div article ul li:nth-child(2) {
           background-size: auto 150%; } }
     #bkGallery > div article ul li:nth-child(3) {
@@ -2541,7 +2707,7 @@ footer {
     @media (min-width: 768px) {
       #clGallery > div article ul {
         grid-template-rows: 800px auto 504px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #clGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 CP CP CP CP" "CPM CPM CPM CPM CPM . .";
@@ -2582,13 +2748,13 @@ footer {
     @media (min-width: 768px) {
       #fenderText1 > div article p {
         margin: 0px 0px 56px 0px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #fenderText1 > div article p {
         margin: 0px 0px 64px 0px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #fenderText1 > div article p {
         margin: 0px 0px 80px 0px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #fenderText1 > div article ul {
       grid-template-columns: repeat(4, 1fr); } }
   #fenderText1 > div article ul li:nth-child(1) {
@@ -2616,7 +2782,7 @@ footer {
   @media (min-width: 768px) {
     #fenderGallery > div article ul {
       grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #fenderGallery > div article ul {
       grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "FFS FFS FFS FFS FFS FFS FFS" "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2" "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2" "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1" "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1" "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
       grid-template-columns: repeat(7, 1fr);
@@ -2627,10 +2793,10 @@ footer {
     @media (min-width: 504px) {
       #fenderGallery > div article ul li:nth-child(1) {
         background-position: 100% center; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #fenderGallery > div article ul li:nth-child(1) {
         background-position: 80% center; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #fenderGallery > div article ul li:nth-child(1) {
         background-position: 100% center; } }
   #fenderGallery > div article ul li:nth-child(2) {
@@ -2675,13 +2841,13 @@ footer {
   @media (min-width: 768px) {
     #icmText1 > div article p {
       margin: 0px 0px 56px 0px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #icmText1 > div article p {
       margin: 0px 0px 64px 0px; } }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #icmText1 > div article p {
       margin: 0px 0px 80px 0px; } }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   #icmText1 > div article ul {
     grid-template-columns: repeat(4, 1fr); } }
 
@@ -2728,12 +2894,12 @@ footer {
     @media (min-width: 768px) {
       #icmGallery > div article ul {
         grid-template-rows: 680px auto 304px 400px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #icmGallery > div article ul {
         grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: 744px auto 640px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #icmGallery > div article ul {
         grid-template-rows: 800px auto 704px; } }
     #icmGallery > div article ul li:nth-child(1) {
@@ -2746,7 +2912,7 @@ footer {
       @media (min-width: 504px) {
         #icmGallery > div article ul li:nth-child(2) {
           background-size: cover; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #icmGallery > div article ul li:nth-child(2) {
           background-size: auto 200%; } }
     #icmGallery > div article ul li:nth-child(3) {
@@ -2785,12 +2951,12 @@ footer {
       #mGallery > div article ul {
         grid-template-areas: "MMTLD MMTLD MMTLD" "paragraph1 paragraph1 ." "MSOne MSOne MSThree" "MMBT MMBT MMBT" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
         grid-template-rows: 400px auto 320px 600px 400px 400px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #mGallery > div article ul {
         grid-template-areas: "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1" "MSOne MSOne MSOne MSOne MSOne MSThree MSThree" "MTHO MTHO MMBT MMBT MMBT MMBT MMBT" "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: auto 264px 416px 440px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #mGallery > div article ul {
         grid-template-rows: 280px 344px 560px 480px; } }
     #mGallery > div article ul li:nth-child(1) {
@@ -2810,7 +2976,7 @@ footer {
           background-size: auto 110%;
           background-position: center top;
           grid-area: MMTLD; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #mGallery > div article ul li:nth-child(2) {
           background-size: 110% auto; } }
     #mGallery > div article ul li:nth-child(3) {
@@ -2829,7 +2995,7 @@ footer {
       @media (min-width: 504px) {
         #mGallery > div article ul li:nth-child(4) {
           background-size: auto 448px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #mGallery > div article ul li:nth-child(4) {
           background-size: auto 344px; } }
     #mGallery > div article ul li:nth-child(5) {
@@ -2846,7 +3012,7 @@ footer {
       @media (min-width: 504px) {
         #mGallery > div article ul li:nth-child(6) {
           background-position: right center; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #mGallery > div article ul li:nth-child(6) {
           background-position: center top; } }
     #mGallery > div article ul li:nth-child(7) {
@@ -2889,7 +3055,7 @@ footer {
     @media (min-width: 768px) {
       #onGallery > div article ul {
         grid-template-rows: 504px auto 680px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #onGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 OP OP OP OP" ". . . OP OP OP OP" "OPM OPM OPM OPM OPM . .";
@@ -2923,7 +3089,7 @@ footer {
       background-color: #161618; } }
   #qvText1 > div article p {
     margin: 0px 0px 40px 0px; }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #qvText1 > div article p {
         margin: 0px 0px 56px 0px; } }
   #qvText1 > div article ul li {
@@ -2938,7 +3104,7 @@ footer {
     @media (min-width: 504px) {
       #qvText1 > div article ul li:nth-child(3) {
         grid-column: span 2; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #qvText1 > div article ul li:nth-child(3) {
         grid-column: span 1; } }
 /* =============
@@ -2956,7 +3122,7 @@ footer {
     #qvGallery > div article ul {
       grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph ." "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
       grid-template-rows: 280px 104px 120px auto 200px 304px 600px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #qvGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . ." "BI2 BI2 BI2 BI2 BI2 BD4 BD4";
@@ -2984,7 +3150,7 @@ footer {
     background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
     grid-area: BD4;
     background-position: left top; }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #qvGallery > div article ul li:nth-child(5) {
         background-position: 30% top; } }
   #qvGallery > div article ul li:nth-child(6) {
@@ -3000,7 +3166,7 @@ footer {
 ============= */
 #saHero {
   background-image: url("../img/case-studies/sa/saHero.jpg"); }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #saHero {
       background-position: center 80%; } }
 /* =============
@@ -3042,13 +3208,13 @@ footer {
             height: 336px;
             left: 400;
             width: 504px; } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #saText1 > div article div figure {
             height: 504px;
             left: 504;
             width: 520px;
             top: -152px; } }
-        @media (min-width: 1200px) {
+        @media (min-width: 1440px) {
           #saText1 > div article div figure {
             height: 520px;
             width: 640px; } }
@@ -3066,7 +3232,7 @@ footer {
   @media (min-width: 768px) {
     #saGallery > div article ul {
       grid-template-rows: 304px auto 504px 304px; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #saGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 paragraph paragraph paragraph paragraph" ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
@@ -3122,7 +3288,7 @@ footer {
     @media (min-width: 768px) {
       #sbGallery > div article ul {
         grid-template-rows: 400px 400px auto 800px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #sbGallery > div article ul {
         grid-template-areas: "SP1 SP1 SP1 . SP2 SP2 SP2" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 . ." "SPZ1 SPZ1 SPZ2 SPZ2 SPZ2 SPZ2 SPZ2" ". . . SBPM SBPM SBPM SBPM";
         grid-template-columns: repeat(7, 1fr);
@@ -3145,10 +3311,10 @@ footer {
       background-position: center 16%;
       background-size: auto 300%;
       grid-area: SPZ2; }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #sbGallery > div article ul li:nth-child(4) {
           background-size: auto 400%; } }
-      @media (min-width: 1200px) {
+      @media (min-width: 1440px) {
         #sbGallery > div article ul li:nth-child(4) {
           background-size: auto 480%; } }
     #sbGallery > div article ul li:nth-child(5) {
@@ -3168,7 +3334,7 @@ footer {
   @media (min-width: 768px) {
     #shmHero {
       background-position: 80% top; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #shmHero {
       background-position: right 56%; } }
 /* =============
@@ -3184,10 +3350,10 @@ footer {
     @media (min-width: 768px) {
       #shmText1 > div article p {
         margin: 0px 0px 56px 0px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #shmText1 > div article p {
         margin: 0px 0px 64px 0px; } }
-    @media (min-width: 1200px) {
+    @media (min-width: 1440px) {
       #shmText1 > div article p {
         margin: 0px 0px 80px 0px; } }
   #shmText1 > div article ul li:nth-child(1) {
@@ -3200,7 +3366,7 @@ footer {
     @media (min-width: 504px) {
       #shmText1 > div article ul li:nth-child(3) {
         grid-column: span 2; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #shmText1 > div article ul li:nth-child(3) {
         grid-column: span 1; } }
 /* =============
@@ -3215,7 +3381,7 @@ footer {
     margin: 0px 0px 48px 0px; }
     @media (prefers-color-scheme: dark) {
       #shmText3 > div article p {
-        color: #FCFCFC; } }
+        color: white; } }
     @media (min-width: 768px) {
       #shmText3 > div article p {
         margin: 0px 0px 0px 0px; } }
@@ -3251,7 +3417,7 @@ footer {
     @media (min-width: 768px) {
       #shmGallery > div article ul {
         grid-template-rows: 280px 160px auto 304px 240px 160px 304px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #shmGallery > div article ul {
         grid-template-areas: "paragraph paragraph paragraph paragraph . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1" "BT BT BT BT BT BT .";
         grid-template-columns: repeat(7, 1fr);
@@ -3264,7 +3430,7 @@ footer {
         #shmGallery > div article ul li:nth-child(1) {
           background-position: right 10%;
           background-size: auto 200%; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #shmGallery > div article ul li:nth-child(1) {
           background-size: cover; } }
     #shmGallery > div article ul li:nth-child(2) {
@@ -3278,7 +3444,7 @@ footer {
       @media (min-width: 504px) {
         #shmGallery > div article ul li:nth-child(3) {
           background-size: auto 150%; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #shmGallery > div article ul li:nth-child(3) {
           background-size: cover; } }
     #shmGallery > div article ul li:nth-child(4) {
@@ -3308,7 +3474,7 @@ footer {
       @media (min-width: 768px) {
         #shmGallery > div article ul li:nth-child(8) {
           background-position: center 80%; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #shmGallery > div article ul li:nth-child(8) {
           background-position: 40% 90%; } }
     #shmGallery > div article ul li:nth-child(9) {
@@ -3339,7 +3505,7 @@ footer {
         grid-template-areas: "v v v" "paragraph1 paragraph1 ." "ST1 ST1 ST2" "ST3 . ST4" "ST6 ST6 ." "ST7 ST5 ST5" ". ST5 ST5";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto 80px 80px 184px 80px 80px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #soaGallery > div article ul {
         grid-template-areas: "v v v v v v v" ". paragraph1 paragraph1 paragraph1 paragraph1 . ." "ST1 ST3 ST3 ST5 ST5 ST6 ." "ST2 ST2 ST4 ST5 ST5 . ST7";
         grid-template-columns: repeat(7, 1fr);
@@ -3382,7 +3548,7 @@ footer {
 ============= */
 #tpsHero {
   background-image: url("../img/case-studies/tps/tpsHero.png");
-  background-color: #FCFCFC;
+  background-color: white;
   background-position: right top; }
 
 /* =============
@@ -3390,10 +3556,10 @@ footer {
 ============= */
 #tpsText1 > div article p {
   margin: 0px 0px 32px 0px; }
-  @media (min-width: 1200px) {
+  @media (min-width: 1440px) {
     #tpsText1 > div article p {
       margin: 0px 0px 80px 0px; } }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   #tpsText1 > div article ul {
     grid-template-columns: repeat(4, 1fr); } }
 
@@ -3430,7 +3596,7 @@ footer {
       #tpsGallery > div article ul {
         grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
         grid-template-rows: auto 504px 304px 280px 640px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #tpsGallery > div article ul {
         grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
         grid-template-columns: repeat(7, 1fr);
@@ -3495,7 +3661,7 @@ footer {
     #triumphGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: ". Codepen Codepen" "paragraph paragraph ."; } }
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     #triumphGallery > div article ul {
       grid-template-areas: "Codepen Codepen Codepen paragraph paragraph paragraph paragraph";
       grid-template-columns: repeat(7, 1fr);
@@ -3534,7 +3700,7 @@ footer {
     @media (min-width: 768px) {
       #tolGallery > div article ul {
         grid-template-rows: 312px auto 304px 440px auto 400px 504px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #tolGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "TIM TIM TIM TIM TIM . ." "TCS TCS . paragraph1 paragraph1 paragraph1 paragraph1" "TCS TCS . . TS TS TS" "TTM TTM TTM TTM TS TS TS" "TTM TTM TTM TTM . . ." ". paragraph2 paragraph2 paragraph2 paragraph2 . ." ". . TI TI TI TI TI" "TOB TOB TOB TOB . . .";
@@ -3593,7 +3759,7 @@ footer {
     @media (min-width: 768px) {
       #unGallery > div article ul {
         grid-template-rows: 800px auto 600px; } }
-    @media (min-width: 992px) {
+    @media (min-width: 1024px) {
       #unGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 UPF UPF UPF UPF" "UPH UPH UPH . . . .";
@@ -3639,7 +3805,7 @@ footer {
       @media (min-width: 768px) {
         #FourOhFourMain > div article {
           grid-gap: 24px; } }
-      @media (min-width: 992px) {
+      @media (min-width: 1024px) {
         #FourOhFourMain > div article {
           grid-gap: 0px 32px;
           grid-template-areas: "h1 h1 h1 h1 h1" "p p . . ." "btn btn . . .";
@@ -3655,9 +3821,9 @@ footer {
         @media (min-width: 768px) {
           #FourOhFourMain > div article div {
             margin: 72px 0px 0px 0px; } }
-        @media (min-width: 992px) {
+        @media (min-width: 1024px) {
           #FourOhFourMain > div article div {
             margin: 80px 0px 0px 0px; } }
-        @media (min-width: 1200px) {
+        @media (min-width: 1440px) {
           #FourOhFourMain > div article div {
             margin: 96px 0px 0px 0px; } }

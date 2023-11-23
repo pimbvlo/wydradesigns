@@ -1,0 +1,114 @@
+/* =============
+    Padding Variables
+============= */
+.bkpt-side-margin {
+    margin: 0px 20px;
+
+    @include md {
+        margin: 0px 40px;
+    }
+
+    @include lg {
+        margin: 0px 64px;
+    }
+}
+
+.gap-h {
+    column-gap: 20px;
+
+    @include md {
+        column-gap: 24px;
+    }
+
+    @include lg {
+        column-gap: 36px;
+    }
+
+}
+
+.gap-v {
+    row-gap: 20px;
+
+    @include md {
+        row-gap: 24px;
+    }
+
+    @include lg {
+        row-gap: 36px;
+    }
+
+}
+
+.padding-tb {
+    padding: 20px 0px;
+
+    @include md {
+        padding: 24px 0px;
+    }
+
+    @include lg {
+        padding: 36px 0px;
+    }
+}
+
+.padding-lr {
+    padding: 0px 20px;
+
+    @include md {
+        padding: 0px 24px;
+    }
+
+    @include lg {
+        padding: 0px 36px;
+    }
+}
+
+.section-content {
+    display: grid;
+    grid-template-areas: ". content .";
+    grid-template-columns: 20px auto 20px;
+
+    @include sm {
+        grid-template-columns: 20px auto 20px;
+    }
+
+    @include md {
+        grid-template-columns: 40px auto 40px;
+    }
+
+    @include lg {
+        grid-template-columns: 64px auto 64px;
+    }
+
+    @include xl {
+        grid-template-columns: 64px auto 64px;
+    }
+
+    :first-child {
+        grid-area: content;
+    }
+}
+
+.section-margin {
+    margin: 68px 0px;
+
+    @include md {
+        margin: 100px 0px;
+    }
+
+    @include lg {
+        margin: 148px 0px;
+    }
+}
+
+.section-padding {
+    padding: 68px 0px;
+
+    @include md {
+        padding: 100px 0px;
+    }
+
+    @include lg {
+        padding: 148px 0px;
+    }
+}

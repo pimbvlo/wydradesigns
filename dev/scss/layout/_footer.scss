@@ -2,85 +2,145 @@
     Footer
 ============= */
 footer {
-    color: $white;
-    background-color: $dark-purple;
-    @include dark {
-        background-color: $grey-mid-extra;
+    height: 90vh;
+    background-color: $inverse-surface;
+    color: $on-inverse-surface;
+    .button {
+        text-transform: none;
+        align-self: flex-start;
+
+        >a {
+            align-self: auto;
+
+            color: $inverse-primary;
+        }
+
+        &:link,
+        &:visited {
+            >a {
+                color: $inverse-primary;
+            }
+        }
+
+        &:hover {
+            >a {
+                background-color: rgba($inverse-primary, $state-hovered);
+                color: $inverse-primary;
+            }
+
+        }
+
+        &:active {
+            >a {
+                background-color: rgba($inverse-primary, $state-pressed);
+                color: $inverse-primary;
+            }
+
+        }
+
+
     }
 
-    div {
+    > div {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+
         article {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-areas: "l l" "a c";
-            grid-gap: 16px;
-            @include sm {
-                grid-template-areas: "l ." "a c";
-            }
-            @include md {
-                grid-gap: 16px;
-                grid-template-columns: repeat(3,1fr);
-                grid-template-areas: "l . ." "a . c";
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            .button {
+                >a {
+                    font-weight: 400;
+                    color: $on-primary;
+                }
+
+                &:link,
+                &:visited {
+                    >a {
+                        color: $on-primary;
+                    }
+                }
+
+                &:hover {
+                    >a {
+                        background-color: rgba($inverse-primary, $state-hovered);
+                        color: $on-primary;
+                    }
+
+                }
+
+                &:active {
+                    >a {
+                        background-color: rgba($inverse-primary, $state-pressed);
+                        color: $on-primary;
+                    }
+
+                }
+
+
             }
 
-            figure {
-                grid-area: l;
+            h2 {
+                font-size: rem-calc(52);
+                line-height: rem-calc(64);
 
-                img {
-                    width: 144px;
-                    @include lg {
-                        width: 168px;
+            }
+        }
+
+
+        nav {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: center;
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+            @include md{
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
+            }
+            a {
+                display: inline-flex;
+
+                >svg {
+                    height: 24px;
+                    width: 100%;
+
+                    #wydradesigns {
+                        fill: $on-inverse-surface;
+                        // mix-blend-mode: color-burn;
                     }
                 }
             }
 
             ul {
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-                grid-area: a;
-                width: 160px;
-                @include sm {
-                    @include margin(0px, 32px, 0px, 0px);
-                }
-                @include md {
-                    @include margin(0px, 56px, 0px, 0px);
-                    width: 240px;
-                }
-                @include lg {
-                    @include margin(0px, 120px, 0px, 0px);
-                }
 
-                li {
-                    a {
-                        color: $white;
-                        font-size: rem-calc(32);
-                        @include padding(8px,8px,8px,8px);
-                        @include md {
-                            font-size: rem-calc(40);
-                            @include padding(2px,2px,2px,2px);
-                        }
+                .button {
+                    height: 52px;
+                    width: 52px;
 
-                        i {}
-                    }
-
-                    a:link,
-                    a:visited {
-                        color: $white;
-                    }
-
-                    a:active,
-                    a:hover {
-                        color: $orange;
+                    >a {
+                        height: 100%;
+                        width: 100%;
+                        padding: 0px;
                     }
                 }
             }
 
-            p {
-                grid-area: c;
-                text-align: right;
-                font-size: rem-calc(16);
-            }
         }
+
     }
 }

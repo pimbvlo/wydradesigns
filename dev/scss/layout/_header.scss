@@ -32,6 +32,7 @@ header {
         position: absolute;
         right: 20px;
         margin-right: -8px;
+        cursor: pointer;
 
         @include md {
             right: 40px;
@@ -64,6 +65,7 @@ header {
         display: flex;
         flex-direction: column;
         gap: 20px;
+        // box-shadow: ;
 
         >h6:first-child {
             // margin-top: 64px;

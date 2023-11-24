@@ -638,8 +638,9 @@ h4 {
 h6 {
   font-size: 1rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 1.25rem;
+  letter-spacing: 1px;
   text-transform: capitalize; }
 
 p {
@@ -764,7 +765,7 @@ a {
   transition: 0.2s ease-in-out; }
 
 .button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 40px;
@@ -779,8 +780,9 @@ a {
     color: #6700c2;
     line-height: 1.25rem;
     font-size: 1.25rem;
-    font-weight: 700;
-    width: 100%; }
+    font-weight: 600;
+    width: 100%;
+    letter-spacing: 1px; }
   .button:link > a, .button:visited > a {
     color: #6700c2; }
   .button:hover > a {
@@ -791,11 +793,7 @@ a {
     color: #6700c2; }
 
 .button-icon-left > a {
-  flex-direction: row-reverse;
-  padding: 12px 16px 12px 20px; }
-
-.button-icon-right > a {
-  padding: 12px 20px 12px 16px; }
+  flex-direction: row-reverse; }
 
 .button-filled {
   background-color: #6700c2;
@@ -846,7 +844,7 @@ a {
   margin-left: -20px; }
 
 .button-text-icon-right {
-  margin-left: -16px; }
+  margin-left: 20px; }
 
 .chip,
 .chip-icon {
@@ -917,11 +915,8 @@ textarea {
   -webkit-appearance: none; }
 
 .material-symbols-outlined {
-  font-variation-settings: 'FILL' 0, 'wght' 700, 'GRAD' 0, 'opsz' 24; }
+  font-variation-settings: 'FILL' 0, 'wght' 600, 'GRAD' 0, 'opsz' 24; }
 
-/* =============
-    Navigation
-============= */
 /* =============
     Header
 ============= */
@@ -946,7 +941,8 @@ header {
     z-index: 15000;
     position: absolute;
     right: 20px;
-    margin-right: -8px; }
+    margin-right: -8px;
+    cursor: pointer; }
     @media (min-width: 768px) {
       header #burger-container {
         right: 40px; } }
@@ -1002,65 +998,78 @@ header {
     Footer
 ============= */
 footer {
-  color: white;
-  background-color: #0D001E; }
-  @media (prefers-color-scheme: dark) {
-    footer {
-      background-color: #28282A; } }
-  footer div article {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "l l" "a c";
-    grid-gap: 16px; }
-    @media (min-width: 504px) {
-      footer div article {
-        grid-template-areas: "l ." "a c"; } }
-    @media (min-width: 768px) {
-      footer div article {
-        grid-gap: 16px;
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "l . ." "a . c"; } }
-    footer div article figure {
-      grid-area: l; }
-      footer div article figure img {
-        width: 144px; }
-        @media (min-width: 1024px) {
-          footer div article figure img {
-            width: 168px; } }
-    footer div article ul {
+  height: 90vh;
+  background-color: #2b2b2b;
+  color: #efefef; }
+  footer .button {
+    text-transform: none;
+    align-self: flex-start; }
+    footer .button > a {
+      align-self: auto;
+      color: #e1ccf3; }
+    footer .button:link > a, footer .button:visited > a {
+      color: #e1ccf3; }
+    footer .button:hover > a {
+      background-color: rgba(225, 204, 243, 0.08);
+      color: #e1ccf3; }
+    footer .button:active > a {
+      background-color: rgba(225, 204, 243, 0.1);
+      color: #e1ccf3; }
+  footer > div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-direction: column; }
+    footer > div article {
       display: flex;
-      justify-content: space-between;
-      align-items: center;
-      grid-area: a;
-      width: 160px; }
-      @media (min-width: 504px) {
-        footer div article ul {
-          margin: 0px 32px 0px 0px; } }
-      @media (min-width: 768px) {
-        footer div article ul {
-          margin: 0px 56px 0px 0px;
-          width: 240px; } }
-      @media (min-width: 1024px) {
-        footer div article ul {
-          margin: 0px 120px 0px 0px; } }
-      footer div article ul li a {
-        color: white;
-        font-size: 2rem;
-        padding: 8px 8px 8px 8px; }
-        @media (min-width: 768px) {
-          footer div article ul li a {
-            font-size: 2.5rem;
-            padding: 2px 2px 2px 2px; } }
-      footer div article ul li a:link,
-      footer div article ul li a:visited {
+      flex-direction: column;
+      gap: 20px; }
+      footer > div article .button > a {
+        font-weight: 400;
         color: white; }
-      footer div article ul li a:active,
-      footer div article ul li a:hover {
-        color: #FF964C; }
-    footer div article p {
-      grid-area: c;
-      text-align: right;
-      font-size: 1rem; }
+      footer > div article .button:link > a, footer > div article .button:visited > a {
+        color: white; }
+      footer > div article .button:hover > a {
+        background-color: rgba(225, 204, 243, 0.08);
+        color: white; }
+      footer > div article .button:active > a {
+        background-color: rgba(225, 204, 243, 0.1);
+        color: white; }
+      footer > div article h2 {
+        font-size: 3.25rem;
+        line-height: 4rem; }
+    footer > div nav {
+      display: flex;
+      margin-bottom: 20px;
+      align-items: center; }
+    footer > div aside {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
+      width: 100%; }
+      @media (min-width: 768px) {
+        footer > div aside {
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%; } }
+      footer > div aside a {
+        display: inline-flex; }
+        footer > div aside a > svg {
+          height: 24px;
+          width: 100%; }
+          footer > div aside a > svg #wydradesigns {
+            fill: #efefef; }
+      footer > div aside ul {
+        display: flex; }
+        footer > div aside ul .button {
+          height: 52px;
+          width: 52px; }
+          footer > div aside ul .button > a {
+            height: 100%;
+            width: 100%;
+            padding: 0px; }
 
 /* =============
     CS Footer

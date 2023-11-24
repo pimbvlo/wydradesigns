@@ -78,6 +78,15 @@ h4 {
     line-height: rem-calc(24);
 }
 
+// Captions
+h5 {
+    font-size: rem-calc(12);
+    font-style: normal;
+    font-weight: 400;
+    line-height: rem-calc(16);
+    letter-spacing: 0.64px;
+}
+
 // Button Labels
 h6 {
     // leading-trim: both;

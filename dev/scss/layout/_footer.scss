@@ -111,23 +111,10 @@ footer {
                 width: 100%;
 
             }
-            a {
-                display: inline-flex;
-
-                >svg {
-                    height: 24px;
-                    width: 100%;
-
-                    #wydradesigns {
-                        fill: $on-inverse-surface;
-                        // mix-blend-mode: color-burn;
-                    }
-                }
-            }
 
             ul {
                 display: flex;
-
+                margin-left: 4px;
                 .button {
                     height: 52px;
                     width: 52px;

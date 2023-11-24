@@ -28,7 +28,6 @@ lineToX.to("#burger-container", {
         rotate: -45,
         stroke: "rgba(225, 204, 243, 1)"
     }, "create-x");
-// .from("#burger-outline",{duration:0.5, alpha:0},"create-x");
 
 var lineToLines = gsap.timeline({
     paused: true

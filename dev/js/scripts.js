@@ -6,3 +6,4 @@
 // @codekit-prepend "navigation.js";
 
 // @codekit-prepend "hero-flaps.js";
+// @codekit-prepend "index-marquee.js";

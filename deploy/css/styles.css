@@ -115,7 +115,7 @@ html {
 body {
   background-color: #fdfdfd;
   color: #2b2b2b;
-  font-family: 'Elza', sans-serif;
+  font-family: "pf-grand-gothik-variable", sans-serif;
   font-weight: 400;
   margin: 0; }
   body ::selection {
@@ -157,7 +157,7 @@ table {
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-  font-family: ocr-b-std, monospace;
+  font-family: "interstate-mono", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -196,7 +196,7 @@ strong {
 code,
 kbd,
 samp {
-  font-family: ocr-b-std, monospace;
+  font-family: "interstate-mono", monospace;
   /* 1 */
   font-size: 1em;
   /* 2 */ }
@@ -593,8 +593,9 @@ p {
 h1 {
   font-size: 2.5rem;
   font-style: normal;
-  font-weight: 600;
-  line-height: 2.25rem; }
+  line-height: 2.25rem;
+  font-variation-settings: "ital" 0, "wdth" 80, "wght" 700;
+  letter-spacing: 1px; }
   @media (min-width: 768px) {
     h1 {
       font-size: 3.25rem;
@@ -606,8 +607,9 @@ h1 {
 h2 {
   font-size: 1.75rem;
   font-style: normal;
-  font-weight: 400;
-  line-height: 2rem; }
+  font-variation-settings: "ital" 0, "wdth" 90, "wght" 600;
+  line-height: 2rem;
+  letter-spacing: 0.2px; }
   @media (min-width: 768px) {
     h2 {
       font-size: 2.5rem;
@@ -619,7 +621,7 @@ h2 {
 h3 {
   font-size: 1rem;
   font-style: normal;
-  font-weight: 500;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 500;
   line-height: 1.5rem; }
   @media (min-width: 768px) {
     h3 {
@@ -632,35 +634,34 @@ h3 {
 h4 {
   font-size: 1rem;
   font-style: normal;
-  font-weight: 600;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 600;
   line-height: 1.5rem; }
 
 h5 {
   font-size: 0.75rem;
   font-style: normal;
-  font-weight: 400;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 400;
   line-height: 1rem;
   letter-spacing: 0.64px; }
 
 h6 {
   font-size: 1rem;
   font-style: normal;
-  font-weight: 600;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 600;
   line-height: 1.25rem;
   letter-spacing: 1px;
   text-transform: capitalize; }
 
 p {
   font-size: 1rem;
-  font-weight: 400;
+  font-variation-settings: "ital" 0, "wdth" 100, "wght" 400;
   line-height: 1.75rem; }
   @media (min-width: 1024px) {
     p {
       font-size: 1.125rem;
       line-height: 1.875rem; } }
   p a {
-    font-family: 'Elza', monospace;
-    font-weight: 700; }
+    font-variation-settings: "ital" 0, "wdth" 100, "wght" 500; }
 
 a {
   text-decoration: none;
@@ -780,16 +781,20 @@ a {
   .button > a {
     border-radius: 40px;
     display: flex;
-    align-items: center;
+    align-items: self-end;
     justify-content: center;
+    align-self: flex-start;
     gap: 8px;
     padding: 12px 20px;
     color: #6700c2;
     line-height: 1.25rem;
     font-size: 1.25rem;
-    font-weight: 600;
     width: 100%;
-    letter-spacing: 1px; }
+    font-variation-settings: "ital" 0, "wdth" 104, "wght" 600; }
+    @supports (leading-trim: both) and (text-edge: cap) {
+      .button > a {
+        leading-trim: both;
+        text-edge: cap; } }
   .button:link > a, .button:visited > a {
     color: #6700c2; }
   .button:hover > a {
@@ -859,10 +864,12 @@ a {
 
 .chip,
 .chip-icon {
+  font-family: interstate-mono, monospace;
   font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.25rem;
+  line-height: 100%;
+  font-weight: 700;
   text-transform: uppercase;
+  letter-spacing: -0.2px;
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
@@ -874,11 +881,11 @@ a {
       text-edge: cap; } }
 
 .chip {
-  padding: 4px 12px;
+  padding: 4px 8px;
   border: 1px solid #beb9c3; }
 
 .chip-icon {
-  padding: 4px 8px 4px 12px;
+  padding: 4px 4px 4px 8px;
   column-gap: 4px;
   background-color: #2b2b2b; }
 
@@ -943,7 +950,7 @@ header {
   /* The side navigation menu */ }
   header > a > svg {
     height: 32px;
-    width: 100%; }
+    width: auto; }
     header > a > svg #wydradesigns {
       fill: #150027; }
   header #burger-container {
@@ -1009,7 +1016,7 @@ header {
     Footer
 ============= */
 footer {
-  height: 90vh;
+  height: 100vh;
   background-color: #2b2b2b;
   color: #efefef; }
   footer .button {
@@ -1074,7 +1081,8 @@ footer {
           footer > div aside ul .button > a {
             height: 100%;
             width: 100%;
-            padding: 0px; }
+            padding: 0px;
+            align-items: center; }
 
 /* =============
     CS Footer
@@ -1133,22 +1141,26 @@ footer {
       position: relative;
       min-width: 12vw;
       height: 12vw;
-      font-family: "littlebit-dotty-variable", monospace;
-      font-variation-settings: "DOTS" 200;
       text-align: center;
       color: #efefef;
-      font-size: 8vw;
-      line-height: 100%; }
+      font-size: 10vw;
+      line-height: 130%;
+      font-family: interstate-mono, monospace;
+      font-weight: 700; }
+      @media (min-width: 768px) {
+        #indexHero article .splitflap {
+          line-height: 120%; } }
       @media (min-width: 1024px) {
         #indexHero article .splitflap {
           min-width: 10vw;
           height: 10vw;
-          font-size: 7vw; } }
+          font-size: 9vw;
+          line-height: 115%; } }
       @media (min-width: 1440px) {
         #indexHero article .splitflap {
           min-width: 5.5vw;
           height: 5.5vw;
-          font-size: 4vw; } }
+          font-size: 5vw; } }
     #indexHero article .center {
       position: relative;
       width: 100%;
@@ -1247,23 +1259,19 @@ footer {
 #indexProjectOne article {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 768px) {
+  @media (min-width: 1024px) {
     #indexProjectOne article {
       flex-direction: row;
       align-items: center; } }
   #indexProjectOne article img {
-    aspect-ratio: 3/2 auto;
+    aspect-ratio: 3 / 2;
     width: 100%;
     height: auto;
-    border-radius: 2px;
     background-image: none;
     object-fit: cover; }
-    @media (min-width: 768px) {
-      #indexProjectOne article img {
-        width: 50%; } }
     @media (min-width: 1024px) {
       #indexProjectOne article img {
-        height: 60vh; } }
+        width: 60%; } }
   #indexProjectOne article div {
     display: flex;
     flex-direction: column; }
@@ -1276,6 +1284,50 @@ footer {
       @media (min-width: 504px) {
         #indexProjectOne article div .button {
           align-self: flex-start; } }
+/* =============
+    Index Marquees
+============= */
+#indexMarquee {
+  overflow-x: clip;
+  overflow-y: visible; }
+  #indexMarquee .marquee {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px 0px 4px;
+    text-transform: uppercase; }
+    #indexMarquee .marquee li {
+      font-size: 4.25rem;
+      line-height: 100%;
+      font-variation-settings: "ital" 0, "wdth" 25, "wght" 600; }
+      @media (min-width: 1024px) {
+        #indexMarquee .marquee li {
+          font-size: 5.5rem; } }
+    @supports (leading-trim: both) and (text-edge: cap) {
+      #indexMarquee .marquee :nth-child(odd) {
+        leading-trim: both;
+        text-edge: cap; } }
+    #indexMarquee .marquee :nth-child(even) {
+      font-family: sans-serif;
+      font-size: 3.25rem;
+      margin-bottom: 12px; }
+      @media (min-width: 1024px) {
+        #indexMarquee .marquee :nth-child(even) {
+          font-size: 3.75rem; } }
+  #indexMarquee .marqueeLeft {
+    justify-content: flex-start; }
+  #indexMarquee .marqueeRight {
+    justify-content: flex-end; }
+  #indexMarquee > :nth-child(1) {
+    background-color: #e1ccf3;
+    color: #150027; }
+  #indexMarquee > :nth-child(2) {
+    background-color: #150027;
+    color: #c299e7; }
+  #indexMarquee > :nth-child(3) {
+    background-color: #a466da;
+    color: black; }
+
 /* =============
     Index Intro
 ============= */

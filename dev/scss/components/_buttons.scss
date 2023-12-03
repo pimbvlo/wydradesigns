@@ -161,16 +161,23 @@ $state-focused: $state-pressed;
     >a {
         border-radius: 40px;
         display: flex;
-        align-items: center;
+        align-items: self-end;
         justify-content: center;
+        align-self: flex-start;
         gap: 8px;
         padding: 12px 20px;
         color: $primary;
         line-height: rem-calc(20);
         font-size: rem-calc(20);
-        font-weight: 600;
         width: 100%;
-        letter-spacing: 1px;
+        // letter-spacing: -10%;
+        
+        font-variation-settings: "ital"0, "wdth"104, "wght"600;
+        @supports (leading-trim: both) and (text-edge: cap) {
+            leading-trim: both;
+            text-edge: cap;
+        }
+    
 
 
     }

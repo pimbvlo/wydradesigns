@@ -1,9 +1,11 @@
 .chip,
 .chip-icon{
+    font-family: interstate-mono, monospace;
     font-size: rem-calc(16);
-    font-weight: 600;
-    line-height: rem-calc(20);
+    line-height: 100%;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: -0.2px;
     @supports (leading-trim: both) and (text-edge: cap) {
         leading-trim: both;
         text-edge: cap;
@@ -14,11 +16,11 @@
     border-radius: 4px;
 }
 .chip{
-    padding: 4px 12px;
+    padding: 4px 8px;
     border: 1px solid $outline-variant;
 }
 .chip-icon{
-    padding: 4px 8px 4px 12px;
+    padding: 4px 4px 4px 8px;
     column-gap: 4px;
     background-color: $inverse-surface;
 }

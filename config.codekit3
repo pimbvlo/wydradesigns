@@ -8262,6 +8262,14 @@
       "oAP" : "\/dev\/index\/indexIntro.html",
       "oF" : 0
     },
+    "\/dev\/index\/indexMarquee.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexMarquee.html",
+      "oF" : 0
+    },
     "\/dev\/index\/indexProjectOne.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8329,6 +8337,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/hero-flaps-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/index-marquee.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/index-marquee-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -9481,6 +9500,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_indexIntro.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/index\/_indexMarquee.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexMarquee.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

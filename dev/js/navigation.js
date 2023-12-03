@@ -54,3 +54,14 @@ gsap.to(".burger-lines", {
   stroke:"rgba(225, 204, 243, 1)",
   ease: "none"
 }, "header-meet-footer");
+gsap.to("body", {
+  scrollTrigger: {
+    trigger: "footer",
+    start: "top 80px",
+    end: "top 80px",
+    toggleActions: "restart none reverse none"
+  },
+  duration: 0.2, 
+  backgroundColor:"rgba(43, 43, 43, 1)",
+  ease: "none"
+}, "header-meet-footer");

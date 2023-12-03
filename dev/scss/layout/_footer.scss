@@ -2,7 +2,7 @@
     Footer
 ============= */
 footer {
-    height: 90vh;
+    height: 100vh;
     background-color: $inverse-surface;
     color: $on-inverse-surface;
     .button {
@@ -123,6 +123,7 @@ footer {
                         height: 100%;
                         width: 100%;
                         padding: 0px;
+                        align-items: center;
                     }
                 }
             }

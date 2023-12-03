@@ -16,7 +16,7 @@ header {
     >a {
         >svg {
             height: 32px;
-            width: 100%;
+            width: auto;
 
             #wydradesigns {
                 fill: $on-primary-container;
@@ -65,11 +65,6 @@ header {
         display: flex;
         flex-direction: column;
         gap: 20px;
-        // box-shadow: ;
-
-        >h6:first-child {
-            // margin-top: 64px;
-        }
 
         a {
             margin-left: 48px;

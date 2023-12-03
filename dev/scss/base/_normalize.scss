@@ -20,7 +20,7 @@ html {
 body {
     background-color: $background;
     color: $on-background;
-    font-family: 'Elza', sans-serif;
+    font-family: "pf-grand-gothik-variable", sans-serif;
     font-weight: 400;
     margin: 0;
 
@@ -68,7 +68,7 @@ table{
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-    font-family: ocr-b-std, monospace;
+    font-family: "interstate-mono", monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
@@ -111,7 +111,7 @@ strong {
 code,
 kbd,
 samp {
-    font-family: ocr-b-std, monospace;
+    font-family: "interstate-mono", monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */

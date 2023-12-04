@@ -1,7 +1,7 @@
 /* =============
     Index Project One
 ============= */
-#indexProjectOne {
+.index-project{
     article {
         display: flex;
         flex-direction: column;
@@ -9,6 +9,7 @@
         @include lg {
             flex-direction: row;
             align-items: center;
+            justify-content: center;
         }
 
         img {
@@ -18,15 +19,24 @@
             background-image: none;
             object-fit: cover;
             @include lg{
-                width: 60%;
-                
+                width: 50%;
+                min-width: 200px;
+                height: 100%;
             }
         }
 
-        div {
+        > div {
             display: flex;
             flex-direction: column;
+            @include lg{
+                width: 50%;
+                min-width: 400px;
 
+            }
+            @include xl{
+               width: 20%;
+
+            }
 
             ul {
                 display: flex;

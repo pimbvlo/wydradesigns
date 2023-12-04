@@ -1256,33 +1256,43 @@ footer {
 /* =============
     Index Project One
 ============= */
-#indexProjectOne article {
+.index-project article {
   display: flex;
   flex-direction: column; }
   @media (min-width: 1024px) {
-    #indexProjectOne article {
+    .index-project article {
       flex-direction: row;
-      align-items: center; } }
-  #indexProjectOne article img {
+      align-items: center;
+      justify-content: center; } }
+  .index-project article img {
     aspect-ratio: 3 / 2;
     width: 100%;
     height: auto;
     background-image: none;
     object-fit: cover; }
     @media (min-width: 1024px) {
-      #indexProjectOne article img {
-        width: 60%; } }
-  #indexProjectOne article div {
+      .index-project article img {
+        width: 50%;
+        min-width: 200px;
+        height: 100%; } }
+  .index-project article > div {
     display: flex;
     flex-direction: column; }
-    #indexProjectOne article div ul {
+    @media (min-width: 1024px) {
+      .index-project article > div {
+        width: 50%;
+        min-width: 400px; } }
+    @media (min-width: 1440px) {
+      .index-project article > div {
+        width: 20%; } }
+    .index-project article > div ul {
       display: flex;
       flex-wrap: wrap;
       gap: 8px; }
-    #indexProjectOne article div .button {
+    .index-project article > div .button {
       align-self: initial; }
       @media (min-width: 504px) {
-        #indexProjectOne article div .button {
+        .index-project article > div .button {
           align-self: flex-start; } }
 /* =============
     Index Marquees
@@ -1328,6 +1338,9 @@ footer {
     background-color: #a466da;
     color: black; }
 
+/* =============
+    Index Project Two
+============= */
 /* =============
     Index Intro
 ============= */

@@ -8254,12 +8254,12 @@
       "oAP" : "\/dev\/index\/indexHero.html",
       "oF" : 0
     },
-    "\/dev\/index\/indexIntro.kit" : {
+    "\/dev\/index\/indexIntro.txt" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index\/indexIntro.html",
+      "oAP" : "\/dev\/index\/indexIntro.txt",
       "oF" : 0
     },
     "\/dev\/index\/indexMarquee.kit" : {
@@ -8282,8 +8282,16 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectsList.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectsListOld.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexProjectsListOld.txt",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectTwo.kit" : {

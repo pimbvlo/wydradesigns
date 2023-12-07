@@ -619,18 +619,18 @@ h2 {
       font-size: 3.25rem;
       line-height: 4rem; } }
 h3 {
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-style: normal;
-  font-variation-settings: "ital" 0, "wdth" 100, "wght" 500;
+  font-variation-settings: "ital" 0, "wdth" 120, "wght" 500;
   line-height: 1.5rem; }
   @media (min-width: 768px) {
     h3 {
-      font-size: 1.5rem;
-      line-height: 1.75rem; } }
+      font-size: 1.75rem;
+      line-height: 2rem; } }
   @media (min-width: 1024px) {
     h3 {
       font-size: 2.25rem;
-      line-height: 2.75rem; } }
+      line-height: 2.5rem; } }
 h4 {
   font-size: 1rem;
   font-style: normal;
@@ -943,74 +943,80 @@ header {
   height: 80px;
   background-color: #fdfdfd;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  z-index: 10000;
-  /* The side navigation menu */ }
-  header > a > svg {
-    height: 32px;
-    width: auto; }
-    header > a > svg #wydradesigns {
-      fill: #150027; }
-  header #burger-container {
-    height: 64px;
-    width: 64px;
-    z-index: 15000;
-    position: absolute;
-    right: 20px;
-    margin-right: -8px;
-    cursor: pointer; }
-    @media (min-width: 768px) {
-      header #burger-container {
-        right: 40px; } }
-    @media (min-width: 1024px) {
-      header #burger-container {
-        right: 64px; } }
-    header #burger-container g path {
-      fill: none;
-      stroke: #6700c2; }
-  header .sidenav {
-    height: 100vh;
-    width: 0;
-    position: fixed;
-    z-index: 10000;
-    top: 0;
-    right: 0;
-    background-color: #2b2b2b;
-    overflow-x: hidden;
-    padding-top: 80px;
-    transition: all 0.5s;
+  z-index: 10000; }
+  header > div {
     display: flex;
-    flex-direction: column;
-    gap: 20px; }
-    header .sidenav a {
-      margin-left: 48px;
-      padding: 16px 20px;
-      text-decoration: none;
-      font-size: 24px;
-      color: #e1ccf3;
-      display: block;
-      transition: 0.3s; }
-      @media (min-width: 768px) {
-        header .sidenav a {
-          padding: 8px 40px; } }
-      @media (min-width: 1024px) {
-        header .sidenav a {
-          padding: 16px 40px; } }
-      header .sidenav a:hover {
-        background-color: #e1ccf3;
-        color: #150027; }
-    header .sidenav div {
+    align-items: center;
+    justify-content: flex-start;
+    /* The side navigation menu */ }
+    header > div > a {
+      margin-top: 8px;
+      display: flex;
+      align-items: center; }
+      header > div > a > svg {
+        height: 32px;
+        width: auto; }
+        header > div > a > svg #wydradesigns {
+          fill: #150027; }
+    header > div #burger-container {
+      height: 64px;
+      width: 64px;
+      z-index: 15000;
       position: absolute;
-      height: 100%;
-      width: 48px;
-      background-color: #e1ccf3;
-      background-image: url(../img/global/FloorDots.svg);
-      background-size: 32%;
+      right: 20px;
+      margin-right: -8px;
+      cursor: pointer; }
+      @media (min-width: 768px) {
+        header > div #burger-container {
+          right: 40px; } }
+      @media (min-width: 1024px) {
+        header > div #burger-container {
+          right: 64px; } }
+      header > div #burger-container g path {
+        fill: none;
+        stroke: #6700c2; }
+    header > div .sidenav {
+      height: 100vh;
+      width: 0;
+      position: fixed;
+      z-index: 10000;
       top: 0;
-      left: 0;
-      z-index: 1000; }
+      right: 0;
+      background-color: #2b2b2b;
+      overflow-x: hidden;
+      padding-top: 80px;
+      transition: all 0.5s;
+      display: flex;
+      flex-direction: column;
+      gap: 20px; }
+      header > div .sidenav a {
+        margin-left: 48px;
+        padding: 16px 20px;
+        text-decoration: none;
+        font-size: 24px;
+        color: #e1ccf3;
+        display: block;
+        transition: 0.3s; }
+        @media (min-width: 768px) {
+          header > div .sidenav a {
+            padding: 8px 40px; } }
+        @media (min-width: 1024px) {
+          header > div .sidenav a {
+            padding: 16px 40px; } }
+        header > div .sidenav a:hover {
+          background-color: #e1ccf3;
+          color: #150027; }
+      header > div .sidenav div {
+        position: absolute;
+        height: 100%;
+        width: 48px;
+        background-color: #e1ccf3;
+        background-image: url(../img/global/FloorDots.svg);
+        background-size: 32%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+        opacity: 50%; }
 
 /* =============
     Footer
@@ -1380,338 +1386,69 @@ footer {
 /* =============
     Index Project List
 ============= */
-#indexProjectsList > div {
-  /* =============
-    TURNED OFF
-============= */ }
-  #indexProjectsList > div article {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-areas: "heading" "UX" "Branding" "Type" "Publication"; }
-    #indexProjectsList > div article h2 {
-      grid-area: heading;
-      margin: 0px 0px 16px 0px; }
+#indexProjectsList > article {
+  display: flex;
+  flex-direction: column; }
+  #indexProjectsList > article .project-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 32px 0px;
+    border-bottom: 2px solid #beb9c3; }
     @media (min-width: 768px) {
-      #indexProjectsList > div article {
-        margin: 0px 0px 24px 0px; } }
-    #indexProjectsList > div article div h3 {
-      margin: 16px 0px 8px 0px; }
+      #indexProjectsList > article .project-list-item {
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        min-height: 176px; } }
+    @media (min-width: 1024px) {
+      #indexProjectsList > article .project-list-item {
+        min-height: 160px; } }
+    @media (min-width: 1440px) {
+      #indexProjectsList > article .project-list-item {
+        min-height: 120px; } }
+    @media (min-width: 768px) {
+      #indexProjectsList > article .project-list-item h3 {
+        min-width: 16%;
+        max-width: 16%;
+        font-size: inherit;
+        line-height: inherit; } }
+    @media (min-width: 1024px) {
+      #indexProjectsList > article .project-list-item h3 {
+        min-width: 24%;
+        max-width: 24%;
+        font-size: 1.75rem;
+        line-height: 2rem; } }
+    @media (min-width: 1440px) {
+      #indexProjectsList > article .project-list-item h3 {
+        min-width: 24%;
+        max-width: 24%; } }
+    #indexProjectsList > article .project-list-item > div {
+      display: flex;
+      flex-direction: column;
+      gap: 12px; }
       @media (min-width: 768px) {
-        #indexProjectsList > div article div h3 {
-          margin: 32px 0px 8px 0px; } }
+        #indexProjectsList > article .project-list-item > div {
+          min-width: auto;
+          max-width: 50%; } }
       @media (min-width: 1024px) {
-        #indexProjectsList > div article div h3 {
-          margin: 40px 0px 24px 0px; } }
-    #indexProjectsList > div article div ul {
-      grid-gap: 16px;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr); }
+        #indexProjectsList > article .project-list-item > div {
+          max-width: 40%; } }
+      #indexProjectsList > article .project-list-item > div p {
+        margin-top: -12px; }
+        @media (min-width: 768px) {
+          #indexProjectsList > article .project-list-item > div p {
+            margin-top: 0px; } }
+      #indexProjectsList > article .project-list-item > div ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px; }
+    #indexProjectsList > article .project-list-item .button {
+      align-self: initial; }
       @media (min-width: 504px) {
-        #indexProjectsList > div article div ul {
-          grid-template-columns: repeat(2, 1fr); } }
-      @media (min-width: 768px) {
-        #indexProjectsList > div article div ul {
-          grid-gap: 24px; } }
-      @media (min-width: 1024px) {
-        #indexProjectsList > div article div ul {
-          grid-gap: 32px; } }
-      #indexProjectsList > div article div ul li {
-        background-color: #6613CE;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        border-radius: 16px;
-        box-shadow: 0 5px 3px -3px rgba(19, 22, 24, 0.06), 0 3px 14px 2px rgba(19, 22, 24, 0.12), 0 8px 10px 1px rgba(19, 22, 24, 0.04);
-        cursor: pointer;
-        transform-origin: center 90%;
-        transition: all 0.2s ease-in-out; }
-        @media (prefers-color-scheme: dark) {
-          #indexProjectsList > div article div ul li {
-            box-shadow: none; } }
-        #indexProjectsList > div article div ul li a {
-          align-items: center;
-          color: white;
-          display: flex;
-          height: 176px;
-          justify-content: center;
-          transition: 0.1s;
-          width: 100%;
-          margin: auto 0px auto 0px; }
-          @media (min-width: 768px) {
-            #indexProjectsList > div article div ul li a {
-              height: 240px; } }
-          @media (min-width: 1024px) {
-            #indexProjectsList > div article div ul li a {
-              height: 280px;
-              opacity: 0; } }
-          @media (min-width: 1440px) {
-            #indexProjectsList > div article div ul li a {
-              height: 320px; } }
-          #indexProjectsList > div article div ul li a div h4 {
-            text-align: center;
-            margin: 0px 12px 4px 12px; }
-          #indexProjectsList > div article div ul li a div p {
-            text-align: center;
-            margin: 0px 12px 0px 12px;
-            font-family: 'IBM Plex Mono', monospace;
-            opacity: 0.9; }
-        #indexProjectsList > div article div ul li a:link,
-        #indexProjectsList > div article div ul li a:visited {
-          color: white; }
-      @media (prefers-color-scheme: dark) {
-        #indexProjectsList > div article div ul li:hover {
-          box-shadow: none; } }
-      #indexProjectsList > div article div ul .external-link {
-        position: relative;
-        overflow: hidden; }
-        #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          height: 200px;
-          width: 104px;
-          transform: rotate(45deg);
-          transform-origin: center;
-          position: absolute;
-          top: -104px;
-          left: -40px;
-          z-index: 1000;
-          pointer-events: none;
-          background-color: #B813B9; }
-          @media (prefers-color-scheme: dark) {
-            #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
-              background-color: #C494FF; } }
-          @media (min-width: 1024px) {
-            #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
-              background-color: rgba(0, 0, 0, 0.64); } }
-  @media (min-width: 1024px) and (prefers-color-scheme: dark) {
-    #indexProjectsList > div article div ul .external-link aside:nth-child(1) {
-      background-color: #6613CE; } }
-          #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
-            height: 20px;
-            width: 100%;
-            transform: rotate(-45deg);
-            margin: 20px 0px 0px 56px;
-            content: url("../img/index/projects/MediumLogoWhite.svg"); }
-            @media (prefers-color-scheme: dark) {
-              #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
-                content: url("../img/index/projects/MediumLogoBlack.svg"); } }
-  @media (prefers-color-scheme: dark) and (min-width: 1024px) {
-    #indexProjectsList > div article div ul .external-link aside:nth-child(1) img {
-      content: url("../img/index/projects/MediumLogoWhite.svg"); } }
-        #indexProjectsList > div article div ul .external-link :hover img {
-          transform: scale(1.2); }
-  #indexProjectsList > div div:nth-child(2) {
-    grid-area: Branding; }
-    #indexProjectsList > div div:nth-child(2) ul:nth-child(2) {
-      grid-template-areas: "f" "shm" "a" "tps" "icm"; }
-      @media (min-width: 504px) {
-        #indexProjectsList > div div:nth-child(2) ul:nth-child(2) {
-          grid-template-areas: "f shm" "a tps" "icm ."; } }
-      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
-        background-image: url("../img/index/projects/purple/FenderCover.jpg");
-        background-position: bottom center;
-        grid-area: f; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
-            background-image: url("../img/index/projects/FenderCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
-        background-image: url("../img/index/projects/purple/SHMCover.jpg");
-        grid-area: shm; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
-            background-image: url("../img/index/projects/SHMCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
-        background-image: url("../img/index/projects/purple/AntiCover.jpg");
-        grid-area: a; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
-            background-image: url("../img/index/projects/AntiCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
-        background-image: url("../img/index/projects/purple/TPSCover.jpg");
-        grid-area: tps; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
-            background-image: url("../img/index/projects/TPSCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
-        background-image: url("../img/index/projects/purple/ICMCover.jpg");
-        background-position: bottom right;
-        /* =============
-                TURNED OFF
-            ============= */
-        display: none;
-        grid-area: icm; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
-            background-image: url("../img/index/projects/ICMCover.jpg"); } }
-  #indexProjectsList > div div:nth-child(3) {
-    grid-area: UX; }
-    #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-      grid-template-areas: "secondlife" "atd" "tt" "targe" "m" "tinder"; }
-      @media (min-width: 504px) {
-        #indexProjectsList > div div:nth-child(3) ul:nth-child(2) {
-          grid-template-areas: "secondlife atd" "tt targe" "m tinder"; } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
-        background-image: url("../img/index/projects/purple/TCover.jpg");
-        grid-area: t;
-        display: none; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(1) {
-            background-image: url("../img/index/projects/TCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
-        background-image: url("../img/index/projects/purple/SoACover.jpg");
-        grid-area: soa;
-        display: none; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(2) {
-            background-image: url("../img/index/projects/SoACover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
-        background-image: url("../img/index/projects/purple/MCover.jpg");
-        background-position: right center;
-        grid-area: m; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(3) {
-            background-image: url("../img/index/projects/MCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
-        background-image: url("../img/index/projects/purple/ATDCover.jpg");
-        background-position: left bottom;
-        grid-area: atd; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(4) {
-            background-image: url("../img/index/projects/ATDCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
-        background-image: url("../img/index/projects/purple/TTCover.jpg");
-        grid-area: tt; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(5) {
-            background-image: url("../img/index/projects/TTCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
-        background-image: url("../img/index/projects/purple/TargetCover.jpg");
-        grid-area: targe; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(6) {
-            background-image: url("../img/index/projects/TargetCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
-        background-image: url("../img/index/projects/purple/TinderCover.jpg");
-        grid-area: tinder; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(7) {
-            background-image: url("../img/index/projects/TinderCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
-        background-image: url("../img/index/projects/purple/SecondLifeCover.jpg");
-        grid-area: secondlife; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(3) ul:nth-child(2) li:nth-child(8) {
-            background-image: url("../img/index/projects/SecondLifeCover.jpg"); } }
-  #indexProjectsList > div div:nth-child(4) {
-    grid-area: Type; }
-    #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {
-      grid-template-areas: "tol" "ul" "c" "qv"; }
-      @media (min-width: 504px) {
-        #indexProjectsList > div div:nth-child(4) ul:nth-child(2) {
-          grid-template-areas: "tol ul" "c qv"; } }
-      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
-        background-image: url("../img/index/projects/purple/ToLCover.jpg");
-        grid-area: tol; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(1) {
-            background-image: url("../img/index/projects/ToLCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
-        background-image: url("../img/index/projects/purple/UnCover.jpg");
-        grid-area: ul; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(2) {
-            background-image: url("../img/index/projects/UnCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
-        background-image: url("../img/index/projects/purple/ClCover.jpg");
-        /* =============
-                TURNED OFF
-            ============= */
-        display: none;
-        grid-area: c; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(3) {
-            background-image: url("../img/index/projects/ClCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
-        background-image: url("../img/index/projects/purple/QVCover.jpg");
-        background-position: top right;
-        /* =============
-                TURNED OFF
-            ============= */
-        display: none;
-        grid-area: qv; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(4) ul:nth-child(2) li:nth-child(4) {
-            background-image: url("../img/index/projects/QVCover.jpg"); } }
-  #indexProjectsList > div div:nth-child(5) {
-    grid-area: Publication; }
-    #indexProjectsList > div div:nth-child(5) ul:nth-child(2) {
-      grid-template-areas: "bk" "sa"; }
-      @media (min-width: 504px) {
-        #indexProjectsList > div div:nth-child(5) ul:nth-child(2) {
-          grid-template-areas: "bk sa"; } }
-      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
-        background-image: url("../img/index/projects/purple/BKCover.jpg");
-        grid-area: bk; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(1) {
-            background-image: url("../img/index/projects/BKCover.jpg"); } }
-      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
-        background-image: url("../img/index/projects/purple/SACover.jpg");
-        grid-area: sa; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(2) {
-            background-image: url("../img/index/projects/SACover.jpg"); } }
-      #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
-        background-image: url("../img/index/projects/purple/ClCover.jpg");
-        grid-area: c; }
-        @media (min-width: 1024px) {
-          #indexProjectsList > div div:nth-child(5) ul:nth-child(2) li:nth-child(3) {
-            background-image: url("../img/index/projects/ClCover.jpg"); } }
-  #indexProjectsList > div div:nth-child(6) h3:nth-child(1),
-  #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
-    display: none; }
-  #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
-    grid-template-areas: "sb" "on"; }
-    @media (min-width: 504px) {
-      #indexProjectsList > div div:nth-child(6) ul:nth-child(2) {
-        grid-template-areas: "sb on"; } }
-    #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
-      background-image: url("../img/index/projects/purple/SBCover.jpg");
-      grid-area: sb; }
-      @media (min-width: 1024px) {
-        #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(1) {
-          background-image: url("../img/index/projects/SBCover.jpg"); } }
-    #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
-      background-image: url("../img/index/projects/purple/ONCover.jpg");
-      grid-area: on; }
-      @media (min-width: 1024px) {
-        #indexProjectsList > div div:nth-child(6) ul:nth-child(2) li:nth-child(2) {
-          background-image: url("../img/index/projects/ONCover.jpg"); } }
-  @media (min-width: 1024px) {
-    #indexProjectsList > div li:hover {
-      box-shadow: 0 16px 6px -6px rgba(19, 22, 24, 0.04), 0 12px 32px 8px rgba(19, 22, 24, 0.1), 0 16px 20px 2px rgba(19, 22, 24, 0.02);
-      transform: scale(1.04);
-      transition: all 0.2s ease-in-out; }
-      @supports (filter: saturate(0.75)) {
-        #indexProjectsList > div li:hover {
-          filter: saturate(0.75); } }
-      @supports (background-blend-mode: multiply) {
-        #indexProjectsList > div li:hover {
-          background-blend-mode: multiply; } }
-      #indexProjectsList > div li:hover a {
-        opacity: 1; }
-    #indexProjectsList > div li:active {
-      background-color: #FF964C;
-      transition: all 0.1s ease-in-out; }
-      @supports (filter: saturate(0.75)) {
-        #indexProjectsList > div li:active {
-          filter: saturate(0.75); } }
-      @supports (background-blend-mode: multiply) {
-        #indexProjectsList > div li:active {
-          background-blend-mode: multiply; } }
-      #indexProjectsList > div li:active a {
-        opacity: 1; } }
+        #indexProjectsList > article .project-list-item .button {
+          align-self: flex-start; } }
 /* =============
     About Hero
 ============= */

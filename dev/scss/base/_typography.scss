@@ -56,19 +56,19 @@ h2 {
 // Title
 h3 {
 
-    font-size: rem-calc(16);
+    font-size: rem-calc(20);
     font-style: normal;
-    font-variation-settings: "ital"0, "wdth"100, "wght"500;
+    font-variation-settings: "ital"0, "wdth"120, "wght"500;
     line-height: rem-calc(24);
 
     @include md {
-        font-size: rem-calc(24);
-        line-height: rem-calc(28);
+        font-size: rem-calc(28);
+        line-height: rem-calc(32);
     }
 
     @include lg {
         font-size: rem-calc(36);
-        line-height: rem-calc(44);
+        line-height: rem-calc(40);
     }
 }
 

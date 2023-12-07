@@ -2,461 +2,93 @@
     Index Project List
 ============= */
 #indexProjectsList {
-    > div {
-        article {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-areas: "heading" "UX" "Branding" "Type" "Publication";
+    >article {
+        display: flex;
+        flex-direction: column;
 
-            h2 {
-                grid-area: heading;
-                @include margin(0px,0px,16px,0px);
-            }
+        .project-list-item {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 32px 0px;
+            border-bottom: 2px solid $outline-variant;
+
             @include md {
-                @include margin(0px,0px,24px,0px);
+                flex-direction: row;
+                align-items: flex-start;
+                justify-content: space-between;
+                min-height: 176px;
+
             }
 
-            div {
-                h3 {
-                    @include margin(16px,0px,8px,0px);
+            @include lg {
+                min-height: 160px;
+            }
+            @include xl{
+                min-height: 120px;
+            }
+
+            h3 {
+                @include md {
+                    min-width: 16%;
+                    max-width: 16%;
+                    font-size: inherit;
+                    line-height: inherit;
+                }
+
+                @include lg {
+                    min-width: 24%;
+                    max-width: 24%;
+                    font-size: rem-calc(28);
+                    line-height: rem-calc(32);
+                        
+                }
+                @include xl {
+                    min-width: 24%;
+                    max-width: 24%;
+                }
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+
+                @include md {
+                    min-width: auto;
+                    max-width: 50%;
+                }
+                @include lg{
+                    max-width: 40%;
+                }
+
+                p {
+                    margin-top: -12px;
+
                     @include md {
-                        @include margin(32px,0px,8px,0px);
-                    }
-                    @include lg {
-                        @include margin(40px,0px,24px,0px);
+                        margin-top: 0px;
                     }
                 }
 
                 ul {
-                    grid-gap: 16px;
-                    display: grid;
-                    grid-template-columns: repeat(1,1fr);
-                    @include sm {
-                        grid-template-columns: repeat(2,1fr);
-                    }
-                    @include md {
-                        grid-gap: 24px;
-                        // grid-template-columns: repeat(3,1fr);
-                    }
-                    @include lg {
-                        grid-gap: 32px;
-                    }
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 8px;
 
-                    li {
-                        background-color: $purple;
-                        background-position: center;
-                        background-repeat: no-repeat;
-                        background-size: cover;
-                        border-radius: 16px;
-                        box-shadow: 0 5px 3px -3px rgba(19, 22, 24, .06), 0 3px 14px 2px rgba(19, 22, 24, .12), 0 8px 10px 1px rgba(19, 22, 24, .04);
-                        cursor: pointer;
-                        transform-origin: center 90%;
-                        transition: all 0.2s ease-in-out;
-                        @include dark {
-                            box-shadow: none;
-                            // background-color: $grey-mid;
-
-                        }
-
-                        a {
-                            align-items: center;
-                            color: $white;
-                            display: flex;
-                            height: 176px;
-                            justify-content: center;
-                            transition: 0.1s;
-                            width: 100%;
-                            @include md {
-                                height: 240px;
-                            }
-                            @include lg {
-                                height: 280px;
-                                opacity: 0;
-                            }
-                            @include xl {
-                                height: 320px;
-                            }
-                            @include margin(auto,0px,auto,0px);
-
-                            div {
-                                h4 {
-                                    text-align: center;
-                                    @include margin(0px,12px,4px,12px);
-                                }
-
-                                p {
-                                    text-align: center;
-                                    @include margin(0px,12px,0px,12px);
-                                    font-family: 'IBM Plex Mono', monospace;
-                                    opacity: 0.9;
-                                }
-                            }
-                        }
-
-                        a:link,
-                        a:visited {
-                            color: $white;
-                        }
-                    }
-
-                    li:hover {
-                        @include dark {
-                            box-shadow: none;
-                        }
-                    }
-
-                    .external-link {
-                        position: relative;
-                        overflow: hidden;
-
-                        aside:nth-child(1) {
-                            display: flex;
-                            align-items: center;
-                            justify-content: center;
-                            height: 200px;
-                            width: 104px;
-                            transform: rotate(45deg);
-                            transform-origin: center;
-                            position: absolute;
-                            top: -104px;
-                            left: -40px;
-                            z-index: 1000;
-                            pointer-events: none;
-                            background-color: $dark-pink;
-
-                            @include dark{
-                                background-color: $light-purple;
-                            }
-                            @include lg{
-                                background-color: rgba(0,0,0,0.64);
-                                @include dark{
-                                    background-color: $purple;
-                                }
-                            }
-                            img{
-                                height: 20px;
-                                width: 100%;
-                                transform: rotate(-45deg);
-                                @include margin(20px, 0px, 0px, 56px);
-                                content: url("../img/index/projects/MediumLogoWhite.svg");
-                                @include dark{
-                                    content: url("../img/index/projects/MediumLogoBlack.svg");
-                                    @include lg{
-                                        content: url("../img/index/projects/MediumLogoWhite.svg");
-                                    }
-                                }
-                            }
-                        }
-
-                        :hover{
-                            img{
-                                transform: scale(1.2);
-                            }
-                        }
-                    }
                 }
+
             }
-        }
 
-        div:nth-child(2) {
-            grid-area: Branding;
+            .button {
+                align-self: initial;
 
-            ul:nth-child(2) {
-                grid-template-areas: "f" "shm" "a" "tps" "icm";
                 @include sm {
-                    grid-template-areas: "f shm" "a tps" "icm .";
-                }
-                @include md {
-                    // grid-template-areas: "f shm a" "tps icm .";
+                    align-self: flex-start;
                 }
 
-                li:nth-child(1) {
-                    background-image: url("../img/index/projects/purple/FenderCover.jpg");
-                    background-position: bottom center;
-                    grid-area: f;
-                    @include lg {
-                        background-image: url("../img/index/projects/FenderCover.jpg");
-                    }
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/index/projects/purple/SHMCover.jpg");
-                    grid-area: shm;
-                    @include lg {
-                        background-image: url("../img/index/projects/SHMCover.jpg");
-                    }
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/index/projects/purple/AntiCover.jpg");
-                    grid-area: a;
-                    @include lg {
-                        background-image: url("../img/index/projects/AntiCover.jpg");
-                    }
-                }
-
-                li:nth-child(4) {
-                    background-image: url("../img/index/projects/purple/TPSCover.jpg");
-                    grid-area: tps;
-                    @include lg {
-                        background-image: url("../img/index/projects/TPSCover.jpg");
-                    }
-                }
-
-                li:nth-child(5) {
-                    background-image: url("../img/index/projects/purple/ICMCover.jpg");
-                    background-position: bottom right;
-                    /* =============
-                TURNED OFF
-            ============= */
-                    display: none;
-                    grid-area: icm;
-                    @include lg {
-                        background-image: url("../img/index/projects/ICMCover.jpg");
-                    }
-                }
             }
         }
 
-        div:nth-child(3) {
-            grid-area: UX;
-
-            ul:nth-child(2) {
-                grid-template-areas: "secondlife" "atd" "tt" "targe" "m" "tinder" ;
-                @include sm {
-                    grid-template-areas: "secondlife atd" "tt targe" "m tinder";
-                }
-                @include md {
-                    // grid-template-areas: "atd t m" "soa . .";
-                }
-
-                li:nth-child(1) {
-                    background-image: url("../img/index/projects/purple/TCover.jpg");
-                    grid-area: t;
-                    display: none;
-                    @include lg {
-                        background-image: url("../img/index/projects/TCover.jpg");
-                    }
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/index/projects/purple/SoACover.jpg");
-                    grid-area: soa;
-                    display: none;
-                    @include lg {
-                        background-image: url("../img/index/projects/SoACover.jpg");
-                    }
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/index/projects/purple/MCover.jpg");
-                    background-position: right center;
-                    grid-area: m;
-                    @include lg {
-                        background-image: url("../img/index/projects/MCover.jpg");
-                    }
-                }
-
-                li:nth-child(4) {
-                    background-image: url("../img/index/projects/purple/ATDCover.jpg");
-                    background-position: left bottom;
-                    grid-area: atd;
-                    @include lg {
-                        background-image: url("../img/index/projects/ATDCover.jpg");
-                    }
-                }
-
-                li:nth-child(5) {
-                    background-image: url("../img/index/projects/purple/TTCover.jpg");
-                    grid-area: tt;
-                    @include lg {
-                        background-image: url("../img/index/projects/TTCover.jpg");
-                    }
-                }
-
-                li:nth-child(6) {
-                    background-image: url("../img/index/projects/purple/TargetCover.jpg");
-                    grid-area: targe;
-                    @include lg {
-                        background-image: url("../img/index/projects/TargetCover.jpg");
-                    }
-                }
-
-                li:nth-child(7) {
-                    background-image: url("../img/index/projects/purple/TinderCover.jpg");
-                    grid-area: tinder;
-                    @include lg {
-                        background-image: url("../img/index/projects/TinderCover.jpg");
-                    }
-                }
-                li:nth-child(8) {
-                    background-image: url("../img/index/projects/purple/SecondLifeCover.jpg");
-                    grid-area: secondlife;
-                    @include lg {
-                        background-image: url("../img/index/projects/SecondLifeCover.jpg");
-                    }
-                }
-            }
-        }
-
-        div:nth-child(4) {
-            grid-area: Type;
-
-            ul:nth-child(2) {
-                grid-template-areas: "tol" "ul" "c" "qv";
-                @include sm {
-                    grid-template-areas: "tol ul" "c qv";
-                }
-                @include md {
-                    // grid-template-areas: "tol ul c" "qv . .";
-                }
-
-                li:nth-child(1) {
-                    background-image: url("../img/index/projects/purple/ToLCover.jpg");
-                    grid-area: tol;
-                    @include lg {
-                        background-image: url("../img/index/projects/ToLCover.jpg");
-                    }
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/index/projects/purple/UnCover.jpg");
-                    grid-area: ul;
-                    @include lg {
-                        background-image: url("../img/index/projects/UnCover.jpg");
-                    }
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/index/projects/purple/ClCover.jpg");
-                    /* =============
-                TURNED OFF
-            ============= */
-                    display: none;
-                    grid-area: c;
-                    @include lg {
-                        background-image: url("../img/index/projects/ClCover.jpg");
-                    }
-                }
-
-                li:nth-child(4) {
-                    background-image: url("../img/index/projects/purple/QVCover.jpg");
-                    background-position: top right;
-                    /* =============
-                TURNED OFF
-            ============= */
-                    display: none;
-                    grid-area: qv;
-                    @include lg {
-                        background-image: url("../img/index/projects/QVCover.jpg");
-                    }
-                }
-            }
-        }
-
-        div:nth-child(5) {
-            grid-area: Publication;
-
-            ul:nth-child(2) {
-                grid-template-areas: "bk" "sa";
-                @include sm {
-                    grid-template-areas: "bk sa";
-                }
-                @include md {
-                    // grid-template-areas: "bk sa .";
-                }
-
-                li:nth-child(1) {
-                    background-image: url("../img/index/projects/purple/BKCover.jpg");
-                    grid-area: bk;
-                    @include lg {
-                        background-image: url("../img/index/projects/BKCover.jpg");
-                    }
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/index/projects/purple/SACover.jpg");
-                    grid-area: sa;
-                    @include lg {
-                        background-image: url("../img/index/projects/SACover.jpg");
-                    }
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/index/projects/purple/ClCover.jpg");
-                    grid-area: c;
-                    @include lg {
-                        background-image: url("../img/index/projects/ClCover.jpg");
-                    }
-                }
-            }
-        }
-        /* =============
-    TURNED OFF
-============= */
-        div:nth-child(6) {
-            h3:nth-child(1),
-            ul:nth-child(2) {
-                display: none;
-            }
-
-            ul:nth-child(2) {
-                grid-template-areas: "sb" "on";
-                @include sm {
-                    grid-template-areas: "sb on";
-                }
-                @include md {
-                    // grid-template-areas: "sb on .";
-                }
-
-                li:nth-child(1) {
-                    background-image: url("../img/index/projects/purple/SBCover.jpg");
-                    grid-area: sb;
-                    @include lg {
-                        background-image: url("../img/index/projects/SBCover.jpg");
-                    }
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/index/projects/purple/ONCover.jpg");
-                    grid-area: on;
-                    @include lg {
-                        background-image: url("../img/index/projects/ONCover.jpg");
-                    }
-                }
-            }
-        }
-        @include lg {
-            li:hover {
-                box-shadow: 0 16px 6px -6px rgba(19, 22, 24, .04), 0 12px 32px 8px rgba(19, 22, 24, .10), 0 16px 20px 2px rgba(19, 22, 24, .02);
-                transform: scale(1.04);
-                transition: all 0.2s ease-in-out;
-                @supports(filter: saturate(0.75)) {
-                    filter: saturate(0.75);
-                }
-                @supports(background-blend-mode: multiply) {
-                    background-blend-mode: multiply;
-                }
-
-                a {
-                    opacity: 1;
-                }
-            }
-
-            li:active {
-                background-color: $orange;
-                transition: all 0.1s ease-in-out;
-                @supports(filter: saturate(0.75)) {
-                    filter: saturate(0.75);
-                }
-                @supports(background-blend-mode: multiply) {
-                    background-blend-mode: multiply;
-                }
-
-                a {
-                    opacity: 1;
-                }
-            }
-        }
     }
 }

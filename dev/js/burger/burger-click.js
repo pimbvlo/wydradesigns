@@ -53,7 +53,7 @@ var staggerNav = gsap.timeline({
 $('#burger-container').on("click", burgerClicked);
 
 function burgerClicked() {
-    console.log("click");
+    console.log("click! 🐭");
 
     if (canYouSeeNav === false) {
         lineToX.invalidate().restart();

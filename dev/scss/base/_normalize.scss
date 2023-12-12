@@ -20,9 +20,8 @@ html {
 body {
     background-color: $background;
     color: $on-background;
-    font-family: "pf-grand-gothik-variable", sans-serif;
-    font-weight: 400;
-    margin: 0;
+    font-family: "area-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;    margin: 0;
 
     ::selection {
         background: $primary-container;

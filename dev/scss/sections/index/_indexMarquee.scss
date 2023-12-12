@@ -6,50 +6,44 @@
     overflow-y: visible;
 
     .marquee {
-        display: flex;
-        align-items: center;
-        gap: 16px;
-        padding: 16px 0px 4px;
         text-transform: uppercase;
+        position: relative;
+        overflow: hidden;
+        padding: 24px 0 8px;
+
+        @include lg {
+            padding: 24px 0 8px;
+        }
 
         li {
-            font-size: rem-calc(68);
-            line-height: 100%;
-            font-variation-settings: "ital"0, "wdth"25, "wght"600;
-
-            @include lg {
-                font-size: rem-calc(88);
-            }
-
-        }
-
-        :nth-child(odd) {
-            @supports (leading-trim: both) and (text-edge: cap) {
-                leading-trim: both;
-                text-edge: cap;
-            }
-        }
-
-        :nth-child(even) {
-            font-family: sans-serif;
             font-size: rem-calc(52);
-            margin-bottom: 12px;
+            line-height: 100%;
+            font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"50;
 
             @include lg {
-                font-size: rem-calc(60);
+                font-size: rem-calc(68);
             }
 
         }
-    }
 
-    .marqueeLeft {
-        justify-content: flex-start;
-    }
+        // :nth-child(odd) {
+        //     @supports (leading-trim: both) and (text-edge: cap) {
+        //         leading-trim: both;
+        //         text-edge: cap;
+        //     }
+        // }
 
-    .marqueeRight {
-        justify-content: flex-end;
-    }
+        // :nth-child(even) {
+        //     font-family: sans-serif;
+        //     font-size: rem-calc(52);
+        //     margin-bottom: 12px;
 
+        //     @include lg {
+        //         font-size: rem-calc(60);
+        //     }
+
+        // }
+    }
 
     > :nth-child(1) {
         background-color: $primary90;
@@ -64,6 +58,18 @@
     > :nth-child(3) {
         background-color: $primary70;
         color: $primary0;
+    }
+
+    .marquee-unit {
+        flex-shrink: 0;
+        padding: 0px 8px;
+    }
+
+    .marquee-inner {
+        width: fit-content;
+        display: flex;
+        flex: auto;
+        flex-direction: row;
     }
 
 }

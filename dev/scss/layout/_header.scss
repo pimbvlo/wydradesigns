@@ -57,6 +57,9 @@ header {
             @include lg {
                 right: 64px;
             }
+            @include xl{
+                right: 12vw;
+            }
 
             g {
                 path {
@@ -83,13 +86,12 @@ header {
             gap: 20px;
 
             a {
-                margin-left: 48px;
                 padding: 16px 20px;
                 text-decoration: none;
                 font-size: 24px;
                 color: $inverse-primary;
                 display: block;
-                transition: 0.3s;
+                transition: 0.25s;
 
                 @include md {
                     padding: 8px 40px;
@@ -100,23 +102,14 @@ header {
                 }
 
                 &:hover {
-                    background-color: $primary-container;
+                    background-color: rgba($primary-container,0.8);
+                    color: $on-primary-container;
+                }
+                &:active{
+                    background-color: rgba($primary-container,1);
                     color: $on-primary-container;
                 }
 
-            }
-
-            div {
-                position: absolute;
-                height: 100%;
-                width: 48px;
-                background-color: $primary-container;
-                background-image: url(../img/global/FloorDots.svg);
-                background-size: 32%;
-                top: 0;
-                left: 0;
-                z-index: 1000;
-                opacity: 50%;
             }
         }
     }

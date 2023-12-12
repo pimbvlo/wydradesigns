@@ -64,7 +64,6 @@
                 <h6>
                     <a href="resume.html">resume</a>
                 </h6>
-                <div></div>
             </nav>
             </div>
     </header>
@@ -72,8 +71,8 @@
     <main>
         <section id="indexHero" class="section-content section-padding">
             <article class="gap-v">
-                <h1>Welcome to</h1>
-                <div class="center"></div>
+                <h1>Welcome to<br>Wydra Designs</h1>
+                <!-- <div class="center"></div> -->
             </article>
         </section>
         
@@ -104,7 +103,7 @@
 
         <section id="indexMarquee" aria-hidden="true">
             <!-- NEED TO HAVE SAME NUMBER OF ITEMS -->
-            <div id="marqueeOne">
+            <!-- <div id="marqueeOne">
                 <ul class="marquee marqueeRight">
                     <li class="box">Empathy</li>
                     <li class="box">♥️</li>
@@ -205,6 +204,101 @@
                     <li class="box">Intentional</li>
                     <li class="box">🎯</li>
                 </ul>
+            </div> -->
+        
+        
+            <div id="marqueeOne" class="marquee">
+                <ul class="marquee-inner" aria-hidden="true" ref="inner">
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                    <li class="marquee-unit">
+                        empathy ♥️
+                    </li>
+                </ul>
+            </div>
+            <div id="marqueeTwo" class="marquee">
+                <ul class="marquee-inner" aria-hidden="true" ref="inner">
+                    <li class="marquee-unit">
+                        adaptable 🦾
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 🦾
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 🦾
+                    </li>
+                    <li class="marquee-unit">
+                        adaptable 💪
+                    </li>
+                </ul>
+            </div>
+            <div id="marqueeThree" class="marquee">
+                <ul class="marquee-inner" aria-hidden="true" ref="inner">
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                    <li class="marquee-unit">
+                        intentional 🎯
+                    </li>
+                </ul>
             </div>
         </section>
 
@@ -233,12 +327,19 @@
             </article>
         </section>
 
-        <section id="indexProjectsList" class="section-content section-margin">
+        <section id="indexProjectsList" class="section-content section-padding">
             <article class="gap-v gap-h">
                 <h2>Case Studies</h2>
+                <div id="myBtnContainer">
+                    <button class="chip active" onclick="filterSelection('all')"> Show All</button>
+                    <button class="chip" onclick="filterSelection('ux')">UX</button>
+                    <button class="chip" onclick="filterSelection('research')">Research</button>
+                    <button class="chip" onclick="filterSelection('branding')">Branding</button>
+                    <button class="chip" onclick="filterSelection('external')">External</button>
+                </div>
                 <ul>
-                    <li class="project-list-item">
-                        <h3>Second Life</h3>
+                    <li class="filterDiv ux research branding external">
+                        <h3>Second Life Compost</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
                                 for previewing layouts and visual mockups.</p>
@@ -258,7 +359,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv ux research external">
                         <h3>Target Curbside Pickup</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -279,7 +380,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv ux research external">
                         <h3>TikTok Live Stream Donation</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -300,8 +401,8 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
-                        <h3>Tinder Gamified Dating</h3>
+                    <li class="filterDiv ux research external">
+                        <h3>How Tinder Gamified Dating</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
                                 for previewing layouts and visual mockups.</p>
@@ -322,13 +423,14 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv ux research">
                         <h3>Attention to Detail</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
                                 for previewing layouts and visual mockups.</p>
                             <ul>
                                 <li class="chip">UX</li>
+                                <li class="chip">Research</li>
                                 <li class="chip">Accessibility</li>
                                 <li class="chip">Website</li>
                             </ul>
@@ -340,7 +442,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv branding">
                         <h3>Fender Knock-down Packaging</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -358,7 +460,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv branding">
                         <h3>Science History Museum</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -378,7 +480,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv branding">
                         <h3>The Philaldephia School</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -397,7 +499,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv branding">
                         <h3>Antifogmatic</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -417,7 +519,7 @@
                             </a>
                         </h6>
                     </li>
-                    <li class="project-list-item">
+                    <li class="filterDiv">
                         <h3>Barbara Kasten Artist Catalogue</h3>
                         <div>
                             <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries
@@ -445,11 +547,10 @@
             <article>
                 <h2>Let's Get In Touch!</h2>
                 <h6 class="button button-icon-left button-text">
-                    <a href="mailto:shawn.wydra@gmail.com">shawn.wydra@gmail.com
+                    <a href="mailto:shawn.wydra@gmail.com">Let's Chat!
                         <span class="material-symbols-outlined">
                             mail
                         </span>
-    
                     </a>
                 </h6>
             </article>

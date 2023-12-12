@@ -6,11 +6,10 @@
     background-image: url("../img/index/TilePhoto.svg");
     background-repeat: repeat;
     background-size: 16%;
-    height: 40vh;
+    height: 20vh;
     min-height: 200px;
     background-color: $surface-variant;
 
-    // margin-top: 72px;
     @include md {
         background-size: 12%;
     }

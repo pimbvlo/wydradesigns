@@ -81,10 +81,10 @@
     }
 
     @include xl {
-        grid-template-columns: 64px auto 64px;
+        grid-template-columns: 12vw auto 12vw;
     }
 
-    :first-child {
+    >:first-child {
         grid-area: content;
     }
 }

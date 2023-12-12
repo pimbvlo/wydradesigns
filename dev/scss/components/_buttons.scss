@@ -23,12 +23,10 @@
         font-weight: 600;
         justify-content: center;
         text-transform: uppercase;
-        letter-spacing: rem-calc(1);
         width: 100%;
 
         @include md {
             @include padding(16px, 24px, 16px, 24px);
-            letter-spacing: rem-calc(2);
             font-size: rem-calc(28);
         }
 
@@ -167,12 +165,7 @@ $state-focused: $state-pressed;
         gap: 8px;
         padding: 12px 20px;
         color: $primary;
-        line-height: rem-calc(20);
-        font-size: rem-calc(20);
         width: 100%;
-        // letter-spacing: -10%;
-        
-        font-variation-settings: "ital"0, "wdth"104, "wght"600;
         @supports (leading-trim: both) and (text-edge: cap) {
             leading-trim: both;
             text-edge: cap;

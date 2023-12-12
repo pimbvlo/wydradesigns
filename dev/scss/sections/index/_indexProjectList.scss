@@ -2,13 +2,31 @@
     Index Project List
 ============= */
 #indexProjectsList {
+    background-color: $surface-variant;
+
     >article {
         display: flex;
         flex-direction: column;
 
-        .project-list-item {
-            width: 100%;
+        #myBtnContainer {
             display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+
+            .chip {
+                cursor: pointer;
+                transition: all 0.25s;
+
+                &:hover {
+                    background-color: rgba($primary, $state-hovered);
+                }
+            }
+
+
+        }
+
+        .filterDiv {
+            width: 100%;
             flex-direction: column;
             gap: 20px;
             padding: 32px 0px;
@@ -25,25 +43,27 @@
             @include lg {
                 min-height: 160px;
             }
-            @include xl{
+
+            @include xl {
                 min-height: 120px;
             }
 
             h3 {
                 @include md {
-                    min-width: 16%;
-                    max-width: 16%;
-                    font-size: inherit;
-                    line-height: inherit;
+                    min-width: 18%;
+                    max-width: 18%;
+                    font-size: rem-calc(20);
+                    line-height: rem-calc(28);
                 }
 
                 @include lg {
                     min-width: 24%;
                     max-width: 24%;
                     font-size: rem-calc(28);
-                    line-height: rem-calc(32);
-                        
+                    line-height: rem-calc(36);
+
                 }
+
                 @include xl {
                     min-width: 24%;
                     max-width: 24%;
@@ -59,7 +79,8 @@
                     min-width: auto;
                     max-width: 50%;
                 }
-                @include lg{
+
+                @include lg {
                     max-width: 40%;
                 }
 
@@ -90,5 +111,17 @@
             }
         }
 
+    }
+
+    .filterDiv {
+        display: none;
+    }
+
+    .show {
+        display: flex;
+    }
+
+    .chip.active {
+        background-color: $primary-container;
     }
 }

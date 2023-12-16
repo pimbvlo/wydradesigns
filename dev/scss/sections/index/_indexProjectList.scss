@@ -96,7 +96,11 @@
                     display: flex;
                     flex-wrap: wrap;
                     gap: 8px;
-
+                    .chip{
+                        height: 32px;
+                        max-height: 32px;
+                    
+                    }
                 }
 
             }
@@ -120,8 +124,18 @@
     .show {
         display: flex;
     }
+    .chip{
+        > span{
+            display: none;
+        }
+    }
 
     .chip.active {
         background-color: $primary-container;
+        border: none;
+        > span{
+            display: block;
+        }
+
     }
 }

@@ -5,106 +5,82 @@ gsap.set("#marqueeOne", {
 });
 gsap.set("#marqueeTwo", {
   transformOrigin: "50% 50%",
-  rotate: -1,
+  rotate: -0.5,
   scale: 1.05,
   y: -12
 });
-//   gsap.set("#marqueeThree", {
-//     transformOrigin: "50% 50%",
-//     rotate: 2,
-//     scale: 1.05,
-//     y: -20
-//   });
-
-// if (window.innerWidth < 768) {
-//   gsap.to(".marqueeLeft li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: -250,
-//     ease: "none",
-//   });
-//   gsap.to(".marqueeRight li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: 250,
-//     ease: "none",
-//   });
-
-// } else if (window.innerWidth < 1024) {
-//   gsap.to(".marqueeLeft li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: -250,
-//     ease: "none",
-//   });
-//   gsap.to(".marqueeRight li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: 250,
-//     ease: "none",
-//   });
-
-// } else {
-//   gsap.to(".marqueeLeft li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: -750,
-//     ease: "none",
-//   });
-//   gsap.to(".marqueeRight li", {
-//     scrollTrigger: {
-//       trigger: "#marqueeOne",
-//       scrub: true,
-//       start: "top bottom",
-//       end: "+=175%"
-//     },
-//     x: 250,
-//     ease: "none",
-//   });
-
-// }
-
-gsap.to("#marqueeOne .marquee-unit", {
-  xPercent: -100,
-  repeat: -1,
-  duration: 10,
-  ease: "none"
+gsap.set("#marqueeThree", {
+  transformOrigin: "50% 50%",
+  rotate: 1.5,
+  scale: 1.05,
+  y: -4
 });
 
-gsap.to("#marqueeTwo .marquee-unit", {
-  xPercent: -100,
-  repeat: -1,
-  duration: 9,
-  ease: "none"
-});
+// Grab the prefers reduced media query.
+const mediaQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
 
-gsap.to("#marqueeThree .marquee-unit", {
-  xPercent: -100,
-  repeat: -1,
-  duration: 12,
-  ease: "none"
-});
+// Check if the media query matches or is not available.
+if (!mediaQuery || mediaQuery.matches) {
+  gsap.set(".marquee", {
+    repeat: 0
+  });
+} else {
+  gsap.to("#marqueeOne .marquee-unit", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 18,
+    ease: "none"
+  });
 
-gsap.set(".marquee-inner", {
-  xPercent: -25
+  gsap.to("#marqueeTwo .marquee-unit", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 14,
+    ease: "none"
+  });
+
+  gsap.to("#marqueeThree .marquee-unit", {
+    xPercent: -100,
+    repeat: -1,
+    duration: 16,
+    ease: "none"
+  });
+
+  gsap.set(".marquee-inner", {
+    xPercent: -25
+  });
+}
+
+// Ads an event listener to check for changes in the media query's value.
+mediaQuery.addEventListener("change", () => {
+  if (mediaQuery.matches) {
+    gsap.set(".marquee", {
+      repeat: 0
+    });
+  } else {
+    gsap.to("#marqueeOne .marquee-unit", {
+      xPercent: -100,
+      repeat: -1,
+      duration: 18,
+      ease: "none"
+    });
+
+    gsap.to("#marqueeTwo .marquee-unit", {
+      xPercent: -100,
+      repeat: -1,
+      duration: 14,
+      ease: "none"
+    });
+
+    gsap.to("#marqueeThree .marquee-unit", {
+      xPercent: -100,
+      repeat: -1,
+      duration: 16,
+      ease: "none"
+    });
+
+    gsap.set(".marquee-inner", {
+      xPercent: -25
+    });
+  }
 });

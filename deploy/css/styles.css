@@ -431,6 +431,9 @@ ul {
   ul li {
     list-style: none; }
 
+#main {
+  padding-top: 80px; }
+
 .case-study-hero {
   align-items: flex-end;
   background-position: center;
@@ -592,34 +595,34 @@ p {
   font-style: normal; }
 
 h1 {
-  font-size: 3.25rem;
-  line-height: 3rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 60;
+  font-size: 3.75rem;
+  line-height: 4rem;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 80;
   margin: 0;
   letter-spacing: 1px; }
   @media (min-width: 768px) {
     h1 {
-      font-size: 4.25rem;
-      line-height: 4rem; } }
+      font-size: 5.5rem;
+      line-height: 5.75rem; } }
   @media (min-width: 1024px) {
     h1 {
-      font-size: 5.75rem;
-      line-height: 5.5rem; } }
+      font-size: 8rem;
+      line-height: 8.25rem; } }
 h2 {
-  font-size: 1.75rem;
-  font-variation-settings: "slnt" 0, "wdth" 140, "wght" 600, "INKT" 80;
-  line-height: 2rem;
+  font-size: 2.5rem;
+  font-variation-settings: "slnt" 0, "wdth" 160, "wght" 600, "INKT" 80;
+  line-height: 3rem;
   letter-spacing: 0.2px; }
   @media (min-width: 768px) {
     h2 {
-      font-size: 2.5rem;
-      line-height: 3rem; } }
-  @media (min-width: 1024px) {
-    h2 {
       font-size: 3.25rem;
       line-height: 4rem; } }
+  @media (min-width: 1024px) {
+    h2 {
+      font-size: 4rem;
+      line-height: 4.75rem; } }
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 50;
   line-height: 1.75rem; }
   @media (min-width: 768px) {
@@ -628,8 +631,8 @@ h3 {
       line-height: 2.25rem; } }
   @media (min-width: 1024px) {
     h3 {
-      font-size: 2.25rem;
-      line-height: 2.75rem; } }
+      font-size: 2rem;
+      line-height: 2.5rem; } }
 h4 {
   font-size: 1rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 00;
@@ -649,17 +652,23 @@ h6 {
   text-transform: capitalize; }
 
 p {
-  font-size: 1rem;
+  font-size: 1.125rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00;
   line-height: 1.75rem;
   letter-spacing: 0.2px; }
   @media (min-width: 1024px) {
     p {
-      font-size: 1.125rem;
+      font-size: 1.25rem;
       line-height: 1.875rem; } }
   p > a {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00;
     color: #6700c2; }
+
+.caption {
+  font-size: 0.75rem;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00;
+  line-height: 1rem;
+  letter-spacing: 0.64px; }
 
 a {
   text-decoration: none;
@@ -866,21 +875,26 @@ a {
   display: inline-flex;
   align-items: center;
   flex-shrink: 0;
-  border-radius: 4px; }
+  column-gap: 4px;
+  height: 32px;
+  max-height: 32px;
+  border-radius: 4px;
+  padding: 0px 8px; }
   @supports (leading-trim: both) and (text-edge: cap) {
     .chip,
     .chip-icon {
       leading-trim: both;
       text-edge: cap; } }
+  .chip .material-symbols-outlined,
+  .chip-icon .material-symbols-outlined {
+    font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 16; }
 
 .chip {
-  padding: 4px 8px;
   border: 1px solid #beb9c3; }
 
 .chip-icon {
-  padding: 4px 4px 4px 8px;
-  column-gap: 4px;
-  background-color: #e1ccf3; }
+  background-color: #e1ccf3;
+  padding: 0px 6px 0px 8px; }
 
 /* =============
     Forms
@@ -936,19 +950,26 @@ header {
   height: 80px;
   background-color: #fdfdfd;
   width: 100%;
-  z-index: 10000; }
+  z-index: 9000; }
   header > div {
     display: flex;
     align-items: center;
     justify-content: flex-start;
     /* The side navigation menu */ }
     header > div > a {
-      margin-top: 8px;
+      margin-top: 6px;
       display: flex;
       align-items: center; }
+      @media (min-width: 768px) {
+        header > div > a {
+          margin-top: 8px; } }
       header > div > a > svg {
-        height: 32px;
+        height: 28px;
         width: auto; }
+        @media (min-width: 768px) {
+          header > div > a > svg {
+            height: 32px;
+            width: auto; } }
         header > div > a > svg #wydradesigns {
           fill: #150027; }
     header > div #burger-container {
@@ -1110,8 +1131,8 @@ footer {
   background-image: url("../img/index/TilePhoto.svg");
   background-repeat: repeat;
   background-size: 16%;
-  height: 20vh;
-  min-height: 200px;
+  height: 32vh;
+  min-height: 400px;
   background-color: #f8f5fb; }
   @media (min-width: 768px) {
     #indexHero {
@@ -1265,19 +1286,15 @@ footer {
     object-fit: cover; }
     @media (min-width: 1024px) {
       .index-project article img {
-        width: 50%;
-        min-width: 200px;
-        height: 100%; } }
+        width: 50%; } }
   .index-project article > div {
     display: flex;
     flex-direction: column; }
     @media (min-width: 1024px) {
       .index-project article > div {
         width: 50%;
-        min-width: 400px; } }
-    @media (min-width: 1440px) {
-      .index-project article > div {
-        width: 20%; } }
+        min-width: 400px;
+        max-width: 900px; } }
     .index-project article > div ul {
       display: flex;
       flex-wrap: wrap;
@@ -1436,6 +1453,9 @@ footer {
           display: flex;
           flex-wrap: wrap;
           gap: 8px; }
+          #indexProjectsList > article .filterDiv > div ul .chip {
+            height: 32px;
+            max-height: 32px; }
       #indexProjectsList > article .filterDiv .button {
         align-self: initial; }
         @media (min-width: 504px) {
@@ -1445,8 +1465,13 @@ footer {
     display: none; }
   #indexProjectsList .show {
     display: flex; }
+  #indexProjectsList .chip > span {
+    display: none; }
   #indexProjectsList .chip.active {
-    background-color: #e1ccf3; }
+    background-color: #e1ccf3;
+    border: none; }
+    #indexProjectsList .chip.active > span {
+      display: block; }
 
 /* =============
     About Hero

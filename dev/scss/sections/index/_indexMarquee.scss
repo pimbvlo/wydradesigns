@@ -25,24 +25,6 @@
             }
 
         }
-
-        // :nth-child(odd) {
-        //     @supports (leading-trim: both) and (text-edge: cap) {
-        //         leading-trim: both;
-        //         text-edge: cap;
-        //     }
-        // }
-
-        // :nth-child(even) {
-        //     font-family: sans-serif;
-        //     font-size: rem-calc(52);
-        //     margin-bottom: 12px;
-
-        //     @include lg {
-        //         font-size: rem-calc(60);
-        //     }
-
-        // }
     }
 
     > :nth-child(1) {

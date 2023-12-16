@@ -6,8 +6,8 @@
     background-image: url("../img/index/TilePhoto.svg");
     background-repeat: repeat;
     background-size: 16%;
-    height: 20vh;
-    min-height: 200px;
+    height: 32vh;
+    min-height: 400px;
     background-color: $surface-variant;
 
     @include md {

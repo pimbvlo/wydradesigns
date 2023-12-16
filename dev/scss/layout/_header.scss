@@ -6,9 +6,10 @@ header {
     position: fixed;
     // transition: 0.25s;
     height: 80px;
-    background-color: $surface;
+    background-color: rgba($surface, 1);
     width: 100%;
-    z-index: 10000;
+    z-index: 9000;
+
 
     >div {
         display: flex;
@@ -27,16 +28,26 @@ header {
         // }
 
         >a {
-            margin-top: 8px;
+            margin-top: 6px;
             display: flex;
             align-items: center;
-    
+
+            @include md {
+                margin-top: 8px;
+            }
+
             >svg {
-                height: 32px;
+                height: 28px;
                 width: auto;
+                @include md {
+                    height: 32px;
+                    width: auto;
+                }
 
                 #wydradesigns {
                     fill: $on-primary-container;
+                    // mix-blend-mode: color;
+
                 }
             }
         }
@@ -57,7 +68,8 @@ header {
             @include lg {
                 right: 64px;
             }
-            @include xl{
+
+            @include xl {
                 right: 12vw;
             }
 
@@ -102,11 +114,12 @@ header {
                 }
 
                 &:hover {
-                    background-color: rgba($primary-container,0.8);
+                    background-color: rgba($primary-container, 0.8);
                     color: $on-primary-container;
                 }
-                &:active{
-                    background-color: rgba($primary-container,1);
+
+                &:active {
+                    background-color: rgba($primary-container, 1);
                     color: $on-primary-container;
                 }
 

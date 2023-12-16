@@ -19,9 +19,9 @@
             background-image: none;
             object-fit: cover;
             @include lg{
-                width: 50%;
-                min-width: 200px;
-                height: 100%;
+                width:50%;
+                // min-width: 200px;
+                // height: 20vh;
             }
         }
 
@@ -31,10 +31,7 @@
             @include lg{
                 width: 50%;
                 min-width: 400px;
-
-            }
-            @include xl{
-               width: 20%;
+                max-width: 900px;
 
             }
 

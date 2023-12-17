@@ -49,7 +49,7 @@ gsap.to(
       toggleActions: "restart none reverse none"
     },
     duration: 0.2,
-    backgroundColor: "rgba(43, 43, 43, 1)",
+    backgroundColor: "rgba(50, 44, 55, 1)",
     ease: "none"
   },
   "header-meet-footer"
@@ -64,7 +64,7 @@ gsap.to(
       toggleActions: "restart none reverse none"
     },
     duration: 0.2,
-    fill: "rgba(225, 204, 243, 1)",
+    fill: "rgba(225, 225, 225, 1)",
     ease: "none"
   },
   "header-meet-footer"
@@ -94,7 +94,7 @@ gsap.to(
       toggleActions: "restart none reverse none"
     },
     duration: 0.2,
-    backgroundColor: "rgba(43, 43, 43, 1)",
+    backgroundColor: "rgba(50, 44, 55, 1)",
     ease: "none"
   },
   "header-meet-footer"

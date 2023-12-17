@@ -432,7 +432,7 @@ ul {
   padding-top: 80px; }
 
 .hero {
-  background-color: #e1ccf3;
+  background-color: #6700c2;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -450,6 +450,7 @@ ul {
     flex-direction: column; }
 
 .hero.inset-page {
+  background-color: #e1d0ef;
   color: #150027; }
 
 /*
@@ -1019,7 +1020,7 @@ header {
 ============= */
 footer {
   height: 100vh;
-  background-color: #2b2b2b;
+  background-color: #322c37;
   color: #efefef; }
   footer .button {
     text-transform: none;
@@ -1044,6 +1045,8 @@ footer {
       display: flex;
       flex-direction: column;
       gap: 20px; }
+      footer > div article h2 {
+        text-transform: capitalize; }
       footer > div article .button > a {
         font-weight: 400;
         color: white; }
@@ -1470,7 +1473,7 @@ footer {
 #aboutWho {
   display: flex;
   flex-direction: column;
-  background-color: #f8f5fb; }
+  background-color: #ebe2f3; }
   @media (min-width: 768px) {
     #aboutWho {
       flex-direction: row-reverse;

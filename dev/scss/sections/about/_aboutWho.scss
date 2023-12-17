@@ -4,7 +4,7 @@
 #aboutWho {
     display: flex;
     flex-direction: column;
-    background-color: $surface-variant;
+    background-color: $surface-light-1;
 
     @include md {
         flex-direction: row-reverse;

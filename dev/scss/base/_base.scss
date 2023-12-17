@@ -20,7 +20,7 @@ ul {
 }
 
 .hero {
-    background-color: $primary-container;
+    background-color: $primary;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,6 +43,7 @@ ul {
 }
 
 .hero.inset-page {
+    background-color: $surface-light-5;
     color: $on-primary-container;
 }
 

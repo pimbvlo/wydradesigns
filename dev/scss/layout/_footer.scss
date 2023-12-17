@@ -3,7 +3,7 @@
 ============= */
 footer {
     height: 100vh;
-    background-color: $inverse-surface;
+    background-color: $surface-dark-1;
     color: $on-inverse-surface;
     .button {
         text-transform: none;
@@ -51,6 +51,9 @@ footer {
             display: flex;
             flex-direction: column;
             gap: 20px;
+            h2{
+                text-transform: capitalize;
+            }
 
             .button {
                 >a {

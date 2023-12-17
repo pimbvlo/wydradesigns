@@ -15,60 +15,35 @@ ul {
     }
 }
 
-#main{
+#main {
     padding-top: 80px;
 }
 
-.case-study-hero {
-    align-items: flex-end;
+.hero {
+    background-color: $primary-container;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
-    height: 72vh;
+    color: $on-primary;
 
-    >div {
-        article {
-            h1 {
-                text-align: center;
-            }
-
-            h4 {
-                text-align: center;
-            }
-        }
-    }
+    height: 20vh;
+    min-height: 200px;
+    mix-blend-mode: multiply;
 
     @include lg {
-        height: 80vh;
-
-        @supports (background-attachment: fixed) {
-            background-attachment: fixed;
-        }
+        height: 40vh;
     }
 
-    >div {
-        align-items: flex-end;
+    article {
         display: flex;
-        height: 50%;
-        width: 100%;
-
-        article {
-            color: $white;
-            text-align: center;
-            @include margin(null, auto, null, auto);
-            max-width: 80%;
-
-            h1 {
-                text-align: center;
-                @include margin(null, null, 8px, null);
-            }
-
-            i {
-                font-size: rem-calc(48);
-            }
-        }
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
     }
+}
+
+.hero.inset-page {
+    color: $on-primary-container;
 }
 
 /*
@@ -232,5 +207,5 @@ ul {
 }
 
 .material-symbols-outlined {
-    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
-  }
+    font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'48;
+}

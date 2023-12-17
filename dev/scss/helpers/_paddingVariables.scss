@@ -68,10 +68,6 @@
     grid-template-areas: ". content .";
     grid-template-columns: 20px auto 20px;
 
-    @include sm {
-        grid-template-columns: 20px auto 20px;
-    }
-
     @include md {
         grid-template-columns: 40px auto 40px;
     }

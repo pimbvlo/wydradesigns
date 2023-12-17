@@ -2,78 +2,67 @@
     About Who
 ============= */
 #aboutWho {
-    // @include margin(112px,null,null,null);
-    > div {
-        article {
-            grid-gap: 16px;
-            display: grid;
-            grid-template-areas:"p" "i";
-            grid-template-columns: repeat(1,1fr);
-            @include sm{
-                max-width: 560px;
-                @include margin(null, auto, null, auto);
-            }
-            @include md {
-                grid-gap: 24px;
-                max-width: none;
-                @include margin(0, 0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    background-color: $surface-variant;
 
-                grid-template-areas:"p i";
-                grid-template-columns: 60% auto;
-            }
-            @include lg {
-                grid-gap: 32px;
-                grid-template-areas: "p . i";
-                grid-template-columns: 50% auto 40%;
-            }
+    @include md {
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+    }
 
-            // h2 {
-            //     grid-area: t;
-            // }
+    @include xl {
+        padding-left: 12vw;
+        padding-right: 12vw;
+    }
 
-            div {
-                grid-area: p;
+    article {
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
 
-                p:nth-child(2) {
-                    @include padding(16px,0px,0px,0px);
-                    @include md{
-                        @include padding(24px,0px,0px,0px);
-                    }
-                    @include lg{
-                        @include padding(32px,0px,0px,0px);
-                    }
-                }
-            }
+        @include md {
+            width: 60%;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        @include lg{
+            max-width: 600px;
+        }
+    }
 
-            figure {
-                background-image: url("../img/about/SWydra.jpg");
+    aside {
+        padding: 0px 20px;
+
+        @include sm {
+            width: 80%;
+
+        }
+
+        @include md {
+            width: 40%;
+            padding: 0px;
+        }
+
+        figure {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            height: 100%;
+
+            img {
+                object-fit: cover;
                 background-position: center;
                 background-repeat: no-repeat;
                 background-size: cover;
-                border-radius: 16px;
-                grid-area: i;
-                height: 30vh;
                 width: 100%;
-                max-width: 360px;
-                transition: background 0.25s ease-in-out;
-                @include margin(null, auto, null, auto);
-                @include sm{
-                    height: 40vh;
-                    max-width: 400px;
+                aspect-ratio: 1/1;
 
+                @include md {
+                    aspect-ratio: unset;
                 }
-                @include md{
-                    width: 100%;
-                    max-width: none;
-                    @include margin(0, 0, 0, 0);
-                }
-
             }
-            @include lg{
-                figure:hover{
-                background-image: url("../img/about/SWydra_Personality.jpg");
-            }
-}
         }
     }
 }

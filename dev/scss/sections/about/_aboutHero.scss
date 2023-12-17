@@ -2,26 +2,6 @@
     About Hero
 ============= */
 #aboutHero {
-    background-image: url("../img/about/Hero.jpg");
-    background-position: center top;
-    height: 72vh;
-    min-height: 504px;
-    @supports (background-blend-mode: multiply) {
-        background-blend-mode: multiply;
-        background-color: $light-orange;
-
-        background-image: url("../img/about/HeroGrey.jpg");
-        @include dark{
-            background-color: $orange;
-
-        }
-    }
-    @include lg {
-        @supports (background-attachment: fixed) {
-            background-attachment: fixed;
-        }
-    }
-
     > div {
         article {
             h1 {}

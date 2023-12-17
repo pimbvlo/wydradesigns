@@ -112,6 +112,11 @@ p {
         font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00; 
         color: $primary;
     }
+    
+    span{
+        color: $on-primary-container;
+        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 900, "INKT" 100; 
+    }
 }
 .caption{
     font-size: rem-calc(12);  

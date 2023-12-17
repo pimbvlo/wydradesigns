@@ -23,7 +23,6 @@
         background-size: 4%;
     }
 
-
     article {
 
         align-items: flex-start;
@@ -46,7 +45,8 @@
             font-family: interstate-mono, monospace;
             // font-variant-numeric:slashed-zero;
             font-weight: 700;
-            @include md{
+
+            @include md {
                 line-height: 120%;
             }
 

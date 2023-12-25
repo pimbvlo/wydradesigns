@@ -2,41 +2,27 @@
     Index Intro
 ============= */
 #indexIntro {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
-    div {
-        align-items: center;
+    article {
         display: flex;
         justify-content: center;
+        align-items: center;
+        border-radius: 32px;
+        max-width: 600px;
 
-        article {
-            align-items: center;
-            border-bottom: 4px solid $orange;
-            border-top: 4px solid $orange;
-            display: flex;
-            justify-content: center;
-            @include padding(16px, 0px, 16px, 0px);
-            @include sm {
-                width: 76vw;
-            }
-            @include md {
-                width: 56vw;
-            }
-            @include lg {
-                width: 48vw;
-            }
-            @include xl {
-                width: 32vw;
-            }
+        @include lg{
+            max-width: 680px;
+        }
+        h3 {
+            // margin: 0px 20px;
+            color: $on-secondary-container;
 
-            p {
-                @include padding(0px, 8px, 0px, 8px);
-                @include md {
-                    @include padding(0px, 16px, 0px, 16px);
-                }
+            .intro-angle {
+                color: $on-secondary-container;
+                background-color: $surface;
+                border: 2px solid $secondary;
+                padding:8px 8px 4px;
+                border-radius: 8px;
+                display: inline-block;
             }
         }
     }

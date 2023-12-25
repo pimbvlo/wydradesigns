@@ -155,23 +155,30 @@ $state-focused: $state-pressed;
     border-radius: 40px;
     align-self: flex-start;
 
-
     >a {
         border-radius: 40px;
         display: flex;
-        align-items: self-end;
+        align-items: baseline;
         justify-content: center;
         align-self: flex-start;
         gap: 8px;
-        padding: 12px 20px;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
         color: $primary;
         width: 100%;
+
         @supports (leading-trim: both) and (text-edge: cap) {
             leading-trim: both;
             text-edge: cap;
         }
-    
 
+        >.material-symbols-outlined{
+            display: flex;
+            align-self: center;
+            margin-top: -6px;
+        }
 
     }
 
@@ -203,16 +210,21 @@ $state-focused: $state-pressed;
 .button-icon-left {
     >a {
         flex-direction: row-reverse;
-        // padding: 12px 16px 12px 20px;
-                padding: 12px 20px;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 16px;
 
+        
     }
 }
 
 .button-icon-right {
     >a {
-        // padding: 12px 20px 12px 16px;
-                padding: 12px 20px;
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 20px;
 
 
     }
@@ -220,7 +232,6 @@ $state-focused: $state-pressed;
 
 .button-filled {
     background-color: $primary;
-
     box-shadow: none;
 
     >a {

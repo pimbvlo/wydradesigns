@@ -1,0 +1,54 @@
+/* =============
+    Heroes
+============= */
+
+.hero {
+    background-position: center;
+    background-image: radial-gradient($outline-variant 5%, transparent 0);
+    background-size: 24px 24px;
+
+    height: 32vh;
+    min-height: 360px;
+
+    @include md {
+        background-size: 40px 40px;
+
+    }
+
+    @include lg {
+        height: 48vh;
+    }
+
+    article {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+
+        h1 {
+            color: $on-primary-container;
+        }
+
+
+    }
+}
+
+.hero.inset-page {
+    background-image: radial-gradient($primary-container 5%, transparent 0);
+    height: 24vh;
+
+}
+
+/*
+* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
+*/
+.cs-hero-Gradient-future {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), cubic-bezier(0.39, 0.57, 0.56, 1), hsla(0, 0%, 0%, 0.6));
+}
+
+/*
+* Fallback CSS
+*/
+.cs-hero-Gradient {
+    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.16319444442) 17.89%, hsla(0, 0%, 0%, 0.30755555555999997) 33.48%, hsla(0, 0%, 0%, 0.42824999999999996) 48.13%, hsla(0, 0%, 0%, 0.5204444444399999) 63.19%, hsla(0, 0%, 0%, 0.57930555558) 80.02%, hsla(0, 0%, 0%, 0.6) 100%);
+}

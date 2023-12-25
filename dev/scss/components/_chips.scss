@@ -32,10 +32,13 @@
 
 .chip {
     border: 1px solid $outline-variant;
+    color: $on-secondary-container;
 }
 
 .chip-icon {
-    background-color: $primary-container;
+    border: 1px solid $secondary;
+    background-color: $secondary;
+    color: $on-secondary;
     padding: 0px 6px 0px 8px;
 
 }

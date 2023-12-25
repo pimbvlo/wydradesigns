@@ -39,6 +39,7 @@ header {
             >svg {
                 height: 28px;
                 width: auto;
+
                 @include md {
                     height: 32px;
                     width: auto;
@@ -89,7 +90,7 @@ header {
             z-index: 10000;
             top: 0;
             right: 0;
-            background-color: $inverse-surface;
+            background-color: $surface-dark-2;
             overflow-x: hidden;
             padding-top: 80px;
             transition: all 0.5s;

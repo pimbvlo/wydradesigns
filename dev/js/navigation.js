@@ -48,9 +48,9 @@ gsap.to(
       end: "top 80px",
       toggleActions: "restart none reverse none"
     },
-    duration: 0.2,
-    backgroundColor: "rgba(50, 44, 55, 1)",
-    ease: "none"
+    duration: 0.25,
+    backgroundColor: "rgba(47, 41, 52, 1)",
+    ease: "sine.inOut"
   },
   "header-meet-footer"
 );
@@ -63,9 +63,9 @@ gsap.to(
       end: "top 80px",
       toggleActions: "restart none reverse none"
     },
-    duration: 0.2,
+    duration: 0.25,
     fill: "rgba(225, 225, 225, 1)",
-    ease: "none"
+    ease: "sine.inOut"
   },
   "header-meet-footer"
 );
@@ -78,9 +78,9 @@ gsap.to(
       end: "top 80px",
       toggleActions: "restart none reverse none"
     },
-    duration: 0.2,
+    duration: 0.25,
     stroke: "rgba(225, 204, 243, 1)",
-    ease: "none"
+    ease: "sine.inOut"
   },
   "header-meet-footer"
 );
@@ -93,9 +93,9 @@ gsap.to(
       end: "top 80px",
       toggleActions: "restart none reverse none"
     },
-    duration: 0.2,
-    backgroundColor: "rgba(50, 44, 55, 1)",
-    ease: "none"
+    duration: 0.25,
+    backgroundColor: "rgba(47, 41, 52, 1)",
+    ease: "sine.inOut"
   },
   "header-meet-footer"
 );

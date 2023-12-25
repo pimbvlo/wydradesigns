@@ -8254,12 +8254,12 @@
       "oAP" : "\/dev\/index\/indexHero.html",
       "oF" : 0
     },
-    "\/dev\/index\/indexIntro.txt" : {
+    "\/dev\/index\/indexIntro.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index\/indexIntro.txt",
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexIntro.html",
       "oF" : 0
     },
     "\/dev\/index\/indexMarquee.kit" : {
@@ -8353,6 +8353,17 @@
       "mi" : 1,
       "oA" : 0,
       "oAP" : "\/dev\/js\/hero-flaps-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/index-intro.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/index-intro-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -8582,6 +8593,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_forms.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_heroes.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_heroes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

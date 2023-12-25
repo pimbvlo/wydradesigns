@@ -25,15 +25,13 @@ body {
     margin: 0;
 
     ::selection {
-        background: $primary-container;
-        color: $on-primary-container;
-        opacity: 1;
+        background: rgba($primary, 0.96);
+        color: $on-primary;
     }
 
     ::-moz-selection {
-        background: $primary-container;
-        color: $on-primary-container;
-        opacity: 1;
+        background: rgba($primary, 0.96);
+        color: $on-primary;
     }
 }
 

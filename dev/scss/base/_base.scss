@@ -19,47 +19,6 @@ ul {
     padding-top: 80px;
 }
 
-.hero {
-    background-color: $primary;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: $on-primary;
-
-    height: 20vh;
-    min-height: 200px;
-    mix-blend-mode: multiply;
-
-    @include lg {
-        height: 40vh;
-    }
-
-    article {
-        display: flex;
-        align-items: flex-start;
-        justify-content: flex-end;
-        flex-direction: column;
-    }
-}
-
-.hero.inset-page {
-    background-color: $surface-light-5;
-    color: $on-primary-container;
-}
-
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
-*/
-.cs-hero-Gradient-future {
-    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0), cubic-bezier(0.39, 0.57, 0.56, 1), hsla(0, 0%, 0%, 0.6));
-}
-
-/*
-* Fallback CSS
-*/
-.cs-hero-Gradient {
-    background-image: linear-gradient(to bottom, hsla(0, 0%, 0%, 0) 0%, hsla(0, 0%, 0%, 0.16319444442) 17.89%, hsla(0, 0%, 0%, 0.30755555555999997) 33.48%, hsla(0, 0%, 0%, 0.42824999999999996) 48.13%, hsla(0, 0%, 0%, 0.5204444444399999) 63.19%, hsla(0, 0%, 0%, 0.57930555558) 80.02%, hsla(0, 0%, 0%, 0.6) 100%);
-}
 
 .case-study-intro-image {
     >div {
@@ -196,17 +155,3 @@ ul {
     }
 }
 
-.caption {
-    // color: $white;
-    background-color: $white;
-    border-radius: 24px;
-    box-shadow: 0 1px 12px -3px rgba(19, 22, 24, .05), 0 3px 24px 4px rgba(19, 22, 24, .02), 0 8px 16px 2px rgba(19, 22, 24, .04);
-
-    p {
-        @include margin(16px, 32px, 16px, 32px);
-    }
-}
-
-.material-symbols-outlined {
-    font-variation-settings: 'FILL'0, 'wght'400, 'GRAD'0, 'opsz'48;
-}

@@ -1,5 +1,4 @@
-gsap.registerPlugin(ScrollTrigger);
-
+gsap.registerPlugin(ScrollTrigger) 
 // @codekit-prepend "burger/burger.js";
 // @codekit-prepend "burger/burger-mouseenter.js";
 // @codekit-prepend "burger/burger-click.js";
@@ -8,4 +7,5 @@ gsap.registerPlugin(ScrollTrigger);
 // @codekit-prepend "navigation.js";
 
 // @codekit-prepend "index-marquee.js";
+// @codekit-prepend "index-intro.js";
 // @codekit-prepend "index-projectlist.js";

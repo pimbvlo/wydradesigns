@@ -2,14 +2,17 @@
     Padding Variables
 ============= */
 .bkpt-side-margin {
-    margin: 0px 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 
     @include md {
-        margin: 0px 40px;
+        margin-right: 40px;
+        margin-left: 40px;
     }
 
     @include lg {
-        margin: 0px 64px;
+        margin-right: 64px;
+        margin-left: 64px;
     }
 }
 
@@ -46,13 +49,13 @@
     @include md {
         padding-top: 24px;
         padding-bottom: 24px;
-    
+
     }
 
     @include lg {
         padding-top: 36px;
         padding-bottom: 36px;
-    
+
     }
 }
 
@@ -64,7 +67,7 @@
     @include md {
         padding-right: 24px;
         padding-left: 24px;
-    
+
     }
 
     @include lg {
@@ -97,25 +100,35 @@
 }
 
 .section-margin {
-    margin: 68px 0px;
+    margin-top: 68px;
+    margin-bottom: 68px;
 
     @include md {
-        margin: 100px 0px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    
     }
 
     @include lg {
-        margin: 148px 0px;
+        margin-top: 148px;
+        margin-bottom: 148px;
+    
     }
 }
 
 .section-padding {
-    padding: 68px 0px;
+    padding-top: 68px;
+    padding-bottom: 68px;
 
     @include md {
-        padding: 100px 0px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    
     }
 
     @include lg {
-        padding: 148px 0px;
+        padding-top: 148px;
+        padding-bottom: 148px;
+    
     }
 }

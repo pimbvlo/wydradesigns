@@ -9,8 +9,14 @@
     @include md {
         flex-direction: row-reverse;
         justify-content: flex-end;
-    }
+        padding-left: 40px;
+        padding-right: 40px;
 
+    }
+    @include lg {
+        padding-left: 64px;
+        padding-right: 64px;
+    }
     @include xl {
         padding-left: 12vw;
         padding-right: 12vw;

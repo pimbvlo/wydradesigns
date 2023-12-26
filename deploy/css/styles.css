@@ -20,13 +20,16 @@ html {
     Padding Variables
 ============= */
 .bkpt-side-margin {
-  margin: 0px 20px; }
+  margin-right: 20px;
+  margin-left: 20px; }
   @media (min-width: 768px) {
     .bkpt-side-margin {
-      margin: 0px 40px; } }
+      margin-right: 40px;
+      margin-left: 40px; } }
   @media (min-width: 1024px) {
     .bkpt-side-margin {
-      margin: 0px 64px; } }
+      margin-right: 64px;
+      margin-left: 64px; } }
 .gap-h {
   column-gap: 20px; }
   @media (min-width: 768px) {
@@ -82,21 +85,27 @@ html {
     grid-area: content; }
 
 .section-margin {
-  margin: 68px 0px; }
+  margin-top: 68px;
+  margin-bottom: 68px; }
   @media (min-width: 768px) {
     .section-margin {
-      margin: 100px 0px; } }
+      margin-top: 100px;
+      margin-bottom: 100px; } }
   @media (min-width: 1024px) {
     .section-margin {
-      margin: 148px 0px; } }
+      margin-top: 148px;
+      margin-bottom: 148px; } }
 .section-padding {
-  padding: 68px 0px; }
+  padding-top: 68px;
+  padding-bottom: 68px; }
   @media (min-width: 768px) {
     .section-padding {
-      padding: 100px 0px; } }
+      padding-top: 100px;
+      padding-bottom: 100px; } }
   @media (min-width: 1024px) {
     .section-padding {
-      padding: 148px 0px; } }
+      padding-top: 148px;
+      padding-bottom: 148px; } }
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1340,7 +1349,13 @@ footer {
   @media (min-width: 768px) {
     #aboutWho {
       flex-direction: row-reverse;
-      justify-content: flex-end; } }
+      justify-content: flex-end;
+      padding-left: 40px;
+      padding-right: 40px; } }
+  @media (min-width: 1024px) {
+    #aboutWho {
+      padding-left: 64px;
+      padding-right: 64px; } }
   @media (min-width: 1440px) {
     #aboutWho {
       padding-left: 12vw;

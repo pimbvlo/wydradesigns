@@ -2,7 +2,6 @@
     Index Project List
 ============= */
 #indexProjectsList {
-    // background-color: $surface-light-1;
 
     >article {
         display: flex;
@@ -95,13 +94,14 @@
 
                 p {
                     margin-top: -12px;
-                    min-height: 4lh;
+                    min-height: 3lh;
 
                     @include md {
                         margin-top: 0px;
+                        min-height: 3lh;
+
                     }
                     @include lg{
-                        min-height: 3lh;
                     }
                 }
 

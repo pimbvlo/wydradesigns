@@ -27,9 +27,9 @@
 // Sections Styles
 // INDEX
 @import "sections/index/_indexHero";
-@import "sections/index/_indexProjectOne";
-@import "sections/index/_indexMarquee";
 @import "sections/index/_indexProjectTwo";
+@import "sections/index/_indexMarquee";
+@import "sections/index/_indexProjectThree";
 @import "sections/index/_indexIntro";
 @import "sections/index/_indexProjectList";
 
@@ -40,9 +40,7 @@
 // RESUME
 @import "sections/resume/_resumeEducation";
 @import "sections/resume/_resumeHonors";
-@import "sections/resume/_resumeCourses";
 @import "sections/resume/_resumeExperience";
-@import "sections/resume/_resumeActivities";
 @import "sections/resume/_resumeSkills";
 
 // CASE STUDIES

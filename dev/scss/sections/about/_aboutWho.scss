@@ -36,6 +36,11 @@
         @include lg{
             max-width: 600px;
         }
+        p{
+            strong{
+                color: $on-primary-container;
+            }
+        }
     }
 
     aside {

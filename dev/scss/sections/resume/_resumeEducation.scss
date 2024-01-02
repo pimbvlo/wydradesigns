@@ -2,59 +2,18 @@
     Resume Education
 ============= */
 #resumeEducation {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+    >article {
+        display: flex;
+        flex-direction: column;
 
-    > div {
-        display: grid;
-        grid-template-areas: "btn" "edu";
-        grid-template-columns: repeat(1,1fr);
-
-        aside {
-            grid-gap: 0 16px;
-            display: grid;
-            grid-area: btn;
-            grid-template-areas: "b";
-            grid-template-columns: repeat(1,1fr);
-            @include padding(72px,0px,64px,0px);
-            @include sm {
-                grid-template-areas: "b b .";
-                grid-template-columns: repeat(3,1fr);
-            }
-            @include md {
-                grid-gap: 0 24px;
-                @include padding(72px,0px,72px,0px);
-            }
-            @include lg {
-                grid-gap: 0 32px;
-                grid-template-areas: "b b . . .";
-                grid-template-columns: repeat(5,1fr);
-                @include padding(80px,0px,80px,0px);
-            }
-            @include xl {
-                @include padding(80px,0px,96px,0px);
-            }
-
-            div {
-                grid-area: b;
-                width: 100%;
-
-                a {
-                    width: 100%;
-                }
-            }
+        @include lg {
+            width: 75%;
         }
 
-        article {
-            grid-area: edu;
-            @include lg {
-                width: 75%;
-            }
-            div:nth-child(1){
-                @include margin(0px,0px,24px,0px);
-            }
+        div {
+            display: flex;
+            flex-direction: column;
+            row-gap: 4px;
         }
     }
 }

@@ -109,16 +109,20 @@ p {
     }
 
     > a {
-        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00; 
+        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100; 
         color: $primary;
     }
     
-    span{
-        color: $on-primary-container;
-        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 900, "INKT" 100; 
+    strong{
+        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100; 
+        letter-spacing: 0.4px;
+
+    }
+    em{
+        font-variation-settings: "slnt" -1, "wdth" 100, "wght" 500, "INKT" 00; 
     }
 }
-.caption{
+.kicker{
     font-size: rem-calc(12);  
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00; 
     line-height: rem-calc(16);

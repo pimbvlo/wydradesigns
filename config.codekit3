@@ -8182,14 +8182,6 @@
       "oAP" : "\/dev\/global\/head\/favicon.html",
       "oF" : 0
     },
-    "\/dev\/global\/head\/font-awesome.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head\/font-awesome.html",
-      "oF" : 0
-    },
     "\/dev\/global\/head\/fonts.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8270,14 +8262,6 @@
       "oAP" : "\/dev\/index\/indexMarquee.html",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectOne.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/index\/indexProjectOne.html",
-      "oF" : 0
-    },
     "\/dev\/index\/indexProjectsList.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8292,6 +8276,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/index\/indexProjectsListOld.txt",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectThree.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectThree.html",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectTwo.kit" : {
@@ -8448,7 +8440,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeActivities.html",
       "oF" : 0
     },
@@ -8456,7 +8448,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeCourses.html",
       "oF" : 0
     },
@@ -8476,11 +8468,19 @@
       "oAP" : "\/dev\/resume\/resumeExperience.html",
       "oF" : 0
     },
-    "\/dev\/resume\/resumeHonors.kit" : {
+    "\/dev\/resume\/resumeHero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
+      "oAP" : "\/dev\/resume\/resumeHero.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeHonors.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeHonors.html",
       "oF" : 0
     },
@@ -9588,7 +9588,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/index\/_indexProjectOne.scss" : {
+    "\/dev\/scss\/sections\/index\/_indexProjectThree.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -9597,7 +9597,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectOne.css",
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectThree.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

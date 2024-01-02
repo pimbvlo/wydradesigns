@@ -2,21 +2,19 @@
     Resume Activities
 ============= */
 #resumeActivities {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+    background-color: $surface-light-1;
 
-    > div {
-        display: grid;
-        grid-template-areas: "activities";
-        grid-template-columns: repeat(1,1fr);
+    >article {
+        display: flex;
+        flex-direction: column;
+
         @include lg {
             width: 75%;
         }
 
-        article {
-            grid-area: activities;
+        ul {
+            display: flex;
+            flex-direction: column;
         }
     }
 }

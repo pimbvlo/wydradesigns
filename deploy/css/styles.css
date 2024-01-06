@@ -1222,7 +1222,8 @@ footer {
   background-size: cover;
   background-position: center; }
   #indexProjectTwo article {
-    align-items: flex-end; }
+    align-items: flex-end;
+    justify-content: flex-end; }
     #indexProjectTwo article > div {
       background-color: #faf5fe;
       border-radius: 48px; }
@@ -1248,7 +1249,7 @@ footer {
     flex-direction: column; }
     @media (min-width: 1024px) {
       .index-project article > div {
-        min-width: 400px;
+        min-width: 200px;
         max-width: 900px; } }
     .index-project article > div ul {
       display: flex;

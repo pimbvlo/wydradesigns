@@ -1,14 +1,17 @@
 /* =============
     Index Project Two
 ============= */
-#indexProjectTwo{
+#indexProjectTwo {
     background-image: url("https://images.unsplash.com/photo-1700410426386-704d39c87828?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     height: 92vh;
     background-size: cover;
     background-position: center;
-    article{
+
+    article {
         align-items: flex-end;
-        >div{
+        justify-content: flex-end;
+
+        >div {
             background-color: $surface-variant;
             border-radius: 48px;
         }
@@ -31,7 +34,8 @@
             height: auto;
             background-image: none;
             object-fit: cover;
-            @include sm{
+
+            @include sm {
                 aspect-ratio: 3 / 2;
 
             }
@@ -42,7 +46,7 @@
             flex-direction: column;
 
             @include lg {
-                min-width: 400px;
+                min-width: 200px;
                 max-width: 900px;
 
             }

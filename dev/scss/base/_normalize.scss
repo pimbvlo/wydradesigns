@@ -25,12 +25,12 @@ body {
     margin: 0;
 
     ::selection {
-        background: rgba($primary, 0.96);
+        background: rgba($primary, 0.68);
         color: $on-primary;
     }
 
     ::-moz-selection {
-        background: rgba($primary, 0.96);
+        background: rgba($primary, 0.68);
         color: $on-primary;
     }
 }

@@ -131,10 +131,10 @@ body {
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;
   margin: 0; }
   body ::selection {
-    background: rgba(122, 0, 229, 0.96);
+    background: rgba(122, 0, 229, 0.68);
     color: white; }
   body ::-moz-selection {
-    background: rgba(122, 0, 229, 0.96);
+    background: rgba(122, 0, 229, 0.68);
     color: white; }
 
 /**
@@ -1141,41 +1141,38 @@ footer {
     Index Hero
 ============= */
 /* =============
-    Index Project Two
+    Index Project One
 ============= */
-.index-project article {
+#indexProjectOne article {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 1024px) {
-    .index-project article {
-      flex-direction: row;
-      align-items: center;
-      justify-content: center; } }
-  .index-project article img {
-    aspect-ratio: 3 / 2;
+  #indexProjectOne article img {
+    aspect-ratio: 2 / 3;
     width: 100%;
     height: auto;
     background-image: none;
     object-fit: cover; }
+    @media (min-width: 504px) {
+      #indexProjectOne article img {
+        aspect-ratio: 3 / 2; } }
     @media (min-width: 1024px) {
-      .index-project article img {
-        width: 50%; } }
-  .index-project article > div {
+      #indexProjectOne article img {
+        aspect-ratio: 16 / 9; } }
+  #indexProjectOne article > div {
     display: flex;
     flex-direction: column; }
     @media (min-width: 1024px) {
-      .index-project article > div {
-        width: 50%;
+      #indexProjectOne article > div {
         min-width: 400px;
         max-width: 900px; } }
-    .index-project article > div ul {
+    #indexProjectOne article > div ul {
       display: flex;
       flex-wrap: wrap;
       gap: 8px; }
-    .index-project article > div .button {
+    #indexProjectOne article > div .button {
       align-self: initial; }
       @media (min-width: 504px) {
-        .index-project article > div .button {
+        #indexProjectOne article > div .button {
           align-self: flex-start; } }
 /* =============
     Index Marquees
@@ -1217,32 +1214,83 @@ footer {
     flex-direction: row; }
 
 /* =============
+    Index Project Two
+============= */
+#indexProjectTwo {
+  background-image: url("https://images.unsplash.com/photo-1700410426386-704d39c87828?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 92vh;
+  background-size: cover;
+  background-position: center; }
+  #indexProjectTwo article {
+    align-items: flex-end; }
+    #indexProjectTwo article > div {
+      background-color: #faf5fe;
+      border-radius: 48px; }
+
+.index-project article {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 1024px) {
+    .index-project article {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  .index-project article img {
+    aspect-ratio: 2 / 3;
+    width: 100%;
+    height: auto;
+    background-image: none;
+    object-fit: cover; }
+    @media (min-width: 504px) {
+      .index-project article img {
+        aspect-ratio: 3 / 2; } }
+  .index-project article > div {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 1024px) {
+      .index-project article > div {
+        min-width: 400px;
+        max-width: 900px; } }
+    .index-project article > div ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px; }
+    .index-project article > div .button {
+      align-self: initial; }
+      @media (min-width: 504px) {
+        .index-project article > div .button {
+          align-self: flex-start; } }
+/* =============
     Index Project Three
+============= */
+/* =============
+    Index Project Four
 ============= */
 /* =============
     Index Intro
 ============= */
-#indexIntro article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 32px;
-  max-width: 600px; }
-  @media (min-width: 1024px) {
-    #indexIntro article {
-      max-width: 680px; } }
-  @media (min-width: 1440px) {
-    #indexIntro article {
-      max-width: 840px; } }
-  #indexIntro article h3 {
-    color: #2e2605; }
-    #indexIntro article h3 .intro-angle {
-      color: #2e2605;
-      background-color: #fdfdfd;
-      border: 2px solid #e6bf17;
-      padding: 8px 8px 4px;
-      border-radius: 8px;
-      display: inline-block; }
+#indexIntro {
+  padding-bottom: 0px; }
+  #indexIntro article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 32px;
+    max-width: 600px; }
+    @media (min-width: 1024px) {
+      #indexIntro article {
+        max-width: 680px; } }
+    @media (min-width: 1440px) {
+      #indexIntro article {
+        max-width: 840px; } }
+    #indexIntro article h3 {
+      color: #2e2605; }
+      #indexIntro article h3 .intro-angle {
+        color: #2e2605;
+        background-color: #fdfdfd;
+        border: 2px solid #e6bf17;
+        padding: 8px 8px 4px;
+        border-radius: 8px;
+        display: inline-block; }
 
 /* =============
     Index Project List

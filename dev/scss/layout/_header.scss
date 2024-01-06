@@ -5,7 +5,8 @@
 header {
     position: fixed;
     // transition: 0.25s;
-    height: 80px;
+    $header-height: 80px;
+    height: $header-height;
     background-color: rgba($surface, 1);
     width: 100%;
     z-index: 9000;

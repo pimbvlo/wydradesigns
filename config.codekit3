@@ -8262,6 +8262,22 @@
       "oAP" : "\/dev\/index\/indexMarquee.html",
       "oF" : 0
     },
+    "\/dev\/index\/indexProjectFour.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectFour.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectOne.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectOne.html",
+      "oF" : 0
+    },
     "\/dev\/index\/indexProjectsList.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -9573,6 +9589,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/index\/_indexProjectFour.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectFour.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/index\/_indexProjectList.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -9583,6 +9614,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectList.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/index\/_indexProjectOne.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectOne.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

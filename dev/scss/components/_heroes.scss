@@ -7,24 +7,24 @@
     background-image: radial-gradient($outline-variant 5%, transparent 0);
     background-size: 24px 24px;
 
-    height: 32vh;
-    min-height: 360px;
 
     @include md {
         background-size: 40px 40px;
 
     }
 
-    @include lg {
-        height: 48vh;
-    }
 
     article {
         display: flex;
         align-items: flex-start;
         justify-content: flex-end;
         flex-direction: column;
-
+        height: 32vh;
+        min-height: 360px;
+        @include lg {
+            height: 48vh;
+        }
+    
         h1 {
             color: $on-primary-container;
         }
@@ -35,7 +35,9 @@
 
 .hero.inset-page {
     background-image: radial-gradient($primary-container 5%, transparent 0);
-    height: 24vh;
+    article{
+        height: 24vh;
+    }
 
 }
 

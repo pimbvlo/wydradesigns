@@ -921,26 +921,27 @@ textarea {
 .hero {
   background-position: center;
   background-image: radial-gradient(#c2b7ca 5%, transparent 0);
-  background-size: 24px 24px;
-  height: 32vh;
-  min-height: 360px; }
+  background-size: 24px 24px; }
   @media (min-width: 768px) {
     .hero {
       background-size: 40px 40px; } }
-  @media (min-width: 1024px) {
-    .hero {
-      height: 48vh; } }
   .hero article {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    flex-direction: column; }
+    flex-direction: column;
+    height: 32vh;
+    min-height: 360px; }
+    @media (min-width: 1024px) {
+      .hero article {
+        height: 48vh; } }
     .hero article h1 {
       color: #18002e; }
 
 .hero.inset-page {
-  background-image: radial-gradient(#e4ccfa 5%, transparent 0);
-  height: 24vh; }
+  background-image: radial-gradient(#e4ccfa 5%, transparent 0); }
+  .hero.inset-page article {
+    height: 24vh; }
 
 /*
 * Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
@@ -1179,7 +1180,8 @@ footer {
 ============= */
 #indexMarquee {
   overflow-x: clip;
-  overflow-y: visible; }
+  overflow-y: visible;
+  margin-bottom: -24px; }
   #indexMarquee .marquee {
     text-transform: uppercase;
     position: relative;
@@ -1266,6 +1268,9 @@ footer {
 /* =============
     Index Project Four
 ============= */
+#indexProjectFour {
+  background-color: #f6f0fc; }
+
 /* =============
     Index Intro
 ============= */

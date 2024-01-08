@@ -4,6 +4,7 @@
 #indexMarquee {
     overflow-x: clip;
     overflow-y: visible;
+    margin-bottom: -24px;
 
     .marquee {
         text-transform: uppercase;

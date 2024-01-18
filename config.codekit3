@@ -8118,6 +8118,14 @@
       "oAP" : "\/deploy\/Clarendon.html",
       "oF" : 2
     },
+    "\/dev\/components\/caseStudyPreFooter.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/caseStudyPreFooter.html",
+      "oF" : 0
+    },
     "\/dev\/Fender.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8354,6 +8362,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/components\/buttons.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/components\/buttons-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/hero-flaps.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -8579,6 +8598,36 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_buttons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_caseStudyComponents.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_caseStudyComponents.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_caseStudyPreFooter.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_caseStudyPreFooter.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -9835,7 +9884,7 @@
   "projectAttributes" : {
     "creationDate" : 609447083.19991195,
     "displayValue" : "wydradesigns",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/deploy\/img\/global\/favicon\/Favicon.png",
     "iconImageWasSetByUser" : 1,
     "lastBuiltDate" : 720908985.52369499

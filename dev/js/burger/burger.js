@@ -1,6 +1,5 @@
 var burgerSpeed = 0.5;
 
-
 var canYouSeeNav = false;
 
 // reset the roation pin for the lines

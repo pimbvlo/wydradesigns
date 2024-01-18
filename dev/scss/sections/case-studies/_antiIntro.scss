@@ -2,51 +2,29 @@
     ANTI Intro
 ============= */
 #antiIntro {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
-    > div {
-        align-items: center;
+    article {
         display: flex;
+        align-items: center;
         justify-content: center;
 
-        article {
-            align-items: center;
-            border-bottom: 4px solid $dark-purple;
-            border-top: 4px solid $dark-purple;
+        div {
             display: flex;
-            justify-content: center;
-            @include padding(16px, 0px, 16px, 0px);
-            @include dark{
-                border-bottom: 4px solid $light-pink;
-                border-top: 4px solid $light-pink;
-            }
+            flex-direction: column;
 
-            @include md {
+            border-radius: 48px;
+            border: 1px solid $outline-variant;
+            
+            max-width: 600px;
+            
+            @include md{
+                width: 72vw;
+            }
+            @include lg{
                 width: 56vw;
             }
-            @include lg {
+            @include xl{
                 width: 48vw;
-            }
-            @include xl {
-                width: 32vw;
-            }
 
-            p {
-                @include padding(0px, 8px, 0px, 8px);
-                @include md {
-                    @include padding(0px, 16px, 0px, 16px);
-                }
-                @include lg {
-                    font-size: rem-calc(20);
-                }
-
-                span {
-                    font-size: rem-calc(18);
-
-                }
             }
         }
     }

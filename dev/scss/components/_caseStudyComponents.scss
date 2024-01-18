@@ -1,0 +1,198 @@
+/* =============
+    Case Study Components
+============= */
+.article-text {
+    article {
+        display: flex;
+        flex-direction: column;
+        max-width: 80ch;
+
+        @include md {
+            width: 80%;
+        }
+    }
+}
+
+.article-gallery {
+    background-color: $inverse-surface;
+
+    article {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            aspect-ratio: 3/2;
+            background-repeat: no-repeat;
+        }
+
+        p {
+            color: $on-inverse-surface;
+            max-width: 80ch;
+
+            @include md {
+                width: 80%;
+            }
+        }
+    }
+
+    .gallery-2-col {
+        display: flex;
+        flex-direction: column;
+
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+    }
+
+    .gallery-3-col {
+        display: flex;
+        flex-direction: column;
+
+        @include md {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include lg {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+// OLD — TO DELETE
+.case-study-intro-image {
+    >div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "p""i";
+
+            @include md {
+                grid-gap: 24px;
+            }
+
+            @include lg {
+                grid-gap: 32px;
+            }
+
+            p {
+                grid-area: "p";
+
+                @include sm {
+                    width: 72%;
+                }
+
+                @include md {
+                    width: 50%;
+                }
+            }
+
+            ul {
+                grid-area: "i";
+                grid-gap: 16px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+
+                @include sm {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @include md {
+                    grid-gap: 24px;
+                }
+
+                @include lg {
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 32px;
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 240px;
+                    width: 100%;
+
+                    @include md {
+                        height: 280px;
+                    }
+
+                    @include lg {
+                        height: 320px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.case-study-text {
+    >div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "p";
+
+            @include sm {
+                grid-template-columns: 72% auto;
+                grid-template-areas: "p .";
+            }
+
+            @include md {
+                grid-template-columns: 50% auto;
+                grid-gap: 24px;
+            }
+
+            @include lg {
+                grid-gap: 32px;
+            }
+
+            p {
+                grid-area: "p";
+            }
+        }
+    }
+}
+
+.case-study-gallery {
+    >div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+            // grid-template-areas: "g";
+            ul {
+                // grid-area: g;
+                grid-gap: 16px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+
+                @include sm {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @include md {
+                    grid-gap: 24px;
+                }
+
+                @include lg {
+                    grid-gap: 32px;
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

@@ -240,11 +240,13 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-  background-image: url("../img/global/GenericImage.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  border: 0px; }
+  border: 0px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%; }
 
 /* Forms
    ========================================================================== */
@@ -443,96 +445,6 @@ ul {
 
 #main {
   padding-top: 80px; }
-
-.case-study-intro-image > div article {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "p" "i"; }
-  @media (min-width: 768px) {
-    .case-study-intro-image > div article {
-      grid-gap: 24px; } }
-  @media (min-width: 1024px) {
-    .case-study-intro-image > div article {
-      grid-gap: 32px; } }
-  .case-study-intro-image > div article p {
-    grid-area: "p"; }
-    @media (min-width: 504px) {
-      .case-study-intro-image > div article p {
-        width: 72%; } }
-    @media (min-width: 768px) {
-      .case-study-intro-image > div article p {
-        width: 50%; } }
-  .case-study-intro-image > div article ul {
-    grid-area: "i";
-    grid-gap: 16px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%; }
-    @media (min-width: 504px) {
-      .case-study-intro-image > div article ul {
-        grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 768px) {
-      .case-study-intro-image > div article ul {
-        grid-gap: 24px; } }
-    @media (min-width: 1024px) {
-      .case-study-intro-image > div article ul {
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 32px; } }
-    .case-study-intro-image > div article ul li {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      height: 240px;
-      width: 100%; }
-      @media (min-width: 768px) {
-        .case-study-intro-image > div article ul li {
-          height: 280px; } }
-      @media (min-width: 1024px) {
-        .case-study-intro-image > div article ul li {
-          height: 320px; } }
-.case-study-text > div article {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "p"; }
-  @media (min-width: 504px) {
-    .case-study-text > div article {
-      grid-template-columns: 72% auto;
-      grid-template-areas: "p ."; } }
-  @media (min-width: 768px) {
-    .case-study-text > div article {
-      grid-template-columns: 50% auto;
-      grid-gap: 24px; } }
-  @media (min-width: 1024px) {
-    .case-study-text > div article {
-      grid-gap: 32px; } }
-  .case-study-text > div article p {
-    grid-area: "p"; }
-
-.case-study-gallery > div article {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr); }
-  .case-study-gallery > div article ul {
-    grid-gap: 16px;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    width: 100%; }
-    @media (min-width: 504px) {
-      .case-study-gallery > div article ul {
-        grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 768px) {
-      .case-study-gallery > div article ul {
-        grid-gap: 24px; } }
-    @media (min-width: 1024px) {
-      .case-study-gallery > div article ul {
-        grid-gap: 32px; } }
-    .case-study-gallery > div article ul li {
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      width: 100%; }
 
 /* =============
     Typography
@@ -742,7 +654,8 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 40px;
-  align-self: flex-start; }
+  align-self: flex-start;
+  transition: all 0.25s ease-in-out; }
   .button > a {
     border-radius: 40px;
     display: flex;
@@ -766,6 +679,9 @@ a {
       margin-top: -6px; }
   .button:link > a, .button:visited > a {
     color: #7a00e5; }
+  @media (min-width: 1024px) {
+    .button:hover {
+      transform: scale(1.08); } }
   .button:hover > a {
     background-color: rgba(122, 0, 229, 0.08);
     color: #7a00e5; }
@@ -795,11 +711,9 @@ a {
     box-shadow: none; }
     .button-filled:link > a, .button-filled:visited > a {
       color: white; }
-  .button-filled:hover {
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.07), 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
-    .button-filled:hover > a {
-      background-color: rgba(255, 255, 255, 0.08);
-      color: white; }
+  .button-filled:hover > a {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white; }
   .button-filled:active {
     box-shadow: none; }
     .button-filled:active > a {
@@ -815,11 +729,9 @@ a {
     box-shadow: none; }
     .button-tonal:link > a, .button-tonal:visited > a {
       color: #18002e; }
-  .button-tonal:hover {
-    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.07), 0px 1px 2px 0px rgba(0, 0, 0, 0.15); }
-    .button-tonal:hover > a {
-      background-color: rgba(122, 0, 229, 0.08);
-      color: #18002e; }
+  .button-tonal:hover > a {
+    background-color: rgba(122, 0, 229, 0.08);
+    color: #18002e; }
   .button-tonal:active {
     box-shadow: none; }
     .button-tonal:active > a {
@@ -938,26 +850,174 @@ textarea {
     .hero article h1 {
       color: #18002e; }
 
-.hero.inset-page {
+.inset-page.hero {
   background-image: radial-gradient(#e4ccfa 5%, transparent 0); }
-  .hero.inset-page article {
-    height: 24vh; }
 
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
-*/
-.cs-hero-Gradient-future {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), cubic-bezier(0.39, 0.57, 0.56, 1), rgba(0, 0, 0, 0.6)); }
+.article.hero.inset-page {
+  background-position: center;
+  background-size: cover; }
+  .article.hero.inset-page article h1 {
+    color: #efefef; }
+  .article.hero.inset-page article h3 {
+    padding: 4px 16px 2px;
+    border-radius: 56px;
+    background-color: #e4ccfa;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #18002e;
+    font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
+    letter-spacing: 0.0625rem; }
 
 /*
 * Fallback CSS
 */
-.cs-hero-Gradient {
+.hero-gradient {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.163194) 17.89%, rgba(0, 0, 0, 0.307556) 33.48%, rgba(0, 0, 0, 0.42825) 48.13%, rgba(0, 0, 0, 0.520444) 63.19%, rgba(0, 0, 0, 0.579306) 80.02%, rgba(0, 0, 0, 0.6) 100%); }
+
+/*
+* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
+*/
+.hero-gradient-future {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), cubic-bezier(0.39, 0.57, 0.56, 1), rgba(0, 0, 0, 0.6)); }
 
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 800, 'GRAD' 0, 'opsz' 24; }
 
+/* =============
+    Case Study Components
+============= */
+.article-text article {
+  display: flex;
+  flex-direction: column;
+  max-width: 80ch; }
+  @media (min-width: 768px) {
+    .article-text article {
+      width: 80%; } }
+.article-gallery {
+  background-color: #2b2b2b; }
+  .article-gallery article {
+    display: flex;
+    flex-direction: column; }
+    .article-gallery article img {
+      aspect-ratio: 3/2;
+      background-repeat: no-repeat; }
+    .article-gallery article p {
+      color: #efefef;
+      max-width: 80ch; }
+      @media (min-width: 768px) {
+        .article-gallery article p {
+          width: 80%; } }
+  .article-gallery .gallery-2-col {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .article-gallery .gallery-2-col {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center; } }
+  .article-gallery .gallery-3-col {
+    display: flex;
+    flex-direction: column; }
+    @media (min-width: 768px) {
+      .article-gallery .gallery-3-col {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) {
+      .article-gallery .gallery-3-col {
+        grid-template-columns: repeat(3, 1fr); } }
+.case-study-intro-image > div article {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "p" "i"; }
+  @media (min-width: 768px) {
+    .case-study-intro-image > div article {
+      grid-gap: 24px; } }
+  @media (min-width: 1024px) {
+    .case-study-intro-image > div article {
+      grid-gap: 32px; } }
+  .case-study-intro-image > div article p {
+    grid-area: "p"; }
+    @media (min-width: 504px) {
+      .case-study-intro-image > div article p {
+        width: 72%; } }
+    @media (min-width: 768px) {
+      .case-study-intro-image > div article p {
+        width: 50%; } }
+  .case-study-intro-image > div article ul {
+    grid-area: "i";
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+    @media (min-width: 504px) {
+      .case-study-intro-image > div article ul {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 768px) {
+      .case-study-intro-image > div article ul {
+        grid-gap: 24px; } }
+    @media (min-width: 1024px) {
+      .case-study-intro-image > div article ul {
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 32px; } }
+    .case-study-intro-image > div article ul li {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 240px;
+      width: 100%; }
+      @media (min-width: 768px) {
+        .case-study-intro-image > div article ul li {
+          height: 280px; } }
+      @media (min-width: 1024px) {
+        .case-study-intro-image > div article ul li {
+          height: 320px; } }
+.case-study-text > div article {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-areas: "p"; }
+  @media (min-width: 504px) {
+    .case-study-text > div article {
+      grid-template-columns: 72% auto;
+      grid-template-areas: "p ."; } }
+  @media (min-width: 768px) {
+    .case-study-text > div article {
+      grid-template-columns: 50% auto;
+      grid-gap: 24px; } }
+  @media (min-width: 1024px) {
+    .case-study-text > div article {
+      grid-gap: 32px; } }
+  .case-study-text > div article p {
+    grid-area: "p"; }
+
+.case-study-gallery > div article {
+  grid-gap: 16px;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); }
+  .case-study-gallery > div article ul {
+    grid-gap: 16px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%; }
+    @media (min-width: 504px) {
+      .case-study-gallery > div article ul {
+        grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 768px) {
+      .case-study-gallery > div article ul {
+        grid-gap: 24px; } }
+    @media (min-width: 1024px) {
+      .case-study-gallery > div article ul {
+        grid-gap: 32px; } }
+    .case-study-gallery > div article ul li {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 100%; }
+
+/* =============
+    Case Study Pre Footer
+============= */
 /* =============
     Header
 ============= */
@@ -1493,10 +1553,18 @@ footer {
       margin-top: 8px;
       display: flex;
       flex-direction: column;
-      row-gap: 4px; }
+      row-gap: 8px; }
       #resumeExperience article div ul p {
         color: #302e32; }
-
+      #resumeExperience article div ul ul {
+        margin-top: 0px;
+        padding-left: 8px;
+        border-left: 4px solid #c2b7ca;
+        margin-left: 2px; }
+        @media (min-width: 768px) {
+          #resumeExperience article div ul ul {
+            padding-left: 16px;
+            margin-left: 8px; } }
 /* =============
     Resume Skills
 ============= */
@@ -1525,121 +1593,84 @@ footer {
     ANTI Hero
 ============= */
 #antiHero {
-  background-image: url("../img/case-studies/anti/antiHero.jpg");
-  background-position: center top; }
-  @media (min-width: 1024px) {
-    #antiHero {
-      background-position: center; } }
-  @media (min-width: 1440px) {
-    #antiHero {
-      background-position: center bottom; } }
+  background-image: url("../img/case-studies/anti/antiHero.jpg"); }
+  #antiHero article h1 {
+    hyphens: manual; }
+
 /* =============
     ANTI Intro
 ============= */
-#antiIntro {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #antiIntro {
-      background-color: #161618; } }
-  #antiIntro > div {
-    align-items: center;
+#antiIntro article {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #antiIntro article div {
     display: flex;
-    justify-content: center; }
-    #antiIntro > div article {
-      align-items: center;
-      border-bottom: 4px solid #0D001E;
-      border-top: 4px solid #0D001E;
-      display: flex;
-      justify-content: center;
-      padding: 16px 0px 16px 0px; }
-      @media (prefers-color-scheme: dark) {
-        #antiIntro > div article {
-          border-bottom: 4px solid #EACCFF;
-          border-top: 4px solid #EACCFF; } }
-      @media (min-width: 768px) {
-        #antiIntro > div article {
-          width: 56vw; } }
-      @media (min-width: 1024px) {
-        #antiIntro > div article {
-          width: 48vw; } }
-      @media (min-width: 1440px) {
-        #antiIntro > div article {
-          width: 32vw; } }
-      #antiIntro > div article p {
-        padding: 0px 8px 0px 8px; }
-        @media (min-width: 768px) {
-          #antiIntro > div article p {
-            padding: 0px 16px 0px 16px; } }
-        @media (min-width: 1024px) {
-          #antiIntro > div article p {
-            font-size: 1.25rem; } }
-        #antiIntro > div article p span {
-          font-size: 1.125rem; }
-
+    flex-direction: column;
+    border-radius: 48px;
+    border: 1px solid #c2b7ca;
+    max-width: 600px; }
+    @media (min-width: 768px) {
+      #antiIntro article div {
+        width: 72vw; } }
+    @media (min-width: 1024px) {
+      #antiIntro article div {
+        width: 56vw; } }
+    @media (min-width: 1440px) {
+      #antiIntro article div {
+        width: 48vw; } }
 /* =============
     ANTI Text
 ============= */
+#antiText1 {
+  padding-top: 0px; }
+
 /* =============
     ANTI Gallery
 ============= */
-#antiGallery {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #antiGallery {
-      background-color: #161618; } }
-  #antiGallery > div article ul {
-    grid-template-areas: "ACF" "AO" "ANF" "AntiDD" "paragraph " "ACTD" "AFO";
-    grid-template-rows: 200px 504px 224px 144px auto 168px 224px; }
-    @media (min-width: 504px) {
-      #antiGallery > div article ul {
-        grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF ." ". AntiDD AntiDD" "paragraph paragraph paragraph" ". ACTD ACTD" "AFO AFO AFO";
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 304px 80px 120px 104px 104px auto 136px 344px; } }
-    @media (min-width: 768px) {
-      #antiGallery > div article ul {
-        grid-template-areas: "ACF ACF AO" "ANF ANF AO" "ANF ANF ." "ANF ANF AntiDD" "paragraph paragraph ." ". ACTD ACTD" "AFO AFO AFO";
-        grid-template-rows: 304px 72px 80px 104px auto 176px 384px; } }
-    @media (min-width: 1024px) {
-      #antiGallery > div article ul {
-        grid-template-areas: "ACF ACF ACF ACF paragraph paragraph paragraph" ". ANF ANF ANF AO AO AO" "AntiDD AntiDD AntiDD . AO AO AO" ". . ACTD ACTD ACTD ACTD ." "AFO AFO AFO AFO AFO AFO AFO";
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: 400px 320px 304px 240px 640px; } }
-    #antiGallery > div article ul li:nth-child(1) {
-      background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
-      grid-area: ACF; }
-    #antiGallery > div article ul li:nth-child(2) {
-      background-image: url("../img/case-studies/anti/antiOpen.jpg");
-      background-position: center 90%;
-      grid-area: AO; }
-    #antiGallery > div article ul li:nth-child(3) {
-      background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
-      grid-area: ANF; }
-    #antiGallery > div article ul li:nth-child(4) {
-      background-image: url("../img/case-studies/anti/antiDogDetail.png");
-      background-size: contain;
-      grid-area: AntiDD; }
-      @media (prefers-color-scheme: dark) {
-        #antiGallery > div article ul li:nth-child(4) {
-          background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
-    #antiGallery > div article ul li:nth-child(5) {
-      background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
-      background-position: center 80%;
-      grid-area: ACTD; }
-    #antiGallery > div article ul li:nth-child(6) {
-      background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
-      background-position: center 90%;
-      grid-area: AFO; }
-      @media (min-width: 504px) {
-        #antiGallery > div article ul li:nth-child(6) {
-          background-position: center 80%; } }
-      @media (min-width: 1024px) {
-        #antiGallery > div article ul li:nth-child(6) {
-          background-position: center 90%; } }
-    #antiGallery > div article ul li:nth-child(7) {
-      grid-area: paragraph; }
-      #antiGallery > div article ul li:nth-child(7) p {
-        width: 100%; }
+#antiGallery article > img:nth-child(2) {
+  aspect-ratio: 2/3;
+  object-position: center 90%; }
 
+#antiGallery article > div:nth-child(4) > img:nth-child(1) {
+  aspect-ratio: 2/1;
+  object-fit: contain; }
+
+#antiGallery article ul li:nth-child(1) {
+  background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
+  grid-area: ACF; }
+
+#antiGallery article ul li:nth-child(2) {
+  background-image: url("../img/case-studies/anti/antiOpen.jpg");
+  background-position: center 90%;
+  grid-area: AO; }
+
+#antiGallery article ul li:nth-child(3) {
+  background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
+  grid-area: ANF; }
+
+#antiGallery article ul li:nth-child(4) {
+  background-image: url("../img/case-studies/anti/antiDogDetail.png");
+  background-size: contain;
+  grid-area: AntiDD; }
+  @media (prefers-color-scheme: dark) {
+    #antiGallery article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
+#antiGallery article ul li:nth-child(5) {
+  background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
+  background-position: center 80%;
+  grid-area: ACTD; }
+
+#antiGallery article ul li:nth-child(6) {
+  background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
+  background-position: center 90%;
+  grid-area: AFO; }
+  @media (min-width: 504px) {
+    #antiGallery article ul li:nth-child(6) {
+      background-position: center 80%; } }
+  @media (min-width: 1024px) {
+    #antiGallery article ul li:nth-child(6) {
+      background-position: center 90%; } }
 /* =============
     Attention to Detail Hero
 ============= */

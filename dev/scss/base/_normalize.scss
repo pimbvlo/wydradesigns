@@ -148,11 +148,13 @@ sup {
  * Remove the border on images inside links in IE 10.
  */
 img {
-    background-image: url("../img/global/GenericImage.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border:0px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
 }
 
 /* Forms

@@ -154,6 +154,7 @@ $state-focused: $state-pressed;
     justify-content: center;
     border-radius: 40px;
     align-self: flex-start;
+    transition: all 0.25s ease-in-out;
 
     >a {
         border-radius: 40px;
@@ -190,6 +191,9 @@ $state-focused: $state-pressed;
     }
 
     &:hover {
+        @include lg{
+            transform: scale(1.08);
+        }
         >a {
             background-color: rgba($primary, $state-hovered);
             color: $primary;
@@ -248,7 +252,7 @@ $state-focused: $state-pressed;
     }
 
     &:hover {
-        box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
+        // box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
 
         >a {
             background-color: rgba($on-primary, $state-hovered);
@@ -288,7 +292,7 @@ $state-focused: $state-pressed;
     }
 
     &:hover {
-        box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
+        // box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
 
         >a {
             background-color: rgba($primary, $state-hovered);

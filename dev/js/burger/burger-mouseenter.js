@@ -2,27 +2,6 @@
 var linesToLine = gsap.timeline({
     paused: true
 });
-// linesToLine.to("#top-line", {
-//         // duration: burgerSpeed,
-//         // scaleX: 0.72,
-//         // transformOrigin: "50% 50%",
-//         // y: 0,
-//         // x: 5
-//     }, "move-lines")
-//     .to("#middle-line", {
-//         // duration: burgerSpeed * 1.5,
-//         // rotate: 90
-//     }, "move-lines")
-//     .to("#bottom-line", {
-//         // duration: burgerSpeed,
-//         // scaleX: 0.72,
-//         // transformOrigin: "50% 50%",
-//         // y: -16,
-//         // x: -5
-
-//     }, "move-lines");
-
-
 $("#burger-container").on("mouseenter", function() {
     // console.log("mouse enter");
 

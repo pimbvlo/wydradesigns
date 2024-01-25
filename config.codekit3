@@ -8373,6 +8373,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/components\/case-study-pre-footer.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/components\/case-study-pre-footer-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/hero-flaps.js" : {
       "bF" : 0,
       "ft" : 64,

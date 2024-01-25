@@ -1,6 +1,17 @@
 /* =============
     Case Study Pre Footer
 ============= */
-#caseStudyPreFooter{
-    
+#caseStudyPreFooter {
+    article {
+        .case-study-card {
+            display: flex;
+            flex-direction: column;
+            img {
+                aspect-ratio: 3/2;  
+                @include sm{
+                    aspect-ratio: 16/9;  
+                }  
+            }
+        }
+    }
 }

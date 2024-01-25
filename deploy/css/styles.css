@@ -899,32 +899,31 @@ textarea {
     display: flex;
     flex-direction: column; }
     .article-gallery article img {
-      aspect-ratio: 3/2;
-      background-repeat: no-repeat; }
+      aspect-ratio: 3/2; }
     .article-gallery article p {
       color: #efefef;
       max-width: 80ch; }
       @media (min-width: 768px) {
         .article-gallery article p {
           width: 80%; } }
-  .article-gallery .gallery-2-col {
-    display: flex;
-    flex-direction: column; }
-    @media (min-width: 768px) {
-      .article-gallery .gallery-2-col {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center; } }
-  .article-gallery .gallery-3-col {
-    display: flex;
-    flex-direction: column; }
-    @media (min-width: 768px) {
-      .article-gallery .gallery-3-col {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 1024px) {
-      .article-gallery .gallery-3-col {
-        grid-template-columns: repeat(3, 1fr); } }
+.gallery-2-col {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .gallery-2-col {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center; } }
+.gallery-3-col {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    .gallery-3-col {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (min-width: 1024px) {
+    .gallery-3-col {
+      grid-template-columns: repeat(3, 1fr); } }
 .case-study-intro-image > div article {
   grid-gap: 16px;
   display: grid;
@@ -1018,6 +1017,14 @@ textarea {
 /* =============
     Case Study Pre Footer
 ============= */
+#caseStudyPreFooter article .case-study-card {
+  display: flex;
+  flex-direction: column; }
+  #caseStudyPreFooter article .case-study-card img {
+    aspect-ratio: 3/2; }
+    @media (min-width: 504px) {
+      #caseStudyPreFooter article .case-study-card img {
+        aspect-ratio: 16/9; } }
 /* =============
     Header
 ============= */

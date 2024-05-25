@@ -7,12 +7,10 @@
     background-image: radial-gradient($outline-variant 5%, transparent 0);
     background-size: 24px 24px;
 
-
     @include md {
         background-size: 40px 40px;
 
     }
-
 
     article {
         display: flex;
@@ -29,8 +27,6 @@
         h1 {
             color: $on-primary-container;
         }
-
-
     }
 }
 
@@ -44,17 +40,18 @@
 
     article {
 
-        h1{
+        h1 {
             color: $on-inverse-surface;
         }
-        h3{
+
+        h3 {
             padding: 4px 16px 2px;
             border-radius: 56px;
             background-color: $inverse-primary;
             font-size: rem-calc(24);
             line-height: rem-calc(32);
             color: $on-inverse-primary;
-            font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
+            font-variation-settings: "slnt"0, "wdth"1000, "wght"1000, "INKT"100;
             letter-spacing: rem-calc(1);
         }
     }

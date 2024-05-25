@@ -19,7 +19,7 @@
         li {
             font-size: rem-calc(52);
             line-height: 100%;
-            font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"50;
+            font-variation-settings: "slnt"0, "wdth"0, "wght"800, "INKT"100;
 
             @include lg {
                 font-size: rem-calc(68);
@@ -29,13 +29,13 @@
     }
 
     > :nth-child(1) {
-        background-color: $primary90;
-        color: $primary10;
+        background-color: $tertiary90;
+        color: $tertiary10;
     }
 
     > :nth-child(2) {
-        background-color: $primary10;
-        color: $primary80;
+        background-color: $secondary10;
+        color: $secondary80;
     }
 
     > :nth-child(3) {

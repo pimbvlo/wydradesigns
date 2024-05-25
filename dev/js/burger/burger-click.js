@@ -12,12 +12,10 @@ lineToX.to("#burger-container", {
         y: 0,
         x: 5,
         rotate: 45,
-        stroke: "rgba(225, 204, 243, 1)"
     }, "create-x")
     .to("#middle-line", {
         duration: burgerSpeed,
         rotate: 90,
-        stroke: "rgba(225, 204, 243, 1)"
     }, "create-x")
     .to("#bottom-line", {
         duration: burgerSpeed,
@@ -26,7 +24,6 @@ lineToX.to("#burger-container", {
         y: -16,
         x: -5,
         rotate: -45,
-        stroke: "rgba(225, 204, 243, 1)"
     }, "create-x");
 
 var lineToLines = gsap.timeline({

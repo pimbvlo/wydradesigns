@@ -125,16 +125,16 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  background-color: #fdfdfd;
+  background-color: white;
   color: #2b2b2b;
   font-family: "area-variable", sans-serif;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;
   margin: 0; }
   body ::selection {
-    background: rgba(122, 0, 229, 0.68);
+    background: rgba(229, 0, 69, 0.92);
     color: white; }
   body ::-moz-selection {
-    background: rgba(122, 0, 229, 0.68);
+    background: rgba(229, 0, 69, 0.92);
     color: white; }
 
 /**
@@ -464,7 +464,7 @@ p {
 h1 {
   font-size: 3.75rem;
   line-height: 4rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 80;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
   margin: 0;
   letter-spacing: 1px; }
   @media (min-width: 768px) {
@@ -529,7 +529,7 @@ p {
       line-height: 1.875rem; } }
   p > a {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
-    color: #7a00e5; }
+    color: #e50045; }
   p strong {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     letter-spacing: 0.4px; }
@@ -667,7 +667,7 @@ a {
     padding-right: 20px;
     padding-bottom: 12px;
     padding-left: 20px;
-    color: #7a00e5;
+    color: #e50045;
     width: 100%; }
     @supports (leading-trim: both) and (text-edge: cap) {
       .button > a {
@@ -678,16 +678,16 @@ a {
       align-self: center;
       margin-top: -6px; }
   .button:link > a, .button:visited > a {
-    color: #7a00e5; }
+    color: #e50045; }
   @media (min-width: 1024px) {
     .button:hover {
       transform: scale(1.08); } }
   .button:hover > a {
-    background-color: rgba(122, 0, 229, 0.08);
-    color: #7a00e5; }
+    background-color: rgba(229, 0, 69, 0.08);
+    color: #e50045; }
   .button:active > a {
-    background-color: rgba(122, 0, 229, 0.1);
-    color: #7a00e5; }
+    background-color: rgba(229, 0, 69, 0.1);
+    color: #e50045; }
 
 .button-icon-left > a {
   flex-direction: row-reverse;
@@ -703,7 +703,7 @@ a {
   padding-left: 20px; }
 
 .button-filled {
-  background-color: #7a00e5;
+  background-color: #e50045;
   box-shadow: none; }
   .button-filled > a {
     color: white; }
@@ -721,27 +721,27 @@ a {
       color: white; }
 
 .button-tonal {
-  background-color: #e4ccfa;
+  background-color: #faccda;
   box-shadow: none; }
   .button-tonal > a {
-    color: #18002e; }
+    color: #2e000e; }
   .button-tonal:link, .button-tonal:visited {
     box-shadow: none; }
     .button-tonal:link > a, .button-tonal:visited > a {
-      color: #18002e; }
+      color: #2e000e; }
   .button-tonal:hover > a {
-    background-color: rgba(122, 0, 229, 0.08);
-    color: #18002e; }
+    background-color: rgba(229, 0, 69, 0.08);
+    color: #2e000e; }
   .button-tonal:active {
     box-shadow: none; }
     .button-tonal:active > a {
-      background-color: rgba(122, 0, 229, 0.1);
-      color: #18002e; }
+      background-color: rgba(229, 0, 69, 0.1);
+      color: #2e000e; }
 
 .button-outline {
-  border: 2px solid #7a00e5; }
+  border: 2px solid #e50045; }
   .button-outline:focus, .button-outline:active {
-    border: 2px solid #18002e; }
+    border: 2px solid #2e000e; }
 
 .button-text {
   margin-left: -20px; }
@@ -775,12 +775,12 @@ a {
     font-variation-settings: "FILL" 0, "wght" 500, "GRAD" 0, "opsz" 16; }
 
 .chip {
-  border: 1px solid #c2b7ca;
-  color: #2e2605; }
+  border: 1px solid #00b1e6;
+  color: #00232e; }
 
 .chip-icon {
-  border: 1px solid #e6bf17;
-  background-color: #e6bf17;
+  border: 1px solid #00b1e6;
+  background-color: #00b1e6;
   color: white;
   padding: 0px 6px 0px 8px; }
 
@@ -832,7 +832,7 @@ textarea {
 ============= */
 .hero {
   background-position: center;
-  background-image: radial-gradient(#c2b7ca 5%, transparent 0);
+  background-image: radial-gradient(#cab7bd 5%, transparent 0);
   background-size: 24px 24px; }
   @media (min-width: 768px) {
     .hero {
@@ -848,10 +848,10 @@ textarea {
       .hero article {
         height: 48vh; } }
     .hero article h1 {
-      color: #18002e; }
+      color: #2e000e; }
 
 .inset-page.hero {
-  background-image: radial-gradient(#e4ccfa 5%, transparent 0); }
+  background-image: radial-gradient(#faccda 5%, transparent 0); }
 
 .article.hero.inset-page {
   background-position: center;
@@ -861,10 +861,10 @@ textarea {
   .article.hero.inset-page article h3 {
     padding: 4px 16px 2px;
     border-radius: 56px;
-    background-color: #e4ccfa;
+    background-color: #faccda;
     font-size: 1.5rem;
     line-height: 2rem;
-    color: #18002e;
+    color: #2e000e;
     font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
     letter-spacing: 0.0625rem; }
 
@@ -1019,7 +1019,8 @@ textarea {
 ============= */
 #caseStudyPreFooter article .case-study-card {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  gap: 16px; }
   #caseStudyPreFooter article .case-study-card img {
     aspect-ratio: 3/2; }
     @media (min-width: 504px) {
@@ -1031,7 +1032,7 @@ textarea {
 header {
   position: fixed;
   height: 80px;
-  background-color: #fdfdfd;
+  background-color: white;
   width: 100%;
   z-index: 9000; }
   header > div {
@@ -1054,7 +1055,7 @@ header {
             height: 32px;
             width: auto; } }
         header > div > a > svg #wydradesigns {
-          fill: #18002e; }
+          fill: #2e000e; }
     header > div #burger-container {
       height: 64px;
       width: 64px;
@@ -1074,7 +1075,7 @@ header {
           right: 12vw; } }
       header > div #burger-container g path {
         fill: none;
-        stroke: #7a00e5; }
+        stroke: #e50045; }
     header > div .sidenav {
       height: 100vh;
       width: 0;
@@ -1082,7 +1083,7 @@ header {
       z-index: 10000;
       top: 0;
       right: 0;
-      background-color: #31283a;
+      background-color: white;
       overflow-x: hidden;
       padding-top: 80px;
       transition: all 0.5s;
@@ -1093,40 +1094,40 @@ header {
         padding: 20px 20px 16px;
         text-decoration: none;
         font-size: 24px;
-        color: #e4ccfa;
+        color: #e50045;
         display: block;
         transition: 0.25s; }
         @media (min-width: 768px) {
           header > div .sidenav a {
             padding: 20px 40px 16px; } }
         header > div .sidenav a:hover {
-          background-color: #e4ccfa;
-          color: #18002e; }
+          background-color: #e50045;
+          color: white; }
         header > div .sidenav a:active {
-          background-color: rgba(228, 204, 250, 0.8);
-          color: #18002e; }
+          background-color: rgba(229, 0, 69, 0.8);
+          color: white; }
 
 /* =============
     Footer
 ============= */
 footer {
   height: 100vh;
-  background-color: #2f2934;
-  color: #efefef; }
+  background-color: #322e2f;
+  color: #fef5f7; }
   footer .button {
     text-transform: none;
     align-self: flex-start; }
     footer .button > a {
       align-self: auto;
-      color: #e4ccfa; }
+      color: #faccda; }
     footer .button:link > a, footer .button:visited > a {
-      color: #e4ccfa; }
+      color: #faccda; }
     footer .button:hover > a {
-      background-color: rgba(228, 204, 250, 0.08);
-      color: #e4ccfa; }
+      background-color: rgba(250, 204, 218, 0.08);
+      color: #faccda; }
     footer .button:active > a {
-      background-color: rgba(228, 204, 250, 0.1);
-      color: #e4ccfa; }
+      background-color: rgba(250, 204, 218, 0.1);
+      color: #faccda; }
   footer > div {
     display: flex;
     align-items: flex-start;
@@ -1144,10 +1145,10 @@ footer {
       footer > div article .button:link > a, footer > div article .button:visited > a {
         color: white; }
       footer > div article .button:hover > a {
-        background-color: rgba(228, 204, 250, 0.08);
+        background-color: rgba(250, 204, 218, 0.08);
         color: white; }
       footer > div article .button:active > a {
-        background-color: rgba(228, 204, 250, 0.1);
+        background-color: rgba(250, 204, 218, 0.1);
         color: white; }
       footer > div article h2 {
         font-size: 3.25rem;
@@ -1208,6 +1209,83 @@ footer {
 /* =============
     Index Hero
 ============= */
+#indexHero {
+  overflow-x: clip;
+  overflow-y: visible; }
+  #indexHero article {
+    width: 100%;
+    position: relative;
+    height: 60vh; }
+    #indexHero article h1 {
+      display: flex;
+      flex-direction: column;
+      z-index: 1;
+      width: 100%; }
+      @media (min-width: 504px) {
+        #indexHero article h1 {
+          font-size: 5.5rem; } }
+      @media (min-width: 768px) {
+        #indexHero article h1 {
+          font-size: 8rem; } }
+      @media (min-width: 1024px) {
+        #indexHero article h1 {
+          font-size: 11.5rem; } }
+      @media (min-width: 1440px) {
+        #indexHero article h1 {
+          font-size: 16.5rem; } }
+      #indexHero article h1 span {
+        width: 100%;
+        text-align: right;
+        min-height: 200px;
+        height: 28vh;
+        align-content: flex-end; }
+        @media (min-width: 1024px) {
+          #indexHero article h1 span {
+            height: 32vh; } }
+    #indexHero article img {
+      position: absolute;
+      width: 100vw;
+      z-index: 0; }
+      @media (min-width: 504px) {
+        #indexHero article img {
+          width: 90vw; } }
+      @media (min-width: 768px) {
+        #indexHero article img {
+          max-width: 800px; } }
+      @media (min-width: 1440px) {
+        #indexHero article img {
+          max-width: 1024px; } }
+    #indexHero article img:nth-of-type(1) {
+      top: -2vw;
+      left: -36vw;
+      rotate: -180deg; }
+      @media (min-width: 504px) {
+        #indexHero article img:nth-of-type(1) {
+          top: -8vw; } }
+      @media (min-width: 768px) {
+        #indexHero article img:nth-of-type(1) {
+          top: -16vw;
+          left: -28vw; } }
+      @media (min-width: 1024px) {
+        #indexHero article img:nth-of-type(1) {
+          top: -2vw; } }
+      @media (min-width: 1440px) {
+        #indexHero article img:nth-of-type(1) {
+          left: -20vw; } }
+    #indexHero article img:nth-of-type(2) {
+      bottom: -16vw;
+      right: -32vw; }
+      @media (min-width: 504px) {
+        #indexHero article img:nth-of-type(2) {
+          bottom: -8vw; } }
+      @media (min-width: 768px) {
+        #indexHero article img:nth-of-type(2) {
+          bottom: -20vw;
+          right: -28vw; } }
+      @media (min-width: 1024px) {
+        #indexHero article img:nth-of-type(2) {
+          bottom: -4vw;
+          right: -24vw; } }
 /* =============
     Index Project One
 ============= */
@@ -1260,18 +1338,18 @@ footer {
     #indexMarquee .marquee li {
       font-size: 3.25rem;
       line-height: 100%;
-      font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 50; }
+      font-variation-settings: "slnt" 0, "wdth" 0, "wght" 800, "INKT" 100; }
       @media (min-width: 1024px) {
         #indexMarquee .marquee li {
           font-size: 4.25rem; } }
   #indexMarquee > :nth-child(1) {
-    background-color: #e4ccfa;
-    color: #18002e; }
+    background-color: #fffccc;
+    color: #333000; }
   #indexMarquee > :nth-child(2) {
-    background-color: #18002e;
-    color: #ca99f5; }
+    background-color: #00232e;
+    color: #99e0f5; }
   #indexMarquee > :nth-child(3) {
-    background-color: #af66ef;
+    background-color: #ef668f;
     color: black; }
   #indexMarquee .marquee-unit {
     flex-shrink: 0;
@@ -1294,7 +1372,7 @@ footer {
     align-items: flex-end;
     justify-content: flex-end; }
     #indexProjectTwo article > div {
-      background-color: #faf5fe;
+      background-color: #fef5f7;
       border-radius: 48px; }
 
 .index-project article {
@@ -1336,7 +1414,7 @@ footer {
     Index Project Four
 ============= */
 #indexProjectFour {
-  background-color: #f6f0fc; }
+  background-color: #fef5f7; }
 
 /* =============
     Index Intro
@@ -1356,11 +1434,11 @@ footer {
       #indexIntro article {
         max-width: 840px; } }
     #indexIntro article h3 {
-      color: #2e2605; }
+      color: #00232e; }
       #indexIntro article h3 .intro-angle {
-        color: #2e2605;
+        color: #00232e;
         background-color: #fdfdfd;
-        border: 2px solid #e6bf17;
+        border: 2px solid #00b1e6;
         padding: 8px 8px 4px;
         border-radius: 8px;
         display: inline-block; }
@@ -1379,13 +1457,13 @@ footer {
       cursor: pointer;
       transition: all 0.25s; }
       #indexProjectsList > article #myBtnContainer .chip:hover {
-        background-color: rgba(122, 0, 229, 0.08); }
+        background-color: rgba(229, 0, 69, 0.08); }
   #indexProjectsList > article .filterDiv {
     width: 100%;
     flex-direction: column;
     gap: 20px;
     padding: 32px 0px;
-    border-bottom: 2px solid #c2b7ca; }
+    border-bottom: 2px solid #cab7bd; }
     #indexProjectsList > article .filterDiv:first-of-type {
       padding: 0px 0px 32px; }
     #indexProjectsList > article .filterDiv:last-of-type {
@@ -1452,7 +1530,7 @@ footer {
   display: none; }
 
 #indexProjectsList .chip.active {
-  background-color: #e4ccfa;
+  background-color: #faccda;
   border: none; }
   #indexProjectsList .chip.active > span {
     display: block; }
@@ -1466,7 +1544,7 @@ footer {
 #aboutWho {
   display: flex;
   flex-direction: column;
-  background-color: #f6f0fc; }
+  background-color: green; }
   @media (min-width: 768px) {
     #aboutWho {
       flex-direction: row-reverse;
@@ -1495,7 +1573,7 @@ footer {
       #aboutWho article {
         max-width: 600px; } }
     #aboutWho article p strong {
-      color: #18002e; }
+      color: #2e000e; }
   #aboutWho aside {
     padding: 0px 20px; }
     @media (min-width: 504px) {
@@ -1547,7 +1625,7 @@ footer {
     Resume Experience
 ============= */
 #resumeExperience {
-  background-color: #faf5fe; }
+  background-color: #fef5f7; }
   #resumeExperience article {
     display: flex;
     flex-direction: column; }
@@ -1555,18 +1633,18 @@ footer {
       #resumeExperience article {
         width: 75%; } }
     #resumeExperience article h2 {
-      color: #302e32; }
+      color: #322e2f; }
     #resumeExperience article div ul {
       margin-top: 8px;
       display: flex;
       flex-direction: column;
       row-gap: 8px; }
       #resumeExperience article div ul p {
-        color: #302e32; }
+        color: #322e2f; }
       #resumeExperience article div ul ul {
         margin-top: 0px;
         padding-left: 8px;
-        border-left: 4px solid #c2b7ca;
+        border-left: 4px solid #cab7bd;
         margin-left: 2px; }
         @media (min-width: 768px) {
           #resumeExperience article div ul ul {
@@ -1615,7 +1693,7 @@ footer {
     display: flex;
     flex-direction: column;
     border-radius: 48px;
-    border: 1px solid #c2b7ca;
+    border: 1px solid #cab7bd;
     max-width: 600px; }
     @media (min-width: 768px) {
       #antiIntro article div {

@@ -18,19 +18,19 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-    background-color: $background;
+    background-color: $white;
     color: $on-background;
     font-family: "area-variable", sans-serif;
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;    
     margin: 0;
 
     ::selection {
-        background: rgba($primary, 0.68);
+        background: rgba($primary, 0.92);
         color: $on-primary;
     }
 
     ::-moz-selection {
-        background: rgba($primary, 0.68);
+        background: rgba($primary, 0.92);
         color: $on-primary;
     }
 }

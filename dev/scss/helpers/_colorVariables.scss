@@ -25,32 +25,46 @@ $dark-purple: #0D001E;
 ============= */
 // Reference Colors
 $primary0: rgba(0, 0, 0, 1);
-$primary10: rgba(24, 0, 46, 1);
-$primary20: rgba(49, 0, 92, 1);
-$primary30: rgba(73, 0, 137, 1);
-$primary40: rgba(98, 0, 183, 1);
-$primary50: rgba(122, 0, 229, 1);
-$primary60: rgba(149, 51, 234, 1);
-$primary70: rgba(175, 102, 239, 1);
-$primary80: rgba(202, 153, 245, 1);
-$primary90: rgba(228, 204, 250, 1);
-$primary95: rgba(242, 229, 252, 1);
-$primary99: rgba(248, 242, 254, 1);
+$primary10: rgba(46, 0, 14, 1);
+$primary20: rgba(92, 0, 28, 1);
+$primary30: rgba(137, 0, 41, 1);
+$primary40: rgba(183, 0, 55, 1);
+$primary50: rgba(229, 0, 69, 1);
+$primary60: rgba(234, 51, 106, 1);
+$primary70: rgba(239, 102, 143, 1);
+$primary80: rgba(245, 153, 181, 1);
+$primary90: rgba(250, 204, 218, 1);
+$primary95: rgba(252, 229, 236, 1);
+$primary99: rgba(254, 242, 246, 1);
 $primary100: rgba(255, 255, 255, 1);
 
 $secondary0: rgba(0, 0, 0, 1);
-$secondary10: rgba(46, 38, 5, 1);
-$secondary20: rgba(92, 76, 9, 1);
-$secondary30: rgba(138, 115, 14, 1);
-$secondary40: rgba(184, 153, 18, 1);
-$secondary50: rgba(230, 191, 23, 1);
-$secondary60: rgba(235, 204, 69, 1);
-$secondary70: rgba(240, 217, 116, 1);
-$secondary80: rgba(245, 229, 162, 1);
-$secondary90: rgba(250, 242, 209, 1);
-$secondary95: rgba(252, 249, 232, 1);
-$secondary99: rgba(254, 252, 243, 1);
+$secondary10: rgba(0, 35, 46, 1);
+$secondary20: rgba(0, 71, 92, 1);
+$secondary30: rgba(0, 106, 138, 1);
+$secondary40: rgba(0, 142, 184, 1);
+$secondary50: rgba(0, 177, 230, 1);
+$secondary60: rgba(51, 193, 235, 1);
+$secondary70: rgba(102, 208, 240, 1);
+$secondary80: rgba(153, 224, 245, 1);
+$secondary90: rgba(204, 239, 250, 1);
+$secondary95: rgba(229, 247, 252, 1);
+$secondary99: rgba(242, 251, 254, 1);
 $secondary100: rgba(255, 255, 255, 1);
+
+$tertiary0: rgba(0, 0, 0, 1);
+$tertiary10: rgba(51, 48, 0, 1);
+$tertiary20: rgba(102, 95, 0, 1);
+$tertiary30: rgba(153, 143, 0, 1);
+$tertiary40: rgba(204, 190, 0, 1);
+$tertiary50: rgba(255, 238, 0, 1);
+$tertiary60: rgba(255, 241, 51, 1);
+$tertiary70: rgba(255, 245, 102, 1);
+$tertiary80: rgba(255, 248, 153, 1);
+$tertiary90: rgba(255, 252, 204, 1);
+$tertiary95: rgba(255, 253, 229, 1);
+$tertiary99: rgba(255, 254, 242, 1);
+$tertiary100: rgba(255, 255, 255, 1);
 
 $neutral0: rgba(0, 0, 0, 1);
 $neutral10: rgba(43, 43, 43, 1);
@@ -67,17 +81,17 @@ $neutral99: rgba(253, 253, 253, 1);
 $neutral100: rgba(255, 255, 255, 1);
 
 $neutral-variant0: rgba(0, 0, 0, 1);
-$neutral-variant10: rgba(48, 46, 50, 1);
-$neutral-variant20: rgba(97, 92, 101, 1);
-$neutral-variant30: rgba(145, 137, 151, 1);
-$neutral-variant40: rgba(194, 183, 202, 1);
-$neutral-variant50: rgba(242, 229, 252, 1);
-$neutral-variant60: rgba(245, 234, 253, 1);
-$neutral-variant70: rgba(247, 239, 253, 1);
-$neutral-variant80: rgba(250, 245, 254, 1);
-$neutral-variant90: rgba(252, 250, 254, 1);
-$neutral-variant95: rgba(254, 252, 255, 1);
-$neutral-variant99: rgba(254, 254, 255, 1);
+$neutral-variant10: rgba(50, 46, 47, 1);
+$neutral-variant20: rgba(101, 92, 94, 1);
+$neutral-variant30: rgba(151, 137, 142, 1);
+$neutral-variant40: rgba(202, 183, 189, 1);
+$neutral-variant50: rgba(252, 229, 236, 1);
+$neutral-variant60: rgba(253, 234, 240, 1);
+$neutral-variant70: rgba(253, 239, 244, 1);
+$neutral-variant80: rgba(254, 245, 247, 1);
+$neutral-variant90: rgba(254, 250, 251, 1);
+$neutral-variant95: rgba(255, 252, 253, 1);
+$neutral-variant99: rgba(255, 254, 254, 1);
 $neutral-variant100: rgba(255, 255, 255, 1);
 
 // Colors
@@ -104,6 +118,16 @@ $on-secondary-container: $secondary10;
 $inverse-secondary: $secondary90;
 $on-inverse-secondary: $secondary10;
 
+// Tertiary
+$tertiary: $tertiary50;
+$on-tertiary: $tertiary100;
+
+$tertiary-container: $tertiary90;
+$on-tertiary-container: $tertiary10;
+
+$inverse-tertiary: $tertiary90;
+$on-inverse-tertiary: $tertiary10;
+
 // Background
 $background: $neutral99;
 $on-background: $neutral10;
@@ -118,18 +142,21 @@ $on-surface-variant: $neutral-variant10;
 $inverse-surface: $neutral10;
 $on-inverse-surface: $neutral80;
 
+$inverse-surface-variant: $neutral-variant10;
+$on-inverse-surface-variant: $neutral-variant80;
+
 // Surface Light
-$surface-light-1: rgba(246, 240, 252, 1);
-$surface-light-2: rgba(243, 233, 251, 1);
-$surface-light-3: rgba(239, 225, 250, 1);
-$surface-light-4: rgba(237, 223, 250, 1);
-$surface-light-5: rgba(235, 218, 250, 1);
+$surface-light-1: green;
+$surface-light-2: green;
+$surface-light-3: green;
+$surface-light-4: green;
+$surface-light-5: green;
 // Surface Dark
-$surface-dark-1: rgba(47, 41, 52, 1);
-$surface-dark-2: rgba(49, 40, 58, 1);
-$surface-dark-3: rgba(52, 38, 63, 1);
-$surface-dark-4: rgba(52, 38, 65, 1);
-$surface-dark-5: rgba(54, 37, 69, 1);
+$surface-dark-1: magenta;
+$surface-dark-2: magenta;
+$surface-dark-3: magenta;
+$surface-dark-4: magenta;
+$surface-dark-5: magenta;
 
 // Outline
 $outline: $neutral30;

@@ -13,7 +13,6 @@
 //   ["Fender", "img/index/projects/FenderCover.jpg", "Fender.html"]
 // ];
 
-
 // function caseStudyPreFooter() {
 //   let random = Math.floor(Math.random() * caseStudyArray.length);
 //   let h3String;
@@ -111,7 +110,6 @@
 //   //   return;
 // }
 
-
 // // Idea #2
 // // Step 1. Filter out pathname from Array
 // // Step 2. Get Random Number
@@ -128,53 +126,53 @@ let caseStudyArray = [
   {
     name: "Antifogmatic",
     image: "img/index/projects/AntiCover.jpg",
-    page: "Antifogmatic.html"
+    page: "Antifogmatic.html",
   },
   {
     name: "Attention to Detail",
     image: "img/index/projects/ATDCover.jpg",
-    page: "AttentionToDetail.html"
+    page: "AttentionToDetail.html",
   },
   {
     name: "Barbara Kasten",
     image: "img/index/projects/BKCover.jpg",
-    page: "BarbaraKasten.html"
+    page: "BarbaraKasten.html",
   },
   {
     name: "Fender&#8482;",
     image: "img/index/projects/FenderCover.jpg",
-    page: "Fender.html"
+    page: "Fender.html",
   },
   {
     name: "How Tinder&#8482; Gamified Dating",
     image: "img/index/projects/TinderCover.jpg",
-    page: "https://wydradesigns.medium.com/how-tinder-gamified-dating-apps-c89e2a45fe2"
+    page: "https://wydradesigns.medium.com/how-tinder-gamified-dating-apps-c89e2a45fe2",
   },
   {
     name: "Science History Museum",
     image: "img/index/projects/SHMCover.jpg",
-    page: "ScienceHistoryMuseum.html"
+    page: "ScienceHistoryMuseum.html",
   },
   {
     name: "Second Life Composting",
     image: "img/index/projects/SecondLifeCover.jpg",
-    page: "https://wydradesigns.medium.com/second-life-composting-capstone-case-study-b1e755a6a572"
+    page: "https://wydradesigns.medium.com/second-life-composting-capstone-case-study-b1e755a6a572",
   },
   {
     name: "Target&#8482; Curbside Pickup",
     image: "img/index/projects/TargetCover.jpg",
-    page: "https://wydradesigns.medium.com/target-mydevice-app-case-study-867a0c65fcd3"
+    page: "https://wydradesigns.medium.com/target-mydevice-app-case-study-867a0c65fcd3",
   },
   {
     name: "The Philaldephia School",
     image: "img/index/projects/TPSCover.jpg",
-    page: "ThePhiladelphiaSchool.html"
+    page: "ThePhiladelphiaSchool.html",
   },
   {
     name: "TikTok&#8482; Live Stream Donation",
     image: "img/index/projects/TTCover.jpg",
-    page: "https://wydradesigns.medium.com/ux-case-study-tiktok-user-research-for-live-stream-donations-c1e424886fca"
-  }
+    page: "https://wydradesigns.medium.com/ux-case-study-tiktok-user-research-for-live-stream-donations-c1e424886fca",
+  },
 ];
 // @Shawn (Feb 3) - I added excludeName now so you can pass the name if you want remove from options
 function getRandomElements(arr, count, excludeName = "") {
@@ -203,12 +201,16 @@ const caseStudyContainer = document.getElementById("case-study-container");
 
 randomCaseStudies.forEach((study) => {
   const studyElement = document.createElement("div");
-  studyElement.className = "case-study";
+  studyElement.className = "case-study-card";
 
   studyElement.innerHTML = `
     <h3>${study.name}</h3>
     <img src="${study.image}" alt="${study.name}">
-    <a href="${study.page}">Learn More</a>
+    <h6 class="button button-icon-right button-outline">
+        <a href="${study.page}">Read About It
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+    </h6>
   `;
 
   caseStudyContainer.appendChild(studyElement);

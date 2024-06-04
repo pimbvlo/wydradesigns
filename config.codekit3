@@ -3084,6 +3084,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/global\/FooterFlower.png" : {
+      "ft" : 32768,
+      "iS" : 24449,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/global\/FooterFlower.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/global\/GenericImage.jpg" : {
       "ft" : 16384,
       "iS" : 8815,
@@ -6760,6 +6773,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/imglg\/global\/FooterFlower.png" : {
+      "ft" : 32768,
+      "iS" : 48365,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/global\/FooterFlower.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/global\/GenericImage.jpg" : {
       "ft" : 16384,
       "iS" : 23272,
@@ -7623,6 +7649,14 @@
       "oA" : 0,
       "oAP" : "\/deploy\/BarbaraKasten.html",
       "oF" : 2
+    },
+    "\/dev\/case-studies\/anti\/antiByLine.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/anti\/antiByLine.html",
+      "oF" : 0
     },
     "\/dev\/case-studies\/anti\/antiGallery.kit" : {
       "cB" : 0,

@@ -14,9 +14,8 @@
             z-index: 1;
 
             width: 100%;
-            @include sm {
-                font-size: rem-calc(88);
-            }
+
+            font-size: rem-calc(88);
             @include md {
                 font-size: rem-calc(128);
             }
@@ -42,6 +41,7 @@
             position: absolute;
             width: 100vw;
             z-index: 0;
+            mix-blend-mode: multiply;
             @include sm{
                 width: 90vw;
             }
@@ -54,35 +54,32 @@
         }
         img:nth-of-type(1){
             top: -2vw;
-            left: -36vw;
+            left: -32vw;
             rotate: -180deg;
             @include sm{
                 top: -8vw;
             }
             @include md{
                 top: -16vw;
-                left: -28vw;
+                left: -24vw;
             }
             @include lg{
                 top: -2vw;
             }
             @include xl{
-                left: -20vw;
+                left: -16vw;
             }
         }
         img:nth-of-type(2){
-            bottom: -16vw;
-            right: -32vw;
-            @include sm{
-                bottom: -8vw;
-            }
+            bottom: -8vw;
+            right: -28vw;
             @include md{
                 bottom: -20vw;
-                right: -28vw;
+                right: -24vw;
             }
             @include lg{
                 bottom: -4vw;
-                right: -24vw;
+                right: -20vw;
             }
         }
     }

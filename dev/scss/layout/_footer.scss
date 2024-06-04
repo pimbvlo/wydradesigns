@@ -2,9 +2,20 @@
     Footer
 ============= */
 footer {
-    height: 100vh;
-    background-color: $inverse-surface-variant;
-    color: $on-inverse-surface-variant;
+    height: 92vh;
+    background-color: $inverse-surface;
+    color: $on-inverse-surface;
+    background-image: radial-gradient(
+        circle at center,
+        rgba($outline-variant, 0.25) 0.15rem,
+        transparent 0
+      ), radial-gradient(circle at center, rgba($outline-variant, 0.25) 0.15rem, transparent 0);
+    background-size: 1.3rem 1.3rem;
+    background-position: 0 0, 0.65rem 0.65rem;
+
+    overflow-x: hidden;
+    overflow-y: clip;
+
     .button {
         text-transform: none;
         align-self: flex-start;
@@ -47,13 +58,14 @@ footer {
         justify-content: flex-end;
         flex-direction: column;
 
+        position: relative;
+
         article {
             display: flex;
             flex-direction: column;
             gap: 20px;
-            h2{
-                text-transform: capitalize;
-            }
+
+            z-index: 1;
 
             .button {
                 >a {
@@ -99,6 +111,9 @@ footer {
             display: flex;
             margin-bottom: 20px;
             align-items: center;
+
+            z-index: 1;
+
         }
 
         aside {
@@ -107,6 +122,9 @@ footer {
             align-items: flex-start;
             justify-content: flex-start;
             width: 100%;
+
+            z-index: 1;
+
             @include md{
                 flex-direction: row;
                 align-items: center;
@@ -133,5 +151,25 @@ footer {
 
         }
 
+        img{
+            position: absolute;
+            z-index: 0;
+            mix-blend-mode: color-dodge;
+            // opacity: 0.5;
+
+            width: 100vh;
+            top: -12vw;
+            right: -64vw;
+            @include sm{
+                right: -40vw;
+            }
+            @include md{
+                right: -64vw;
+            }
+            @include lg{
+                top: -8vw;
+                right: -20vw;
+            }
+        }
     }
 }

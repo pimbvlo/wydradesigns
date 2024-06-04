@@ -3,15 +3,24 @@
 ============= */
 #caseStudyPreFooter {
     article {
+        display: flex;
+        flex-direction: column;
+
         .case-study-card {
             display: flex;
             flex-direction: column;
             gap: 16px;
+
+            h3 {
+                min-height: 2lh;
+            }
+
             img {
-                aspect-ratio: 3/2;  
-                @include sm{
-                    aspect-ratio: 16/9;  
-                }  
+                aspect-ratio: 3/2;
+
+                @include sm {
+                    aspect-ratio: 16/9;
+                }
             }
         }
     }

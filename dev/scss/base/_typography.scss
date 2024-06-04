@@ -17,19 +17,19 @@ p {
 // Display
 h1 {
     font-size: rem-calc(60);
-    line-height: rem-calc(64);
+    line-height: rem-calc(60);
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     margin: 0;
     letter-spacing: 1px;
 
     @include md {
         font-size: rem-calc(88);
-        line-height: rem-calc(92);
+        line-height: rem-calc(88);
     }
 
     @include lg {
         font-size: rem-calc(128);
-        line-height: rem-calc(132);
+        line-height: rem-calc(128);
     }
 }
 

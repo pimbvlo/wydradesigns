@@ -463,18 +463,18 @@ p {
 
 h1 {
   font-size: 3.75rem;
-  line-height: 4rem;
+  line-height: 3.75rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
   margin: 0;
   letter-spacing: 1px; }
   @media (min-width: 768px) {
     h1 {
       font-size: 5.5rem;
-      line-height: 5.75rem; } }
+      line-height: 5.5rem; } }
   @media (min-width: 1024px) {
     h1 {
       font-size: 8rem;
-      line-height: 8.25rem; } }
+      line-height: 8rem; } }
 h2 {
   font-size: 2.5rem;
   font-variation-settings: "slnt" 0, "wdth" 160, "wght" 600, "INKT" 80;
@@ -833,10 +833,14 @@ textarea {
 .hero {
   background-position: center;
   background-image: radial-gradient(#cab7bd 5%, transparent 0);
-  background-size: 24px 24px; }
-  @media (min-width: 768px) {
+  background-size: 24px 24px;
+  position: relative; }
+  @media (min-width: 504px) {
     .hero {
       background-size: 40px 40px; } }
+  @media (min-width: 768px) {
+    .hero {
+      background-image: radial-gradient(#cab7bd 8%, transparent 0); } }
   .hero article {
     display: flex;
     align-items: flex-start;
@@ -851,22 +855,29 @@ textarea {
       color: #2e000e; }
 
 .inset-page.hero {
-  background-image: radial-gradient(#faccda 5%, transparent 0); }
-
-.article.hero.inset-page {
+  background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
-  .article.hero.inset-page article h1 {
-    color: #efefef; }
-  .article.hero.inset-page article h3 {
-    padding: 4px 16px 2px;
-    border-radius: 56px;
-    background-color: #faccda;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: #2e000e;
-    font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
-    letter-spacing: 0.0625rem; }
+
+.article.hero.inset-page div {
+  height: 100%; }
+  .article.hero.inset-page div article {
+    height: 64vh;
+    display: flex;
+    justify-content: center; }
+    .article.hero.inset-page div article p {
+      color: #efefef; }
+    .article.hero.inset-page div article h1 {
+      color: #efefef; }
+    .article.hero.inset-page div article h3 {
+      padding: 4px 16px 2px;
+      border-radius: 56px;
+      background-color: #faccda;
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #2e000e;
+      font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
+      letter-spacing: 0.0625rem; }
 
 /*
 * Fallback CSS
@@ -877,9 +888,6 @@ textarea {
 /*
 * Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
 */
-.hero-gradient-future {
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), cubic-bezier(0.39, 0.57, 0.56, 1), rgba(0, 0, 0, 0.6)); }
-
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 800, 'GRAD' 0, 'opsz' 24; }
 
@@ -1017,15 +1025,20 @@ textarea {
 /* =============
     Case Study Pre Footer
 ============= */
-#caseStudyPreFooter article .case-study-card {
+#caseStudyPreFooter article {
   display: flex;
-  flex-direction: column;
-  gap: 16px; }
-  #caseStudyPreFooter article .case-study-card img {
-    aspect-ratio: 3/2; }
-    @media (min-width: 504px) {
-      #caseStudyPreFooter article .case-study-card img {
-        aspect-ratio: 16/9; } }
+  flex-direction: column; }
+  #caseStudyPreFooter article .case-study-card {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; }
+    #caseStudyPreFooter article .case-study-card h3 {
+      min-height: 2lh; }
+    #caseStudyPreFooter article .case-study-card img {
+      aspect-ratio: 3/2; }
+      @media (min-width: 504px) {
+        #caseStudyPreFooter article .case-study-card img {
+          aspect-ratio: 16/9; } }
 /* =============
     Header
 ============= */
@@ -1111,9 +1124,14 @@ header {
     Footer
 ============= */
 footer {
-  height: 100vh;
-  background-color: #322e2f;
-  color: #fef5f7; }
+  height: 92vh;
+  background-color: #2b2b2b;
+  color: #efefef;
+  background-image: radial-gradient(circle at center, rgba(202, 183, 189, 0.25) 0.15rem, transparent 0), radial-gradient(circle at center, rgba(202, 183, 189, 0.25) 0.15rem, transparent 0);
+  background-size: 1.3rem 1.3rem;
+  background-position: 0 0, 0.65rem 0.65rem;
+  overflow-x: hidden;
+  overflow-y: clip; }
   footer .button {
     text-transform: none;
     align-self: flex-start; }
@@ -1132,13 +1150,13 @@ footer {
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
-    flex-direction: column; }
+    flex-direction: column;
+    position: relative; }
     footer > div article {
       display: flex;
       flex-direction: column;
-      gap: 20px; }
-      footer > div article h2 {
-        text-transform: capitalize; }
+      gap: 20px;
+      z-index: 1; }
       footer > div article .button > a {
         font-weight: 400;
         color: white; }
@@ -1156,13 +1174,15 @@ footer {
     footer > div nav {
       display: flex;
       margin-bottom: 20px;
-      align-items: center; }
+      align-items: center;
+      z-index: 1; }
     footer > div aside {
       display: flex;
       flex-direction: column;
       align-items: flex-start;
       justify-content: flex-start;
-      width: 100%; }
+      width: 100%;
+      z-index: 1; }
       @media (min-width: 768px) {
         footer > div aside {
           flex-direction: row;
@@ -1180,7 +1200,23 @@ footer {
             width: 100%;
             padding: 0px;
             align-items: center; }
-
+    footer > div img {
+      position: absolute;
+      z-index: 0;
+      mix-blend-mode: color-dodge;
+      width: 100vh;
+      top: -12vw;
+      right: -64vw; }
+      @media (min-width: 504px) {
+        footer > div img {
+          right: -40vw; } }
+      @media (min-width: 768px) {
+        footer > div img {
+          right: -64vw; } }
+      @media (min-width: 1024px) {
+        footer > div img {
+          top: -8vw;
+          right: -20vw; } }
 /* =============
     CS Footer
 ============= */
@@ -1220,10 +1256,8 @@ footer {
       display: flex;
       flex-direction: column;
       z-index: 1;
-      width: 100%; }
-      @media (min-width: 504px) {
-        #indexHero article h1 {
-          font-size: 5.5rem; } }
+      width: 100%;
+      font-size: 5.5rem; }
       @media (min-width: 768px) {
         #indexHero article h1 {
           font-size: 8rem; } }
@@ -1245,7 +1279,8 @@ footer {
     #indexHero article img {
       position: absolute;
       width: 100vw;
-      z-index: 0; }
+      z-index: 0;
+      mix-blend-mode: multiply; }
       @media (min-width: 504px) {
         #indexHero article img {
           width: 90vw; } }
@@ -1257,7 +1292,7 @@ footer {
           max-width: 1024px; } }
     #indexHero article img:nth-of-type(1) {
       top: -2vw;
-      left: -36vw;
+      left: -32vw;
       rotate: -180deg; }
       @media (min-width: 504px) {
         #indexHero article img:nth-of-type(1) {
@@ -1265,27 +1300,24 @@ footer {
       @media (min-width: 768px) {
         #indexHero article img:nth-of-type(1) {
           top: -16vw;
-          left: -28vw; } }
+          left: -24vw; } }
       @media (min-width: 1024px) {
         #indexHero article img:nth-of-type(1) {
           top: -2vw; } }
       @media (min-width: 1440px) {
         #indexHero article img:nth-of-type(1) {
-          left: -20vw; } }
+          left: -16vw; } }
     #indexHero article img:nth-of-type(2) {
-      bottom: -16vw;
-      right: -32vw; }
-      @media (min-width: 504px) {
-        #indexHero article img:nth-of-type(2) {
-          bottom: -8vw; } }
+      bottom: -8vw;
+      right: -28vw; }
       @media (min-width: 768px) {
         #indexHero article img:nth-of-type(2) {
           bottom: -20vw;
-          right: -28vw; } }
+          right: -24vw; } }
       @media (min-width: 1024px) {
         #indexHero article img:nth-of-type(2) {
           bottom: -4vw;
-          right: -24vw; } }
+          right: -20vw; } }
 /* =============
     Index Project One
 ============= */

@@ -444,7 +444,8 @@ ul {
     list-style: none; }
 
 #main {
-  padding-top: 80px; }
+  padding-top: 80px;
+  position: relative; }
 
 /* =============
     Typography
@@ -864,19 +865,19 @@ textarea {
   .article.hero.inset-page div article {
     height: 64vh;
     display: flex;
-    justify-content: center; }
+    justify-content: flex-end; }
     .article.hero.inset-page div article p {
       color: #efefef; }
     .article.hero.inset-page div article h1 {
       color: #efefef; }
     .article.hero.inset-page div article h3 {
-      padding: 4px 16px 2px;
+      padding: 6px 24px 2px;
       border-radius: 56px;
       background-color: #faccda;
       font-size: 1.5rem;
       line-height: 2rem;
       color: #2e000e;
-      font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 1000, "INKT" 100;
+      font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 800, "INKT" 100;
       letter-spacing: 0.0625rem; }
 
 /*
@@ -1022,6 +1023,18 @@ textarea {
       background-size: cover;
       width: 100%; }
 
+.case-study-progress {
+  width: 100%;
+  max-width: 100vw;
+  height: 8px;
+  display: inline-block;
+  background-color: #00b1e6;
+  opacity: 1;
+  position: absolute;
+  top: 0;
+  bottom: auto;
+  z-index: 4000; }
+
 /* =============
     Case Study Pre Footer
 ============= */
@@ -1047,7 +1060,7 @@ header {
   height: 80px;
   background-color: white;
   width: 100%;
-  z-index: 9000; }
+  z-index: 5000; }
   header > div {
     display: flex;
     align-items: center;

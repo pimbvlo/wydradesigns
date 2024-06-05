@@ -7,7 +7,7 @@
       "uuidString" : "9501D335-8457-4496-8509-AFB139CFE2D8"
     }
   ],
-  "creatorBuild" : "34564",
+  "creatorBuild" : "34576",
   "files" : {
     "\/build\/.gitignore" : {
       "cB" : 0,
@@ -7654,7 +7654,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/case-studies\/anti\/antiByLine.html",
       "oF" : 0
     },
@@ -8202,6 +8202,14 @@
       "oAP" : "\/dev\/components\/caseStudyPreFooter.html",
       "oF" : 0
     },
+    "\/dev\/components\/caseStudyProgress.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/caseStudyProgress.html",
+      "oF" : 0
+    },
     "\/dev\/Fender.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8456,6 +8464,17 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/components\/case-study-pre-footer-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/components\/case-study-progress.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/components\/case-study-progress-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

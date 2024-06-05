@@ -96,7 +96,7 @@ gsap.to(
       toggleActions: "restart none reverse none"
     },
     duration: 0.25,
-    backgroundColor: "rgba(50, 46, 47, 1)",
+    backgroundColor: "rgba(43, 43, 43, 1)",
     ease: "sine.inOut"
   },
   "header-meet-footer"

@@ -523,7 +523,8 @@ p {
   font-size: 1.125rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00;
   line-height: 1.75rem;
-  letter-spacing: 0.2px; }
+  letter-spacing: 0.2px;
+  hyphens: manual; }
   @media (min-width: 1024px) {
     p {
       font-size: 1.25rem;
@@ -897,24 +898,26 @@ textarea {
 ============= */
 .article-text article {
   display: flex;
-  flex-direction: column;
-  max-width: 80ch; }
-  @media (min-width: 768px) {
-    .article-text article {
-      width: 80%; } }
-.article-gallery {
-  background-color: #2b2b2b; }
-  .article-gallery article {
-    display: flex;
-    flex-direction: column; }
-    .article-gallery article img {
-      aspect-ratio: 3/2; }
-    .article-gallery article p {
-      color: #efefef;
-      max-width: 80ch; }
-      @media (min-width: 768px) {
-        .article-gallery article p {
-          width: 80%; } }
+  flex-direction: column; }
+  .article-text article p {
+    max-width: 80ch; }
+    @media (min-width: 768px) {
+      .article-text article p {
+        width: 80%; } }
+.article-gallery article {
+  display: flex;
+  flex-direction: column; }
+  .article-gallery article img {
+    aspect-ratio: 3/2; }
+  .article-gallery article p {
+    max-width: 80ch; }
+    @media (min-width: 768px) {
+      .article-gallery article p {
+        width: 80%; } }
+.article-gallery.inverse, .article-text.inverse {
+  background-color: #2b2b2b;
+  color: #efefef; }
+
 .gallery-2-col {
   display: flex;
   flex-direction: column; }
@@ -980,25 +983,6 @@ textarea {
       @media (min-width: 1024px) {
         .case-study-intro-image > div article ul li {
           height: 320px; } }
-.case-study-text > div article {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "p"; }
-  @media (min-width: 504px) {
-    .case-study-text > div article {
-      grid-template-columns: 72% auto;
-      grid-template-areas: "p ."; } }
-  @media (min-width: 768px) {
-    .case-study-text > div article {
-      grid-template-columns: 50% auto;
-      grid-gap: 24px; } }
-  @media (min-width: 1024px) {
-    .case-study-text > div article {
-      grid-gap: 32px; } }
-  .case-study-text > div article p {
-    grid-area: "p"; }
-
 .case-study-gallery > div article {
   grid-gap: 16px;
   display: grid;
@@ -1030,10 +1014,13 @@ textarea {
   display: inline-block;
   background-color: #00b1e6;
   opacity: 1;
-  position: absolute;
-  top: 0;
+  position: fixed;
+  top: 80px;
   bottom: auto;
-  z-index: 4000; }
+  z-index: 5000; }
+
+.pin-spacer {
+  height: 8px; }
 
 /* =============
     Case Study Pre Footer
@@ -1060,7 +1047,8 @@ header {
   height: 80px;
   background-color: white;
   width: 100%;
-  z-index: 5000; }
+  z-index: 5000;
+  box-shadow: 0px 1px 1px 0px #cab7bd; }
   header > div {
     display: flex;
     align-items: center;
@@ -1766,40 +1754,40 @@ footer {
   aspect-ratio: 2/1;
   object-fit: contain; }
 
-#antiGallery article ul li:nth-child(1) {
+#antiGallery article li:nth-child(1) {
   background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
   grid-area: ACF; }
 
-#antiGallery article ul li:nth-child(2) {
+#antiGallery article li:nth-child(2) {
   background-image: url("../img/case-studies/anti/antiOpen.jpg");
   background-position: center 90%;
   grid-area: AO; }
 
-#antiGallery article ul li:nth-child(3) {
+#antiGallery article li:nth-child(3) {
   background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
   grid-area: ANF; }
 
-#antiGallery article ul li:nth-child(4) {
+#antiGallery article li:nth-child(4) {
   background-image: url("../img/case-studies/anti/antiDogDetail.png");
   background-size: contain;
   grid-area: AntiDD; }
   @media (prefers-color-scheme: dark) {
-    #antiGallery article ul li:nth-child(4) {
+    #antiGallery article li:nth-child(4) {
       background-image: url("../img/case-studies/anti/antiDogDetailWhite.png"); } }
-#antiGallery article ul li:nth-child(5) {
+#antiGallery article li:nth-child(5) {
   background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
   background-position: center 80%;
   grid-area: ACTD; }
 
-#antiGallery article ul li:nth-child(6) {
+#antiGallery article li:nth-child(6) {
   background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
   background-position: center 90%;
   grid-area: AFO; }
   @media (min-width: 504px) {
-    #antiGallery article ul li:nth-child(6) {
+    #antiGallery article li:nth-child(6) {
       background-position: center 80%; } }
   @media (min-width: 1024px) {
-    #antiGallery article ul li:nth-child(6) {
+    #antiGallery article li:nth-child(6) {
       background-position: center 90%; } }
 /* =============
     Attention to Detail Hero
@@ -1829,411 +1817,158 @@ footer {
 /* =============
     Attention to Detail Gallery
 ============= */
-#atdGallery {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #atdGallery {
-      background-color: #161618; } }
-  #atdGallery > div article ul {
-    grid-template-areas: "AWMLD" "APMBHO" "AEMBT" "AIMR";
-    grid-template-rows: 160px 160px 280px 680px; }
-    @media (min-width: 504px) {
-      #atdGallery > div article ul {
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-areas: "AWMLD AWMLD ." "APMBHO APMBHO APMBHO" "AEMBT AEMBT AIMR";
-        grid-template-rows: 176px 256px 288px; } }
-    @media (min-width: 768px) {
-      #atdGallery > div article ul {
-        grid-template-areas: "AWMLD AWMLD ASFive" "APMBHO APMBHO APMBHO" "ASEight ASEight AIMR" "AEMBT AEMBT ASSix";
-        grid-template-rows: 176px 256px 288px 280px; } }
-    @media (min-width: 1024px) {
-      #atdGallery > div article ul {
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" ". . APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
-        grid-template-rows: 280px 280px 168px 200px 280px; } }
-    @media (min-width: 1440px) {
-      #atdGallery > div article ul {
-        grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" "APMBHO APMBHO APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
-        grid-template-rows: 280px 400px 168px 200px 280px; } }
-    #atdGallery > div article ul li {
-      background-size: contain; }
-    #atdGallery > div article ul li:nth-child(1) {
-      background-image: url("../img/case-studies/atd/atdWebMobileLeftDown.png");
-      grid-area: AWMLD; }
-    #atdGallery > div article ul li:nth-child(2) {
-      background-image: url("../img/case-studies/atd/atdPrintMacBookHeadOn.png");
-      grid-area: APMBHO; }
-    #atdGallery > div article ul li:nth-child(3) {
-      background-image: url("../img/case-studies/atd/atdEnvMacBookTilted.png");
-      grid-area: AEMBT; }
-    #atdGallery > div article ul li:nth-child(4) {
-      background-image: url("../img/case-studies/atd/atdIndexMobileRight.png");
-      grid-area: AIMR; }
-    #atdGallery > div article ul li:nth-child(5) {
-      background-image: url("../img/case-studies/atd/atdScreenshot5.png");
-      display: none;
-      background-size: cover; }
-      @media (min-width: 768px) {
-        #atdGallery > div article ul li:nth-child(5) {
-          display: initial;
-          grid-area: ASFive; } }
-    #atdGallery > div article ul li:nth-child(6) {
-      background-image: url("../img/case-studies/atd/atdScreenshot6.png");
-      display: none;
-      background-size: cover;
-      background-position: right top; }
-      @media (min-width: 768px) {
-        #atdGallery > div article ul li:nth-child(6) {
-          display: initial;
-          grid-area: ASSix; } }
-    #atdGallery > div article ul li:nth-child(7) {
-      background-image: url("../img/case-studies/atd/atdScreenshot8.png");
-      display: none;
-      background-size: cover;
-      background-position: 10% top; }
-      @media (min-width: 768px) {
-        #atdGallery > div article ul li:nth-child(7) {
-          display: initial;
-          grid-area: ASEight; } }
-      @media (min-width: 1024px) {
-        #atdGallery > div article ul li:nth-child(7) {
-          background-position: center top; } }
+#atdGallery article > img:nth-child(1),
+#atdGallery article > img:nth-child(2),
+#atdGallery article > img:nth-child(3) {
+  object-fit: contain; }
+
+#atdGallery article > div:nth-child(4) > img:nth-child(1) {
+  object-fit: contain; }
+
+#atdGallery article > img:nth-child(6) {
+  aspect-ratio: unset; }
+
 /* =============
     Attention to Detail Color
 ============= */
-#atdColor > div article {
-  grid-template-areas: "h2" "color-grid" "p"; }
-  @media (min-width: 504px) {
-    #atdColor > div article {
-      grid-template-areas: "h2 h2" "color-grid color-grid" "p .";
-      grid-template-columns: 72% auto; } }
+#atdColor article > div {
+  display: grid; }
   @media (min-width: 768px) {
-    #atdColor > div article {
-      grid-gap: 24px;
-      grid-template-columns: 50% auto; } }
+    #atdColor article > div {
+      grid-template-columns: repeat(2, 1fr); } }
   @media (min-width: 1024px) {
-    #atdColor > div article {
-      grid-gap: 32px; } }
-  #atdColor > div article h2 {
-    grid-area: h2; }
-  #atdColor > div article div:nth-child(2) {
-    grid-gap: 16px;
-    display: grid;
-    grid-area: color-grid;
-    grid-template-areas: "web-color" "print-color" "env-color";
-    grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 768px) {
-      #atdColor > div article div:nth-child(2) {
-        grid-gap: 24px;
-        grid-template-areas: "web-color print-color env-color";
-        grid-template-columns: repeat(3, 1fr); } }
-    @media (min-width: 1024px) {
-      #atdColor > div article div:nth-child(2) {
-        grid-gap: 32px; } }
-    #atdColor > div article div:nth-child(2) .color-palette {
+    #atdColor article > div {
+      grid-template-columns: repeat(3, 1fr); } }
+  #atdColor article > div .color-palette {
+    background-color: #fdfdfd;
+    border-radius: 16px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    #atdColor article > div .color-palette ul {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      padding: 16px 16px 16px 16px;
-      background-color: #F0F0F0;
-      border-radius: 16px;
-      box-shadow: 0 1px 15px -7px rgba(19, 22, 24, 0.02), 0 9px 46px 8px rgba(19, 22, 24, 0.012), 0 24px 38px 3px rgba(19, 22, 24, 0.012);
-      width: auto; }
-      @media (min-width: 1024px) {
-        #atdColor > div article div:nth-child(2) .color-palette {
-          grid-gap: 24px;
-          padding: 24px 24px 24px 24px; } }
-      @media (min-width: 1024px) {
-        #atdColor > div article div:nth-child(2) .color-palette {
-          padding: 32px 32px 32px 32px; } }
-      #atdColor > div article div:nth-child(2) .color-palette li {
+      grid-template-columns: repeat(3, 1fr); }
+      @media (min-width: 768px) {
+        #atdColor article > div .color-palette ul {
+          column-gap: 24px;
+          row-gap: 24px; } }
+      #atdColor article > div .color-palette ul li {
         border-radius: 16px;
         box-shadow: none;
-        height: 72px;
-        transition: all 0.2s ease-in-out; }
-        @media (min-width: 504px) {
-          #atdColor > div article div:nth-child(2) .color-palette li {
-            height: 104px; } }
+        height: 16vw;
+        width: 100%; }
         @media (min-width: 768px) {
-          #atdColor > div article div:nth-child(2) .color-palette li {
-            border-radius: 8px;
-            height: 44px; } }
+          #atdColor article > div .color-palette ul li {
+            height: 12vw; } }
         @media (min-width: 1024px) {
-          #atdColor > div article div:nth-child(2) .color-palette li {
-            border-radius: 104px;
-            height: 56px; }
-            #atdColor > div article div:nth-child(2) .color-palette li:hover {
-              box-shadow: 0 1px 8px -4px rgba(19, 22, 24, 0.04), 0 4px 20px 4px rgba(19, 22, 24, 0.03), 0 12px 14px 3px rgba(19, 22, 24, 0.04);
-              transform: scale(1.08);
-              transition: all 0.2s ease-in-out; } }
-        @media (min-width: 1440px) {
-          #atdColor > div article div:nth-child(2) .color-palette li {
-            border-radius: 104px;
-            height: 78px; } }
-        #atdColor > div article div:nth-child(2) .color-palette li:last-of-type {
-          background-color: rgba(0, 0, 0, 0);
-          border-radius: none;
-          color: #0D001E;
-          grid-area: p;
-          height: auto;
-          width: auto; }
-          #atdColor > div article div:nth-child(2) .color-palette li:last-of-type:hover {
-            box-shadow: none;
-            transform: scale(1);
-            transition: all 0.2s ease-in-out; }
-          #atdColor > div article div:nth-child(2) .color-palette li:last-of-type h2 {
-            font-size: 1.75rem;
-            line-height: 2.375rem; }
-    #atdColor > div article div:nth-child(2) ul:nth-child(1) {
-      grid-area: web-color;
-      grid-template-areas: "color-white off-white color-black" "turqouise dark-blue ." "color-yellow . ." "p p p"; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(1) {
+          #atdColor article > div .color-palette ul li {
+            height: 6vw; } }
+      #atdColor article > div .color-palette ul :nth-child(1) {
         background-color: #FCFCFC;
-        grid-area: color-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(2) {
-        background-color: #E9E8E7;
-        grid-area: off-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(3) {
-        background-color: #1A1A1A;
-        grid-area: color-black; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(4) {
-        background-color: #10DAD7;
-        grid-area: turqouise; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(5) {
-        background-color: #003A4C;
-        grid-area: dark-blue; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(1) li:nth-child(6) {
-        background-color: #FFBF00;
-        grid-area: color-yellow; }
-    #atdColor > div article div:nth-child(2) ul:nth-child(2) {
-      grid-area: print-color;
-      grid-template-areas: "color-white off-white color-black" "light-red color-red dark-red" "color-yellow . ." "p p p"; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(1) {
-        background-color: #FCFCFC;
-        grid-area: color-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(2) {
-        background-color: #E9E8E7;
-        grid-area: off-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(3) {
-        background-color: #1A1A1A;
-        grid-area: color-black; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(4) {
-        background-color: #F28092;
-        grid-area: light-red; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(5) {
-        background-color: #E60026;
-        grid-area: color-red; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(6) {
-        background-color: #72051B;
-        grid-area: dark-red; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(2) li:nth-child(7) {
-        background-color: #FFBF00;
-        grid-area: color-yellow; }
-    #atdColor > div article div:nth-child(2) ul:nth-child(3) {
-      grid-area: env-color;
-      grid-template-areas: "color-white off-white color-black" "light-purple color-purple dark-purple" "color-yellow color-shadow ." "p p p"; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(1) {
-        background-color: #FCFCFC;
-        grid-area: color-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(2) {
-        background-color: #E9E8E7;
-        grid-area: off-white; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(3) {
-        background-color: #1A1A1A;
-        grid-area: color-black; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(4) {
-        background-color: #B89FDF;
-        grid-area: light-purple; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(5) {
-        background-color: #7140BF;
-        grid-area: color-purple; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(6) {
-        background-color: #382468;
-        grid-area: dark-purple; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(7) {
-        background-color: #FFBF00;
-        grid-area: color-yellow; }
-      #atdColor > div article div:nth-child(2) ul:nth-child(3) li:nth-child(8) {
-        background-color: rgba(0, 0, 0, 0);
-        box-shadow: 0 1px 7px -2px rgba(19, 22, 24, 0.12), 0 4px 24px 4px rgba(19, 22, 24, 0.1), 0 12px 18px 2px rgba(19, 22, 24, 0.11);
-        grid-area: color-shadow; }
-  #atdColor > div article p:nth-child(3) {
-    grid-area: p; }
+        box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+      #atdColor article > div .color-palette ul :nth-child(2) {
+        background-color: #E9E8E7; }
+      #atdColor article > div .color-palette ul :nth-child(3) {
+        background-color: #1A1A1A; }
+      #atdColor article > div .color-palette ul :last-child {
+        background-color: #FFBF00; }
+  #atdColor article > div div:nth-child(1) ul li:nth-child(4) {
+    background-color: #10DAD7; }
+  #atdColor article > div div:nth-child(1) ul li:nth-child(5) {
+    background-color: #003A4C; }
+  #atdColor article > div div:nth-child(2) ul li:nth-child(4) {
+    background-color: #F28092; }
+  #atdColor article > div div:nth-child(2) ul li:nth-child(5) {
+    background-color: #E60026; }
+  #atdColor article > div div:nth-child(2) ul li:nth-child(6) {
+    background-color: #72051B; }
+  #atdColor article > div div:nth-child(3) ul li:nth-child(4) {
+    background-color: #B89FDF; }
+  #atdColor article > div div:nth-child(3) ul li:nth-child(5) {
+    background-color: #7140BF; }
+  #atdColor article > div div:nth-child(3) ul li:nth-child(6) {
+    background-color: #382468; }
 
 /* =============
     Attention to Detail Iconography
 ============= */
-#atdIconography {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #atdIconography {
-      background-color: #161618; } }
-  #atdIconography > div article {
-    grid-template-areas: "h2" "icon-grid" "p1" "p2"; }
+#atdIconography article div:nth-child(2) {
+  grid-area: icon-grid; }
+  #atdIconography article div:nth-child(2) ul {
+    grid-gap: 16px;
+    display: grid;
+    grid-template-areas: "halftone square outline-triangle" "dotted-circle dotted-circle lines" "dotted-square two-zig-zag-uneven two-zig-zag-uneven";
+    grid-template-columns: repeat(3, 1fr); }
     @media (min-width: 504px) {
-      #atdIconography > div article {
-        grid-template-areas: "h2 h2" "icon-grid icon-grid" "p1 ." "p2 .";
-        grid-template-columns: 72% auto; } }
+      #atdIconography article div:nth-child(2) ul {
+        grid-template-areas: ". halftone halftone . square" ". halftone halftone outline-triangle ." "dotted-circle . two-zig-zag-uneven two-zig-zag-uneven ." "lines lines . . dotted-square";
+        grid-template-columns: repeat(5, 1fr); } }
     @media (min-width: 768px) {
-      #atdIconography > div article {
+      #atdIconography article div:nth-child(2) ul {
         grid-gap: 24px;
-        grid-template-columns: 50% auto; } }
+        grid-template-areas: ". halftone halftone . square dotted-circle dotted-circle two-zig-zag-uneven two-zig-zag-uneven" "lines halftone halftone outline-triangle . dotted-circle dotted-circle dotted-square .";
+        grid-template-columns: repeat(9, 1fr); } }
     @media (min-width: 1024px) {
-      #atdIconography > div article {
+      #atdIconography article div:nth-child(2) ul {
         grid-gap: 32px; } }
-    #atdIconography > div article h2 {
-      grid-area: h2; }
-    #atdIconography > div article div:nth-child(2) {
-      grid-area: icon-grid; }
-      #atdIconography > div article div:nth-child(2) ul {
-        grid-gap: 16px;
-        display: grid;
-        grid-template-areas: "shape-halftone shape-square shape-outline-triangle" "shape-dotted-circle shape-dotted-circle shape-lines" "shape-dotted-square shape-two-zig-zag-uneven shape-two-zig-zag-uneven";
-        grid-template-columns: repeat(3, 1fr); }
-        @media (min-width: 504px) {
-          #atdIconography > div article div:nth-child(2) ul {
-            grid-template-areas: ". shape-halftone shape-halftone . shape-square" ". shape-halftone shape-halftone shape-outline-triangle ." "shape-dotted-circle . shape-two-zig-zag-uneven shape-two-zig-zag-uneven ." "shape-lines shape-lines . . shape-dotted-square";
-            grid-template-columns: repeat(5, 1fr); } }
-        @media (min-width: 768px) {
-          #atdIconography > div article div:nth-child(2) ul {
-            grid-gap: 24px;
-            grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square .";
-            grid-template-columns: repeat(9, 1fr); } }
-        @media (min-width: 1024px) {
-          #atdIconography > div article div:nth-child(2) ul {
-            grid-gap: 32px; } }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(1) {
-          grid-area: shape-halftone; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(2) {
-          grid-area: shape-square; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(3) {
-          grid-area: shape-lines; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(4) {
-          grid-area: shape-outline-triangle; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(5) {
-          grid-area: shape-dotted-circle; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(6) {
-          grid-area: shape-dotted-square; }
-        #atdIconography > div article div:nth-child(2) ul li:nth-child(7) {
-          grid-area: shape-two-zig-zag-uneven; }
-    #atdIconography > div article p:nth-child(3) {
-      grid-area: p1; }
-    #atdIconography > div article p:nth-child(4) {
-      grid-area: p2; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(1) {
+      grid-area: halftone; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(2) {
+      grid-area: square; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(3) {
+      grid-area: lines; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(4) {
+      grid-area: outline-triangle; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(5) {
+      grid-area: dotted-circle; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(6) {
+      grid-area: dotted-square; }
+    #atdIconography article div:nth-child(2) ul li:nth-child(7) {
+      grid-area: two-zig-zag-uneven; }
+
+#atdIconography article p:nth-child(3) {
+  grid-area: p1; }
+
+#atdIconography article p:nth-child(4) {
+  grid-area: p2; }
 
 /* =============
     Attention to Detail Iconography SVG Edits
 ============= */
-@media (prefers-color-scheme: dark) {
-  #atdDottedCircle #ShapeDottedCircle #Oval {
-    stroke: white; } }
+#atdDottedCircle #ShapeDottedCircle #Oval {
+  stroke: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdDottedSquare .st0,
-  #atdDottedSquare .st1 {
-    stroke: white; } }
+#atdDottedSquare .st0,
+#atdDottedSquare .st1 {
+  stroke: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdHalftone #PatternHalftoneOffset {
-    fill: white; } }
+#atdHalftone #PatternHalftoneOffset {
+  fill: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdLines #ShapeOutlineLines {
-    stroke: white; } }
+#atdLines #ShapeOutlineLines {
+  stroke: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdOutlineTriangle #ShapeOutlineTriangle #Triangle {
-    stroke: white; } }
+#atdOutlineTriangle #ShapeOutlineTriangle #Triangle {
+  stroke: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdSquare #ShapeSolidSquare {
-    fill: white;
-    stroke: white; } }
+#atdSquare #ShapeSolidSquare {
+  fill: black;
+  stroke: black; }
 
-@media (prefers-color-scheme: dark) {
-  #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2,
-  #atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2-Copy {
-    stroke: white; } }
+#atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2,
+#atdTwoZigZagUneven #Pattern2ZigZagUneven #Path-2-Copy {
+  stroke: black; }
 
 /* =============
     Attention to Detail Imagery
 ============= */
-#atdImagery > div article {
-  grid-template-areas: "h2" "p1" "icon-grid" "p2"; }
-  @media (min-width: 504px) {
-    #atdImagery > div article {
-      grid-template-areas: "h2 h2" "p1 ." "icon-grid icon-grid" "p2 .";
-      grid-template-columns: 72% auto; } }
-  @media (min-width: 768px) {
-    #atdImagery > div article {
-      grid-gap: 24px;
-      grid-template-columns: 50% auto; } }
-  @media (min-width: 1024px) {
-    #atdImagery > div article {
-      grid-gap: 32px; } }
-  #atdImagery > div article h2 {
-    grid-area: h2; }
-  #atdImagery > div article div:nth-child(2) {
-    grid-area: icon-grid; }
-    #atdImagery > div article div:nth-child(2) ul {
-      grid-gap: 16px;
-      display: grid;
-      grid-template-areas: ". line-length ." "screenshot3 screenshot3 screenshot3" ". margins ." ". wcag ." "screenshot1 screenshot1 screenshot1" ". pictogram ." "screenshot2 screenshot2 screenshot2" "screenshot4 screenshot4 screenshot4";
-      grid-template-columns: auto 90% auto;
-      grid-template-rows: auto 200px auto auto 304px auto 80px 280px; }
-      @media (min-width: 504px) {
-        #atdImagery > div article div:nth-child(2) ul {
-          grid-template-areas: "line-length line-length . screenshot3 screenshot3" "margins margins wcag wcag ." "margins margins . screenshot1 screenshot1" ". pictogram pictogram pictogram ." "screenshot2 screenshot2 screenshot2 screenshot4 screenshot4" ". . . screenshot4 screenshot4";
-          grid-template-columns: repeat(5, 1fr);
-          grid-template-rows: 152px auto 200px auto 80px 104px; } }
-      @media (min-width: 768px) {
-        #atdImagery > div article div:nth-child(2) ul {
-          grid-gap: 24px;
-          grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3" "line-length line-length line-length line-length line-length . . . ." ". margins margins margins margins wcag wcag wcag ." ". margins margins margins margins . screenshot1 screenshot1 screenshot1" "pictogram pictogram pictogram pictogram pictogram pictogram . . ." "screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot4 screenshot4 screenshot4" ". . . . . . screenshot4 screenshot4 screenshot4";
-          grid-template-columns: repeat(9, 1fr);
-          grid-template-rows: auto 64px auto 220px auto 130px 40px; } }
-      @media (min-width: 1024px) {
-        #atdImagery > div article div:nth-child(2) ul {
-          grid-gap: 32px;
-          grid-template-areas: "line-length line-length line-length line-length line-length . screenshot3 screenshot3 screenshot3 margins margins margins" "line-length line-length line-length line-length line-length . . . . margins margins margins" ". screenshot1 screenshot1 screenshot1 screenshot1 . . wcag wcag wcag wcag wcag" "pictogram pictogram pictogram pictogram pictogram pictogram . . screenshot4 screenshot4 screenshot4 ." "pictogram pictogram pictogram pictogram pictogram pictogram . . . . . ." "pictogram pictogram pictogram pictogram pictogram pictogram screenshot2 screenshot2 screenshot2 screenshot2 screenshot2 screenshot2";
-          grid-template-columns: repeat(12, 1fr);
-          grid-template-rows: 144px auto auto 200px auto 96px; } }
-      @media (min-width: 1440px) {
-        #atdImagery > div article div:nth-child(2) ul {
-          grid-template-rows: 176px auto auto 224px auto 112px; } }
-      #atdImagery > div article div:nth-child(2) ul li {
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(1) {
-        grid-area: line-length; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(2) {
-        grid-area: margins; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(3) {
-        grid-area: wcag; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(4) {
-        grid-area: pictogram; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(5) {
-        background-image: url("../img/case-studies/atd/atdScreenshot1.png");
-        background-position: left center;
-        grid-area: screenshot1; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(6) {
-        background-image: url("../img/case-studies/atd/atdScreenshot2.png");
-        background-position: center 20%;
-        grid-area: screenshot2; }
-        @media (min-width: 1024px) {
-          #atdImagery > div article div:nth-child(2) ul li:nth-child(6) {
-            background-position: center 40%; } }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(7) {
-        background-image: url("../img/case-studies/atd/atdScreenshot3.png");
-        grid-area: screenshot3; }
-      #atdImagery > div article div:nth-child(2) ul li:nth-child(8) {
-        background-image: url("../img/case-studies/atd/atdScreenshot4.png");
-        background-position: left center;
-        grid-area: screenshot4; }
-  #atdImagery > div article p:nth-child(3) {
-    grid-area: p1; }
-  #atdImagery > div article p:nth-child(4) {
-    grid-area: p2; }
+#atdImagery article li {
+  justify-content: center;
+  align-self: center; }
+  #atdImagery article li img {
+    object-fit: contain;
+    aspect-ratio: unset; }
 
 /* =============
     Attention to Detail Imagery SVG Edits
@@ -2246,46 +1981,19 @@ footer {
 /* =============
     Attention to Detail Logo
 ============= */
-#atdLogo {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #atdLogo {
-      background-color: #161618; } }
-  #atdLogo > div article {
-    grid-template-areas: "h2" "icon-grid" "p1"; }
-    @media (min-width: 504px) {
-      #atdLogo > div article {
-        grid-template-areas: "h2 h2" "icon-grid ." "p1 .";
-        grid-template-columns: 72% auto; } }
-    @media (min-width: 768px) {
-      #atdLogo > div article {
-        grid-gap: 24px;
-        grid-template-columns: 50% auto; } }
-    @media (min-width: 1024px) {
-      #atdLogo > div article {
-        grid-gap: 32px;
-        grid-template-areas: "h2 h2" "p1 icon-grid"; } }
-    #atdLogo > div article h2 {
-      grid-area: h2; }
-    #atdLogo > div article div:nth-child(2) {
-      grid-area: icon-grid; }
-      #atdLogo > div article div:nth-child(2) ul {
-        grid-gap: 16px;
-        display: grid;
-        grid-template-areas: ". logo .";
-        grid-template-columns: auto 90% auto; }
-        #atdLogo > div article div:nth-child(2) ul li:nth-child(1) {
-          grid-area: logo; }
-    #atdLogo > div article p:nth-child(3) {
-      grid-area: p1; }
-
+#atdLogo div {
+  justify-content: flex-start;
+  align-items: flex-start; }
+  @media (min-width: 1024px) {
+    #atdLogo div p {
+      width: 100%;
+      max-width: 100%; } }
 /* =============
     Attention to Detail Imagery SVG Edits
 ============= */
-@media (prefers-color-scheme: dark) {
-  #atdLogoSVG #atdD,
-  #atdLogoSVG .cls-2 {
-    fill: #FAFAFA; } }
+#atdLogoSVG #atdD,
+#atdLogoSVG .cls-2 {
+  fill: white; }
 
 /* =============
     BK Hero

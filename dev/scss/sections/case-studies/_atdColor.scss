@@ -2,229 +2,121 @@
     Attention to Detail Color
 ============= */
 #atdColor {
-    > div {
-        article {
-            grid-template-areas: "h2" "color-grid" "p";
-            @include sm {
-                grid-template-areas: "h2 h2" "color-grid color-grid""p .";
-                grid-template-columns: 72% auto;
-            }
+    article {
+        >div {
+            display: grid;
+
             @include md {
-                grid-gap: 24px;
-                grid-template-columns: 50% auto;
+                grid-template-columns: repeat(2, 1fr);
             }
+
             @include lg {
-                grid-gap: 32px;
+                grid-template-columns: repeat(3, 1fr);
             }
 
-            h2 {
-                grid-area: h2;
-            }
+            .color-palette {
+                background-color: $surface;
+                border-radius: 16px;
+                border: 1px solid $outline;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
 
-            div:nth-child(2) {
-                grid-gap: 16px;
-                display: grid;
-                grid-area: color-grid;
-                grid-template-areas: "web-color" "print-color" "env-color";
-                grid-template-columns: repeat(1,1fr);
-                @include md {
-                    grid-gap: 24px;
-                    grid-template-areas: "web-color print-color env-color";
-                    grid-template-columns: repeat(3,1fr);
-                }
-                @include lg {
-                    grid-gap: 32px;
-                }
-
-                .color-palette {
+                ul {
                     display: grid;
-                    grid-template-columns: repeat(3,1fr);
-                    @include padding(16px,16px,16px,16px);
-                    background-color: $off-white;
-                    border-radius: 16px;
-                    box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .02), 0 9px 46px 8px rgba(19, 22, 24, .012), 0 24px 38px 3px rgba(19, 22, 24, .012);
-                    width: auto;
-                    @include lg {
-                        grid-gap: 24px;
-                        @include padding(24px,24px,24px,24px);
+                    grid-template-columns: repeat(3, 1fr);
+
+                    @include md {
+                        column-gap: 24px;
+                        row-gap: 24px;
                     }
-                    @include lg {
-                        @include padding(32px,32px,32px,32px);
-                    }
+
 
                     li {
                         border-radius: 16px;
                         box-shadow: none;
-                        height: 72px;
-                        transition: all 0.2s ease-in-out;
-                        @include sm {
-                            height: 104px;
-                        }
+                        height: 16vw;
+                        width: 100%;
+
                         @include md {
-                            border-radius: 8px;
-                            height: 44px;
+                            height: 12vw;
                         }
+
                         @include lg {
-                            border-radius: 104px;
-                            height: 56px;
-
-                            &:hover {
-                                box-shadow: 0 1px 8px -4px rgba(19, 22, 24, .04), 0 4px 20px 4px rgba(19, 22, 24, .03), 0 12px 14px 3px rgba(19, 22, 24, .04);
-                                transform: scale(1.08);
-                                transition: all 0.2s ease-in-out;
-                            }
-                        }
-                        @include xl {
-                            border-radius: 104px;
-                            height: 78px;
+                            height: 6vw;
                         }
 
-                        &:last-of-type {
-                            background-color: $blank;
-                            border-radius: none;
-                            color: $dark-purple;
-                            grid-area: p;
-                            height: auto;
-                            width: auto;
-
-                            &:hover {
-                                box-shadow: none;
-                                transform: scale(1);
-                                transition: all 0.2s ease-in-out;
-                            }
-
-                            h2 {
-                                font-size: rem-calc(28);
-                                line-height: rem-calc(38);
-                            }
-                        }
                     }
+
+                    :nth-child(1) {
+                        background-color: #FCFCFC;
+                        box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+                    }
+
+                    :nth-child(2) {
+                        background-color: #E9E8E7;
+                    }
+
+                    :nth-child(3) {
+                        background-color: #1A1A1A;
+                    }
+
+                    :last-child {
+                        background-color: #FFBF00;
+                    }
+
+
                 }
 
-                ul:nth-child(1) {
-                    grid-area: web-color;
-                    grid-template-areas: "color-white off-white color-black" "turqouise dark-blue ." "color-yellow . ." "p p p";
+            }
 
-                    li:nth-child(1) {
-                        background-color: #FCFCFC;
-                        grid-area: color-white;
-                    }
-
-                    li:nth-child(2) {
-                        background-color: #E9E8E7;
-                        grid-area: off-white;
-                    }
-
-                    li:nth-child(3) {
-                        background-color: #1A1A1A;
-                        grid-area: color-black;
-                    }
-
+            div:nth-child(1) {
+                ul {
                     li:nth-child(4) {
                         background-color: #10DAD7;
-                        grid-area: turqouise;
                     }
 
                     li:nth-child(5) {
                         background-color: #003A4C;
-                        grid-area: dark-blue;
                     }
 
-                    li:nth-child(6) {
-                        background-color: #FFBF00;
-                        grid-area: color-yellow;
-                    }
                 }
+            }
 
-                ul:nth-child(2) {
-                    grid-area: print-color;
-                    grid-template-areas: "color-white off-white color-black" "light-red color-red dark-red" "color-yellow . ." "p p p";
-
-                    li:nth-child(1) {
-                        background-color: #FCFCFC;
-                        grid-area: color-white;
-                    }
-
-                    li:nth-child(2) {
-                        background-color: #E9E8E7;
-                        grid-area: off-white;
-                    }
-
-                    li:nth-child(3) {
-                        background-color: #1A1A1A;
-                        grid-area: color-black;
-                    }
-
+            div:nth-child(2) {
+                ul {
                     li:nth-child(4) {
                         background-color: #F28092;
-                        grid-area: light-red;
                     }
 
                     li:nth-child(5) {
                         background-color: #E60026;
-                        grid-area: color-red;
                     }
 
                     li:nth-child(6) {
                         background-color: #72051B;
-                        grid-area: dark-red;
                     }
 
-                    li:nth-child(7) {
-                        background-color: #FFBF00;
-                        grid-area: color-yellow;
-                    }
+
+
                 }
+            }
 
-                ul:nth-child(3) {
-                    grid-area: env-color;
-                    grid-template-areas: "color-white off-white color-black" "light-purple color-purple dark-purple" "color-yellow color-shadow ." "p p p";
-
-                    li:nth-child(1) {
-                        background-color: #FCFCFC;
-                        grid-area: color-white;
-                    }
-
-                    li:nth-child(2) {
-                        background-color: #E9E8E7;
-                        grid-area: off-white;
-                    }
-
-                    li:nth-child(3) {
-                        background-color: #1A1A1A;
-                        grid-area: color-black;
-                    }
-
+            div:nth-child(3) {
+                ul {
                     li:nth-child(4) {
                         background-color: #B89FDF;
-                        grid-area: light-purple;
                     }
 
                     li:nth-child(5) {
                         background-color: #7140BF;
-                        grid-area: color-purple;
                     }
 
                     li:nth-child(6) {
                         background-color: #382468;
-                        grid-area: dark-purple;
                     }
 
-                    li:nth-child(7) {
-                        background-color: #FFBF00;
-                        grid-area: color-yellow;
-                    }
-
-                    li:nth-child(8) {
-                        background-color: $blank;
-                        box-shadow: 0 1px 7px -2px rgba(19, 22, 24, .12), 0 4px 24px 4px rgba(19, 22, 24, .1), 0 12px 18px 2px rgba(19, 22, 24, .11);
-                        grid-area: color-shadow;
-                    }
                 }
-            }
-
-            p:nth-child(3) {
-                grid-area: p;
             }
         }
     }

@@ -2,7 +2,7 @@ gsap.from("#progress", {
     scrollTrigger: {
       trigger: "#progress",
       scrub: true,
-      pin: true,
+      // pin: true,
       start: "top 80px",
       end: "#caseStudyPreFooter",
       endTrigger: "#caseStudyPreFooter"

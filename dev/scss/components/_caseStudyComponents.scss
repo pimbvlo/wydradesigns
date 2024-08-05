@@ -5,17 +5,17 @@
     article {
         display: flex;
         flex-direction: column;
-        max-width: 80ch;
+        p{
+            max-width: 80ch;
 
-        @include md {
-            width: 80%;
-        }
+            @include md {
+                width: 80%;
+            }
+            }
     }
 }
 
 .article-gallery {
-    background-color: $inverse-surface;
-
     article {
         display: flex;
         flex-direction: column;
@@ -25,7 +25,6 @@
         }
 
         p {
-            color: $on-inverse-surface;
             max-width: 80ch;
 
             @include md {
@@ -33,6 +32,13 @@
             }
         }
     }
+}
+
+.article-gallery.inverse, .article-text.inverse{
+    background-color: $inverse-surface;
+
+    color: $on-inverse-surface;
+   
 }
 
 .gallery-2-col {
@@ -129,34 +135,20 @@
     }
 }
 
-.case-study-text {
-    >div {
-        article {
-            grid-gap: 16px;
-            display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            grid-template-areas: "p";
-
-            @include sm {
-                grid-template-columns: 72% auto;
-                grid-template-areas: "p .";
-            }
-
-            @include md {
-                grid-template-columns: 50% auto;
-                grid-gap: 24px;
-            }
-
-            @include lg {
-                grid-gap: 32px;
-            }
-
-            p {
-                grid-area: "p";
-            }
-        }
-    }
-}
+// .case-study-text {
+//     article {
+//         display: flex;
+//         flex-direction: column;
+//         p{
+//             @include md{
+//                 width: 80%;
+//             }
+//             @include xl{
+//                 width: 60%;
+//             }
+//             }
+//     }
+// }
 
 .case-study-gallery {
     >div {
@@ -205,9 +197,12 @@
     background-color: $secondary;
     opacity: 1;
 
-    position: absolute;
-    top: 0;
+    position: fixed;
+    top: 80px;
     bottom: auto;
-    z-index: 4000;
+    z-index: 5000;
 
+}
+.pin-spacer{
+    height: 8px;
 }

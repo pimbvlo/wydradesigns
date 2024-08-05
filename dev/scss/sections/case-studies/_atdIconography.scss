@@ -2,159 +2,132 @@
     Attention to Detail Iconography
 ============= */
 #atdIconography {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+    article {
+        div:nth-child(2) {
+            grid-area: icon-grid;
 
-    > div {
-        article {
-            grid-template-areas: "h2" "icon-grid" "p1" "p2";
-            @include sm {
-                grid-template-areas: "h2 h2" "icon-grid icon-grid""p1 .""p2 .";
-                grid-template-columns: 72% auto;
-            }
-            @include md {
-                grid-gap: 24px;
-                grid-template-columns: 50% auto;
-            }
-            @include lg {
-                grid-gap: 32px;
-            }
+            ul {
+                grid-gap: 16px;
+                display: grid;
+                grid-template-areas:
+                    "halftone square outline-triangle"
+                    "dotted-circle dotted-circle lines"
+                    "dotted-square two-zig-zag-uneven two-zig-zag-uneven";
+                grid-template-columns: repeat(3, 1fr);
 
-            h2 {
-                grid-area: h2;
-            }
+                @include sm {
+                    grid-template-areas:
+                        ". halftone halftone . square"
+                        ". halftone halftone outline-triangle ."
+                        "dotted-circle . two-zig-zag-uneven two-zig-zag-uneven ."
+                        "lines lines . . dotted-square";
+                    grid-template-columns: repeat(5, 1fr);
+                }
 
-            div:nth-child(2) {
-                grid-area: icon-grid;
+                @include md {
+                    grid-gap: 24px;
+                    grid-template-areas:
+                        ". halftone halftone . square dotted-circle dotted-circle two-zig-zag-uneven two-zig-zag-uneven"
+                        "lines halftone halftone outline-triangle . dotted-circle dotted-circle dotted-square .";
+                    grid-template-columns: repeat(9, 1fr);
+                }
 
-                ul {
-                    grid-gap: 16px;
-                    display: grid;
-                    grid-template-areas: "shape-halftone shape-square shape-outline-triangle" "shape-dotted-circle shape-dotted-circle shape-lines" "shape-dotted-square shape-two-zig-zag-uneven shape-two-zig-zag-uneven";
-                    grid-template-columns: repeat(3,1fr);
-                    @include sm {
-                        grid-template-areas: ". shape-halftone shape-halftone . shape-square" ". shape-halftone shape-halftone shape-outline-triangle ." "shape-dotted-circle . shape-two-zig-zag-uneven shape-two-zig-zag-uneven ." "shape-lines shape-lines . . shape-dotted-square";
-                        grid-template-columns: repeat(5,1fr);
-                    }
-                    @include md {
-                        grid-gap: 24px;
-                        grid-template-areas: ". shape-halftone shape-halftone . shape-square shape-dotted-circle shape-dotted-circle shape-two-zig-zag-uneven shape-two-zig-zag-uneven" "shape-lines shape-halftone shape-halftone shape-outline-triangle . shape-dotted-circle shape-dotted-circle shape-dotted-square .";
-                        grid-template-columns: repeat(9,1fr);
-                    }
-                    @include lg {
-                        grid-gap: 32px;
-                    }
+                @include lg {
+                    grid-gap: 32px;
+                }
 
-                    li {
-                        div {}
-                    }
+                li:nth-child(1) {
+                    grid-area: halftone;
+                }
 
-                    li:nth-child(1) {
-                        grid-area: shape-halftone;
-                    }
+                li:nth-child(2) {
+                    grid-area: square;
+                }
 
-                    li:nth-child(2) {
-                        grid-area: shape-square;
-                    }
+                li:nth-child(3) {
+                    grid-area: lines;
+                }
 
-                    li:nth-child(3) {
-                        grid-area: shape-lines;
-                    }
+                li:nth-child(4) {
+                    grid-area: outline-triangle;
+                }
 
-                    li:nth-child(4) {
-                        grid-area: shape-outline-triangle;
-                    }
+                li:nth-child(5) {
+                    grid-area: dotted-circle;
+                }
 
-                    li:nth-child(5) {
-                        grid-area: shape-dotted-circle;
-                    }
+                li:nth-child(6) {
+                    grid-area: dotted-square;
+                }
 
-                    li:nth-child(6) {
-                        grid-area: shape-dotted-square;
-                    }
-
-                    li:nth-child(7) {
-                        grid-area: shape-two-zig-zag-uneven;
-                    }
+                li:nth-child(7) {
+                    grid-area: two-zig-zag-uneven;
                 }
             }
+        }
 
-            p:nth-child(3) {
-                grid-area: p1;
-            }
+        p:nth-child(3) {
+            grid-area: p1;
+        }
 
-            p:nth-child(4) {
-                grid-area: p2;
-            }
+        p:nth-child(4) {
+            grid-area: p2;
         }
     }
 }
+
 /* =============
     Attention to Detail Iconography SVG Edits
 ============= */
 #atdDottedCircle {
     #ShapeDottedCircle {
         #Oval {
-            @include dark {
-                stroke: $white;
-            }
+            stroke: $black;
         }
     }
 }
 
 #atdDottedSquare {
+
     .st0,
     .st1 {
-        @include dark {
-            stroke: $white;
-        }
+        stroke: $black;
     }
 }
 
 #atdHalftone {
     #PatternHalftoneOffset {
-        @include dark {
-            fill: $white;
-        }
+        fill: $black;
     }
 }
 
 #atdLines {
     #ShapeOutlineLines {
-        @include dark {
-            stroke: $white;
-        }
+        stroke: $black;
     }
 }
 
 #atdOutlineTriangle {
     #ShapeOutlineTriangle {
         #Triangle {
-            @include dark {
-                stroke: $white;
-            }
+            stroke: $black;
         }
     }
 }
 
 #atdSquare {
     #ShapeSolidSquare {
-        @include dark {
-            fill: $white;
-            stroke: $white;
-        }
+        fill: $black;
+        stroke: $black;
     }
 }
 
 #atdTwoZigZagUneven {
     #Pattern2ZigZagUneven {
+
         #Path-2,
         #Path-2-Copy {
-            @include dark {
-                stroke: $white;
-            }
+            stroke: $black;
         }
     }
 }

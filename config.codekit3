@@ -3090,8 +3090,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/global\/FooterFlower.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3159,8 +3159,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/HeroFlower1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3172,8 +3172,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/HeroFlower2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6779,8 +6779,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/global\/FooterFlower.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6794,7 +6794,7 @@
       "oAP" : "\/deploy\/imglg\/global\/GenericImage.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6861,8 +6861,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/HeroFlower2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -7649,14 +7649,6 @@
       "oA" : 0,
       "oAP" : "\/deploy\/BarbaraKasten.html",
       "oF" : 2
-    },
-    "\/dev\/case-studies\/anti\/antiByLine.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/case-studies\/anti\/antiByLine.html",
-      "oF" : 0
     },
     "\/dev\/case-studies\/anti\/antiGallery.kit" : {
       "cB" : 0,
@@ -8446,6 +8438,17 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/components\/buttons-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/components\/buttons-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/components\/buttons.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -8566,12 +8569,28 @@
       "oAP" : "\/deploy\/resume.html",
       "oF" : 2
     },
+    "\/dev\/resume\/resumeActivities.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeActivities.html",
+      "oF" : 0
+    },
     "\/dev\/resume\/resumeActivities.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeActivities.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeCourses.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeCourses.html",
       "oF" : 0
     },
     "\/dev\/resume\/resumeCourses.kit" : {
@@ -8604,6 +8623,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/resume\/resumeHero.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeHonors.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeHonors.html",
       "oF" : 0
     },
     "\/dev\/resume\/resumeHonors.kit" : {
@@ -9968,6 +9995,28 @@
       "oA" : 0,
       "oAP" : "\/deploy\/unLikable.html",
       "oF" : 2
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     }
   },
   "hooks" : [
@@ -10345,7 +10394,7 @@
         "optionString" : "{'exceptMethods': []}"
       },
       "comma-dangle" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "'never'"
       },
       "comma-spacing" : {
@@ -11247,7 +11296,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "gsap, ",
+    "jsCheckerReservedNamesString" : "gsap, ScrollTrigger",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",

@@ -2062,92 +2062,18 @@ footer {
     FENDER Text
 ============= */
 #fenderText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #fenderText1 {
-      background-color: #161618; } }
-  #fenderText1 > div article p {
-    margin: 0px 0px 48px 0px; }
-    @media (min-width: 768px) {
-      #fenderText1 > div article p {
-        margin: 0px 0px 56px 0px; } }
-    @media (min-width: 1024px) {
-      #fenderText1 > div article p {
-        margin: 0px 0px 64px 0px; } }
-    @media (min-width: 1440px) {
-      #fenderText1 > div article p {
-        margin: 0px 0px 80px 0px; } }
-  @media (min-width: 1024px) {
-    #fenderText1 > div article ul {
-      grid-template-columns: repeat(4, 1fr); } }
-  #fenderText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg"); }
-  #fenderText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg"); }
-  #fenderText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
-    background-position: 20% center; }
-  #fenderText1 > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
-    background-position: 40% center; }
+  padding-bottom: 0px; }
+  #fenderText1 div img {
+    aspect-ratio: 1/1; }
 
 /* =============
     FENDER Gallery
 ============= */
-#fenderGallery > div article ul {
-  grid-template-areas: "paragraph1" "FFS" "paragraph2" "FSB2" "FSBI2" "FBB1" "FBB2" "FB1" "FB2";
-  grid-template-rows: auto 224px auto 240px 344px 240px 304px 256px 280px; }
-  @media (min-width: 504px) {
-    #fenderGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 ." "FFS FFS FFS" "paragraph2 paragraph2 ." "FSB2 FSBI2 FSBI2" ". FSBI2 FSBI2" "FBB1 FBB1 ." "FBB2 FBB2 FBB2" "FB1 FB1 ." "FB2 FB2 FB2";
-      grid-template-columns: repeat(3, 1fr);
-      grid-template-rows: auto 320px auto 240px 304px 400px 502px 304px 504px; } }
-  @media (min-width: 768px) {
-    #fenderGallery > div article ul {
-      grid-template-rows: auto 320px auto 240px 304px 400px 502px 400px 600px; } }
-  @media (min-width: 1024px) {
-    #fenderGallery > div article ul {
-      grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "FFS FFS FFS FFS FFS FFS FFS" "FSBI2 FSBI2 FSBI2 . . FSB2 FSB2" "FSBI2 FSBI2 FSBI2 paragraph2 paragraph2 paragraph2 paragraph2" "FSBI2 FSBI2 FSBI2 FBB1 FBB1 FBB1 FBB1" "FBB2 FBB2 . FBB1 FBB1 FBB1 FBB1" "FB1 FB1 FB1 FB1 FB2 FB2 FB2";
-      grid-template-columns: repeat(7, 1fr);
-      grid-template-rows: auto 680px 200px auto 104px 280px 480px; } }
-  #fenderGallery > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/fender/fenderFullSet.jpg");
-    grid-area: FFS; }
-    @media (min-width: 504px) {
-      #fenderGallery > div article ul li:nth-child(1) {
-        background-position: 100% center; } }
-    @media (min-width: 1024px) {
-      #fenderGallery > div article ul li:nth-child(1) {
-        background-position: 80% center; } }
-    @media (min-width: 1440px) {
-      #fenderGallery > div article ul li:nth-child(1) {
-        background-position: 100% center; } }
-  #fenderGallery > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/fender/fenderSmallBox2.jpg");
-    grid-area: FSB2; }
-  #fenderGallery > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/fender/fenderSmallBoxInside2.jpg");
-    grid-area: FSBI2; }
-  #fenderGallery > div article ul li:nth-child(4) {
-    background-image: url("../img/case-studies/fender/fenderBigBox1.jpg");
-    grid-area: FBB1; }
-  #fenderGallery > div article ul li:nth-child(5) {
-    background-image: url("../img/case-studies/fender/fenderBigBox2.jpg");
-    grid-area: FBB2; }
-  #fenderGallery > div article ul li:nth-child(6) {
-    background-image: url("../img/case-studies/fender/fenderBag1.jpg");
-    grid-area: FB1; }
-  #fenderGallery > div article ul li:nth-child(7) {
-    background-image: url("../img/case-studies/fender/fenderBag2.jpg");
-    grid-area: FB2; }
-  #fenderGallery > div article ul li:nth-child(8) {
-    grid-area: paragraph1; }
-    #fenderGallery > div article ul li:nth-child(8) p {
-      width: 100%; }
-  #fenderGallery > div article ul li:nth-child(9) {
-    grid-area: paragraph2; }
-    #fenderGallery > div article ul li:nth-child(9) p {
-      width: 100%; }
+#fenderGallery article div img {
+  aspect-ratio: 1/1; }
+
+#fenderGallery article > img:nth-child(4), #fenderGallery article img:nth-child(5) {
+  aspect-ratio: 3/4; }
 
 /* =============
     ICM Hero

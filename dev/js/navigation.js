@@ -81,21 +81,6 @@ gsap.to(
   },
   "header-meet-footer"
 );
-gsap.to(
-  "body",
-  {
-    scrollTrigger: {
-      trigger: "footer",
-      start: "top 80px",
-      end: "top 80px",
-      toggleActions: "restart none reverse none"
-    },
-    duration: 0.25,
-    backgroundColor: "rgba(43, 43, 43, 1)",
-    ease: "sine.inOut"
-  },
-  "header-meet-footer"
-);
 
 // Get year for copyright for footer
 document.getElementById("year").innerHTML = new Date().getFullYear();

@@ -5,19 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/2cb6c40497.js" crossorigin="anonymous"></script>
-
+    
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Montserrat:wght@500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-
+    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Montserrat:wght@500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <!-- Adobe Fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/fzl3hfp.css">
+    <!-- Google -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/2c823a7cd3.js" crossorigin="anonymous"></script>
+    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/global/favicon/Favicon.png" />
     <link rel="shortcut icon" type="image/svg" href="img/global/favicon/Favicon.svg" />
-
+    
+    <!-- Site Description -->
+    <meta name="Description" content="I’m a Graphic Designer, UX Designer, Photographer, and a huge fan of public transit. Come check out the stuff I’ve made.">
+    
     <link rel="stylesheet" href="css/styles.css">
-    <title>WydraDesigns | 404</title>
+    <title>WydraDesigns | 404 PageNotFound</title>
 </head>
 
 <body>
@@ -58,26 +65,34 @@
             </nav>
         </div>
     </header>
-<div id="main">
-    <main>
-        <section id="FourOhFourMain" class="section-content section-padding">
-            <div>
-                <article class="btn-no-hover">
-                    <h1>404</h1>
-                    <p>I think you may have taken a wrong turn somewhere 😲</p>
-        
-                    <div class="btn btn-icon btn-purple btn-purple-future"><a href="index.html"><i class="fas fa-home"></i>Go back home</a></div>
-                </article>
-            </div>
-        </section>
+    <div id="main">
+        <main>
+            <section id="FourOhFourMain" class="section-content section-padding">
+                <div>
+                    <article class="btn-no-hover">
+                        <h1>404</h1>
+                        <p>I think you may have taken a wrong turn somewhere 😲</p>
+            
+                        <div class="btn btn-icon btn-purple btn-purple-future"><a href="index.html"><i class="fas fa-home"></i>Go back home</a></div>
+                    </article>
+                </div>
+            </section>
 
-    </main>
+            <section id="caseStudyPreFooter" class="section-content section-padding">
+                <article class="gap-v gap-h">
+                    <h2>Read Another Case Study</h2>
+                    <div id="case-study-container" class="gallery-2-col gap-v gap-h"></div>
+                </article>
+            </section>
+
+
+        </main>
         <footer class="section-content padding-tb gap-v">
             <div class="gap-v">
                 <article>
                     <h2>Let's inspire one another</h2>
                     <h6 class="button button-icon-left button-text">
-                        <a href="mailto:shawn.wydra@gmail.com">Send an Email
+                        <a href="mailto:shawn.wydra@gmail.com">Email Me
                             <span class="material-symbols-outlined">
                                 mail
                             </span>
@@ -96,7 +111,7 @@
                         <a href="resume.html">Resume</a>
                     </h6>
                 </nav>
-                <aside>
+                <aside class="gap-h gap-v">
                     <ul class="gap-h">
                         <li>
                             <h6 class="button button-icon-left button-text">
@@ -124,13 +139,22 @@
                                 </a>
                             </h6>
                         </li>
+                        <li>
+                            <h6 class="button button-icon-left button-text">
+                                <a href="https://codepen.io/pimbvlo" title="CodePen Profile">
+                                    <i class="fab fa-codepen">
+                                    </i>
+                                </a>
+                            </h6>
+                        </li>
                     </ul>
-                    <h5>&copy; 2023</h5>
+                    <h5>&copy;<span id="year"></span> | Shawn Wydra</h5>
                 </aside>
+                <!-- <img src="img/global/FooterFlower.png" alt="a burgundy flower with a halftone pattern"> -->
             </div>
         </footer>
 
-</div>
+    </div>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     

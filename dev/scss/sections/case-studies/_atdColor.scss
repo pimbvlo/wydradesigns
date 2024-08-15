@@ -15,38 +15,12 @@
             }
 
             .color-palette {
-                background-color: $surface;
-                border-radius: 16px;
-                border: 1px solid $outline;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
 
                 ul {
-                    display: grid;
                     grid-template-columns: repeat(3, 1fr);
 
-                    @include md {
-                        column-gap: 24px;
-                        row-gap: 24px;
-                    }
 
 
-                    li {
-                        border-radius: 16px;
-                        box-shadow: none;
-                        height: 16vw;
-                        width: 100%;
-
-                        @include md {
-                            height: 12vw;
-                        }
-
-                        @include lg {
-                            height: 6vw;
-                        }
-
-                    }
 
                     :nth-child(1) {
                         background-color: #FCFCFC;

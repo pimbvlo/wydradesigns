@@ -17,11 +17,19 @@
       "oAP" : "\/build\/.gitignore",
       "oF" : 0
     },
+    "\/deploy\/.htaccess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/.htaccess",
+      "oF" : 0
+    },
     "\/deploy\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/404.html",
       "oF" : 0
     },
@@ -2973,6 +2981,175 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphUI.mp4",
       "oF" : 0
     },
+    "\/deploy\/img\/case-studies\/tt\/crazy8s.jpeg" : {
+      "ft" : 16384,
+      "iS" : 227614,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/crazy8s.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Icons.png" : {
+      "ft" : 32768,
+      "iS" : 3671,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PersonaContentCreator.png" : {
+      "ft" : 32768,
+      "iS" : 139174,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaContentCreator.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PersonaViewer.png" : {
+      "ft" : 32768,
+      "iS" : 101254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaViewer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PrototypeFinal.png" : {
+      "ft" : 32768,
+      "iS" : 352972,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PrototypeFinal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 73680,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 100110,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 96606,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/SprintMap.png" : {
+      "ft" : 32768,
+      "iS" : 132257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/SprintMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Stickers.png" : {
+      "ft" : 32768,
+      "iS" : 10609,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Stickers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/ttHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 197722,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/ttHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Typeface.png" : {
+      "ft" : 32768,
+      "iS" : 78616,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Typeface.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 358904,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Wireframe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/case-studies\/un\/unHero.jpg" : {
       "ft" : 16384,
       "iS" : 4248344,
@@ -3318,13 +3495,13 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/AntiCover.jpg" : {
       "ft" : 16384,
-      "iS" : 594768,
+      "iS" : 339649,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/AntiCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3337,59 +3514,59 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ATDCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/BKCover.jpg" : {
       "ft" : 16384,
-      "iS" : 781361,
+      "iS" : 135584,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/BKCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ClCover.jpg" : {
       "ft" : 16384,
-      "iS" : 166063,
+      "iS" : 70041,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ClCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/FenderCover.jpg" : {
       "ft" : 16384,
-      "iS" : 392197,
+      "iS" : 85953,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/FenderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ICMCover.jpg" : {
       "ft" : 16384,
-      "iS" : 342488,
+      "iS" : 135573,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ICMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3402,59 +3579,59 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/MCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ONCover.jpg" : {
       "ft" : 16384,
-      "iS" : 114746,
+      "iS" : 19160,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ONCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/QVCover.jpg" : {
       "ft" : 16384,
-      "iS" : 302789,
+      "iS" : 180861,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/QVCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SACover.jpg" : {
       "ft" : 16384,
-      "iS" : 414006,
+      "iS" : 110152,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SBCover.jpg" : {
       "ft" : 16384,
-      "iS" : 339315,
+      "iS" : 41092,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SBCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3467,33 +3644,33 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg" : {
       "ft" : 16384,
-      "iS" : 834889,
+      "iS" : 87709,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SoACover.jpg" : {
       "ft" : 16384,
-      "iS" : 295860,
+      "iS" : 79880,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SoACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3506,20 +3683,20 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TargetCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/TCover.jpg" : {
       "ft" : 16384,
-      "iS" : 148636,
+      "iS" : 31624,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3532,33 +3709,33 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg" : {
       "ft" : 16384,
-      "iS" : 99057,
+      "iS" : 23067,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/TPSCover.jpg" : {
       "ft" : 16384,
-      "iS" : 1055538,
+      "iS" : 529813,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TPSCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3571,20 +3748,20 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/UnCover.jpg" : {
       "ft" : 16384,
-      "iS" : 378463,
+      "iS" : 94388,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/UnCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3636,7 +3813,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3734,13 +3911,13 @@
     },
     "\/deploy\/img\/index\/projects\/TTCover.jpg" : {
       "ft" : 16384,
-      "iS" : 96138,
+      "iS" : 1370989,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6672,6 +6849,123 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphUI.mp4",
       "oF" : 0
     },
+    "\/deploy\/imglg\/case-studies\/tt\/Icons.png" : {
+      "ft" : 32768,
+      "iS" : 10468,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PersonaContentCreator.png" : {
+      "ft" : 32768,
+      "iS" : 412775,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaContentCreator.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PersonaViewer.png" : {
+      "ft" : 32768,
+      "iS" : 347727,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaViewer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PrototypeFinal.png" : {
+      "ft" : 32768,
+      "iS" : 1948055,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PrototypeFinal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/SprintMap.png" : {
+      "ft" : 32768,
+      "iS" : 330900,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/SprintMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Stickers.png" : {
+      "ft" : 32768,
+      "iS" : 43608,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Stickers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/ttHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 96138,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/ttHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Typeface.png" : {
+      "ft" : 32768,
+      "iS" : 25417,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Typeface.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 1204925,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Wireframe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/case-studies\/un\/unHero.jpg" : {
       "ft" : 16384,
       "iS" : 4248344,
@@ -7423,13 +7717,13 @@
     },
     "\/deploy\/imglg\/index\/projects\/TTCover.jpg" : {
       "ft" : 16384,
-      "iS" : 307373,
+      "iS" : 1370989,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/projects\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7480,6 +7774,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/OscarNiemeyer.html",
+      "oF" : 0
+    },
+    "\/deploy\/PageNotFound.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/PageNotFound.html",
       "oF" : 0
     },
     "\/deploy\/QueenVillage.html" : {
@@ -7554,6 +7856,14 @@
       "oAP" : "\/deploy\/TikTok.html",
       "oF" : 0
     },
+    "\/deploy\/TinderGamification.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/TinderGamification.html",
+      "oF" : 0
+    },
     "\/deploy\/TriumphUI.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -7577,22 +7887,6 @@
       "oA" : 1,
       "oAP" : "\/deploy\/unLikable.html",
       "oF" : 0
-    },
-    "\/deploy\/wydradesigns.htaccess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/wydradesigns.htaccess",
-      "oF" : 0
-    },
-    "\/dev\/404.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/404.html",
-      "oF" : 2
     },
     "\/dev\/404\/404main.kit" : {
       "cB" : 0,
@@ -8058,6 +8352,86 @@
       "oAP" : "\/dev\/case-studies\/soa\/soaHero.html",
       "oF" : 0
     },
+    "\/dev\/case-studies\/tg\/tgAudience.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgProblem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgRoles.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgScope.html",
+      "oF" : 0
+    },
     "\/dev\/case-studies\/tol\/tolGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8122,12 +8496,20 @@
       "oAP" : "\/dev\/case-studies\/triumph\/triumphText1.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttGallery.kit" : {
+    "\/dev\/case-studies\/tt\/ttAudience.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttGallery.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttBranding.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/tt\/ttHero.kit" : {
@@ -8146,20 +8528,52 @@
       "oAP" : "\/dev\/case-studies\/tt\/ttIntro.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttText1.kit" : {
+    "\/dev\/case-studies\/tt\/ttOutcomes.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttText1.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttOutcomes.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttText3.kit" : {
+    "\/dev\/case-studies\/tt\/ttProblem.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttText3.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttRoles.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/un\/unGallery.kit" : {
@@ -8551,6 +8965,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/OscarNiemeyer.html",
+      "oF" : 2
+    },
+    "\/dev\/PageNotFound.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/404.html",
       "oF" : 2
     },
     "\/dev\/QueenVillage.kit" : {
@@ -9685,6 +10107,36 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/case-studies\/_ttBranding.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_ttBranding.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/case-studies\/_ttHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_ttHero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/case-studies\/_unGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -9970,6 +10422,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/TikTok.html",
+      "oF" : 2
+    },
+    "\/dev\/TinderGamification.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/TinderGamification.html",
       "oF" : 2
     },
     "\/dev\/TriumphUI.kit" : {

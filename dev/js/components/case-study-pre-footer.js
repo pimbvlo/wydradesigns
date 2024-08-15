@@ -171,7 +171,7 @@ let caseStudyArray = [
   {
     name: "TikTok&#8482; Live Stream Donation",
     image: "img/index/projects/TTCover.jpg",
-    page: "https://wydradesigns.medium.com/ux-case-study-tiktok-user-research-for-live-stream-donations-c1e424886fca",
+    page: "TikTok.html",
   },
 ];
 // @Shawn (Feb 3) - I added excludeName now so you can pass the name if you want remove from options

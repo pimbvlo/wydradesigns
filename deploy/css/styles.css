@@ -480,7 +480,7 @@ h2 {
   font-size: 2.5rem;
   font-variation-settings: "slnt" 0, "wdth" 160, "wght" 600, "INKT" 80;
   line-height: 3rem;
-  letter-spacing: 0.2px; }
+  letter-spacing: 1px; }
   @media (min-width: 768px) {
     h2 {
       font-size: 3.25rem;
@@ -491,8 +491,9 @@ h2 {
       line-height: 4.75rem; } }
 h3 {
   font-size: 1.5rem;
-  font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 50;
-  line-height: 1.75rem; }
+  font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 100;
+  line-height: 1.75rem;
+  letter-spacing: 0.5px; }
   @media (min-width: 768px) {
     h3 {
       font-size: 1.75rem;
@@ -530,9 +531,15 @@ p {
       font-size: 1.25rem;
       line-height: 1.875rem; } }
   p > a {
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
+    text-decoration: none;
+    transition: 0.25s;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     color: #e50045; }
-  p strong {
+    p > a:link, p > a:visited {
+      color: #e50045; }
+    p > a:hover, p > a:active {
+      color: #2e000e; }
+  p strong, p b {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     letter-spacing: 0.4px; }
   p em {
@@ -546,12 +553,13 @@ p {
 
 a {
   text-decoration: none;
-  color: blue;
-  transition: 0.25s; }
-  a:hover {
-    color: darkblue; }
-  a:active {
-    color: red; }
+  transition: 0.25s;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
+  color: #e50045; }
+  a:link, a:visited {
+    color: #e50045; }
+  a:hover, a:active {
+    color: #2e000e; }
 
 /* =============
     Buttons
@@ -936,6 +944,32 @@ textarea {
   @media (min-width: 1024px) {
     .gallery-3-col {
       grid-template-columns: repeat(3, 1fr); } }
+.color-palette {
+  background-color: #fdfdfd;
+  border-radius: 16px;
+  border: 1px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; }
+  .color-palette ul {
+    display: grid; }
+    @media (min-width: 768px) {
+      .color-palette ul {
+        column-gap: 24px;
+        row-gap: 24px; } }
+    .color-palette ul li {
+      border-radius: 16px;
+      box-shadow: none;
+      height: 16vw;
+      width: 100%;
+      min-height: 100px;
+      min-width: 100px; }
+      @media (min-width: 768px) {
+        .color-palette ul li {
+          height: 12vw; } }
+      @media (min-width: 1024px) {
+        .color-palette ul li {
+          height: 6vw; } }
 .case-study-intro-image > div article {
   grid-gap: 16px;
   display: grid;
@@ -1839,40 +1873,17 @@ footer {
   @media (min-width: 1024px) {
     #atdColor article > div {
       grid-template-columns: repeat(3, 1fr); } }
-  #atdColor article > div .color-palette {
-    background-color: #fdfdfd;
-    border-radius: 16px;
-    border: 1px solid gray;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; }
-    #atdColor article > div .color-palette ul {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr); }
-      @media (min-width: 768px) {
-        #atdColor article > div .color-palette ul {
-          column-gap: 24px;
-          row-gap: 24px; } }
-      #atdColor article > div .color-palette ul li {
-        border-radius: 16px;
-        box-shadow: none;
-        height: 16vw;
-        width: 100%; }
-        @media (min-width: 768px) {
-          #atdColor article > div .color-palette ul li {
-            height: 12vw; } }
-        @media (min-width: 1024px) {
-          #atdColor article > div .color-palette ul li {
-            height: 6vw; } }
-      #atdColor article > div .color-palette ul :nth-child(1) {
-        background-color: #FCFCFC;
-        box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
-      #atdColor article > div .color-palette ul :nth-child(2) {
-        background-color: #E9E8E7; }
-      #atdColor article > div .color-palette ul :nth-child(3) {
-        background-color: #1A1A1A; }
-      #atdColor article > div .color-palette ul :last-child {
-        background-color: #FFBF00; }
+  #atdColor article > div .color-palette ul {
+    grid-template-columns: repeat(3, 1fr); }
+    #atdColor article > div .color-palette ul :nth-child(1) {
+      background-color: #FCFCFC;
+      box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+    #atdColor article > div .color-palette ul :nth-child(2) {
+      background-color: #E9E8E7; }
+    #atdColor article > div .color-palette ul :nth-child(3) {
+      background-color: #1A1A1A; }
+    #atdColor article > div .color-palette ul :last-child {
+      background-color: #FFBF00; }
   #atdColor article > div div:nth-child(1) ul li:nth-child(4) {
     background-color: #10DAD7; }
   #atdColor article > div div:nth-child(1) ul li:nth-child(5) {
@@ -2870,6 +2881,51 @@ footer {
       grid-area: paragraph1; }
       #tpsGallery > div article ul li:nth-child(6) p {
         width: 100%; }
+
+/* =============
+    TIKTOK Hero
+============= */
+#ttHero {
+  background-image: url("../img/case-studies/tt/ttHero.jpg"); }
+  #ttHero article h1 {
+    hyphens: manual; }
+
+/* =============
+    TikTok Branding
+============= */
+#ttBranding article .color-palette {
+  margin: 0px auto; }
+  #ttBranding article .color-palette ul {
+    display: flex;
+    flex-wrap: wrap; }
+    #ttBranding article .color-palette ul li {
+      width: 100px; }
+      @media (min-width: 768px) {
+        #ttBranding article .color-palette ul li {
+          width: 12vw; } }
+      @media (min-width: 1024px) {
+        #ttBranding article .color-palette ul li {
+          width: 6vw; } }
+    #ttBranding article .color-palette ul li:nth-child(1) {
+      background-color: #08082B; }
+    #ttBranding article .color-palette ul li:nth-child(2) {
+      background-color: #0F0C46; }
+    #ttBranding article .color-palette ul li:nth-child(3) {
+      background-color: #FACD13; }
+    #ttBranding article .color-palette ul li:nth-child(4) {
+      background-color: #F7F7F7;
+      border: 1px solid #D4D4D4; }
+
+#ttBranding article img:nth-child(10) {
+  margin: 0px auto;
+  height: 100%;
+  width: 80%;
+  object-fit: contain;
+  aspect-ratio: auto; }
+
+#ttBranding article div.gallery-2-col {
+  margin: 0px auto;
+  width: 80%; }
 
 /* =============
     TRIUMPH Hero

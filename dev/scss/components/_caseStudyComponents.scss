@@ -65,7 +65,39 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+.color-palette{
+    background-color: $surface;
+    border-radius: 16px;
+    border: 1px solid $outline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ul{
+        display: grid;
+        @include md {
+            column-gap: 24px;
+            row-gap: 24px;
+        }
+        li {
+            border-radius: 16px;
+            box-shadow: none;
+            height: 16vw;
+            width: 100%;
+            min-height:100px;
+            min-width: 100px;
 
+            @include md {
+                height: 12vw;
+            }
+
+            @include lg {
+                height: 6vw;
+            }
+
+        }
+
+    }
+}
 // OLD — TO DELETE
 .case-study-intro-image {
     >div {

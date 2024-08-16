@@ -18,7 +18,7 @@ p {
 h1 {
     font-size: rem-calc(60);
     line-height: rem-calc(60);
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
+    font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
     margin: 0;
     letter-spacing: 1px;
 
@@ -36,8 +36,8 @@ h1 {
 // Headline
 h2 {
 
-    font-size: rem-calc(40);  
-    font-variation-settings: "slnt" 0, "wdth" 160, "wght" 600, "INKT" 80;
+    font-size: rem-calc(40);
+    font-variation-settings: "slnt"0, "wdth"160, "wght"600, "INKT"80;
 
     line-height: rem-calc(48);
     letter-spacing: 1px;
@@ -55,8 +55,8 @@ h2 {
 
 // Title
 h3 {
-    font-size: rem-calc(24);   
-    font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 100; 
+    font-size: rem-calc(24);
+    font-variation-settings: "slnt"0, "wdth"140, "wght"500, "INKT"100;
     line-height: rem-calc(28);
     letter-spacing: 0.5px;
 
@@ -75,14 +75,14 @@ h3 {
 // Kicker
 h4 {
     font-size: rem-calc(16);
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 00; 
+    font-variation-settings: "slnt"0, "wdth"100, "wght"600, "INKT"00;
     line-height: rem-calc(24);
 }
 
 // Captions
 h5 {
-    font-size: rem-calc(12);  
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00; 
+    font-size: rem-calc(12);
+    font-variation-settings: "slnt"0, "wdth"100, "wght"400, "INKT"00;
     line-height: rem-calc(16);
     letter-spacing: 0.64px;
 
@@ -91,7 +91,7 @@ h5 {
 // Button Labels
 h6 {
     font-size: rem-calc(20);
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100; 
+    font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
     line-height: rem-calc(24);
     letter-spacing: 0.12px;
     text-transform: capitalize;
@@ -100,7 +100,7 @@ h6 {
 // Body
 p {
     font-size: rem-calc(18);
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00; 
+    font-variation-settings: "slnt"0, "wdth"100, "wght"500, "INKT"00;
     line-height: rem-calc(28);
     letter-spacing: 0.2px;
     hyphens: manual;
@@ -110,7 +110,7 @@ p {
         line-height: rem-calc(30);
     }
 
-    > a {
+    >a {
         text-decoration: none;
         transition: 0.25s;
         font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
@@ -119,28 +119,40 @@ p {
         &:link,
         &:visited {
             color: $primary;
+            border-bottom: 2px solid $primary;
         }
 
         &:hover,
         &:active {
             color: $on-primary-container;
-        }    
+            border-bottom: 2px solid $on-primary-container;
+        }
     }
-    
-    strong, b{
-        font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100; 
+
+    strong,
+    b {
+        font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
         letter-spacing: 0.4px;
     }
-    em{
-        font-variation-settings: "slnt" -1, "wdth" 100, "wght" 500, "INKT" 00; 
+
+    em {
+        font-variation-settings: "slnt"-1, "wdth"100, "wght"500, "INKT"00;
     }
 }
-.kicker{
-    font-size: rem-calc(12);  
-    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00; 
+
+blockquote {
+    margin: 0;
+    border-left: 4px solid $primary;
+    padding-left: 16px;
+}
+
+.kicker {
+    font-size: rem-calc(12);
+    font-variation-settings: "slnt"0, "wdth"100, "wght"400, "INKT"00;
     line-height: rem-calc(16);
     letter-spacing: 0.64px;
 }
+
 a {
     text-decoration: none;
     transition: 0.25s;
@@ -154,6 +166,24 @@ a {
 
     &:hover,
     &:active {
-        color: $on-primary-container;
-    }    
+        color: $secondary;
+    }
+}
+
+cite {
+    font-style: normal;
+}
+
+ol {
+    li {
+        margin-bottom: 8px;
+
+        &::marker {
+            font-size: rem-calc(16);
+            font-variation-settings: "slnt"-1, "wdth"600, "wght"800, "INKT"100;
+            letter-spacing: -0.5px;
+            color: $on-surface-variant;
+            padding-right: 20px;
+        }
+    }
 }

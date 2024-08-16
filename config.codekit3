@@ -2640,6 +2640,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/case-studies\/tg\/tgHero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 18134,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tg\/tgHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/case-studies\/tol\/tolCoverStack.jpg" : {
       "ft" : 16384,
       "iS" : 705473,
@@ -6508,6 +6521,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/case-studies\/tg\/tgHero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 18134,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tg\/tgHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/case-studies\/tol\/tolCoverStack.jpg" : {
       "ft" : 16384,
       "iS" : 705473,
@@ -8352,20 +8378,12 @@
       "oAP" : "\/dev\/case-studies\/soa\/soaHero.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tg\/tgAudience.kit" : {
+    "\/dev\/case-studies\/tg\/tgArticle.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgAudience.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgBranding.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgBranding.html",
+      "oAP" : "\/dev\/case-studies\/tg\/tgArticle.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/tg\/tgHero.kit" : {
@@ -8374,62 +8392,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/tg\/tgHero.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgIntro.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgIntro.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgOutcomes.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgOutcomes.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgProblem.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgProblem.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgProcess.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgProcess.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgPrototyping.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgPrototyping.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgRoles.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgRoles.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/tg\/tgScope.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tg\/tgScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/tol\/tolGallery.kit" : {
@@ -9982,6 +9944,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/case-studies\/_soaHero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/case-studies\/_tgHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_tgHero.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

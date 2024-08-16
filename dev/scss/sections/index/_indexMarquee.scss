@@ -12,6 +12,10 @@
         overflow: hidden;
         padding: 24px 0 8px;
 
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+        
         @include lg {
             padding: 24px 0 8px;
         }

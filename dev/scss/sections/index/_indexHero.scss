@@ -42,6 +42,7 @@
             width: 100vw;
             z-index: 0;
             mix-blend-mode: multiply;
+            pointer-events: none;
             @include sm{
                 width: 90vw;
             }

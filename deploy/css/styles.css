@@ -504,12 +504,12 @@ h3 {
       line-height: 2.5rem; } }
 h4 {
   font-size: 1rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 00;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 0;
   line-height: 1.5rem; }
 
 h5 {
   font-size: 0.75rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 0;
   line-height: 1rem;
   letter-spacing: 0.64px; }
 
@@ -522,7 +522,7 @@ h6 {
 
 p {
   font-size: 1.125rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 00;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 0;
   line-height: 1.75rem;
   letter-spacing: 0.2px;
   hyphens: manual; }
@@ -536,18 +536,26 @@ p {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     color: #e50045; }
     p > a:link, p > a:visited {
-      color: #e50045; }
+      color: #e50045;
+      border-bottom: 2px solid #e50045; }
     p > a:hover, p > a:active {
-      color: #2e000e; }
-  p strong, p b {
+      color: #2e000e;
+      border-bottom: 2px solid #2e000e; }
+  p strong,
+  p b {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
     letter-spacing: 0.4px; }
   p em {
-    font-variation-settings: "slnt" -1, "wdth" 100, "wght" 500, "INKT" 00; }
+    font-variation-settings: "slnt"-1, "wdth" 100, "wght" 500, "INKT" 0; }
+
+blockquote {
+  margin: 0;
+  border-left: 4px solid #e50045;
+  padding-left: 16px; }
 
 .kicker {
   font-size: 0.75rem;
-  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 00;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 0;
   line-height: 1rem;
   letter-spacing: 0.64px; }
 
@@ -559,7 +567,19 @@ a {
   a:link, a:visited {
     color: #e50045; }
   a:hover, a:active {
-    color: #2e000e; }
+    color: #00b1e6; }
+
+cite {
+  font-style: normal; }
+
+ol li {
+  margin-bottom: 8px; }
+  ol li::marker {
+    font-size: 1rem;
+    font-variation-settings: "slnt"-1, "wdth" 600, "wght" 800, "INKT" 100;
+    letter-spacing: -0.5px;
+    color: #322e2f;
+    padding-right: 20px; }
 
 /* =============
     Buttons
@@ -1315,7 +1335,8 @@ footer {
       position: absolute;
       width: 100vw;
       z-index: 0;
-      mix-blend-mode: multiply; }
+      mix-blend-mode: multiply;
+      pointer-events: none; }
       @media (min-width: 504px) {
         #indexHero article img {
           width: 90vw; } }
@@ -1398,7 +1419,13 @@ footer {
     text-transform: uppercase;
     position: relative;
     overflow: hidden;
-    padding: 24px 0 8px; }
+    padding: 24px 0 8px;
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */ }
     @media (min-width: 1024px) {
       #indexMarquee .marquee {
         padding: 24px 0 8px; } }
@@ -2926,6 +2953,14 @@ footer {
 #ttBranding article div.gallery-2-col {
   margin: 0px auto;
   width: 80%; }
+
+/* =============
+    TINDER Hero
+============= */
+#tgHero {
+  background-image: url("../img/case-studies/tg/tgHero.jpeg"); }
+  #tgHero article h1 {
+    hyphens: manual; }
 
 /* =============
     TRIUMPH Hero

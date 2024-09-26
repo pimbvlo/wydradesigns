@@ -1,0 +1,40 @@
+/* =============
+    Resume Experience
+============= */
+#resumeExperience {
+    background-color: $surface-variant;
+
+    article {
+        display: flex;
+        flex-direction: column;
+
+        @include lg {
+            width: 75%;
+        }
+        h2{
+            color: $on-surface-variant;
+        }
+        div {
+            ul {
+                margin-top: 8px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+                p{
+                    color: $on-surface-variant;
+
+                }
+                ul{
+                    margin-top: 0px;
+                    padding-left: 8px;
+                    border-left: 4px solid $outline-variant;
+                    margin-left: 2px;
+                    @include md{
+                        padding-left: 16px;
+                        margin-left: 8px;
+                    }
+                }
+            }
+        }
+    }
+}

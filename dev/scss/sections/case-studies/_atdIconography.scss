@@ -1,0 +1,133 @@
+/* =============
+    Attention to Detail Iconography
+============= */
+#atdIconography {
+    article {
+        div:nth-child(2) {
+            grid-area: icon-grid;
+
+            ul {
+                grid-gap: 16px;
+                display: grid;
+                grid-template-areas:
+                    "halftone square outline-triangle"
+                    "dotted-circle dotted-circle lines"
+                    "dotted-square two-zig-zag-uneven two-zig-zag-uneven";
+                grid-template-columns: repeat(3, 1fr);
+
+                @include sm {
+                    grid-template-areas:
+                        ". halftone halftone . square"
+                        ". halftone halftone outline-triangle ."
+                        "dotted-circle . two-zig-zag-uneven two-zig-zag-uneven ."
+                        "lines lines . . dotted-square";
+                    grid-template-columns: repeat(5, 1fr);
+                }
+
+                @include md {
+                    grid-gap: 24px;
+                    grid-template-areas:
+                        ". halftone halftone . square dotted-circle dotted-circle two-zig-zag-uneven two-zig-zag-uneven"
+                        "lines halftone halftone outline-triangle . dotted-circle dotted-circle dotted-square .";
+                    grid-template-columns: repeat(9, 1fr);
+                }
+
+                @include lg {
+                    grid-gap: 32px;
+                }
+
+                li:nth-child(1) {
+                    grid-area: halftone;
+                }
+
+                li:nth-child(2) {
+                    grid-area: square;
+                }
+
+                li:nth-child(3) {
+                    grid-area: lines;
+                }
+
+                li:nth-child(4) {
+                    grid-area: outline-triangle;
+                }
+
+                li:nth-child(5) {
+                    grid-area: dotted-circle;
+                }
+
+                li:nth-child(6) {
+                    grid-area: dotted-square;
+                }
+
+                li:nth-child(7) {
+                    grid-area: two-zig-zag-uneven;
+                }
+            }
+        }
+
+        p:nth-child(3) {
+            grid-area: p1;
+        }
+
+        p:nth-child(4) {
+            grid-area: p2;
+        }
+    }
+}
+
+/* =============
+    Attention to Detail Iconography SVG Edits
+============= */
+#atdDottedCircle {
+    #ShapeDottedCircle {
+        #Oval {
+            stroke: $black;
+        }
+    }
+}
+
+#atdDottedSquare {
+
+    .st0,
+    .st1 {
+        stroke: $black;
+    }
+}
+
+#atdHalftone {
+    #PatternHalftoneOffset {
+        fill: $black;
+    }
+}
+
+#atdLines {
+    #ShapeOutlineLines {
+        stroke: $black;
+    }
+}
+
+#atdOutlineTriangle {
+    #ShapeOutlineTriangle {
+        #Triangle {
+            stroke: $black;
+        }
+    }
+}
+
+#atdSquare {
+    #ShapeSolidSquare {
+        fill: $black;
+        stroke: $black;
+    }
+}
+
+#atdTwoZigZagUneven {
+    #Pattern2ZigZagUneven {
+
+        #Path-2,
+        #Path-2-Copy {
+            stroke: $black;
+        }
+    }
+}

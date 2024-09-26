@@ -1,0 +1,50 @@
+/* =============
+    UN Gallery
+============= */
+#unGallery {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            ul {
+                grid-template-areas: "UPF" "paragraph1" "UPH";
+                grid-template-rows: 400px auto 400px;
+                @include sm {
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "UPF UPF UPF" "paragraph1 paragraph1 paragraph1" ". UPH UPH";
+                    grid-template-rows: 600px auto 504px;
+                }
+                @include md {
+                    grid-template-rows: 800px auto 600px;
+                }
+                @include lg {
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-areas: "paragraph1 paragraph1 paragraph1 UPF UPF UPF UPF" "UPH UPH UPH . . . .";
+                    grid-template-rows: 744px 600px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/un/unPosterFull.jpg");
+                    grid-area: UPF;
+                    background-size: contain;
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/un/unPosterHanging.jpg");
+                    grid-area: UPH;
+                }
+
+                li:nth-child(3) {
+                    grid-area: paragraph1;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

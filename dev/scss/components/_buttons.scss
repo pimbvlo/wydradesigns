@@ -1,0 +1,334 @@
+/* =============
+    Buttons
+============= */
+.btn {
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 0 5px 3px -3px rgba(184, 19, 185, .08), 0 3px 14px 2px rgba(184, 19, 185, .16), 0 8px 10px 1px rgba(184, 19, 185, .24);
+    display: flex;
+    justify-content: center;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+
+    @include dark {
+        box-shadow: none;
+    }
+
+    >a {
+        @include padding(12px, 24px, 12px, 24px);
+        align-items: center;
+        color: $white;
+        display: flex;
+        font-size: rem-calc(24);
+        font-weight: 600;
+        justify-content: center;
+        text-transform: uppercase;
+        width: 100%;
+
+        @include md {
+            @include padding(16px, 24px, 16px, 24px);
+            font-size: rem-calc(28);
+        }
+
+        i {
+            font-size: rem-calc(24);
+
+            @include md {
+                font-size: rem-calc(28);
+            }
+        }
+    }
+}
+
+.btn:link,
+.btn:visited {
+    >a {
+        @include padding(12px, 24px, 12px, 24px);
+        align-items: center;
+        color: $white;
+        display: flex;
+        font-size: rem-calc(24);
+        font-weight: 600;
+        justify-content: center;
+        text-transform: uppercase;
+        transition: 0.2s ease-in-out;
+        width: 100%;
+
+        @include md {
+            @include padding(16px, 24px, 16px, 24px);
+        }
+
+        i {
+            font-size: rem-calc(24);
+            transition: 0.2s ease-in-out;
+        }
+    }
+}
+
+.btn:hover {
+    box-shadow: none;
+    transform: translate(0px, 4px) scale(0.98);
+    transition: 0.2s ease-in-out;
+
+    >a {
+        i {
+            transform: translate(-200%, 0px) scale(1.25);
+            transition: 0.2s ease-in-out;
+
+            @include md {
+                transform: translate(-304%, 0px) scale(1.25);
+            }
+        }
+    }
+}
+
+.btn:active {
+    transition: 0.2s ease-in-out;
+
+    >a {
+        color: $black;
+
+        i {
+            color: $black;
+        }
+    }
+}
+
+.btn-icon {
+    i {
+        @include margin(null, 8px, null, null);
+    }
+}
+
+/*
+* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 5)
+*/
+.btn-purple-future {
+    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%), cubic-bezier(0.45, 0.05, 0.55, 0.95), hsl(266.63, 83.11%, 44.12%));
+    transition: background 0.2s ease;
+}
+
+.btn-purple-future:active {
+    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%), cubic-bezier(0.45, 0.05, 0.55, 0.95), hsl(24.8, 100%, 64.9%));
+}
+
+/*
+* Fallback CSS
+*/
+.btn-purple {
+    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%) 0%, hsl(294.37, 81.71%, 40.73%) 28.28%, hsl(284.04, 82.31%, 42.11%) 50%, hsl(273.01, 82.85%, 43.45%) 71.72%, hsl(266.63, 83.11%, 44.12%) 100%);
+    transition: background 0.2s ease;
+}
+
+.btn-purple:active {
+    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%) 0%, hsl(311.9, 53.92%, 51.41%) 28.28%, hsl(342.06, 63.87%, 64.56%) 50%, hsl(14.35, 86.92%, 68.12%) 71.72%, hsl(24.8, 100%, 64.9%) 100%);
+}
+
+.btn-no-hover {
+    .btn:hover {
+        >a {
+            i {
+                transform: translate(0px, 0px) scale(1);
+                transition: 0.2s ease-in-out;
+            }
+        }
+    }
+}
+
+// STATE VARIABLES
+$state-hovered: 0.08;
+$state-pressed: 0.1;
+$state-focused: $state-pressed;
+
+// BUTTON EXAMPLE
+// <h6 class="button">
+// <a href="#">Button
+//     <span class="material-symbols-outlined">arrow_forward</span>
+// </a>
+// </h6>
+
+// STYLES
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    align-self: flex-start;
+    transition: all 0.25s ease-in-out;
+
+    >a {
+        border-radius: 40px;
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        align-self: flex-start;
+        gap: 8px;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+        color: $primary;
+        width: 100%;
+
+        @supports (leading-trim: both) and (text-edge: cap) {
+            leading-trim: both;
+            text-edge: cap;
+        }
+
+        >.material-symbols-outlined{
+            display: flex;
+            align-self: center;
+            margin-top: -6px;
+        }
+
+    }
+
+    &:link,
+    &:visited {
+        >a {
+            color: $primary;
+        }
+    }
+
+    &:hover {
+        @include lg{
+            transform: scale(1.08);
+        }
+        >a {
+            background-color: rgba($primary, $state-hovered);
+            color: $primary;
+        }
+
+    }
+
+    &:active {
+        >a {
+            background-color: rgba($primary, $state-pressed);
+            color: $primary;
+        }
+
+    }
+
+}
+
+.button-icon-left {
+    >a {
+        flex-direction: row-reverse;
+        padding-top: 16px;
+        padding-right: 20px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+
+        
+    }
+}
+
+.button-icon-right {
+    >a {
+        padding-top: 16px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 20px;
+
+
+    }
+}
+
+.button-filled {
+    background-color: $primary;
+    box-shadow: none;
+
+    >a {
+        color: $on-primary;
+    }
+
+    &:link,
+    &:visited {
+        box-shadow: none;
+
+        >a {
+            color: $on-primary;
+        }
+    }
+
+    &:hover {
+        // box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
+
+        >a {
+            background-color: rgba($on-primary, $state-hovered);
+            color: $on-primary;
+
+        }
+
+    }
+
+    &:active {
+        box-shadow: none;
+
+        >a {
+            background-color: rgba($on-primary, $state-pressed);
+            color: $on-primary;
+        }
+
+    }
+
+}
+
+.button-tonal {
+    background-color: $primary-container;
+    box-shadow: none;
+
+    >a {
+        color: $on-primary-container;
+    }
+
+    &:link,
+    &:visited {
+        box-shadow: none;
+
+        >a {
+            color: $on-primary-container;
+        }
+    }
+
+    &:hover {
+        // box-shadow: 0px 1px 3px 1px rgba($black, 0.07), 0px 1px 2px 0px rgba($black, 0.15);
+
+        >a {
+            background-color: rgba($primary, $state-hovered);
+            color: $on-primary-container;
+
+        }
+
+    }
+
+    &:active {
+        box-shadow: none;
+
+        >a {
+            background-color: rgba($primary, $state-pressed);
+            color: $on-primary-container;
+        }
+
+    }
+
+}
+
+.button-outline {
+    border: 2px solid $primary;
+
+    &:focus,
+    &:active {
+        border: 2px solid $on-primary-container;
+    }
+
+}
+
+.button-text {
+    margin-left: -20px;
+}
+
+.button-text-icon-right {
+    // margin-left: -16px;
+    margin-left: 20px;
+}

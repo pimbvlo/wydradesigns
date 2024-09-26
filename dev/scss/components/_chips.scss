@@ -1,0 +1,44 @@
+.chip,
+.chip-icon {
+    font-family: interstate-mono, monospace;
+    font-size: rem-calc(16);
+    line-height: 100%;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.2px;
+
+    @supports (leading-trim: both) and (text-edge: cap) {
+        leading-trim: both;
+        text-edge: cap;
+    }
+
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+    column-gap: 4px;
+    height: 32px;
+    max-height: 32px;
+    border-radius: 4px;
+    padding: 0px 8px;
+
+    .material-symbols-outlined {
+        font-variation-settings:
+            'FILL'0,
+            'wght'500,
+            'GRAD'0,
+            'opsz'16
+    }
+}
+
+.chip {
+    border: 1px solid $secondary;
+    color: $on-secondary-container;
+}
+
+.chip-icon {
+    border: 1px solid $secondary;
+    background-color: $secondary;
+    color: $on-secondary;
+    padding: 0px 6px 0px 8px;
+
+}

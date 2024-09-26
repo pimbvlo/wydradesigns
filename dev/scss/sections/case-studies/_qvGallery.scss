@@ -1,0 +1,76 @@
+/* =============
+    QV Gallery
+============= */
+#qvGallery {
+    > div {
+        article {
+            ul {
+                grid-template-areas: "BO2" "BO1" "BD3" "paragraph" "BI1" "BD4" "BI2";
+                grid-template-rows: 240px 400px 200px auto 400px 200px 320px;
+                @include sm {
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "BO1 BO2 BO2""BO1 BD3 BD3"". BD3 BD3" "paragraph paragraph paragraph""BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
+                    grid-template-rows: 224px 104px 160px auto 400px 200px 400px;
+                }
+                @include md {
+                    grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph ." "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
+                    grid-template-rows: 280px 104px 120px auto 200px 304px 600px;
+                }
+                @include lg {
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . .""BI2 BI2 BI2 BI2 BI2 BD4 BD4";
+                    grid-template-rows: 320px 200px auto 200px 400px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
+                    grid-area: BO2;
+                    @include md {
+                        background-position: center bottom;
+                    }
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/qv/qvBrochureOutside1.jpg");
+                    grid-area: BO1;
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/qv/qvBrochureDetail3.jpg");
+                    grid-area: BD3;
+                    background-position: center bottom;
+                }
+
+                li:nth-child(4) {
+                    background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
+                    grid-area: BI1;
+                    @include md {
+                        background-position: center 56%;
+                    }
+                }
+
+                li:nth-child(5) {
+                    background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
+                    grid-area: BD4;
+                    background-position: left top;
+                    @include lg {
+                        background-position: 30% top;
+                    }
+                }
+
+                li:nth-child(6) {
+                    background-image: url("../img/case-studies/qv/qvBrochureInside2.jpg");
+                    grid-area: BI2;
+                }
+
+                li:nth-child(7) {
+                    grid-area: paragraph;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

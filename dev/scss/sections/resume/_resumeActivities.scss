@@ -1,0 +1,20 @@
+/* =============
+    Resume Activities
+============= */
+#resumeActivities {
+    background-color: $surface-light-1;
+
+    >article {
+        display: flex;
+        flex-direction: column;
+
+        @include lg {
+            width: 75%;
+        }
+
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

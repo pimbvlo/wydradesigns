@@ -1,0 +1,72 @@
+/* =============
+    Index Project Two
+============= */
+#indexProjectTwo {
+    background-image: url("https://images.unsplash.com/photo-1700410426386-704d39c87828?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 92vh;
+    background-size: cover;
+    background-position: center;
+
+    article {
+        align-items: flex-end;
+        justify-content: flex-end;
+
+        >div {
+            background-color: $surface-variant;
+            border-radius: 48px;
+        }
+    }
+}
+
+.index-project {
+    article {
+        display: flex;
+        flex-direction: column;
+
+        @include lg {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        img {
+            aspect-ratio: 2 / 3;
+            width: 100%;
+            height: auto;
+            background-image: none;
+            object-fit: cover;
+
+            @include sm {
+                aspect-ratio: 3 / 2;
+
+            }
+        }
+
+        >div {
+            display: flex;
+            flex-direction: column;
+
+            @include lg {
+                min-width: 200px;
+                max-width: 900px;
+
+            }
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+
+            }
+
+            .button {
+                align-self: initial;
+
+                @include sm {
+                    align-self: flex-start;
+                }
+
+            }
+
+        }
+    }
+}

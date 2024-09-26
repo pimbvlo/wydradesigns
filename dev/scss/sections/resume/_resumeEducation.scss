@@ -1,0 +1,19 @@
+/* =============
+    Resume Education
+============= */
+#resumeEducation {
+    >article {
+        display: flex;
+        flex-direction: column;
+
+        @include lg {
+            width: 75%;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+            row-gap: 4px;
+        }
+    }
+}

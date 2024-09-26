@@ -1,0 +1,31 @@
+/* =============
+    ANTI Intro
+============= */
+#antiIntro {
+    article {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            border-radius: 48px;
+            border: 1px solid $outline-variant;
+            
+            max-width: 600px;
+            
+            @include md{
+                width: 72vw;
+            }
+            @include lg{
+                width: 56vw;
+            }
+            @include xl{
+                width: 48vw;
+
+            }
+        }
+    }
+}

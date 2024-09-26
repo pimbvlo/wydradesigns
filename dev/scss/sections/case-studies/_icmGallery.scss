@@ -1,0 +1,70 @@
+/* =============
+    ICM Gallery
+============= */
+#icmGallery {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            h2 {}
+
+            ul {
+                grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
+                grid-template-rows: auto 200px 200px 176px;
+                @include sm {
+                    grid-template-areas: "ISM ISM ISM" "paragraph1 paragraph1 ." ". IBP IBP" "IPL IPL IPL";
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-rows: 504px auto 200px 264px;
+                }
+                @include md {
+                    grid-template-rows: 680px auto 304px 400px;
+                }
+                @include lg {
+                    grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-rows: 744px auto 640px;
+                }
+                @include xl {
+                    grid-template-rows: 800px auto 704px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/icm/icmStationaryMockup.jpg");
+                    grid-area: ISM;
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/icm/icmButtonPins.jpg");
+                    grid-area: IBP;
+                    background-size: auto 150%;
+                    @include sm {
+                        background-size: cover;
+                    }
+                    @include lg {
+                        background-size: auto 200%;
+                    }
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/icm/icmPresentationLayout.jpg");
+                    grid-area: IPL;
+                    background-position: center 10%;
+                }
+
+                li:nth-child(4) {
+                    grid-area: paragraph1;
+                    // background-color: $grey-mid;
+                    p {
+                        // @include margin(16px,16px,16px,16px);
+                        width: 100%;
+                    }
+                }
+            }
+
+            div {}
+        }
+    }
+}

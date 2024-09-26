@@ -1,0 +1,68 @@
+/* =============
+    ANTI Gallery
+============= */
+#antiGallery {
+    article {
+        >img:nth-child(2) {
+            aspect-ratio: 2/3;
+            object-position: center 90%;
+        }
+
+        >div:nth-child(4) {
+            >img:nth-child(1) {
+                aspect-ratio: 2/1;
+                object-fit: contain;
+            }
+        }
+
+        // ul {
+
+            li:nth-child(1) {
+                background-image: url("../img/case-studies/anti/antiClosedFront.jpg");
+                grid-area: ACF;
+            }
+
+            li:nth-child(2) {
+                background-image: url("../img/case-studies/anti/antiOpen.jpg");
+                background-position: center 90%;
+                grid-area: AO;
+            }
+
+            li:nth-child(3) {
+                background-image: url("../img/case-studies/anti/antiNeatFront.jpg");
+                grid-area: ANF;
+            }
+
+            li:nth-child(4) {
+                background-image: url("../img/case-studies/anti/antiDogDetail.png");
+                background-size: contain;
+                grid-area: AntiDD;
+
+                @include dark {
+                    background-image: url("../img/case-studies/anti/antiDogDetailWhite.png");
+                }
+            }
+
+            li:nth-child(5) {
+                background-image: url("../img/case-studies/anti/antiClosedTopDetail.jpg");
+                background-position: center 80%;
+                grid-area: ACTD;
+            }
+
+            li:nth-child(6) {
+                background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
+                background-position: center 90%;
+                grid-area: AFO;
+
+                @include sm {
+                    background-position: center 80%;
+                }
+
+                @include lg {
+                    background-position: center 90%;
+                }
+            }
+
+        // }
+    }
+}

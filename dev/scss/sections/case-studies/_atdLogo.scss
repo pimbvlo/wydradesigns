@@ -1,0 +1,24 @@
+/* =============
+    Attention to Detail Logo
+============= */
+#atdLogo {
+    div{
+        justify-content: flex-start;
+        align-items: flex-start;
+        p{
+            @include lg{
+                width: 100%;
+                max-width: 100%;
+            }
+        }    
+    }
+}
+/* =============
+    Attention to Detail Imagery SVG Edits
+============= */
+#atdLogoSVG {
+    #atdD,
+    .cls-2 {
+            fill: white;
+    }
+}

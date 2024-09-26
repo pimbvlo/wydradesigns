@@ -1,0 +1,13 @@
+/* =============
+    Resume Honors
+============= */
+#resumeHonors {
+    >article {
+        display: flex;
+        flex-direction: column;
+
+        @include lg {
+            width: 75%;
+        }
+    }
+}

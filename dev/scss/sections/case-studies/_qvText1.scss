@@ -1,0 +1,45 @@
+/* =============
+    QV Text
+============= */
+#qvText1 {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            p {
+                @include margin(0px,0px,40px,0px);
+                @include lg {
+                    @include margin(0px,0px,56px,0px);
+                }
+            }
+
+            ul {
+                li {
+                    filter:saturate(0.75);
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/qv/qvBrochureInspiration1.jpg");
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/qv/qvBrochureInspiration2.jpg");
+                }
+
+                li:nth-child(3) {
+                    background-image: url("../img/case-studies/qv/qvBrochureInspiration3.jpg");
+                    filter:saturate(1);
+                    @include sm {
+                        grid-column: span 2;
+                    }
+                    @include lg {
+                        grid-column: span 1;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+/* =============
+    Attention to Detail Imagery
+============= */
+#atdImagery {
+    article {
+        li {
+            justify-content: center;
+            align-self: center;
+            img {
+                object-fit: contain;
+                aspect-ratio: unset;
+            }
+        }
+    }
+}
+
+/* =============
+    Attention to Detail Imagery SVG Edits
+============= */
+#atdPictogram {
+    #atdSquareVM1 {
+        @include dark {
+            stroke: #7140BF;
+            fill: #7140BF;
+        }
+    }
+}

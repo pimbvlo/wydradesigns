@@ -1,0 +1,54 @@
+/* =============
+    CL Gallery
+============= */
+#clGallery {
+    background-color: $off-white;
+    @include dark {
+        background-color: $grey-dark-extra;
+    }
+
+    > div {
+        article {
+            ul {
+                grid-template-areas: "CP" "paragraph1" "CPM";
+                grid-template-rows: 400px auto 600px;
+                @include sm {
+                    grid-template-columns: repeat(3,1fr);
+                    grid-template-areas: "CP CP CP" "paragraph1 paragraph1 paragraph1" ". CPM CPM";
+                    grid-template-rows: 600px auto 400px;
+                }
+                @include md {
+                    grid-template-rows: 800px auto 504px;
+                }
+                @include lg {
+                    grid-template-columns: repeat(7,1fr);
+                    grid-template-areas: "paragraph1 paragraph1 paragraph1 CP CP CP CP" "CPM CPM CPM CPM CPM . .";
+                    grid-template-rows: 744px 504px;
+                }
+
+                li:nth-child(1) {
+                    background-image: url("../img/case-studies/cl/clPoster.jpg");
+                    grid-area: CP;
+                    background-size: contain;
+                }
+
+                li:nth-child(2) {
+                    background-image: url("../img/case-studies/cl/clPosterMockup.jpg");
+                    grid-area: CPM;
+                    background-position: 30% center;
+                    @include sm {
+                        background-position: 40% center;
+                    }
+                }
+
+                li:nth-child(3) {
+                    grid-area: paragraph1;
+
+                    p {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

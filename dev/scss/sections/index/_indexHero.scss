@@ -2,71 +2,85 @@
     Index Hero
 ============= */
 #indexHero {
-    background-image: url("../img/index/Hero.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 72vh;
-    min-height: 504px;
-    @supports (background-blend-mode: multiply) {
-        background-blend-mode: multiply;
-        background-color: $purple;
-        background-image: url("../img/index/HeroGrey.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    @include md {
-        background-position: center;
-    }
-    @include lg {
-        @supports (background-attachment: fixed) {
-            background-attachment: fixed;
-        }
-    }
+    overflow-x: clip;
+    overflow-y: visible;
+    article {
+        width: 100%;
+        position: relative;
+        height: 60vh;
+        h1 {
+            display: flex;
+            flex-direction: column;
+            z-index: 1;
 
-    div {
-        align-items: flex-end;
-        display: flex;
-        justify-content: center;
+            width: 100%;
 
-        article {
-            @include margin(0px,0px,56px,0px);
-
-            figure {
-                align-items: center;
-                background-color: $white;
-                border-radius: 500px;
-                display: flex;
-                height: 56px;
-                justify-content: center;
-                @include margin(0,auto,56px,auto);
-                @include padding(16px,16px,16px,16px);
-                width: 56px;
-                @include md {
-                    @include margin(0px,auto,4vh,auto);
-                    height: 72px;
-                    width: 72px;
-                }
-                @include md {
-                    @include margin(0px,auto,6vh,auto);
-                }
-
-                svg {
-                    width: 100%;
-                }
+            font-size: rem-calc(88);
+            @include md {
+                font-size: rem-calc(128);
+            }
+            @include lg {
+                font-size: rem-calc(184);
+            }
+            @include xl {
+                font-size: rem-calc(264);
             }
 
-            h1 {
-                color: $white;
-                font-size: rem-calc(48);
-                line-height: rem-calc(56);
-
-                br {
-                    @include md {
-                        display: none;
-                    }
+            span{
+                width: 100%;
+                text-align: right;
+                min-height: 200px;
+                height:28vh;
+                align-content: flex-end;
+                @include lg{
+                    height:32vh;
                 }
+            }
+        }
+        img{
+            position: absolute;
+            width: 100vw;
+            z-index: 0;
+            mix-blend-mode: multiply;
+            pointer-events: none;
+            @include sm{
+                width: 90vw;
+            }
+            @include md{
+                max-width: 800px;
+            }
+            @include xl{
+                max-width: 1024px;
+            }
+        }
+        img:nth-of-type(1){
+            top: -2vw;
+            left: -32vw;
+            rotate: -180deg;
+            @include sm{
+                top: -8vw;
+            }
+            @include md{
+                top: -16vw;
+                left: -24vw;
+            }
+            @include lg{
+                top: -2vw;
+            }
+            @include xl{
+                left: -16vw;
+            }
+        }
+        img:nth-of-type(2){
+            bottom: -8vw;
+            right: -28vw;
+            @include md{
+                bottom: -20vw;
+                right: -24vw;
+            }
+            @include lg{
+                bottom: -4vw;
+                right: -20vw;
             }
         }
     }

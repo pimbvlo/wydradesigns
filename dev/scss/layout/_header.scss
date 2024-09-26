@@ -1,149 +1,116 @@
 /* =============
     Header
 ============= */
+
 header {
-    box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .08), 0 9px 46px 8px rgba(19, 22, 24, .05), 0 24px 38px 3px rgba(19, 22, 24, .06);
     position: fixed;
-    height: 72px;
+    // transition: 0.25s;
+    $header-height: 80px;
+    height: $header-height;
+    background-color: rgba($white, 1);
     width: 100%;
-    background-color: $white;
-    z-index: 10000;
-    top: 0;
-    @include dark {
-        background-color: $grey-mid-extra;
-        box-shadow: 0 1px 15px -7px rgba(19, 22, 24, .03), 0 9px 46px 8px rgba(19, 22, 24, .01), 0 24px 38px 3px rgba(19, 22, 24, .02);
-    }
-    @include lg {
-        height: 80px;
-    }
+    z-index: 5000;
+    box-shadow: 0px 1px 1px 0px $outline-variant;
 
-    > div {
-        grid-area: header;
+
+    >div {
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        @include lg {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            grid-template-areas: "h";
-        }
+        justify-content: flex-start;
 
-        aside {
+        >a {
+            margin-top: 6px;
             display: flex;
             align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            @include lg {
-                display: grid;
-                grid-template-columns: auto auto 32%;
-                grid-template-areas: "l . n";
-                grid-area: h;
-            }
-            @include xl {
-                grid-template-columns: auto auto 28%;
+
+            @include md {
+                margin-top: 8px;
             }
 
-            a {
-                line-height: rem-calc(0);
-                @include lg {
-                    grid-area: l;
+            >svg {
+                height: 28px;
+                width: auto;
+
+                @include md {
+                    height: 32px;
+                    width: auto;
                 }
 
-                svg {
-                    height: 28px;
-                    @include padding(16px,0px,16px,0px);
-                    // @include lg {
-                    //     width: 80%;
-                    //     height: 80%;
-                    // }
-                    // @include xl {
-                    //     width: 64%;
-                    //     height: 64%;
-                    // }
-                    #wydradesigns {
-                        fill: $purple;
-                        @include dark {
-                            fill: $white;
-                        }
-                    }
-                }
-            }
-            // .cls-1 {
-            //     fill: $purple;
-            //     @include dark {
-            //         fill: $white;
-            //     }
-            // }
-            #lg-nav {
-                display: none;
-                @include lg {
-                    display: initial;
-                    grid-area: n;
-                }
+                #wydradesigns {
+                    fill: $on-primary-container;
+                    // mix-blend-mode: color;
 
-                ul {
-                    display: flex;
-                    align-items: center;
-                    justify-content: space-between;
-
-                    li {
-                        a {
-                            transition: all 0.10s;
-                            font-size: rem-calc(18);
-
-                            span {
-                                border-bottom: 4px solid $dark-purple;
-                                font-weight: 600;
-                                color: $dark-purple;
-                                @include dark {
-                                    color: $white;
-                                    border-bottom: 4px solid $white;
-                                }
-                            }
-                        }
-
-                        a:link,
-                        a:visited {
-                            color: $purple;
-                            @include dark {
-                                color: $white;
-                            }
-                        }
-
-                        a:active,
-                        a:hover {
-                            border-bottom: 3px solid $purple;
-                            @include dark {
-                                border-bottom: 3px solid $white;
-                            }
-                        }
-                    }
                 }
             }
         }
-    }
 
-    #burger-container {
-        @include lg {
-            display: none;
-        }
-
-        svg {
-            height: 40px;
+        #burger-container {
+            height: 64px;
+            width: 64px;
+            z-index: 15000;
+            position: absolute;
+            right: 20px;
+            margin-right: -8px;
             cursor: pointer;
 
-            #burger-outline {
-                stroke: $purple;
-                @include dark {
-                    stroke: $white;
-                }
+            @include md {
+                right: 40px;
             }
 
-            .burger-lines {
-                stroke: $purple;
-                @include dark {
-                    stroke: $white;
+            @include lg {
+                right: 64px;
+            }
+
+            @include xl {
+                right: 12vw;
+            }
+
+            g {
+                path {
+                    fill: none;
+                    stroke: $primary;
                 }
+            }
+        }
+
+        /* The side navigation menu */
+        .sidenav {
+            height: 100vh;
+            width: 0;
+            position: fixed;
+            z-index: 10000;
+            top: 0;
+            right: 0;
+            background-color: $white;   
+            overflow-x: hidden;
+            padding-top: 80px;
+            transition: all 0.5s;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            a {
+                padding: 20px 20px 16px;
+                text-decoration: none;
+                font-size: 24px;
+                color: $primary;
+                display: block;
+                transition: 0.25s;
+
+                @include md {
+                    padding: 20px 40px 16px;
+                }
+
+                &:hover {
+                    background-color: rgba($primary, 1);
+                    color: $on-primary;
+                }
+
+                &:active {
+                    background-color: rgba($primary, 0.8);
+                    color: $on-primary;
+                }
+
             }
         }
     }

@@ -2,98 +2,38 @@
     Resume Experience
 ============= */
 #resumeExperience {
-    > div {
-        display: grid;
-        grid-template-areas: "h2" "Pfizer" "Pilam";
-        grid-template-columns: repeat(1,1fr);
+    background-color: $surface-variant;
+
+    article {
+        display: flex;
+        flex-direction: column;
+
         @include lg {
             width: 75%;
         }
-
-        h2 {
-            grid-area: h2;
+        h2{
+            color: $on-surface-variant;
         }
+        div {
+            ul {
+                margin-top: 8px;
+                display: flex;
+                flex-direction: column;
+                row-gap: 8px;
+                p{
+                    color: $on-surface-variant;
 
-        article {
-            display: grid;
-            grid-template-columns: repeat(1,1fr);
-            @include md {
-                grid-gap: 0 24px;
-                grid-template-columns: repeat(2,1fr);
-            }
-            @include lg {
-                grid-gap: 0 32px;
-            }
-
-            > div:nth-child(1) {
-                @include margin(0px,0px,24px,0px);
-                @include md {
-                    grid-column: span 2;
                 }
-            }
-
-            div:nth-child(2),
-            div:nth-child(3),
-            div:nth-child(4) {
-                display: grid;
-                grid-template-areas: "h4" "h3" "ul1";
-                grid-template-columns: repeat(1,1fr);
-                @include margin(0px,0px,16px,0px);
-                @include md {
-                    @include margin(0px,0px,16px,0px);
-                }
-
-                h4 {
-                    grid-area: h4;
-                    @include margin(0px,0px,4px,0px);
-                }
-
-                h3 {
-                    grid-area: h3;
-                    @include margin(0px,0px,16px,0px);
-                }
-
-                ul {
-                    li {
-                        p:last-of-type {
-                            @include margin(0px,0px,8px,0px);
-                        }
-                    }
-
-                    li:last-of-type {
-                        p:last-of-type {
-                            @include margin(0px,0px,auto,0px);
-                        }
+                ul{
+                    margin-top: 0px;
+                    padding-left: 8px;
+                    border-left: 4px solid $outline-variant;
+                    margin-left: 2px;
+                    @include md{
+                        padding-left: 16px;
+                        margin-left: 8px;
                     }
                 }
-
-                ul:nth-child(3) {
-                    grid-area: ul1;
-                }
-            }
-        }
-
-        article:nth-child(2) {
-            grid-area: Pfizer;
-            @include margin(0px,0px,32px,0px);
-        }
-
-        article:nth-child(3) {
-            grid-area: Pilam;
-            div:nth-child(2){
-                @include md{
-                    @include margin(0px,0px,auto,0px);
-                }
-
-                li:last-of-type {
-
-                    p:last-of-type {
-                    }
-                }
-
-            }
-            div:last-of-type {
-                @include margin(0px,0px,0px,0px);
             }
         }
     }

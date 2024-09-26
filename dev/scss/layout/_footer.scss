@@ -2,84 +2,173 @@
     Footer
 ============= */
 footer {
-    color: $white;
-    background-color: $dark-purple;
-    @include dark {
-        background-color: $grey-mid-extra;
+    height: 92vh;
+    background-color: $inverse-surface;
+    color: $on-inverse-surface;
+    background-image: radial-gradient(
+        circle at center,
+        rgba($outline-variant, 0.25) 0.15rem,
+        transparent 0
+      ), radial-gradient(circle at center, rgba($outline-variant, 0.25) 0.15rem, transparent 0);
+    background-size: 1.3rem 1.3rem;
+    background-position: 0 0, 0.65rem 0.65rem;
+
+    overflow-x: hidden;
+    overflow-y: clip;
+
+    .button {
+        text-transform: none;
+        align-self: flex-start;
+
+        >a {
+            align-self: auto;
+
+            color: $inverse-primary;
+        }
+
+        &:link,
+        &:visited {
+            >a {
+                color: $inverse-primary;
+            }
+        }
+
+        &:hover {
+            >a {
+                background-color: rgba($inverse-primary, $state-hovered);
+                color: $inverse-primary;
+            }
+
+        }
+
+        &:active {
+            >a {
+                background-color: rgba($inverse-primary, $state-pressed);
+                color: $inverse-primary;
+            }
+
+        }
+
+
     }
 
-    div {
+    > div {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-end;
+        flex-direction: column;
+
+        position: relative;
+
         article {
-            display: grid;
-            grid-template-columns: repeat(2,1fr);
-            grid-template-areas: "l l" "a c";
-            grid-gap: 16px;
-            @include sm {
-                grid-template-areas: "l ." "a c";
-            }
-            @include md {
-                grid-gap: 16px;
-                grid-template-columns: repeat(3,1fr);
-                grid-template-areas: "l . ." "a . c";
-            }
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
 
-            figure {
-                grid-area: l;
+            z-index: 1;
 
-                img {
-                    width: 144px;
-                    @include lg {
-                        width: 168px;
+            .button {
+                >a {
+                    font-weight: 400;
+                    color: $on-primary;
+                }
+
+                &:link,
+                &:visited {
+                    >a {
+                        color: $on-primary;
                     }
                 }
+
+                &:hover {
+                    >a {
+                        background-color: rgba($inverse-primary, $state-hovered);
+                        color: $on-primary;
+                    }
+
+                }
+
+                &:active {
+                    >a {
+                        background-color: rgba($inverse-primary, $state-pressed);
+                        color: $on-primary;
+                    }
+
+                }
+
+
+            }
+
+            h2 {
+                font-size: rem-calc(52);
+                line-height: rem-calc(64);
+
+            }
+        }
+
+
+        nav {
+            display: flex;
+            margin-bottom: 20px;
+            align-items: center;
+
+            z-index: 1;
+
+        }
+
+        aside {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: flex-start;
+            width: 100%;
+
+            z-index: 1;
+
+            @include md{
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+
             }
 
             ul {
                 display: flex;
-                justify-content: space-between;
-                align-items: center;
-                grid-area: a;
-                width: 160px;
-                @include sm {
-                    @include margin(0px, 32px, 0px, 0px);
-                }
-                @include md {
-                    @include margin(0px, 56px, 0px, 0px);
-                    width: 240px;
-                }
-                @include lg {
-                    @include margin(0px, 120px, 0px, 0px);
-                }
+                margin-left: 4px;
+                .button {
+                    height: 52px;
+                    width: 52px;
 
-                li {
-                    a {
-                        color: $white;
-                        font-size: rem-calc(32);
-                        @include padding(8px,8px,8px,8px);
-                        @include md {
-                            font-size: rem-calc(40);
-                            @include padding(2px,2px,2px,2px);
-                        }
-
-                        i {}
-                    }
-
-                    a:link,
-                    a:visited {
-                        color: $white;
-                    }
-
-                    a:active,
-                    a:hover {
-                        color: $orange;
+                    >a {
+                        height: 100%;
+                        width: 100%;
+                        padding: 0px;
+                        align-items: center;
                     }
                 }
             }
 
-            p {
-                grid-area: c;
-                text-align: right;
-                font-size: rem-calc(16);
+        }
+
+        img{
+            position: absolute;
+            z-index: 0;
+            mix-blend-mode: color-dodge;
+            // opacity: 0.5;
+
+            width: 100vh;
+            top: -12vw;
+            right: -64vw;
+            @include sm{
+                right: -40vw;
+            }
+            @include md{
+                right: -64vw;
+            }
+            @include lg{
+                top: -8vw;
+                right: -20vw;
             }
         }
     }

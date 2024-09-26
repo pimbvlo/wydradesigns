@@ -2,7 +2,10 @@
 
 // Helpers Styles
 @import "helpers/_mixins";
-@import "helpers/_variables";
+@import "helpers/_screenVariables";
+@import "helpers/_colorVariables";
+@import "helpers/_paddingVariables";
+
 
 // Base Styles
 @import "base/_normalize";
@@ -11,9 +14,13 @@
 
 // Components Styles
 @import "components/_buttons";
+@import "components/_chips";
 @import "components/_forms";
-@import "components/_navigation";
-@import "components/_nav-background";
+@import "components/_heroes";
+@import "components/_icons";
+
+@import "components/_caseStudyComponents";
+@import "components/_caseStudyPreFooter";
 
 // Layout Styles
 @import "layout/_header";
@@ -23,6 +30,11 @@
 // Sections Styles
 // INDEX
 @import "sections/index/_indexHero";
+@import "sections/index/_indexProjectOne";
+@import "sections/index/_indexMarquee";
+@import "sections/index/_indexProjectTwo";
+@import "sections/index/_indexProjectThree";
+@import "sections/index/_indexProjectFour";
 @import "sections/index/_indexIntro";
 @import "sections/index/_indexProjectList";
 
@@ -33,9 +45,7 @@
 // RESUME
 @import "sections/resume/_resumeEducation";
 @import "sections/resume/_resumeHonors";
-@import "sections/resume/_resumeCourses";
 @import "sections/resume/_resumeExperience";
-@import "sections/resume/_resumeActivities";
 @import "sections/resume/_resumeSkills";
 
 // CASE STUDIES
@@ -108,6 +118,12 @@
 @import "sections/case-studies/_tpsHero";
 @import "sections/case-studies/_tpsText1";
 @import "sections/case-studies/_tpsGallery";
+
+// TIKTOK RESEARCH
+@import "sections/case-studies/_ttHero.scss";
+@import "sections/case-studies/_ttBranding.scss";
+
+@import "sections/case-studies/_tgHero.scss";
 
 // TRIUMPH UI
 @import "sections/case-studies/_triumphHero";

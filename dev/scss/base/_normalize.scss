@@ -8,9 +8,10 @@
 html {
     -webkit-text-size-adjust: 100%;
     /* 2 */
-    line-height: 1.15;
+    line-height: 1.25;
     /* 1 */
 }
+
 /* Sections
    ========================================================================== */
 /**
@@ -18,37 +19,22 @@ html {
  */
 body {
     background-color: $white;
-    color: $dark-purple;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    color: $on-background;
+    font-family: "area-variable", sans-serif;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;    
     margin: 0;
-    @include dark {
-        background-color: $grey-dark;
-        color: $white;
-    }
-    ::selection {
-        background: $orange;
-        color: $dark-purple;
-        opacity: 1;
-        @include dark{
-            // background-color: $light-orange;
-            // color: $white;
 
-        }
+    ::selection {
+        background: rgba($primary, 0.92);
+        color: $on-primary;
     }
 
     ::-moz-selection {
-        background: $orange;
-        color: $dark-purple;
-        opacity: 1;
-        @include dark{
-            // background-color: $light-orange;
-            // color: $white;
-
-        }
-
+        background: rgba($primary, 0.92);
+        color: $on-primary;
     }
 }
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
@@ -57,6 +43,7 @@ h1 {
     font-size: 2em;
     margin: 0.67em 0;
 }
+
 /* Grouping content
    ========================================================================== */
 /**
@@ -71,16 +58,20 @@ hr {
     overflow: visible;
     /* 2 */
 }
+table{
+    border:0px;
+}
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
 pre {
-    font-family: monospace, monospace;
+    font-family: "interstate-mono", monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
 }
+
 /* Text-level semantics
    ========================================================================== */
 /**
@@ -89,6 +80,7 @@ pre {
 a {
     background-color: transparent;
 }
+
 /**
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
@@ -101,6 +93,7 @@ abbr[title] {
     text-decoration: underline dotted;
     /* 2 */
 }
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
@@ -108,6 +101,7 @@ b,
 strong {
     font-weight: bolder;
 }
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
@@ -115,17 +109,19 @@ strong {
 code,
 kbd,
 samp {
-    font-family: monospace, monospace;
+    font-family: "interstate-mono", monospace;
     /* 1 */
     font-size: 1em;
     /* 2 */
 }
+
 /**
  * Add the correct font size in all browsers.
  */
 small {
     font-size: 80%;
 }
+
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
@@ -145,20 +141,35 @@ sub {
 sup {
     top: -0.5em;
 }
+
 /* Embedded content
    ========================================================================== */
 /**
  * Remove the border on images inside links in IE 10.
  */
 img {
-    border-style: none;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border:0px;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
 }
+
 /* Forms
    ========================================================================== */
 /**
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
+button {
+    border: none;
+    text-decoration: none;
+    fill: none;
+    background: none;
+}
+
 button,
 input,
 optgroup,
@@ -173,6 +184,7 @@ textarea {
     margin: 0;
     /* 2 */
 }
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
@@ -182,6 +194,7 @@ input {
     overflow: visible;
     /* 1 */
 }
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
@@ -191,6 +204,7 @@ select {
     text-transform: none;
     /* 1 */
 }
+
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
@@ -200,6 +214,7 @@ select {
 button {
     -webkit-appearance: button;
 }
+
 /**
  * Remove the inner border and padding in Firefox.
  */
@@ -210,6 +225,7 @@ button::-moz-focus-inner {
     border-style: none;
     padding: 0;
 }
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
@@ -219,12 +235,14 @@ button::-moz-focus-inner {
 button:-moz-focusring {
     outline: 1px dotted ButtonText;
 }
+
 /**
  * Correct the padding in Firefox.
  */
 fieldset {
     padding: 0.35em 0.75em 0.625em;
 }
+
 /**
  * 1. Correct the text wrapping in Edge and IE.
  * 2. Correct the color inheritance from `fieldset` elements in IE.
@@ -245,18 +263,21 @@ legend {
     white-space: normal;
     /* 1 */
 }
+
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
 progress {
     vertical-align: baseline;
 }
+
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
 textarea {
     overflow: auto;
 }
+
 /**
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
@@ -268,6 +289,7 @@ textarea {
     padding: 0;
     /* 2 */
 }
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
@@ -275,6 +297,7 @@ textarea {
 [type="number"]::-webkit-outer-spin-button {
     height: auto;
 }
+
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
@@ -285,12 +308,14 @@ textarea {
     outline-offset: -2px;
     /* 2 */
 }
+
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
 [type="search"]::-webkit-search-decoration {
     -webkit-appearance: none;
 }
+
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
@@ -301,6 +326,7 @@ textarea {
     font: inherit;
     /* 2 */
 }
+
 /* Interactive
    ========================================================================== */
 /*
@@ -309,12 +335,14 @@ textarea {
 details {
     display: block;
 }
+
 /*
  * Add the correct display in all browsers.
  */
 summary {
     display: list-item;
 }
+
 /* Misc
    ========================================================================== */
 /**
@@ -323,6 +351,7 @@ summary {
 template {
     display: none;
 }
+
 /**
  * Add the correct display in IE 10.
  */

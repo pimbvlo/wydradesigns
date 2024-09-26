@@ -2,98 +2,21 @@
     Attention to Detail Gallery
 ============= */
 #atdGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+    article {
 
-    > div {
-        article {
-            h2 {}
+        >img:nth-child(1),
+        >img:nth-child(2),
+        >img:nth-child(3) {
+            object-fit: contain;
+        }
 
-            ul {
-                grid-template-areas: "AWMLD" "APMBHO" "AEMBT" "AIMR";
-                grid-template-rows: 160px 160px 280px 680px;
-                @include sm {
-                    grid-template-columns: repeat(3,1fr);
-                    grid-template-areas: "AWMLD AWMLD ." "APMBHO APMBHO APMBHO" "AEMBT AEMBT AIMR";
-                    grid-template-rows: 176px 256px 288px;
-                }
-                @include md {
-                    grid-template-areas: "AWMLD AWMLD ASFive" "APMBHO APMBHO APMBHO" "ASEight ASEight AIMR" "AEMBT AEMBT ASSix";
-                    grid-template-rows: 176px 256px 288px 280px;
-                }
-                @include lg {
-                    grid-template-columns: repeat(7,1fr);
-                    grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" ". . APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
-                    grid-template-rows: 280px 280px 168px 200px 280px;
-                }
-                @include xl {
-                    grid-template-areas: "AWMLD AWMLD AWMLD AWMLD ASFive ASFive ASFive" "APMBHO APMBHO APMBHO APMBHO APMBHO APMBHO ." "ASEight ASEight ASEight ASEight AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT AIMR AIMR AIMR" "AEMBT AEMBT AEMBT AEMBT . ASSix ASSix";
-                    grid-template-rows: 280px 400px 168px 200px 280px;
-                }
-
-                li {
-                    background-size: contain;
-                }
-
-                li:nth-child(1) {
-                    background-image: url("../img/case-studies/atd/atdWebMobileLeftDown.png");
-                    grid-area: AWMLD;
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/case-studies/atd/atdPrintMacBookHeadOn.png");
-                    grid-area: APMBHO;
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/case-studies/atd/atdEnvMacBookTilted.png");
-                    grid-area: AEMBT;
-                }
-
-                li:nth-child(4) {
-                    background-image: url("../img/case-studies/atd/atdIndexMobileRight.png");
-                    grid-area: AIMR;
-                }
-
-                li:nth-child(5) {
-                    background-image: url("../img/case-studies/atd/atdScreenshot5.png");
-                    display: none;
-                    background-size: cover;
-                    @include md {
-                        display: initial;
-                        grid-area: ASFive;
-                    }
-                }
-
-                li:nth-child(6) {
-                    background-image: url("../img/case-studies/atd/atdScreenshot6.png");
-                    display: none;
-                    background-size: cover;
-                    background-position: right top;
-                    @include md {
-                        display: initial;
-                        grid-area: ASSix;
-                    }
-                }
-
-                li:nth-child(7) {
-                    background-image: url("../img/case-studies/atd/atdScreenshot8.png");
-                    display: none;
-                    background-size: cover;
-                    background-position: 10% top;
-                    @include md {
-                        display: initial;
-                        grid-area: ASEight;
-                    }
-                    @include lg {
-                        background-position: center top;
-                    }
-                }
+        >div:nth-child(4) {
+            >img:nth-child(1) {
+                object-fit: contain;
             }
-
-            div {}
+        }
+        >img:nth-child(6){
+            aspect-ratio: unset;
         }
     }
 }

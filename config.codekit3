@@ -7,8 +7,24 @@
       "uuidString" : "9501D335-8457-4496-8509-AFB139CFE2D8"
     }
   ],
-  "creatorBuild" : "34127",
+  "creatorBuild" : "34576",
   "files" : {
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
+    },
+    "\/deploy\/.htaccess" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/.htaccess",
+      "oF" : 0
+    },
     "\/deploy\/404.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -21,7 +37,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/about.html",
       "oF" : 0
     },
@@ -29,7 +45,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/Antifogmatic.html",
       "oF" : 0
     },
@@ -37,7 +53,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/AttentionToDetail.html",
       "oF" : 0
     },
@@ -45,7 +61,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/BarbaraKasten.html",
       "oF" : 0
     },
@@ -53,7 +69,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/Clarendon.html",
       "oF" : 0
     },
@@ -64,7 +80,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
@@ -81,7 +97,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/Fender.html",
       "oF" : 0
     },
@@ -89,7 +105,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/IceCreamMuseum.html",
       "oF" : 0
     },
@@ -101,7 +117,7 @@
       "oAP" : "\/deploy\/img\/404\/404op1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -114,7 +130,7 @@
       "oAP" : "\/deploy\/img\/404\/404op2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -127,7 +143,7 @@
       "oAP" : "\/deploy\/img\/about\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -140,7 +156,7 @@
       "oAP" : "\/deploy\/img\/about\/HeroGrey.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -153,7 +169,7 @@
       "oAP" : "\/deploy\/img\/about\/SWydra_Personality.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -179,7 +195,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiClosedFront.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -192,7 +208,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiClosedSide.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -205,7 +221,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiClosedTopDetail.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -216,8 +232,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiDogDetail.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -229,8 +245,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiDogDetailWhite.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -244,7 +260,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiExperiment.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -257,7 +273,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiFullOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -270,7 +286,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiHalfOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -283,7 +299,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -296,7 +312,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiNeatBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -309,7 +325,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiNeatFront.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -322,7 +338,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -348,7 +364,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/anti\/antiQuarterOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -359,8 +375,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdEnvMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -372,8 +388,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdEnvMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -385,8 +401,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdEnvMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -398,8 +414,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdEnvMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -411,8 +427,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdEnvMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -426,7 +442,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -437,8 +453,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -450,8 +466,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMacBookHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -463,8 +479,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -476,8 +492,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMacBookTiltedGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -489,8 +505,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -502,8 +518,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -515,8 +531,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -528,8 +544,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileLeftDownGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -541,8 +557,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -554,8 +570,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexMobileRightGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -567,8 +583,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdIndexTabletHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -580,8 +596,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdPrintMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -593,8 +609,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdPrintMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -606,8 +622,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdPrintMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -619,8 +635,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdPrintMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -632,8 +648,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdPrintMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -645,8 +661,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -658,8 +674,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -671,8 +687,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -684,8 +700,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot4.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -697,8 +713,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot5.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -710,8 +726,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot6.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -723,8 +739,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot7.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -736,8 +752,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdScreenshot8.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -749,8 +765,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdWebMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -762,8 +778,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdWebMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -775,8 +791,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdWebMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -788,8 +804,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdWebMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -801,8 +817,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/atdWebMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -814,8 +830,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/envVisualMessaging1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -827,8 +843,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/atd\/envVisualMessaging1Shadow1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -842,7 +858,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -855,7 +871,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkCover2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -868,7 +884,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -881,7 +897,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkDetail2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -894,7 +910,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkDetail3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -907,7 +923,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkDetail4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -920,7 +936,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -933,7 +949,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkIndexOfImagery.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -946,7 +962,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkQuote.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -959,7 +975,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -972,7 +988,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -985,7 +1001,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -998,7 +1014,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1011,7 +1027,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1024,7 +1040,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1037,7 +1053,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bk\/bkSpread7.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1050,7 +1066,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bookcovers\/bcCrawdadIllustration.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1063,7 +1079,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bookcovers\/bcCrawdads.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1076,7 +1092,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/bookcovers\/bcGreatGatsby.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1089,7 +1105,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/cl\/clHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1102,7 +1118,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/cl\/clPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1115,7 +1131,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/cl\/clPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1128,7 +1144,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderBag1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1141,7 +1157,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderBag2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1154,7 +1170,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderBigBox1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1167,7 +1183,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderBigBox2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1180,7 +1196,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderFullSet.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1193,7 +1209,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1206,7 +1222,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1219,7 +1235,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1232,7 +1248,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderInspiration3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1245,7 +1261,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderInspiration4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1258,7 +1274,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderInspiration5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1271,7 +1287,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderProgressBag.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1284,7 +1300,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderProgressBigBox.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1297,7 +1313,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderProgressSmallBox.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1310,7 +1326,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBox1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1323,7 +1339,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBox2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1336,7 +1352,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBox3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1349,7 +1365,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBox4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1362,7 +1378,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBoxInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1375,7 +1391,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/fender\/fenderSmallBoxInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1408,7 +1424,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmButtonPins.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1474,7 +1490,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmLogoEdit.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1487,7 +1503,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmLogoEdit1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1500,7 +1516,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmLogoEdit2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1533,7 +1549,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmPresentationLayout.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1546,7 +1562,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmStationaryMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1559,7 +1575,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/icm\/icmWordList2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1572,7 +1588,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/m\/mHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1583,8 +1599,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1596,8 +1612,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mMacBookTilt.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1609,8 +1625,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1622,8 +1638,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mMobileTiltLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1635,8 +1651,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mMobileTiltRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1648,8 +1664,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mScreenshot1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1661,8 +1677,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mScreenshot2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1674,8 +1690,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mScreenshot3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1687,8 +1703,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/m\/mTabletHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1702,7 +1718,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/on\/onHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1715,7 +1731,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/on\/onPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1728,7 +1744,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/on\/onPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1741,7 +1757,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/on\/onProcess1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1754,7 +1770,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/on\/onProcess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1767,7 +1783,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1780,7 +1796,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureDetail2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1793,7 +1809,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureDetail3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1806,7 +1822,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureDetail4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1819,7 +1835,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1832,7 +1848,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1845,7 +1861,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1858,7 +1874,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1871,7 +1887,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureInspiration3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1884,7 +1900,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1897,7 +1913,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvBrochureOutside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1910,7 +1926,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/qv\/qvHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1923,7 +1939,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1934,8 +1950,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saCover2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1949,7 +1965,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1962,7 +1978,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saInsideSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1975,7 +1991,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saInsideSpread1b.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -1988,7 +2004,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saInsideSpread2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2001,7 +2017,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saMainSpread.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2014,7 +2030,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sa\/saToC.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2087,7 +2103,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sb\/sbHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2100,7 +2116,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sb\/sbPoster1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2113,7 +2129,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sb\/sbPoster2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2126,7 +2142,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/sb\/sbPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2139,7 +2155,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2152,7 +2168,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureCover2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2165,7 +2181,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2178,7 +2194,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2191,7 +2207,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2204,7 +2220,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBrochureOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2217,7 +2233,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBusKing.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2230,7 +2246,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmBusTail.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2243,7 +2259,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmExperiments.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2256,7 +2272,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2269,7 +2285,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmInfluence.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2282,7 +2298,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmLetterhead.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2295,7 +2311,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmLetterheadDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2308,7 +2324,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmLetterheadInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2321,7 +2337,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmLetterheadOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2364,7 +2380,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmPosters.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2377,7 +2393,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/shm\/shmProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2403,7 +2419,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaBobby.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2416,7 +2432,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaGemma.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2429,7 +2445,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2442,7 +2458,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaJax.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2455,7 +2471,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2468,7 +2484,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2481,7 +2497,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2494,7 +2510,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2507,7 +2523,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2520,7 +2536,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTest6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2541,7 +2557,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2554,7 +2570,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2567,7 +2583,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2580,7 +2596,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2593,7 +2609,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2606,7 +2622,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2617,6 +2633,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/soa\/soaTimeline7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tg\/tgHero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 18134,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tg\/tgHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -2632,7 +2661,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolCoverStack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2655,7 +2684,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolInside.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2668,7 +2697,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolInsideMap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2681,7 +2710,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolLocations.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2694,7 +2723,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolOutsideBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2720,7 +2749,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolStack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2733,7 +2762,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tol\/tolTrainMap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2759,7 +2788,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsBrochureSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2772,7 +2801,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsBuildingPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2783,8 +2812,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsHero.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -2798,7 +2827,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2811,7 +2840,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2834,7 +2863,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2847,7 +2876,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsWebBanner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2860,7 +2889,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tps\/tpsWorkTogether.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2873,7 +2902,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2906,7 +2935,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphNavProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2919,7 +2948,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2932,7 +2961,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphRadio.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2965,6 +2994,175 @@
       "oAP" : "\/deploy\/img\/case-studies\/triumph\/triumphUI.mp4",
       "oF" : 0
     },
+    "\/deploy\/img\/case-studies\/tt\/crazy8s.jpeg" : {
+      "ft" : 16384,
+      "iS" : 227614,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/crazy8s.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Icons.png" : {
+      "ft" : 32768,
+      "iS" : 3671,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PersonaContentCreator.png" : {
+      "ft" : 32768,
+      "iS" : 139174,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaContentCreator.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PersonaViewer.png" : {
+      "ft" : 32768,
+      "iS" : 101254,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaViewer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/PrototypeFinal.png" : {
+      "ft" : 32768,
+      "iS" : 352972,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/PrototypeFinal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch1.jpeg" : {
+      "ft" : 16384,
+      "iS" : 73680,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch2.jpeg" : {
+      "ft" : 16384,
+      "iS" : 100110,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/sketch3.jpeg" : {
+      "ft" : 16384,
+      "iS" : 96606,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/sketch3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/SprintMap.png" : {
+      "ft" : 32768,
+      "iS" : 132257,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/SprintMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Stickers.png" : {
+      "ft" : 32768,
+      "iS" : 10609,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Stickers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/ttHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 197722,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/ttHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Typeface.png" : {
+      "ft" : 32768,
+      "iS" : 78616,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Typeface.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tt\/Wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 358904,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tt\/Wireframe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/case-studies\/un\/unHero.jpg" : {
       "ft" : 16384,
       "iS" : 4248344,
@@ -2973,7 +3171,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2986,7 +3184,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unPosterFull.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -2999,7 +3197,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unPosterHanging.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3012,7 +3210,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3025,7 +3223,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unProcess1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3038,7 +3236,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/un\/unProcess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3049,8 +3247,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/global\/favicon\/Favicon.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3065,6 +3263,42 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/global\/FloorDots.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/global\/FloorDots.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/global\/FooterFlower.png" : {
+      "ft" : 32768,
+      "iS" : 24449,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/global\/FooterFlower.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/global\/GenericImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 8815,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/global\/GenericImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/global\/logo\/LogoDarkPurple.svg" : {
       "ft" : 2097152,
@@ -3104,7 +3338,33 @@
       "oAP" : "\/deploy\/img\/index\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/HeroFlower1.png" : {
+      "ft" : 32768,
+      "iS" : 13804,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/HeroFlower1.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/HeroFlower2.png" : {
+      "ft" : 32768,
+      "iS" : 17048,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/HeroFlower2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3143,7 +3403,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/ATDCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3208,7 +3468,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/MCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3248,13 +3508,13 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/AntiCover.jpg" : {
       "ft" : 16384,
-      "iS" : 594768,
+      "iS" : 339649,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/AntiCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3274,46 +3534,46 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/BKCover.jpg" : {
       "ft" : 16384,
-      "iS" : 781361,
+      "iS" : 135584,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/BKCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ClCover.jpg" : {
       "ft" : 16384,
-      "iS" : 166063,
+      "iS" : 70041,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ClCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/FenderCover.jpg" : {
       "ft" : 16384,
-      "iS" : 392197,
+      "iS" : 85953,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/FenderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/ICMCover.jpg" : {
       "ft" : 16384,
-      "iS" : 342488,
+      "iS" : 135573,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ICMCover.jpg",
@@ -3339,52 +3599,52 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/ONCover.jpg" : {
       "ft" : 16384,
-      "iS" : 114746,
+      "iS" : 19160,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ONCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/QVCover.jpg" : {
       "ft" : 16384,
-      "iS" : 302789,
+      "iS" : 180861,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/QVCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SACover.jpg" : {
       "ft" : 16384,
-      "iS" : 414006,
+      "iS" : 110152,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SBCover.jpg" : {
       "ft" : 16384,
-      "iS" : 339315,
+      "iS" : 41092,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SBCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3404,26 +3664,26 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg" : {
       "ft" : 16384,
-      "iS" : 834889,
+      "iS" : 87709,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/SoACover.jpg" : {
       "ft" : 16384,
-      "iS" : 295860,
+      "iS" : 79880,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SoACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3443,13 +3703,13 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/TCover.jpg" : {
       "ft" : 16384,
-      "iS" : 148636,
+      "iS" : 31624,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3469,26 +3729,26 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg" : {
       "ft" : 16384,
-      "iS" : 99057,
+      "iS" : 23067,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/img\/index\/projects\/purple\/TPSCover.jpg" : {
       "ft" : 16384,
-      "iS" : 1055538,
+      "iS" : 529813,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TPSCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3508,13 +3768,13 @@
     },
     "\/deploy\/img\/index\/projects\/purple\/UnCover.jpg" : {
       "ft" : 16384,
-      "iS" : 378463,
+      "iS" : 94388,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/UnCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3605,7 +3865,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/TargetCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3631,7 +3891,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3664,7 +3924,7 @@
     },
     "\/deploy\/img\/index\/projects\/TTCover.jpg" : {
       "ft" : 16384,
-      "iS" : 96138,
+      "iS" : 1370989,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/TTCover.jpg",
@@ -3696,7 +3956,7 @@
       "oAP" : "\/deploy\/imglg\/404\/404op1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3709,7 +3969,7 @@
       "oAP" : "\/deploy\/imglg\/404\/404op2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3722,7 +3982,7 @@
       "oAP" : "\/deploy\/imglg\/about\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3735,7 +3995,7 @@
       "oAP" : "\/deploy\/imglg\/about\/HeroGrey.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3748,7 +4008,7 @@
       "oAP" : "\/deploy\/imglg\/about\/SWydra_Personality.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3761,7 +4021,7 @@
       "oAP" : "\/deploy\/imglg\/about\/SWydra.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3774,7 +4034,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiClosedFront.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3787,7 +4047,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiClosedSide.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3800,7 +4060,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiClosedTopDetail.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3811,8 +4071,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiDogDetail.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3824,8 +4084,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiDogDetailWhite.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3839,7 +4099,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiExperiment.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3852,7 +4112,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiFullOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3863,8 +4123,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiFullOpen.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3878,7 +4138,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiHalfOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3891,7 +4151,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3904,7 +4164,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiNeatBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3917,7 +4177,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiNeatFront.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3930,7 +4190,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3943,7 +4203,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiOpening.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3956,7 +4216,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/anti\/antiQuarterOpen.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3967,8 +4227,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdEnvMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3980,8 +4240,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdEnvMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3993,8 +4253,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdEnvMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4006,8 +4266,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdEnvMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4019,8 +4279,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdEnvMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4034,7 +4294,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4045,8 +4305,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4058,8 +4318,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMacBookHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4071,8 +4331,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4084,8 +4344,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMacBookTiltedGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4097,8 +4357,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4110,8 +4370,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4123,8 +4383,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4136,8 +4396,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileLeftDownGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4149,8 +4409,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4162,8 +4422,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexMobileRightGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4175,8 +4435,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdIndexTabletHeadOnGrid.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4188,8 +4448,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdPrintMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4201,8 +4461,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdPrintMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4214,8 +4474,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdPrintMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4227,8 +4487,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdPrintMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4240,8 +4500,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdPrintMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4253,8 +4513,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4266,8 +4526,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4279,8 +4539,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4292,8 +4552,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot4.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4305,8 +4565,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot5.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4318,8 +4578,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot6.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4331,8 +4591,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot7.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4344,8 +4604,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdScreenshot8.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4357,8 +4617,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdWebMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4370,8 +4630,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdWebMacBookTilted.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4383,8 +4643,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdWebMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4396,8 +4656,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdWebMobileLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4409,8 +4669,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/atdWebMobileRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4422,8 +4682,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/envVisualMessaging1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4435,8 +4695,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/atd\/envVisualMessaging1Shadow1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4450,7 +4710,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4463,7 +4723,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkCover2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4476,7 +4736,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4489,7 +4749,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkDetail2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4502,7 +4762,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkDetail3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4515,7 +4775,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkDetail4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4528,7 +4788,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4541,7 +4801,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkIndexOfImagery.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4554,7 +4814,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkQuote.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4567,7 +4827,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4580,7 +4840,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4593,7 +4853,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4606,7 +4866,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4619,7 +4879,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4632,7 +4892,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4645,7 +4905,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bk\/bkSpread7.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4658,7 +4918,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bookcovers\/bcCrawdadIllustration.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4671,7 +4931,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bookcovers\/bcCrawdads.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4684,7 +4944,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/bookcovers\/bcGreatGatsby.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4697,7 +4957,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/cl\/clHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4710,7 +4970,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/cl\/clPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4723,7 +4983,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/cl\/clPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4736,7 +4996,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderBag1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4749,7 +5009,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderBag2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4762,7 +5022,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderBigBox1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4775,7 +5035,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderBigBox2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4788,7 +5048,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderFullSet.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4799,8 +5059,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderFullSet.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -4814,7 +5074,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4827,7 +5087,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4840,7 +5100,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4853,7 +5113,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderInspiration3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4866,7 +5126,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderInspiration4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4879,7 +5139,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderInspiration5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4892,7 +5152,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderProgressBag.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4905,7 +5165,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderProgressBigBox.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4918,7 +5178,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderProgressSmallBox.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4931,7 +5191,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBox1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4944,7 +5204,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBox2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4957,7 +5217,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBox3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4970,7 +5230,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBox4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4983,7 +5243,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBoxInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4996,7 +5256,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/fender\/fenderSmallBoxInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5029,7 +5289,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmButtonPins.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5062,7 +5322,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5095,7 +5355,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmLogoEdit.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5108,7 +5368,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmLogoEdit1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5121,7 +5381,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmLogoEdit2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5154,7 +5414,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmPresentationLayout.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5167,7 +5427,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmStationaryMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5180,7 +5440,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/icm\/icmWordList2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5204,8 +5464,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mMacBookHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5217,8 +5477,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mMacBookTilt.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5230,8 +5490,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mMobileHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5243,8 +5503,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mMobileTiltLeftDown.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5256,8 +5516,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mMobileTiltRight.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5269,8 +5529,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mScreenshot1.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5282,8 +5542,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mScreenshot2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5295,8 +5555,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mScreenshot3.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5308,8 +5568,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/m\/mTabletHeadOn.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5323,7 +5583,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/on\/onHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5336,7 +5596,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/on\/onPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5349,7 +5609,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/on\/onPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5362,7 +5622,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/on\/onProcess1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5375,7 +5635,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/on\/onProcess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5388,7 +5648,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5401,7 +5661,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureDetail2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5414,7 +5674,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureDetail3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5427,7 +5687,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureDetail4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5440,7 +5700,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5453,7 +5713,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5464,8 +5724,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInside2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5479,7 +5739,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5492,7 +5752,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5505,7 +5765,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureInspiration3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5518,7 +5778,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5531,7 +5791,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureOutside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5542,8 +5802,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvBrochureOutside2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5557,7 +5817,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/qv\/qvHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5570,7 +5830,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5581,8 +5841,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saCover2.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -5596,7 +5856,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5609,7 +5869,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saInsideSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5622,7 +5882,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saInsideSpread1b.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5635,7 +5895,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saInsideSpread2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5648,7 +5908,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saMainSpread.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5661,7 +5921,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sa\/saToC.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5734,7 +5994,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sb\/sbHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5747,7 +6007,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sb\/sbPoster1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5760,7 +6020,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sb\/sbPoster2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5773,7 +6033,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/sb\/sbPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5786,7 +6046,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureCover1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5799,7 +6059,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureCover2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5812,7 +6072,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5825,7 +6085,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5838,7 +6098,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureInside2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5851,7 +6111,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBrochureOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5864,7 +6124,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBusKing.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5877,7 +6137,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmBusTail.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5890,7 +6150,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmExperiments.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5903,7 +6163,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5916,7 +6176,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmInfluence.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5929,7 +6189,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmLetterhead.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5942,7 +6202,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmLetterheadDetail1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5955,7 +6215,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmLetterheadInside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -5968,7 +6228,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmLetterheadOutside1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6001,7 +6261,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmPosters.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6014,7 +6274,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6027,7 +6287,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/shm\/shmSubway.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6040,7 +6300,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaBobby.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6053,7 +6313,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaGemma.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6066,7 +6326,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6079,7 +6339,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaJax.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6092,7 +6352,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6105,7 +6365,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6118,7 +6378,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6131,7 +6391,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6144,7 +6404,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6157,7 +6417,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTest6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6178,7 +6438,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6191,7 +6451,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6204,7 +6464,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline3.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6217,7 +6477,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline4.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6230,7 +6490,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline5.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6243,7 +6503,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline6.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6254,6 +6514,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/soa\/soaTimeline7.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tg\/tgHero.jpeg" : {
+      "ft" : 16384,
+      "iS" : 18134,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tg\/tgHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -6269,7 +6542,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolCoverStack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6292,7 +6565,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolInside.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6305,7 +6578,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolInsideMap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6318,7 +6591,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolLocations.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6331,7 +6604,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolOutsideBack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6344,7 +6617,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6357,7 +6630,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolStack.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6370,7 +6643,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tol\/tolTrainMap.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6383,7 +6656,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsBrochureCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6396,7 +6669,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsBrochureSpread1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6409,7 +6682,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsBuildingPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6420,8 +6693,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsHero.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6435,7 +6708,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsInspiration1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6448,7 +6721,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsInspiration2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6471,7 +6744,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsPoster.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6484,7 +6757,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsWebBanner.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6497,7 +6770,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tps\/tpsWorkTogether.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6510,7 +6783,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6543,7 +6816,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphNavProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6556,7 +6829,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphProcess.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6569,7 +6842,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphRadio.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6602,6 +6875,123 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/triumph\/triumphUI.mp4",
       "oF" : 0
     },
+    "\/deploy\/imglg\/case-studies\/tt\/Icons.png" : {
+      "ft" : 32768,
+      "iS" : 10468,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Icons.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PersonaContentCreator.png" : {
+      "ft" : 32768,
+      "iS" : 412775,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaContentCreator.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PersonaViewer.png" : {
+      "ft" : 32768,
+      "iS" : 347727,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaViewer.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/PrototypeFinal.png" : {
+      "ft" : 32768,
+      "iS" : 1948055,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PrototypeFinal.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/SprintMap.png" : {
+      "ft" : 32768,
+      "iS" : 330900,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/SprintMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Stickers.png" : {
+      "ft" : 32768,
+      "iS" : 43608,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Stickers.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/ttHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 96138,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/ttHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Typeface.png" : {
+      "ft" : 32768,
+      "iS" : 25417,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Typeface.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/tt\/Wireframe.png" : {
+      "ft" : 32768,
+      "iS" : 1204925,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Wireframe.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/case-studies\/un\/unHero.jpg" : {
       "ft" : 16384,
       "iS" : 4248344,
@@ -6610,7 +7000,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6623,7 +7013,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unPosterFull.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6636,7 +7026,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unPosterHanging.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6649,7 +7039,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unPosterMockup.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6662,7 +7052,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unProcess1.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6675,7 +7065,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/un\/unProcess2.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6686,8 +7076,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/global\/favicon\/Favicon.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6702,6 +7092,32 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/imglg\/global\/FooterFlower.png" : {
+      "ft" : 32768,
+      "iS" : 48365,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/global\/FooterFlower.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/global\/GenericImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 23272,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/global\/GenericImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/imglg\/global\/logo\/LogoDarkPurple.svg" : {
       "ft" : 2097152,
@@ -6741,7 +7157,33 @@
       "oAP" : "\/deploy\/imglg\/index\/Hero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/HeroFlower1.png" : {
+      "ft" : 32768,
+      "iS" : 45523,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/HeroFlower1.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/HeroFlower2.png" : {
+      "ft" : 32768,
+      "iS" : 58407,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/HeroFlower2.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6754,7 +7196,7 @@
       "oAP" : "\/deploy\/imglg\/index\/HeroGrey.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6767,7 +7209,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/AntiCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6780,7 +7222,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/ATDCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6793,7 +7235,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/BKCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6806,7 +7248,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/ClCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6819,7 +7261,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/FenderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6832,7 +7274,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/ICMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6845,7 +7287,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/MCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6878,7 +7320,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/ONCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6891,7 +7333,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/AntiCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6917,7 +7359,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/BKCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6930,7 +7372,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/ClCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6943,7 +7385,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/FenderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6956,7 +7398,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/ICMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6969,7 +7411,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/MCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6982,7 +7424,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/ONCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6995,7 +7437,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/QVCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7008,7 +7450,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7021,7 +7463,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SBCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7034,7 +7476,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7047,7 +7489,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SHMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7060,7 +7502,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/SoACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7073,7 +7515,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TargetCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7086,7 +7528,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7099,7 +7541,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7112,7 +7554,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/ToLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7125,7 +7567,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TPSCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7138,7 +7580,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7151,7 +7593,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/purple\/UnCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7164,7 +7606,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/QVCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7177,7 +7619,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/SACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7190,7 +7632,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/SBCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7203,7 +7645,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7216,7 +7658,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/SHMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7229,7 +7671,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/SoACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7242,7 +7684,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/TargetCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7255,7 +7697,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/TCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7268,7 +7710,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7281,7 +7723,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/ToLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7294,14 +7736,14 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/TPSCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/deploy\/imglg\/index\/projects\/TTCover.jpg" : {
       "ft" : 16384,
-      "iS" : 307373,
+      "iS" : 1370989,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/projects\/TTCover.jpg",
@@ -7320,7 +7762,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/UnCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -7329,7 +7771,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
@@ -7338,7 +7780,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/js\/scripts-min-min.js",
       "oF" : 0,
       "sC" : 3,
@@ -7348,7 +7790,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/Movebo.html",
       "oF" : 0
     },
@@ -7356,15 +7798,23 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/OscarNiemeyer.html",
+      "oF" : 0
+    },
+    "\/deploy\/PageNotFound.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/deploy\/PageNotFound.html",
       "oF" : 0
     },
     "\/deploy\/QueenVillage.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/QueenVillage.html",
       "oF" : 0
     },
@@ -7372,7 +7822,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/resume.html",
       "oF" : 0
     },
@@ -7380,7 +7830,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/Salt&Age.html",
       "oF" : 0
     },
@@ -7388,7 +7838,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/ScienceHistoryMuseum.html",
       "oF" : 0
     },
@@ -7404,7 +7854,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/SonsOfAnarchy.html",
       "oF" : 0
     },
@@ -7412,7 +7862,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/SouthwarkBermondsey.html",
       "oF" : 0
     },
@@ -7420,7 +7870,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/ThePhiladelphiaSchool.html",
       "oF" : 0
     },
@@ -7428,15 +7878,23 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/TikTok.html",
+      "oF" : 0
+    },
+    "\/deploy\/TinderGamification.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/TinderGamification.html",
       "oF" : 0
     },
     "\/deploy\/TriumphUI.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/TriumphUI.html",
       "oF" : 0
     },
@@ -7444,7 +7902,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/TypefacesOfLondon.html",
       "oF" : 0
     },
@@ -7452,25 +7910,9 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/unLikable.html",
       "oF" : 0
-    },
-    "\/deploy\/wydradesigns.htaccess" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/wydradesigns.htaccess",
-      "oF" : 0
-    },
-    "\/dev\/404.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/404.html",
-      "oF" : 2
     },
     "\/dev\/404\/404main.kit" : {
       "cB" : 0,
@@ -7936,6 +8378,22 @@
       "oAP" : "\/dev\/case-studies\/soa\/soaHero.html",
       "oF" : 0
     },
+    "\/dev\/case-studies\/tg\/tgArticle.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgArticle.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tg\/tgHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tg\/tgHero.html",
+      "oF" : 0
+    },
     "\/dev\/case-studies\/tol\/tolGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8000,12 +8458,20 @@
       "oAP" : "\/dev\/case-studies\/triumph\/triumphText1.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttGallery.kit" : {
+    "\/dev\/case-studies\/tt\/ttAudience.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttGallery.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttBranding.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/tt\/ttHero.kit" : {
@@ -8024,20 +8490,52 @@
       "oAP" : "\/dev\/case-studies\/tt\/ttIntro.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttText1.kit" : {
+    "\/dev\/case-studies\/tt\/ttOutcomes.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttText1.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttOutcomes.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/tt\/ttText3.kit" : {
+    "\/dev\/case-studies\/tt\/ttProblem.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/tt\/ttText3.html",
+      "oAP" : "\/dev\/case-studies\/tt\/ttProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttRoles.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tt\/ttScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tt\/ttScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/un\/unGallery.kit" : {
@@ -8063,6 +8561,22 @@
       "oA" : 0,
       "oAP" : "\/deploy\/Clarendon.html",
       "oF" : 2
+    },
+    "\/dev\/components\/caseStudyPreFooter.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/caseStudyPreFooter.html",
+      "oF" : 0
+    },
+    "\/dev\/components\/caseStudyProgress.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/components\/caseStudyProgress.html",
+      "oF" : 0
     },
     "\/dev\/Fender.kit" : {
       "cB" : 0,
@@ -8092,7 +8606,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/global\/face.html",
       "oF" : 0
     },
@@ -8126,14 +8640,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/head\/favicon.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/head\/font-awesome.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/head\/font-awesome.html",
       "oF" : 0
     },
     "\/dev\/global\/head\/fonts.kit" : {
@@ -8176,22 +8682,6 @@
       "oAP" : "\/dev\/global\/logo.html",
       "oF" : 0
     },
-    "\/dev\/global\/nav-background.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/nav-background.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/navigation.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/navigation.html",
-      "oF" : 0
-    },
     "\/dev\/IceCreamMuseum.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8220,8 +8710,32 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/index\/indexIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexMarquee.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexMarquee.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectFour.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectFour.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectOne.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectOne.html",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectsList.kit" : {
@@ -8230,6 +8744,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectsList.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectsListOld.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexProjectsListOld.txt",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectThree.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectThree.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexProjectTwo.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectTwo.html",
       "oF" : 0
     },
     "\/dev\/js\/burger\/burger-click.js" : {
@@ -8276,6 +8814,83 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/js\/components\/buttons-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/components\/buttons-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/components\/buttons.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/dev\/js\/components\/buttons-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/components\/case-study-pre-footer.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/components\/case-study-pre-footer-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/components\/case-study-progress.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/components\/case-study-progress-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/index-intro.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/index-intro-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/index-marquee.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/index-marquee-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
+    "\/dev\/js\/index-projectlist.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 1,
+      "oAP" : "\/dev\/js\/index-projectlist-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/dev\/js\/navigation.js" : {
       "bF" : 0,
       "ft" : 64,
@@ -8314,6 +8929,14 @@
       "oAP" : "\/deploy\/OscarNiemeyer.html",
       "oF" : 2
     },
+    "\/dev\/PageNotFound.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/404.html",
+      "oF" : 2
+    },
     "\/dev\/QueenVillage.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8330,19 +8953,35 @@
       "oAP" : "\/deploy\/resume.html",
       "oF" : 2
     },
+    "\/dev\/resume\/resumeActivities.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeActivities.html",
+      "oF" : 0
+    },
     "\/dev\/resume\/resumeActivities.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeActivities.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeCourses.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeCourses.html",
       "oF" : 0
     },
     "\/dev\/resume\/resumeCourses.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeCourses.html",
       "oF" : 0
     },
@@ -8362,11 +9001,27 @@
       "oAP" : "\/dev\/resume\/resumeExperience.html",
       "oF" : 0
     },
-    "\/dev\/resume\/resumeHonors.kit" : {
+    "\/dev\/resume\/resumeHero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
+      "oAP" : "\/dev\/resume\/resumeHero.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeHonors.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/resume\/resumeHonors.html",
+      "oF" : 0
+    },
+    "\/dev\/resume\/resumeHonors.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
       "oAP" : "\/dev\/resume\/resumeHonors.html",
       "oF" : 0
     },
@@ -8397,6 +9052,7 @@
     "\/dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8411,6 +9067,7 @@
     "\/dev\/scss\/base\/_normalize.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8425,6 +9082,7 @@
     "\/dev\/scss\/base\/_typography.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8439,6 +9097,7 @@
     "\/dev\/scss\/components\/_buttons.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8450,9 +9109,55 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/components\/_caseStudyComponents.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_caseStudyComponents.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_caseStudyPreFooter.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_caseStudyPreFooter.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/components\/_chips.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/components\/_chips.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/components\/_forms.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8464,29 +9169,61 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_nav-background.scss" : {
+    "\/dev\/scss\/components\/_heroes.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_nav-background.css",
+      "oAP" : "\/dev\/scss\/components\/_heroes.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/components\/_navigation.scss" : {
+    "\/dev\/scss\/components\/_icons.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oAP" : "\/dev\/scss\/components\/_icons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/helpers\/_colorVariables.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_colorVariables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/helpers\/_elevationStyles.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_elevationStyles.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -8495,6 +9232,7 @@
     "\/dev\/scss\/helpers\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8506,15 +9244,31 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/helpers\/_variables.scss" : {
+    "\/dev\/scss\/helpers\/_paddingVariables.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/helpers\/_variables.css",
+      "oAP" : "\/dev\/scss\/helpers\/_paddingVariables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/helpers\/_screenVariables.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/helpers\/_screenVariables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -8523,6 +9277,7 @@
     "\/dev\/scss\/layout\/_csFooter.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8537,6 +9292,7 @@
     "\/dev\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8551,6 +9307,7 @@
     "\/dev\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8565,6 +9322,7 @@
     "\/dev\/scss\/sections\/404\/_404main.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8579,6 +9337,7 @@
     "\/dev\/scss\/sections\/about\/_aboutHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8593,6 +9352,7 @@
     "\/dev\/scss\/sections\/about\/_aboutWho.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8607,6 +9367,7 @@
     "\/dev\/scss\/sections\/case-studies\/_antiGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8621,6 +9382,7 @@
     "\/dev\/scss\/sections\/case-studies\/_antiHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8635,6 +9397,7 @@
     "\/dev\/scss\/sections\/case-studies\/_antiIntro.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8649,6 +9412,7 @@
     "\/dev\/scss\/sections\/case-studies\/_antiText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8663,6 +9427,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdColor.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8677,6 +9442,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8691,6 +9457,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8705,6 +9472,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdIconography.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8719,6 +9487,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdImagery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8733,6 +9502,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdIntro.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8747,6 +9517,7 @@
     "\/dev\/scss\/sections\/case-studies\/_atdLogo.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8761,6 +9532,7 @@
     "\/dev\/scss\/sections\/case-studies\/_bkGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8775,6 +9547,7 @@
     "\/dev\/scss\/sections\/case-studies\/_bkHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8789,6 +9562,7 @@
     "\/dev\/scss\/sections\/case-studies\/_clGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8803,6 +9577,7 @@
     "\/dev\/scss\/sections\/case-studies\/_clHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8817,6 +9592,7 @@
     "\/dev\/scss\/sections\/case-studies\/_fenderGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8831,6 +9607,7 @@
     "\/dev\/scss\/sections\/case-studies\/_fenderHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8845,6 +9622,7 @@
     "\/dev\/scss\/sections\/case-studies\/_fenderText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8859,6 +9637,7 @@
     "\/dev\/scss\/sections\/case-studies\/_icmGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8873,6 +9652,7 @@
     "\/dev\/scss\/sections\/case-studies\/_icmHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8887,6 +9667,7 @@
     "\/dev\/scss\/sections\/case-studies\/_icmText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8901,6 +9682,7 @@
     "\/dev\/scss\/sections\/case-studies\/_mGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8915,6 +9697,7 @@
     "\/dev\/scss\/sections\/case-studies\/_mHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8929,6 +9712,7 @@
     "\/dev\/scss\/sections\/case-studies\/_onGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8943,6 +9727,7 @@
     "\/dev\/scss\/sections\/case-studies\/_onHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8957,6 +9742,7 @@
     "\/dev\/scss\/sections\/case-studies\/_qvGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8971,6 +9757,7 @@
     "\/dev\/scss\/sections\/case-studies\/_qvHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8985,6 +9772,7 @@
     "\/dev\/scss\/sections\/case-studies\/_qvText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -8999,6 +9787,7 @@
     "\/dev\/scss\/sections\/case-studies\/_saGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9013,6 +9802,7 @@
     "\/dev\/scss\/sections\/case-studies\/_saHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9027,6 +9817,7 @@
     "\/dev\/scss\/sections\/case-studies\/_saText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9041,6 +9832,7 @@
     "\/dev\/scss\/sections\/case-studies\/_sbGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9055,6 +9847,7 @@
     "\/dev\/scss\/sections\/case-studies\/_sbHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9069,6 +9862,7 @@
     "\/dev\/scss\/sections\/case-studies\/_shmGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9083,6 +9877,7 @@
     "\/dev\/scss\/sections\/case-studies\/_shmHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9097,6 +9892,7 @@
     "\/dev\/scss\/sections\/case-studies\/_shmText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9111,6 +9907,7 @@
     "\/dev\/scss\/sections\/case-studies\/_shmText3.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9125,6 +9922,7 @@
     "\/dev\/scss\/sections\/case-studies\/_soaGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9139,6 +9937,7 @@
     "\/dev\/scss\/sections\/case-studies\/_soaHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9150,9 +9949,25 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/case-studies\/_tgHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_tgHero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/case-studies\/_tolGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9167,6 +9982,7 @@
     "\/dev\/scss\/sections\/case-studies\/_tolHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9181,6 +9997,7 @@
     "\/dev\/scss\/sections\/case-studies\/_tpsGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9195,6 +10012,7 @@
     "\/dev\/scss\/sections\/case-studies\/_tpsHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9209,6 +10027,7 @@
     "\/dev\/scss\/sections\/case-studies\/_tpsText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9223,6 +10042,7 @@
     "\/dev\/scss\/sections\/case-studies\/_triumphGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9237,6 +10057,7 @@
     "\/dev\/scss\/sections\/case-studies\/_triumphHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9251,6 +10072,7 @@
     "\/dev\/scss\/sections\/case-studies\/_triumphText1.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9262,9 +10084,40 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/case-studies\/_ttBranding.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_ttBranding.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/case-studies\/_ttHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_ttHero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/case-studies\/_unGallery.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9279,6 +10132,7 @@
     "\/dev\/scss\/sections\/case-studies\/_unHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9293,6 +10147,7 @@
     "\/dev\/scss\/sections\/index\/_indexHero.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9307,6 +10162,7 @@
     "\/dev\/scss\/sections\/index\/_indexIntro.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9318,9 +10174,40 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/index\/_indexMarquee.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexMarquee.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/index\/_indexProjectFour.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectFour.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/index\/_indexProjectList.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9332,9 +10219,55 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/index\/_indexProjectOne.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectOne.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/index\/_indexProjectThree.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectThree.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/index\/_indexProjectTwo.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectTwo.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/resume\/_resumeActivities.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9349,6 +10282,7 @@
     "\/dev\/scss\/sections\/resume\/_resumeCourses.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9363,6 +10297,7 @@
     "\/dev\/scss\/sections\/resume\/_resumeEducation.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9377,6 +10312,7 @@
     "\/dev\/scss\/sections\/resume\/_resumeExperience.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9391,6 +10327,7 @@
     "\/dev\/scss\/sections\/resume\/_resumeHonors.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9405,6 +10342,7 @@
     "\/dev\/scss\/sections\/resume\/_resumeSkills.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9419,6 +10357,7 @@
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
+      "co" : 0,
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
@@ -9462,6 +10401,14 @@
       "oAP" : "\/deploy\/TikTok.html",
       "oF" : 2
     },
+    "\/dev\/TinderGamification.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/TinderGamification.html",
+      "oF" : 2
+    },
     "\/dev\/TriumphUI.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -9485,6 +10432,28 @@
       "oA" : 0,
       "oAP" : "\/deploy\/unLikable.html",
       "oF" : 2
+    },
+    "\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/node_modules",
+      "oF" : 0
+    },
+    "\/package-lock.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-lock-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
+    },
+    "\/package.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/package-min.json",
+      "oF" : 0,
+      "oO" : 0,
+      "oS" : 1
     }
   },
   "hooks" : [
@@ -9496,10 +10465,10 @@
   "projectAttributes" : {
     "creationDate" : 609447083.19991195,
     "displayValue" : "wydradesigns",
-    "displayValueWasSetByUser" : 0,
+    "displayValueWasSetByUser" : 1,
     "iconImageName" : "\/deploy\/img\/global\/favicon\/Favicon.png",
     "iconImageWasSetByUser" : 1,
-    "lastBuiltDate" : 609447799.49626696
+    "lastBuiltDate" : 720908985.52369499
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -9793,152 +10762,14 @@
     "bowerUseExactVersion" : 0,
     "browserRefreshDelay" : 0,
     "browserslistString" : ">0.2%, last 2 versions, Firefox ESR, not dead",
-    "buildEnvironment" : 0,
+    "buildEnvironment" : 1,
     "buildFolderActive" : 0,
     "buildFolderName" : "build",
     "cleanBuild" : 1,
-    "coffeeLintFlags2" : {
-      "arrow_spacing" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camel_case_classes" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "colon_assignment_spacing" : {
-        "active" : 0,
-        "flagValue" : 1
-      },
-      "cyclomatic_complexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "duplicate_key" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "ensure_comprehensions" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "indentation" : {
-        "active" : 1,
-        "flagValue" : 2
-      },
-      "line_endings" : {
-        "active" : 0,
-        "flagValue" : 0
-      },
-      "max_line_length" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "missing_fat_arrows" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newlines_after_classes" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "no_backticks" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_debugger" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_empty_functions" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_empty_param_list" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_implicit_braces" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_implicit_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_interpolation_in_single_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_nested_string_interpolation" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_private_function_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_stand_alone_at" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_tabs" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_throwing_strings" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_semicolons" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_trailing_whitespace" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "no_unnecessary_double_quotes" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "no_unnecessary_fat_arrows" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "non_empty_constructor_needs_parens" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prefer_english_operator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "space_operators" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "spacing_after_comma" : {
-        "active" : 1,
-        "flagValue" : -1
-      }
-    },
     "cssoForceMediaMerge" : 0,
     "cssoRestructure" : 1,
     "environmentVariableEntries" : [
-      "NODE_ENV:::production"
+      "NODE_ENV:::development"
     ],
     "esLintConfigFileHandlingType" : 0,
     "esLintECMAVersion" : 7,
@@ -9987,10 +10818,6 @@
         "active" : 0,
         "optionString" : "'1tbs', {'allowSingleLine': true}"
       },
-      "callback-return" : {
-        "active" : 0,
-        "optionString" : "['callback', 'cb', 'next']"
-      },
       "camelcase" : {
         "active" : 0,
         "optionString" : "{'properties': 'always', 'ignoreDestructuring': false, 'ignoreImports': false}"
@@ -10004,7 +10831,7 @@
         "optionString" : "{'exceptMethods': []}"
       },
       "comma-dangle" : {
-        "active" : 1,
+        "active" : 0,
         "optionString" : "'never'"
       },
       "comma-spacing" : {
@@ -10082,6 +10909,10 @@
         "active" : 0,
         "optionString" : "'expression'"
       },
+      "function-call-argument-newline" : {
+        "active" : 0,
+        "optionString" : "'always'"
+      },
       "function-paren-newline" : {
         "active" : 0,
         "optionString" : "'multiline'"
@@ -10094,9 +10925,6 @@
         "active" : 0,
         "optionString" : "{'allowImplicit': false}"
       },
-      "global-require" : {
-        "active" : 0
-      },
       "grouped-accessor-pairs" : {
         "active" : 0,
         "optionString" : "'anyOrder'"
@@ -10104,11 +10932,7 @@
       "guard-for-in" : {
         "active" : 0
       },
-      "handle-callback-err" : {
-        "active" : 0,
-        "optionString" : "'err'"
-      },
-      "id-blacklist" : {
+      "id-denylist" : {
         "active" : 0,
         "optionString" : "'data', 'err', 'e', 'cb', 'callback'"
       },
@@ -10159,6 +10983,10 @@
       "lines-between-class-members" : {
         "active" : 0,
         "optionString" : "'always', {exceptAfterSingleLine: false}"
+      },
+      "logical-assignment-operators" : {
+        "active" : 0,
+        "optionString" : "'always',  {'enforceForIfStatements': false}"
       },
       "max-classes-per-file" : {
         "active" : 0,
@@ -10232,9 +11060,6 @@
         "active" : 0,
         "optionString" : "{'allow': ['~'], 'int32Hint': true}"
       },
-      "no-buffer-constructor" : {
-        "active" : 0
-      },
       "no-caller" : {
         "active" : 0
       },
@@ -10261,6 +11086,9 @@
       },
       "no-const-assign" : {
         "active" : 1
+      },
+      "no-constant-binary-expression" : {
+        "active" : 0
       },
       "no-constant-condition" : {
         "active" : 1,
@@ -10296,6 +11124,9 @@
       "no-dupe-keys" : {
         "active" : 1
       },
+      "no-duplicate-case" : {
+        "active" : 1
+      },
       "no-duplicate-imports" : {
         "active" : 0,
         "optionString" : "{'includeExports': false}"
@@ -10317,6 +11148,9 @@
       "no-empty-pattern" : {
         "active" : 1
       },
+      "no-empty-static-block" : {
+        "active" : 0
+      },
       "no-eq-null" : {
         "active" : 0
       },
@@ -10337,7 +11171,7 @@
       "no-extra-boolean-cast" : {
         "active" : 1
       },
-      "no-extra-labels" : {
+      "no-extra-label" : {
         "active" : 0
       },
       "no-extra-parens" : {
@@ -10348,7 +11182,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -10425,16 +11260,13 @@
         "active" : 0,
         "optionString" : "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
       },
-      "no-mixed-requires" : {
-        "active" : 0,
-        "optionString" : "{'grouping': false, 'allowCall': false }"
-      },
       "no-mixed-spaces-and-tabs" : {
         "active" : 0,
         "optionString" : ""
       },
       "no-multi-assign" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'ignoreNonDeclaration': false}"
       },
       "no-multi-spaces" : {
         "active" : 0,
@@ -10459,10 +11291,7 @@
       "no-new-func" : {
         "active" : 0
       },
-      "no-new-object" : {
-        "active" : 0
-      },
-      "no-new-require" : {
+      "no-new-native-nonconstructor" : {
         "active" : 0
       },
       "no-new-symbol" : {
@@ -10477,6 +11306,9 @@
       "no-obj-calls" : {
         "active" : 1
       },
+      "no-object-constructor" : {
+        "active" : 0
+      },
       "no-octal" : {
         "active" : 1
       },
@@ -10487,18 +11319,9 @@
         "active" : 0,
         "optionString" : "{'props': false}"
       },
-      "no-path-concat" : {
-        "active" : 0
-      },
       "no-plusplus" : {
         "active" : 0,
         "optionString" : "{'allowForLoopAfterthoughts': false}"
-      },
-      "no-process-env" : {
-        "active" : 0
-      },
-      "no-process-exit" : {
-        "active" : 0
       },
       "no-promise-executor-return" : {
         "active" : 0
@@ -10525,9 +11348,6 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
-      },
-      "no-restricted-modules" : {
         "active" : 0,
         "optionString" : ""
       },
@@ -10543,9 +11363,6 @@
         "active" : 0,
         "optionString" : "'except-parens'"
       },
-      "no-return-await" : {
-        "active" : 0
-      },
       "no-script-url" : {
         "active" : 0
       },
@@ -10557,7 +11374,8 @@
         "active" : 0
       },
       "no-sequences" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowInParentheses': true}"
       },
       "no-setter-return" : {
         "active" : 1
@@ -10571,10 +11389,6 @@
       },
       "no-sparse-arrays" : {
         "active" : 1
-      },
-      "no-sync" : {
-        "active" : 0,
-        "optionString" : "{'allowAtRootLevel': false}"
       },
       "no-tabs" : {
         "active" : 0,
@@ -10644,6 +11458,9 @@
       },
       "no-unused-labels" : {
         "active" : 1
+      },
+      "no-unused-private-class-members" : {
+        "active" : 0
       },
       "no-unused-vars" : {
         "active" : 1,
@@ -10763,6 +11580,9 @@
       "prefer-numeric-literals" : {
         "active" : 0
       },
+      "prefer-object-has-own" : {
+        "active" : 0
+      },
       "prefer-object-spread" : {
         "active" : 0
       },
@@ -10795,14 +11615,11 @@
         "optionString" : "'always'"
       },
       "require-atomic-updates" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowProperties': false}"
       },
       "require-await" : {
         "active" : 0
-      },
-      "require-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
       },
       "require-unicode-regexp" : {
         "active" : 0
@@ -10889,10 +11706,6 @@
         "active" : 1,
         "optionString" : "{'enforceForSwitchCase': false, 'enforceForIndexOf': false}"
       },
-      "valid-jsdoc" : {
-        "active" : 0,
-        "optionString" : "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
-      },
       "valid-typeof" : {
         "active" : 1,
         "optionString" : "{'requireStringLiterals': true}"
@@ -10920,355 +11733,7 @@
     "externalServerAddress" : "http:\/\/localhost:8888",
     "gitIgnoreBuildFolder" : 1,
     "hideConfigFile" : 0,
-    "jsCheckerReservedNamesString" : "gsap, ",
-    "jsHintFlags2" : {
-      "asi" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "bitwise" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "boss" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "browserify" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "camelcase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "curly" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "debug" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "dojo" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "elision" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqeqeq" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "eqnull" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es3" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "esnext" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "evil" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "expr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "forin" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "freeze" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "funcscope" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "futurehostile" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "globalstrict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "immed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "indent" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "iterator" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jasmine" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "jquery" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "lastsemic" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "latedef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "laxbreak" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "laxcomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "loopfunc" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxcomplexity" : {
-        "active" : 0,
-        "flagValue" : 10
-      },
-      "maxdepth" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "maxparams" : {
-        "active" : 0,
-        "flagValue" : 3
-      },
-      "maxstatements" : {
-        "active" : 0,
-        "flagValue" : 4
-      },
-      "mocha" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "mootools" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "moz" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "multistr" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "newcap" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noarg" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nocomma" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "noempty" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonbsp" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "nonew" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "nonstandard" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "notypeof" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "noyield" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "onecase" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "phantom" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "plusplus" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "proto" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "prototypejs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "qunit" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "regexp" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "rhino" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "scripturl" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shadow" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "shelljs" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "singleGroups" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "strict" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "sub" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "supernew" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "typed" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "undef" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "unused" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "varstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "withstmt" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "worker" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "wsh" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "yui" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
-    "jsLintFlags2" : {
-      "bitwise" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "browser" : {
-        "active" : 1,
-        "flagValue" : -1
-      },
-      "couch" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "devel" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "es6" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "eval" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "for" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "maxlen" : {
-        "active" : 0,
-        "flagValue" : 150
-      },
-      "node" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "this" : {
-        "active" : 0,
-        "flagValue" : -1
-      },
-      "white" : {
-        "active" : 0,
-        "flagValue" : -1
-      }
-    },
+    "jsCheckerReservedNamesString" : "gsap, ScrollTrigger",
     "languageDefaultsCOFFEE" : {
       "autoOutputAction" : 0,
       "autoOutputPathFilenamePattern" : "*.js",
@@ -11279,7 +11744,6 @@
       "minifierStyle" : 1,
       "outputStyle" : 0,
       "sourceMapStyle" : 0,
-      "syntaxCheckerStyle" : 1,
       "transpilerStyle" : 1
     },
     "languageDefaultsCSS" : {
@@ -11510,11 +11974,12 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
       "sourceMapStyle" : 0,
-      "targetECMAVersion" : 0
+      "targetECMAVersion" : 2018
     },
     "languageDefaultsUserDefined" : [
 
@@ -11566,10 +12031,14 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
+    "rollupTreeshakingModuleSideEffects" : 1,
     "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
+    "tsAllowArbitraryExtensions" : 0,
+    "tsAllowImportingTSExtensions" : 0,
     "tsAllowSyntheticDefaultImports" : 0,
+    "tsAllowUMDGlobalAccess" : 0,
     "tsAllowUnreachableCode" : 0,
     "tsAllowUnusedLabels" : 0,
     "tsAlwaysStrict" : 0,
@@ -11577,34 +12046,37 @@
     "tsEmitBOM" : 0,
     "tsEmitDecoratorMetadata" : 0,
     "tsESModuleInterop" : 0,
+    "tsExactOptionalPropertyTypes" : 0,
+    "tsExperimentalDecorators" : 0,
     "tsForceConsistentCasingInFileNames" : 0,
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
-    "tsKeyofStringsOnly" : 0,
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,
+    "tsNoImplicitOverride" : 0,
     "tsNoImplicitReturns" : 0,
     "tsNoImplicitThis" : 0,
-    "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
     "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
-    "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
     "tsNoUnusedLocals" : 0,
     "tsNoUnusedParameters" : 0,
     "tsPreserveConstEnums" : 0,
     "tsPreserveSymlinks" : 0,
     "tsResolveJsonModule" : 0,
+    "tsSkipDefaultLibCheck" : 0,
     "tsSkipLibCheck" : 0,
+    "tsStrictBindCallApply" : 0,
     "tsStrictFunctionTypes" : 0,
     "tsStrictNullChecks" : 0,
     "tsStrictPropertyInitialization" : 0,
     "tsStripInternal" : 0,
-    "tsSuppressExcessPropertyErrors" : 0,
-    "tsSuppressImplicitAnyIndexErrors" : 0,
+    "tsUseDefineForClassFields" : 0,
+    "tsUseUnknownInCatchVariables" : 0,
+    "tsVerbatimModuleSyntax" : 0,
     "uglifyDefinesString" : "",
     "uglifyFlags2" : {
       "arguments" : {
@@ -11637,7 +12109,7 @@
       },
       "comments" : {
         "active" : 0,
-        "flagValue" : -1
+        "flagValue" : 1
       },
       "comparisons" : {
         "active" : 1,
@@ -11739,6 +12211,10 @@
         "active" : 0,
         "flagValue" : -1
       },
+      "keep_numbers" : {
+        "active" : 0,
+        "flagValue" : -1
+      },
       "keep_quoted_props" : {
         "active" : 0,
         "flagValue" : -1
@@ -11762,6 +12238,10 @@
       "passes" : {
         "active" : 1,
         "flagValue" : 1
+      },
+      "preserve_annotations" : {
+        "active" : 0,
+        "flagValue" : -1
       },
       "properties" : {
         "active" : 1,
@@ -11865,6 +12345,10 @@
       },
       "webkit" : {
         "active" : 0,
+        "flagValue" : -1
+      },
+      "wrap_func_args" : {
+        "active" : 1,
         "flagValue" : -1
       },
       "wrap_iife" : {

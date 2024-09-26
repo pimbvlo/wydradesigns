@@ -2,51 +2,11 @@
     FENDER Text
 ============= */
 #fenderText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
-    > div {
-        article {
-            p {
-                @include margin(0px,0px,48px,0px);
-                @include md {
-                    @include margin(0px,0px,56px,0px);
-                }
-                @include lg {
-                    @include margin(0px,0px,64px,0px);
-                }
-                @include xl {
-                    @include margin(0px,0px,80px,0px);
-                }
-            }
-
-            ul {
-                @include lg {
-                    grid-template-columns: repeat(4,1fr);
-                }
-
-                li {}
-
-                li:nth-child(1) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration1.jpg");
-                }
-
-                li:nth-child(2) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration2.jpg");
-                }
-
-                li:nth-child(3) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration3.jpg");
-                    background-position: 20% center;
-                }
-
-                li:nth-child(4) {
-                    background-image: url("../img/case-studies/fender/fenderInspiration5.jpg");
-                    background-position: 40% center;
-                }
-            }
+    padding-bottom:0px;
+    div{
+        img{
+            aspect-ratio: 1/1;
         }
     }
+
 }

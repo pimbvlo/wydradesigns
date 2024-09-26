@@ -2,54 +2,15 @@
     Attention to Detail Logo
 ============= */
 #atdLogo {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
-
-    > div {
-        article {
-            grid-template-areas: "h2" "icon-grid" "p1";
-            @include sm {
-                grid-template-areas: "h2 h2" "icon-grid ." "p1 .";
-                grid-template-columns: 72% auto;
+    div{
+        justify-content: flex-start;
+        align-items: flex-start;
+        p{
+            @include lg{
+                width: 100%;
+                max-width: 100%;
             }
-            @include md {
-                grid-gap: 24px;
-                grid-template-columns: 50% auto;
-            }
-            @include lg {
-                grid-gap: 32px;
-                grid-template-areas: "h2 h2" "p1 icon-grid";
-            }
-
-            h2 {
-                grid-area: h2;
-            }
-
-            div:nth-child(2) {
-                grid-area: icon-grid;
-
-                ul {
-                    grid-gap: 16px;
-                    display: grid;
-                    grid-template-areas: ". logo .";
-                    grid-template-columns: auto 90% auto;
-
-                    li {
-                        div {}
-                    }
-
-                    li:nth-child(1) {
-                        grid-area: logo;
-                    }
-                }
-            }
-
-            p:nth-child(3) {
-                grid-area: p1;
-            }
-        }
+        }    
     }
 }
 /* =============
@@ -58,8 +19,6 @@
 #atdLogoSVG {
     #atdD,
     .cls-2 {
-        @include dark {
-            fill: #FAFAFA;
-        }
+            fill: white;
     }
 }

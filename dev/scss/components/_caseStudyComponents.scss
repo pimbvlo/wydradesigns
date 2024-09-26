@@ -1,0 +1,240 @@
+/* =============
+    Case Study Components
+============= */
+.article-text {
+    article {
+        display: flex;
+        flex-direction: column;
+        p{
+            max-width: 80ch;
+
+            @include md {
+                width: 80%;
+            }
+            }
+    }
+}
+
+.article-gallery {
+    article {
+        display: flex;
+        flex-direction: column;
+
+        img {
+            aspect-ratio: 3/2;
+        }
+
+        p {
+            max-width: 80ch;
+
+            @include md {
+                width: 80%;
+            }
+        }
+    }
+}
+
+.article-gallery.inverse, .article-text.inverse{
+    background-color: $inverse-surface;
+
+    color: $on-inverse-surface;
+   
+}
+
+.gallery-2-col {
+    display: flex;
+    flex-direction: column;
+
+    @include md {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+}
+
+.gallery-3-col {
+    display: flex;
+    flex-direction: column;
+
+    @include md {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include lg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+.color-palette{
+    background-color: $surface;
+    border-radius: 16px;
+    border: 1px solid $outline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    ul{
+        display: grid;
+        @include md {
+            column-gap: 24px;
+            row-gap: 24px;
+        }
+        li {
+            border-radius: 16px;
+            box-shadow: none;
+            height: 16vw;
+            width: 100%;
+            min-height:100px;
+            min-width: 100px;
+
+            @include md {
+                height: 12vw;
+            }
+
+            @include lg {
+                height: 6vw;
+            }
+
+        }
+
+    }
+}
+// OLD — TO DELETE
+.case-study-intro-image {
+    >div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            grid-template-areas: "p""i";
+
+            @include md {
+                grid-gap: 24px;
+            }
+
+            @include lg {
+                grid-gap: 32px;
+            }
+
+            p {
+                grid-area: "p";
+
+                @include sm {
+                    width: 72%;
+                }
+
+                @include md {
+                    width: 50%;
+                }
+            }
+
+            ul {
+                grid-area: "i";
+                grid-gap: 16px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+
+                @include sm {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @include md {
+                    grid-gap: 24px;
+                }
+
+                @include lg {
+                    grid-template-columns: repeat(3, 1fr);
+                    grid-gap: 32px;
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    height: 240px;
+                    width: 100%;
+
+                    @include md {
+                        height: 280px;
+                    }
+
+                    @include lg {
+                        height: 320px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .case-study-text {
+//     article {
+//         display: flex;
+//         flex-direction: column;
+//         p{
+//             @include md{
+//                 width: 80%;
+//             }
+//             @include xl{
+//                 width: 60%;
+//             }
+//             }
+//     }
+// }
+
+.case-study-gallery {
+    >div {
+        article {
+            grid-gap: 16px;
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+
+            // grid-template-areas: "g";
+            ul {
+                // grid-area: g;
+                grid-gap: 16px;
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                width: 100%;
+
+                @include sm {
+                    grid-template-columns: repeat(2, 1fr);
+                }
+
+                @include md {
+                    grid-gap: 24px;
+                }
+
+                @include lg {
+                    grid-gap: 32px;
+                }
+
+                li {
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.case-study-progress {
+    width: 100%;
+    max-width: 100vw;
+    height: 8px;
+
+    display: inline-block;
+    background-color: $secondary;
+    opacity: 1;
+
+    position: fixed;
+    top: 80px;
+    bottom: auto;
+    z-index: 5000;
+
+}
+.pin-spacer{
+    height: 8px;
+}

@@ -2,16 +2,12 @@
     Resume Honors
 ============= */
 #resumeHonors {
-    > div {
-        display: grid;
-        grid-template-areas: "h&a";
-        grid-template-columns: repeat(1,1fr);
+    >article {
+        display: flex;
+        flex-direction: column;
+
         @include lg {
             width: 75%;
-        }
-
-        article {
-            grid-area: h&a;
         }
     }
 }

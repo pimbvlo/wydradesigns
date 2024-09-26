@@ -3,11 +3,9 @@
 ============= */
 #antiHero {
     background-image: url("../img/case-studies/anti/antiHero.jpg");
-    background-position: center top;
-    @include lg {
-        background-position: center;
-    }
-    @include xl {
-        background-position: center bottom;
+    article{
+        h1{
+            hyphens:manual;
+        }
     }
 }

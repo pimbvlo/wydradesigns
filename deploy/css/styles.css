@@ -2920,39 +2920,39 @@ footer {
 /* =============
     TikTok Branding
 ============= */
-#ttBranding article .color-palette {
-  margin: 0px auto; }
-  #ttBranding article .color-palette ul {
-    display: flex;
-    flex-wrap: wrap; }
-    #ttBranding article .color-palette ul li {
-      width: 100px; }
-      @media (min-width: 768px) {
-        #ttBranding article .color-palette ul li {
-          width: 12vw; } }
-      @media (min-width: 1024px) {
-        #ttBranding article .color-palette ul li {
-          width: 6vw; } }
-    #ttBranding article .color-palette ul li:nth-child(1) {
-      background-color: #08082B; }
-    #ttBranding article .color-palette ul li:nth-child(2) {
-      background-color: #0F0C46; }
-    #ttBranding article .color-palette ul li:nth-child(3) {
-      background-color: #FACD13; }
-    #ttBranding article .color-palette ul li:nth-child(4) {
-      background-color: #F7F7F7;
-      border: 1px solid #D4D4D4; }
-
-#ttBranding article img:nth-child(10) {
-  margin: 0px auto;
-  height: 100%;
-  width: 80%;
-  object-fit: contain;
-  aspect-ratio: auto; }
-
-#ttBranding article div.gallery-2-col {
-  margin: 0px auto;
-  width: 80%; }
+#ttBranding {
+  padding-top: 0px; }
+  #ttBranding article .color-palette {
+    margin: 0px auto; }
+    #ttBranding article .color-palette ul {
+      display: flex;
+      flex-wrap: wrap; }
+      #ttBranding article .color-palette ul li {
+        width: 100px; }
+        @media (min-width: 768px) {
+          #ttBranding article .color-palette ul li {
+            width: 12vw; } }
+        @media (min-width: 1024px) {
+          #ttBranding article .color-palette ul li {
+            width: 6vw; } }
+      #ttBranding article .color-palette ul li:nth-child(1) {
+        background-color: #08082B; }
+      #ttBranding article .color-palette ul li:nth-child(2) {
+        background-color: #0F0C46; }
+      #ttBranding article .color-palette ul li:nth-child(3) {
+        background-color: #FACD13; }
+      #ttBranding article .color-palette ul li:nth-child(4) {
+        background-color: #F7F7F7;
+        border: 1px solid #D4D4D4; }
+  #ttBranding article img:nth-child(10) {
+    margin: 0px auto;
+    height: 100%;
+    width: 80%;
+    object-fit: contain;
+    aspect-ratio: auto; }
+  #ttBranding article div.gallery-2-col {
+    margin: 0px auto;
+    width: 80%; }
 
 /* =============
     TINDER Hero

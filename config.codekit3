@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34590",
   "files" : {
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
+    },
     "\/build\/.gitignore" : {
       "cB" : 0,
       "ft" : 8192,
@@ -29,7 +37,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/404.html",
       "oF" : 0
     },
@@ -7886,7 +7894,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/TinderGamification.html",
       "oF" : 0
     },
@@ -8606,7 +8614,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/global\/face.html",
       "oF" : 0
     },
@@ -8718,7 +8726,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexIntro.html",
       "oF" : 0
     },
@@ -8835,7 +8843,7 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/js\/components\/buttons-min-min.js",
       "oF" : 0,
       "sC" : 3,
@@ -8973,7 +8981,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/resume\/resumeActivities.html",
       "oF" : 0
     },
@@ -8989,7 +8997,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/resume\/resumeCourses.html",
       "oF" : 0
     },
@@ -9029,7 +9037,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/resume\/resumeHonors.html",
       "oF" : 0
     },

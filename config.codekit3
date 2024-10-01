@@ -7,7 +7,7 @@
       "uuidString" : "9501D335-8457-4496-8509-AFB139CFE2D8"
     }
   ],
-  "creatorBuild" : "34576",
+  "creatorBuild" : "34590",
   "files" : {
     "\/build\/.gitignore" : {
       "cB" : 0,
@@ -3013,8 +3013,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/Icons.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3026,8 +3026,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaContentCreator.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3039,8 +3039,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/PersonaViewer.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3052,8 +3052,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/PrototypeFinal.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3104,8 +3104,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/SprintMap.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3117,8 +3117,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/Stickers.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3132,7 +3132,7 @@
       "oAP" : "\/deploy\/img\/case-studies\/tt\/ttHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3143,8 +3143,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/Typeface.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3156,8 +3156,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/img\/case-studies\/tt\/Wireframe.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -3514,7 +3514,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/AntiCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3527,7 +3527,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ATDCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3540,7 +3540,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/BKCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3553,7 +3553,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ClCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3566,7 +3566,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/FenderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3579,7 +3579,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ICMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3592,7 +3592,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/MCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3605,7 +3605,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ONCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3618,7 +3618,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/QVCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3631,7 +3631,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3644,7 +3644,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SBCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3657,7 +3657,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3670,7 +3670,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SHMCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3683,7 +3683,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/SoACover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3696,7 +3696,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TargetCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3709,7 +3709,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3722,7 +3722,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TinderCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3735,7 +3735,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/ToLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3748,7 +3748,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TPSCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3761,7 +3761,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3774,7 +3774,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/purple\/UnCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3826,7 +3826,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/SecondLifeCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -3930,7 +3930,7 @@
       "oAP" : "\/deploy\/img\/index\/projects\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6881,8 +6881,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Icons.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6894,8 +6894,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaContentCreator.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6907,8 +6907,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PersonaViewer.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6920,8 +6920,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/PrototypeFinal.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6933,8 +6933,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/SprintMap.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6946,8 +6946,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Stickers.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -6961,7 +6961,7 @@
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/ttHero.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -6985,8 +6985,8 @@
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/case-studies\/tt\/Wireframe.png",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -7749,7 +7749,7 @@
       "oAP" : "\/deploy\/imglg\/index\/projects\/TTCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -8602,6 +8602,14 @@
       "oAP" : "\/dev\/global\/csFooter.html",
       "oF" : 0
     },
+    "\/dev\/global\/face.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/face.html",
+      "oF" : 0
+    },
     "\/dev\/global\/face.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -8704,6 +8712,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/index\/indexHero.html",
+      "oF" : 0
+    },
+    "\/dev\/index\/indexIntro.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexIntro.html",
       "oF" : 0
     },
     "\/dev\/index\/indexIntro.kit" : {
@@ -10968,10 +10984,6 @@
         "active" : 0,
         "optionString" : "{'before': true, 'after': true, 'overrides': {}}"
       },
-      "line-comment-position" : {
-        "active" : 0,
-        "optionString" : "{'position': 'above'}"
-      },
       "linebreak-style" : {
         "active" : 0,
         "optionString" : "'unix'"
@@ -11023,10 +11035,6 @@
       "max-statements-per-line" : {
         "active" : 0,
         "optionString" : "{'max': 1}"
-      },
-      "multiline-comment-style" : {
-        "active" : 0,
-        "optionString" : "'starred-block'"
       },
       "multiline-ternary" : {
         "active" : 0,
@@ -11169,7 +11177,8 @@
         "active" : 0
       },
       "no-extra-boolean-cast" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'enforceForInnerExpressions': false}"
       },
       "no-extra-label" : {
         "active" : 0
@@ -11254,7 +11263,8 @@
         "optionString" : "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
       },
       "no-misleading-character-class" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'allowEscape': false}"
       },
       "no-mixed-operators" : {
         "active" : 0,
@@ -11622,7 +11632,8 @@
         "active" : 0
       },
       "require-unicode-regexp" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : "{'requireFlag': 'u'}"
       },
       "require-yield" : {
         "active" : 1
@@ -12052,6 +12063,7 @@
     "tsImportHelpers" : 0,
     "tsIsolatedModules" : 0,
     "tsJSXFactory" : "React.createElement",
+    "tsJSXFragmentFactory" : "Fragment",
     "tsNoEmitHelpers" : 0,
     "tsNoFallthroughCasesInSwitch" : 0,
     "tsNoImplicitAny" : 0,

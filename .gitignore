@@ -1,6 +1,8 @@
 # macOS Files
-/.DS_Store
+.DS_Store
 
 #Repository Rules
 #Image Files
-/**/imglg/
+imglg/
+#Build File
+build/

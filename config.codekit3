@@ -17,14 +17,6 @@
       "oAP" : "\/.gitignore",
       "oF" : 0
     },
-    "\/build\/.gitignore" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/build\/.gitignore",
-      "oF" : 0
-    },
     "\/deploy\/.htaccess" : {
       "cB" : 0,
       "ft" : 8192,

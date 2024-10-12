@@ -5,13 +5,14 @@
     article {
         display: flex;
         flex-direction: column;
-        p{
+
+        p {
             max-width: 80ch;
 
             @include md {
                 width: 80%;
             }
-            }
+        }
     }
 }
 
@@ -34,18 +35,24 @@
     }
 }
 
-.article-gallery.inverse, .article-text.inverse{
+.article-gallery.inverse,
+.article-text.inverse {
     background-color: $inverse-surface;
 
     color: $on-inverse-surface;
-   
+
+}
+
+.gallery-1-col {
+    display: flex;
+    flex-direction: column;
 }
 
 .gallery-2-col {
     display: flex;
     flex-direction: column;
 
-    @include md {
+    @include sm {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -56,7 +63,7 @@
     display: flex;
     flex-direction: column;
 
-    @include md {
+    @include sm {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -65,39 +72,182 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
-.color-palette{
-    background-color: $surface;
-    border-radius: 16px;
-    border: 1px solid $outline;
+
+.gallery-4-col {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    ul{
+
+    @include sm {
         display: grid;
-        @include md {
-            column-gap: 24px;
-            row-gap: 24px;
-        }
-        li {
-            border-radius: 16px;
-            box-shadow: none;
-            height: 16vw;
-            width: 100%;
-            min-height:100px;
-            min-width: 100px;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    @include lg {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        align-items: center;
+    }
+
+}
+
+.color-palette-group {
+    display: grid;
+
+    @include md {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include lg {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .color-palette {
+        background-color: $surface;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        div {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
 
             @include md {
-                height: 12vw;
+                column-gap: 24px;
+                row-gap: 24px;
             }
 
-            @include lg {
-                height: 6vw;
-            }
+            svg {
+                height: 20vw;
+                width: 20vw;
+                border-radius: 100px;
 
+                @include md {
+                    height: 10vw;
+                    width: 10vw;
+                }
+                @include lg {
+                    height: 5vw;
+                    width: 5vw;
+                }
+
+                ellipse {
+                    cx: 50%;
+                    cy: 50%;
+                    rx: 49%;
+                    ry: 49%;
+                    fill: cornflowerblue;
+                    // stroke:green;
+                    // stroke-width:3px;
+                    border: 4px solid red;
+                }
+            }
         }
-
     }
 }
+
+
+// CASE STUDY TYPOGRAPHY EXAMPLE
+// <div class="case-study-typography gap-v gap-h padding-tb padding-lr">
+// <ul class="case-study-typography-font-title elevation-5">
+//     <li class="[Font Class]">
+//          Aa
+//     </li>
+//     <li>
+//          [Font Name Title Case]
+//     </li>
+// </ul>
+// <ul class="case-study-typography-type-style">
+//     <li>
+//         [Font Style Title Case] [Repeat whole section as needed]
+//     </li>
+//     <li>
+//         [Font Name Title Case]
+//     </li>
+//     <li>
+//         [Font Size #]px
+//     </li>
+// </ul>
+// </div>
+
+.open-sans-font {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth"100;
+    line-height: 100%;
+}
+
+.case-study-typography {
+    background-color: $surface;
+    border-radius: 16px;
+    // border: 1px solid $outline-variant;
+    display: flex;
+    flex-direction: column;
+    font-size: rem-calc(18);
+    line-height: unset;
+    color: $on-background;
+
+    @include lg {
+        flex-direction: row;
+        width: 80vw;
+        max-width: 1024px;
+        margin: 0px auto;
+    }
+
+    .case-study-typography-font-title {
+        padding: 24px;
+        background-color: $white;
+        border-radius: 4px;
+        height: auto;
+
+        @include md {
+            width: 140px;
+        }
+
+        li:nth-child(1) {
+            font-size: rem-calc(56);
+            text-align: center;
+            color: $black;
+        }
+
+        li:nth-child(2) {
+            margin-top: 20px;
+            border-top: 1px solid $outline;
+            padding-top: 16px;
+            color: $on-surface-variant;
+        }
+    }
+
+    div {
+        @include lg {
+            width: 100%;
+        }
+
+        .case-study-typography-type-style {
+            li:nth-child(1) {
+                color: $black;
+                height: 24px;
+            }
+
+            li:nth-child(2) {
+                padding-top: 16px;
+                padding-bottom: 4px;
+            }
+
+            li:nth-child(2),
+            li:nth-child(3) {
+                font-variation-settings: "slnt"0, "wdth"100, "wght"500, "INKT"100;
+                color: $on-surface-variant;
+            }
+        }
+    }
+}
+
 // OLD — TO DELETE
 .case-study-intro-image {
     >div {
@@ -235,6 +385,7 @@
     z-index: 5000;
 
 }
-.pin-spacer{
+
+.pin-spacer {
     height: 8px;
 }

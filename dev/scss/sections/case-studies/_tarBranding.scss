@@ -1,0 +1,52 @@
+/* =============
+    TARGET Branding
+============= */
+#tarBranding {
+    padding-top: 0px;
+
+    article {
+        .case-study-typography {
+            div {
+                .case-study-typography-type-style:nth-of-type(1) {
+                    li:nth-child(1) {
+                        font-size: 18px;
+                        font-weight: 700;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(2) {
+                    li:nth-child(1) {
+                        font-size: 18px;
+                        font-weight: 400;
+                        letter-spacing: 0.5px;
+                        text-transform: none;
+
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(3) {
+                    li:nth-child(1) {
+                        font-size: 16px;
+                        font-weight: 700;
+                        letter-spacing: 1px;
+                        text-transform: uppercase;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(4) {
+
+                    li:nth-child(1) {
+                        font-size: 12px;
+                        font-weight: 700;
+                        letter-spacing: 0.4px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.color-palette {
+    margin: 0px auto;
+}

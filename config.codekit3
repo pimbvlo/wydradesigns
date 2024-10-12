@@ -2640,6 +2640,227 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/case-studies\/tar\/Affinity Map.jpg" : {
+      "ft" : 16384,
+      "iS" : 569879,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/Affinity Map.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/AffinityMap.png" : {
+      "ft" : 32768,
+      "iS" : 404299,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/AffinityMap.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/LeanCanvas.jpg" : {
+      "ft" : 16384,
+      "iS" : 348357,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/LeanCanvas.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot1.png" : {
+      "ft" : 32768,
+      "iS" : 24052,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot2.png" : {
+      "ft" : 32768,
+      "iS" : 193308,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot3.png" : {
+      "ft" : 32768,
+      "iS" : 21522,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot3.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot4.png" : {
+      "ft" : 32768,
+      "iS" : 35934,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot4.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot5.png" : {
+      "ft" : 32768,
+      "iS" : 39820,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot5.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot6.png" : {
+      "ft" : 32768,
+      "iS" : 39277,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot6.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot7.png" : {
+      "ft" : 32768,
+      "iS" : 39253,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot7.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot8.png" : {
+      "ft" : 32768,
+      "iS" : 32229,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/PrototypeScreenShot8.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/StoryMap.jpg" : {
+      "ft" : 16384,
+      "iS" : 216705,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/StoryMap.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/TargetSketch1.jpg" : {
+      "ft" : 16384,
+      "iS" : 317321,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/TargetSketch1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/TargetSketch2.jpg" : {
+      "ft" : 16384,
+      "iS" : 351192,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/TargetSketch2.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/TargetTina.jpg" : {
+      "ft" : 16384,
+      "iS" : 195197,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/TargetTina.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/TargetTravis.jpg" : {
+      "ft" : 16384,
+      "iS" : 223299,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/TargetTravis.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/tar\/tarHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 184478,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/tarHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/case-studies\/tg\/tgHero.jpeg" : {
       "ft" : 16384,
       "iS" : 18134,
@@ -8579,6 +8800,14 @@
       "oAP" : "\/deploy\/SouthwarkBermondsey.html",
       "oF" : 0
     },
+    "\/deploy\/Target.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Target.html",
+      "oF" : 0
+    },
     "\/deploy\/ThePhiladelphiaSchool.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9089,6 +9318,78 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/soa\/soaHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarAudience.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarProblem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/tar\/tarRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/tar\/tarRoles.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/tg\/tgArticle.kit" : {
@@ -10678,6 +10979,51 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/case-studies\/_tarBranding.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_tarBranding.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/case-studies\/_tarHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_tarHero.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
+    "\/dev\/scss\/sections\/case-studies\/_tarPrototyping.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_tarPrototyping.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/case-studies\/_tgHero.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -11112,6 +11458,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/SouthwarkBermondsey.html",
+      "oF" : 2
+    },
+    "\/dev\/Target.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Target.html",
       "oF" : 2
     },
     "\/dev\/ThePhiladelphiaSchool.kit" : {

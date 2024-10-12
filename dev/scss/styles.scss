@@ -5,6 +5,7 @@
 @import "helpers/_screenVariables";
 @import "helpers/_colorVariables";
 @import "helpers/_paddingVariables";
+@import "helpers/_elevationStyles";
 
 
 // Base Styles
@@ -118,6 +119,11 @@
 @import "sections/case-studies/_tpsHero";
 @import "sections/case-studies/_tpsText1";
 @import "sections/case-studies/_tpsGallery";
+
+// TARGET CASE STUDY
+@import "sections/case-studies/_tarHero.scss";
+@import "sections/case-studies/_tarPrototyping.scss";
+@import "sections/case-studies/_tarBranding.scss";
 
 // TIKTOK RESEARCH
 @import "sections/case-studies/_ttHero.scss";

@@ -17,11 +17,7 @@
 }
 
 .gap-h {
-    column-gap: 20px;
-
-    @include md {
-        column-gap: 24px;
-    }
+    column-gap: 24px;
 
     @include lg {
         column-gap: 36px;
@@ -30,11 +26,7 @@
 }
 
 .gap-v {
-    row-gap: 20px;
-
-    @include md {
-        row-gap: 24px;
-    }
+    row-gap: 24px;
 
     @include lg {
         row-gap: 36px;
@@ -43,14 +35,8 @@
 }
 
 .padding-tb {
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-    @include md {
-        padding-top: 24px;
-        padding-bottom: 24px;
-
-    }
+    padding-top: 24px;
+    padding-bottom: 24px;
 
     @include lg {
         padding-top: 36px;
@@ -60,15 +46,8 @@
 }
 
 .padding-lr {
-    padding-right: 20px;
-    padding-left: 20px;
-
-
-    @include md {
-        padding-right: 24px;
-        padding-left: 24px;
-
-    }
+    padding-right: 24px;
+    padding-left: 24px;
 
     @include lg {
         padding-right: 36px;

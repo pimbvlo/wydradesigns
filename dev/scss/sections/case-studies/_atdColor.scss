@@ -3,94 +3,103 @@
 ============= */
 #atdColor {
     article {
-        >div {
-            display: grid;
-
-            @include md {
-                grid-template-columns: repeat(2, 1fr);
-            }
-
-            @include lg {
-                grid-template-columns: repeat(3, 1fr);
-            }
-
+        .color-palette-group {
             .color-palette {
-
-                ul {
-                    grid-template-columns: repeat(3, 1fr);
-
-
-
-
-                    :nth-child(1) {
-                        background-color: #FCFCFC;
+                div {
+                    svg:nth-of-type(1) {
                         box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+                        circle {
+                            fill: #FCFCFC;
+                        }
                     }
 
-                    :nth-child(2) {
-                        background-color: #E9E8E7;
+                    svg:nth-of-type(2) {
+
+                        circle {
+                            fill: #E9E8E7;
+                        }
                     }
 
-                    :nth-child(3) {
-                        background-color: #1A1A1A;
+                    svg:nth-of-type(3) {
+
+                        circle {
+                            fill: #1A1A1A;
+                        }
                     }
 
-                    :last-child {
-                        background-color: #FFBF00;
+                    svg:last-child {
+                        circle {
+                            fill: #FFBF00;
+                        }
                     }
-
-
                 }
 
             }
 
-            div:nth-child(1) {
-                ul {
-                    li:nth-child(4) {
-                        background-color: #10DAD7;
-                    }
+        }
 
-                    li:nth-child(5) {
-                        background-color: #003A4C;
+        .color-palette:nth-of-type(1) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #10DAD7;
                     }
-
                 }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #003A4C;
+                    }
+                }
+
             }
+        }
 
-            div:nth-child(2) {
-                ul {
-                    li:nth-child(4) {
-                        background-color: #F28092;
+        .color-palette:nth-of-type(2) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #F28092;
                     }
-
-                    li:nth-child(5) {
-                        background-color: #E60026;
-                    }
-
-                    li:nth-child(6) {
-                        background-color: #72051B;
-                    }
-
-
-
                 }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #E60026;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    circle {
+                        fill: #72051B;
+                    }
+                }
+
+
+
             }
+        }
 
-            div:nth-child(3) {
-                ul {
-                    li:nth-child(4) {
-                        background-color: #B89FDF;
+        .color-palette:nth-of-type(3) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #B89FDF;
                     }
-
-                    li:nth-child(5) {
-                        background-color: #7140BF;
-                    }
-
-                    li:nth-child(6) {
-                        background-color: #382468;
-                    }
-
                 }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #7140BF;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    circle {
+                        fill: #382468;
+                    }
+                }
+
             }
         }
     }

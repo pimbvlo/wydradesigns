@@ -8,27 +8,27 @@
                 div {
                     svg:nth-of-type(1) {
                         box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
-                        ellipse {
+                        circle {
                             fill: #FCFCFC;
                         }
                     }
 
                     svg:nth-of-type(2) {
 
-                        ellipse {
+                        circle {
                             fill: #E9E8E7;
                         }
                     }
 
                     svg:nth-of-type(3) {
 
-                        ellipse {
+                        circle {
                             fill: #1A1A1A;
                         }
                     }
 
                     svg:last-child {
-                        ellipse {
+                        circle {
                             fill: #FFBF00;
                         }
                     }
@@ -41,13 +41,13 @@
         .color-palette:nth-of-type(1) {
             div {
                 svg:nth-of-type(4) {
-                    ellipse {
+                    circle {
                         fill: #10DAD7;
                     }
                 }
 
                 svg:nth-of-type(5) {
-                    ellipse {
+                    circle {
                         fill: #003A4C;
                     }
                 }
@@ -58,19 +58,19 @@
         .color-palette:nth-of-type(2) {
             div {
                 svg:nth-of-type(4) {
-                    ellipse {
+                    circle {
                         fill: #F28092;
                     }
                 }
 
                 svg:nth-of-type(5) {
-                    ellipse {
+                    circle {
                         fill: #E60026;
                     }
                 }
 
                 svg:nth-of-type(6) {
-                    ellipse {
+                    circle {
                         fill: #72051B;
                     }
                 }
@@ -83,19 +83,19 @@
         .color-palette:nth-of-type(3) {
             div {
                 svg:nth-of-type(4) {
-                    ellipse {
+                    circle {
                         fill: #B89FDF;
                     }
                 }
 
                 svg:nth-of-type(5) {
-                    ellipse {
+                    circle {
                         fill: #7140BF;
                     }
                 }
 
                 svg:nth-of-type(6) {
-                    ellipse {
+                    circle {
                         fill: #382468;
                     }
                 }

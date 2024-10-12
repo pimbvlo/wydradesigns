@@ -6,24 +6,104 @@
 
     article {
         .color-palette-group {
-            .color-palette:nth-of-type(1) {
+            .color-palette {
                 div {
                     svg:nth-of-type(1) {
+                        box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
                         circle {
-                            fill: #CC0000;
+                            fill: #FCFCFC;
                         }
                     }
 
                     svg:nth-of-type(2) {
+
                         circle {
-                            fill: #9F1C1F;
+                            fill: #E9E8E7;
                         }
                     }
 
+                    svg:nth-of-type(3) {
+
+                        circle {
+                            fill: #1A1A1A;
+                        }
+                    }
+
+                    svg:last-child {
+                        circle {
+                            fill: #FFBF00;
+                        }
+                    }
                 }
+
+            }
+
+        }
+
+        .color-palette:nth-of-type(1) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #10DAD7;
+                    }
+                }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #003A4C;
+                    }
+                }
+
             }
         }
 
+        .color-palette:nth-of-type(2) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #F28092;
+                    }
+                }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #E60026;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    circle {
+                        fill: #72051B;
+                    }
+                }
+
+
+
+            }
+        }
+
+        .color-palette:nth-of-type(3) {
+            div {
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #B89FDF;
+                    }
+                }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #7140BF;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    circle {
+                        fill: #382468;
+                    }
+                }
+
+            }
+        }
 
         .case-study-typography {
             div {
@@ -65,8 +145,4 @@
             }
         }
     }
-}
-
-.color-palette {
-    margin: 0px auto;
 }

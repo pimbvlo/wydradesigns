@@ -1019,11 +1019,7 @@ textarea {
           .color-palette-group .color-palette div svg {
             height: 5vw;
             width: 5vw; } }
-        .color-palette-group .color-palette div svg ellipse {
-          cx: 50%;
-          cy: 50%;
-          rx: 49%;
-          ry: 49%;
+        .color-palette-group .color-palette div svg circle {
           border: 4px solid red; }
 
 .open-sans-font {
@@ -1983,40 +1979,40 @@ footer {
 ============= */
 #atdColor article .color-palette-group .color-palette div svg:nth-of-type(1) {
   box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
-  #atdColor article .color-palette-group .color-palette div svg:nth-of-type(1) ellipse {
+  #atdColor article .color-palette-group .color-palette div svg:nth-of-type(1) circle {
     fill: #FCFCFC; }
 
-#atdColor article .color-palette-group .color-palette div svg:nth-of-type(2) ellipse {
+#atdColor article .color-palette-group .color-palette div svg:nth-of-type(2) circle {
   fill: #E9E8E7; }
 
-#atdColor article .color-palette-group .color-palette div svg:nth-of-type(3) ellipse {
+#atdColor article .color-palette-group .color-palette div svg:nth-of-type(3) circle {
   fill: #1A1A1A; }
 
-#atdColor article .color-palette-group .color-palette div svg:last-child ellipse {
+#atdColor article .color-palette-group .color-palette div svg:last-child circle {
   fill: #FFBF00; }
 
-#atdColor article .color-palette:nth-of-type(1) div svg:nth-of-type(4) ellipse {
+#atdColor article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
   fill: #10DAD7; }
 
-#atdColor article .color-palette:nth-of-type(1) div svg:nth-of-type(5) ellipse {
+#atdColor article .color-palette:nth-of-type(1) div svg:nth-of-type(5) circle {
   fill: #003A4C; }
 
-#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(4) ellipse {
+#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(4) circle {
   fill: #F28092; }
 
-#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(5) ellipse {
+#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(5) circle {
   fill: #E60026; }
 
-#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(6) ellipse {
+#atdColor article .color-palette:nth-of-type(2) div svg:nth-of-type(6) circle {
   fill: #72051B; }
 
-#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(4) ellipse {
+#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(4) circle {
   fill: #B89FDF; }
 
-#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(5) ellipse {
+#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(5) circle {
   fill: #7140BF; }
 
-#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(6) ellipse {
+#atdColor article .color-palette:nth-of-type(3) div svg:nth-of-type(6) circle {
   fill: #382468; }
 
 /* =============

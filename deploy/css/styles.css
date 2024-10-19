@@ -995,7 +995,7 @@ textarea {
     .color-palette-group {
       grid-template-columns: repeat(3, 1fr); } }
   .color-palette-group .color-palette {
-    background-color: #fdfdfd;
+    background-color: white;
     border-radius: 16px;
     display: flex;
     flex-direction: column;
@@ -1029,6 +1029,11 @@ textarea {
   font-style: normal;
   font-variation-settings: "wdth" 100;
   line-height: 100%; }
+
+.brandon-grotesque-font {
+  font-family: "brandon-grotesque", sans-serif;
+  font-weight: 400;
+  font-style: normal; }
 
 .case-study-typography {
   background-color: #fdfdfd;
@@ -1075,6 +1080,29 @@ textarea {
     font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 100;
     color: #2b2b2b; }
 
+.case-study-icons {
+  display: inline-flex;
+  background-color: #fdfdfd;
+  flex-direction: column;
+  border-radius: 16px; }
+  @media (min-width: 768px) {
+    .case-study-icons {
+      width: fit-content;
+      margin: 0px auto; } }
+  .case-study-icons ul {
+    display: inline-flex;
+    flex-wrap: wrap; }
+    .case-study-icons ul li {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .case-study-icons ul li img {
+        height: 64px;
+        width: 64px; }
+        @media (min-width: 1024px) {
+          .case-study-icons ul li img {
+            height: 80px;
+            width: 80px; } }
 .case-study-intro-image > div article {
   grid-gap: 16px;
   display: grid;
@@ -3017,32 +3045,32 @@ footer {
 ============= */
 #tarBranding {
   padding-top: 0px; }
-  #tarBranding article .color-palette-group .color-palette div svg:nth-of-type(1) {
-    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
-    #tarBranding article .color-palette-group .color-palette div svg:nth-of-type(1) circle {
-      fill: #FCFCFC; }
-  #tarBranding article .color-palette-group .color-palette div svg:nth-of-type(2) circle {
-    fill: #E9E8E7; }
-  #tarBranding article .color-palette-group .color-palette div svg:nth-of-type(3) circle {
-    fill: #1A1A1A; }
-  #tarBranding article .color-palette-group .color-palette div svg:last-child circle {
-    fill: #FFBF00; }
+  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
+    fill: #CC0000; }
+  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
+    fill: #9F1C1F; }
+  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
+    fill: #1CAB1C; }
   #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
-    fill: #10DAD7; }
+    fill: #000000; }
   #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(5) circle {
-    fill: #003A4C; }
+    fill: #333333; }
+  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) {
+    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+    #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) circle {
+      fill: #FFFFFF; }
+  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(1) circle {
+    fill: #7F0000; }
+  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(2) circle {
+    fill: #006600; }
+  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(3) circle {
+    fill: #FFE500; }
   #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(4) circle {
-    fill: #F28092; }
+    fill: #666666; }
   #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(5) circle {
-    fill: #E60026; }
+    fill: #F4F4F4; }
   #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(6) circle {
-    fill: #72051B; }
-  #tarBranding article .color-palette:nth-of-type(3) div svg:nth-of-type(4) circle {
-    fill: #B89FDF; }
-  #tarBranding article .color-palette:nth-of-type(3) div svg:nth-of-type(5) circle {
-    fill: #7140BF; }
-  #tarBranding article .color-palette:nth-of-type(3) div svg:nth-of-type(6) circle {
-    fill: #382468; }
+    fill: #F7F7F7; }
   #tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
     font-size: 18px;
     font-weight: 700;
@@ -3061,6 +3089,8 @@ footer {
     font-size: 12px;
     font-weight: 700;
     letter-spacing: 0.4px; }
+  #tarBranding article .gallery-2-col {
+    align-items: flex-start; }
 
 /* =============
     TIKTOK Hero
@@ -3075,28 +3105,28 @@ footer {
 ============= */
 #ttBranding {
   padding-top: 0px; }
-  #ttBranding article .color-palette {
-    margin: 0px auto; }
-    #ttBranding article .color-palette ul {
-      display: flex;
-      flex-wrap: wrap; }
-      #ttBranding article .color-palette ul li {
-        width: 100px; }
-        @media (min-width: 768px) {
-          #ttBranding article .color-palette ul li {
-            width: 12vw; } }
-        @media (min-width: 1024px) {
-          #ttBranding article .color-palette ul li {
-            width: 6vw; } }
-      #ttBranding article .color-palette ul li:nth-child(1) {
-        background-color: #08082B; }
-      #ttBranding article .color-palette ul li:nth-child(2) {
-        background-color: #0F0C46; }
-      #ttBranding article .color-palette ul li:nth-child(3) {
-        background-color: #FACD13; }
-      #ttBranding article .color-palette ul li:nth-child(4) {
-        background-color: #F7F7F7;
-        border: 1px solid #D4D4D4; }
+  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
+    fill: #08082B; }
+  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
+    fill: #0F0C46; }
+  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
+    fill: #FACD13; }
+  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) {
+    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+    #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
+      fill: #F7F7F7; }
+  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
+    font-size: 20px;
+    font-weight: 700; }
+  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 500; }
+  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
+    font-size: 16px;
+    font-weight: 700; }
+  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
+    font-size: 24px;
+    font-weight: 700; }
   #ttBranding article img:nth-child(10) {
     margin: 0px auto;
     height: 100%;

@@ -5,53 +5,79 @@
     padding-top: 0px;
 
     article {
-        .color-palette {
-            margin: 0px auto;
-
-            ul {
-                display: flex;
-                flex-wrap: wrap;
-
-                li {
-                    width: 100px;
-                    @include md {
-                        width: 12vw;
-                    }
-
-                    @include lg {
-                        width: 6vw;
+        .color-palette:nth-of-type(1) {
+            div {
+                svg:nth-of-type(1) {
+                    circle {
+                        fill: #08082B;
                     }
                 }
 
-                li:nth-child(1) {
-                    background-color: #08082B;
+                svg:nth-of-type(2) {
+                    circle {
+                        fill: #0F0C46;
+                    }
                 }
 
-                li:nth-child(2) {
-                    background-color: #0F0C46;
+                svg:nth-of-type(3) {
+                    circle {
+                        fill: #FACD13;
+                    }
                 }
 
-                li:nth-child(3) {
-                    background-color: #FACD13;
-                }
+                svg:nth-of-type(4) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
 
-                li:nth-child(4) {
-                    background-color: #F7F7F7;
-                    border: 1px solid #D4D4D4;
+                    circle {
+                        fill: #F7F7F7;
+                    }
                 }
-
             }
         }
-        img:nth-child(10){
+
+        .case-study-typography {
+            div {
+                .case-study-typography-type-style:nth-of-type(1) {
+                    li:nth-child(1) {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(2) {
+                    li:nth-child(1) {
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(3) {
+                    li:nth-child(1) {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(4) {
+                    li:nth-child(1) {
+                        font-size: 24px;
+                        font-weight: 700;
+                    }
+                }
+            }
+        }
+
+        img:nth-child(10) {
             margin: 0px auto;
             height: 100%;
-            width:80%;
+            width: 80%;
             object-fit: contain;
             aspect-ratio: auto;
         }
-        div.gallery-2-col{
+
+        div.gallery-2-col {
             margin: 0px auto;
-            width:80%;
+            width: 80%;
         }
     }
 }

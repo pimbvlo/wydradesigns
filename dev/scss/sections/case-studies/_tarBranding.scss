@@ -5,103 +5,87 @@
     padding-top: 0px;
 
     article {
-        .color-palette-group {
-            .color-palette {
-                div {
-                    svg:nth-of-type(1) {
-                        box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
-                        circle {
-                            fill: #FCFCFC;
-                        }
-                    }
-
-                    svg:nth-of-type(2) {
-
-                        circle {
-                            fill: #E9E8E7;
-                        }
-                    }
-
-                    svg:nth-of-type(3) {
-
-                        circle {
-                            fill: #1A1A1A;
-                        }
-                    }
-
-                    svg:last-child {
-                        circle {
-                            fill: #FFBF00;
-                        }
+        .color-palette:nth-of-type(1) {
+            div {
+                svg:nth-of-type(1) {
+                    circle {
+                        fill: #CC0000;
                     }
                 }
 
-            }
+                svg:nth-of-type(2) {
+                    circle {
+                        fill: #9F1C1F;
+                    }
+                }
 
-        }
+                svg:nth-of-type(3) {
+                    circle {
+                        fill: #1CAB1C;
+                    }
+                }
 
-        .color-palette:nth-of-type(1) {
-            div {
                 svg:nth-of-type(4) {
                     circle {
-                        fill: #10DAD7;
+                        fill: #000000;
                     }
                 }
 
                 svg:nth-of-type(5) {
                     circle {
-                        fill: #003A4C;
+                        fill: #333333;
                     }
                 }
 
+                svg:nth-of-type(6) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+
+                    circle {
+                        fill: #FFFFFF;
+                    }
+                }
             }
         }
 
         .color-palette:nth-of-type(2) {
             div {
+                svg:nth-of-type(1) {
+                    circle {
+                        fill: #7F0000;
+                    }
+                }
+
+                svg:nth-of-type(2) {
+                    circle {
+                        fill: #006600;
+                    }
+                }
+
+                svg:nth-of-type(3) {
+                    circle {
+                        fill: #FFE500;
+                    }
+                }
+
                 svg:nth-of-type(4) {
                     circle {
-                        fill: #F28092;
+                        fill: #666666;
                     }
                 }
 
                 svg:nth-of-type(5) {
+                    // box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
                     circle {
-                        fill: #E60026;
+                        fill: #F4F4F4;
                     }
                 }
 
                 svg:nth-of-type(6) {
+                    // box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
                     circle {
-                        fill: #72051B;
+                        fill: #F7F7F7;
                     }
                 }
-
-
-
-            }
-        }
-
-        .color-palette:nth-of-type(3) {
-            div {
-                svg:nth-of-type(4) {
-                    circle {
-                        fill: #B89FDF;
-                    }
-                }
-
-                svg:nth-of-type(5) {
-                    circle {
-                        fill: #7140BF;
-                    }
-                }
-
-                svg:nth-of-type(6) {
-                    circle {
-                        fill: #382468;
-                    }
-                }
-
             }
         }
 
@@ -143,6 +127,9 @@
                     }
                 }
             }
+        }
+        .gallery-2-col{
+            align-items: flex-start;
         }
     }
 }

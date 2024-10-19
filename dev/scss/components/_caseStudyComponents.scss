@@ -131,7 +131,7 @@
 
 
     .color-palette {
-        background-color: $surface;
+        background-color: $white;
         border-radius: 16px;
         display: flex;
         flex-direction: column;
@@ -160,7 +160,8 @@
                     height: 5vw;
                     width: 5vw;
                 }
-                circle{
+
+                circle {
                     fill: red;
                 }
             }
@@ -200,6 +201,11 @@
     font-variation-settings:
         "wdth"100;
     line-height: 100%;
+}
+.brandon-grotesque-font {
+    font-family: "brandon-grotesque", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .case-study-typography {
@@ -267,6 +273,47 @@
         }
     }
 }
+
+.case-study-icons{
+    display: inline-flex;
+    background-color: $surface;
+    flex-direction: column;
+    border-radius: 16px;
+
+    @include md{
+        width:fit-content;
+        margin: 0px auto;
+
+    }
+
+    ul{
+        display: inline-flex;
+        flex-wrap: wrap;
+
+        li{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                height: 64px;
+                width: 64px;
+                @include lg{
+                    height: 80px;
+                    width: 80px;
+                    }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
 
 // OLD — TO DELETE
 .case-study-intro-image {

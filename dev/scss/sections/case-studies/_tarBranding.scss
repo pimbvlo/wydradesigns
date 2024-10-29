@@ -131,5 +131,12 @@
         .gallery-2-col{
             align-items: flex-start;
         }
+        .case-study-imagery{
+            display: flex;
+            flex-direction: column;
+            ul{
+                align-items: center;
+            }
+        }
     }
 }

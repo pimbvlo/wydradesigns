@@ -179,10 +179,10 @@ ol {
         margin-bottom: 8px;
 
         &::marker {
-            font-size: rem-calc(16);
+            font-size: rem-calc(20);
             font-variation-settings: "slnt"-1, "wdth"600, "wght"800, "INKT"100;
             letter-spacing: -0.5px;
-            color: $on-surface-variant;
+            // color: $on-surface-variant;
             padding-right: 20px;
         }
     }

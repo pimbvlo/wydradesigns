@@ -3037,6 +3037,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/case-studies\/tar\/TargetFlow.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/tar\/TargetFlow.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/case-studies\/tar\/TargetSketch1.jpg" : {
       "ft" : 16384,
       "iS" : 317321,

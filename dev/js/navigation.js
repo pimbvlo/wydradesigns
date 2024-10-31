@@ -41,12 +41,12 @@ gsap.to(
   {
     scrollTrigger: {
       trigger: "footer",
-      start: "top 80px",
-      end: "top 80px",
+      start: "top 0px",
+      end: "top 0px",
       toggleActions: "restart none reverse none"
     },
     duration: 0.25,
-    backgroundColor: "rgba(43, 43, 43, 1)",
+    backgroundColor: "rgba(43, 43, 43, 0)",
     ease: "sine.inOut"
   },
   "header-meet-footer"
@@ -56,8 +56,8 @@ gsap.to(
   {
     scrollTrigger: {
       trigger: "footer",
-      start: "top 80px",
-      end: "top 80px",
+      start: "top 0px",
+      end: "top 0px",
       toggleActions: "restart none reverse none"
     },
     duration: 0.25,
@@ -71,8 +71,8 @@ gsap.to(
   {
     scrollTrigger: {
       trigger: "footer",
-      start: "top 80px",
-      end: "top 80px",
+      start: "top 0px",
+      end: "top 0px",
       toggleActions: "restart none reverse none"
     },
     duration: 0.25,

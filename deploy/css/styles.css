@@ -1097,11 +1097,9 @@ textarea {
       justify-content: center; }
       .case-study-icons ul li img {
         height: 64px;
-        width: 64px; }
-        @media (min-width: 1024px) {
-          .case-study-icons ul li img {
-            height: 80px;
-            width: 80px; } }
+        width: 64px;
+        overflow: visible; }
+
 .case-study-intro-image > div article {
   grid-gap: 16px;
   display: grid;
@@ -1291,7 +1289,7 @@ header {
     Footer
 ============= */
 footer {
-  height: 92vh;
+  height: 96vh;
   background-color: #2b2b2b;
   color: #efefef;
   background-image: radial-gradient(circle at center, rgba(171, 171, 171, 0.25) 0.15rem, transparent 0), radial-gradient(circle at center, rgba(171, 171, 171, 0.25) 0.15rem, transparent 0);
@@ -3137,9 +3135,6 @@ footer {
     width: 80%;
     object-fit: contain;
     aspect-ratio: auto; }
-  #ttBranding article div.gallery-2-col {
-    margin: 0px auto;
-    width: 80%; }
 
 /* =============
     TINDER Hero

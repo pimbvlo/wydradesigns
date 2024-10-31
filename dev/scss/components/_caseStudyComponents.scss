@@ -297,10 +297,7 @@
             img{
                 height: 64px;
                 width: 64px;
-                @include lg{
-                    height: 80px;
-                    width: 80px;
-                    }
+                overflow: visible;
             }
         }
     }

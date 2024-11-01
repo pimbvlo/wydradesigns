@@ -7,7 +7,7 @@
       "uuidString" : "9501D335-8457-4496-8509-AFB139CFE2D8"
     }
   ],
-  "creatorBuild" : "34590",
+  "creatorBuild" : "34592",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -9695,12 +9695,12 @@
       "oAP" : "\/dev\/case-studies\/shm\/shmText1.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/shm\/shmText3.kit" : {
+    "\/dev\/case-studies\/shm\/shmText2.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/shm\/shmText3.html",
+      "oAP" : "\/dev\/case-studies\/shm\/shmText2.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/soa\/soaGallery.kit" : {
@@ -11318,7 +11318,7 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/case-studies\/_shmText1.scss" : {
+    "\/dev\/scss\/sections\/case-studies\/_shmText2.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -11327,22 +11327,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/case-studies\/_shmText1.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/case-studies\/_shmText3.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/case-studies\/_shmText3.css",
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_shmText2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

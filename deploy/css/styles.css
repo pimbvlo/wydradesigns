@@ -2728,158 +2728,24 @@ footer {
     SHM Hero
 ============= */
 #shmHero {
-  background-image: url("../img/case-studies/shm/shmHero.jpg");
-  background-position: 80% center; }
-  @media (min-width: 768px) {
-    #shmHero {
-      background-position: 80% top; } }
-  @media (min-width: 1024px) {
-    #shmHero {
-      background-position: right 56%; } }
+  background-image: url("../img/case-studies/shm/shmHero.jpg"); }
+  #shmHero article h1 {
+    hyphens: manual; }
+
 /* =============
     SHM Text
 ============= */
-#shmText1 {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #shmText1 {
-      background-color: #161618; } }
-  #shmText1 > div article p {
-    margin: 0px 0px 48px 0px; }
-    @media (min-width: 768px) {
-      #shmText1 > div article p {
-        margin: 0px 0px 56px 0px; } }
-    @media (min-width: 1024px) {
-      #shmText1 > div article p {
-        margin: 0px 0px 64px 0px; } }
-    @media (min-width: 1440px) {
-      #shmText1 > div article p {
-        margin: 0px 0px 80px 0px; } }
-  #shmText1 > div article ul li:nth-child(1) {
-    background-image: url("../img/case-studies/shm/shmInfluence.jpg");
-    background-position: center 20%; }
-  #shmText1 > div article ul li:nth-child(2) {
-    background-image: url("../img/case-studies/shm/shmExperiments.jpg"); }
-  #shmText1 > div article ul li:nth-child(3) {
-    background-image: url("../img/case-studies/shm/shmProcess.jpg"); }
-    @media (min-width: 504px) {
-      #shmText1 > div article ul li:nth-child(3) {
-        grid-column: span 2; } }
-    @media (min-width: 1024px) {
-      #shmText1 > div article ul li:nth-child(3) {
-        grid-column: span 1; } }
-/* =============
-    SHM Text
-============= */
-#shmText3 > div article {
-  grid-template-areas: "p" "l"; }
-  @media (min-width: 768px) {
-    #shmText3 > div article {
-      grid-template-areas: "p l"; } }
-  #shmText3 > div article p {
-    margin: 0px 0px 48px 0px; }
-    @media (prefers-color-scheme: dark) {
-      #shmText3 > div article p {
-        color: white; } }
-    @media (min-width: 768px) {
-      #shmText3 > div article p {
-        margin: 0px 0px 0px 0px; } }
-  #shmText3 > div article figure {
-    grid-area: l;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 104px;
-    background-image: url("../img/case-studies/shm/shmLogoBlack.svg"); }
-    @media (prefers-color-scheme: dark) {
-      #shmText3 > div article figure {
-        background-image: url("../img/case-studies/shm/shmLogoWhite.svg"); } }
-    @media (min-width: 768px) {
-      #shmText3 > div article figure {
-        height: 100%; } }
+#shmText2 {
+  padding-top: 0px; }
+
 /* =============
     SHM Gallery
 ============= */
-#shmGallery {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #shmGallery {
-      background-color: #161618; } }
-  #shmGallery > div article ul {
-    grid-template-areas: "BT" "S" "LO1" "BK" "LBI1" "paragraph" "P" "BO1" "LD1";
-    grid-template-rows: 304px 240px 136px 200px 280px auto 200px 504px 480px; }
-    @media (min-width: 504px) {
-      #shmGallery > div article ul {
-        grid-template-areas: "paragraph paragraph ." "BK BK BO1" "BT BT BO1" "P P P" "LO1 LO1 LO1" "S S LD1" "LBI1 LBI1 LD1";
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 160px 224px 240px 240px 160px 240px; } }
-    @media (min-width: 768px) {
-      #shmGallery > div article ul {
-        grid-template-rows: 280px 160px auto 304px 240px 160px 304px; } }
-    @media (min-width: 1024px) {
-      #shmGallery > div article ul {
-        grid-template-areas: "paragraph paragraph paragraph paragraph . BO1 BO1" "S S S S S BO1 BO1" "BK BK . P P P P" "LD1 LD1 LD1 LO1 LO1 LO1 LO1" "LD1 LD1 LD1 . LBI1 LBI1 LBI1" "BT BT BT BT BT BT .";
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: auto 240px 304px 240px 304px 304px; } }
-    #shmGallery > div article ul li:nth-child(1) {
-      background-image: url("../img/case-studies/shm/shmBusTail.jpg");
-      background-position: right center;
-      grid-area: BT; }
-      @media (min-width: 504px) {
-        #shmGallery > div article ul li:nth-child(1) {
-          background-position: right 10%;
-          background-size: auto 200%; } }
-      @media (min-width: 1024px) {
-        #shmGallery > div article ul li:nth-child(1) {
-          background-size: cover; } }
-    #shmGallery > div article ul li:nth-child(2) {
-      background-image: url("../img/case-studies/shm/shmSubway.jpg");
-      grid-area: S; }
-    #shmGallery > div article ul li:nth-child(3) {
-      background-image: url("../img/case-studies/shm/shmBusKing.jpg");
-      background-position: 40% center;
-      background-size: auto 150%;
-      grid-area: BK; }
-      @media (min-width: 504px) {
-        #shmGallery > div article ul li:nth-child(3) {
-          background-size: auto 150%; } }
-      @media (min-width: 1024px) {
-        #shmGallery > div article ul li:nth-child(3) {
-          background-size: cover; } }
-    #shmGallery > div article ul li:nth-child(4) {
-      background-image: url("../img/case-studies/shm/shmPosters.jpg");
-      background-position: center top;
-      grid-area: P; }
-    #shmGallery > div article ul li:nth-child(5) {
-      background-image: url("../img/case-studies/shm/shmBrochureOutside1.jpg");
-      background-size: auto 160%;
-      grid-area: BO1; }
-      @media (min-width: 504px) {
-        #shmGallery > div article ul li:nth-child(5) {
-          background-size: cover;
-          background-size: auto 116%; } }
-    #shmGallery > div article ul li:nth-child(6) {
-      background-image: url("../img/case-studies/shm/shmLetterheadOutside1.jpg");
-      grid-area: LO1; }
-    #shmGallery > div article ul li:nth-child(7) {
-      background-image: url("../img/case-studies/shm/shmLetterheadDetail1.jpg");
-      background-position: left center;
-      grid-area: LD1; }
-    #shmGallery > div article ul li:nth-child(8) {
-      background-image: url("../img/case-studies/shm/shmBrochureInside1.jpg");
-      background-position: 44% center;
-      background-size: cover;
-      grid-area: LBI1; }
-      @media (min-width: 768px) {
-        #shmGallery > div article ul li:nth-child(8) {
-          background-position: center 80%; } }
-      @media (min-width: 1024px) {
-        #shmGallery > div article ul li:nth-child(8) {
-          background-position: 40% 90%; } }
-    #shmGallery > div article ul li:nth-child(9) {
-      grid-area: paragraph; }
-      #shmGallery > div article ul li:nth-child(9) p {
-        width: 100%; }
+#shmGallery .gallery-2-col img {
+  aspect-ratio: 3 / 2; }
+
+#shmGallery .gallery-3-col img {
+  aspect-ratio: 3 / 4; }
 
 /* =============
     SOA Hero

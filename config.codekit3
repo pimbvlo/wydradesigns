@@ -9175,6 +9175,14 @@
       "oAP" : "\/deploy\/ScienceHistoryMuseum.html",
       "oF" : 0
     },
+    "\/deploy\/SecondLifeComposting.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/SecondLifeComposting.html",
+      "oF" : 0
+    },
     "\/deploy\/ShawnWydra_Resume.pdf" : {
       "cB" : 0,
       "ft" : 8192,
@@ -9703,6 +9711,78 @@
       "oAP" : "\/dev\/case-studies\/shm\/shmText2.html",
       "oF" : 0
     },
+    "\/dev\/case-studies\/slc\/slcAudience.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcProblem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/slc\/slcRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/slc\/slcRoles.html",
+      "oF" : 0
+    },
     "\/dev\/case-studies\/soa\/soaGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -10127,20 +10207,12 @@
       "oAP" : "\/dev\/index\/indexHero.html",
       "oF" : 0
     },
-    "\/dev\/index\/indexIntro.html" : {
+    "\/dev\/index\/indexIntro.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/index\/indexIntro.html",
-      "oF" : 0
-    },
-    "\/dev\/index\/indexIntro.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index\/indexIntro.html",
+      "oAP" : "\/dev\/index\/indexIntro.txt",
       "oF" : 0
     },
     "\/dev\/index\/indexMarquee.kit" : {
@@ -11827,6 +11899,14 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 1
+    },
+    "\/dev\/SecondLifeComposting.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/SecondLifeComposting.html",
+      "oF" : 2
     },
     "\/dev\/SonsOfAnarchy.kit" : {
       "cB" : 0,

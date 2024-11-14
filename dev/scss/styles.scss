@@ -101,18 +101,23 @@
 @import "sections/case-studies/_saText1";
 @import "sections/case-studies/_saGallery";
 
-// SOUTHWARK & BERMONDSEY
-@import "sections/case-studies/_sbHero";
-@import "sections/case-studies/_sbGallery";
-
 // SCIENCE HISTORY MUSEUM
 @import "sections/case-studies/_shmHero";
 @import "sections/case-studies/_shmText2";
 @import "sections/case-studies/_shmGallery";
 
+// SECOND LIFE COMPOSTING
+@import "sections/case-studies/_slcHero.scss";
+@import "sections/case-studies/_slcPrototyping.scss";
+@import "sections/case-studies/_slcBranding.scss";
+
 // SONS OF ANARCHY
 @import "sections/case-studies/_soaHero";
 @import "sections/case-studies/_soaGallery";
+
+// SOUTHWARK & BERMONDSEY
+@import "sections/case-studies/_sbHero";
+@import "sections/case-studies/_sbGallery";
 
 // THE PHILADELPHIA SCHOOL
 @import "sections/case-studies/_tpsHero";

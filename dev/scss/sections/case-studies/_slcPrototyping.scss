@@ -1,0 +1,15 @@
+/* =============
+    TARGET Prototyping
+============= */
+#slcPrototyping {
+    .gallery-3-col{
+        img{
+            @include md{
+                height: 216px;
+            }
+            @include lg{
+                height: 304px;
+            }
+        }
+    }
+}

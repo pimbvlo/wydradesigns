@@ -1,0 +1,15 @@
+/* =============
+    SECOND LIFE COMPOSTING Hero
+============= */
+#slcHero {
+    background-image: url("../img/case-studies/slc/slcHero.jpg");
+    // background-position: bottom center;
+    article{
+        h1{
+            hyphens:manual;
+            @include lg{
+                hyphens:none;
+            }
+        }
+    }
+}

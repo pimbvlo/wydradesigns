@@ -71,27 +71,27 @@ html {
     grid-area: content; }
 
 .section-margin {
-  margin-top: 68px;
-  margin-bottom: 68px; }
+  margin-top: 64px;
+  margin-bottom: 64px; }
   @media (min-width: 768px) {
     .section-margin {
-      margin-top: 100px;
-      margin-bottom: 100px; } }
+      margin-top: 104px;
+      margin-bottom: 104px; } }
   @media (min-width: 1024px) {
     .section-margin {
-      margin-top: 148px;
-      margin-bottom: 148px; } }
+      margin-top: 160px;
+      margin-bottom: 160px; } }
 .section-padding {
-  padding-top: 68px;
-  padding-bottom: 68px; }
+  padding-top: 64px;
+  padding-bottom: 64px; }
   @media (min-width: 768px) {
     .section-padding {
-      padding-top: 100px;
-      padding-bottom: 100px; } }
+      padding-top: 104px;
+      padding-bottom: 104px; } }
   @media (min-width: 1024px) {
     .section-padding {
-      padding-top: 148px;
-      padding-bottom: 148px; } }
+      padding-top: 160px;
+      padding-bottom: 160px; } }
 /* =============
     Typography
 ============= */
@@ -1021,9 +1021,12 @@ textarea {
         .color-palette-group .color-palette div svg circle {
           fill: red; }
 
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal; }
+
 .open-sans-font {
   font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings: "wdth" 100;
@@ -2662,69 +2665,6 @@ footer {
       width: 100%; }
 
 /* =============
-    SB Hero
-============= */
-#sbHero {
-  background-image: url("../img/case-studies/sb/sbHero.jpg");
-  background-position: center top; }
-
-/* =============
-    SB Gallery
-============= */
-#sbGallery {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #sbGallery {
-      background-color: #161618; } }
-  #sbGallery > div article ul {
-    grid-template-areas: "SP1" "SP2" "paragraph1" "SPZ1" "SPZ2" "SBPM";
-    grid-template-rows: 304px 304px auto 200px 200px 304px; }
-    @media (min-width: 504px) {
-      #sbGallery > div article ul {
-        grid-template-areas: "SP1 SP1 SPZ1" "SPZ2 SP2 SP2" "paragraph1 paragraph1 ." "SBPM SBPM SBPM";
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: 304px 304px auto 800px; } }
-    @media (min-width: 768px) {
-      #sbGallery > div article ul {
-        grid-template-rows: 400px 400px auto 800px; } }
-    @media (min-width: 1024px) {
-      #sbGallery > div article ul {
-        grid-template-areas: "SP1 SP1 SP1 . SP2 SP2 SP2" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 . ." "SPZ1 SPZ1 SPZ2 SPZ2 SPZ2 SPZ2 SPZ2" ". . . SBPM SBPM SBPM SBPM";
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: 480px auto 200px 600px; } }
-    #sbGallery > div article ul li:nth-child(1) {
-      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
-      background-size: contain;
-      grid-area: SP1; }
-    #sbGallery > div article ul li:nth-child(2) {
-      background-image: url("../img/case-studies/sb/sbPoster2.jpg");
-      background-size: contain;
-      grid-area: SP2; }
-    #sbGallery > div article ul li:nth-child(3) {
-      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
-      background-position: right bottom;
-      background-size: auto 300%;
-      grid-area: SPZ1; }
-    #sbGallery > div article ul li:nth-child(4) {
-      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
-      background-position: center 16%;
-      background-size: auto 300%;
-      grid-area: SPZ2; }
-      @media (min-width: 1024px) {
-        #sbGallery > div article ul li:nth-child(4) {
-          background-size: auto 400%; } }
-      @media (min-width: 1440px) {
-        #sbGallery > div article ul li:nth-child(4) {
-          background-size: auto 480%; } }
-    #sbGallery > div article ul li:nth-child(5) {
-      background-image: url("../img/case-studies/sb/sbPosterMockup.jpg");
-      grid-area: SBPM; }
-    #sbGallery > div article ul li:nth-child(6) {
-      grid-area: paragraph1; }
-      #sbGallery > div article ul li:nth-child(6) p {
-        width: 100%; }
-
-/* =============
     SHM Hero
 ============= */
 #shmHero {
@@ -2746,6 +2686,101 @@ footer {
 
 #shmGallery .gallery-3-col img {
   aspect-ratio: 3 / 4; }
+
+/* =============
+    SECOND LIFE COMPOSTING Hero
+============= */
+#slcHero {
+  background-image: url("../img/case-studies/slc/slcHero.jpg"); }
+  #slcHero article h1 {
+    hyphens: manual; }
+    @media (min-width: 1024px) {
+      #slcHero article h1 {
+        hyphens: none; } }
+/* =============
+    TARGET Prototyping
+============= */
+@media (min-width: 768px) {
+  #slcPrototyping .gallery-3-col img {
+    height: 216px; } }
+
+@media (min-width: 1024px) {
+  #slcPrototyping .gallery-3-col img {
+    height: 304px; } }
+
+/* =============
+    SECOND LIFE COMPOSTING Branding
+============= */
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
+  fill: #FFCC33; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
+  fill: #694900; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
+  fill: #385243; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+  #slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
+    fill: #FFFFFF; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(5) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+  #slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(5) circle {
+    fill: #FCFCFC; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+  #slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) circle {
+    fill: #F5F4F2; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(7) circle {
+  fill: #666665; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(8) circle {
+  fill: #3D3D3D; }
+
+#slcBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(9) circle {
+  fill: #1A1A1A; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(1) circle {
+  fill: #E7FA8E; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(2) circle {
+  fill: #9EC376; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(3) circle {
+  fill: #698F6E; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(4) circle {
+  fill: #FFF9AB; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(5) circle {
+  fill: #FFC380; }
+
+#slcBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(6) circle {
+  fill: #FF8985; }
+
+#slcBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize; }
+
+#slcBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: none; }
+
+#slcBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 0.24px;
+  text-transform: capitalize; }
+
+#slcBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
+  font-size: 12px;
+  font-weight: 400; }
 
 /* =============
     SOA Hero
@@ -2807,6 +2842,69 @@ footer {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover; }
+
+/* =============
+    SB Hero
+============= */
+#sbHero {
+  background-image: url("../img/case-studies/sb/sbHero.jpg");
+  background-position: center top; }
+
+/* =============
+    SB Gallery
+============= */
+#sbGallery {
+  background-color: #F0F0F0; }
+  @media (prefers-color-scheme: dark) {
+    #sbGallery {
+      background-color: #161618; } }
+  #sbGallery > div article ul {
+    grid-template-areas: "SP1" "SP2" "paragraph1" "SPZ1" "SPZ2" "SBPM";
+    grid-template-rows: 304px 304px auto 200px 200px 304px; }
+    @media (min-width: 504px) {
+      #sbGallery > div article ul {
+        grid-template-areas: "SP1 SP1 SPZ1" "SPZ2 SP2 SP2" "paragraph1 paragraph1 ." "SBPM SBPM SBPM";
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 304px 304px auto 800px; } }
+    @media (min-width: 768px) {
+      #sbGallery > div article ul {
+        grid-template-rows: 400px 400px auto 800px; } }
+    @media (min-width: 1024px) {
+      #sbGallery > div article ul {
+        grid-template-areas: "SP1 SP1 SP1 . SP2 SP2 SP2" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 . ." "SPZ1 SPZ1 SPZ2 SPZ2 SPZ2 SPZ2 SPZ2" ". . . SBPM SBPM SBPM SBPM";
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 480px auto 200px 600px; } }
+    #sbGallery > div article ul li:nth-child(1) {
+      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
+      background-size: contain;
+      grid-area: SP1; }
+    #sbGallery > div article ul li:nth-child(2) {
+      background-image: url("../img/case-studies/sb/sbPoster2.jpg");
+      background-size: contain;
+      grid-area: SP2; }
+    #sbGallery > div article ul li:nth-child(3) {
+      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
+      background-position: right bottom;
+      background-size: auto 300%;
+      grid-area: SPZ1; }
+    #sbGallery > div article ul li:nth-child(4) {
+      background-image: url("../img/case-studies/sb/sbPoster1.jpg");
+      background-position: center 16%;
+      background-size: auto 300%;
+      grid-area: SPZ2; }
+      @media (min-width: 1024px) {
+        #sbGallery > div article ul li:nth-child(4) {
+          background-size: auto 400%; } }
+      @media (min-width: 1440px) {
+        #sbGallery > div article ul li:nth-child(4) {
+          background-size: auto 480%; } }
+    #sbGallery > div article ul li:nth-child(5) {
+      background-image: url("../img/case-studies/sb/sbPosterMockup.jpg");
+      grid-area: SBPM; }
+    #sbGallery > div article ul li:nth-child(6) {
+      grid-area: paragraph1; }
+      #sbGallery > div article ul li:nth-child(6) p {
+        width: 100%; }
 
 /* =============
     TPS Hero

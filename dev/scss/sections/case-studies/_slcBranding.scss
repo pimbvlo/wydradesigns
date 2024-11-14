@@ -1,0 +1,149 @@
+/* =============
+    SECOND LIFE COMPOSTING Branding
+============= */
+#slcBranding {
+    article {
+        .color-palette:nth-of-type(1) {
+            div {
+                svg:nth-of-type(1) {
+                    circle {
+                        fill: #FFCC33;
+                    }
+                }
+
+                svg:nth-of-type(2) {
+                    circle {
+                        fill: #694900;
+                    }
+                }
+
+                svg:nth-of-type(3) {
+                    circle {
+                        fill: #385243;
+                    }
+                }
+
+                svg:nth-of-type(4) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+
+                    circle {
+                        fill: #FFFFFF;
+                    }
+                }
+
+                svg:nth-of-type(5) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+
+                    circle {
+                        fill: #FCFCFC;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+
+                    circle {
+                        fill: #F5F4F2;
+                    }
+                }
+
+                svg:nth-of-type(7) {
+                    circle {
+                        fill: #666665;
+                    }
+                }
+
+                svg:nth-of-type(8) {
+                    circle {
+                        fill: #3D3D3D;
+                    }
+                }
+
+                svg:nth-of-type(9) {
+                    circle {
+                        fill: #1A1A1A;
+                    }
+                }
+
+            }
+        }
+
+        .color-palette:nth-of-type(2) {
+            div {
+                svg:nth-of-type(1) {
+                    circle {
+                        fill: #E7FA8E;
+                    }
+                }
+
+                svg:nth-of-type(2) {
+                    circle {
+                        fill: #9EC376;
+                    }
+                }
+
+                svg:nth-of-type(3) {
+                    circle {
+                        fill: #698F6E;
+                    }
+                }
+
+                svg:nth-of-type(4) {
+                    circle {
+                        fill: #FFF9AB;
+                    }
+                }
+
+                svg:nth-of-type(5) {
+                    circle {
+                        fill: #FFC380;
+                    }
+                }
+
+                svg:nth-of-type(6) {
+                    circle {
+                        fill: #FF8985;
+                    }
+                }
+            }
+        }
+
+        .case-study-typography {
+            div {
+                .case-study-typography-type-style:nth-of-type(1) {
+                    li:nth-child(1) {
+                        font-size: 20px;
+                        font-weight: 600;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(2) {
+                    li:nth-child(1) {
+                        font-size: 20px;
+                        font-weight: 400;
+                        text-transform: none;
+
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(3) {
+                    li:nth-child(1) {
+                        font-size: 24px;
+                        font-weight: 700;
+                        letter-spacing: 0.24px;
+                        text-transform: capitalize;
+                    }
+                }
+
+                .case-study-typography-type-style:nth-of-type(4) {
+
+                    li:nth-child(1) {
+                        font-size: 12px;
+                        font-weight: 400;
+                    }
+                }
+            }
+        }
+    }
+}

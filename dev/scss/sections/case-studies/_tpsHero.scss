@@ -3,6 +3,11 @@
 ============= */
 #tpsHero {
     background-image: url("../img/case-studies/tps/tpsHero.png");
-    background-color: $white;
-    background-position: right top;
+    background-position: right bottom;
+    article{
+        h1{
+            hyphens:manual;
+        }
+    }
+
 }

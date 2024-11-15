@@ -2911,79 +2911,16 @@ footer {
 ============= */
 #tpsHero {
   background-image: url("../img/case-studies/tps/tpsHero.png");
-  background-color: white;
-  background-position: right top; }
+  background-position: right bottom; }
+  #tpsHero article h1 {
+    hyphens: manual; }
 
 /* =============
     TPS Text
 ============= */
-#tpsText1 > div article p {
-  margin: 0px 0px 32px 0px; }
-  @media (min-width: 1440px) {
-    #tpsText1 > div article p {
-      margin: 0px 0px 80px 0px; } }
-@media (min-width: 1024px) {
-  #tpsText1 > div article ul {
-    grid-template-columns: repeat(4, 1fr); } }
-
-#tpsText1 > div article ul li:nth-child(3) {
-  background-image: url("../img/case-studies/tps/tpsInspiration2.jpg"); }
-
-#tpsText1 > div article ul li:nth-child(4) {
-  background-image: url("../img/case-studies/tps/tpsInspiration1.jpg"); }
-
-#tpsText1 > div article ul li:nth-child(1) {
-  background-image: url("../img/case-studies/tps/tpsLogo.svg");
-  background-size: contain; }
-
-#tpsText1 > div article ul li:nth-child(2) {
-  background-image: url("../img/case-studies/tps/tpsWorkTogether.jpg"); }
-
-/* =============
-    TPS Gallery
-============= */
-#tpsGallery {
-  background-color: #F0F0F0; }
-  @media (prefers-color-scheme: dark) {
-    #tpsGallery {
-      background-color: #161618; } }
-  #tpsGallery > div article ul {
-    grid-template-areas: "paragraph1" "TBP" "TWB" "TBC" "TBS1" "TP";
-    grid-template-rows: auto 400px 280px 240px 200px 480px; }
-    @media (min-width: 504px) {
-      #tpsGallery > div article ul {
-        grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" "TWB TWB TWB" "TBC TBS1 TBS1" "TP TP TP";
-        grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: auto 504px 304px 232px 504px; } }
-    @media (min-width: 768px) {
-      #tpsGallery > div article ul {
-        grid-template-areas: "paragraph1 paragraph1 ." "TBP TBP TBP" ". TWB TWB" "TBC TBS1 TBS1" "TP TP .";
-        grid-template-rows: auto 504px 304px 280px 640px; } }
-    @media (min-width: 1024px) {
-      #tpsGallery > div article ul {
-        grid-template-areas: "paragraph1 paragraph1 paragraph1 paragraph1 . . ." "TBP TBP TBP . . . ." "TBP TBP TBP . TWB TWB TWB" "TBC TBC TBS1 TBS1 TBS1 TBS1 .";
-        grid-template-columns: repeat(7, 1fr);
-        grid-template-rows: auto 200px 344px 304px; } }
-    #tpsGallery > div article ul li:nth-child(1) {
-      background-image: url("../img/case-studies/tps/tpsBuildingPoster.jpg");
-      grid-area: TBP; }
-    #tpsGallery > div article ul li:nth-child(2) {
-      background-image: url("../img/case-studies/tps/tpsWebBanner.jpg");
-      grid-area: TWB;
-      background-size: contain; }
-    #tpsGallery > div article ul li:nth-child(3) {
-      background-image: url("../img/case-studies/tps/tpsBrochureCover.jpg");
-      grid-area: TBC; }
-    #tpsGallery > div article ul li:nth-child(4) {
-      background-image: url("../img/case-studies/tps/tpsBrochureSpread1.jpg");
-      grid-area: TBS1; }
-    #tpsGallery > div article ul li:nth-child(5) {
-      background-image: url("../img/case-studies/tps/tpsPoster.jpg");
-      grid-area: TP; }
-    #tpsGallery > div article ul li:nth-child(6) {
-      grid-area: paragraph1; }
-      #tpsGallery > div article ul li:nth-child(6) p {
-        width: 100%; }
+#tpsText1 img {
+  height: 100%;
+  aspect-ratio: 1/1; }
 
 /* =============
     TARGET Hero

@@ -10459,19 +10459,19 @@
       "oAP" : "\/dev\/index\/indexIntro.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexMarquee.kit" : {
+    "\/dev\/index\/indexMarquee.txt" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index\/indexMarquee.html",
+      "oAP" : "\/dev\/index\/indexMarquee.txt",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectFour.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectFour.html",
       "oF" : 0
     },
@@ -10479,7 +10479,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectOne.html",
       "oF" : 0
     },
@@ -10503,7 +10503,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectThree.html",
       "oF" : 0
     },
@@ -10511,7 +10511,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/dev\/index\/indexProjectTwo.html",
       "oF" : 0
     },
@@ -10698,36 +10698,20 @@
       "oAP" : "\/deploy\/resume.html",
       "oF" : 2
     },
-    "\/dev\/resume\/resumeActivities.html" : {
+    "\/dev\/resume\/resumeActivities.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/resume\/resumeActivities.html",
-      "oF" : 0
-    },
-    "\/dev\/resume\/resumeActivities.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/resume\/resumeActivities.html",
+      "oAP" : "\/dev\/resume\/resumeActivities.txt",
       "oF" : 0
     },
-    "\/dev\/resume\/resumeCourses.html" : {
+    "\/dev\/resume\/resumeCourses.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/resume\/resumeCourses.html",
-      "oF" : 0
-    },
-    "\/dev\/resume\/resumeCourses.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/resume\/resumeCourses.html",
+      "oAP" : "\/dev\/resume\/resumeCourses.txt",
       "oF" : 0
     },
     "\/dev\/resume\/resumeEducation.kit" : {
@@ -10754,20 +10738,12 @@
       "oAP" : "\/dev\/resume\/resumeHero.html",
       "oF" : 0
     },
-    "\/dev\/resume\/resumeHonors.html" : {
+    "\/dev\/resume\/resumeHonors.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/resume\/resumeHonors.html",
-      "oF" : 0
-    },
-    "\/dev\/resume\/resumeHonors.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/resume\/resumeHonors.html",
+      "oAP" : "\/dev\/resume\/resumeHonors.txt",
       "oF" : 0
     },
     "\/dev\/resume\/resumeSkills.kit" : {
@@ -11079,21 +11055,6 @@
       "pg" : 0,
       "sct" : 1
     },
-    "\/dev\/scss\/sections\/about\/_aboutHero.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/about\/_aboutHero.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
     "\/dev\/scss\/sections\/about\/_aboutWho.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -11149,21 +11110,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/case-studies\/_antiIntro.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/case-studies\/_antiText1.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/case-studies\/_antiText1.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -11629,21 +11575,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/case-studies\/_shmHero.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/case-studies\/_shmText2.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/case-studies\/_shmText2.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

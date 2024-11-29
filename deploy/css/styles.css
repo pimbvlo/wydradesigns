@@ -888,29 +888,34 @@ textarea {
       color: #2e000e; }
 
 .inset-page.hero {
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-position: bottom center;
+  background-image: linear-gradient(#ababab 1px, transparent 1px), linear-gradient(to right, #ababab 1px, #fdfdfd 1px);
+  background-size: 24px 24px;
+  border-top: 1px solid #ababab;
+  border-bottom: 1px solid #ababab; }
 
-.article.hero.inset-page div {
-  height: 100%; }
-  .article.hero.inset-page div article {
-    height: 64vh;
-    display: flex;
-    justify-content: flex-end; }
-    .article.hero.inset-page div article p {
-      color: #efefef; }
-    .article.hero.inset-page div article h1 {
-      color: #efefef; }
-    .article.hero.inset-page div article h3 {
-      padding: 6px 24px 2px;
-      border-radius: 56px;
-      background-color: #faccda;
-      font-size: 1.5rem;
-      line-height: 2rem;
-      color: #2e000e;
-      font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 800, "INKT" 100;
-      letter-spacing: 0.0625rem; }
+.article.hero.inset-page {
+  background-size: cover;
+  border: none; }
+  .article.hero.inset-page div {
+    height: 100%; }
+    .article.hero.inset-page div article {
+      height: 64vh;
+      display: flex;
+      justify-content: flex-end; }
+      .article.hero.inset-page div article p {
+        color: #efefef; }
+      .article.hero.inset-page div article h1 {
+        color: #efefef; }
+      .article.hero.inset-page div article h3 {
+        padding: 6px 24px 2px;
+        border-radius: 56px;
+        background-color: #faccda;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        color: #2e000e;
+        font-variation-settings: "slnt" 0, "wdth" 1000, "wght" 800, "INKT" 100;
+        letter-spacing: 0.0625rem; }
 
 /*
 * Fallback CSS
@@ -1743,68 +1748,27 @@ footer {
     display: block; }
 
 /* =============
-    About Hero
-============= */
-/* =============
     About Who
 ============= */
-#aboutWho {
+#aboutWho > div {
   display: flex;
-  flex-direction: column;
-  background-color: green; }
+  flex-direction: column; }
   @media (min-width: 768px) {
-    #aboutWho {
-      flex-direction: row-reverse;
-      justify-content: flex-end;
-      padding-left: 40px;
-      padding-right: 40px; } }
+    #aboutWho > div {
+      flex-direction: row; } }
+  @media (min-width: 768px) {
+    #aboutWho > div aside {
+      width: 80%; } }
   @media (min-width: 1024px) {
-    #aboutWho {
-      padding-left: 64px;
-      padding-right: 64px; } }
+    #aboutWho > div aside {
+      width: 32vw; } }
   @media (min-width: 1440px) {
-    #aboutWho {
-      padding-left: 12vw;
-      padding-right: 12vw; } }
-  #aboutWho article {
-    display: flex;
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px; }
-    @media (min-width: 768px) {
-      #aboutWho article {
-        width: 60%;
-        padding-left: 0px;
-        padding-right: 0px; } }
-    @media (min-width: 1024px) {
-      #aboutWho article {
-        max-width: 600px; } }
-    #aboutWho article p strong {
-      color: #2e000e; }
-  #aboutWho aside {
-    padding: 0px 20px; }
-    @media (min-width: 504px) {
-      #aboutWho aside {
-        width: 80%; } }
-    @media (min-width: 768px) {
-      #aboutWho aside {
-        width: 40%;
-        padding: 0px; } }
-    #aboutWho aside figure {
-      display: flex;
-      align-items: flex-start;
-      justify-content: center;
-      height: 100%; }
-      #aboutWho aside figure img {
-        object-fit: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        width: 100%;
-        aspect-ratio: 1/1; }
-        @media (min-width: 768px) {
-          #aboutWho aside figure img {
-            aspect-ratio: unset; } }
+    #aboutWho > div aside {
+      width: 16vw; } }
+  #aboutWho > div aside img {
+    aspect-ratio: 1/1;
+    border-radius: 16px; }
+
 /* =============
     Resume Education
 ============= */
@@ -1911,12 +1875,6 @@ footer {
     @media (min-width: 1440px) {
       #antiIntro article div {
         width: 48vw; } }
-/* =============
-    ANTI Text
-============= */
-#antiText1 {
-  padding-top: 0px; }
-
 /* =============
     ANTI Gallery
 ============= */
@@ -2214,10 +2172,8 @@ footer {
 /* =============
     FENDER Text
 ============= */
-#fenderText1 {
-  padding-bottom: 0px; }
-  #fenderText1 div img {
-    aspect-ratio: 1/1; }
+#fenderText1 div img {
+  aspect-ratio: 1/1; }
 
 /* =============
     FENDER Gallery
@@ -2668,15 +2624,10 @@ footer {
     SHM Hero
 ============= */
 #shmHero {
-  background-image: url("../img/case-studies/shm/shmHero.jpg"); }
+  background-image: url("../img/case-studies/shm/shmHero.jpg");
+  background-position: center; }
   #shmHero article h1 {
     hyphens: manual; }
-
-/* =============
-    SHM Text
-============= */
-#shmText2 {
-  padding-top: 0px; }
 
 /* =============
     SHM Gallery
@@ -2941,59 +2892,74 @@ footer {
 /* =============
     TARGET Branding
 ============= */
-#tarBranding {
-  padding-top: 0px; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
-    fill: #CC0000; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
-    fill: #9F1C1F; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
-    fill: #1CAB1C; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
-    fill: #000000; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(5) circle {
-    fill: #333333; }
-  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) {
-    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
-    #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) circle {
-      fill: #FFFFFF; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(1) circle {
-    fill: #7F0000; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(2) circle {
-    fill: #006600; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(3) circle {
-    fill: #FFE500; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(4) circle {
-    fill: #666666; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(5) circle {
-    fill: #F4F4F4; }
-  #tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(6) circle {
-    fill: #F7F7F7; }
-  #tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
-    font-size: 18px;
-    font-weight: 700;
-    text-transform: capitalize; }
-  #tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    text-transform: none; }
-  #tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
-    font-size: 16px;
-    font-weight: 700;
-    letter-spacing: 1px;
-    text-transform: uppercase; }
-  #tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 0.4px; }
-  #tarBranding article .gallery-2-col {
-    align-items: flex-start; }
-  #tarBranding article .case-study-imagery {
-    display: flex;
-    flex-direction: column; }
-    #tarBranding article .case-study-imagery ul {
-      align-items: center; }
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
+  fill: #CC0000; }
+
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
+  fill: #9F1C1F; }
+
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
+  fill: #1CAB1C; }
+
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
+  fill: #000000; }
+
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(5) circle {
+  fill: #333333; }
+
+#tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+  #tarBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(6) circle {
+    fill: #FFFFFF; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(1) circle {
+  fill: #7F0000; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(2) circle {
+  fill: #006600; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(3) circle {
+  fill: #FFE500; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(4) circle {
+  fill: #666666; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(5) circle {
+  fill: #F4F4F4; }
+
+#tarBranding article .color-palette:nth-of-type(2) div svg:nth-of-type(6) circle {
+  fill: #F7F7F7; }
+
+#tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize; }
+
+#tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: none; }
+
+#tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+#tarBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.4px; }
+
+#tarBranding article .gallery-2-col {
+  align-items: flex-start; }
+
+#tarBranding article .case-study-imagery {
+  display: flex;
+  flex-direction: column; }
+  #tarBranding article .case-study-imagery ul {
+    align-items: center; }
 
 /* =============
     TIKTOK Hero
@@ -3006,36 +2972,42 @@ footer {
 /* =============
     TikTok Branding
 ============= */
-#ttBranding {
-  padding-top: 0px; }
-  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
-    fill: #08082B; }
-  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
-    fill: #0F0C46; }
-  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
-    fill: #FACD13; }
-  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) {
-    box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
-    #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
-      fill: #F7F7F7; }
-  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
-    font-size: 20px;
-    font-weight: 700; }
-  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
-    font-size: 16px;
-    font-weight: 500; }
-  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
-    font-size: 16px;
-    font-weight: 700; }
-  #ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
-    font-size: 24px;
-    font-weight: 700; }
-  #ttBranding article img:nth-child(10) {
-    margin: 0px auto;
-    height: 100%;
-    width: 80%;
-    object-fit: contain;
-    aspect-ratio: auto; }
+#ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(1) circle {
+  fill: #08082B; }
+
+#ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(2) circle {
+  fill: #0F0C46; }
+
+#ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(3) circle {
+  fill: #FACD13; }
+
+#ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2); }
+  #ttBranding article .color-palette:nth-of-type(1) div svg:nth-of-type(4) circle {
+    fill: #F7F7F7; }
+
+#ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(1) li:nth-child(1) {
+  font-size: 20px;
+  font-weight: 700; }
+
+#ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(2) li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 500; }
+
+#ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(3) li:nth-child(1) {
+  font-size: 16px;
+  font-weight: 700; }
+
+#ttBranding article .case-study-typography div .case-study-typography-type-style:nth-of-type(4) li:nth-child(1) {
+  font-size: 24px;
+  font-weight: 700; }
+
+#ttBranding article img:nth-child(10) {
+  margin: 0px auto;
+  height: 100%;
+  width: 80%;
+  object-fit: contain;
+  aspect-ratio: auto; }
 
 /* =============
     TINDER Hero

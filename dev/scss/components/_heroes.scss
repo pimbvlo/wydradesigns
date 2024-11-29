@@ -35,13 +35,17 @@
 }
 
 .inset-page.hero {
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: bottom center;
+    background-image:  linear-gradient($outline-variant 1px, transparent 1px), linear-gradient(to right, $outline-variant 1px, $background 1px);
+    background-size: 24px 24px;
+    border-top: 1px solid $outline-variant;
+    border-bottom: 1px solid $outline-variant;
 }
 
 .article.hero.inset-page {
-
+    background-size: cover;
+    border: none;
+    
     div {
         height: 100%;
 

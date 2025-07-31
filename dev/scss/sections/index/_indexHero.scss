@@ -15,15 +15,13 @@
 
             width: 100%;
 
-            font-size: rem-calc(88);
+            font-size: 20vw;
             @include md {
-                font-size: rem-calc(128);
             }
             @include lg {
-                font-size: rem-calc(184);
+                font-size: 16vw;
             }
             @include xl {
-                font-size: rem-calc(264);
             }
 
             span{
@@ -61,7 +59,7 @@
                 top: -8vw;
             }
             @include md{
-                top: -16vw;
+                top: -4vw;
                 left: -24vw;
             }
             @include lg{
@@ -75,7 +73,7 @@
             bottom: -8vw;
             right: -28vw;
             @include md{
-                bottom: -20vw;
+                bottom: -12vw;
                 right: -24vw;
             }
             @include lg{

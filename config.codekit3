@@ -65,6 +65,14 @@
       "oAP" : "\/deploy\/BarbaraKasten.html",
       "oF" : 0
     },
+    "\/deploy\/Bluelines.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Bluelines.html",
+      "oF" : 0
+    },
     "\/deploy\/Clarendon.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -131,6 +139,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/about\/flower.jpg" : {
+      "ft" : 16384,
+      "iS" : 655990,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/about\/flower.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9563,6 +9584,14 @@
       "oAP" : "\/deploy\/BarbaraKasten.html",
       "oF" : 2
     },
+    "\/dev\/Bluelines.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Bluelines.html",
+      "oF" : 2
+    },
     "\/dev\/case-studies\/anti\/antiGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -9761,6 +9790,86 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/bk\/bkHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blAudience.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blProblem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blRoles.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blRoles.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/bl\/blScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/bl\/blScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/cl\/clGallery.kit" : {

@@ -10884,12 +10884,12 @@
       "oAP" : "\/dev\/index\/indexMarquee.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectFour.kit" : {
+    "\/dev\/index\/indexProjectFour.txt" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/index\/indexProjectFour.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexProjectFour.txt",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectOne.kit" : {
@@ -10916,20 +10916,20 @@
       "oAP" : "\/dev\/index\/indexProjectsListOld.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectThree.kit" : {
+    "\/dev\/index\/indexProjectThree.txt" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/index\/indexProjectThree.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexProjectThree.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectTwo.kit" : {
+    "\/dev\/index\/indexProjectTwo.txt" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/index\/indexProjectTwo.html",
+      "oA" : 0,
+      "oAP" : "\/dev\/index\/indexProjectTwo.txt",
       "oF" : 0
     },
     "\/dev\/js\/burger\/burger-click.js" : {

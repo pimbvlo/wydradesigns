@@ -39,8 +39,10 @@ h2 {
     font-size: rem-calc(40);
     font-variation-settings: "slnt"0, "wdth"160, "wght"600, "INKT"80;
 
-    line-height: rem-calc(48);
+    line-height: rem-calc(52);
     letter-spacing: 1px;
+
+    padding-bottom: 8px;
 
     @include md {
         font-size: rem-calc(52);
@@ -104,6 +106,7 @@ p {
     line-height: rem-calc(28);
     letter-spacing: 0.2px;
     hyphens: manual;
+    text-wrap: pretty;
 
     @include lg {
         font-size: rem-calc(20);
@@ -144,6 +147,22 @@ blockquote {
     margin: 0;
     border-left: 4px solid $primary;
     padding-left: 16px;
+}
+
+figcaption {
+    font-size: rem-calc(12);
+    font-variation-settings: "slnt"0, "wdth"100, "wght"400, "INKT"00;
+    line-height: rem-calc(16);
+    letter-spacing: 0.64px;
+    padding-top: rem-calc(12);
+    text-align: center;
+    opacity: 70%;
+
+    @include md {
+        font-size: rem-calc(16);
+        line-height: rem-calc(20);
+        padding-top: rem-calc(16);
+    }
 }
 
 .kicker {
@@ -187,4 +206,3 @@ ol {
         }
     }
 }
-

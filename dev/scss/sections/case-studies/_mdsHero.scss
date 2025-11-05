@@ -1,0 +1,15 @@
+/* =============
+    MERAKI DESIGN SYSTEM Hero
+============= */
+#mdsHero {
+    background-image: url("../img/case-studies/mds/mdsHero.png");
+    background-position: center;
+    article{
+        h1{
+            hyphens:manual;
+            @include lg{
+                hyphens:none;
+            }
+        }
+    }
+}

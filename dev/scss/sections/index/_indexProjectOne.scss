@@ -7,14 +7,11 @@
         flex-direction: column;
 
         img {
-            aspect-ratio: 2 / 3;
+            aspect-ratio: 3 / 2;
             width: 100%;
             height: auto;
             background-image: none;
-            object-fit: cover;
-            @include sm{
-                aspect-ratio: 3 / 2;
-            }
+            object-fit: contain;
             @include lg{
                 aspect-ratio: 16 / 9;
             }

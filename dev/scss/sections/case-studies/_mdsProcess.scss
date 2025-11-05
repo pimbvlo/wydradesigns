@@ -1,0 +1,25 @@
+/* =============
+    MERAKI DESIGN SYSTEM Branding
+============= */
+#mdsProcess {
+    article {
+        .carousel-image {
+            li:first-of-type {
+                @include md {
+                    // border-right: 1px solid $outline;
+                    // padding-right: 32px;
+                }
+            }
+        }
+
+        ul:nth-child(14) {
+            display: flex;
+            flex-direction: column;
+
+            @include md {
+                flex-direction: row;
+                align-items: baseline;
+            }
+        }
+    }
+}

@@ -483,8 +483,9 @@ h1 {
 h2 {
   font-size: 2.5rem;
   font-variation-settings: "slnt" 0, "wdth" 160, "wght" 600, "INKT" 80;
-  line-height: 3rem;
-  letter-spacing: 1px; }
+  line-height: 3.25rem;
+  letter-spacing: 1px;
+  padding-bottom: 8px; }
   @media (min-width: 768px) {
     h2 {
       font-size: 3.25rem;
@@ -529,7 +530,8 @@ p {
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 500, "INKT" 0;
   line-height: 1.75rem;
   letter-spacing: 0.2px;
-  hyphens: manual; }
+  hyphens: manual;
+  text-wrap: pretty; }
   @media (min-width: 1024px) {
     p {
       font-size: 1.25rem;
@@ -557,6 +559,19 @@ blockquote {
   border-left: 4px solid #e50045;
   padding-left: 16px; }
 
+figcaption {
+  font-size: 0.75rem;
+  font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 0;
+  line-height: 1rem;
+  letter-spacing: 0.64px;
+  padding-top: 0.75rem;
+  text-align: center;
+  opacity: 70%; }
+  @media (min-width: 768px) {
+    figcaption {
+      font-size: 1rem;
+      line-height: 1.25rem;
+      padding-top: 1rem; } }
 .kicker {
   font-size: 0.75rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 0;
@@ -1194,6 +1209,45 @@ textarea {
 .pin-spacer {
   height: 8px; }
 
+.carousel-image {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column; }
+  .carousel-image ul {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 90vw;
+    scrollbar-width: none;
+    -ms-overflow-style: none; }
+    .carousel-image ul::-webkit-scrollbar {
+      display: none; }
+    @media (min-width: 768px) {
+      .carousel-image ul {
+        overflow: unset;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); } }
+    .carousel-image ul figure {
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      scroll-snap-align: center;
+      text-align: center; }
+      .carousel-image ul figure img {
+        width: 80vw;
+        border-radius: 4px; }
+        @media (min-width: 504px) {
+          .carousel-image ul figure img {
+            width: 70vw; } }
+        @media (min-width: 768px) {
+          .carousel-image ul figure img {
+            width: 100%;
+            border-radius: 8px; } }
 /* =============
     Case Study Pre Footer
 ============= */
@@ -1493,14 +1547,11 @@ footer {
   display: flex;
   flex-direction: column; }
   #indexProjectOne article img {
-    aspect-ratio: 2 / 3;
+    aspect-ratio: 3 / 2;
     width: 100%;
     height: auto;
     background-image: none;
-    object-fit: cover; }
-    @media (min-width: 504px) {
-      #indexProjectOne article img {
-        aspect-ratio: 3 / 2; } }
+    object-fit: contain; }
     @media (min-width: 1024px) {
       #indexProjectOne article img {
         aspect-ratio: 16 / 9; } }
@@ -2276,6 +2327,30 @@ footer {
       #icmGallery > div article ul li:nth-child(4) p {
         width: 100%; }
 
+/* =============
+    MERAKI DESIGN SYSTEM Hero
+============= */
+#mdsHero {
+  background-image: url("../img/case-studies/mds/mdsHero.png");
+  background-position: center; }
+  #mdsHero article h1 {
+    hyphens: manual; }
+    @media (min-width: 1024px) {
+      #mdsHero article h1 {
+        hyphens: none; } }
+/* =============
+    MERAKI DESIGN SYSTEM Branding
+============= */
+#mdsProcess article ul:nth-child(14) {
+  display: flex;
+  flex-direction: column; }
+  @media (min-width: 768px) {
+    #mdsProcess article ul:nth-child(14) {
+      flex-direction: row;
+      align-items: baseline; } }
+/* =============
+    MERAKI DESIGN SYSTEM Outcomes
+============= */
 /* =============
     Movebo Hero
 ============= */

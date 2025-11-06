@@ -4384,6 +4384,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/indexProjectOne.jpg" : {
+      "ft" : 16384,
+      "iS" : 619162,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/indexProjectOne.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/index\/projects\/AntiCover.jpg" : {
       "ft" : 16384,
       "iS" : 203636,
@@ -9046,6 +9059,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/indexProjectOne.jpg" : {
+      "ft" : 16384,
+      "iS" : 4273886,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/indexProjectOne.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/projects\/AntiCover.jpg" : {
       "ft" : 16384,
       "iS" : 329103,
@@ -9120,19 +9146,6 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/deploy\/imglg\/index\/projects\/indexProjectOne.png" : {
-      "ft" : 32768,
-      "iS" : 4479191,
-      "oA" : 0,
-      "oAP" : "\/deploy\/imglg\/index\/projects\/indexProjectOne.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -10868,12 +10881,12 @@
       "oAP" : "\/dev\/index\/indexHero.html",
       "oF" : 0
     },
-    "\/dev\/index\/indexIntro.txt" : {
+    "\/dev\/index\/indexIntro.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index\/indexIntro.txt",
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexIntro.html",
       "oF" : 0
     },
     "\/dev\/index\/indexMarquee.txt" : {
@@ -12395,6 +12408,21 @@
       "pg" : 0,
       "sct" : 1
     },
+    "\/dev\/scss\/sections\/index\/_indexProject.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/index\/_indexProject.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 1
+    },
     "\/dev\/scss\/sections\/index\/_indexProjectFour.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -12420,21 +12448,6 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectList.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 1
-    },
-    "\/dev\/scss\/sections\/index\/_indexProjectOne.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/scss\/sections\/index\/_indexProjectOne.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

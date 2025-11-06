@@ -4,10 +4,19 @@
 #indexHero {
     overflow-x: clip;
     overflow-y: visible;
+
     article {
         width: 100%;
         position: relative;
-        height: 60vh;
+        height: auto;
+        min-height: auto;
+        justify-content: space-between;
+
+        @include lg {
+            padding-top: 104px;
+            padding-bottom: 104px;
+        }
+
         h1 {
             display: flex;
             flex-direction: column;
@@ -16,67 +25,90 @@
             width: 100%;
 
             font-size: 20vw;
-            @include md {
-            }
+
             @include lg {
-                font-size: 16vw;
-            }
-            @include xl {
+                font-size: 12vw;
             }
 
-            span{
+            @include xl {
+                font-size: 8vw;
+
+            }
+
+            span {
                 width: 100%;
                 text-align: right;
-                min-height: 200px;
-                height:28vh;
+                min-height: 88px;
+                height: 8vh;
                 align-content: flex-end;
-                @include lg{
-                    height:32vh;
+
+                @include md {
+                    height: 16vh;
+                }
+
+                @include lg {
+                    height: 12vh;
+                    text-align: center;
+                }
+                @include xl{
+                    height: 4vh;
                 }
             }
         }
-        img{
+
+        img {
             position: absolute;
             width: 100vw;
-            z-index: 0;
+            z-index: -1;
             mix-blend-mode: multiply;
             pointer-events: none;
-            @include sm{
+
+            @include sm {
                 width: 90vw;
             }
-            @include md{
+
+            @include md {
                 max-width: 800px;
             }
-            @include xl{
+
+            @include xl {
                 max-width: 1024px;
             }
         }
-        img:nth-of-type(1){
+
+        img:nth-of-type(1) {
             top: -2vw;
-            left: -32vw;
+            left: -40vw;
             rotate: -180deg;
-            @include sm{
+
+            @include sm {
                 top: -8vw;
             }
-            @include md{
+
+            @include md {
                 top: -4vw;
                 left: -24vw;
             }
-            @include lg{
-                top: -2vw;
+
+            @include lg {
+                top: -16vw;
             }
-            @include xl{
+
+            @include xl {
                 left: -16vw;
             }
         }
-        img:nth-of-type(2){
+
+        img:nth-of-type(2) {
             bottom: -8vw;
-            right: -28vw;
-            @include md{
+            right: -32vw;
+
+            @include md {
                 bottom: -12vw;
                 right: -24vw;
             }
-            @include lg{
+
+            @include lg {
                 bottom: -4vw;
                 right: -20vw;
             }

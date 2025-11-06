@@ -1,0 +1,77 @@
+/* =============
+    Index Project
+============= */
+.index-project {
+    @include lg {
+        background-image: url("../img/index/indexProjectOne.jpg");
+        height: 88vh;
+        background-size: cover;
+        background-position: center;
+        max-height: 1024px;
+    }
+
+    article {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+
+        @include lg {
+            flex-direction: row;
+                    align-items: flex-end;
+        justify-content: flex-start;
+
+        }
+
+        img {
+            aspect-ratio: 4 / 3;
+            width: 100%;
+            height: auto;
+            background-image: none;
+            object-fit: cover;
+
+            @include lg {
+                width: auto;
+                height: 32vw;
+                display: none;
+            }
+
+            @include xl {
+                height: 24vw;
+            }
+        }
+
+        >div {
+            display: flex;
+            flex-direction: column;
+            padding: 0px;
+
+
+            @include lg {
+                width: 50vw;
+                min-width: 200px;
+                max-width: 901px;
+                background-color: $surface;
+                border-radius: 62px;
+                padding: 36px;
+            }
+
+            ul {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 8px;
+
+            }
+
+            .button {
+                align-self: initial;
+
+                @include sm {
+                    align-self: flex-start;
+                }
+
+            }
+
+        }
+    }
+}

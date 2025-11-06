@@ -90,10 +90,11 @@ $rem-base: 16px !default; // list-separator polyfill by Hugo Giraudel (https://s
 html {
     @include rem-base;
 }
+
 /* ---------------- Media Queries ---------------- */
 // Small devices
 @mixin sm {
-    @media (min-width: #{$screen-sm-min}) {
+    @media (min-device-width: #{$screen-sm-min}) {
         @content;
     }
 }
@@ -103,7 +104,7 @@ html {
 // }
 // Medium devices
 @mixin md {
-    @media (min-width: #{$screen-md-min}) {
+    @media (min-device-width: #{$screen-md-min}) and (-webkit-min-device-pixel-ratio: 2) {
         @content;
     }
 }
@@ -113,7 +114,7 @@ html {
 // }
 // Large devices
 @mixin lg {
-    @media (min-width: #{$screen-lg-min}) {
+    @media (min-device-width: #{$screen-lg-min}) and (-webkit-min-device-pixel-ratio: 1) {
         @content;
     }
 }
@@ -123,7 +124,7 @@ html {
 // }
 // Extra large devices
 @mixin xl {
-    @media (min-width: #{$screen-xl-min}) {
+    @media (min-device-width: #{$screen-xl-min}) {
         @content;
     }
 }

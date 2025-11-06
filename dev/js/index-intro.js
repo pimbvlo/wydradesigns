@@ -2,11 +2,11 @@ const introAngle = document.getElementsByClassName("intro-angle");
 let introAngleNumber = 0;
 function indexIntroAngle() {
   if (window.innerWidth < 768) {
-    introAngleNumber = Math.ceil(Math.random() * 2);
-  } else if (window.innerWidth < 1024) {
     introAngleNumber = Math.ceil(Math.random() * 3);
-  } else {
+  } else if (window.innerWidth < 1024) {
     introAngleNumber = Math.ceil(Math.random() * 4);
+  } else {
+    introAngleNumber = Math.ceil(Math.random() * 4.5);
   }
 
   if (Math.random() * 1 >= 0.5) {

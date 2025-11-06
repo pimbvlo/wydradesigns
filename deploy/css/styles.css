@@ -22,35 +22,35 @@ html {
 .bkpt-side-margin {
   margin-right: 20px;
   margin-left: 20px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .bkpt-side-margin {
       margin-right: 40px;
       margin-left: 40px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .bkpt-side-margin {
       margin-right: 64px;
       margin-left: 64px; } }
 .gap-h {
   column-gap: 24px; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .gap-h {
       column-gap: 36px; } }
 .gap-v {
   row-gap: 24px; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .gap-v {
       row-gap: 36px; } }
 .padding-tb {
   padding-top: 24px;
   padding-bottom: 24px; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .padding-tb {
       padding-top: 36px;
       padding-bottom: 36px; } }
 .padding-lr {
   padding-right: 24px;
   padding-left: 24px; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .padding-lr {
       padding-right: 36px;
       padding-left: 36px; } }
@@ -58,37 +58,37 @@ html {
   display: grid;
   grid-template-areas: ". content .";
   grid-template-columns: 20px auto 20px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .section-content {
       grid-template-columns: 40px auto 40px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-content {
       grid-template-columns: 64px auto 64px; } }
-  @media (min-width: 1440px) {
+  @media (min-device-width: 1440px) {
     .section-content {
-      grid-template-columns: 12vw auto 12vw; } }
+      grid-template-columns: 8vw auto 8vw; } }
   .section-content > :first-child {
     grid-area: content; }
 
 .section-margin {
   margin-top: 64px;
   margin-bottom: 64px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .section-margin {
       margin-top: 104px;
       margin-bottom: 104px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-margin {
       margin-top: 160px;
       margin-bottom: 160px; } }
 .section-padding {
   padding-top: 64px;
   padding-bottom: 64px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .section-padding {
       padding-top: 104px;
       padding-bottom: 104px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .section-padding {
       padding-top: 160px;
       padding-bottom: 160px; } }
@@ -472,11 +472,11 @@ h1 {
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
   margin: 0;
   letter-spacing: 1px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
       font-size: 5.5rem;
       line-height: 5.5rem; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     h1 {
       font-size: 8rem;
       line-height: 8rem; } }
@@ -486,11 +486,11 @@ h2 {
   line-height: 3.25rem;
   letter-spacing: 1px;
   padding-bottom: 8px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     h2 {
       font-size: 3.25rem;
       line-height: 4rem; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     h2 {
       font-size: 4rem;
       line-height: 4.75rem; } }
@@ -499,11 +499,11 @@ h3 {
   font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 100;
   line-height: 1.75rem;
   letter-spacing: 0.5px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     h3 {
       font-size: 1.75rem;
       line-height: 2.25rem; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     h3 {
       font-size: 2rem;
       line-height: 2.5rem; } }
@@ -532,7 +532,7 @@ p {
   letter-spacing: 0.2px;
   hyphens: manual;
   text-wrap: pretty; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     p {
       font-size: 1.25rem;
       line-height: 1.875rem; } }
@@ -567,7 +567,7 @@ figcaption {
   padding-top: 0.75rem;
   text-align: center;
   opacity: 70%; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     figcaption {
       font-size: 1rem;
       line-height: 1.25rem;
@@ -623,13 +623,13 @@ ol li {
     justify-content: center;
     text-transform: uppercase;
     width: 100%; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .btn > a {
         padding: 16px 24px 16px 24px;
         font-size: 1.75rem; } }
     .btn > a i {
       font-size: 1.5rem; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         .btn > a i {
           font-size: 1.75rem; } }
 .btn:link > a,
@@ -644,7 +644,7 @@ ol li {
   text-transform: uppercase;
   transition: 0.2s ease-in-out;
   width: 100%; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .btn:link > a,
     .btn:visited > a {
       padding: 16px 24px 16px 24px; } }
@@ -660,7 +660,7 @@ ol li {
   .btn:hover > a i {
     transform: translate(-200%, 0px) scale(1.25);
     transition: 0.2s ease-in-out; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .btn:hover > a i {
         transform: translate(-304%, 0px) scale(1.25); } }
 .btn:active {
@@ -727,7 +727,7 @@ ol li {
       margin-top: -6px; }
   .button:link > a, .button:visited > a {
     color: #e50045; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .button:hover {
       transform: scale(1.08); } }
   .button:hover > a {
@@ -883,10 +883,10 @@ textarea {
   background-image: radial-gradient(#ababab 8%, transparent 0);
   background-size: 24px 24px;
   position: relative; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     .hero {
       background-size: 40px 40px; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .hero {
       background-image: radial-gradient(#ababab 8%, transparent 0); } }
   .hero article {
@@ -896,7 +896,7 @@ textarea {
     flex-direction: column;
     height: 32vh;
     min-height: 360px; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       .hero article {
         height: 48vh; } }
     .hero article h1 {
@@ -938,9 +938,6 @@ textarea {
 .hero-gradient {
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.163194) 17.89%, rgba(0, 0, 0, 0.307556) 33.48%, rgba(0, 0, 0, 0.42825) 48.13%, rgba(0, 0, 0, 0.520444) 63.19%, rgba(0, 0, 0, 0.579306) 80.02%, rgba(0, 0, 0, 0.6) 100%); }
 
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 7)
-*/
 .material-symbols-outlined {
   font-variation-settings: 'FILL' 0, 'wght' 800, 'GRAD' 0, 'opsz' 24; }
 
@@ -952,7 +949,7 @@ textarea {
   flex-direction: column; }
   .article-text article p {
     max-width: 80ch; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .article-text article p {
         width: 80%; } }
 .article-gallery article {
@@ -962,7 +959,7 @@ textarea {
     aspect-ratio: 3/2; }
   .article-gallery article p {
     max-width: 80ch; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .article-gallery article p {
         width: 80%; } }
 .article-gallery.inverse,
@@ -977,7 +974,7 @@ textarea {
 .gallery-2-col {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     .gallery-2-col {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
@@ -985,32 +982,32 @@ textarea {
 .gallery-3-col {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     .gallery-3-col {
       display: grid;
       grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .gallery-3-col {
       grid-template-columns: repeat(3, 1fr); } }
 .gallery-4-col {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     .gallery-4-col {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       align-items: center; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .gallery-4-col {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       align-items: center; } }
 .color-palette-group {
   display: grid; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .color-palette-group {
       grid-template-columns: repeat(2, 1fr); } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .color-palette-group {
       grid-template-columns: repeat(3, 1fr); } }
   .color-palette-group .color-palette {
@@ -1022,7 +1019,7 @@ textarea {
     .color-palette-group .color-palette div {
       display: grid;
       grid-template-columns: repeat(3, 1fr); }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         .color-palette-group .color-palette div {
           column-gap: 24px;
           row-gap: 24px; } }
@@ -1030,11 +1027,11 @@ textarea {
         height: 20vw;
         width: 20vw;
         border-radius: 100px; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           .color-palette-group .color-palette div svg {
             height: 10vw;
             width: 10vw; } }
-        @media (min-width: 1024px) {
+        @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
           .color-palette-group .color-palette div svg {
             height: 5vw;
             width: 5vw; } }
@@ -1065,7 +1062,7 @@ textarea {
   font-size: 1.125rem;
   line-height: unset;
   color: #2b2b2b; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .case-study-typography {
       flex-direction: row;
       width: 80vw;
@@ -1076,7 +1073,7 @@ textarea {
     background-color: white;
     border-radius: 4px;
     height: auto; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .case-study-typography .case-study-typography-font-title {
         width: 140px; } }
     .case-study-typography .case-study-typography-font-title li:nth-child(1) {
@@ -1088,7 +1085,7 @@ textarea {
       border-top: 1px solid gray;
       padding-top: 16px;
       color: #2b2b2b; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .case-study-typography div {
       width: 100%; } }
   .case-study-typography div .case-study-typography-type-style li:nth-child(1) {
@@ -1107,7 +1104,7 @@ textarea {
   background-color: #fdfdfd;
   flex-direction: column;
   border-radius: 16px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .case-study-icons {
       width: fit-content;
       margin: 0px auto; } }
@@ -1128,18 +1125,18 @@ textarea {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "p" "i"; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     .case-study-intro-image > div article {
       grid-gap: 24px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     .case-study-intro-image > div article {
       grid-gap: 32px; } }
   .case-study-intro-image > div article p {
     grid-area: "p"; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       .case-study-intro-image > div article p {
         width: 72%; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .case-study-intro-image > div article p {
         width: 50%; } }
   .case-study-intro-image > div article ul {
@@ -1148,13 +1145,13 @@ textarea {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       .case-study-intro-image > div article ul {
         grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .case-study-intro-image > div article ul {
         grid-gap: 24px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       .case-study-intro-image > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 32px; } }
@@ -1164,10 +1161,10 @@ textarea {
       background-size: cover;
       height: 240px;
       width: 100%; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         .case-study-intro-image > div article ul li {
           height: 280px; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         .case-study-intro-image > div article ul li {
           height: 320px; } }
 .case-study-gallery > div article {
@@ -1179,13 +1176,13 @@ textarea {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 100%; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       .case-study-gallery > div article ul {
         grid-template-columns: repeat(2, 1fr); } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .case-study-gallery > div article ul {
         grid-gap: 24px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       .case-study-gallery > div article ul {
         grid-gap: 32px; } }
     .case-study-gallery > div article ul li {
@@ -1224,7 +1221,7 @@ textarea {
     -ms-overflow-style: none; }
     .carousel-image ul::-webkit-scrollbar {
       display: none; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       .carousel-image ul {
         overflow: unset;
         width: 100%;
@@ -1241,10 +1238,10 @@ textarea {
       .carousel-image ul figure img {
         width: 80vw;
         border-radius: 4px; }
-        @media (min-width: 504px) {
+        @media (min-device-width: 504px) {
           .carousel-image ul figure img {
             width: 70vw; } }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           .carousel-image ul figure img {
             width: 100%;
             border-radius: 8px; } }
@@ -1262,7 +1259,7 @@ textarea {
       min-height: 2lh; }
     #caseStudyPreFooter article .case-study-card img {
       aspect-ratio: 3/2; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #caseStudyPreFooter article .case-study-card img {
           aspect-ratio: 16/9; } }
 /* =============
@@ -1284,13 +1281,13 @@ header {
       margin-top: 6px;
       display: flex;
       align-items: center; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         header > div > a {
           margin-top: 8px; } }
       header > div > a > svg {
         height: 28px;
         width: auto; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           header > div > a > svg {
             height: 32px;
             width: auto; } }
@@ -1304,13 +1301,13 @@ header {
       right: 20px;
       margin-right: -8px;
       cursor: pointer; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         header > div #burger-container {
           right: 40px; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         header > div #burger-container {
           right: 64px; } }
-      @media (min-width: 1440px) {
+      @media (min-device-width: 1440px) {
         header > div #burger-container {
           right: 12vw; } }
       header > div #burger-container g path {
@@ -1337,7 +1334,7 @@ header {
         color: #e50045;
         display: block;
         transition: 0.25s; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           header > div .sidenav a {
             padding: 20px 40px 16px; } }
         header > div .sidenav a:hover {
@@ -1410,7 +1407,7 @@ footer {
       justify-content: flex-start;
       width: 100%;
       z-index: 1; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         footer > div aside {
           flex-direction: row;
           align-items: center;
@@ -1434,13 +1431,13 @@ footer {
       width: 100vh;
       top: -12vw;
       right: -64vw; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         footer > div img {
           right: -40vw; } }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         footer > div img {
           right: -64vw; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         footer > div img {
           top: -8vw;
           right: -20vw; } }
@@ -1452,14 +1449,14 @@ footer {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "b"; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #csFooter > div article {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "b b ."; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #csFooter > div article {
       grid-gap: 24px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #csFooter > div article {
       grid-template-columns: repeat(5, 1fr);
       grid-template-areas: "b b . . ."; } }
@@ -1478,98 +1475,165 @@ footer {
   #indexHero article {
     width: 100%;
     position: relative;
-    height: 60vh; }
+    height: auto;
+    min-height: auto;
+    justify-content: space-between; }
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+      #indexHero article {
+        padding-top: 104px;
+        padding-bottom: 104px; } }
     #indexHero article h1 {
       display: flex;
       flex-direction: column;
       z-index: 1;
       width: 100%;
       font-size: 20vw; }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #indexHero article h1 {
-          font-size: 16vw; } }
+          font-size: 12vw; } }
+      @media (min-device-width: 1440px) {
+        #indexHero article h1 {
+          font-size: 8vw; } }
       #indexHero article h1 span {
         width: 100%;
         text-align: right;
-        min-height: 200px;
-        height: 28vh;
+        min-height: 88px;
+        height: 8vh;
         align-content: flex-end; }
-        @media (min-width: 1024px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           #indexHero article h1 span {
-            height: 32vh; } }
+            height: 16vh; } }
+        @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+          #indexHero article h1 span {
+            height: 12vh;
+            text-align: center; } }
+        @media (min-device-width: 1440px) {
+          #indexHero article h1 span {
+            height: 4vh; } }
     #indexHero article img {
       position: absolute;
       width: 100vw;
-      z-index: 0;
+      z-index: -1;
       mix-blend-mode: multiply;
       pointer-events: none; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #indexHero article img {
           width: 90vw; } }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #indexHero article img {
           max-width: 800px; } }
-      @media (min-width: 1440px) {
+      @media (min-device-width: 1440px) {
         #indexHero article img {
           max-width: 1024px; } }
     #indexHero article img:nth-of-type(1) {
       top: -2vw;
-      left: -32vw;
+      left: -40vw;
       rotate: -180deg; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #indexHero article img:nth-of-type(1) {
           top: -8vw; } }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #indexHero article img:nth-of-type(1) {
           top: -4vw;
           left: -24vw; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #indexHero article img:nth-of-type(1) {
-          top: -2vw; } }
-      @media (min-width: 1440px) {
+          top: -16vw; } }
+      @media (min-device-width: 1440px) {
         #indexHero article img:nth-of-type(1) {
           left: -16vw; } }
     #indexHero article img:nth-of-type(2) {
       bottom: -8vw;
-      right: -28vw; }
-      @media (min-width: 768px) {
+      right: -32vw; }
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #indexHero article img:nth-of-type(2) {
           bottom: -12vw;
           right: -24vw; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #indexHero article img:nth-of-type(2) {
           bottom: -4vw;
           right: -20vw; } }
 /* =============
-    Index Project One
+    Index Intro
 ============= */
-#indexProjectOne article {
+#indexIntro article {
   display: flex;
-  flex-direction: column; }
-  #indexProjectOne article img {
-    aspect-ratio: 3 / 2;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 32px;
+  max-width: 600px; }
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    #indexIntro article {
+      max-width: 680px; } }
+  @media (min-device-width: 1440px) {
+    #indexIntro article {
+      max-width: 840px; } }
+  #indexIntro article h3 {
+    color: #00232e; }
+    #indexIntro article h3 .intro-angle {
+      color: #00232e;
+      background-color: #fdfdfd;
+      border: 2px solid #00b1e6;
+      padding: 8px 8px 4px;
+      border-radius: 8px;
+      display: inline-block; }
+
+/* =============
+    Index Project
+============= */
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .index-project {
+    background-image: url("../img/index/indexProjectOne.jpg");
+    height: 88vh;
+    background-size: cover;
+    background-position: center;
+    max-height: 1024px; } }
+
+.index-project article {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end; }
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    .index-project article {
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: flex-start; } }
+  .index-project article img {
+    aspect-ratio: 4 / 3;
     width: 100%;
     height: auto;
     background-image: none;
-    object-fit: contain; }
-    @media (min-width: 1024px) {
-      #indexProjectOne article img {
-        aspect-ratio: 16 / 9; } }
-  #indexProjectOne article > div {
+    object-fit: cover; }
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+      .index-project article img {
+        width: auto;
+        height: 32vw;
+        display: none; } }
+    @media (min-device-width: 1440px) {
+      .index-project article img {
+        height: 24vw; } }
+  .index-project article > div {
     display: flex;
-    flex-direction: column; }
-    @media (min-width: 1024px) {
-      #indexProjectOne article > div {
-        min-width: 400px;
-        max-width: 900px; } }
-    #indexProjectOne article > div ul {
+    flex-direction: column;
+    padding: 0px; }
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+      .index-project article > div {
+        width: 50vw;
+        min-width: 200px;
+        max-width: 901px;
+        background-color: #fdfdfd;
+        border-radius: 62px;
+        padding: 36px; } }
+    .index-project article > div ul {
       display: flex;
       flex-wrap: wrap;
       gap: 8px; }
-    #indexProjectOne article > div .button {
+    .index-project article > div .button {
       align-self: initial; }
-      @media (min-width: 504px) {
-        #indexProjectOne article > div .button {
+      @media (min-device-width: 504px) {
+        .index-project article > div .button {
           align-self: flex-start; } }
 /* =============
     Index Marquees
@@ -1589,14 +1653,14 @@ footer {
     /* IE 10 and IE 11 */
     user-select: none;
     /* Standard syntax */ }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #indexMarquee .marquee {
         padding: 24px 0 8px; } }
     #indexMarquee .marquee li {
       font-size: 3.25rem;
       line-height: 100%;
       font-variation-settings: "slnt" 0, "wdth" 0, "wght" 800, "INKT" 100; }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #indexMarquee .marquee li {
           font-size: 4.25rem; } }
   #indexMarquee > :nth-child(1) {
@@ -1616,89 +1680,6 @@ footer {
     display: flex;
     flex: auto;
     flex-direction: row; }
-
-/* =============
-    Index Project Two
-============= */
-#indexProjectTwo {
-  background-image: url("https://images.unsplash.com/photo-1700410426386-704d39c87828?q=80&w=3687&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
-  height: 92vh;
-  background-size: cover;
-  background-position: center; }
-  #indexProjectTwo article {
-    align-items: flex-end;
-    justify-content: flex-end; }
-    #indexProjectTwo article > div {
-      background-color: #efefef;
-      border-radius: 48px; }
-
-.index-project article {
-  display: flex;
-  flex-direction: column; }
-  @media (min-width: 1024px) {
-    .index-project article {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr); } }
-  .index-project article img {
-    aspect-ratio: 2 / 3;
-    width: 100%;
-    height: auto;
-    background-image: none;
-    object-fit: cover; }
-    @media (min-width: 504px) {
-      .index-project article img {
-        aspect-ratio: 3 / 2; } }
-  .index-project article > div {
-    display: flex;
-    flex-direction: column; }
-    @media (min-width: 1024px) {
-      .index-project article > div {
-        min-width: 200px;
-        max-width: 900px; } }
-    .index-project article > div ul {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px; }
-    .index-project article > div .button {
-      align-self: initial; }
-      @media (min-width: 504px) {
-        .index-project article > div .button {
-          align-self: flex-start; } }
-/* =============
-    Index Project Three
-============= */
-/* =============
-    Index Project Four
-============= */
-#indexProjectFour {
-  background-color: #efefef; }
-
-/* =============
-    Index Intro
-============= */
-#indexIntro {
-  padding-bottom: 0px; }
-  #indexIntro article {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 32px;
-    max-width: 600px; }
-    @media (min-width: 1024px) {
-      #indexIntro article {
-        max-width: 680px; } }
-    @media (min-width: 1440px) {
-      #indexIntro article {
-        max-width: 840px; } }
-    #indexIntro article h3 {
-      color: #00232e; }
-      #indexIntro article h3 .intro-angle {
-        color: #00232e;
-        background-color: #fdfdfd;
-        border: 2px solid #00b1e6;
-        padding: 8px 8px 4px;
-        border-radius: 8px;
-        display: inline-block; }
 
 /* =============
     Index Project List
@@ -1726,24 +1707,24 @@ footer {
     #indexProjectsList > article .filterDiv:last-of-type {
       border-bottom: none;
       padding: 32px 0px 0px; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #indexProjectsList > article .filterDiv {
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-between; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #indexProjectsList > article .filterDiv h3 {
         min-width: 24%;
         max-width: 24%;
         font-size: 1.5rem;
         line-height: 1.75rem; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #indexProjectsList > article .filterDiv h3 {
         min-width: 24%;
         max-width: 24%;
         font-size: 1.75rem;
         line-height: 2.25rem; } }
-    @media (min-width: 1440px) {
+    @media (min-device-width: 1440px) {
       #indexProjectsList > article .filterDiv h3 {
         min-width: 24%;
         max-width: 24%; } }
@@ -1751,17 +1732,17 @@ footer {
       display: flex;
       flex-direction: column;
       gap: 12px; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #indexProjectsList > article .filterDiv > div {
           min-width: auto;
           max-width: 50%; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #indexProjectsList > article .filterDiv > div {
           max-width: 40%; } }
       #indexProjectsList > article .filterDiv > div p {
         margin-top: -12px;
         min-height: 3lh; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           #indexProjectsList > article .filterDiv > div p {
             margin-top: 0px;
             min-height: 3lh; } }
@@ -1774,7 +1755,7 @@ footer {
           max-height: 32px; }
     #indexProjectsList > article .filterDiv .button {
       align-self: initial; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #indexProjectsList > article .filterDiv .button {
           align-self: flex-start; } }
 #indexProjectsList .filterDiv {
@@ -1798,16 +1779,16 @@ footer {
 #aboutWho > div {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #aboutWho > div {
       flex-direction: row; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #aboutWho > div aside {
       width: 80%; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #aboutWho > div aside {
       width: 32vw; } }
-  @media (min-width: 1440px) {
+  @media (min-device-width: 1440px) {
     #aboutWho > div aside {
       width: 16vw; } }
   #aboutWho > div aside img {
@@ -1820,7 +1801,7 @@ footer {
 #resumeEducation > article {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #resumeEducation > article {
       width: 75%; } }
   #resumeEducation > article div {
@@ -1834,7 +1815,7 @@ footer {
 #resumeHonors > article {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #resumeHonors > article {
       width: 75%; } }
 /* =============
@@ -1845,7 +1826,7 @@ footer {
   #resumeExperience article {
     display: flex;
     flex-direction: column; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #resumeExperience article {
         width: 75%; } }
     #resumeExperience article h2 {
@@ -1862,7 +1843,7 @@ footer {
         padding-left: 8px;
         border-left: 4px solid #ababab;
         margin-left: 2px; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           #resumeExperience article div ul ul {
             padding-left: 16px;
             margin-left: 8px; } }
@@ -1872,13 +1853,13 @@ footer {
 #resumeSkills > article {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #resumeSkills > article {
       width: 75%; } }
   #resumeSkills > article div {
     display: grid;
     grid-template-columns: repeat(1, 1fr); }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #resumeSkills > article div {
         grid-template-columns: repeat(2, 1fr); } }
     #resumeSkills > article div div {
@@ -1911,13 +1892,13 @@ footer {
     border-radius: 48px;
     border: 1px solid #ababab;
     max-width: 600px; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #antiIntro article div {
         width: 72vw; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #antiIntro article div {
         width: 56vw; } }
-    @media (min-width: 1440px) {
+    @media (min-device-width: 1440px) {
       #antiIntro article div {
         width: 48vw; } }
 /* =============
@@ -1960,10 +1941,10 @@ footer {
   background-image: url("../img/case-studies/anti/antiFullOpen.jpg");
   background-position: center 90%;
   grid-area: AFO; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #antiGallery article li:nth-child(6) {
       background-position: center 80%; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #antiGallery article li:nth-child(6) {
       background-position: center 90%; } }
 /* =============
@@ -1972,7 +1953,7 @@ footer {
 #atdHero {
   background-image: url("../img/case-studies/atd/atdHero.jpg");
   background-position: 64% top; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #atdHero {
       background-position: center top; } }
 /* =============
@@ -1982,13 +1963,13 @@ footer {
   align-items: center;
   display: flex;
   justify-content: flex-start; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #atdIntro > div article {
       width: 72%; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #atdIntro > div article {
       width: 50%; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #atdIntro > div article p {
       font-size: 1.25rem; } }
 /* =============
@@ -2056,16 +2037,16 @@ footer {
     display: grid;
     grid-template-areas: "halftone square outline-triangle" "dotted-circle dotted-circle lines" "dotted-square two-zig-zag-uneven two-zig-zag-uneven";
     grid-template-columns: repeat(3, 1fr); }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #atdIconography article div:nth-child(2) ul {
         grid-template-areas: ". halftone halftone . square" ". halftone halftone outline-triangle ." "dotted-circle . two-zig-zag-uneven two-zig-zag-uneven ." "lines lines . . dotted-square";
         grid-template-columns: repeat(5, 1fr); } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #atdIconography article div:nth-child(2) ul {
         grid-gap: 24px;
         grid-template-areas: ". halftone halftone . square dotted-circle dotted-circle two-zig-zag-uneven two-zig-zag-uneven" "lines halftone halftone outline-triangle . dotted-circle dotted-circle dotted-square .";
         grid-template-columns: repeat(9, 1fr); } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #atdIconography article div:nth-child(2) ul {
         grid-gap: 32px; } }
     #atdIconography article div:nth-child(2) ul li:nth-child(1) {
@@ -2140,7 +2121,7 @@ footer {
 #atdLogo div {
   justify-content: flex-start;
   align-items: flex-start; }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #atdLogo div p {
       width: 100%;
       max-width: 100%; } }
@@ -2178,15 +2159,15 @@ footer {
   #clGallery > div article ul {
     grid-template-areas: "CP" "paragraph1" "CPM";
     grid-template-rows: 400px auto 600px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #clGallery > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "CP CP CP" "paragraph1 paragraph1 paragraph1" ". CPM CPM";
         grid-template-rows: 600px auto 400px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #clGallery > div article ul {
         grid-template-rows: 800px auto 504px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #clGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 CP CP CP CP" "CPM CPM CPM CPM CPM . .";
@@ -2199,7 +2180,7 @@ footer {
       background-image: url("../img/case-studies/cl/clPosterMockup.jpg");
       grid-area: CPM;
       background-position: 30% center; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #clGallery > div article ul li:nth-child(2) {
           background-position: 40% center; } }
     #clGallery > div article ul li:nth-child(3) {
@@ -2241,16 +2222,16 @@ footer {
 ============= */
 #icmText1 > div article p {
   margin: 0px 0px 48px 0px; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #icmText1 > div article p {
       margin: 0px 0px 56px 0px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #icmText1 > div article p {
       margin: 0px 0px 64px 0px; } }
-  @media (min-width: 1440px) {
+  @media (min-device-width: 1440px) {
     #icmText1 > div article p {
       margin: 0px 0px 80px 0px; } }
-@media (min-width: 1024px) {
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #icmText1 > div article ul {
     grid-template-columns: repeat(4, 1fr); } }
 
@@ -2289,20 +2270,20 @@ footer {
   #icmGallery > div article ul {
     grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
     grid-template-rows: auto 200px 200px 176px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #icmGallery > div article ul {
         grid-template-areas: "ISM ISM ISM" "paragraph1 paragraph1 ." ". IBP IBP" "IPL IPL IPL";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 504px auto 200px 264px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #icmGallery > div article ul {
         grid-template-rows: 680px auto 304px 400px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #icmGallery > div article ul {
         grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: 744px auto 640px; } }
-    @media (min-width: 1440px) {
+    @media (min-device-width: 1440px) {
       #icmGallery > div article ul {
         grid-template-rows: 800px auto 704px; } }
     #icmGallery > div article ul li:nth-child(1) {
@@ -2312,10 +2293,10 @@ footer {
       background-image: url("../img/case-studies/icm/icmButtonPins.jpg");
       grid-area: IBP;
       background-size: auto 150%; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #icmGallery > div article ul li:nth-child(2) {
           background-size: cover; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #icmGallery > div article ul li:nth-child(2) {
           background-size: auto 200%; } }
     #icmGallery > div article ul li:nth-child(3) {
@@ -2335,7 +2316,7 @@ footer {
   background-position: center; }
   #mdsHero article h1 {
     hyphens: manual; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #mdsHero article h1 {
         hyphens: none; } }
 /* =============
@@ -2344,7 +2325,7 @@ footer {
 #mdsProcess article ul:nth-child(14) {
   display: flex;
   flex-direction: column; }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #mdsProcess article ul:nth-child(14) {
       flex-direction: row;
       align-items: baseline; } }
@@ -2369,21 +2350,21 @@ footer {
   #mGallery > div article ul {
     grid-template-areas: "MMHO" "paragraph1" "MSOne" "MMBHO" "MTHO" "MSTwo" "MSThree";
     grid-template-rows: 504px auto 200px 192px 400px 160px 160px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #mGallery > div article ul {
         grid-template-areas: "MMHO MMHO MMHO" "paragraph1 paragraph1 ." "MSOne MSOne MSOne" "MMBHO MMBHO MMBHO" "MTHO MTHO MSThree" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 600px auto 200px 264px 80px 200px 264px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #mGallery > div article ul {
         grid-template-areas: "MMTLD MMTLD MMTLD" "paragraph1 paragraph1 ." "MSOne MSOne MSThree" "MMBT MMBT MMBT" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
         grid-template-rows: 400px auto 320px 600px 400px 400px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #mGallery > div article ul {
         grid-template-areas: "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1" "MSOne MSOne MSOne MSOne MSOne MSThree MSThree" "MTHO MTHO MMBT MMBT MMBT MMBT MMBT" "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
         grid-template-columns: repeat(7, 1fr);
         grid-template-rows: auto 264px 416px 440px; } }
-    @media (min-width: 1440px) {
+    @media (min-device-width: 1440px) {
       #mGallery > div article ul {
         grid-template-rows: 280px 344px 560px 480px; } }
     #mGallery > div article ul li:nth-child(1) {
@@ -2391,25 +2372,25 @@ footer {
       grid-area: MMHO;
       background-size: auto 104%;
       background-position: center top; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #mGallery > div article ul li:nth-child(1) {
           display: none; } }
     #mGallery > div article ul li:nth-child(2) {
       background-image: url("../img/case-studies/m/mMobileTiltLeftDown.png");
       display: none; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #mGallery > div article ul li:nth-child(2) {
           display: initial;
           background-size: auto 110%;
           background-position: center top;
           grid-area: MMTLD; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #mGallery > div article ul li:nth-child(2) {
           background-size: 110% auto; } }
     #mGallery > div article ul li:nth-child(3) {
       background-image: url("../img/case-studies/m/mMacBookTilt.png");
       display: none; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #mGallery > div article ul li:nth-child(3) {
           grid-area: MMBT;
           background-size: contain;
@@ -2419,27 +2400,27 @@ footer {
       grid-area: MTHO;
       background-size: auto 424px;
       background-position: left top; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #mGallery > div article ul li:nth-child(4) {
           background-size: auto 448px; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #mGallery > div article ul li:nth-child(4) {
           background-size: auto 344px; } }
     #mGallery > div article ul li:nth-child(5) {
       background-image: url("../img/case-studies/m/mMacBookHeadOn.png");
       grid-area: MMBHO;
       background-size: contain; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #mGallery > div article ul li:nth-child(5) {
           display: none; } }
     #mGallery > div article ul li:nth-child(6) {
       background-image: url("../img/case-studies/m/mScreenshot1.png");
       grid-area: MSOne;
       background-position: center top; }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #mGallery > div article ul li:nth-child(6) {
           background-position: right center; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #mGallery > div article ul li:nth-child(6) {
           background-position: center top; } }
     #mGallery > div article ul li:nth-child(7) {
@@ -2448,7 +2429,7 @@ footer {
     #mGallery > div article ul li:nth-child(8) {
       background-image: url("../img/case-studies/m/mScreenshot3.png");
       grid-area: MSThree; }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #mGallery > div article ul li:nth-child(8) {
           background-position: 80% center; } }
     #mGallery > div article ul li:nth-child(9) {
@@ -2474,15 +2455,15 @@ footer {
   #onGallery > div article ul {
     grid-template-areas: "OP" "paragraph1" "OPM";
     grid-template-rows: 304px auto 480px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #onGallery > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "OP OP ." "paragraph1 paragraph1 ." ". OPM OPM";
         grid-template-rows: 400px auto 600px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #onGallery > div article ul {
         grid-template-rows: 504px auto 680px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #onGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 OP OP OP OP" ". . . OP OP OP OP" "OPM OPM OPM OPM OPM . .";
@@ -2516,7 +2497,7 @@ footer {
       background-color: #161618; } }
   #qvText1 > div article p {
     margin: 0px 0px 40px 0px; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #qvText1 > div article p {
         margin: 0px 0px 56px 0px; } }
   #qvText1 > div article ul li {
@@ -2528,10 +2509,10 @@ footer {
   #qvText1 > div article ul li:nth-child(3) {
     background-image: url("../img/case-studies/qv/qvBrochureInspiration3.jpg");
     filter: saturate(1); }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #qvText1 > div article ul li:nth-child(3) {
         grid-column: span 2; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #qvText1 > div article ul li:nth-child(3) {
         grid-column: span 1; } }
 /* =============
@@ -2540,16 +2521,16 @@ footer {
 #qvGallery > div article ul {
   grid-template-areas: "BO2" "BO1" "BD3" "paragraph" "BI1" "BD4" "BI2";
   grid-template-rows: 240px 400px 200px auto 400px 200px 320px; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #qvGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph paragraph" "BI1 BI1 ." ". BD4 BD4" "BI2 BI2 BI2";
       grid-template-rows: 224px 104px 160px auto 400px 200px 400px; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #qvGallery > div article ul {
       grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph ." "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
       grid-template-rows: 280px 104px 120px auto 200px 304px 600px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #qvGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . ." "BI2 BI2 BI2 BI2 BI2 BD4 BD4";
@@ -2557,7 +2538,7 @@ footer {
   #qvGallery > div article ul li:nth-child(1) {
     background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
     grid-area: BO2; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #qvGallery > div article ul li:nth-child(1) {
         background-position: center bottom; } }
   #qvGallery > div article ul li:nth-child(2) {
@@ -2570,14 +2551,14 @@ footer {
   #qvGallery > div article ul li:nth-child(4) {
     background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
     grid-area: BI1; }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #qvGallery > div article ul li:nth-child(4) {
         background-position: center 56%; } }
   #qvGallery > div article ul li:nth-child(5) {
     background-image: url("../img/case-studies/qv/qvBrochureDetail4.jpg");
     grid-area: BD4;
     background-position: left top; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #qvGallery > div article ul li:nth-child(5) {
         background-position: 30% top; } }
   #qvGallery > div article ul li:nth-child(6) {
@@ -2593,7 +2574,7 @@ footer {
 ============= */
 #saHero {
   background-image: url("../img/case-studies/sa/saHero.jpg"); }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #saHero {
       background-position: center 80%; } }
 /* =============
@@ -2608,7 +2589,7 @@ footer {
       background-color: #161618; } }
   #saText1 > div article {
     grid-template-areas: "i" "p"; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #saText1 > div article {
         grid-template-areas: "p i"; } }
     #saText1 > div article div {
@@ -2625,23 +2606,23 @@ footer {
         right: 0;
         top: -168px;
         width: 288px; }
-        @media (min-width: 504px) {
+        @media (min-device-width: 504px) {
           #saText1 > div article div figure {
             height: 304px;
             top: -176px;
             width: 320px; } }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           #saText1 > div article div figure {
             height: 336px;
             left: 400;
             width: 504px; } }
-        @media (min-width: 1024px) {
+        @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
           #saText1 > div article div figure {
             height: 504px;
             left: 504;
             width: 520px;
             top: -152px; } }
-        @media (min-width: 1440px) {
+        @media (min-device-width: 1440px) {
           #saText1 > div article div figure {
             height: 520px;
             width: 640px; } }
@@ -2651,15 +2632,15 @@ footer {
 #saGallery > div article ul {
   grid-template-areas: "C1" "paragraph" "ToC" "MS" "ISb1" "IS2";
   grid-template-rows: 240px auto 224px 200px 200px 224px; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #saGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: "C1 ToC ToC" "paragraph paragraph ." "MS MS MS" "ISb1 ISb1 IS2";
       grid-template-rows: 224px auto 400px 224px; } }
-  @media (min-width: 768px) {
+  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     #saGallery > div article ul {
       grid-template-rows: 304px auto 504px 304px; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #saGallery > div article ul {
       grid-template-columns: repeat(7, 1fr);
       grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 paragraph paragraph paragraph paragraph" ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
@@ -2714,17 +2695,17 @@ footer {
   background-image: url("../img/case-studies/slc/slcHero.jpg"); }
   #slcHero article h1 {
     hyphens: manual; }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #slcHero article h1 {
         hyphens: none; } }
 /* =============
     TARGET Prototyping
 ============= */
-@media (min-width: 768px) {
+@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
   #slcPrototyping .gallery-3-col img {
     height: 216px; } }
 
-@media (min-width: 1024px) {
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   #slcPrototyping .gallery-3-col img {
     height: 304px; } }
 
@@ -2820,12 +2801,12 @@ footer {
   #soaGallery > div article ul {
     grid-template-areas: "v" "paragraph1" "ST1" "ST2" "ST3" "ST4" "ST5" "ST6" "ST7";
     grid-template-rows: auto auto 80px 80px 80px 80px 80px 80px 80px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #soaGallery > div article ul {
         grid-template-areas: "v v v" "paragraph1 paragraph1 ." "ST1 ST1 ST2" "ST3 . ST4" "ST6 ST6 ." "ST7 ST5 ST5" ". ST5 ST5";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: auto auto 80px 80px 184px 80px 80px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #soaGallery > div article ul {
         grid-template-areas: "v v v v v v v" ". paragraph1 paragraph1 paragraph1 paragraph1 . ." "ST1 ST3 ST3 ST5 ST5 ST6 ." "ST2 ST2 ST4 ST5 ST5 . ST7";
         grid-template-columns: repeat(7, 1fr);
@@ -2881,15 +2862,15 @@ footer {
   #sbGallery > div article ul {
     grid-template-areas: "SP1" "SP2" "paragraph1" "SPZ1" "SPZ2" "SBPM";
     grid-template-rows: 304px 304px auto 200px 200px 304px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #sbGallery > div article ul {
         grid-template-areas: "SP1 SP1 SPZ1" "SPZ2 SP2 SP2" "paragraph1 paragraph1 ." "SBPM SBPM SBPM";
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: 304px 304px auto 800px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #sbGallery > div article ul {
         grid-template-rows: 400px 400px auto 800px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #sbGallery > div article ul {
         grid-template-areas: "SP1 SP1 SP1 . SP2 SP2 SP2" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 . ." "SPZ1 SPZ1 SPZ2 SPZ2 SPZ2 SPZ2 SPZ2" ". . . SBPM SBPM SBPM SBPM";
         grid-template-columns: repeat(7, 1fr);
@@ -2912,10 +2893,10 @@ footer {
       background-position: center 16%;
       background-size: auto 300%;
       grid-area: SPZ2; }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #sbGallery > div article ul li:nth-child(4) {
           background-size: auto 400%; } }
-      @media (min-width: 1440px) {
+      @media (min-device-width: 1440px) {
         #sbGallery > div article ul li:nth-child(4) {
           background-size: auto 480%; } }
     #sbGallery > div article ul li:nth-child(5) {
@@ -3103,7 +3084,7 @@ footer {
       background-color: #161618; } }
   #triumphText1 > div article {
     grid-template-areas: "p" "v"; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #triumphText1 > div article {
         grid-template-areas: "v p"; } }
     #triumphText1 > div article div {
@@ -3121,11 +3102,11 @@ footer {
 #triumphGallery > div article ul {
   grid-template-areas: "Codepen" "paragraph";
   grid-template-rows: auto auto; }
-  @media (min-width: 504px) {
+  @media (min-device-width: 504px) {
     #triumphGallery > div article ul {
       grid-template-columns: repeat(3, 1fr);
       grid-template-areas: ". Codepen Codepen" "paragraph paragraph ."; } }
-  @media (min-width: 1024px) {
+  @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     #triumphGallery > div article ul {
       grid-template-areas: "Codepen Codepen Codepen paragraph paragraph paragraph paragraph";
       grid-template-columns: repeat(7, 1fr);
@@ -3156,15 +3137,15 @@ footer {
   #tolGallery > div article ul {
     grid-template-areas: "TIM" "paragraph1" "TCS" "TS" "TTM" "paragraph2" "TI" "TOB";
     grid-template-rows: 240px auto 344px 160px 304px auto 280px 280px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #tolGallery > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: ". TIM TIM" "paragraph1 paragraph1 ." "TCS TS TS" "TTM TTM ." "paragraph2 paragraph2 paragraph2" ". TI TI" "TOB TOB TOB";
         grid-template-rows: 304px auto 200px 304px auto 328px 400px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #tolGallery > div article ul {
         grid-template-rows: 312px auto 304px 440px auto 400px 504px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #tolGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "TIM TIM TIM TIM TIM . ." "TCS TCS . paragraph1 paragraph1 paragraph1 paragraph1" "TCS TCS . . TS TS TS" "TTM TTM TTM TTM TS TS TS" "TTM TTM TTM TTM . . ." ". paragraph2 paragraph2 paragraph2 paragraph2 . ." ". . TI TI TI TI TI" "TOB TOB TOB TOB . . .";
@@ -3215,15 +3196,15 @@ footer {
   #unGallery > div article ul {
     grid-template-areas: "UPF" "paragraph1" "UPH";
     grid-template-rows: 400px auto 400px; }
-    @media (min-width: 504px) {
+    @media (min-device-width: 504px) {
       #unGallery > div article ul {
         grid-template-columns: repeat(3, 1fr);
         grid-template-areas: "UPF UPF UPF" "paragraph1 paragraph1 paragraph1" ". UPH UPH";
         grid-template-rows: 600px auto 504px; } }
-    @media (min-width: 768px) {
+    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
       #unGallery > div article ul {
         grid-template-rows: 800px auto 600px; } }
-    @media (min-width: 1024px) {
+    @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       #unGallery > div article ul {
         grid-template-columns: repeat(7, 1fr);
         grid-template-areas: "paragraph1 paragraph1 paragraph1 UPF UPF UPF UPF" "UPH UPH UPH . . . .";
@@ -3262,14 +3243,14 @@ footer {
       @media (prefers-color-scheme: dark) {
         #FourOhFourMain > div article {
           color: #0D001E; } }
-      @media (min-width: 504px) {
+      @media (min-device-width: 504px) {
         #FourOhFourMain > div article {
           grid-template-areas: "h1 h1 h1" "p p ." "btn btn .";
           grid-template-columns: repeat(3, 1fr); } }
-      @media (min-width: 768px) {
+      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
         #FourOhFourMain > div article {
           grid-gap: 24px; } }
-      @media (min-width: 1024px) {
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
         #FourOhFourMain > div article {
           grid-gap: 0px 32px;
           grid-template-areas: "h1 h1 h1 h1 h1" "p p . . ." "btn btn . . .";
@@ -3282,12 +3263,12 @@ footer {
       #FourOhFourMain > div article div {
         grid-area: btn;
         margin: 64px 0px 0px 0px; }
-        @media (min-width: 768px) {
+        @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
           #FourOhFourMain > div article div {
             margin: 72px 0px 0px 0px; } }
-        @media (min-width: 1024px) {
+        @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
           #FourOhFourMain > div article div {
             margin: 80px 0px 0px 0px; } }
-        @media (min-width: 1440px) {
+        @media (min-device-width: 1440px) {
           #FourOhFourMain > div article div {
             margin: 96px 0px 0px 0px; } }

@@ -79,6 +79,7 @@ h4 {
     font-size: rem-calc(16);
     font-variation-settings: "slnt"0, "wdth"100, "wght"600, "INKT"00;
     line-height: rem-calc(24);
+    opacity: 0.72;
 }
 
 // Captions
@@ -110,7 +111,7 @@ p {
 
     @include lg {
         font-size: rem-calc(20);
-        line-height: rem-calc(30);
+        line-height: rem-calc(32);
     }
 
     >a {
@@ -156,7 +157,7 @@ figcaption {
     letter-spacing: 0.64px;
     padding-top: rem-calc(12);
     text-align: center;
-    opacity: 70%;
+    opacity: 0.72;
 
     @include md {
         font-size: rem-calc(16);

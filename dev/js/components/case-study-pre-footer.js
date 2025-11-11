@@ -146,7 +146,7 @@ let caseStudyArray = [
   {
     name: "How Tinder&#8482; Gamified Dating",
     image: "img/index/projects/TinderCover.jpg",
-    page: "https://wydradesigns.medium.com/how-tinder-gamified-dating-apps-c89e2a45fe2",
+    page: "TinderGamification.html",
   },
   {
     name: "Science History Museum",
@@ -156,12 +156,12 @@ let caseStudyArray = [
   {
     name: "Second Life Composting",
     image: "img/index/projects/SecondLifeCover.jpg",
-    page: "https://wydradesigns.medium.com/second-life-composting-capstone-case-study-b1e755a6a572",
+    page: "SecondLifeComposting.html",
   },
   {
     name: "Target&#8482; Curbside Pickup",
     image: "img/index/projects/TargetCover.jpg",
-    page: "https://wydradesigns.medium.com/target-mydevice-app-case-study-867a0c65fcd3",
+    page: "Target.html",
   },
   {
     name: "The Philaldephia School",
@@ -172,6 +172,11 @@ let caseStudyArray = [
     name: "TikTok&#8482; Live Stream Donation",
     image: "img/index/projects/TTCover.jpg",
     page: "TikTok.html",
+  },
+  {
+    name: "Building a Multi-Brand Design System",
+    image: "img/index/projects/MDSCover.jpg",
+    page: "MerakiDesignSystem.html",
   },
 ];
 // @Shawn (Feb 3) - I added excludeName now so you can pass the name if you want remove from options

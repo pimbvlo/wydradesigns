@@ -510,7 +510,8 @@ h3 {
 h4 {
   font-size: 1rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 600, "INKT" 0;
-  line-height: 1.5rem; }
+  line-height: 1.5rem;
+  opacity: 0.72; }
 
 h5 {
   font-size: 0.75rem;
@@ -535,7 +536,7 @@ p {
   @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
     p {
       font-size: 1.25rem;
-      line-height: 1.875rem; } }
+      line-height: 2rem; } }
   p > a {
     text-decoration: none;
     transition: 0.25s;
@@ -566,7 +567,7 @@ figcaption {
   letter-spacing: 0.64px;
   padding-top: 0.75rem;
   text-align: center;
-  opacity: 70%; }
+  opacity: 0.72; }
   @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
     figcaption {
       font-size: 1rem;
@@ -602,108 +603,13 @@ ol li {
 /* =============
     Buttons
 ============= */
-.btn {
-  align-items: center;
-  border-radius: 100px;
-  box-shadow: 0 5px 3px -3px rgba(184, 19, 185, 0.08), 0 3px 14px 2px rgba(184, 19, 185, 0.16), 0 8px 10px 1px rgba(184, 19, 185, 0.24);
-  display: flex;
-  justify-content: center;
-  transition: 0.2s ease-in-out;
-  width: 100%; }
-  @media (prefers-color-scheme: dark) {
-    .btn {
-      box-shadow: none; } }
-  .btn > a {
-    padding: 12px 24px 12px 24px;
-    align-items: center;
-    color: white;
-    display: flex;
-    font-size: 1.5rem;
-    font-weight: 600;
-    justify-content: center;
-    text-transform: uppercase;
-    width: 100%; }
-    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-      .btn > a {
-        padding: 16px 24px 16px 24px;
-        font-size: 1.75rem; } }
-    .btn > a i {
-      font-size: 1.5rem; }
-      @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-        .btn > a i {
-          font-size: 1.75rem; } }
-.btn:link > a,
-.btn:visited > a {
-  padding: 12px 24px 12px 24px;
-  align-items: center;
-  color: white;
-  display: flex;
-  font-size: 1.5rem;
-  font-weight: 600;
-  justify-content: center;
-  text-transform: uppercase;
-  transition: 0.2s ease-in-out;
-  width: 100%; }
-  @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-    .btn:link > a,
-    .btn:visited > a {
-      padding: 16px 24px 16px 24px; } }
-  .btn:link > a i,
-  .btn:visited > a i {
-    font-size: 1.5rem;
-    transition: 0.2s ease-in-out; }
-
-.btn:hover {
-  box-shadow: none;
-  transform: translate(0px, 4px) scale(0.98);
-  transition: 0.2s ease-in-out; }
-  .btn:hover > a i {
-    transform: translate(-200%, 0px) scale(1.25);
-    transition: 0.2s ease-in-out; }
-    @media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-      .btn:hover > a i {
-        transform: translate(-304%, 0px) scale(1.25); } }
-.btn:active {
-  transition: 0.2s ease-in-out; }
-  .btn:active > a {
-    color: black; }
-    .btn:active > a i {
-      color: black; }
-
-.btn-icon i {
-  margin: 8px; }
-
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 5)
-*/
-.btn-purple-future {
-  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #6613ce);
-  transition: background 0.2s ease; }
-
-.btn-purple-future:active {
-  background-image: linear-gradient(150deg, #b813b9, cubic-bezier(0.45, 0.05, 0.55, 0.95), #ff964c); }
-
-/*
-* Fallback CSS
-*/
-.btn-purple {
-  background-image: linear-gradient(150deg, #b813b9 0%, #ad13bd 28.28%, #9513c4 50%, #7813cb 71.72%, #6613ce 100%);
-  transition: background 0.2s ease; }
-
-.btn-purple:active {
-  background-image: linear-gradient(150deg, #b813b9 0%, #c640ab 28.28%, #de6b8d 50%, #f48967 71.72%, #ff964c 100%); }
-
-.btn-no-hover .btn:hover > a i {
-  transform: translate(0px, 0px) scale(1);
-  transition: 0.2s ease-in-out; }
-
 .button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 40px;
   align-self: flex-start;
-  transition: all 0.25s ease-in-out; }
+  transition: all 0.25s cubic-bezier(0.47, 0, 0.23, 1.38); }
   .button > a {
     border-radius: 40px;
     display: flex;
@@ -966,6 +872,22 @@ textarea {
 .article-text.inverse {
   background-color: #2b2b2b;
   color: #efefef; }
+  .article-gallery.inverse p > a,
+  .article-text.inverse p > a {
+    text-decoration: none;
+    transition: 0.25s;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
+    color: #e50045; }
+    .article-gallery.inverse p > a:link, .article-gallery.inverse p > a:visited,
+    .article-text.inverse p > a:link,
+    .article-text.inverse p > a:visited {
+      color: #e50045;
+      border-bottom: 2px solid #e50045; }
+    .article-gallery.inverse p > a:hover, .article-gallery.inverse p > a:active,
+    .article-text.inverse p > a:hover,
+    .article-text.inverse p > a:active {
+      color: #faccda;
+      border-bottom: 2px solid #faccda; }
 
 .gallery-1-col {
   display: flex;

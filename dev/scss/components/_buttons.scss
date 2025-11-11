@@ -1,140 +1,6 @@
 /* =============
     Buttons
 ============= */
-.btn {
-    align-items: center;
-    border-radius: 100px;
-    box-shadow: 0 5px 3px -3px rgba(184, 19, 185, .08), 0 3px 14px 2px rgba(184, 19, 185, .16), 0 8px 10px 1px rgba(184, 19, 185, .24);
-    display: flex;
-    justify-content: center;
-    transition: 0.2s ease-in-out;
-    width: 100%;
-
-    @include dark {
-        box-shadow: none;
-    }
-
-    >a {
-        @include padding(12px, 24px, 12px, 24px);
-        align-items: center;
-        color: $white;
-        display: flex;
-        font-size: rem-calc(24);
-        font-weight: 600;
-        justify-content: center;
-        text-transform: uppercase;
-        width: 100%;
-
-        @include md {
-            @include padding(16px, 24px, 16px, 24px);
-            font-size: rem-calc(28);
-        }
-
-        i {
-            font-size: rem-calc(24);
-
-            @include md {
-                font-size: rem-calc(28);
-            }
-        }
-    }
-}
-
-.btn:link,
-.btn:visited {
-    >a {
-        @include padding(12px, 24px, 12px, 24px);
-        align-items: center;
-        color: $white;
-        display: flex;
-        font-size: rem-calc(24);
-        font-weight: 600;
-        justify-content: center;
-        text-transform: uppercase;
-        transition: 0.2s ease-in-out;
-        width: 100%;
-
-        @include md {
-            @include padding(16px, 24px, 16px, 24px);
-        }
-
-        i {
-            font-size: rem-calc(24);
-            transition: 0.2s ease-in-out;
-        }
-    }
-}
-
-.btn:hover {
-    box-shadow: none;
-    transform: translate(0px, 4px) scale(0.98);
-    transition: 0.2s ease-in-out;
-
-    >a {
-        i {
-            transform: translate(-200%, 0px) scale(1.25);
-            transition: 0.2s ease-in-out;
-
-            @include md {
-                transform: translate(-304%, 0px) scale(1.25);
-            }
-        }
-    }
-}
-
-.btn:active {
-    transition: 0.2s ease-in-out;
-
-    >a {
-        color: $black;
-
-        i {
-            color: $black;
-        }
-    }
-}
-
-.btn-icon {
-    i {
-        @include margin(null, 8px, null, null);
-    }
-}
-
-/*
-* Future CSS (use it today with postCSS-easing-gradients - note your settings colorMode: 'lrgb' and colorStops: 5)
-*/
-.btn-purple-future {
-    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%), cubic-bezier(0.45, 0.05, 0.55, 0.95), hsl(266.63, 83.11%, 44.12%));
-    transition: background 0.2s ease;
-}
-
-.btn-purple-future:active {
-    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%), cubic-bezier(0.45, 0.05, 0.55, 0.95), hsl(24.8, 100%, 64.9%));
-}
-
-/*
-* Fallback CSS
-*/
-.btn-purple {
-    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%) 0%, hsl(294.37, 81.71%, 40.73%) 28.28%, hsl(284.04, 82.31%, 42.11%) 50%, hsl(273.01, 82.85%, 43.45%) 71.72%, hsl(266.63, 83.11%, 44.12%) 100%);
-    transition: background 0.2s ease;
-}
-
-.btn-purple:active {
-    background-image: linear-gradient(150deg, hsl(299.64, 81.37%, 40%) 0%, hsl(311.9, 53.92%, 51.41%) 28.28%, hsl(342.06, 63.87%, 64.56%) 50%, hsl(14.35, 86.92%, 68.12%) 71.72%, hsl(24.8, 100%, 64.9%) 100%);
-}
-
-.btn-no-hover {
-    .btn:hover {
-        >a {
-            i {
-                transform: translate(0px, 0px) scale(1);
-                transition: 0.2s ease-in-out;
-            }
-        }
-    }
-}
-
 // STATE VARIABLES
 $state-hovered: 0.08;
 $state-pressed: 0.1;
@@ -154,7 +20,7 @@ $state-focused: $state-pressed;
     justify-content: center;
     border-radius: 40px;
     align-self: flex-start;
-    transition: all 0.25s ease-in-out;
+    transition: all 0.25s cubic-bezier(0.47, 0, 0.23, 1.38);
 
     >a {
         border-radius: 40px;

@@ -4475,19 +4475,6 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/index\/projects\/indexProjectOne.png" : {
-      "ft" : 32768,
-      "iS" : 3722624,
-      "oA" : 0,
-      "oAP" : "\/deploy\/img\/index\/projects\/indexProjectOne.png",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "oT" : 1,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
     "\/deploy\/img\/index\/projects\/MCover.jpg" : {
       "ft" : 16384,
       "iS" : 25613,
@@ -4497,6 +4484,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/projects\/MDSCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 619162,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/MDSCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9163,6 +9163,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/projects\/MDSCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 4057862,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/MDSCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/projects\/MediumLogoBlack.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -10985,17 +10998,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/burger\/burger-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/components\/buttons-min.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/components\/buttons-min-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0

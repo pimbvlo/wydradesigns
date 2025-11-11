@@ -4,9 +4,9 @@ function indexIntroAngle() {
   if (window.innerWidth < 768) {
     introAngleNumber = Math.ceil(Math.random() * 3);
   } else if (window.innerWidth < 1024) {
-    introAngleNumber = Math.ceil(Math.random() * 4);
+    introAngleNumber = Math.ceil(Math.random() * 3);
   } else {
-    introAngleNumber = Math.ceil(Math.random() * 4.5);
+    introAngleNumber = Math.ceil(Math.random() * 4);
   }
 
   if (Math.random() * 1 >= 0.5) {

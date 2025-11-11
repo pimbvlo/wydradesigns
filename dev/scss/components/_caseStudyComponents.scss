@@ -41,6 +41,27 @@
 
     color: $on-inverse-surface;
 
+    p {
+        >a {
+            text-decoration: none;
+            transition: 0.25s;
+            font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
+            color: $primary;
+
+            &:link,
+            &:visited {
+                color: $primary;
+                border-bottom: 2px solid $primary;
+            }
+
+            &:hover,
+            &:active {
+                color: $primary-container;
+                border-bottom: 2px solid $primary-container;
+            }
+        }
+
+    }
 }
 
 .gallery-1-col {

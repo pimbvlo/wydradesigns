@@ -1196,8 +1196,7 @@ header {
   height: 80px;
   background-color: white;
   width: 100%;
-  z-index: 5000;
-  box-shadow: 0px 1px 1px 0px #ababab; }
+  z-index: 5000; }
   header > div {
     display: flex;
     align-items: center;
@@ -1277,7 +1276,7 @@ footer {
   height: 96vh;
   background-color: #2b2b2b;
   color: #efefef;
-  background-image: radial-gradient(circle at center, rgba(171, 171, 171, 0.25) 0.15rem, transparent 0), radial-gradient(circle at center, rgba(171, 171, 171, 0.25) 0.15rem, transparent 0);
+  background-image: radial-gradient(circle at center, rgba(171, 171, 171, 0.1) 0.1rem, transparent 0), radial-gradient(circle at center, rgba(171, 171, 171, 0.1) 0.1rem, transparent 0);
   background-size: 1.3rem 1.3rem;
   background-position: 0 0, 0.65rem 0.65rem;
   overflow-x: hidden;
@@ -1515,10 +1514,6 @@ footer {
     background-size: cover;
     background-position: center;
     max-height: 1024px; } }
-
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .index-project:last-of-type {
-    margin-bottom: 0px; } }
 
 .index-project article {
   display: flex;

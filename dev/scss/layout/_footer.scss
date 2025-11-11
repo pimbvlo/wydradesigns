@@ -7,9 +7,9 @@ footer {
     color: $on-inverse-surface;
     background-image: radial-gradient(
         circle at center,
-        rgba($outline-variant, 0.25) 0.15rem,
+        rgba($outline-variant, 0.1) 0.1rem,
         transparent 0
-      ), radial-gradient(circle at center, rgba($outline-variant, 0.25) 0.15rem, transparent 0);
+      ), radial-gradient(circle at center, rgba($outline-variant, 0.1) 0.1rem, transparent 0);
     background-size: 1.3rem 1.3rem;
     background-position: 0 0, 0.65rem 0.65rem;
 

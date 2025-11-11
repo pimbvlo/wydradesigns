@@ -10782,20 +10782,12 @@
       "oAP" : "\/dev\/global\/csFooter.html",
       "oF" : 0
     },
-    "\/dev\/global\/face.html" : {
+    "\/dev\/global\/face.txt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/global\/face.html",
-      "oF" : 0
-    },
-    "\/dev\/global\/face.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/global\/face.html",
+      "oAP" : "\/dev\/global\/face.txt",
       "oF" : 0
     },
     "\/dev\/global\/footer.kit" : {

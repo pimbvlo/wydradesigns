@@ -10,6 +10,12 @@
         max-height: 1024px;
     }
 
+    &:last-of-type {
+        @include lg {
+            margin-bottom: 0px;
+        }
+    }
+
     article {
         display: flex;
         flex-direction: column;
@@ -18,8 +24,8 @@
 
         @include lg {
             flex-direction: row;
-                    align-items: flex-end;
-        justify-content: flex-start;
+            align-items: flex-end;
+            justify-content: flex-start;
 
         }
 
@@ -74,4 +80,5 @@
 
         }
     }
+
 }

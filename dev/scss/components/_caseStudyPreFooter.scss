@@ -17,9 +17,14 @@
 
             img {
                 aspect-ratio: 3/2;
+                border-radius: 8px;
 
                 @include sm {
                     aspect-ratio: 16/9;
+                }
+
+                @include lg {
+                    border-radius: 16px;
                 }
             }
         }

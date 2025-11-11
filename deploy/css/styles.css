@@ -1180,10 +1180,14 @@ textarea {
     #caseStudyPreFooter article .case-study-card h3 {
       min-height: 2lh; }
     #caseStudyPreFooter article .case-study-card img {
-      aspect-ratio: 3/2; }
+      aspect-ratio: 3/2;
+      border-radius: 8px; }
       @media (min-device-width: 504px) {
         #caseStudyPreFooter article .case-study-card img {
           aspect-ratio: 16/9; } }
+      @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+        #caseStudyPreFooter article .case-study-card img {
+          border-radius: 16px; } }
 /* =============
     Header
 ============= */
@@ -1511,6 +1515,10 @@ footer {
     background-size: cover;
     background-position: center;
     max-height: 1024px; } }
+
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .index-project:last-of-type {
+    margin-bottom: 0px; } }
 
 .index-project article {
   display: flex;

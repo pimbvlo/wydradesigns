@@ -33,31 +33,31 @@
     <div id="marqueeTwo" class="marquee">
         <ul class="marquee-inner" aria-hidden="true" ref="inner">
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
             <li class="marquee-unit">
-                adaptable 💪
+                adaptable 🦾
             </li>
         </ul>
     </div>

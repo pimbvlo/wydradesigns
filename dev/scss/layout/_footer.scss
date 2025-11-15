@@ -5,16 +5,14 @@ footer {
     height: 96vh;
     background-color: $inverse-surface;
     color: $on-inverse-surface;
-    background-image: radial-gradient(
-        circle at center,
-        rgba($outline-variant, 0.1) 0.1rem,
-        transparent 0
-      ), radial-gradient(circle at center, rgba($outline-variant, 0.1) 0.1rem, transparent 0);
+    background-image: radial-gradient(circle at center,
+            rgba($outline-variant, 0.1) 0.1rem,
+            transparent 0), radial-gradient(circle at center, rgba($outline-variant, 0.1) 0.1rem, transparent 0);
     background-size: 1.3rem 1.3rem;
     background-position: 0 0, 0.65rem 0.65rem;
 
-    overflow-x: hidden;
-    overflow-y: clip;
+    overflow: hidden;
+    position: relative;
 
     .button {
         text-transform: none;
@@ -52,13 +50,14 @@ footer {
 
     }
 
-    > div {
+    >div {
         display: flex;
         align-items: flex-start;
-        justify-content: flex-end;
+        justify-content: flex-start;
         flex-direction: column;
 
         position: relative;
+
 
         article {
             display: flex;
@@ -125,7 +124,7 @@ footer {
 
             z-index: 1;
 
-            @include md{
+            @include md {
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
@@ -136,6 +135,7 @@ footer {
             ul {
                 display: flex;
                 margin-left: 4px;
+
                 .button {
                     height: 52px;
                     width: 52px;
@@ -151,7 +151,7 @@ footer {
 
         }
 
-        img{
+        img {
             position: absolute;
             z-index: 0;
             mix-blend-mode: color-dodge;
@@ -160,16 +160,36 @@ footer {
             width: 100vh;
             top: -12vw;
             right: -64vw;
-            @include sm{
+
+            @include sm {
                 right: -40vw;
             }
-            @include md{
+
+            @include md {
                 right: -64vw;
             }
-            @include lg{
+
+            @include lg {
                 top: -8vw;
                 right: -20vw;
             }
         }
     }
+
+    h2:nth-child(2) {
+        color: $on-inverse-surface;
+        font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
+        text-align: center;
+        font-size: 24vw;
+        line-height: 80%;
+
+        opacity: 0.1;
+        transform: translate(-50%, -50%);
+        position: absolute;
+        bottom: -15%;
+        left: 50%;
+
+        @include lg {}
+    }
+
 }

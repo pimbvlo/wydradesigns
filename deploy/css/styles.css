@@ -1280,7 +1280,8 @@ footer {
   background-size: 1.3rem 1.3rem;
   background-position: 0 0, 0.65rem 0.65rem;
   overflow-x: hidden;
-  overflow-y: clip; }
+  overflow-y: clip;
+  position: relative; }
   footer .button {
     text-transform: none;
     align-self: flex-start; }
@@ -1298,7 +1299,7 @@ footer {
   footer > div {
     display: flex;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: flex-start;
     flex-direction: column;
     position: relative; }
     footer > div article {
@@ -1366,6 +1367,18 @@ footer {
         footer > div img {
           top: -8vw;
           right: -20vw; } }
+  footer h2:nth-child(2) {
+    color: #efefef;
+    font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
+    text-align: center;
+    font-size: 24vw;
+    line-height: 80%;
+    opacity: 0.1;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    bottom: -15%;
+    left: 50%; }
+
 /* =============
     CS Footer
 ============= */

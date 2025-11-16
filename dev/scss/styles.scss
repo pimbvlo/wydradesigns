@@ -1,150 +1,151 @@
 @charset 'utf-8';
 
 // Helpers Styles
-@import "helpers/_mixins";
-@import "helpers/_screenVariables";
-@import "helpers/_colorVariables";
-@import "helpers/_paddingVariables";
-@import "helpers/_elevationStyles";
+@use "helpers/_mixins";
+@use "helpers/_screenVariables";
+@use "helpers/_colorVariables";
+@use "helpers/_paddingVariables";
+@use "helpers/_elevationStyles";
 
 
 // Base Styles
-@import "base/_normalize";
-@import "base/_base";
-@import "base/_typography";
+@use "base/_normalize";
+@use "base/_base";
+@use "base/_typography";
 
 // Components Styles
-@import "components/_buttons";
-@import "components/_chips";
-@import "components/_forms";
-@import "components/_heroes";
-@import "components/_icons";
+@use "components/_buttons";
+@use "components/_chips";
+@use "components/_forms";
+@use "components/_heroes";
+@use "components/_icons";
 
-@import "components/_caseStudyComponents";
-@import "components/_caseStudyPreFooter";
+@use "components/_caseStudyComponents";
+@use "components/_caseStudyPreFooter";
 
 // Layout Styles
-@import "layout/_header";
-@import "layout/_footer";
-@import "layout/_csFooter";
+@use "layout/_header";
+@use "layout/_footer";
+@use "layout/_csFooter";
 
 // Sections Styles
 // INDEX
-@import "sections/index/_indexHero";
-@import "sections/index/_indexIntro";
-@import "sections/index/_indexProject";
-@import "sections/index/_indexMarquee";
-@import "sections/index/_indexProjectList";
+@use "sections/index/_indexHero";
+@use "sections/index/_indexIntro";
+@use "sections/index/_indexProject";
+@use "sections/index/_indexProjectOne";
+@use "sections/index/_indexMarquee";
+@use "sections/index/_indexProjectList";
 
 // ABOUT
-@import "sections/about/_aboutWho";
+@use "sections/about/_aboutWho";
 
 // RESUME
-@import "sections/resume/_resumeEducation";
-@import "sections/resume/_resumeHonors";
-@import "sections/resume/_resumeExperience";
-@import "sections/resume/_resumeSkills";
+@use "sections/resume/_resumeEducation";
+@use "sections/resume/_resumeHonors";
+@use "sections/resume/_resumeExperience";
+@use "sections/resume/_resumeSkills";
 
 // CASE STUDIES
 // ANTIFOGMATIC
-@import "sections/case-studies/_antiHero";
-@import "sections/case-studies/_antiIntro";
-@import "sections/case-studies/_antiGallery";
+@use "sections/case-studies/_antiHero";
+@use "sections/case-studies/_antiIntro";
+@use "sections/case-studies/_antiGallery";
 
 // ATTENTION TO DETAIL
-@import "sections/case-studies/_atdHero";
-@import "sections/case-studies/_atdIntro";
-@import "sections/case-studies/_atdGallery";
-@import "sections/case-studies/_atdColor";
-@import "sections/case-studies/_atdIconography";
-@import "sections/case-studies/_atdImagery";
-@import "sections/case-studies/_atdLogo";
+@use "sections/case-studies/_atdHero";
+@use "sections/case-studies/_atdIntro";
+@use "sections/case-studies/_atdGallery";
+@use "sections/case-studies/_atdColor";
+@use "sections/case-studies/_atdIconography";
+@use "sections/case-studies/_atdImagery";
+@use "sections/case-studies/_atdLogo";
 
 // BARBARA KASTEN
-@import "sections/case-studies/_bkHero";
-@import "sections/case-studies/_bkGallery";
+@use "sections/case-studies/_bkHero";
+@use "sections/case-studies/_bkGallery";
 
 // CLARENDON
-@import "sections/case-studies/_clHero";
-@import "sections/case-studies/_clGallery";
+@use "sections/case-studies/_clHero";
+@use "sections/case-studies/_clGallery";
 
 // FENDER
-@import "sections/case-studies/_fenderHero";
-@import "sections/case-studies/_fenderText1";
-@import "sections/case-studies/_fenderGallery";
+@use "sections/case-studies/_fenderHero";
+@use "sections/case-studies/_fenderText1";
+@use "sections/case-studies/_fenderGallery";
 
 // ICE CREAM MUSEUM
-@import "sections/case-studies/_icmHero";
-@import "sections/case-studies/_icmText1";
-@import "sections/case-studies/_icmGallery";
+@use "sections/case-studies/_icmHero";
+@use "sections/case-studies/_icmText1";
+@use "sections/case-studies/_icmGallery";
 
 // MERAKI DESIGN SYSTEM
-@import "sections/case-studies/_mdsHero.scss";
-@import "sections/case-studies/_mdsProcess.scss";
-@import "sections/case-studies/_mdsOutcomes.scss";
+@use "sections/case-studies/_mdsHero.scss";
+@use "sections/case-studies/_mdsProcess.scss";
+@use "sections/case-studies/_mdsOutcomes.scss";
 
 // MOVEBO MUSEUM
-@import "sections/case-studies/_mHero";
-@import "sections/case-studies/_mGallery";
+@use "sections/case-studies/_mHero";
+@use "sections/case-studies/_mGallery";
 
 // OSCAR NIEMEYER
-@import "sections/case-studies/_onHero";
-@import "sections/case-studies/_onGallery";
+@use "sections/case-studies/_onHero";
+@use "sections/case-studies/_onGallery";
 
 // QUEEN VILLAGE
-@import "sections/case-studies/_qvHero";
-@import "sections/case-studies/_qvText1";
-@import "sections/case-studies/_qvGallery";
+@use "sections/case-studies/_qvHero";
+@use "sections/case-studies/_qvText1";
+@use "sections/case-studies/_qvGallery";
 
 // SALT&AGE
-@import "sections/case-studies/_saHero";
-@import "sections/case-studies/_saText1";
-@import "sections/case-studies/_saGallery";
+@use "sections/case-studies/_saHero";
+@use "sections/case-studies/_saText1";
+@use "sections/case-studies/_saGallery";
 
 // SCIENCE HISTORY MUSEUM
-@import "sections/case-studies/_shmHero";
-@import "sections/case-studies/_shmGallery";
+@use "sections/case-studies/_shmHero";
+@use "sections/case-studies/_shmGallery";
 
 // SECOND LIFE COMPOSTING
-@import "sections/case-studies/_slcHero.scss";
-@import "sections/case-studies/_slcPrototyping.scss";
-@import "sections/case-studies/_slcBranding.scss";
+@use "sections/case-studies/_slcHero.scss";
+@use "sections/case-studies/_slcPrototyping.scss";
+@use "sections/case-studies/_slcBranding.scss";
 
 // SONS OF ANARCHY
-@import "sections/case-studies/_soaHero";
-@import "sections/case-studies/_soaGallery";
+@use "sections/case-studies/_soaHero";
+@use "sections/case-studies/_soaGallery";
 
 // SOUTHWARK & BERMONDSEY
-@import "sections/case-studies/_sbHero";
-@import "sections/case-studies/_sbGallery";
+@use "sections/case-studies/_sbHero";
+@use "sections/case-studies/_sbGallery";
 
 // THE PHILADELPHIA SCHOOL
-@import "sections/case-studies/_tpsHero";
-@import "sections/case-studies/_tpsText1";
+@use "sections/case-studies/_tpsHero";
+@use "sections/case-studies/_tpsText1";
 
 // TARGET CASE STUDY
-@import "sections/case-studies/_tarHero.scss";
-@import "sections/case-studies/_tarPrototyping.scss";
-@import "sections/case-studies/_tarBranding.scss";
+@use "sections/case-studies/_tarHero.scss";
+@use "sections/case-studies/_tarPrototyping.scss";
+@use "sections/case-studies/_tarBranding.scss";
 
 // TIKTOK RESEARCH
-@import "sections/case-studies/_ttHero.scss";
-@import "sections/case-studies/_ttBranding.scss";
+@use "sections/case-studies/_ttHero.scss";
+@use "sections/case-studies/_ttBranding.scss";
 
-@import "sections/case-studies/_tgHero.scss";
+@use "sections/case-studies/_tgHero.scss";
 
 // TRIUMPH UI
-@import "sections/case-studies/_triumphHero";
-@import "sections/case-studies/_triumphText1";
-@import "sections/case-studies/_triumphGallery";
+@use "sections/case-studies/_triumphHero";
+@use "sections/case-studies/_triumphText1";
+@use "sections/case-studies/_triumphGallery";
 
 // TYPEFACES OF LONDON
-@import "sections/case-studies/_tolHero";
-@import "sections/case-studies/_tolGallery";
+@use "sections/case-studies/_tolHero";
+@use "sections/case-studies/_tolGallery";
 
 // unLIKABLE
-@import "sections/case-studies/_unHero";
-@import "sections/case-studies/_unGallery";
+@use "sections/case-studies/_unHero";
+@use "sections/case-studies/_unGallery";
 
 // 404
-@import "sections/404/_404main";
+@use "sections/404/_FourOFourmain";

@@ -9,8 +9,6 @@
 
     > div {
         article {
-            h2 {}
-
             ul {
                 grid-template-areas: "MMHO" "paragraph1" "MSOne" "MMBHO" "MTHO" "MSTwo" "MSThree";
                 grid-template-rows: 504px auto 200px 192px 400px 160px 160px;
@@ -118,13 +116,10 @@
 
                     p {
                         width: 100%;
-
-                        a {}
                     }
                 }
             }
 
-            div {}
         }
     }
 }

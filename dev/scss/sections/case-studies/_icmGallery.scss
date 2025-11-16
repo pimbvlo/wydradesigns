@@ -1,16 +1,11 @@
 /* =============
     ICM Gallery
 ============= */
-#icmGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#icmGallery {
     > div {
         article {
-            h2 {}
-
             ul {
                 grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
                 grid-template-rows: auto 200px 200px 176px;
@@ -64,7 +59,6 @@
                 }
             }
 
-            div {}
         }
     }
 }

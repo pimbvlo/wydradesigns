@@ -1,6 +1,8 @@
 /* =============
     SECOND LIFE COMPOSTING Hero
 ============= */
+@use '../../abstracts' as *;
+
 #slcHero {
     background-image: url("../img/case-studies/slc/slcHero.jpg");
     article{

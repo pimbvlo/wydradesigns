@@ -1,6 +1,8 @@
 /* =============
     404 Main
 ============= */
+@use '../../abstracts' as *;
+
 #FourOhFourMain {
     background-image: url("../img/404/404op2.jpg");
     background-position: center top;
@@ -18,7 +20,7 @@
             grid-template-columns: repeat(1,1fr);
             @include margin(16vh,0px,0px,0px);
             @include dark{
-                color: $dark-purple;
+                color: purple;
             }
             @include sm {
                 grid-template-areas: "h1 h1 h1" "p p ." "btn btn .";

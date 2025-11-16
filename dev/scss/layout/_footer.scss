@@ -1,6 +1,8 @@
 /* =============
     Footer
 ============= */
+@use '../abstracts' as *;
+
 footer {
     height: 96vh;
     background-color: $inverse-surface;

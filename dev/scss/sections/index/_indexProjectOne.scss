@@ -1,6 +1,8 @@
 /* =============
     Index Project One
 ============= */
+@use '../../abstracts' as *;
+
 #indexProjectOne {
     @include lg {
         background-image: url("../img/index/indexProjectOne.jpg");

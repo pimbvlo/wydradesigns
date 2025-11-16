@@ -1,6 +1,8 @@
 /* =============
     TINDER Hero
 ============= */
+@use '../../abstracts' as *;
+
 #tgHero {
     background-image: url("../img/case-studies/tg/tgHero.jpeg");
     article{

@@ -1,6 +1,8 @@
 /* =============
     SHM Hero
 ============= */
+@use '../../abstracts' as *;
+
 #shmHero {
     background-image: url("../img/case-studies/shm/shmHero.jpg");
     background-position: center;

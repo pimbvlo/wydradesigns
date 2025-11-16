@@ -1,6 +1,8 @@
 /* =============
     BK Hero
 ============= */
+@use '../../abstracts' as *;
+
 #bkHero {
     background-image: url("../img/case-studies/bk/bkHero.jpg");
 }

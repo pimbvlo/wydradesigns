@@ -1,6 +1,8 @@
 /* =============
     SB Hero
 ============= */
+@use '../../abstracts' as *;
+
 #sbHero {
     background-image: url("../img/case-studies/sb/sbHero.jpg");
     background-position: center top;

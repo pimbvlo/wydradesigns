@@ -1,6 +1,8 @@
 /* =============
     Resume Honors
 ============= */
+@use '../../abstracts' as *;
+
 #resumeHonors {
     >article {
         display: flex;

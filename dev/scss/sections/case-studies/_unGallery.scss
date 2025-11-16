@@ -1,12 +1,9 @@
 /* =============
     UN Gallery
 ============= */
-#unGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#unGallery {
     > div {
         article {
             ul {

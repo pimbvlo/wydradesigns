@@ -1,12 +1,9 @@
 /* =============
     SB Gallery
 ============= */
-#sbGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#sbGallery {
     > div {
         article {
 

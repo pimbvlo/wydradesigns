@@ -1,6 +1,8 @@
 /* =============
     Resume Education
 ============= */
+@use '../../abstracts' as *;
+
 #resumeEducation {
     >article {
         display: flex;

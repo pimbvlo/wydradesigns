@@ -1,7 +1,8 @@
 /* =============
     TOL Hero
 ============= */
+@use '../../abstracts' as *;
+
 #tolHero {
-    background-color: $off-white;
     background-image: url("../img/case-studies/tol/tolHero.svg");
 }

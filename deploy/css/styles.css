@@ -1,4 +1,7 @@
 /* =============
+    Screen Variables
+============= */
+/* =============
     Mixins
 ============= */
 /* ---------------- Font Sizing ---------------- */
@@ -10,10 +13,7 @@ html {
 /* ---------------- Light and Dark Media Quires ----------------  */
 /* ---------------- Circle ----------------  */
 /* ---------------- Retina Images ----------------  */
-/* ---------------- Padding/Margin Helpers ----------------  */
-/* =============
-    Screen Variables
-============= */
+/* ---------------- Padding/Margin abstracts ----------------  */
 /* =============
     Color Variables
 ============= */
@@ -864,6 +864,9 @@ ol li::marker {
   margin-left: 20px;
 }
 
+/* =============
+    Chips
+============= */
 .chip,
 .chip-icon {
   font-family: interstate-mono, monospace;
@@ -2522,6 +2525,7 @@ footer h2:nth-child(2) {
     font-size: 1.25rem;
   }
 }
+
 /* =============
     Attention to Detail Gallery
 ============= */
@@ -2737,14 +2741,6 @@ footer h2:nth-child(2) {
 /* =============
     CL Gallery
 ============= */
-#clGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #clGallery {
-    background-color: #161618;
-  }
-}
 #clGallery > div article ul {
   grid-template-areas: "CP" "paragraph1" "CPM";
   grid-template-rows: 400px auto 600px;
@@ -2889,14 +2885,6 @@ footer h2:nth-child(2) {
 /* =============
     ICM Gallery
 ============= */
-#icmGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #icmGallery {
-    background-color: #161618;
-  }
-}
 #icmGallery > div article ul {
   grid-template-areas: "paragraph1" "ISM" "IBP" "IPL";
   grid-template-rows: auto 200px 200px 176px;
@@ -2955,6 +2943,7 @@ footer h2:nth-child(2) {
 #icmGallery > div article ul li:nth-child(4) p {
   width: 100%;
 }
+
 /* =============
     MERAKI DESIGN SYSTEM Hero
 ============= */
@@ -2999,14 +2988,6 @@ footer h2:nth-child(2) {
 /* =============
     Movebo Gallery
 ============= */
-#mGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #mGallery {
-    background-color: #161618;
-  }
-}
 #mGallery > div article ul {
   grid-template-areas: "MMHO" "paragraph1" "MSOne" "MMBHO" "MTHO" "MSTwo" "MSThree";
   grid-template-rows: 504px auto 200px 192px 400px 160px 160px;
@@ -3135,6 +3116,7 @@ footer h2:nth-child(2) {
 #mGallery > div article ul li:nth-child(9) p {
   width: 100%;
 }
+
 /* =============
     ON Hero
 ============= */
@@ -3146,14 +3128,6 @@ footer h2:nth-child(2) {
 /* =============
     ON Gallery
 ============= */
-#onGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #onGallery {
-    background-color: #161618;
-  }
-}
 #onGallery > div article ul {
   grid-template-areas: "OP" "paragraph1" "OPM";
   grid-template-rows: 304px auto 480px;
@@ -3204,14 +3178,6 @@ footer h2:nth-child(2) {
 /* =============
     QV Text
 ============= */
-#qvText1 {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #qvText1 {
-    background-color: #161618;
-  }
-}
 #qvText1 > div article p {
   margin: 0px 0px 40px 0px;
 }
@@ -3335,14 +3301,8 @@ footer h2:nth-child(2) {
     SA Text
 ============= */
 #saText1 {
-  background-color: #F0F0F0;
   margin: 144px 0px 0px 0px;
   padding: 96px 0px 0px 0px;
-}
-@media (prefers-color-scheme: dark) {
-  #saText1 {
-    background-color: #161618;
-  }
 }
 #saText1 > div article {
   grid-template-areas: "i" "p";
@@ -3594,14 +3554,6 @@ footer h2:nth-child(2) {
 /* =============
     SOA Gallery
 ============= */
-#soaGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #soaGallery {
-    background-color: #161618;
-  }
-}
 #soaGallery > div article ul {
   grid-template-areas: "v" "paragraph1" "ST1" "ST2" "ST3" "ST4" "ST5" "ST6" "ST7";
   grid-template-rows: auto auto 80px 80px 80px 80px 80px 80px 80px;
@@ -3663,6 +3615,7 @@ footer h2:nth-child(2) {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /* =============
     SB Hero
 ============= */
@@ -3674,14 +3627,6 @@ footer h2:nth-child(2) {
 /* =============
     SB Gallery
 ============= */
-#sbGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #sbGallery {
-    background-color: #161618;
-  }
-}
 #sbGallery > div article ul {
   grid-template-areas: "SP1" "SP2" "paragraph1" "SPZ1" "SPZ2" "SBPM";
   grid-template-rows: 304px 304px auto 200px 200px 304px;
@@ -3934,14 +3879,6 @@ footer h2:nth-child(2) {
 /* =============
     TRIUMPH Text
 ============= */
-#triumphText1 {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #triumphText1 {
-    background-color: #161618;
-  }
-}
 #triumphText1 > div article {
   grid-template-areas: "p" "v";
 }
@@ -3996,21 +3933,12 @@ footer h2:nth-child(2) {
     TOL Hero
 ============= */
 #tolHero {
-  background-color: #F0F0F0;
   background-image: url("../img/case-studies/tol/tolHero.svg");
 }
 
 /* =============
     TOL Gallery
 ============= */
-#tolGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #tolGallery {
-    background-color: #161618;
-  }
-}
 #tolGallery > div article ul {
   grid-template-areas: "TIM" "paragraph1" "TCS" "TS" "TTM" "paragraph2" "TI" "TOB";
   grid-template-rows: 240px auto 344px 160px 304px auto 280px 280px;
@@ -4083,14 +4011,6 @@ footer h2:nth-child(2) {
 /* =============
     UN Gallery
 ============= */
-#unGallery {
-  background-color: #F0F0F0;
-}
-@media (prefers-color-scheme: dark) {
-  #unGallery {
-    background-color: #161618;
-  }
-}
 #unGallery > div article ul {
   grid-template-areas: "UPF" "paragraph1" "UPH";
   grid-template-rows: 400px auto 400px;
@@ -4154,7 +4074,7 @@ footer h2:nth-child(2) {
 }
 @media (prefers-color-scheme: dark) {
   #FourOhFourMain > div article {
-    color: #0D001E;
+    color: purple;
   }
 }
 @media (min-device-width: 504px) {

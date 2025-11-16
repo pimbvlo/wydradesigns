@@ -1,20 +1,15 @@
 /* =============
     TRIUMPH Text
 ============= */
-#triumphText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#triumphText1 {
     > div {
         article {
             grid-template-areas: "p""v";
             @include sm {
                 grid-template-areas: "v p";
             }
-
-            p {};
 
             div {
                 grid-area: v;

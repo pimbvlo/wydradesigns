@@ -1,12 +1,9 @@
 /* =============
     ON Gallery
 ============= */
-#onGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#onGallery {
     > div {
         article {
             ul {

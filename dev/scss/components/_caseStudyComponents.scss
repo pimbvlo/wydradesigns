@@ -1,6 +1,8 @@
 /* =============
     Case Study Components
 ============= */
+@use '../abstracts' as *;
+
 .article-text {
     article {
         display: flex;

@@ -1,3 +1,7 @@
+@use 'sass:list';
+@use 'sass:math';
+@use "sass:meta";
+@use '_screenVariables' as *;
 /* =============
     Mixins
 ============= */
@@ -17,7 +21,7 @@ $rem-base: 16px !default; // list-separator polyfill by Hugo Giraudel (https://s
     @return if($test-list==$list, space, comma);
 }
 @mixin rem-base($zoom: 100%) {
-    font-size: $zoom / 16px * $rem-base;
+    font-size: calc($zoom / 16px * $rem-base);
 }
 @function rem-convert($to, $values...) {
     $result: ();
@@ -55,8 +59,15 @@ $rem-base: 16px !default; // list-separator polyfill by Hugo Giraudel (https://s
 // //$base-line-height is 24px while $base-font-size is 16px
 // $base-line-height: 150%;
 // It strips the unit of measure and returns it
+// @function strip-unit($num) {
+//     @return calc($num / ($num * 0px + 1px));
+// }
+
 @function strip-unit($num) {
-    @return $num / ($num * 0 + 1);
+  @if meta.type-of($num) == 'number' and not math.is-unitless($num) {
+    @return math.div($num, ($num * 0 + 1));
+  }
+  @return $num;
 }
 // New Syntax, allows to optionally calculate on a different base value to counter compounding effect of em\'s.
 // Call with 1, 2, 3 or 4 parameters, \'px\' is not required but supported
@@ -68,7 +79,7 @@ $rem-base: 16px !default; // list-separator polyfill by Hugo Giraudel (https://s
 // If you require to comma separate your list
 // rem-calc((16px, 32px, 48), 8px);
 @function convert-to-rem($value, $base-value: $rem-base) {
-    $value: strip-unit($value) / strip-unit($base-value) * 1rem;
+    $value: calc(strip-unit($value) / strip-unit($base-value) * 1rem);
     @if ($value==0rem) {
         $value: 0;
     }
@@ -76,9 +87,9 @@ $rem-base: 16px !default; // list-separator polyfill by Hugo Giraudel (https://s
     @return $value;
 }
 @function rem-calc($values, $base-value: $rem-base) {
-    $max: length($values);
+    $max: list.length($values);
     @if $max==1 {
-        @return convert-to-rem(nth($values, 1), $base-value);
+        @return convert-to-rem(list.nth($values, 1), $base-value);
     }
     $remValues: ();
     @for $i from 1 through $max {
@@ -171,7 +182,7 @@ html {
 //   background: url("logo.png") no-repeat;
 //   @include image-2x("logo2x.png", 100px, 25px);
 // }
-/* ---------------- Padding/Margin Helpers ----------------  */
+/* ---------------- Padding/Margin abstracts ----------------  */
 //Padding mixin
 //Padding mixin
 @mixin padding($top, $right, $bottom, $left) {

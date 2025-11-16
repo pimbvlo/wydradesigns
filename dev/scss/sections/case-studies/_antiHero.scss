@@ -1,6 +1,8 @@
 /* =============
     ANTI Hero
 ============= */
+@use '../../abstracts' as *;
+
 #antiHero {
     background-image: url("../img/case-studies/anti/antiHero.jpg");
     article{

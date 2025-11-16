@@ -1,6 +1,8 @@
 /* =============
     ANTI Intro
 ============= */
+@use '../../abstracts' as *;
+
 #antiIntro {
     article {
         display: flex;

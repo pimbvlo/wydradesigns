@@ -1,6 +1,8 @@
 /* =============
     QV Gallery
 ============= */
+@use '../../abstracts' as *;
+
 #qvGallery {
     > div {
         article {

@@ -1,6 +1,8 @@
 /* =============
     Movebo Hero
 ============= */
+@use '../../abstracts' as *;
+
 #mHero {
     background-image: url("../img/case-studies/m/mHero.jpg");
     background-position: 24% top;

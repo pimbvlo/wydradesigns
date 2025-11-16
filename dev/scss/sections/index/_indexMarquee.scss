@@ -1,6 +1,8 @@
 /* =============
     Index Marquees
 ============= */
+@use '../../abstracts' as *;
+
 #indexMarquee {
     overflow-x: clip;
     overflow-y: visible;

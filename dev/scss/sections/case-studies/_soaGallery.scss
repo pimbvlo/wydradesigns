@@ -1,16 +1,11 @@
 /* =============
     SOA Gallery
 ============= */
-#soaGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#soaGallery {
     > div {
         article {
-            h2 {}
-
             ul {
                 grid-template-areas: "v" "paragraph1" "ST1" "ST2" "ST3" "ST4" "ST5" "ST6" "ST7";
                 grid-template-rows: auto auto 80px 80px 80px 80px 80px 80px 80px;
@@ -79,8 +74,6 @@
                     }
                 }
             }
-
-            div {}
         }
     }
 }

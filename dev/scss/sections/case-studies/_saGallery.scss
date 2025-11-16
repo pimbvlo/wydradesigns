@@ -1,6 +1,8 @@
 /* =============
     SA Gallery
 ============= */
+@use '../../abstracts' as *;
+
 #saGallery {
     > div {
         article {

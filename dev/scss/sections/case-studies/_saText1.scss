@@ -1,13 +1,11 @@
 /* =============
     SA Text
 ============= */
+@use '../../abstracts' as *;
+
 #saText1 {
-    background-color: $off-white;
     @include margin(144px,0px,0px,0px);
     @include padding(96px,0px,0px,0px);
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
 
     > div {
         article {
@@ -15,8 +13,6 @@
             @include sm {
                 grid-template-areas: "p i";
             }
-
-            p {}
 
             div {
                 grid-area: i;

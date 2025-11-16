@@ -1,10 +1,8 @@
 /* =============
     Buttons
 ============= */
-// STATE VARIABLES
-$state-hovered: 0.08;
-$state-pressed: 0.1;
-$state-focused: $state-pressed;
+@use '../abstracts' as *;
+
 
 // BUTTON EXAMPLE
 // <h6 class="button">

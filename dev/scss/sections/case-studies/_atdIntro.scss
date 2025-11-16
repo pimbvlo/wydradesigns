@@ -1,6 +1,8 @@
 /* =============
     Attention to Detail Intro
 ============= */
+@use '../../abstracts' as *;
+
 #atdIntro {
     > div {
         align-items: center;
@@ -19,8 +21,6 @@
                 @include lg {
                     font-size: rem-calc(20);
                 }
-
-                span {}
             }
         }
     }

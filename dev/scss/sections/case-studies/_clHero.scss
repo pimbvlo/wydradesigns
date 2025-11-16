@@ -1,6 +1,8 @@
 /* =============
     CL Hero
 ============= */
+@use '../../abstracts' as *;
+
 #clHero {
     background-image: url("../img/case-studies/cl/clHero.jpg");
     background-position: center top;

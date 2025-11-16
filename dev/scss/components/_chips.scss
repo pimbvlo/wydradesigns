@@ -1,3 +1,8 @@
+/* =============
+    Chips
+============= */
+@use '../abstracts' as *;
+
 .chip,
 .chip-icon {
     font-family: interstate-mono, monospace;
@@ -7,11 +12,6 @@
     text-transform: uppercase;
     letter-spacing: -0.2px;
 
-    @supports (leading-trim: both) and (text-edge: cap) {
-        leading-trim: both;
-        text-edge: cap;
-    }
-
     display: inline-flex;
     align-items: center;
     flex-shrink: 0;
@@ -20,6 +20,12 @@
     max-height: 32px;
     border-radius: 4px;
     padding: 0px 8px;
+
+
+    @supports (leading-trim: both) and (text-edge: cap) {
+        leading-trim: both;
+        text-edge: cap;
+    }
 
     .material-symbols-outlined {
         font-variation-settings:

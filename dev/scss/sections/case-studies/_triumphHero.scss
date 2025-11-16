@@ -1,6 +1,8 @@
 /* =============
     TRIUMPH Hero
 ============= */
+@use '../../abstracts' as *;
+
 #triumphHero {
     background-image: url("../img/case-studies/triumph/triumphHero.jpg");
     background-position: center top;

@@ -1,12 +1,9 @@
 /* =============
     TOL Gallery
 ============= */
-#tolGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#tolGallery {
     > div {
         article {
             ul {

@@ -1,6 +1,8 @@
 /* =============
     Index Hero
 ============= */
+@use '../../abstracts' as *;
+
 #indexHero {
     overflow-x: clip;
     overflow-y: visible;

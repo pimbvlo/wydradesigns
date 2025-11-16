@@ -1,12 +1,9 @@
 /* =============
     CL Gallery
 ============= */
-#clGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#clGallery {
     > div {
         article {
             ul {

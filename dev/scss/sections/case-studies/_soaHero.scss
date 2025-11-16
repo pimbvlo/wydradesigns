@@ -1,6 +1,8 @@
 /* =============
     SOA Hero
 ============= */
+@use '../../abstracts' as *;
+
 #soaHero {
     background-image: url("../img/case-studies/soa/soaHero.jpg");
     background-position: center top;

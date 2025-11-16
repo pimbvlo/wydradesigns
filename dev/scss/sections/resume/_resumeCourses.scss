@@ -1,6 +1,8 @@
 /* =============
     Resume Courses
 ============= */
+@use '../../abstracts' as *;
+
 #resumeCourses {
     background-color: $off-white;
     @include dark {

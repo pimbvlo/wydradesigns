@@ -1,6 +1,8 @@
 /* =============
     Resume Skills
 ============= */
+@use '../../abstracts' as *;
+
 #resumeSkills {
     >article {
         display: flex;

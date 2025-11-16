@@ -1,6 +1,8 @@
 /* =============
     TikTok Branding
 ============= */
+@use '../../abstracts' as *;
+
 #ttBranding {
     article {
         .color-palette:nth-of-type(1) {

@@ -1,6 +1,8 @@
 /* =============
     About Who
 ============= */
+@use '../../abstracts' as *;
+
 #aboutWho {
     >div{
         display:flex;

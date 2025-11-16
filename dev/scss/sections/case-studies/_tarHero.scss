@@ -1,6 +1,8 @@
 /* =============
     TARGET Hero
 ============= */
+@use '../../abstracts' as *;
+
 #tarHero {
     background-image: url("../img/case-studies/tar/tarHero.jpg");
     background-position: bottom center;

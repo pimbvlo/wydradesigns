@@ -1,6 +1,8 @@
 /* =============
     Attention to Detail Hero
 ============= */
+@use '../../abstracts' as *;
+
 #atdHero {
     background-image: url("../img/case-studies/atd/atdHero.jpg");
     background-position: 64% top;

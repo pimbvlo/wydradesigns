@@ -1,6 +1,8 @@
 /* =============
     ANTI Gallery
 ============= */
+@use '../../abstracts' as *;
+
 #antiGallery {
     article {
         >img:nth-child(2) {

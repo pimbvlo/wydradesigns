@@ -1,12 +1,9 @@
 /* =============
     Movebo Gallery
 ============= */
-#mGallery {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#mGallery {
     > div {
         article {
             ul {

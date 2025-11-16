@@ -1,11 +1,11 @@
 @charset 'utf-8';
 
-// Helpers Styles
-@use "helpers/_mixins";
-@use "helpers/_screenVariables";
-@use "helpers/_colorVariables";
-@use "helpers/_paddingVariables";
-@use "helpers/_elevationStyles";
+// abstracts Styles
+@use "abstracts/_mixins";
+@use "abstracts/_screenVariables";
+@use "abstracts/_colorVariables";
+@use "abstracts/_paddingVariables";
+@use "abstracts/_elevationStyles";
 
 
 // Base Styles

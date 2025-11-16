@@ -1,6 +1,8 @@
 /* =============
     SA Hero
 ============= */
+@use '../../abstracts' as *;
+
 #saHero {
     background-image: url("../img/case-studies/sa/saHero.jpg");
     @include lg {

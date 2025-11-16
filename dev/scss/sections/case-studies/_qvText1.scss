@@ -1,12 +1,9 @@
 /* =============
     QV Text
 ============= */
-#qvText1 {
-    background-color: $off-white;
-    @include dark {
-        background-color: $grey-dark-extra;
-    }
+@use '../../abstracts' as *;
 
+#qvText1 {
     > div {
         article {
             p {

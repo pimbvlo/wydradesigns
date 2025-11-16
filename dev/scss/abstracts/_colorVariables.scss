@@ -1,25 +1,3 @@
-// OLD COLORS TO DELETE LATER
-$white: #FCFCFC;
-$off-white: #F0F0F0;
-$grey-mid: #454546;
-$grey-mid-extra: #28282A;
-$grey-dark: #1E1E20;
-$grey-dark-extra: #161618;
-$black: #131618;
-$blank: rgba(0, 0, 0, 0);
-
-
-$light-orange: #FFA566;
-$orange: #FF964C;
-$dark-orange: #A35200;
-
-$light-pink: #EACCFF;
-$pink: #FE3DFF;
-$dark-pink: #B813B9;
-
-$light-purple: #C494FF;
-$purple: #6613CE;
-$dark-purple: #0D001E;
 /* =============
     Color Variables
 ============= */
@@ -165,3 +143,8 @@ $outline-variant: $neutral40;
 
 // Shadow
 $shadow: $black;
+
+// State Variables
+$state-hovered: 0.08;
+$state-pressed: 0.1;
+$state-focused: $state-pressed;

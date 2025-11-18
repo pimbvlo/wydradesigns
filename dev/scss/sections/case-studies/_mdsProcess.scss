@@ -1,10 +1,21 @@
 /* =============
     MERAKI DESIGN SYSTEM Branding
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
 
 #mdsProcess {
     article {
+
+        iframe:nth-of-type(1) {
+            height: auto;
+            @include md{
+                height: 16vw;
+            }
+            @include lg{
+                height: 15vw;
+            }
+        }
+
         .carousel-image {
             li:first-of-type {
                 @include md {

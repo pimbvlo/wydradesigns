@@ -519,6 +519,10 @@ template {
   display: none;
 }
 
+iframe {
+  border: none;
+}
+
 /* =============
     Base
 ============= */
@@ -2963,6 +2967,19 @@ footer h2:nth-child(2) {
 /* =============
     MERAKI DESIGN SYSTEM Branding
 ============= */
+#mdsProcess article iframe:nth-of-type(1) {
+  height: auto;
+}
+@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  #mdsProcess article iframe:nth-of-type(1) {
+    height: 16vw;
+  }
+}
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #mdsProcess article iframe:nth-of-type(1) {
+    height: 15vw;
+  }
+}
 #mdsProcess article ul:nth-child(14) {
   display: flex;
   flex-direction: column;

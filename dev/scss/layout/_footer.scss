@@ -1,7 +1,7 @@
 /* =============
     Footer
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
 
 footer {
     height: 96vh;
@@ -14,42 +14,10 @@ footer {
     background-position: 0 0, 0.65rem 0.65rem;
 
     overflow: hidden;
-    position: relative;
 
     .button {
         text-transform: none;
         align-self: flex-start;
-
-        >a {
-            align-self: auto;
-
-            color: $inverse-primary;
-        }
-
-        &:link,
-        &:visited {
-            >a {
-                color: $inverse-primary;
-            }
-        }
-
-        &:hover {
-            >a {
-                background-color: rgba($inverse-primary, $state-hovered);
-                color: $inverse-primary;
-            }
-
-        }
-
-        &:active {
-            >a {
-                background-color: rgba($inverse-primary, $state-pressed);
-                color: $inverse-primary;
-            }
-
-        }
-
-
     }
 
     >div {
@@ -58,15 +26,10 @@ footer {
         justify-content: flex-start;
         flex-direction: column;
 
-        position: relative;
-
-
         article {
             display: flex;
             flex-direction: column;
             gap: 20px;
-
-            z-index: 1;
 
             .button {
                 >a {
@@ -86,7 +49,6 @@ footer {
                         background-color: rgba($inverse-primary, $state-hovered);
                         color: $on-primary;
                     }
-
                 }
 
                 &:active {
@@ -94,27 +56,20 @@ footer {
                         background-color: rgba($inverse-primary, $state-pressed);
                         color: $on-primary;
                     }
-
                 }
-
-
             }
 
             h2 {
                 font-size: rem-calc(52);
                 line-height: rem-calc(64);
-
             }
         }
-
 
         nav {
             display: flex;
             margin-bottom: 20px;
+            margin-top: auto;
             align-items: center;
-
-            z-index: 1;
-
         }
 
         aside {
@@ -122,16 +77,21 @@ footer {
             flex-direction: column;
             align-items: flex-start;
             justify-content: flex-start;
-            width: 100%;
+width: 100%;
 
-            z-index: 1;
+            border-radius: 8px;
+            background-color: rgba($secondary-container, 0.05);
+            @supports (width: stretch) {
+                width: stretch;
+            }
+            @supports (width: -webkit-fill-available) {
+                width: -webkit-fill-available;
+            }
 
             @include md {
                 flex-direction: row;
                 align-items: center;
                 justify-content: space-between;
-                width: 100%;
-
             }
 
             ul {
@@ -151,47 +111,14 @@ footer {
                 }
             }
 
-        }
+            >div {
+                display: flex;
+                flex-direction: column;
 
-        img {
-            position: absolute;
-            z-index: 0;
-            mix-blend-mode: color-dodge;
-            // opacity: 0.5;
-
-            width: 100vh;
-            top: -12vw;
-            right: -64vw;
-
-            @include sm {
-                right: -40vw;
-            }
-
-            @include md {
-                right: -64vw;
-            }
-
-            @include lg {
-                top: -8vw;
-                right: -20vw;
+                gap: h5 {
+                    text-align: right;
+                }
             }
         }
     }
-
-    h2:nth-child(2) {
-        color: $on-inverse-surface;
-        font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
-        text-align: center;
-        font-size: 24vw;
-        line-height: 80%;
-
-        opacity: 0.1;
-        transform: translate(-50%, -50%);
-        position: absolute;
-        bottom: -15%;
-        left: 50%;
-
-        @include lg {}
-    }
-
 }

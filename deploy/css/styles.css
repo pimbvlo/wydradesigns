@@ -1669,8 +1669,8 @@ footer > div aside {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  border-radius: 8px;
-  background-color: rgba(204, 239, 250, 0.05);
+  border-radius: 24px;
+  background-color: rgba(204, 239, 250, 0.64);
 }
 @supports (width: stretch) {
   footer > div aside {
@@ -1702,12 +1702,29 @@ footer > div aside ul .button > a {
   width: 100%;
   padding: 0px;
   align-items: center;
+  font-weight: 400;
+  color: rgb(0, 35, 46);
+}
+footer > div aside ul .button:link > a, footer > div aside ul .button:visited > a {
+  color: rgb(0, 35, 46);
+}
+footer > div aside ul .button:hover > a {
+  background-color: rgba(0, 177, 230, 0.08);
+  color: rgb(0, 35, 46);
+}
+footer > div aside ul .button:active > a {
+  background-color: rgba(0, 177, 230, 0.1);
+  color: rgb(0, 35, 46);
 }
 footer > div aside > div {
   display: flex;
   flex-direction: column;
-  gap: h5;
-  gap-text-align: right;
+  gap: 4px;
+  width: 100%;
+}
+footer > div aside > div h5 {
+  text-align: right;
+  color: rgb(0, 35, 46);
 }
 
 /* =============

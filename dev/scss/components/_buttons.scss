@@ -1,7 +1,7 @@
 /* =============
     Buttons
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
 
 
 // BUTTON EXAMPLE
@@ -39,7 +39,15 @@
             text-edge: cap;
         }
 
-        >.material-symbols-outlined{
+        >svg {
+            display: flex;
+            align-self: center;
+            margin-top: -6px;
+
+            color: $primary;
+        }
+
+        >.material-symbols-outlined {
             display: flex;
             align-self: center;
             margin-top: -6px;
@@ -55,9 +63,10 @@
     }
 
     &:hover {
-        @include lg{
+        @include lg {
             transform: scale(1.08);
         }
+
         >a {
             background-color: rgba($primary, $state-hovered);
             color: $primary;
@@ -83,7 +92,7 @@
         padding-bottom: 12px;
         padding-left: 16px;
 
-        
+
     }
 }
 

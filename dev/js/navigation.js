@@ -36,51 +36,51 @@ function closeNav() {
 }
 // console.log("ready!");
 
-gsap.to(
-  "header",
-  {
-    scrollTrigger: {
-      trigger: "footer",
-      start: "top 0px",
-      end: "top 0px",
-      toggleActions: "restart none reverse none"
-    },
-    duration: 0.25,
-    backgroundColor: "rgba(43, 43, 43, 0)",
-    ease: "sine.inOut"
-  },
-  "header-meet-footer"
-);
-gsap.to(
-  "#wydradesigns-path",
-  {
-    scrollTrigger: {
-      trigger: "footer",
-      start: "top 0px",
-      end: "top 0px",
-      toggleActions: "restart none reverse none"
-    },
-    duration: 0.25,
-    fill: "rgba(225, 225, 225, 1)",
-    ease: "sine.inOut"
-  },
-  "header-meet-footer"
-);
-gsap.to(
-  ".burger-lines",
-  {
-    scrollTrigger: {
-      trigger: "footer",
-      start: "top 0px",
-      end: "top 0px",
-      toggleActions: "restart none reverse none"
-    },
-    duration: 0.25,
-    stroke: "rgba(229, 0, 69, 1)",
-    ease: "sine.inOut"
-  },
-  "header-meet-footer"
-);
+// gsap.to(
+//   "header",
+//   {
+//     scrollTrigger: {
+//       trigger: "footer",
+//       start: "top 0px",
+//       end: "top 0px",
+//       toggleActions: "restart none reverse none"
+//     },
+//     duration: 0.25,
+//     backgroundColor: "rgba(43, 43, 43, 0.99)",
+//     ease: "sine.inOut"
+//   },
+//   "header-meet-footer"
+// );
+// gsap.to(
+//   "#wydradesigns-path",
+//   {
+//     scrollTrigger: {
+//       trigger: "footer",
+//       start: "top 0px",
+//       end: "top 0px",
+//       toggleActions: "restart none reverse none"
+//     },
+//     duration: 0.25,
+//     fill: "rgba(225, 225, 225, 1)",
+//     ease: "sine.inOut"
+//   },
+//   "header-meet-footer"
+// );
+// gsap.to(
+//   ".burger-lines",
+//   {
+//     scrollTrigger: {
+//       trigger: "footer",
+//       start: "top 0px",
+//       end: "top 0px",
+//       toggleActions: "restart none reverse none"
+//     },
+//     duration: 0.25,
+//     stroke: "rgba(229, 0, 69, 1)",
+//     ease: "sine.inOut"
+//   },
+//   "header-meet-footer"
+// );
 
 // Get year for copyright for footer
 document.getElementById("year").innerHTML = new Date().getFullYear();

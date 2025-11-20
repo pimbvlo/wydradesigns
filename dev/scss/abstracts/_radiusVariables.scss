@@ -1,0 +1,28 @@
+/* =============
+    Radius Variables
+============= */
+// Define the breakpoints
+// Small radius
+$radius-sm: 8px;
+
+// Medium radius
+$radius-md: 16px;
+
+// Large radius
+$radius-lg: 24px;
+
+// Xtra Large radius
+$radius-xl: 36px;
+
+.radius-sm{
+    border-radius: $radius-sm;
+}
+.radius-md{
+    border-radius: $radius-md;
+}
+.radius-lg{
+    border-radius: $radius-lg;
+}
+.radius-xl{
+    border-radius: $radius-xl;
+}

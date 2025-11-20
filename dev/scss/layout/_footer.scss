@@ -4,7 +4,7 @@
 @use '../abstracts'as *;
 
 footer {
-    height: 96vh;
+    // height: 96vh;
     background-color: $inverse-surface;
     color: $on-inverse-surface;
     background-image: radial-gradient(circle at center,
@@ -18,58 +18,135 @@ footer {
     .button {
         text-transform: none;
         align-self: flex-start;
+        background-color: $secondary-container;
+        width: 100%;
+        border-radius: $radius-md;
+
+        >a {
+            height: 100%;
+            width: 100%;
+            padding: 0px;
+            align-items: center;
+
+            font-weight: 400;
+            color: $on-secondary-container;
+        }
+
+        &:link,
+        &:visited {
+            >a {
+                color: $on-secondary-container;
+            }
+        }
+
+        &:hover {
+            >a {
+                background-color: rgba($secondary, $state-hovered);
+                color: $on-secondary-container;
+            }
+        }
+
+        &:active {
+            >a {
+                background-color: rgba($secondary, $state-pressed);
+                color: $on-secondary-container;
+            }
+        }
     }
 
     >div {
         display: flex;
-        align-items: flex-start;
-        justify-content: flex-start;
         flex-direction: column;
+        margin-top: 64px;
+
+        @include md {
+            display: grid;
+            margin-top: 104px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto auto;
+            grid-template-areas:
+                "h h h"
+                "e e n"
+                "a a a";
+        }
+
+        @include lg {
+            margin-top: 160px;
+        }
+
+        @include xl {
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: auto auto;
+
+            grid-template-areas:
+                "h h h h"
+                "e e n a";
+
+        }
+
+        h2 {
+            grid-area: h;
+            font-size: rem-calc(52);
+            line-height: rem-calc(64);
+        }
 
         article {
             display: flex;
             flex-direction: column;
             gap: 20px;
+            grid-area: e;
 
             .button {
-                >a {
-                    font-weight: 400;
-                    color: $on-primary;
+                height: 16vh;
+
+                @supports (width: stretch) {
+                    width: stretch;
                 }
 
-                &:link,
-                &:visited {
-                    >a {
-                        color: $on-primary;
-                    }
+                @supports (width: -webkit-fill-available) {
+                    width: -webkit-fill-available;
+                }
+
+                @include md {
+                    height: 100%;
                 }
 
                 &:hover {
-                    >a {
-                        background-color: rgba($inverse-primary, $state-hovered);
-                        color: $on-primary;
+                    @include lg {
+                        transform: scale(1.04);
                     }
                 }
-
-                &:active {
-                    >a {
-                        background-color: rgba($inverse-primary, $state-pressed);
-                        color: $on-primary;
-                    }
-                }
-            }
-
-            h2 {
-                font-size: rem-calc(52);
-                line-height: rem-calc(64);
             }
         }
 
         nav {
             display: flex;
-            margin-bottom: 20px;
-            margin-top: auto;
             align-items: center;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 100%;
+            grid-area: n;
+
+            .button {
+                height: 8vh;
+                width: 100%;
+
+                @include xl {
+                    height: 100%;
+                }
+
+                a {
+                    @supports (width: stretch) {
+                        width: stretch;
+                    }
+
+                    @supports (width: -webkit-fill-available) {
+                        width: -webkit-fill-available;
+                    }
+                }
+
+
+            }
         }
 
         aside {
@@ -78,9 +155,7 @@ footer {
             align-items: flex-start;
             justify-content: flex-start;
             width: 100%;
-
-            border-radius: 24px;
-            background-color: rgba($secondary-container, 0.64);
+            grid-area: a;
 
             @supports (width: stretch) {
                 width: stretch;
@@ -96,57 +171,64 @@ footer {
                 justify-content: space-between;
             }
 
+            @include xl {
+                flex-direction: column;
+            }
+
             ul {
-                display: flex;
-                margin-left: 4px;
+                display: grid;
+                grid-template-columns: repeat(4, 1fr);
+                width: 100%;
+
+                @include xl {
+                    grid-template-columns: repeat(2, 1fr);
+                }
 
                 .button {
-                    height: 52px;
-                    width: 52px;
+                    height: 8vh;
+                    width: 8vh;
+                    border-radius: 100px;
+                    aspect-ratio: 1/1;
 
-                    >a {
-                        height: 100%;
-                        width: 100%;
-                        padding: 0px;
-                        align-items: center;
-
-                        font-weight: 400;
-                        color: $on-secondary-container;
+                    @include md {
+                        height: 86px;
+                        width: 86px;
                     }
 
-                    &:link,
-                    &:visited {
-                        >a {
-                            color: $on-secondary-container;
-                        }
+                    @include lg {
+                        height: 108px;
+                        width: 108px;
                     }
 
-                    &:hover {
-                        >a {
-                            background-color: rgba($secondary, $state-hovered);
-                            color: $on-secondary-container;
-                        }
-                    }
-
-                    &:active {
-                        >a {
-                            background-color: rgba($secondary, $state-pressed);
-                            color: $on-secondary-container;
+                    svg {
+                        @include lg {
+                            height: 2em;
                         }
                     }
                 }
-
             }
 
             >div {
                 display: flex;
                 flex-direction: column;
+                align-items: center;
+                justify-content: center;
                 gap: 4px;
+                background-color: $tertiary-container;
+                height: fit-content;
                 width: 100%;
 
+                @supports (width: stretch) {
+                    width: stretch;
+                }
+
+                @supports (width: -webkit-fill-available) {
+                    width: -webkit-fill-available;
+                }
+
                 h5 {
-                    text-align: right;
-                    color: $on-secondary-container;
+                    text-align: center;
+                    color: $on-tertiary-container;
                 }
             }
         }

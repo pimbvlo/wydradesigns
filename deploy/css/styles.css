@@ -15,6 +15,25 @@ html {
 /* ---------------- Retina Images ----------------  */
 /* ---------------- Padding/Margin abstracts ----------------  */
 /* =============
+    Radius Variables
+============= */
+.radius-sm {
+  border-radius: 8px;
+}
+
+.radius-md {
+  border-radius: 16px;
+}
+
+.radius-lg {
+  border-radius: 24px;
+}
+
+.radius-xl {
+  border-radius: 36px;
+}
+
+/* =============
     Color Variables
 ============= */
 /* =============
@@ -765,6 +784,12 @@ ol li::marker {
     leading-trim: both;
     text-edge: cap;
   }
+}
+.button > a > svg {
+  display: flex;
+  align-self: center;
+  margin-top: -6px;
+  color: rgb(229, 0, 69);
 }
 .button > a > .material-symbols-outlined {
   display: flex;
@@ -1615,7 +1640,6 @@ header > div .sidenav a:active {
     Footer
 ============= */
 footer {
-  height: 96vh;
   background-color: rgb(43, 43, 43);
   color: rgb(239, 239, 239);
   background-image: radial-gradient(circle at center, rgba(171, 171, 171, 0.1) 0.1rem, transparent 0), radial-gradient(circle at center, rgba(171, 171, 171, 0.1) 0.1rem, transparent 0);
@@ -1626,42 +1650,115 @@ footer {
 footer .button {
   text-transform: none;
   align-self: flex-start;
+  background-color: rgb(204, 239, 250);
+  width: 100%;
+  border-radius: 16px;
+}
+footer .button > a {
+  height: 100%;
+  width: 100%;
+  padding: 0px;
+  align-items: center;
+  font-weight: 400;
+  color: rgb(0, 35, 46);
+}
+footer .button:link > a, footer .button:visited > a {
+  color: rgb(0, 35, 46);
+}
+footer .button:hover > a {
+  background-color: rgba(0, 177, 230, 0.08);
+  color: rgb(0, 35, 46);
+}
+footer .button:active > a {
+  background-color: rgba(0, 177, 230, 0.1);
+  color: rgb(0, 35, 46);
 }
 footer > div {
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
   flex-direction: column;
+  margin-top: 64px;
+}
+@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  footer > div {
+    display: grid;
+    margin-top: 104px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas: "h h h" "e e n" "a a a";
+  }
+}
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  footer > div {
+    margin-top: 160px;
+  }
+}
+@media (min-device-width: 1440px) {
+  footer > div {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "h h h h" "e e n a";
+  }
+}
+footer > div h2 {
+  grid-area: h;
+  font-size: 3.25rem;
+  line-height: 4rem;
 }
 footer > div article {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  grid-area: e;
 }
-footer > div article .button > a {
-  font-weight: 400;
-  color: rgb(255, 255, 255);
+footer > div article .button {
+  height: 16vh;
 }
-footer > div article .button:link > a, footer > div article .button:visited > a {
-  color: rgb(255, 255, 255);
+@supports (width: stretch) {
+  footer > div article .button {
+    width: stretch;
+  }
 }
-footer > div article .button:hover > a {
-  background-color: rgba(250, 204, 218, 0.08);
-  color: rgb(255, 255, 255);
+@supports (width: -webkit-fill-available) {
+  footer > div article .button {
+    width: -webkit-fill-available;
+  }
 }
-footer > div article .button:active > a {
-  background-color: rgba(250, 204, 218, 0.1);
-  color: rgb(255, 255, 255);
+@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  footer > div article .button {
+    height: 100%;
+  }
 }
-footer > div article h2 {
-  font-size: 3.25rem;
-  line-height: 4rem;
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  footer > div article .button:hover {
+    transform: scale(1.04);
+  }
 }
 footer > div nav {
   display: flex;
-  margin-bottom: 20px;
-  margin-top: auto;
   align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  grid-area: n;
+}
+footer > div nav .button {
+  height: 8vh;
+  width: 100%;
+}
+@media (min-device-width: 1440px) {
+  footer > div nav .button {
+    height: 100%;
+  }
+}
+@supports (width: stretch) {
+  footer > div nav .button a {
+    width: stretch;
+  }
+}
+@supports (width: -webkit-fill-available) {
+  footer > div nav .button a {
+    width: -webkit-fill-available;
+  }
 }
 footer > div aside {
   display: flex;
@@ -1669,8 +1766,7 @@ footer > div aside {
   align-items: flex-start;
   justify-content: flex-start;
   width: 100%;
-  border-radius: 24px;
-  background-color: rgba(204, 239, 250, 0.64);
+  grid-area: a;
 }
 @supports (width: stretch) {
   footer > div aside {
@@ -1689,42 +1785,67 @@ footer > div aside {
     justify-content: space-between;
   }
 }
+@media (min-device-width: 1440px) {
+  footer > div aside {
+    flex-direction: column;
+  }
+}
 footer > div aside ul {
-  display: flex;
-  margin-left: 4px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+}
+@media (min-device-width: 1440px) {
+  footer > div aside ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 footer > div aside ul .button {
-  height: 52px;
-  width: 52px;
+  height: 8vh;
+  width: 8vh;
+  border-radius: 100px;
+  aspect-ratio: 1/1;
 }
-footer > div aside ul .button > a {
-  height: 100%;
-  width: 100%;
-  padding: 0px;
-  align-items: center;
-  font-weight: 400;
-  color: rgb(0, 35, 46);
+@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+  footer > div aside ul .button {
+    height: 86px;
+    width: 86px;
+  }
 }
-footer > div aside ul .button:link > a, footer > div aside ul .button:visited > a {
-  color: rgb(0, 35, 46);
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  footer > div aside ul .button {
+    height: 108px;
+    width: 108px;
+  }
 }
-footer > div aside ul .button:hover > a {
-  background-color: rgba(0, 177, 230, 0.08);
-  color: rgb(0, 35, 46);
-}
-footer > div aside ul .button:active > a {
-  background-color: rgba(0, 177, 230, 0.1);
-  color: rgb(0, 35, 46);
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  footer > div aside ul .button svg {
+    height: 2em;
+  }
 }
 footer > div aside > div {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 4px;
+  background-color: rgb(255, 252, 204);
+  height: fit-content;
   width: 100%;
 }
+@supports (width: stretch) {
+  footer > div aside > div {
+    width: stretch;
+  }
+}
+@supports (width: -webkit-fill-available) {
+  footer > div aside > div {
+    width: -webkit-fill-available;
+  }
+}
 footer > div aside > div h5 {
-  text-align: right;
-  color: rgb(0, 35, 46);
+  text-align: center;
+  color: rgb(51, 48, 0);
 }
 
 /* =============

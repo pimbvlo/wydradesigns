@@ -27,15 +27,36 @@ footer {
             width: 100%;
             padding: 0px;
             align-items: center;
+            border-radius: $radius-md;
 
             font-weight: 400;
             color: $on-secondary-container;
+
+            >svg {
+                fill: $on-secondary-container;
+
+                >path {
+
+                    fill: $on-secondary-container;
+
+                }
+            }
         }
 
         &:link,
         &:visited {
             >a {
                 color: $on-secondary-container;
+                            >svg {
+                fill: $on-secondary-container;
+
+                >path {
+
+                    fill: $on-secondary-container;
+
+                }
+            }
+
             }
         }
 
@@ -43,6 +64,16 @@ footer {
             >a {
                 background-color: rgba($secondary, $state-hovered);
                 color: $on-secondary-container;
+                            >svg {
+                fill: $on-secondary-container;
+
+                >path {
+
+                    fill: $on-secondary-container;
+
+                }
+            }
+
             }
         }
 
@@ -50,6 +81,16 @@ footer {
             >a {
                 background-color: rgba($secondary, $state-pressed);
                 color: $on-secondary-container;
+                            >svg {
+                fill: $on-secondary-container;
+
+                >path {
+
+                    fill: $on-secondary-container;
+
+                }
+            }
+
             }
         }
     }
@@ -198,6 +239,10 @@ footer {
                     @include lg {
                         height: 108px;
                         width: 108px;
+                    }
+
+                    >a {
+                        border-radius: 100px;
                     }
 
                     svg {

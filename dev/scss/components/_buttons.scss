@@ -39,12 +39,27 @@
             text-edge: cap;
         }
 
+        @include lg {
+            align-items: center;
+        }
+
         >svg {
             display: flex;
             align-self: center;
             margin-top: -6px;
+            aspect-ratio: 1/1;
+            height: 32px;
+            width: 32px;
+            fill: $primary;
 
-            color: $primary;
+            @include lg {
+                height: 40px;
+                width: 40px;
+            }
+
+            >path {
+                fill: $primary;
+            }
         }
 
         >.material-symbols-outlined {
@@ -59,6 +74,12 @@
     &:visited {
         >a {
             color: $primary;
+
+            >svg {
+                fill: $primary;
+            }
+
+
         }
     }
 
@@ -70,16 +91,30 @@
         >a {
             background-color: rgba($primary, $state-hovered);
             color: $primary;
-        }
 
+            >svg {
+                fill: $primary;
+
+                >path {
+                    fill: $primary;
+                }
+            }
+        }
     }
 
     &:active {
         >a {
             background-color: rgba($primary, $state-pressed);
             color: $primary;
-        }
 
+            >svg {
+                fill: $primary;
+
+                >path {
+                    fill: $primary;
+                }
+            }
+        }
     }
 
 }
@@ -113,6 +148,16 @@
 
     >a {
         color: $on-primary;
+
+        >svg {
+            fill: $on-primary;
+
+            >path {
+                fill: $on-primary;
+            }
+
+        }
+
     }
 
     &:link,
@@ -121,6 +166,17 @@
 
         >a {
             color: $on-primary;
+
+            >svg {
+                fill: $on-primary;
+
+                >path {
+                    fill: $on-primary;
+                }
+
+            }
+
+
         }
     }
 
@@ -129,6 +185,16 @@
         >a {
             background-color: rgba($on-primary, $state-hovered);
             color: $on-primary;
+
+            >svg {
+                fill: $on-primary;
+
+                >path {
+                    fill: $on-primary;
+                }
+
+            }
+
 
         }
 
@@ -140,6 +206,16 @@
         >a {
             background-color: rgba($on-primary, $state-pressed);
             color: $on-primary;
+
+            >svg {
+                fill: $on-primary;
+
+                >path {
+                    fill: $on-primary;
+                }
+
+            }
+
         }
 
     }
@@ -152,6 +228,15 @@
 
     >a {
         color: $on-primary-container;
+
+        >svg {
+            fill: $on-primary-container;
+
+            >path {
+                fill: $on-primary-container;
+            }
+        }
+
     }
 
     &:link,
@@ -160,6 +245,17 @@
 
         >a {
             color: $on-primary-container;
+
+            >svg {
+                fill: $on-primary-container;
+
+                >path {
+                    fill: $on-primary-container;
+                }
+
+
+            }
+
         }
     }
 
@@ -168,6 +264,16 @@
         >a {
             background-color: rgba($primary, $state-hovered);
             color: $on-primary-container;
+
+            >svg {
+                fill: $on-primary-container;
+
+                >path {
+                    fill: $on-primary-container;
+                }
+
+            }
+
 
         }
 
@@ -179,6 +285,16 @@
         >a {
             background-color: rgba($primary, $state-pressed);
             color: $on-primary-container;
+
+            >svg {
+                fill: $on-primary-container;
+
+                >path {
+                    fill: $on-primary-container;
+                }
+
+            }
+
         }
 
     }

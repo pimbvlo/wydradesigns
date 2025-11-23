@@ -659,6 +659,12 @@ h6 {
   letter-spacing: 0.12px;
   text-transform: capitalize;
 }
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  h6 {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+}
 
 p {
   font-size: 1.125rem;
@@ -785,11 +791,28 @@ ol li::marker {
     text-edge: cap;
   }
 }
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .button > a {
+    align-items: center;
+  }
+}
 .button > a > svg {
   display: flex;
   align-self: center;
   margin-top: -6px;
-  color: rgb(229, 0, 69);
+  aspect-ratio: 1/1;
+  height: 32px;
+  width: 32px;
+  fill: rgb(229, 0, 69);
+}
+@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .button > a > svg {
+    height: 40px;
+    width: 40px;
+  }
+}
+.button > a > svg > path {
+  fill: rgb(229, 0, 69);
 }
 .button > a > .material-symbols-outlined {
   display: flex;
@@ -798,6 +821,9 @@ ol li::marker {
 }
 .button:link > a, .button:visited > a {
   color: rgb(229, 0, 69);
+}
+.button:link > a > svg, .button:visited > a > svg {
+  fill: rgb(229, 0, 69);
 }
 @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .button:hover {
@@ -808,9 +834,21 @@ ol li::marker {
   background-color: rgba(229, 0, 69, 0.08);
   color: rgb(229, 0, 69);
 }
+.button:hover > a > svg {
+  fill: rgb(229, 0, 69);
+}
+.button:hover > a > svg > path {
+  fill: rgb(229, 0, 69);
+}
 .button:active > a {
   background-color: rgba(229, 0, 69, 0.1);
   color: rgb(229, 0, 69);
+}
+.button:active > a > svg {
+  fill: rgb(229, 0, 69);
+}
+.button:active > a > svg > path {
+  fill: rgb(229, 0, 69);
 }
 
 .button-icon-left > a {
@@ -835,15 +873,33 @@ ol li::marker {
 .button-filled > a {
   color: rgb(255, 255, 255);
 }
+.button-filled > a > svg {
+  fill: rgb(255, 255, 255);
+}
+.button-filled > a > svg > path {
+  fill: rgb(255, 255, 255);
+}
 .button-filled:link, .button-filled:visited {
   box-shadow: none;
 }
 .button-filled:link > a, .button-filled:visited > a {
   color: rgb(255, 255, 255);
 }
+.button-filled:link > a > svg, .button-filled:visited > a > svg {
+  fill: rgb(255, 255, 255);
+}
+.button-filled:link > a > svg > path, .button-filled:visited > a > svg > path {
+  fill: rgb(255, 255, 255);
+}
 .button-filled:hover > a {
   background-color: rgba(255, 255, 255, 0.08);
   color: rgb(255, 255, 255);
+}
+.button-filled:hover > a > svg {
+  fill: rgb(255, 255, 255);
+}
+.button-filled:hover > a > svg > path {
+  fill: rgb(255, 255, 255);
 }
 .button-filled:active {
   box-shadow: none;
@@ -851,6 +907,12 @@ ol li::marker {
 .button-filled:active > a {
   background-color: rgba(255, 255, 255, 0.1);
   color: rgb(255, 255, 255);
+}
+.button-filled:active > a > svg {
+  fill: rgb(255, 255, 255);
+}
+.button-filled:active > a > svg > path {
+  fill: rgb(255, 255, 255);
 }
 
 .button-tonal {
@@ -860,15 +922,33 @@ ol li::marker {
 .button-tonal > a {
   color: rgb(46, 0, 14);
 }
+.button-tonal > a > svg {
+  fill: rgb(46, 0, 14);
+}
+.button-tonal > a > svg > path {
+  fill: rgb(46, 0, 14);
+}
 .button-tonal:link, .button-tonal:visited {
   box-shadow: none;
 }
 .button-tonal:link > a, .button-tonal:visited > a {
   color: rgb(46, 0, 14);
 }
+.button-tonal:link > a > svg, .button-tonal:visited > a > svg {
+  fill: rgb(46, 0, 14);
+}
+.button-tonal:link > a > svg > path, .button-tonal:visited > a > svg > path {
+  fill: rgb(46, 0, 14);
+}
 .button-tonal:hover > a {
   background-color: rgba(229, 0, 69, 0.08);
   color: rgb(46, 0, 14);
+}
+.button-tonal:hover > a > svg {
+  fill: rgb(46, 0, 14);
+}
+.button-tonal:hover > a > svg > path {
+  fill: rgb(46, 0, 14);
 }
 .button-tonal:active {
   box-shadow: none;
@@ -876,6 +956,12 @@ ol li::marker {
 .button-tonal:active > a {
   background-color: rgba(229, 0, 69, 0.1);
   color: rgb(46, 0, 14);
+}
+.button-tonal:active > a > svg {
+  fill: rgb(46, 0, 14);
+}
+.button-tonal:active > a > svg > path {
+  fill: rgb(46, 0, 14);
 }
 
 .button-outline {
@@ -1007,12 +1093,11 @@ textarea {
   align-items: flex-start;
   justify-content: flex-end;
   flex-direction: column;
-  height: 32vh;
-  min-height: 360px;
+  height: 16vh;
 }
 @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .hero article {
-    height: 48vh;
+    height: 28vh;
   }
 }
 .hero article h1 {
@@ -1659,19 +1744,44 @@ footer .button > a {
   width: 100%;
   padding: 0px;
   align-items: center;
+  border-radius: 16px;
   font-weight: 400;
   color: rgb(0, 35, 46);
 }
+footer .button > a > svg {
+  fill: rgb(0, 35, 46);
+}
+footer .button > a > svg > path {
+  fill: rgb(0, 35, 46);
+}
 footer .button:link > a, footer .button:visited > a {
   color: rgb(0, 35, 46);
+}
+footer .button:link > a > svg, footer .button:visited > a > svg {
+  fill: rgb(0, 35, 46);
+}
+footer .button:link > a > svg > path, footer .button:visited > a > svg > path {
+  fill: rgb(0, 35, 46);
 }
 footer .button:hover > a {
   background-color: rgba(0, 177, 230, 0.08);
   color: rgb(0, 35, 46);
 }
+footer .button:hover > a > svg {
+  fill: rgb(0, 35, 46);
+}
+footer .button:hover > a > svg > path {
+  fill: rgb(0, 35, 46);
+}
 footer .button:active > a {
   background-color: rgba(0, 177, 230, 0.1);
   color: rgb(0, 35, 46);
+}
+footer .button:active > a > svg {
+  fill: rgb(0, 35, 46);
+}
+footer .button:active > a > svg > path {
+  fill: rgb(0, 35, 46);
 }
 footer > div {
   display: flex;
@@ -1817,6 +1927,9 @@ footer > div aside ul .button {
     height: 108px;
     width: 108px;
   }
+}
+footer > div aside ul .button > a {
+  border-radius: 100px;
 }
 @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   footer > div aside ul .button svg {

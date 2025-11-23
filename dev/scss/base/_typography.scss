@@ -99,6 +99,11 @@ h6 {
     line-height: rem-calc(24);
     letter-spacing: 0.12px;
     text-transform: capitalize;
+    @include lg{
+    font-size: rem-calc(24);
+
+    line-height: rem-calc(28);
+    }
 }
 
 // Body

@@ -4384,15 +4384,15 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/img\/index\/indexProjectOne.jpg" : {
-      "ft" : 16384,
-      "iS" : 619162,
-      "jF" : 0,
+    "\/deploy\/img\/index\/indexProjectOne.png" : {
+      "ft" : 32768,
+      "iS" : 937607,
       "oA" : 0,
-      "oAP" : "\/deploy\/img\/index\/indexProjectOne.jpg",
+      "oAP" : "\/deploy\/img\/index\/indexProjectOne.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9061,13 +9061,26 @@
     },
     "\/deploy\/imglg\/index\/indexProjectOne.jpg" : {
       "ft" : 16384,
-      "iS" : 4273886,
+      "iS" : 619162,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/imglg\/index\/indexProjectOne.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/indexProjectOne.png" : {
+      "ft" : 32768,
+      "iS" : 4350345,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/indexProjectOne.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75

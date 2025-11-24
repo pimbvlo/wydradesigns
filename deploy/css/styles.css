@@ -621,7 +621,7 @@ h2 {
 
 h3 {
   font-size: 1.5rem;
-  font-variation-settings: "slnt" 0, "wdth" 140, "wght" 500, "INKT" 100;
+  font-variation-settings: "slnt" 0, "wdth" 140, "wght" 550, "INKT" 100;
   line-height: 1.75rem;
   letter-spacing: 0.5px;
 }
@@ -2156,15 +2156,6 @@ footer > div aside > div h5 {
 /* =============
     Index Project
 ============= */
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .index-project {
-    background-image: url("../img/index/indexProjectOne.jpg");
-    height: 88vh;
-    background-size: cover;
-    background-position: center;
-    max-height: 1024px;
-  }
-}
 .index-project article {
   display: flex;
   flex-direction: column;
@@ -2173,9 +2164,8 @@ footer > div aside > div h5 {
 }
 @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .index-project article {
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 .index-project article img {
@@ -2187,14 +2177,8 @@ footer > div aside > div h5 {
 }
 @media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .index-project article img {
-    width: auto;
-    height: 32vw;
-    display: none;
-  }
-}
-@media (min-device-width: 1440px) {
-  .index-project article img {
-    height: 24vw;
+    width: 100%;
+    height: auto;
   }
 }
 .index-project article > div {
@@ -2207,10 +2191,10 @@ footer > div aside > div h5 {
     width: 50vw;
     min-width: 200px;
     max-width: 901px;
-    background-color: rgb(253, 253, 253);
-    border-radius: 62px;
-    padding: 36px;
   }
+}
+.index-project article > div h3 {
+  padding-bottom: 16px;
 }
 .index-project article > div ul {
   display: flex;
@@ -2226,77 +2210,19 @@ footer > div aside > div h5 {
   }
 }
 
+.index-project.inverse {
+  color: rgb(239, 239, 239);
+}
+.index-project.inverse .chip {
+  border: 1px solid rgb(204, 239, 250);
+  color: rgb(204, 239, 250);
+}
+
 /* =============
     Index Project One
 ============= */
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectOne {
-    background-image: url("../img/index/indexProjectOne.jpg");
-    height: 88vh;
-    background-size: cover;
-    background-position: center;
-    max-height: 1024px;
-  }
-}
-#indexProjectOne article {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: flex-end;
-}
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectOne article {
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: flex-start;
-  }
-}
-#indexProjectOne article img {
-  aspect-ratio: 4/3;
-  width: 100%;
-  height: auto;
-  background-image: none;
-  object-fit: cover;
-}
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectOne article img {
-    width: auto;
-    height: 32vw;
-    display: none;
-  }
-}
-@media (min-device-width: 1440px) {
-  #indexProjectOne article img {
-    height: 24vw;
-  }
-}
-#indexProjectOne article > div {
-  display: flex;
-  flex-direction: column;
-  padding: 0px;
-}
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectOne article > div {
-    width: 50vw;
-    min-width: 200px;
-    max-width: 901px;
-    background-color: rgb(253, 253, 253);
-    border-radius: 62px;
-    padding: 36px;
-  }
-}
-#indexProjectOne article > div ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-#indexProjectOne article > div .button {
-  align-self: initial;
-}
-@media (min-device-width: 504px) {
-  #indexProjectOne article > div .button {
-    align-self: flex-start;
-  }
+#indexProjectOne {
+  background-color: #00003A;
 }
 
 /* =============

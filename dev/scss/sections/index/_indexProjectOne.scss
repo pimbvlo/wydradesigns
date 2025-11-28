@@ -5,4 +5,84 @@
 
 #indexProjectOne {
     background-color: #00003A;
+    position: relative;
+    overflow: hidden;
+
+    article {
+        z-index: 1;
+
+        figure {
+            @include lg {
+                position: relative;
+            }
+
+            img {
+                @include lg {
+                    position: absolute;
+                    z-index: 0;
+                    transform: scale(3);
+                    bottom: -52vh;
+                    left: 14vw;
+                }
+
+                @include xl {
+                    transform: scale(2.5);
+                    bottom: -64vh;
+                    left: 7vw;
+                }
+            }
+        }
+
+        div {
+            z-index: 1;
+        }
+    }
+
+    >svg {
+        position: absolute;
+        z-index: 0;
+        transform: scale(0.3);
+        transform-origin: top left;
+        overflow: visible;
+
+        @include sm {
+            transform: scale(0.35);
+        }
+
+        @include md {
+            transform: scale(0.4);
+        }
+
+        #mdsCircle1 {
+            transform-origin: top left;
+            transform: translate(0vw, -10vh);
+
+        }
+
+        #mdsCircle2 {
+            transform-origin: top left;
+            transform: translate(0vw, 40vh);
+
+            @include lg {
+                transform: translate(220vw, -40vh);
+           }
+        }
+
+        #mdsCircle3 {
+            transform-origin: center left;
+            transform: translate(-120vw, 140vh);
+
+            @include sm {
+                transform: translate(-60vw, 80vh);
+            }
+
+            @include lg {
+                transform: translate(0vw, 70vh);
+            }
+
+            @include xl {
+                transform: translate(70vw, 70vh);
+            }
+        }
+    }
 }

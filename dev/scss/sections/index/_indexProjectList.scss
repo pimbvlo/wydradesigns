@@ -1,7 +1,7 @@
 /* =============
     Index Project List
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
 
 #indexProjectsList {
 
@@ -9,148 +9,103 @@
         display: flex;
         flex-direction: column;
 
-        #myBtnContainer {
+        >ul {
             display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-
-            .chip {
-                cursor: pointer;
-                transition: all 0.25s;
-
-                &:hover {
-                    background-color: rgba($primary, $state-hovered);
-                }
-            }
-
-
-        }
-
-        .filterDiv {
-            width: 100%;
             flex-direction: column;
-            gap: 20px;
-            padding: 32px 0px;
-            border-bottom: 2px solid $outline-variant;
-
-            &:first-of-type {
-                padding: 0px 0px 32px;
-            }
-
-            &:last-of-type {
-                border-bottom: none;
-                padding: 32px 0px 0px;
-            }
 
             @include md {
-                flex-direction: row;
-                align-items: flex-start;
-                justify-content: space-between;
-                // min-height: 176px;
-
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
             }
 
             @include lg {
-                // min-height: 160px;
-            }
-
-            @include xl {
-                // min-height: 120px;
-            }
-
-            h3 {
-                @include md {
-                    min-width: 24%;
-                    max-width: 24%;
-                    font-size: rem-calc(24);
-                    line-height: rem-calc(28);
-
-                }
-
-                @include lg {
-                    min-width: 24%;
-                    max-width: 24%;
-                    font-size: rem-calc(28);
-                    line-height: rem-calc(36);
-                }
-
-                @include xl {
-                    min-width: 24%;
-                    max-width: 24%;
-                }
-            }
-
-            >div {
                 display: flex;
                 flex-direction: column;
-                gap: 12px;
+            }
+
+            .filterDiv {
+                display: flex;
+                flex-direction: column;
+                border: 1px $outline-variant solid;
+                overflow: clip;
 
                 @include md {
-                    min-width: auto;
-                    max-width: 50%;
+                    height: 100%;
                 }
 
                 @include lg {
-                    max-width: 40%;
+                    display: grid;
+                    grid-template-columns: 32vw 1fr;
                 }
 
-                p {
-                    margin-top: -12px;
-                    min-height: 3lh;
+                img {
+                    aspect-ratio: 16 / 9;
+
+                    @include lg {
+                        aspect-ratio: auto;
+                        height: 100%;
+                    }
+                }
+
+                >div {
+                    display: grid;
+                    grid-template-columns: repeat(1, 1fr);
+                    grid-template-rows: 2lh 1fr 58px;
+                    align-self: stretch;
+                    height: stretch;
+
+                    @include lg {
+                        padding-left: 0px;
+                        grid-template-rows: auto auto 66px;
+                    }
+
+                    >div {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 12px;
+
+                        h3 {
+                            min-height: 3lh;
+                        }
+
+                        p {
+                            min-height: 3lh;
+                            margin-top: 12px;
+                            @include lg {
+                                margin-top: 0px;
+                            }
+                        }
+
+                        ul {
+                            display: flex;
+                            flex-wrap: wrap;
+                            gap: 8px;
+
+                            .chip {
+                                height: 32px;
+                                max-height: 32px;
+
+                            }
+                        }
+
+                    }
+
+                }
+
+                .button {
+                    align-self: initial;
+
+                    @include sm {
+                        align-self: flex-start;
+                    }
 
                     @include md {
-                        margin-top: 0px;
-                        min-height: 3lh;
-
+                        justify-self: flex-start;
                     }
+
                 }
-
-                ul {
-                    display: flex;
-                    flex-wrap: wrap;
-                    gap: 8px;
-
-                    .chip {
-                        height: 32px;
-                        max-height: 32px;
-
-                    }
-                }
-
             }
 
-            .button {
-                align-self: initial;
-
-                @include sm {
-                    align-self: flex-start;
-                }
-
-            }
-        }
-
-    }
-
-    .filterDiv {
-        display: none;
-    }
-
-    .show {
-        display: flex;
-    }
-
-    .chip {
-        >span {
-            display: none;
-        }
-    }
-
-    .chip.active {
-        background-color: $primary-container;
-        border: none;
-
-        >span {
-            display: block;
         }
 
     }

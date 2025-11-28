@@ -16,6 +16,11 @@
             }
         }
 
+        iframe:nth-of-type(2) {
+            aspect-ratio: 11 / 7;
+            height: auto;
+        }
+
         .carousel-image {
             li:first-of-type {
                 @include md {
@@ -25,7 +30,7 @@
             }
         }
 
-        ul:nth-child(14) {
+        ul:nth-child(15) {
             display: flex;
             flex-direction: column;
 

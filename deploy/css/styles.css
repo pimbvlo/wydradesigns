@@ -43,13 +43,13 @@ html {
   margin-right: 20px;
   margin-left: 20px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .bkpt-side-margin {
     margin-right: 40px;
     margin-left: 40px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .bkpt-side-margin {
     margin-right: 64px;
     margin-left: 64px;
@@ -59,7 +59,7 @@ html {
 .gap-h {
   column-gap: 24px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .gap-h {
     column-gap: 36px;
   }
@@ -68,7 +68,7 @@ html {
 .gap-v {
   row-gap: 24px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .gap-v {
     row-gap: 36px;
   }
@@ -78,7 +78,7 @@ html {
   padding-top: 24px;
   padding-bottom: 24px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .padding-tb {
     padding-top: 36px;
     padding-bottom: 36px;
@@ -89,7 +89,7 @@ html {
   padding-right: 24px;
   padding-left: 24px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .padding-lr {
     padding-right: 36px;
     padding-left: 36px;
@@ -101,17 +101,17 @@ html {
   grid-template-areas: ". content .";
   grid-template-columns: 20px auto 20px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .section-content {
     grid-template-columns: 40px auto 40px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .section-content {
     grid-template-columns: 64px auto 64px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   .section-content {
     grid-template-columns: 8vw auto 8vw;
   }
@@ -124,13 +124,13 @@ html {
   margin-top: 64px;
   margin-bottom: 64px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .section-margin {
     margin-top: 104px;
     margin-bottom: 104px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .section-margin {
     margin-top: 160px;
     margin-bottom: 160px;
@@ -141,13 +141,13 @@ html {
   padding-top: 64px;
   padding-bottom: 64px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .section-padding {
     padding-top: 104px;
     padding-bottom: 104px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .section-padding {
     padding-top: 160px;
     padding-bottom: 160px;
@@ -586,13 +586,13 @@ h1 {
   margin: 0;
   letter-spacing: 1px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   h1 {
     font-size: 5.5rem;
     line-height: 5.5rem;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   h1 {
     font-size: 8rem;
     line-height: 8rem;
@@ -606,13 +606,13 @@ h2 {
   letter-spacing: 1px;
   padding-bottom: 8px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   h2 {
     font-size: 3.25rem;
     line-height: 4rem;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   h2 {
     font-size: 4rem;
     line-height: 4.75rem;
@@ -625,13 +625,13 @@ h3 {
   line-height: 1.75rem;
   letter-spacing: 0.5px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   h3 {
     font-size: 1.75rem;
     line-height: 2.25rem;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   h3 {
     font-size: 2rem;
     line-height: 2.5rem;
@@ -659,7 +659,7 @@ h6 {
   letter-spacing: 0.12px;
   text-transform: capitalize;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   h6 {
     font-size: 1.5rem;
     line-height: 1.75rem;
@@ -674,7 +674,7 @@ p {
   hyphens: manual;
   text-wrap: pretty;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   p {
     font-size: 1.25rem;
     line-height: 2rem;
@@ -718,7 +718,7 @@ figcaption {
   text-align: center;
   opacity: 0.72;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   figcaption {
     font-size: 1rem;
     line-height: 1.25rem;
@@ -770,6 +770,7 @@ ol li::marker {
   border-radius: 40px;
   align-self: flex-start;
   transition: all 0.25s cubic-bezier(0.47, 0, 0.23, 1.38);
+  overflow: hidden;
 }
 .button > a {
   border-radius: 40px;
@@ -791,7 +792,7 @@ ol li::marker {
     text-edge: cap;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .button > a {
     align-items: center;
   }
@@ -805,7 +806,7 @@ ol li::marker {
   width: 32px;
   fill: rgb(229, 0, 69);
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .button > a > svg {
     height: 40px;
     width: 40px;
@@ -825,7 +826,7 @@ ol li::marker {
 .button:link > a > svg, .button:visited > a > svg {
   fill: rgb(229, 0, 69);
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .button:hover {
     transform: scale(1.08);
   }
@@ -1083,7 +1084,7 @@ textarea {
     background-size: 40px 40px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .hero {
     background-image: radial-gradient(rgb(171, 171, 171) 8%, transparent 0);
   }
@@ -1095,7 +1096,7 @@ textarea {
   flex-direction: column;
   height: 16vh;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .hero article {
     height: 28vh;
   }
@@ -1162,7 +1163,7 @@ textarea {
 .article-text article p {
   max-width: 80ch;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .article-text article p {
     width: 80%;
   }
@@ -1178,7 +1179,7 @@ textarea {
 .article-gallery article p {
   max-width: 80ch;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .article-gallery article p {
     width: 80%;
   }
@@ -1236,7 +1237,7 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .gallery-3-col {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1253,7 +1254,7 @@ textarea {
     align-items: center;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .gallery-4-col {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1264,12 +1265,12 @@ textarea {
 .color-palette-group {
   display: grid;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .color-palette-group {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .color-palette-group {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -1285,7 +1286,7 @@ textarea {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .color-palette-group .color-palette div {
     column-gap: 24px;
     row-gap: 24px;
@@ -1296,13 +1297,13 @@ textarea {
   width: 20vw;
   border-radius: 100px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .color-palette-group .color-palette div svg {
     height: 10vw;
     width: 10vw;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .color-palette-group .color-palette div svg {
     height: 5vw;
     width: 5vw;
@@ -1340,7 +1341,7 @@ textarea {
   line-height: unset;
   color: rgb(43, 43, 43);
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-typography {
     flex-direction: row;
     width: 80vw;
@@ -1354,7 +1355,7 @@ textarea {
   border-radius: 4px;
   height: auto;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-typography .case-study-typography-font-title {
     width: 140px;
   }
@@ -1370,7 +1371,7 @@ textarea {
   padding-top: 16px;
   color: rgb(43, 43, 43);
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-typography div {
     width: 100%;
   }
@@ -1395,7 +1396,7 @@ textarea {
   flex-direction: column;
   border-radius: 16px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-icons {
     width: fit-content;
     margin: 0px auto;
@@ -1422,12 +1423,12 @@ textarea {
   grid-template-columns: repeat(1, 1fr);
   grid-template-areas: "p" "i";
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-intro-image > div article {
     grid-gap: 24px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-intro-image > div article {
     grid-gap: 32px;
   }
@@ -1440,7 +1441,7 @@ textarea {
     width: 72%;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-intro-image > div article p {
     width: 50%;
   }
@@ -1457,12 +1458,12 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-intro-image > div article ul {
     grid-gap: 24px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-intro-image > div article ul {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 32px;
@@ -1475,12 +1476,12 @@ textarea {
   height: 240px;
   width: 100%;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-intro-image > div article ul li {
     height: 280px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-intro-image > div article ul li {
     height: 320px;
   }
@@ -1502,12 +1503,12 @@ textarea {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .case-study-gallery > div article ul {
     grid-gap: 24px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-gallery > div article ul {
     grid-gap: 32px;
   }
@@ -1554,7 +1555,7 @@ textarea {
 .carousel-image ul::-webkit-scrollbar {
   display: none;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .carousel-image ul {
     overflow: unset;
     width: 100%;
@@ -1580,7 +1581,7 @@ textarea {
     width: 70vw;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   .carousel-image ul figure img {
     width: 100%;
     border-radius: 8px;
@@ -1611,7 +1612,7 @@ textarea {
     aspect-ratio: 16/9;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #caseStudyPreFooter article .case-study-card img {
     border-radius: 16px;
   }
@@ -1638,7 +1639,7 @@ header > div > a {
   display: flex;
   align-items: center;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   header > div > a {
     margin-top: 8px;
   }
@@ -1647,7 +1648,7 @@ header > div > a > svg {
   height: 28px;
   width: auto;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   header > div > a > svg {
     height: 32px;
     width: auto;
@@ -1665,17 +1666,17 @@ header > div #burger-container {
   margin-right: -8px;
   cursor: pointer;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   header > div #burger-container {
     right: 40px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   header > div #burger-container {
     right: 64px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   header > div #burger-container {
     right: 12vw;
   }
@@ -1707,7 +1708,7 @@ header > div .sidenav a {
   display: block;
   transition: 0.25s;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   header > div .sidenav a {
     padding: 20px 40px 16px;
   }
@@ -1788,7 +1789,7 @@ footer > div {
   flex-direction: column;
   margin-top: 64px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   footer > div {
     display: grid;
     margin-top: 104px;
@@ -1797,12 +1798,12 @@ footer > div {
     grid-template-areas: "h h h" "e e n" "a a a";
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div {
     margin-top: 160px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto auto;
@@ -1833,12 +1834,12 @@ footer > div article .button {
     width: -webkit-fill-available;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   footer > div article .button {
     height: 100%;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div article .button:hover {
     transform: scale(1.04);
   }
@@ -1855,7 +1856,7 @@ footer > div nav .button {
   height: 8vh;
   width: 100%;
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div nav .button {
     height: 100%;
   }
@@ -1888,14 +1889,14 @@ footer > div aside {
     width: -webkit-fill-available;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   footer > div aside {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div aside {
     flex-direction: column;
   }
@@ -1905,7 +1906,7 @@ footer > div aside ul {
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div aside ul {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1916,13 +1917,13 @@ footer > div aside ul .button {
   border-radius: 100px;
   aspect-ratio: 1/1;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   footer > div aside ul .button {
     height: 86px;
     width: 86px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside ul .button {
     height: 108px;
     width: 108px;
@@ -1931,7 +1932,7 @@ footer > div aside ul .button {
 footer > div aside ul .button > a {
   border-radius: 100px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside ul .button svg {
     height: 2em;
   }
@@ -1976,12 +1977,12 @@ footer > div aside > div h5 {
     grid-template-areas: "b b .";
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #csFooter > div article {
     grid-gap: 24px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #csFooter > div article {
     grid-template-columns: repeat(5, 1fr);
     grid-template-areas: "b b . . .";
@@ -2009,7 +2010,7 @@ footer > div aside > div h5 {
   min-height: auto;
   justify-content: space-between;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexHero article {
     padding-top: 104px;
     padding-bottom: 104px;
@@ -2022,12 +2023,12 @@ footer > div aside > div h5 {
   width: 100%;
   font-size: 20vw;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexHero article h1 {
     font-size: 12vw;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #indexHero article h1 {
     font-size: 8vw;
   }
@@ -2039,18 +2040,18 @@ footer > div aside > div h5 {
   height: 8vh;
   align-content: flex-end;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #indexHero article h1 span {
     height: 16vh;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexHero article h1 span {
     height: 12vh;
     text-align: center;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #indexHero article h1 span {
     height: 4vh;
   }
@@ -2067,12 +2068,12 @@ footer > div aside > div h5 {
     width: 90vw;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #indexHero article img {
     max-width: 800px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #indexHero article img {
     max-width: 1024px;
   }
@@ -2087,18 +2088,18 @@ footer > div aside > div h5 {
     top: -8vw;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #indexHero article img:nth-of-type(1) {
     top: -4vw;
     left: -24vw;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexHero article img:nth-of-type(1) {
     top: -16vw;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #indexHero article img:nth-of-type(1) {
     left: -16vw;
   }
@@ -2107,13 +2108,13 @@ footer > div aside > div h5 {
   bottom: -8vw;
   right: -32vw;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #indexHero article img:nth-of-type(2) {
     bottom: -12vw;
     right: -24vw;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexHero article img:nth-of-type(2) {
     bottom: -4vw;
     right: -20vw;
@@ -2131,12 +2132,12 @@ footer > div aside > div h5 {
   border-radius: 32px;
   max-width: 600px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexIntro article {
     max-width: 680px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #indexIntro article {
     max-width: 840px;
   }
@@ -2162,10 +2163,16 @@ footer > div aside > div h5 {
   align-items: flex-start;
   justify-content: flex-end;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .index-project article {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (min-device-width: 1440px) and (orientation: landscape) {
+  .index-project article {
+    min-height: 600px;
+    height: 40vh;
   }
 }
 .index-project article img {
@@ -2175,37 +2182,47 @@ footer > div aside > div h5 {
   background-image: none;
   object-fit: cover;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   .index-project article img {
     width: 100%;
     height: auto;
   }
 }
-.index-project article > div {
+.index-project article div {
   display: flex;
   flex-direction: column;
   padding: 0px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  .index-project article > div {
-    width: 50vw;
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .index-project article div {
     min-width: 200px;
     max-width: 901px;
   }
 }
-.index-project article > div h3 {
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .index-project article div > div {
+    padding: 16px;
+  }
+}
+.index-project article div > div h3 {
   padding-bottom: 16px;
 }
-.index-project article > div ul {
+.index-project article div ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-.index-project article > div .button {
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .index-project article div ul,
+  .index-project article div h6 {
+    margin: 0px 16px;
+  }
+}
+.index-project article div .button {
   align-self: initial;
 }
 @media (min-device-width: 504px) {
-  .index-project article > div .button {
+  .index-project article div .button {
     align-self: flex-start;
   }
 }
@@ -2213,9 +2230,24 @@ footer > div aside > div h5 {
 .index-project.inverse {
   color: rgb(239, 239, 239);
 }
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .index-project.inverse div:nth-child(2) > div {
+    border-radius: 16px;
+    background-color: rgba(253, 253, 253, 0.001);
+    backdrop-filter: blur(10px);
+    color: rgb(239, 239, 239);
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  .index-project.inverse div:nth-child(2) ul,
+  .index-project.inverse div:nth-child(2) h6 {
+    margin: 0px 16px;
+  }
+}
 .index-project.inverse .chip {
-  border: 1px solid rgb(204, 239, 250);
-  color: rgb(204, 239, 250);
+  border: none;
+  color: rgb(0, 35, 46);
+  background-color: rgb(204, 239, 250);
 }
 
 /* =============
@@ -2223,6 +2255,84 @@ footer > div aside > div h5 {
 ============= */
 #indexProjectOne {
   background-color: #00003A;
+  position: relative;
+  overflow: hidden;
+}
+#indexProjectOne article {
+  z-index: 1;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectOne article figure {
+    position: relative;
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectOne article figure img {
+    position: absolute;
+    z-index: 0;
+    transform: scale(3);
+    bottom: -52vh;
+    left: 14vw;
+  }
+}
+@media (min-device-width: 1440px) and (orientation: landscape) {
+  #indexProjectOne article figure img {
+    transform: scale(2.5);
+    bottom: -64vh;
+    left: 7vw;
+  }
+}
+#indexProjectOne article div {
+  z-index: 1;
+}
+#indexProjectOne > svg {
+  position: absolute;
+  z-index: 0;
+  transform: scale(0.3);
+  transform-origin: top left;
+  overflow: visible;
+}
+@media (min-device-width: 504px) {
+  #indexProjectOne > svg {
+    transform: scale(0.35);
+  }
+}
+@media (min-device-width: 768px) {
+  #indexProjectOne > svg {
+    transform: scale(0.4);
+  }
+}
+#indexProjectOne > svg #mdsCircle1 {
+  transform-origin: top left;
+  transform: translate(0vw, -10vh);
+}
+#indexProjectOne > svg #mdsCircle2 {
+  transform-origin: top left;
+  transform: translate(0vw, 40vh);
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectOne > svg #mdsCircle2 {
+    transform: translate(220vw, -40vh);
+  }
+}
+#indexProjectOne > svg #mdsCircle3 {
+  transform-origin: center left;
+  transform: translate(-120vw, 140vh);
+}
+@media (min-device-width: 504px) {
+  #indexProjectOne > svg #mdsCircle3 {
+    transform: translate(-60vw, 80vh);
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectOne > svg #mdsCircle3 {
+    transform: translate(0vw, 70vh);
+  }
+}
+@media (min-device-width: 1440px) and (orientation: landscape) {
+  #indexProjectOne > svg #mdsCircle3 {
+    transform: translate(70vw, 70vh);
+  }
 }
 
 /* =============
@@ -2242,7 +2352,7 @@ footer > div aside > div h5 {
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexMarquee .marquee {
     padding: 24px 0 8px;
   }
@@ -2252,7 +2362,7 @@ footer > div aside > div h5 {
   line-height: 100%;
   font-variation-settings: "slnt" 0, "wdth" 0, "wght" 800, "INKT" 100;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #indexMarquee .marquee li {
     font-size: 4.25rem;
   }
@@ -2287,119 +2397,99 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-#indexProjectsList > article #myBtnContainer {
+#indexProjectsList > article > ul {
   display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-}
-#indexProjectsList > article #myBtnContainer .chip {
-  cursor: pointer;
-  transition: all 0.25s;
-}
-#indexProjectsList > article #myBtnContainer .chip:hover {
-  background-color: rgba(229, 0, 69, 0.08);
-}
-#indexProjectsList > article .filterDiv {
-  width: 100%;
   flex-direction: column;
-  gap: 20px;
-  padding: 32px 0px;
-  border-bottom: 2px solid rgb(171, 171, 171);
 }
-#indexProjectsList > article .filterDiv:first-of-type {
-  padding: 0px 0px 32px;
-}
-#indexProjectsList > article .filterDiv:last-of-type {
-  border-bottom: none;
-  padding: 32px 0px 0px;
-}
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  #indexProjectsList > article .filterDiv {
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-between;
+@media (min-device-width: 768px) {
+  #indexProjectsList > article > ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  #indexProjectsList > article .filterDiv h3 {
-    min-width: 24%;
-    max-width: 24%;
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectsList > article > ul {
+    display: flex;
+    flex-direction: column;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectsList > article .filterDiv h3 {
-    min-width: 24%;
-    max-width: 24%;
-    font-size: 1.75rem;
-    line-height: 2.25rem;
+#indexProjectsList > article > ul .filterDiv {
+  display: flex;
+  flex-direction: column;
+  border: 1px rgb(171, 171, 171) solid;
+  overflow: clip;
+}
+@media (min-device-width: 768px) {
+  #indexProjectsList > article > ul .filterDiv {
+    height: 100%;
   }
 }
-@media (min-device-width: 1440px) {
-  #indexProjectsList > article .filterDiv h3 {
-    min-width: 24%;
-    max-width: 24%;
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectsList > article > ul .filterDiv {
+    display: grid;
+    grid-template-columns: 32vw 1fr;
   }
 }
-#indexProjectsList > article .filterDiv > div {
+#indexProjectsList > article > ul .filterDiv img {
+  aspect-ratio: 16/9;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectsList > article > ul .filterDiv img {
+    aspect-ratio: auto;
+    height: 100%;
+  }
+}
+#indexProjectsList > article > ul .filterDiv > div {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 2lh 1fr 58px;
+  align-self: stretch;
+  height: stretch;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectsList > article > ul .filterDiv > div {
+    padding-left: 0px;
+    grid-template-rows: auto auto 66px;
+  }
+}
+#indexProjectsList > article > ul .filterDiv > div > div {
   display: flex;
   flex-direction: column;
   gap: 12px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  #indexProjectsList > article .filterDiv > div {
-    min-width: auto;
-    max-width: 50%;
-  }
-}
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
-  #indexProjectsList > article .filterDiv > div {
-    max-width: 40%;
-  }
-}
-#indexProjectsList > article .filterDiv > div p {
-  margin-top: -12px;
+#indexProjectsList > article > ul .filterDiv > div > div h3 {
   min-height: 3lh;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  #indexProjectsList > article .filterDiv > div p {
+#indexProjectsList > article > ul .filterDiv > div > div p {
+  min-height: 3lh;
+  margin-top: 12px;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectsList > article > ul .filterDiv > div > div p {
     margin-top: 0px;
-    min-height: 3lh;
   }
 }
-#indexProjectsList > article .filterDiv > div ul {
+#indexProjectsList > article > ul .filterDiv > div > div ul {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
 }
-#indexProjectsList > article .filterDiv > div ul .chip {
+#indexProjectsList > article > ul .filterDiv > div > div ul .chip {
   height: 32px;
   max-height: 32px;
 }
-#indexProjectsList > article .filterDiv .button {
+#indexProjectsList > article > ul .filterDiv .button {
   align-self: initial;
 }
 @media (min-device-width: 504px) {
-  #indexProjectsList > article .filterDiv .button {
+  #indexProjectsList > article > ul .filterDiv .button {
     align-self: flex-start;
   }
 }
-#indexProjectsList .filterDiv {
-  display: none;
-}
-#indexProjectsList .show {
-  display: flex;
-}
-#indexProjectsList .chip > span {
-  display: none;
-}
-#indexProjectsList .chip.active {
-  background-color: rgb(250, 204, 218);
-  border: none;
-}
-#indexProjectsList .chip.active > span {
-  display: block;
+@media (min-device-width: 768px) {
+  #indexProjectsList > article > ul .filterDiv .button {
+    justify-self: flex-start;
+  }
 }
 
 /* =============
@@ -2409,22 +2499,22 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #aboutWho > div {
     flex-direction: row;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #aboutWho > div aside {
     width: 80%;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #aboutWho > div aside {
     width: 32vw;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #aboutWho > div aside {
     width: 16vw;
   }
@@ -2441,7 +2531,7 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #resumeEducation > article {
     width: 75%;
   }
@@ -2459,7 +2549,7 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #resumeHonors > article {
     width: 75%;
   }
@@ -2475,7 +2565,7 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #resumeExperience article {
     width: 75%;
   }
@@ -2498,7 +2588,7 @@ footer > div aside > div h5 {
   border-left: 4px solid rgb(171, 171, 171);
   margin-left: 2px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #resumeExperience article div ul ul {
     padding-left: 16px;
     margin-left: 8px;
@@ -2512,7 +2602,7 @@ footer > div aside > div h5 {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #resumeSkills > article {
     width: 75%;
   }
@@ -2521,7 +2611,7 @@ footer > div aside > div h5 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #resumeSkills > article div {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -2562,17 +2652,17 @@ footer > div aside > div h5 {
   border: 1px solid rgb(171, 171, 171);
   max-width: 600px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #antiIntro article div {
     width: 72vw;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #antiIntro article div {
     width: 56vw;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #antiIntro article div {
     width: 48vw;
   }
@@ -2627,7 +2717,7 @@ footer > div aside > div h5 {
     background-position: center 80%;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #antiGallery article li:nth-child(6) {
     background-position: center 90%;
   }
@@ -2640,7 +2730,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/atd/atdHero.jpg");
   background-position: 64% top;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #atdHero {
     background-position: center top;
   }
@@ -2659,12 +2749,12 @@ footer > div aside > div h5 {
     width: 72%;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #atdIntro > div article {
     width: 50%;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #atdIntro > div article p {
     font-size: 1.25rem;
   }
@@ -2746,14 +2836,14 @@ footer > div aside > div h5 {
     grid-template-columns: repeat(5, 1fr);
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #atdIconography article div:nth-child(2) ul {
     grid-gap: 24px;
     grid-template-areas: ". halftone halftone . square dotted-circle dotted-circle two-zig-zag-uneven two-zig-zag-uneven" "lines halftone halftone outline-triangle . dotted-circle dotted-circle dotted-square .";
     grid-template-columns: repeat(9, 1fr);
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #atdIconography article div:nth-child(2) ul {
     grid-gap: 32px;
   }
@@ -2849,7 +2939,7 @@ footer > div aside > div h5 {
   justify-content: flex-start;
   align-items: flex-start;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #atdLogo div p {
     width: 100%;
     max-width: 100%;
@@ -2896,12 +2986,12 @@ footer > div aside > div h5 {
     grid-template-rows: 600px auto 400px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #clGallery > div article ul {
     grid-template-rows: 800px auto 504px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #clGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "paragraph1 paragraph1 paragraph1 CP CP CP CP" "CPM CPM CPM CPM CPM . .";
@@ -2969,22 +3059,22 @@ footer > div aside > div h5 {
 #icmText1 > div article p {
   margin: 0px 0px 48px 0px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #icmText1 > div article p {
     margin: 0px 0px 56px 0px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #icmText1 > div article p {
     margin: 0px 0px 64px 0px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #icmText1 > div article p {
     margin: 0px 0px 80px 0px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #icmText1 > div article ul {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -3040,19 +3130,19 @@ footer > div aside > div h5 {
     grid-template-rows: 504px auto 200px 264px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #icmGallery > div article ul {
     grid-template-rows: 680px auto 304px 400px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #icmGallery > div article ul {
     grid-template-areas: "ISM ISM ISM ISM ISM ISM ISM" "IBP IBP . paragraph1 paragraph1 paragraph1 paragraph1" "IPL IPL IPL IPL IPL IPL IPL";
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: 744px auto 640px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #icmGallery > div article ul {
     grid-template-rows: 800px auto 704px;
   }
@@ -3071,7 +3161,7 @@ footer > div aside > div h5 {
     background-size: cover;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #icmGallery > div article ul li:nth-child(2) {
     background-size: auto 200%;
   }
@@ -3098,7 +3188,7 @@ footer > div aside > div h5 {
 #mdsHero article h1 {
   hyphens: manual;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mdsHero article h1 {
     hyphens: none;
   }
@@ -3110,22 +3200,26 @@ footer > div aside > div h5 {
 #mdsProcess article iframe:nth-of-type(1) {
   height: auto;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mdsProcess article iframe:nth-of-type(1) {
     height: 16vw;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mdsProcess article iframe:nth-of-type(1) {
     height: 15vw;
   }
 }
-#mdsProcess article ul:nth-child(14) {
+#mdsProcess article iframe:nth-of-type(2) {
+  aspect-ratio: 11/7;
+  height: auto;
+}
+#mdsProcess article ul:nth-child(15) {
   display: flex;
   flex-direction: column;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-  #mdsProcess article ul:nth-child(14) {
+@media (min-device-width: 768px) {
+  #mdsProcess article ul:nth-child(15) {
     flex-direction: row;
     align-items: baseline;
   }
@@ -3156,20 +3250,20 @@ footer > div aside > div h5 {
     grid-template-rows: 600px auto 200px 264px 80px 200px 264px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul {
     grid-template-areas: "MMTLD MMTLD MMTLD" "paragraph1 paragraph1 ." "MSOne MSOne MSThree" "MMBT MMBT MMBT" "MTHO MTHO ." "MSTwo MSTwo MSTwo";
     grid-template-rows: 400px auto 320px 600px 400px 400px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mGallery > div article ul {
     grid-template-areas: "MMTLD MMTLD MMTLD paragraph1 paragraph1 paragraph1 paragraph1" "MSOne MSOne MSOne MSOne MSOne MSThree MSThree" "MTHO MTHO MMBT MMBT MMBT MMBT MMBT" "MSTwo MSTwo MSTwo MSTwo MSTwo MSTwo .";
     grid-template-columns: repeat(7, 1fr);
     grid-template-rows: auto 264px 416px 440px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #mGallery > div article ul {
     grid-template-rows: 280px 344px 560px 480px;
   }
@@ -3180,7 +3274,7 @@ footer > div aside > div h5 {
   background-size: auto 104%;
   background-position: center top;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul li:nth-child(1) {
     display: none;
   }
@@ -3189,7 +3283,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/m/mMobileTiltLeftDown.png");
   display: none;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul li:nth-child(2) {
     display: initial;
     background-size: auto 110%;
@@ -3197,7 +3291,7 @@ footer > div aside > div h5 {
     grid-area: MMTLD;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mGallery > div article ul li:nth-child(2) {
     background-size: 110% auto;
   }
@@ -3206,7 +3300,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/m/mMacBookTilt.png");
   display: none;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul li:nth-child(3) {
     grid-area: MMBT;
     background-size: contain;
@@ -3224,7 +3318,7 @@ footer > div aside > div h5 {
     background-size: auto 448px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mGallery > div article ul li:nth-child(4) {
     background-size: auto 344px;
   }
@@ -3234,7 +3328,7 @@ footer > div aside > div h5 {
   grid-area: MMBHO;
   background-size: contain;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul li:nth-child(5) {
     display: none;
   }
@@ -3249,7 +3343,7 @@ footer > div aside > div h5 {
     background-position: right center;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #mGallery > div article ul li:nth-child(6) {
     background-position: center top;
   }
@@ -3262,7 +3356,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/m/mScreenshot3.png");
   grid-area: MSThree;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #mGallery > div article ul li:nth-child(8) {
     background-position: 80% center;
   }
@@ -3296,12 +3390,12 @@ footer > div aside > div h5 {
     grid-template-rows: 400px auto 600px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #onGallery > div article ul {
     grid-template-rows: 504px auto 680px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #onGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "paragraph1 paragraph1 paragraph1 OP OP OP OP" ". . . OP OP OP OP" "OPM OPM OPM OPM OPM . .";
@@ -3338,7 +3432,7 @@ footer > div aside > div h5 {
 #qvText1 > div article p {
   margin: 0px 0px 40px 0px;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #qvText1 > div article p {
     margin: 0px 0px 56px 0px;
   }
@@ -3361,7 +3455,7 @@ footer > div aside > div h5 {
     grid-column: span 2;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #qvText1 > div article ul li:nth-child(3) {
     grid-column: span 1;
   }
@@ -3381,13 +3475,13 @@ footer > div aside > div h5 {
     grid-template-rows: 224px 104px 160px auto 400px 200px 400px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #qvGallery > div article ul {
     grid-template-areas: "BO1 BO2 BO2" "BO1 BD3 BD3" ". BD3 BD3" "paragraph paragraph ." "BI1 BI1 BD4" "BI1 BI1 ." "BI2 BI2 BI2";
     grid-template-rows: 280px 104px 120px auto 200px 304px 600px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #qvGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "BO1 BO1 . BO2 BO2 BO2 BO2" "BO1 BO1 . . paragraph paragraph paragraph" "BD3 BD3 BD3 BD3 paragraph paragraph paragraph" "BI2 BI2 BI2 BI2 BI2 . ." "BI2 BI2 BI2 BI2 BI2 BD4 BD4";
@@ -3398,7 +3492,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/qv/qvBrochureOutside2.jpg");
   grid-area: BO2;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #qvGallery > div article ul li:nth-child(1) {
     background-position: center bottom;
   }
@@ -3416,7 +3510,7 @@ footer > div aside > div h5 {
   background-image: url("../img/case-studies/qv/qvBrochureInside1.jpg");
   grid-area: BI1;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #qvGallery > div article ul li:nth-child(4) {
     background-position: center 56%;
   }
@@ -3426,7 +3520,7 @@ footer > div aside > div h5 {
   grid-area: BD4;
   background-position: left top;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #qvGallery > div article ul li:nth-child(5) {
     background-position: 30% top;
   }
@@ -3448,7 +3542,7 @@ footer > div aside > div h5 {
 #saHero {
   background-image: url("../img/case-studies/sa/saHero.jpg");
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #saHero {
     background-position: center 80%;
   }
@@ -3492,14 +3586,14 @@ footer > div aside > div h5 {
     width: 320px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #saText1 > div article div figure {
     height: 336px;
     left: 400;
     width: 504px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #saText1 > div article div figure {
     height: 504px;
     left: 504;
@@ -3507,7 +3601,7 @@ footer > div aside > div h5 {
     top: -152px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #saText1 > div article div figure {
     height: 520px;
     width: 640px;
@@ -3528,12 +3622,12 @@ footer > div aside > div h5 {
     grid-template-rows: 224px auto 400px 224px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #saGallery > div article ul {
     grid-template-rows: 304px auto 504px 304px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #saGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "C1 C1 C1 ToC ToC ToC ToC" "C1 C1 C1 paragraph paragraph paragraph paragraph" ". . MS MS MS MS MS" "ISb1 ISb1 ISb1 ISb1 IS2 IS2 IS2";
@@ -3602,7 +3696,7 @@ footer > div aside > div h5 {
 #slcHero article h1 {
   hyphens: manual;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #slcHero article h1 {
     hyphens: none;
   }
@@ -3611,12 +3705,12 @@ footer > div aside > div h5 {
 /* =============
     TARGET Prototyping
 ============= */
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #slcPrototyping .gallery-3-col img {
     height: 216px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #slcPrototyping .gallery-3-col img {
     height: 304px;
   }
@@ -3722,7 +3816,7 @@ footer > div aside > div h5 {
     grid-template-rows: auto auto 80px 80px 184px 80px 80px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #soaGallery > div article ul {
     grid-template-areas: "v v v v v v v" ". paragraph1 paragraph1 paragraph1 paragraph1 . ." "ST1 ST3 ST3 ST5 ST5 ST6 ." "ST2 ST2 ST4 ST5 ST5 . ST7";
     grid-template-columns: repeat(7, 1fr);
@@ -3795,12 +3889,12 @@ footer > div aside > div h5 {
     grid-template-rows: 304px 304px auto 800px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #sbGallery > div article ul {
     grid-template-rows: 400px 400px auto 800px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #sbGallery > div article ul {
     grid-template-areas: "SP1 SP1 SP1 . SP2 SP2 SP2" "paragraph1 paragraph1 paragraph1 paragraph1 paragraph1 . ." "SPZ1 SPZ1 SPZ2 SPZ2 SPZ2 SPZ2 SPZ2" ". . . SBPM SBPM SBPM SBPM";
     grid-template-columns: repeat(7, 1fr);
@@ -3829,12 +3923,12 @@ footer > div aside > div h5 {
   background-size: auto 300%;
   grid-area: SPZ2;
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #sbGallery > div article ul li:nth-child(4) {
     background-size: auto 400%;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #sbGallery > div article ul li:nth-child(4) {
     background-size: auto 480%;
   }
@@ -4068,7 +4162,7 @@ footer > div aside > div h5 {
     grid-template-areas: ". Codepen Codepen" "paragraph paragraph .";
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #triumphGallery > div article ul {
     grid-template-areas: "Codepen Codepen Codepen paragraph paragraph paragraph paragraph";
     grid-template-columns: repeat(7, 1fr);
@@ -4107,12 +4201,12 @@ footer > div aside > div h5 {
     grid-template-rows: 304px auto 200px 304px auto 328px 400px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #tolGallery > div article ul {
     grid-template-rows: 312px auto 304px 440px auto 400px 504px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #tolGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "TIM TIM TIM TIM TIM . ." "TCS TCS . paragraph1 paragraph1 paragraph1 paragraph1" "TCS TCS . . TS TS TS" "TTM TTM TTM TTM TS TS TS" "TTM TTM TTM TTM . . ." ". paragraph2 paragraph2 paragraph2 paragraph2 . ." ". . TI TI TI TI TI" "TOB TOB TOB TOB . . .";
@@ -4179,12 +4273,12 @@ footer > div aside > div h5 {
     grid-template-rows: 600px auto 504px;
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #unGallery > div article ul {
     grid-template-rows: 800px auto 600px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #unGallery > div article ul {
     grid-template-columns: repeat(7, 1fr);
     grid-template-areas: "paragraph1 paragraph1 paragraph1 UPF UPF UPF UPF" "UPH UPH UPH . . . .";
@@ -4240,12 +4334,12 @@ footer > div aside > div h5 {
     grid-template-columns: repeat(3, 1fr);
   }
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #FourOhFourMain > div article {
     grid-gap: 24px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #FourOhFourMain > div article {
     grid-gap: 0px 32px;
     grid-template-areas: "h1 h1 h1 h1 h1" "p p . . ." "btn btn . . .";
@@ -4263,17 +4357,17 @@ footer > div aside > div h5 {
   grid-area: btn;
   margin: 64px 0px 0px 0px;
 }
-@media (min-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-device-width: 768px) {
   #FourOhFourMain > div article div {
     margin: 72px 0px 0px 0px;
   }
 }
-@media (min-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   #FourOhFourMain > div article div {
     margin: 80px 0px 0px 0px;
   }
 }
-@media (min-device-width: 1440px) {
+@media (min-device-width: 1440px) and (orientation: landscape) {
   #FourOhFourMain > div article div {
     margin: 96px 0px 0px 0px;
   }

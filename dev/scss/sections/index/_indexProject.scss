@@ -14,8 +14,9 @@
             display: grid;
             grid-template-columns: 50% 50%;
         }
-        @include xl{
-            min-height: 600px;
+
+        @include xl {
+            min-height: 500px;
             height: 40vh;
         }
 
@@ -42,7 +43,6 @@
                 // width: 50vw;
                 min-width: 200px;
                 max-width: 901px;
-
             }
 
             >div {
@@ -97,20 +97,11 @@
                 color: $on-inverse-surface;
             }
         }
-
-        ul,
-        h6 {
-            @include lg {
-                margin: 0px 16px;
-            }
-
-        }
     }
 
     .chip {
         border: none;
         color: $on-secondary-container;
         background-color: $secondary-container;
-
     }
 }

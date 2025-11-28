@@ -197,7 +197,7 @@ html {
  * Remove the margin in all browsers.
  */
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(251, 251, 251);
   color: rgb(43, 43, 43);
   font-family: "area-variable", sans-serif;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 400, "INKT" 100;
@@ -1107,7 +1107,7 @@ textarea {
 
 .inset-page.hero {
   background-position: bottom center;
-  background-image: linear-gradient(rgb(171, 171, 171) 1px, transparent 1px), linear-gradient(to right, rgb(171, 171, 171) 1px, rgb(253, 253, 253) 1px);
+  background-image: linear-gradient(rgb(171, 171, 171) 1px, transparent 1px), linear-gradient(to right, rgb(171, 171, 171) 1px, rgb(251, 251, 251) 1px);
   background-size: 24px 24px;
   border-top: 1px solid rgb(171, 171, 171);
   border-bottom: 1px solid rgb(171, 171, 171);
@@ -1417,76 +1417,6 @@ textarea {
   overflow: visible;
 }
 
-.case-study-intro-image > div article {
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-areas: "p" "i";
-}
-@media (min-device-width: 768px) {
-  .case-study-intro-image > div article {
-    grid-gap: 24px;
-  }
-}
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  .case-study-intro-image > div article {
-    grid-gap: 32px;
-  }
-}
-.case-study-intro-image > div article p {
-  grid-area: "p";
-}
-@media (min-device-width: 504px) {
-  .case-study-intro-image > div article p {
-    width: 72%;
-  }
-}
-@media (min-device-width: 768px) {
-  .case-study-intro-image > div article p {
-    width: 50%;
-  }
-}
-.case-study-intro-image > div article ul {
-  grid-area: "i";
-  grid-gap: 16px;
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  width: 100%;
-}
-@media (min-device-width: 504px) {
-  .case-study-intro-image > div article ul {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-device-width: 768px) {
-  .case-study-intro-image > div article ul {
-    grid-gap: 24px;
-  }
-}
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  .case-study-intro-image > div article ul {
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 32px;
-  }
-}
-.case-study-intro-image > div article ul li {
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 240px;
-  width: 100%;
-}
-@media (min-device-width: 768px) {
-  .case-study-intro-image > div article ul li {
-    height: 280px;
-  }
-}
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  .case-study-intro-image > div article ul li {
-    height: 320px;
-  }
-}
-
 .case-study-gallery > div article {
   grid-gap: 16px;
   display: grid;
@@ -1624,7 +1554,7 @@ textarea {
 header {
   position: fixed;
   height: 80px;
-  background-color: white;
+  background-color: #fbfbfb;
   width: 100%;
   z-index: 5000;
 }
@@ -1692,13 +1622,12 @@ header > div .sidenav {
   z-index: 10000;
   top: 0;
   right: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(251, 251, 251);
   overflow-x: hidden;
   padding-top: 80px;
   transition: all 0.5s;
   display: flex;
   flex-direction: column;
-  gap: 20px;
 }
 header > div .sidenav a {
   padding: 20px 20px 16px;
@@ -1711,6 +1640,12 @@ header > div .sidenav a {
 @media (min-device-width: 768px) {
   header > div .sidenav a {
     padding: 20px 40px 16px;
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  header > div .sidenav a {
+    padding: 32px 40px 20px;
+    font-size: 32px;
   }
 }
 header > div .sidenav a:hover {
@@ -2171,7 +2106,7 @@ footer > div aside > div h5 {
 }
 @media (min-device-width: 1440px) and (orientation: landscape) {
   .index-project article {
-    min-height: 600px;
+    min-height: 500px;
     height: 40vh;
   }
 }
@@ -2236,12 +2171,6 @@ footer > div aside > div h5 {
     background-color: rgba(253, 253, 253, 0.001);
     backdrop-filter: blur(10px);
     color: rgb(239, 239, 239);
-  }
-}
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  .index-project.inverse div:nth-child(2) ul,
-  .index-project.inverse div:nth-child(2) h6 {
-    margin: 0px 16px;
   }
 }
 .index-project.inverse .chip {
@@ -2416,8 +2345,8 @@ footer > div aside > div h5 {
 #indexProjectsList > article > ul .filterDiv {
   display: flex;
   flex-direction: column;
-  border: 1px rgb(171, 171, 171) solid;
   overflow: clip;
+  background-color: rgb(253, 253, 253);
 }
 @media (min-device-width: 768px) {
   #indexProjectsList > article > ul .filterDiv {
@@ -2428,6 +2357,7 @@ footer > div aside > div h5 {
   #indexProjectsList > article > ul .filterDiv {
     display: grid;
     grid-template-columns: 32vw 1fr;
+    min-height: 472px;
   }
 }
 #indexProjectsList > article > ul .filterDiv img {
@@ -2442,7 +2372,7 @@ footer > div aside > div h5 {
 #indexProjectsList > article > ul .filterDiv > div {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 2lh 1fr 58px;
+  grid-template-rows: auto 1fr 58px;
   align-self: stretch;
   height: stretch;
 }
@@ -2460,11 +2390,16 @@ footer > div aside > div h5 {
 #indexProjectsList > article > ul .filterDiv > div > div h3 {
   min-height: 3lh;
 }
+@media (min-device-width: 768px) {
+  #indexProjectsList > article > ul .filterDiv > div > div h3 {
+    min-height: 3lh;
+  }
+}
 #indexProjectsList > article > ul .filterDiv > div > div p {
   min-height: 3lh;
   margin-top: 12px;
 }
-@media (min-device-width: 1024px) and (orientation: landscape) {
+@media (min-device-width: 768px) {
   #indexProjectsList > article > ul .filterDiv > div > div p {
     margin-top: 0px;
   }

@@ -1,13 +1,13 @@
 /* =============
     Header
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
 
 header {
     position: fixed;
     $header-height: 80px;
     height: $header-height;
-    background-color: rgba($white, 1);
+    background-color: rgba($background, 1);
     width: 100%;
     z-index: 5000;
 
@@ -80,13 +80,13 @@ header {
             z-index: 10000;
             top: 0;
             right: 0;
-            background-color: $white;   
+            background-color: $background;
             overflow-x: hidden;
             padding-top: 80px;
             transition: all 0.5s;
             display: flex;
             flex-direction: column;
-            gap: 20px;
+            // gap: 20px;
 
             a {
                 padding: 20px 20px 16px;
@@ -98,6 +98,11 @@ header {
 
                 @include md {
                     padding: 20px 40px 16px;
+                }
+
+                @include lg {
+                    padding: 32px 40px 20px;
+                    font-size: 32px;
                 }
 
                 &:hover {

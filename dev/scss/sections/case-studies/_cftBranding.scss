@@ -1,0 +1,53 @@
+/* =============
+    CARDS FOR TODAY Gallery
+============= */
+@use '../../abstracts'as *;
+
+#cftBranding {
+    article {
+        img {
+            object-fit: contain;
+        }
+
+        .color-palette {
+            div {
+                svg:nth-of-type(1) {
+                    box-shadow: inset 0px 0px 0px 1px rgba($outline, 0.2);
+
+                    circle {
+                        fill: white;
+                    }
+                }
+
+                svg:nth-of-type(2) {
+
+                    circle {
+                        fill: black;
+                    }
+                }
+
+                svg:nth-of-type(3) {
+
+                    circle {
+                        fill: #990000;
+                    }
+                }
+            }
+
+        }
+
+        .gallery-2-col {
+            figure:nth-child(1) {
+                img {
+                    background-color: $black;
+                }
+            }
+
+            figure:nth-child(2) {
+                img {
+                    background-color: $white;
+                }
+            }
+        }
+    }
+}

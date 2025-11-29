@@ -1281,6 +1281,7 @@ textarea {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0px 4px 0px 4px rgba(0, 0, 0, 0.08), 0px 2px 0px 0px rgba(0, 0, 0, 0.24);
 }
 .color-palette-group .color-palette div {
   display: grid;
@@ -1340,6 +1341,7 @@ textarea {
   font-size: 1.125rem;
   line-height: unset;
   color: rgb(43, 43, 43);
+  box-shadow: 0px 6px 0px 6px rgba(0, 0, 0, 0.08), 0px 4px 0px 0px rgba(0, 0, 0, 0.24);
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   .case-study-typography {
@@ -1354,6 +1356,7 @@ textarea {
   background-color: rgb(255, 255, 255);
   border-radius: 4px;
   height: auto;
+  box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 0px 0px rgba(0, 0, 0, 0.24);
 }
 @media (min-device-width: 768px) {
   .case-study-typography .case-study-typography-font-title {
@@ -1367,7 +1370,7 @@ textarea {
 }
 .case-study-typography .case-study-typography-font-title li:nth-child(2) {
   margin-top: 20px;
-  border-top: 1px solid rgb(128, 128, 128);
+  border-top: 1px solid rgb(171, 171, 171);
   padding-top: 16px;
   color: rgb(43, 43, 43);
 }
@@ -1461,10 +1464,6 @@ textarea {
   top: 80px;
   bottom: auto;
   z-index: 5000;
-}
-
-.pin-spacer {
-  height: 8px;
 }
 
 .carousel-image {
@@ -2101,7 +2100,7 @@ footer > div aside > div h5 {
 @media (min-device-width: 1024px) and (orientation: landscape) {
   .index-project article {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media (min-device-width: 1440px) and (orientation: landscape) {
@@ -2119,7 +2118,6 @@ footer > div aside > div h5 {
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   .index-project article img {
-    width: 100%;
     height: auto;
   }
 }
@@ -2262,6 +2260,62 @@ footer > div aside > div h5 {
   #indexProjectOne > svg #mdsCircle3 {
     transform: translate(70vw, 70vh);
   }
+}
+
+/* =============
+    Index Project Two
+============= */
+#indexProjectTwo {
+  background-color: rgb(0, 0, 0);
+}
+#indexProjectTwo #cftLogo {
+  height: 40vh;
+  align-self: center;
+  margin-bottom: 24px;
+  transform-origin: 50% 50%;
+  overflow: visible;
+}
+@media (min-device-width: 768px) {
+  #indexProjectTwo #cftLogo {
+    transform-origin: center left;
+    margin: 0px;
+    align-self: center;
+    justify-self: center;
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectTwo #cftLogo {
+    height: 50vh;
+  }
+}
+#indexProjectTwo #cftLogo .cls-1,
+#indexProjectTwo #cftLogo .cls-2 {
+  fill: #900;
+}
+#indexProjectTwo #cftLogo .cls-3 {
+  stroke-width: 1.81px;
+}
+#indexProjectTwo #cftLogo .cls-3,
+#indexProjectTwo #cftLogo .cls-4,
+#indexProjectTwo #cftLogo .cls-5 {
+  fill: #fff;
+}
+#indexProjectTwo #cftLogo .cls-3,
+#indexProjectTwo #cftLogo .cls-5 {
+  stroke: #fff;
+}
+#indexProjectTwo #cftLogo .cls-5 {
+  stroke-width: 0.86px;
+}
+#indexProjectTwo #cftLogo .cls-2,
+#indexProjectTwo #cftLogo .cls-5 {
+  fill-rule: evenodd;
+}
+#indexProjectTwo #cftLogo #cftLogoInsert {
+  transform-origin: 50% 50%;
+}
+#indexProjectTwo #cftLogo #cftLogoSymbolCircle {
+  transform-origin: 50% 50%;
 }
 
 /* =============
@@ -2899,6 +2953,46 @@ footer > div aside > div h5 {
 /* =============
     BK Gallery
 ============= */
+/* =============
+    CARDS FOR TODAY Hero
+============= */
+#cftHero {
+  background-image: url("../img/case-studies/cft/cftHero.jpg");
+}
+#cftHero article h1 {
+  hyphens: manual;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #cftHero article h1 {
+    hyphens: none;
+  }
+}
+
+/* =============
+    CARDS FOR TODAY Gallery
+============= */
+#cftBranding article img {
+  object-fit: contain;
+}
+#cftBranding article .color-palette div svg:nth-of-type(1) {
+  box-shadow: inset 0px 0px 0px 1px rgba(128, 128, 128, 0.2);
+}
+#cftBranding article .color-palette div svg:nth-of-type(1) circle {
+  fill: white;
+}
+#cftBranding article .color-palette div svg:nth-of-type(2) circle {
+  fill: black;
+}
+#cftBranding article .color-palette div svg:nth-of-type(3) circle {
+  fill: #990000;
+}
+#cftBranding article .gallery-2-col figure:nth-child(1) img {
+  background-color: rgb(0, 0, 0);
+}
+#cftBranding article .gallery-2-col figure:nth-child(2) img {
+  background-color: rgb(255, 255, 255);
+}
+
 /* =============
     CL Hero
 ============= */

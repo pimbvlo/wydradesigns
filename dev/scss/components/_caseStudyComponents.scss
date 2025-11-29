@@ -1,7 +1,7 @@
 /* =============
     Case Study Components
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
 
 .article-text {
     article {
@@ -155,10 +155,11 @@
 
     .color-palette {
         background-color: $white;
-        border-radius: 16px;
+        border-radius: $radius-md;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        box-shadow: $elevation-4;
 
         div {
             display: grid;
@@ -244,6 +245,7 @@
     font-size: rem-calc(18);
     line-height: unset;
     color: $on-background;
+    box-shadow: $elevation-5;
 
     @include lg {
         flex-direction: row;
@@ -257,6 +259,8 @@
         background-color: $white;
         border-radius: 4px;
         height: auto;
+        box-shadow: $elevation-1;
+
 
         @include md {
             width: 140px;
@@ -270,7 +274,7 @@
 
         li:nth-child(2) {
             margin-top: 20px;
-            border-top: 1px solid $outline;
+            border-top: 1px solid $outline-variant;
             padding-top: 16px;
             color: $on-surface-variant;
         }
@@ -382,10 +386,6 @@
     top: 80px;
     bottom: auto;
     z-index: 5000;
-}
-
-.pin-spacer {
-    height: 8px;
 }
 
 .carousel-image {

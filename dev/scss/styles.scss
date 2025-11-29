@@ -6,7 +6,7 @@
 @use "abstracts/_radiusVariables";
 @use "abstracts/_colorVariables";
 @use "abstracts/_paddingVariables";
-@use "abstracts/_elevationStyles";
+@use "abstracts/_elevationVariables";
 
 
 // Base Styles
@@ -35,6 +35,7 @@
 @use "sections/index/_indexIntro";
 @use "sections/index/_indexProject";
 @use "sections/index/_indexProjectOne";
+@use "sections/index/_indexProjectTwo";
 @use "sections/index/_indexMarquee";
 @use "sections/index/_indexProjectList";
 
@@ -65,6 +66,10 @@
 // BARBARA KASTEN
 @use "sections/case-studies/_bkHero";
 @use "sections/case-studies/_bkGallery";
+
+// CARDS FOR TODAY
+@use "sections/case-studies/_cftHero";
+@use "sections/case-studies/_cftBranding";
 
 // CLARENDON
 @use "sections/case-studies/_clHero";

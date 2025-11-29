@@ -7,9 +7,8 @@ gsap.registerPlugin(ScrollTrigger)
 
 // @codekit-prepend "navigation.js";
 
-// @codekit-prepend "index-marquee.js";
 // @codekit-prepend "index-intro.js";
-// @codekit-prepend "index-projectlist.js";
+// @codekit-prepend "index-marquee.js";
 
 // @codekit-prepend "components/case-study-pre-footer.js";
 // @codekit-prepend "components/case-study-progress.js";

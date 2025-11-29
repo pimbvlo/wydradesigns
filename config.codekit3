@@ -73,6 +73,14 @@
       "oAP" : "\/deploy\/Bluelines.html",
       "oF" : 0
     },
+    "\/deploy\/CardsForToday.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/CardsForToday.html",
+      "oF" : 0
+    },
     "\/deploy\/Clarendon.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1117,6 +1125,147 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftBanner.jpg" : {
+      "ft" : 16384,
+      "iS" : 95539,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftBanner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftGallery1.jpg" : {
+      "ft" : 16384,
+      "iS" : 180888,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftGallery1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftGallery2.png" : {
+      "ft" : 32768,
+      "iS" : 131326,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftGallery2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftGallery3.jpg" : {
+      "ft" : 16384,
+      "iS" : 69244,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftGallery3.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 211648,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftLogoOption1.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftLogoOption1.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftLogoOption2.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftLogoOption2.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftLogoOption3.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftLogoOption3.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftLogoOption4.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftLogoOption4.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftSocial1.png" : {
+      "ft" : 32768,
+      "iS" : 20289,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftSocial1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/cftSocial2.png" : {
+      "ft" : 32768,
+      "iS" : 20236,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/cftSocial2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/cft\/CFTSocialBlack.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/case-studies\/cft\/CFTSocialBlack.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/deploy\/img\/case-studies\/cl\/clHero.jpg" : {
       "ft" : 16384,
@@ -4397,6 +4546,16 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/indexProjectTwo.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/deploy\/img\/index\/indexProjectTwo.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/deploy\/img\/index\/projects\/AntiCover.jpg" : {
       "ft" : 16384,
       "iS" : 203636,
@@ -5973,6 +6132,58 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/cft\/cftBanner.jpg" : {
+      "ft" : 16384,
+      "iS" : 332082,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/cft\/cftBanner.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/cft\/cftHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 695860,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/cft\/cftHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/cft\/cftSocial1.png" : {
+      "ft" : 32768,
+      "iS" : 47599,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/cft\/cftSocial1.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/cft\/cftSocial2.png" : {
+      "ft" : 32768,
+      "iS" : 49072,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/cft\/cftSocial2.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -9899,6 +10110,14 @@
       "oAP" : "\/deploy\/Bluelines.html",
       "oF" : 2
     },
+    "\/dev\/CardsForToday.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/CardsForToday.html",
+      "oF" : 2
+    },
     "\/dev\/case-studies\/anti\/antiGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -10177,6 +10396,38 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/bl\/blScope.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/cft\/cftBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/cft\/cftBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/cft\/cftGallery.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/cft\/cftGallery.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/cft\/cftHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/cft\/cftHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/cft\/cftIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/cft\/cftIntro.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/cl\/clGallery.kit" : {
@@ -11021,12 +11272,12 @@
       "oAP" : "\/dev\/index\/indexProjectThree.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectTwo.txt" : {
+    "\/dev\/index\/indexProjectTwo.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index\/indexProjectTwo.txt",
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectTwo.html",
       "oF" : 0
     },
     "\/dev\/js\/burger\/burger-click.js" : {
@@ -11124,17 +11375,6 @@
       "mi" : 1,
       "oA" : 1,
       "oAP" : "\/dev\/js\/index-marquee-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/dev\/js\/index-projectlist.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 1,
-      "oAP" : "\/dev\/js\/index-projectlist-min.js",
       "oF" : 0,
       "sC" : 3,
       "tS" : 0
@@ -11294,7 +11534,7 @@
       "oS" : 1,
       "pg" : 0
     },
-    "\/dev\/scss\/abstracts\/_elevationStyles.scss" : {
+    "\/dev\/scss\/abstracts\/_elevationVariables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "co" : 0,
@@ -11302,7 +11542,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/scss\/abstracts\/_elevationStyles.css",
+      "oAP" : "\/dev\/scss\/abstracts\/_elevationVariables.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0
@@ -11719,6 +11959,32 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/case-studies\/_bkHero.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/case-studies\/_cftBranding.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_cftBranding.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/case-studies\/_cftHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_cftHero.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0

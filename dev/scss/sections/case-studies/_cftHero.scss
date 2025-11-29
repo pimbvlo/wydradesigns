@@ -1,0 +1,16 @@
+/* =============
+    CARDS FOR TODAY Hero
+============= */
+@use '../../abstracts' as *;
+
+#cftHero {
+    background-image: url("../img/case-studies/cft/cftHero.jpg");
+    article{
+        h1{
+            hyphens:manual;
+            @include lg{
+                hyphens:none;
+            }
+        }
+    }
+}

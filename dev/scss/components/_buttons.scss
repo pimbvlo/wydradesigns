@@ -20,6 +20,7 @@
     align-self: flex-start;
     transition: all 0.25s cubic-bezier(0.47, 0, 0.23, 1.38);
     overflow: hidden;
+
     >a {
         border-radius: 40px;
         display: flex;
@@ -116,7 +117,6 @@
             }
         }
     }
-
 }
 
 .button-icon-left {
@@ -298,7 +298,6 @@
         }
 
     }
-
 }
 
 .button-outline {

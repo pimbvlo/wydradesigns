@@ -1,7 +1,8 @@
 /* =============
     Typography
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
+
 h1,
 h2,
 h3,
@@ -99,10 +100,11 @@ h6 {
     line-height: rem-calc(24);
     letter-spacing: 0.12px;
     text-transform: capitalize;
-    @include lg{
-    font-size: rem-calc(24);
 
-    line-height: rem-calc(28);
+    @include lg {
+        font-size: rem-calc(24);
+
+        line-height: rem-calc(28);
     }
 }
 
@@ -170,6 +172,25 @@ figcaption {
         line-height: rem-calc(20);
         padding-top: rem-calc(16);
     }
+
+    >a {
+        text-decoration: none;
+        transition: 0.25s;
+        color: $primary;
+
+        &:link,
+        &:visited {
+            color: $primary;
+            border-bottom: 2px solid $primary;
+        }
+
+        &:hover,
+        &:active {
+            color: $on-primary-container;
+            border-bottom: 2px solid $on-primary-container;
+        }
+    }
+
 }
 
 .kicker {

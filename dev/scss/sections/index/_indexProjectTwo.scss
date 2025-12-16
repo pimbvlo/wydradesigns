@@ -4,8 +4,11 @@
 @use '../../abstracts'as *;
 
 #indexProjectTwo {
-    background-color: $black;
-
+    background-color: #700000;
+    background-image: url(../img/index/indexProjectTwo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
     #cftLogo {
         height: 40vh;
         align-self: center;
@@ -21,6 +24,9 @@
         }
         @include lg{
         height: 50vh;
+        }
+        @include xl{
+            height: 44vh;
         }
 
         .cls-1,

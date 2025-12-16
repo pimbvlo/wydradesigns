@@ -1,0 +1,23 @@
+/* =============
+    CARDS FOR TODAY Gallery
+============= */
+@use '../../abstracts'as *;
+
+#cftGallery {
+    article {
+        .gallery-2-col {
+            img {
+                aspect-ratio: 3 / 4;
+            }
+
+            img:nth-child(1) {
+                border-radius: $radius-xl;
+            }
+
+            img:nth-child(2) {
+                object-fit: cover;
+            }
+
+        }
+    }
+}

@@ -1,15 +1,19 @@
 /* =============
     CARDS FOR TODAY Hero
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
 
 #cftHero {
+    background-color: #700000;
     background-image: url("../img/case-studies/cft/cftHero.jpg");
-    article{
-        h1{
-            hyphens:manual;
-            @include lg{
-                hyphens:none;
+    background-blend-mode: multiply;
+
+    article {
+        h1 {
+            hyphens: manual;
+
+            @include lg {
+                hyphens: none;
             }
         }
     }

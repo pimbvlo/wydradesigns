@@ -725,6 +725,19 @@ figcaption {
     padding-top: 1rem;
   }
 }
+figcaption > a {
+  text-decoration: none;
+  transition: 0.25s;
+  color: rgb(229, 0, 69);
+}
+figcaption > a:link, figcaption > a:visited {
+  color: rgb(229, 0, 69);
+  border-bottom: 2px solid rgb(229, 0, 69);
+}
+figcaption > a:hover, figcaption > a:active {
+  color: rgb(46, 0, 14);
+  border-bottom: 2px solid rgb(46, 0, 14);
+}
 
 .kicker {
   font-size: 0.75rem;
@@ -1866,6 +1879,9 @@ footer > div aside ul .button {
 footer > div aside ul .button > a {
   border-radius: 100px;
 }
+footer > div aside ul .button svg {
+  margin: 0px;
+}
 @media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside ul .button svg {
     height: 2em;
@@ -2266,7 +2282,11 @@ footer > div aside > div h5 {
     Index Project Two
 ============= */
 #indexProjectTwo {
-  background-color: rgb(0, 0, 0);
+  background-color: #700000;
+  background-image: url(../img/index/indexProjectTwo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 #indexProjectTwo #cftLogo {
   height: 40vh;
@@ -2286,6 +2306,11 @@ footer > div aside > div h5 {
 @media (min-device-width: 1024px) and (orientation: landscape) {
   #indexProjectTwo #cftLogo {
     height: 50vh;
+  }
+}
+@media (min-device-width: 1440px) and (orientation: landscape) {
+  #indexProjectTwo #cftLogo {
+    height: 44vh;
   }
 }
 #indexProjectTwo #cftLogo .cls-1,
@@ -2957,7 +2982,9 @@ footer > div aside > div h5 {
     CARDS FOR TODAY Hero
 ============= */
 #cftHero {
+  background-color: #700000;
   background-image: url("../img/case-studies/cft/cftHero.jpg");
+  background-blend-mode: multiply;
 }
 #cftHero article h1 {
   hyphens: manual;
@@ -2969,7 +2996,7 @@ footer > div aside > div h5 {
 }
 
 /* =============
-    CARDS FOR TODAY Gallery
+    CARDS FOR TODAY Branding
 ============= */
 #cftBranding article img {
   object-fit: contain;
@@ -2991,6 +3018,19 @@ footer > div aside > div h5 {
 }
 #cftBranding article .gallery-2-col figure:nth-child(2) img {
   background-color: rgb(255, 255, 255);
+}
+
+/* =============
+    CARDS FOR TODAY Gallery
+============= */
+#cftGallery article .gallery-2-col img {
+  aspect-ratio: 3/4;
+}
+#cftGallery article .gallery-2-col img:nth-child(1) {
+  border-radius: 36px;
+}
+#cftGallery article .gallery-2-col img:nth-child(2) {
+  object-fit: cover;
 }
 
 /* =============

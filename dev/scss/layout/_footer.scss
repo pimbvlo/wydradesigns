@@ -246,6 +246,7 @@ footer {
                     }
 
                     svg {
+                        margin: 0px;
                         @include lg {
                             height: 2em;
                         }

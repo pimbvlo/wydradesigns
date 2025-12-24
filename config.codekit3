@@ -9737,6 +9737,14 @@
       "oAP" : "\/deploy\/ScienceHistoryMuseum.html",
       "oF" : 0
     },
+    "\/deploy\/Scout.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Scout.html",
+      "oF" : 0
+    },
     "\/deploy\/SecondLifeComposting.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -10393,6 +10401,54 @@
       "oAP" : "\/dev\/case-studies\/sa\/saText1.html",
       "oF" : 0
     },
+    "\/dev\/case-studies\/sai\/saiHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/sai\/saiIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/sai\/saiOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/sai\/saiProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/sai\/saiPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/sai\/saiScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/sai\/saiScope.html",
+      "oF" : 0
+    },
     "\/dev\/case-studies\/sb\/sbGallery.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -10950,6 +11006,24 @@
       "miP" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/global\/icons\/email.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/dev\/global\/icons\/open_in_new.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/icons\/open_in_new.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/icons\/open_in_new.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dev\/global\/icons\/open_in_new.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,

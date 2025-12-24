@@ -1,5 +1,3 @@
-<!-- ARCHIVED FOR NOW -->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    
+
     <!-- Google Fonts -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500;700&family=Montserrat:wght@500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet"> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Adobe Fonts -->
     <link rel="stylesheet" href="https://use.typekit.net/fzl3hfp.css">
     <!-- Google -->
@@ -17,16 +17,16 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/2c823a7cd3.js" crossorigin="anonymous"></script>
-    
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="img/global/favicon/Favicon.png" />
     <link rel="shortcut icon" type="image/svg" href="img/global/favicon/Favicon.svg" />
-    
+
     <!-- Site Description -->
     <meta name="Description" content="I’m a Graphic Designer, UX Designer, Photographer, and a huge fan of public transit. Come check out the stuff I’ve made.">
-    
     <link rel="stylesheet" href="css/styles.css">
-    <title>Ice Cream Museum</title>
+
+
+    <title>Scout</title>
 </head>
 
 <body>
@@ -69,60 +69,205 @@
     </header>
     <div id="main">
         <main>
-            <section id="icmHero" class="case-study-hero">
-                <div class="cs-hero-Gradient-future cs-hero-Gradient">
-                    <article class="section-padding">
-                        <h1>Ice Cream Museum</h1>
-                        <h4>Logo Design & Branding</h4>
+            <div class="case-study-progress" id="progress"></div>
+
+            <section id="mdsHero" class="hero inset-page article">
+                <div class="section-content section-padding hero-gradient">
+                    <article class="gap-v">
+                        <p>Spring 2023</p>
+                        <h1>Building a Multi-Brand Design System</h1>
+                        <h3>UX Case Study</h3>
                     </article>
                 </div>
             </section>
 
-            <section id="icmText1" class="section-content section-padding case-study-intro-image">
-                <div>
-                    <article>
-                        <p>Here are the four logos for a fictitious client, the Ice Cream Museum. For each logo, I had sketched 30–50 unique concepts, brought in the best ones into Illustrator, and refined them. In order: Abstract, Pictographic, Lettered,
-                            Combination.</p>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
+            <section id="mdsIntro" class="section-content section-margin article-text">
+                <article class="gap-v gap-h">
+                    <h2>Overview</h2>
+                    <p>Meraki Design System (Meraki) is a design system for internal websites, tools, and for external facing mobile
+                        apps. In 2023, Pfizer went through a rebrand for all print materials. The Customer Experience Design team
+                        was engaged to create a digital library as a companion to follow the new brand guidelines for all digital
+                        products. Pfizer has over 74 markets under its umbrella, and this became our guiding light.</p>
+                    <p>The Customer Experiene team already had Helix Design System, but sadly had to be retired due to a tech stack
+                        migration. From my work in Meraki Design System, we have saved $31m cumulative cost savings across the work
+                        of 1,000 developers and designers both internal and external. I was able to reduce time-to-market by
+                        nearly 50% and non-content related tasks by 35%.</p>
+                    <h4>I found this using the formula: &lpar;designer + dev working hours&rpar; &#215; &lpar;designer + dev
+                        rate&rpar;</h4>
             
-                    </article>
-                </div>
+                    <p><em>How might we upgrade the foundations of an existing Design System for all brands to be customizable and
+                            repeatable?</em></p>
+                    <h6 class="button button-icon-right button-outline">
+                        <a href="https://www.figma.com/design/ljEOXrjuJZmcwX2EalbPtM/Meraki-Design-System-2.5.1?node-id=34535-512&t=MOoBMwy2cajEj926-11"
+                            target="_blank">Link to Design System
+                            <span class="material-symbols-outlined">open_in_new</span>
+                        </a>
+                    </h6>
+                </article>
             </section>
 
-            <section id="icmGallery" class="section-content section-padding case-study-gallery">
-                <div>
-                    <article>
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
+            <section id="mdsScope" class="section-content section-margin article-text">
+                <article class="gap-v gap-h">
+                    <h2>Scope and Constraints</h2>
+                    <p>The design system's end users are, of course, the individual brands, but the designers who work to bring the
+                        brands&#39; visions to life and developers who make sure those visions are possible are the main users. As the
+                        Lead Design System Designer, I am responsible for developing and implementing the plan to create a
+                        Multi-Brand Design System. With an already established and actively used design system, my main constraint
+                        was to maintain function of the system as it was still being used by multiple teams. I was limited to
+                        using Figma as it is the tool of choice by internal teams and externally by agencies.</p>
+                </article>
+            </section>
+
+            <section id="mdsProcess" class="section-content section-padding article-text inverse">
+                <article class="gap-v gap-h">
+                    <h2>Process</h2>
+                    <h3>Tokens</h3>
+                    <p>The internal announcement of a rebrand came at the same time that Figma was introducing Variables. I was so
+                        excited to get my hands dirty with Variables and Mode swapping for the longest time, and this was the
+                        perfect case for it! Our first design system, Helix, had a similar token structure to <a
+                            href="https://m3.material.io/foundations/design-tokens/overview#00974a9c-a3f6-47a3-a99d-018e093fcd7c">Material
+                            3 by Google</a>.</p>
+                    <h3>Color Swapping</h3>
+                    <p>The biggest part of the rebrand was the color. Pfizer now had a new set of defined colors in 10 hues, and had
+                        begun encouraging all brands to move to those colors as opposed to brands defining their own colors. So I
+                        was anticipating a mass migration of color which made it paramount.</p>
+                    <div>
+                        <p>Based on internal research of the most popular and highest rated brands, most used a primary, secondary,
+                            and tertiary color. I wanted to expand upon this concept and make the brand selections easier for
+                            designers and internal clients, so I came up with idea to have the primary, secondary, and tertiary
+                            colors independent of one another. After creating a file to test the idea, I met with some key members
+                            of the the larger Customer Experience team and Developer team. They agreed that the independent
+                            selections of the different color categories is a viable and practical solution that expands the
+                            broad range of brand color selection. The independent selections accomplishes 2 things:</p>
+                        <ol>
                             <li>
-                                <p>As an extension to the logos I designed above, I created a brand identity for the Museum. I created an envelope, business cards, a letterhead for the client, and button pins for the gift shop. I wanted to give the Museum an
-                                    educational but playful feel. To emulate ice cream and the bits of cookies or sprinkles you may find in some, I used a chunky Clarendon font paired with pastel colors.</p>
+                                <p>Removes hierarchy from the brands so that one is not more important than the other.</p>
+                            </li>
+                            <li>
+                                <p>Allows for 1000 color combinations that designers can play with for brand colors to highlight one
+                                    color over another (and another 1000 if you include dark mode as a wholly separate entity).</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <iframe
+                        src="https://embed.figma.com/proto/ljEOXrjuJZmcwX2EalbPtM/Meraki-Design-System-2.5.1?page-id=40000046%3A3653&node-id=40000046-39547&viewport=478%2C318%2C0.79&scaling=min-zoom&content-scaling=responive&starting-point-node-id=40000046%3A39316&embed-host=share&footer=false&viewport-controls=false"></iframe> <!-- <figure><img src="img/case-studies/mds/mdsColorDiagram.png"
+                            alt="Flowchart describing color tokens splitting up from references into primary, secondary, and tertiary collections then back together into a unified color scheme.">
+                    </figure> -->
+                    <p>For example, if Brand X&#39;s primary, secondary, and tertiary colors are Red, Purple, and Yellow, the
+                        designer
+                        can swap the color order around to best fit the project and change the whole site's personality with two
+                        clicks.</p>
+                    <!-- <div class="carousel-image">
+                        <ul class="gap-v gap-h">
+                            <li>
+                                <figure><img src="img/case-studies/mds/mdsColorTokensDefaultDarkMode.jpg"
+                                        alt="Sample site showing color token Red Violet Yellow options in Dark Mode">
+                                    <figcaption>Color Tokens:<br>Red Violet Yellow — Dark Mode</figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure><img src="img/case-studies/mds/mdsColorTokensRVY.jpg"
+                                        alt="Sample site showing color token Red Violet Yellow options in Light Mode">
+                                    <figcaption>Color Tokens:<br>Red Violet Yellow — Light Mode</figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure><img src="img/case-studies/mds/mdsColorTokensVRV.jpg"
+                                        alt="Sample site showing color token Violet Red Violet options in Light Mode">
+                                    <figcaption>Color Tokens:<br>Violet Red Violet</figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure><img src="img/case-studies/mds/mdsColorTokensVRY.jpg"
+                                        alt="Sample site showing color token Violet Red Yellow options in Light Mode">
+                                    <figcaption>Color Tokens:<br>Violet Red Yellow</figcaption>
+                                </figure>
                             </li>
                         </ul>
-                    </article>
-                </div>
+                    </div> -->
+                    <h3>Typography</h3>
+                    <p>I had a similar approach when it came to typography. Pfizer&#39;s rebrand had included 5 proprietary font
+                        families. I created tokens of the font families and attached those to the headings (h1-h6) to allow
+                        designers to swap families per heading level as needed. This gives designers that much more freedom in
+                        expression of each project.</p>
+                    <h4>Note: For demonstration purposes, I have changed the Design System's typefaces.</h4>
+            
+                    <iframe
+                        src="https://embed.figma.com/proto/ljEOXrjuJZmcwX2EalbPtM/Meraki-Design-System-2.5.1?page-id=40000046%3A3653&node-id=40000138-36550&viewport=478%2C318%2C0.79&scaling=contain&content-scaling=fixed&starting-point-node-id=40000135%3A19516&embed-host=share&footer=false&viewport-controls=false"
+                        allowfullscreen></iframe>
+            
+                    <h3>Layout & Spacing</h3>
+                    <p>With newfound freedom for designers in finding the most appropriate design language of a project, there still
+                        needed to be a unifying force that underpins structure across all projects as it all falls under the Pfizer
+                        umbrella. In looking at the hierarchical grid examples within <em>Making and Breaking the Grid</em> by
+                        Tymothy Samara, as shown on pages 78 and 79 for IAS Magazine mastheads, I realized we were trying to achieve
+                        something similar. Different colors, typography, but the same structure and bones across each project.</p>
+            
+                    <ul class="gap-v gap-h">
+                        <li>
+                            <figure><img src="img/case-studies/mds/mdsLayoutMobile.jpg" alt="Mobile screen size">
+                                <figcaption>Mobile Grid</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure><img src="img/case-studies/mds/mdsLayoutTablet.jpg" alt="Tablet screen size">
+                                <figcaption>Tablet Grid</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure><img src="img/case-studies/mds/mdsLayoutDesktop.jpg" alt="Desktop screen size">
+                                <figcaption>Desktop Grid</figcaption>
+                            </figure>
+                        </li>
+                    </ul>
+                    <p>I wanted to standardize the breakpoints, components, and patterns&#39; respective grids, padding, and
+                        horizontal
+                        and vertical spacing. I created different Modes for breakpoints at small, medium, large, and extra large.
+                        Stepping backwards a bit, the Variable Collection also includes font size for all forms of text from
+                        headlines to labels to buttons. This way the scale is appropriate for all screens designers are going to
+                        work within.</p>
+                    <h3>Border Radius</h3>
+                    <p>To add some extra personality to Meraki, the team felt it necessary to investigate potential use-cases in
+                        border radii. We knew early on in the implementation that we'd need both a static collection that cannot
+                        change and a dynamic collection of radii options that can change in prototypes if necessary.</p>
+                    <h3>Training and Development</h3>
+                    <p>After meeting with key members while working on color and subsequently fleshing out the foundations and
+                        tokens, I wanted to make sure the larger CX Team was fully up to speed on the work I've done. I created a
+                        series of team huddles to go over different aspects of each category, and I wanted to make it clear to the
+                        team that, while this part is considered "done," the work isn't over. I wanted to treat the huddle series
+                        like it was a client review and wanted to hear any and all feedback or critiques the designers on my team
+                        may have had.</p>
+                    <p>In working with our developers, we looked into using Figma's REST API. I helped coordinate a call between our
+                        development team and a Developer Advocate at Figma so that our developers were best set up for the
+                        introduction of variables and how they work in Figma. I learned a little bit of JSON to
+                        understand how to best categorize the variables into separate sections and categories, as well as bridge a
+                        gap in communication between the design team and development team.</p>
+                </article>
             </section>
 
-            <section id="csFooter" class="section-content section-padding">
-                <div>
-                    <article>
-                        <div class="btn btn-icon btn-purple btn-purple-future"><a href="index.html">
-                                <svg class="arrow-right" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
-                                  <path fill="#000" fill-rule="evenodd" d="M27.997 16.017 15.981 28l-2.325-2.292 8.058-8.058v-.017h-4.933a.995.995 0 0 1-.113-.647h-.014c-.13 0-.254-.024-.368-.07a.92.92 0 0 1-.11.717h-1.555a.912.912 0 0 1-.06-.854.83.83 0 0 1-1.08-.796.833.833 0 0 1 1.08-.795.913.913 0 0 1 .031-.805h1.614a.914.914 0 0 1 .08.667c.114-.045.238-.07.368-.07h.014a1.003 1.003 0 0 1 .086-.597h4.96l-8.058-8.058L15.98 4l12.016 12.017ZM15.09 15.68a.83.83 0 0 1 0 .604.915.915 0 0 1 .606-.004 1.002 1.002 0 0 1 0-.595.915.915 0 0 1-.606-.005Z" clip-rule="evenodd"/>
-                                  <path fill="#000" d="M8.397 16.565a.583.583 0 0 1 .325 1.068h-.649a.583.583 0 0 1 .324-1.068ZM10.732 16.482a.667.667 0 0 1 .457 1.151h-.914a.665.665 0 0 1 .457-1.151ZM13.068 16.315a.833.833 0 0 1 .678 1.318H12.39a.833.833 0 0 1 .677-1.318ZM6.068 16.732a.417.417 0 1 1 0 .833.417.417 0 0 1 0-.833Z"/>
-                                  <path fill="#000" d="M11.982 15.233a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5ZM9.647 15.317a.667.667 0 1 1 0 1.333.667.667 0 0 1 0-1.333ZM7.312 15.483a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1ZM4.982 15.732a.252.252 0 1 1 0 .503.252.252 0 0 1 0-.503Z"/>
-                                  <path fill="#000" d="M13.78 14.383a.833.833 0 1 1-1.422 0h1.421ZM11.237 14.383a.667.667 0 1 1-1.01 0h1.01ZM8.786 14.383a.582.582 0 0 1-.389 1.019.583.583 0 0 1-.388-1.019h.777ZM6.068 14.402a.417.417 0 1 1 0 .833.417.417 0 0 1 0-.833Z"/>
-                                </svg>
-                                Case Studies</a></div>
-                    </article>
-                </div>
+            <section id="mdsOutcomes" class="section-content section-margin article-text">
+                <article class="gap-v gap-h">
+                    <h2>Outcomes and Lessons</h2>
+                    <p>Since creating new features, we've saved 53k work hours and over 398k component inserts. My focus now lies in
+                        covering additional product areas across Pfizer while fitting end-user expectations of a modern design
+                        system.</p>
+                    <p>Internally, I was a founding member of the Zenith team, a spin-off design kit for marketing websites. I
+                        helped shape its foundations based on my findings for Meraki.</p>
+                    <h3>Future Features</h3>
+                    <p>Utilizing this file and new set of foundations, we've been able to expand the breadth of what we offer. On
+                        top of the core Design System file, I've spearheaded the initiative to include a Patterns & Templates kit,
+                        AI kit, Data Visualization kit, Dashboard kit, with a mobile app kit on the way.</p>
+                    <p>With Figma offering new tools and features every year, I'm especially excited to see what Extended
+                        Collections will look like when applied to a design system. I've been looking forward to something like this
+                        in Figma for a while, especially since we can't add formulas to variables just yet. 😉</p>
+                </article>
+            </section>
+
+            <section id="caseStudyPreFooter" class="section-content section-margin">
+                <article class="gap-v gap-h">
+                    <h2>Read Another Case Study</h2>
+                    <div id="case-study-container" class="gallery-2-col gap-v gap-h"></div>
+                </article>
             </section>
 
         </main>

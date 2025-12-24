@@ -11300,6 +11300,14 @@
       "oAP" : "\/deploy\/ScienceHistoryMuseum.html",
       "oF" : 2
     },
+    "\/dev\/Scout.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/Scout.html",
+      "oF" : 2
+    },
     "\/dev\/scss\/abstracts\/_colorVariables.scss" : {
       "aP" : 0,
       "bl" : 0,

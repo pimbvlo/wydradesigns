@@ -67,6 +67,7 @@
             </nav>
         </div>
     </header>
+     
     <div id="main">
         <main>
             <div class="case-study-progress" id="progress"></div>
@@ -75,7 +76,7 @@
                 <div class="section-content section-padding hero-gradient">
                     <article class="gap-v">
                         <p>Summer 2025</p>
-                        <h1>Envisioning a Tool for On-The-Go Reps</h1>
+                        <h1>En&shy;vis&shy;ion&shy;ing a Tool for On-The-Go Reps</h1>
                         <h3>UX Case Study</h3>
                     </article>
                 </div>
@@ -84,8 +85,13 @@
             <section id="saiIntro" class="section-content section-margin article-text">
                 <article class="gap-v gap-h">
                     <h2>Overview</h2>
+                    <p>I was given the proposal to create a tool to assist pharmaceutical representatives and customer facing
+                        colleagues with their daily schedules and meetings with Healthcare Professionals (HCPs). Pfizer
+                        representatives are always on the go from meeting to meeting informing HCPs of their company's products and
+                        what they do. Because representatives spend a majority of their time in between meetings and sitting in
+                        office waiting rooms, they need a portable assistant to help them plan their day.</p>
                     <h6 class="button button-icon-right button-outline">
-                        <a href="https://www.figma.com/design/ljEOXrjuJZmcwX2EalbPtM/Meraki-Design-System-2.5.1?node-id=34535-512&t=MOoBMwy2cajEj926-11"
+                        <a href="https://www.figma.com/proto/0MfLNOwCiyrKBh7Whkv1jw/Scout-CX-Wireframes?page-id=79%3A6616&node-id=267-5843&p=f&viewport=115%2C250%2C0.16&t=UCGPtsHzpIbcEL9u-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=267%3A5843"
                             target="_blank">Link to Prototype
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
                                 <path fill="#000" fill-rule="evenodd"
@@ -107,24 +113,149 @@
             <section id="saiScope" class="section-content section-margin article-text">
                 <article class="gap-v gap-h">
                     <h2>Scope and Constraints</h2>
+                    <p>Representatives' days are hectic and they constantly find themselves in varying situations, so the tool needs
+                        to be as adaptable as the representatives themselves. The current tool they use has information buried
+                        within different sections of a one-stop-shop application on an iPad, so it takes upwards of 5 minutes for
+                        all the data to load for each request. Pharma reps are meant to be experts on the brands they represent, and
+                        need to know the conditions their products treat, so taking 5 minutes of waiting just to begin researching
+                        information to answer a question is a source of frustration.</p>
                 </article>
             </section>
 
             <section id="saiProcess" class="section-content section-padding article-text inverse">
                 <article class="gap-v gap-h">
                     <h2>Process</h2>
+                    <div>
+                        <p>I co-hosted a workshop to ideate on potential concepts based on the more concrete requirements I had
+                            received. We collectively worked on user flows of pre-meeting, mid-meeting, and post-meeting tasks, of
+                            which I drew pencil sketches of some screen ideas. In the middle of sketching, I had an “aha!” moment.
+                            I remembered my mother’s PalmPilot growing up, which had almost all the same product requirements:</p>
+                        <ol>
+                            <li>
+                                <p>A calendar</p>
+                            </li>
+                            <li>
+                                <p>A daily planner</p>
+                            </li>
+                            <li>
+                                <p>An address book</p>
+                            </li>
+                            <li>
+                                <p>A GPS &#40;which later palm devices included&#41;</p>
+                            </li>
+                        </ol>
+                        <p>The only additional requirement we had to focus on was to center it around answering HCP-related
+                            questions as all projects require a level of complexity to tailor it to its unique problem solving.</p>
+                    </div>
+                    <h3>Migration Process</h3>
+                    <p>Due to representatives already using an existing tool, the workshop members worked together to create the
+                        beginnings of a plan to slowly migrate more reps with each passing year.</p>
+                    <img src="img/case-studies/sai/saiDiagram.svg"
+                        alt="Diagram showing each phase of integration for representatives.">
+                    <h3>User Flow</h3>
+                    <div>
+                        <p>Each daily routine a representative has can be broken down into three steps:</p>
+                        <ol>
+                            <li>
+                                <p><b>Pre-Meeting</b></p>
+                                <p>Everything from taking a look at their schedule, reading an analysis of prescribers, to preparing
+                                    for a meeting.</p>
+                            </li>
+                            <li>
+                                <p><b>Meeting</b></p>
+                                <p>The sit-down discussion with the Healthcare Professional.</p>
+                            </li>
+                            <li>
+                                <p><b>Post-Meeting</b></p>
+                                <p>Reps need to record the discussion and take action &#40;Order samples, write followup email, etc.&#41;</p>
+                            </li>
+                        </ol>
+                    </div>
+                    <img src="img/case-studies/sai/saiUserFlow.jpg" alt="Diagram of a representative's day.">
                 </article>
             </section>
-
+            
+            <section id="saiBranding" class="section-content section-margin article-text">
+                <article class="gap-v gap-h">
+                    <h2>Branding</h2>
+                    <p>Scout follows Pfizer’s branding through utilizing Meraki Design System with a heavier focus on legibility as
+                        reps would need to go through multiple paragraphs of research. For this reason, all body copy uses a larger
+                        leading size. The standard Meraki leading size is 120%, whereas the Scout body copy leading size is 150%.
+                        Certain screens are in dark mode for discretion, such as the Meeting Mode screen so if the representative
+                        needs to look up some information in front of the HCP, they aren’t suddenly disoriented with a bright
+                        screen. Since iOS is placing a heavier requirement on Liquid Glass, I also introduced some Liquid Glass
+                        components, such as the Navigation.</p>
+                </article>
+            </section>
+            
             <section id="saiPrototyping" class="section-content section-margin article-text">
                 <article class="gap-v gap-h">
                     <h2>Wireframing & Prototyping</h2>
+                    <p>The idea behind Scout is part traditional app components and part chat. I designed the homepage to have
+                        everything a rep needs to see at a glance, like how their Call Plan is going, or any changes may have
+                        happened since they last opened the app. Beneath the stats, Scout will suggest topics based on time of day,
+                        brands the rep is managing.</p>
+                    <h6 class="button button-icon-right button-outline">
+                        <a href="https://www.figma.com/proto/0MfLNOwCiyrKBh7Whkv1jw/Scout-CX-Wireframes?page-id=79%3A6616&node-id=267-5843&p=f&viewport=115%2C250%2C0.16&t=UCGPtsHzpIbcEL9u-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=267%3A5843"
+                            target="_blank">Link to Prototype
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 32 32">
+                                <path fill="#000" fill-rule="evenodd"
+                                    d="M10.7463 4c.1915.10136.322.30255.322.53432 0 .33373-.2705.60425-.6041.60426-.0958 0-.1864-.02246-.2669-.06221.0418.0822.0655.1752.0655.27377 0 .08822-.0191.17194-.053.2475.0773-.03599.1635-.05619.2544-.05619.3336.00001.6041.27055.6041.60426 0 .2207-.1183.41369-.2949.51916H6.66398V25.3351H25.328l.008.008v-4.1508c.1095-.1542.2893-.255.4928-.255.3337 0 .6041.2706.6041.6043 0 .0959-.0225.1864-.0622.267.0822-.0419.1752-.0656.2737-.0656.0882 0 .1719.0191.2474.0531-.036-.0774-.0562-.1636-.0562-.2545 0-.3337.2705-.6043.6042-.6043.2537.0001.4707.1566.5602.3783v.4519c-.0056.014-.0117.0277-.0184.0411.0061-.0031.0122-.0061.0184-.009v1.0953c-.0062-.0028-.0123-.0059-.0184-.0089.0067.0134.0128.0271.0184.0411v2.416c0 .7282-.264 1.3605-.784 1.8806l-.008-.008c-.52.5202-1.144.7843-1.88.7843H6.66398c-.72799 0-1.36-.2642-1.88-.7843C4.264 26.6955 4 26.0713 4 25.3351V6.66487c0-.72824.26399-1.36046.78398-1.88063C5.30398 4.26408 5.92799 4 6.66398 4h4.08232Zm14.9734 21.461c.0055.0356.0085.072.0085.1091 0 .0022-.0002.0044-.0002.0065.033-.0041.0667-.0065.1008-.0065.0034 0 .0068.0002.0101.0003v-.0003c0-.0342.0023-.068.0065-.1011-.0055.0001-.011.0005-.0166.0005-.0371 0-.0735-.0029-.1091-.0085Zm.8051-.8076c.0057.0362.0088.0733.0088.1111 0 .0026-.0002.0051-.0002.0077.033-.0045.0667-.0071.1009-.0075v-.0002c0-.0342.0024-.0679.0065-.1009-.0396-.0002-.0783-.0037-.116-.0102Zm-.5503-.914c-.0467.0116-.0955.0179-.1457.0179-.0463 0-.0914-.0055-.1347-.0154.022.0684.0341.1412.0341.2168 0 .0371-.003.0736-.0085.1091.0356-.0055.072-.0083.1091-.0083.0408 0 .0807.0036.1196.0102-.0058-.0361-.0088-.0732-.0088-.111 0-.0765.0123-.1502.0349-.2193Zm1.6109 0c-.0467.0116-.0954.0179-.1456.0179-.0425 0-.0839-.0045-.1239-.0129.0215.0676.0332.1396.0332.2143 0 .0018-.0001.0035-.0001.0052.0298-.0033.0601-.0052.0908-.0052.0376 0 .0746.0028.1108.0078 0-.0026-.0001-.0052-.0001-.0078 0-.0765.0123-.1502.0349-.2193Zm-1.2146-.8534c.0397.0806.0621.1711.0621.267 0 .0477-.0058.094-.0162.1385.0714-.0244.148-.0378.2277-.0378.0715 0 .1406.0108.2057.0307-.0094-.0423-.0145-.0863-.0145-.1314 0-.091.0203-.1772.0563-.2545-.0756.034-.1593.0531-.2475.0531-.0985 0-.1915-.0237-.2736-.0656Zm-.2685-.8057c-.0821.0418-.175.0656-.2735.0656-.0931 0-.1813-.0211-.2601-.0588.0376.0788.0588.1671.0588.2602 0 .0932-.0212.1815-.0589.2603.0788-.0377.167-.0589.2602-.0589.0985 0 .1915.0238.2736.0656-.0397-.0805-.0622-.1711-.0622-.267 0-.0958.0224-.1865.0621-.267Zm1.6109 0c-.0821.0418-.175.0656-.2734.0656-.0883 0-.1721-.0191-.2476-.0531.036.0774.0562.1636.0562.2545 0 .091-.0203.1771-.0563.2545.0756-.034.1594-.0531.2477-.0531.0984 0 .1913.0237.2734.0655-.0397-.0805-.062-.171-.062-.2669 0-.0958.0223-.1865.062-.267ZM9.91312 5.89813c-.07732.03598-.16347.05627-.25437.05627-.09093 0-.17711-.02027-.25445-.05627.03399.07558.05312.15933.05312.24758 0 .09854-.0238.1915-.06562.27369.0805-.03975.17111-.06213.26695-.06213.09582 0 .18639.02241.26687.06213-.0418-.08218-.06546-.17517-.06546-.27369 0-.08823.01898-.17201.05296-.24758Zm-1.65117.12371c-.06751.02151-.13942.03329-.21406.0333-.00174-.00001-.0035-.00015-.00523-.00016.00334.02979.00523.06005.00523.09073 0 .03765-.00282.0747-.00781.11098.00259-.00003.00521-.00016.00781-.00016.07652 0 .15015.01237.21914.03493-.01155-.04667-.01781-.0955-.01781-.14575 0-.04245.0044-.08388.01273-.12387Zm.85821-.94539c-.08048.03971-.17107.06213-.26688.06213-.04768 0-.09402-.00573-.13851-.01618.02437.07146.03789.14802.03789.22774-.00001.0716-.01087.14066-.03071.20577.04229-.00938.08623-.01446.13133-.01446.09091 0 .17712.02021.25445.05619-.03397-.07556-.05304-.15929-.05304-.2475 0-.09852.02366-.19152.06547-.27369Zm-1.7668.15404c-.03614.00571-.07319.00883-.11094.00883-.0026 0-.00521-.00021-.00781-.00024.00456.03307.00708.06675.0075.10097h.00031c.03413 0 .06777.00237.10078.00649.0002-.03955.00371-.0783.01016-.11605Zm2.55976-.94375c-.07732.03597-.16347.05626-.25437.05626-.09093 0-.17711-.02027-.25445-.05626.03399.07558.05312.15932.05312.24758 0 .09855-.0238.19149-.06562.27368.0805-.03974.1711-.0622.26695-.06221.09582 0 .18639.02249.26687.06221-.04181-.08218-.06546-.17515-.06546-.27368 0-.08824.01898-.17201.05296-.24758Zm-1.65117.12371c-.06751.02151-.13942.03321-.21406.03321-.03662 0-.07262-.00281-.10773-.0082.00453.03231.00703.0653.00703.09886 0 .04077-.00367.0807-.01032.11957.03616-.00572.07325-.00875.11102-.00875.07652 0 .15016.01229.21914.03485-.01155-.04666-.01781-.09544-.01781-.14567 0-.04246.00441-.08389.01273-.12387Zm-1.71726.02501c-.0351.00538-.07106.0082-.10766.0082-.00175 0-.00356-.00014-.00531-.00015.00334.02981.00531.0601.00531.09081 0 .00336-.00027.00673-.00031.01008h.00031c.03422 0 .06792.00234.10102.00649-.00013-.00551-.00039-.01104-.00039-.01657 0-.03356.00249-.06655.00703-.09886Z"
+                                    clip-rule="evenodd" />
+                                <path fill="#000"
+                                    d="M12.3784 20.9376c.167 0 .3024.1354.3024.3025s-.1354.3025-.3024.3025-.3024-.1355-.3024-.3025c0-.167.1354-.3025.3024-.3025ZM26.6444 20.2323c.278.0001.5033.2255.5033.5036s-.2253.5036-.5033.5036c-.278 0-.5035-.2255-.5035-.5036.0001-.2781.2255-.5036.5035-.5036ZM28 21.1698c-.1485-.0875-.2481-.249-.2481-.4339s.0996-.3464.2481-.434v.8679ZM25.336 20.3413c.1162.0922.1908.2347.1908.3946 0 .1599-.0746.3023-.1908.3946v-.7892ZM13.1948 20.0301c.2227 0 .4032.1806.4032.4033 0 .2228-.1805.4034-.4032.4034-.2226-.0001-.4032-.1806-.4032-.4034.0001-.2227.1806-.4033.4032-.4033ZM11.572 20.1309c.167 0 .3024.1355.3024.3025 0 .1671-.1354.3025-.3024.3025s-.3024-.1354-.3024-.3025c0-.167.1354-.3025.3024-.3025ZM25.8288 19.4266c.278 0 .5035.2255.5035.5036s-.2255.5035-.5035.5035c-.2428 0-.4453-.1719-.4928-.4007v-.2057c.0475-.2288.2501-.4007.4928-.4007ZM27.4398 19.4266c.278 0 .5033.2255.5033.5036s-.2253.5035-.5033.5035c-.278 0-.5035-.2254-.5035-.5035 0-.2781.2254-.5036.5035-.5036ZM12.3784 19.2133c.2226 0 .4031.1806.4032.4034 0 .2227-.1806.4033-.4032.4033-.2227 0-.4032-.1806-.4032-.4033 0-.2228.1805-.4033.4032-.4034ZM14.0012 19.2133c.2227 0 .4032.1806.4033.4034 0 .2227-.1806.4033-.4033.4033-.2226 0-.4032-.1806-.4032-.4033.0001-.2228.1806-.4034.4032-.4034ZM10.7656 19.3242c.167 0 .3023.1355.3024.3026 0 .167-.1354.3025-.3024.3025s-.3024-.1355-.3024-.3025c0-.1671.1354-.3026.3024-.3026ZM26.6444 18.6209c.278.0001.5033.2255.5033.5036s-.2253.5036-.5033.5036c-.278 0-.5035-.2255-.5035-.5036s.2255-.5036.5035-.5036ZM14.8177 18.3058c.2008 0 .3742.1175.4552.2875l-.6718.672c-.1699-.0811-.2874-.2545-.2874-.4553.0001-.2784.2257-.5041.504-.5042ZM11.572 18.4067c.2227 0 .4031.1806.4032.4033 0 .2227-.1805.4033-.4032.4033-.2226 0-.4032-.1806-.4032-.4033.0001-.2227.1806-.4033.4032-.4033ZM13.1948 18.4067c.2227 0 .4032.1806.4032.4033 0 .2228-.1805.4033-.4032.4033-.2226 0-.4032-.1806-.4032-.4033.0001-.2227.1806-.4033.4032-.4033ZM25.8288 17.8655c.2502 0 .4531.203.4531.4532 0 .2503-.2029.4533-.4531.4533s-.453-.203-.453-.4533c0-.2502.2028-.4531.453-.4532ZM27.4398 17.8655c.2502.0001.453.203.453.4532 0 .2503-.2028.4533-.453.4533-.2503 0-.4532-.203-.4532-.4533.0001-.2502.203-.4532.4532-.4532Z" />
+                                <path fill="#000" fill-rule="evenodd"
+                                    d="m25.336 8.53752-9.9968 9.98938c-.1903-.1019-.3198-.3026-.3198-.5337 0-.0933.0211-.1817.0588-.2606-.0789.0377-.1672.059-.2605.059-.334 0-.6047-.2709-.6047-.605 0-.0933.021-.1817.0587-.2606-.0789.0377-.1671.0589-.2604.0589-.2338 0-.4365-.1328-.5372-.3271l9.9899-9.99293h-4.8V4H28v9.3391h-2.664V8.53752Zm-9.438 8.38168c-.0822.0419-.1752.0657-.2739.0657-.0933 0-.1816-.0212-.2605-.059.0377.079.059.1673.059.2607 0 .0933-.0213.1816-.059.2605.0789-.0377.1673-.0588.2605-.0588.0986 0 .1917.0237.2739.0655-.0397-.0806-.0621-.1713-.0621-.2672 0-.096.0224-.1868.0621-.2674Zm.3122-.6889c.0122.0478.0188.098.0188.1496 0 .0959-.0225.1867-.0623.2673.0823-.0419.1753-.0656.2739-.0656.0477 0 .0941.0057.1385.0161-.0243-.0715-.0377-.1482-.0377-.2279 0-.0371.0029-.0736.0084-.1092-.0356.0055-.072.0084-.1092.0084-.0807 0-.1581-.0137-.2304-.0387Zm-1.1253-.1245c-.0806.0398-.1712.0624-.2672.0624-.0959 0-.1866-.0226-.2672-.0624.0419.0823.0657.1754.0657.2741 0 .0933-.0213.1816-.0589.2605.0788-.0377.1672-.0588.2604-.0588.0932 0 .1816.0211.2604.0588-.0376-.0789-.0587-.1673-.0587-.2605 0-.0987.0236-.1918.0655-.2741Zm.3223-.6776c.0099.0434.0154.0885.0154.1349 0 .0987-.0239.1918-.0657.274.0806-.0398.1713-.0622.2672-.0622.0516 0 .1017.0066.1495.0187-.0249-.0722-.0386-.1498-.0386-.2305 0-.0378.0031-.0749.0088-.1111-.0389.0067-.0789.0103-.1197.0103-.0757 0-.1485-.012-.2169-.0341Zm1.949.0256c-.0356.0055-.072.0085-.1092.0085-.0371 0-.0736-.003-.1093-.0085.0056.0356.0085.0722.0085.1093 0 .0372-.0029.0738-.0085.1094.0357-.0056.0722-.0085.1093-.0085.0372 0 .0737.0029.1092.0085-.0055-.0356-.0084-.0722-.0084-.1094 0-.0371.0029-.0737.0084-.1093Zm-1.0371-.8189c.0068.0395.0107.0801.0107.1216 0 .0378-.0031.0749-.0089.1111.0389-.0067.0789-.0102.1197-.0102.0372 0 .0737.0028.1092.0083-.0055-.0356-.0084-.0721-.0084-.1092 0-.0408.0037-.0809.0103-.1198-.0362.0058-.0733.0089-.1111.0089-.0414 0-.082-.0039-.1215-.0107Zm1.6336.1216c0 .0371-.003.0737-.0086.1093.0357-.0055.0722-.0084.1093-.0084.0056 0 .0111.0002.0166.0003-.0042-.0331-.0065-.0669-.0065-.1012 0-.0034.0002-.0068.0002-.0102l-.0002.0001c-.0378 0-.0749-.0028-.1113-.0078.0001.0059.0005.0119.0005.0179Zm-.8065-.8167c0 .0408-.0037.0807-.0103.1196.0362-.0057.0733-.0087.1111-.0087.006 0 .012.0002.0179.0004-.005-.0364-.0078-.0736-.0078-.1113v-.0003c-.0033 0-.0067.0003-.0101.0003-.0342 0-.0679-.0024-.101-.0066 0 .0022.0002.0044.0002.0066Z"
+                                    clip-rule="evenodd" />
+                                <path fill="#000"
+                                    d="M14.0012 17.4992c.2784 0 .5041.2257.5041.5041 0 .2785-.2257.5042-.5041.5042-.2783 0-.5039-.2257-.5039-.5042 0-.2784.2256-.5041.5039-.5041ZM12.3884 17.6c.2227 0 .4032.1806.4032.4033 0 .2228-.1805.4034-.4032.4034-.2226-.0001-.4031-.1806-.4031-.4034 0-.2227.1805-.4033.4031-.4033ZM26.6444 17.1102c.2224 0 .4027.1804.4027.4029 0 .2225-.1803.4028-.4027.4028-.2224 0-.4027-.1803-.4028-.4028 0-.2225.1804-.4029.4028-.4029ZM13.4041 16.7279c.1739.0795.2948.2549.2948.4587 0 .2784-.2257.5041-.5041.5041-.2036 0-.379-.1209-.4585-.2948l.6678-.668ZM25.8288 16.3045c.2224 0 .4028.1804.4028.4028 0 .2225-.1804.4029-.4028.4029s-.4027-.1804-.4027-.4029c0-.2224.1803-.4028.4027-.4028ZM27.4398 16.3045c.2224 0 .4026.1804.4026.4028 0 .2225-.1802.4029-.4026.4029-.2225 0-.4028-.1804-.4028-.4029 0-.2224.1803-.4028.4028-.4028ZM26.6444 15.5995c.1668 0 .302.1353.302.3021 0 .1669-.1352.3022-.302.3022s-.3021-.1353-.3021-.3022c.0001-.1668.1353-.3021.3021-.3021ZM12.0751 5.64219c.278 0 .5034.22542.5034.50352 0 .27812-.2254.50361-.5034.50361-.278-.00002-.5034-.2255-.5034-.50361 0-.27809.2254-.50351.5034-.50352ZM13.6859 5.69252c.2502 0 .4531.20291.4532.45319 0 .2503-.2029.45328-.4532.45328-.2502-.00003-.453-.20299-.453-.45328 0-.25027.2029-.45317.453-.45319ZM15.2969 5.74292c.2224.00001.4027.18032.4027.40279 0 .22249-.1803.40286-.4027.40287-.2224-.00001-.4028-.18038-.4028-.40287.0001-.22247.1804-.40278.4028-.40279ZM11.2696 4.84653c.278 0 .5034.22549.5034.50361 0 .2781-.2254.50352-.5034.50352-.278-.00002-.5033-.22544-.5034-.50352 0-.2781.2254-.50358.5034-.50361ZM12.8805 4.84653c.2781.00001.5034.2255.5034.50361 0 .27809-.2253.50351-.5034.50352-.278-.00001-.5034-.22543-.5034-.50352 0-.27811.2254-.5036.5034-.50361ZM14.4914 4.94727c.2224 0 .4027.18038.4027.40287 0 .22247-.1803.40279-.4027.40279-.2224-.00002-.4027-.18032-.4027-.40279 0-.22249.1803-.40286.4027-.40287ZM16.1023 5.048c.1668 0 .3021.13527.3021.30214 0 .16685-.1353.30213-.3021.30213-.1668-.00003-.3021-.1353-.3021-.30213 0-.16686.1353-.30211.3021-.30214ZM12.0751 4.03079c.278 0 .5034.22542.5034.50353s-.2254.5036-.5034.5036c-.278-.00001-.5034-.2255-.5034-.5036s.2254-.50352.5034-.50353ZM13.6859 4.08112c.2503 0 .4532.2029.4532.4532 0 .2503-.2029.4532-.4532.4532-.2502-.00003-.453-.20292-.453-.4532s.2028-.45317.453-.4532ZM15.2969 4.13145c.2224.00001.4027.18039.4027.40287s-.1803.40286-.4027.40287c-.2224-.00001-.4028-.18039-.4028-.40287s.1804-.40286.4028-.40287Z" />
+                            </svg>
+                        </a>
+                    </h6>
+            
+                    <div class="gap-v gap-h gallery-2-col">
+                        <img src="img/case-studies/sai/saiSketch1.jpg" alt="Homepage sketch.">
+                        <img src="img/case-studies/sai/saiScreen1.png" alt="Homepage screen design embedded in iPhone.">
+                    </div>
+                    <p>The menu contains user-pinned topics to start a new pre-populated chat, an option to create a new pinned
+                        topic, view chat history from the last 14 days, and a clear chat history button.</p>
+                    <div class="gap-v gap-h gallery-2-col">
+                        <img src="img/case-studies/sai/saiSketch0.jpg" alt="Menu sketch.">
+                        <img src="img/case-studies/sai/saiScreen0.png" alt="Menu screen design embedded in iPhone.">
+                    </div>
+                    <p>I created “Meeting Mode” for a Rep to get a quick glance at the Healthcare Professional's details pertaining
+                        to the brands they may ask about, as well as sample orders they may ask about. I also included an elapsed
+                        time for the Representative to discretely see because both Reps and HCPs have very rigid schedules they need
+                        to adhere to.</p>
+                    <div class="gap-v gap-h gallery-2-col">
+                        <img src="img/case-studies/sai/saiSketch2.jpg" alt="Meeting Mode sketch.">
+                        <img src="img/case-studies/sai/saiScreen2.png" alt="Meeting Mode screen design embedded in iPhone.">
+                    </div>
+                    <p>For the post-meeting, Representatives need to document how the meeting went, if there are any follow-ups such
+                        as ordering samples or making sure deliveries are on time, as well as any other notes needed about the
+                        relationship. This mockup is for the Reps option to fill the form out on their own and upload it to Scout
+                        manually through either their files app, or take a photo of the printed and filled out form and upload it
+                        that way. There is another option for users to record the form together with the app asking the questions
+                        from the form and user entering each input in a Q&A format.</p>
+                    <div class="gap-v gap-h gallery-2-col">
+                        <img src="img/case-studies/sai/saiSketch3.jpg" alt="Post meeting sketch.">
+                        <img src="img/case-studies/sai/saiScreen3.png" alt="Post meeting screen design embedded in iPhone.">
+                    </div>
+                    <p>This HCP Profile screen is similar to the view in Meeting Mode except it contains more details about the
+                        HCP's office location, as well as a button to open the map and set up directions to the office.</p>
+                    <div class="gap-v gap-h gallery-2-col">
+                        <img src="img/case-studies/sai/saiSketch4.jpg" alt="HCP Profile sketch.">
+                        <img src="img/case-studies/sai/saiScreen4.png" alt="HCP Profile screen design embedded in iPhone.">
+                    </div>
                 </article>
             </section>
 
             <section id="saiOutcomes" class="section-content section-margin article-text">
                 <article class="gap-v gap-h">
                     <h2>Outcomes and Lessons</h2>
+                    <p>Because of the existing app, our suggestion of creating a new separate app was met with pushback because it
+                        required a new set of security features. Due to Pfizer reprioritizing various initiatives, this project was
+                        never fully realized, so no KPIs could be accurately measured out in the field.</p>
                 </article>
             </section>
 

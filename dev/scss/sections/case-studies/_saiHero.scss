@@ -1,0 +1,17 @@
+/* =============
+    SCOUT AI Hero
+============= */
+@use '../../abstracts' as *;
+
+#saiHero {
+    background-image: url("../img/case-studies/sai/saiHero.jpg");
+    background-position: center;
+    article{
+        h1{
+            hyphens:manual;
+            @include lg{
+                hyphens:none;
+            }
+        }
+    }
+}

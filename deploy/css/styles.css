@@ -132,8 +132,8 @@ html {
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   .section-margin {
-    margin-top: 160px;
-    margin-bottom: 160px;
+    margin-top: 136px;
+    margin-bottom: 136px;
   }
 }
 
@@ -149,8 +149,8 @@ html {
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   .section-padding {
-    padding-top: 160px;
-    padding-bottom: 160px;
+    padding-top: 136px;
+    padding-bottom: 136px;
   }
 }
 
@@ -803,11 +803,6 @@ ol li::marker {
   .button > a {
     leading-trim: both;
     text-edge: cap;
-  }
-}
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  .button > a {
-    align-items: center;
   }
 }
 .button > a > svg {
@@ -3757,6 +3752,70 @@ footer > div aside > div h5 {
 }
 
 /* =============
+    SCOUT AI Hero
+============= */
+#saiHero {
+  background-image: url("../img/case-studies/sai/saiHero.jpg");
+  background-position: center;
+}
+#saiHero article h1 {
+  hyphens: manual;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #saiHero article h1 {
+    hyphens: none;
+  }
+}
+
+/* =============
+    SCOUT AI Branding
+============= */
+#saiProcess article ul {
+  list-style-type: circle;
+}
+
+/* =============
+    SCOUT AI Prototyping
+============= */
+#saiPrototyping .gallery-2-col {
+  padding-bottom: 24px;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #saiPrototyping .gallery-2-col {
+    padding-bottom: 36px;
+  }
+}
+#saiPrototyping .gallery-2-col:last-of-type {
+  padding-bottom: 0px;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #saiPrototyping .gallery-2-col:last-of-type {
+    padding-bottom: 0px;
+  }
+}
+@media (min-device-width: 768px) {
+  #saiPrototyping .gallery-2-col {
+    align-items: flex-start;
+    position: relative;
+  }
+}
+@media (min-device-width: 768px) {
+  #saiPrototyping .gallery-2-col > img:first-of-type {
+    position: sticky;
+    top: 104px;
+  }
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #saiPrototyping .gallery-2-col > img:first-of-type {
+    top: 116px;
+  }
+}
+#saiPrototyping .gallery-2-col > img:nth-of-type(2) {
+  width: 100%;
+  height: auto;
+}
+
+/* =============
     SECOND LIFE COMPOSTING Hero
 ============= */
 #slcHero {
@@ -3772,8 +3831,22 @@ footer > div aside > div h5 {
 }
 
 /* =============
-    TARGET Prototyping
+    SECOND LIFE COMPOSTING Process
 ============= */
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #slcProcess article img:nth-of-type(4) {
+    width: 80%;
+  }
+}
+
+/* =============
+    SECOND LIFE COMPOSTING Prototyping
+============= */
+@media (min-device-width: 768px) {
+  #slcPrototyping h4 {
+    width: 80%;
+  }
+}
 @media (min-device-width: 768px) {
   #slcPrototyping .gallery-3-col img {
     height: 216px;

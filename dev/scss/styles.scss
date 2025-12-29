@@ -113,10 +113,16 @@
 @use "sections/case-studies/_shmHero";
 @use "sections/case-studies/_shmGallery";
 
+// SCOUT AI
+@use "sections/case-studies/_saiHero";
+@use "sections/case-studies/_saiProcess";
+@use "sections/case-studies/_saiPrototyping";
+
 // SECOND LIFE COMPOSTING
-@use "sections/case-studies/_slcHero.scss";
-@use "sections/case-studies/_slcPrototyping.scss";
-@use "sections/case-studies/_slcBranding.scss";
+@use "sections/case-studies/_slcHero";
+@use "sections/case-studies/_slcProcess";
+@use "sections/case-studies/_slcPrototyping";
+@use "sections/case-studies/_slcBranding";
 
 // SONS OF ANARCHY
 @use "sections/case-studies/_soaHero";
@@ -132,8 +138,8 @@
 
 // TARGET CASE STUDY
 @use "sections/case-studies/_tarHero.scss";
-@use "sections/case-studies/_tarPrototyping.scss";
-@use "sections/case-studies/_tarBranding.scss";
+@use "sections/case-studies/_tarPrototyping";
+@use "sections/case-studies/_tarBranding";
 
 // TIKTOK RESEARCH
 @use "sections/case-studies/_ttHero.scss";

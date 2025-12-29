@@ -40,10 +40,6 @@
             text-edge: cap;
         }
 
-        @include lg {
-            align-items: center;
-        }
-
         >svg {
             display: flex;
             align-self: center;

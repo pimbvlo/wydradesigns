@@ -1,9 +1,14 @@
 /* =============
-    TARGET Prototyping
+    SECOND LIFE COMPOSTING Prototyping
 ============= */
 @use '../../abstracts' as *;
 
 #slcPrototyping {
+    h4{
+        @include md{
+            width: 80%;
+        }
+    }
     .gallery-3-col{
         img{
             @include md{

@@ -1,0 +1,46 @@
+/* =============
+    SCOUT AI Prototyping
+============= */
+@use '../../abstracts'as *;
+@use '../../layout'as *;
+
+#saiPrototyping {
+
+    .gallery-2-col {
+        padding-bottom: 24px;
+
+        @include lg {
+            padding-bottom: 36px;
+        }
+
+        &:last-of-type {
+            padding-bottom: 0px;
+
+            @include lg {
+                padding-bottom: 0px;
+            }
+
+        }
+
+        @include md {
+            align-items: flex-start;
+            position: relative;
+        }
+
+        >img:first-of-type {
+            @include md {
+                position: sticky;
+                top: calc($header-height + 24px);
+            }
+
+            @include lg {
+                top: calc($header-height + 36px);
+            }
+        }
+
+        >img:nth-of-type(2) {
+            width: 100%;
+            height: auto;
+        }
+    }
+}

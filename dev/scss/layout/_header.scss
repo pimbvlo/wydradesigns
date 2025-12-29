@@ -3,9 +3,10 @@
 ============= */
 @use '../abstracts'as *;
 
+$header-height: 80px;
+
 header {
     position: fixed;
-    $header-height: 80px;
     height: $header-height;
     background-color: rgba($background, 1);
     width: 100%;

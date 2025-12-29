@@ -1,0 +1,14 @@
+/* =============
+    SECOND LIFE COMPOSTING Process
+============= */
+@use '../../abstracts' as *;
+
+#slcProcess {
+    article {
+        img:nth-of-type(4){
+            @include lg{
+                width: 80%;
+            }
+        }
+    }
+}

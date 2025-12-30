@@ -1,7 +1,7 @@
 /* =============
     Chips
 ============= */
-@use '../abstracts' as *;
+@use '../abstracts'as *;
 
 .chip,
 .chip-icon {
@@ -26,18 +26,11 @@
         leading-trim: both;
         text-edge: cap;
     }
-
-    .material-symbols-outlined {
-        font-variation-settings:
-            'FILL'0,
-            'wght'500,
-            'GRAD'0,
-            'opsz'16
-    }
 }
 
 .chip {
-    border: 1px solid $secondary;
+    border: 1px solid rgba($secondary, 0.15);
+    background-color: $secondary-container;
     color: $on-secondary-container;
 }
 

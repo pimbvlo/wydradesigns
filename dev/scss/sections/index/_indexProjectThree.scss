@@ -1,4 +1,60 @@
 /* =============
     Index Project Three
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
+
+#indexProjectThree {
+    background-color: rgba(232, 242, 255, 0.4);
+    position: relative;
+    overflow: hidden;
+
+    article {
+        z-index: 1;
+
+        figure:nth-child(1) {
+            @include lg {
+                display: none;
+            }
+
+            img {
+                border-radius: $radius-md;
+
+                aspect-ratio: 4 / 3;
+                object-fit: cover;
+                object-position: bottom;
+            }
+        }
+
+        figure:nth-child(2) {
+            display: none;
+
+            @include lg {
+                position: relative;
+                display: block;
+            }
+
+            img {
+                object-fit: contain;
+
+                @include lg {
+                    z-index: 0;
+                    position: absolute;
+                    transform: scale(1.5);
+                    bottom: -48vh;
+                    left: 0vw;
+                }
+
+                @include xl {
+                    transform: scale(1.4);
+                    bottom: -52vh;
+                    left: -2vw;
+                }
+            }
+        }
+
+        div {
+            z-index: 1;
+        }
+    }
+
+}

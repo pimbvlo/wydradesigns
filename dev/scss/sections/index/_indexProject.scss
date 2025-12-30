@@ -47,6 +47,9 @@
             >div {
                 @include lg {
                     padding: 16px;
+                    border-radius: $radius-md;
+                    background-color: rgba($surface, 0.001);
+                    backdrop-filter: blur(10px);
                 }
 
                 h3 {
@@ -86,15 +89,9 @@
 .index-project.inverse {
     color: $on-inverse-surface;
 
-    div:nth-child(2) {
-
+    div {
         >div {
-            @include lg {
-                border-radius: $radius-md;
-                background-color: rgba($surface, 0.001);
-                backdrop-filter: blur(10px);
-                color: $on-inverse-surface;
-            }
+            @include lg {}
         }
     }
 

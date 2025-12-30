@@ -4725,6 +4725,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/indexProjectThree.jpg" : {
+      "ft" : 16384,
+      "iS" : 277406,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/indexProjectThree.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/indexProjectThree.png" : {
+      "ft" : 32768,
+      "iS" : 392764,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/indexProjectThree.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/index\/indexProjectTwo.jpg" : {
       "ft" : 16384,
       "iS" : 231661,
@@ -7227,12 +7253,25 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen.jpg" : {
+    "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen1.jpg" : {
       "ft" : 16384,
       "iS" : 192328,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen.jpg",
+      "oAP" : "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen1.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen2.jpg" : {
+      "ft" : 16384,
+      "iS" : 428079,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/sai\/saiMockupExportScreen2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -9397,6 +9436,32 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/indexProjectThree.jpg" : {
+      "ft" : 16384,
+      "iS" : 4072791,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/indexProjectThree.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/indexProjectThree.png" : {
+      "ft" : 32768,
+      "iS" : 1490499,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/indexProjectThree.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/indexProjectTwo.jpg" : {
       "ft" : 16384,
       "iS" : 253629,
@@ -11460,12 +11525,12 @@
       "oAP" : "\/dev\/index\/indexProjectsListOld.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectThree.txt" : {
+    "\/dev\/index\/indexProjectThree.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index\/indexProjectThree.txt",
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectThree.html",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectTwo.kit" : {

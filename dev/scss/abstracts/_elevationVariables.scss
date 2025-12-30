@@ -6,8 +6,8 @@
 $elevation-1: 0px 1px 0px 1px rgba($shadow, 0.08), 0px 1px 0px 0px rgba($shadow, 0.24);
 $elevation-2: 0px 2px 0px 2px rgba($shadow, 0.08), 0px 1px 0px 0px rgba($shadow, 0.24);
 $elevation-3: 0px 3px 0px 3px rgba($shadow, 0.08), 0px 1px 0px 0px rgba($shadow, 0.24);
-$elevation-4: 0px 4px 0px 4px rgba($shadow, 0.08), 0px 2px 0px 0px rgba($shadow, 0.24);
-$elevation-5: 0px 6px 0px 6px rgba($shadow, 0.08), 0px 4px 0px 0px rgba($shadow, 0.24);
+$elevation-4: 0px 5px 0px 4px rgba($shadow, 0.08), 0px 3px 0px 2px rgba($shadow, 0.24);
+$elevation-5: 0px 6px 0px 6px rgba($shadow, 0.08), 0px 5px 0px 2px rgba($shadow, 0.24);
 
 .elevation-1 {
     box-shadow: $elevation-1;

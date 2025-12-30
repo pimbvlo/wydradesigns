@@ -1,11 +1,9 @@
 /* =============
     Resume Experience
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
 
 #resumeExperience {
-    background-color: $surface-variant;
-
     article {
         display: flex;
         flex-direction: column;
@@ -13,26 +11,31 @@
         @include lg {
             width: 75%;
         }
-        h2{
+
+        h2 {
             color: $on-surface-variant;
         }
+
         div {
             ul {
                 margin-top: 8px;
                 display: flex;
                 flex-direction: column;
                 row-gap: 8px;
-                p{
+
+                p {
                     color: $on-surface-variant;
 
                 }
-                ul{
-                    margin-top: 0px;
+
+                ul {
+                    margin-top: 4px;
                     padding-left: 8px;
-                    border-left: 4px solid $outline-variant;
+                    border-left: 2px solid $outline-variant;
                     margin-left: 2px;
-                    @include md{
-                        padding-left: 16px;
+
+                    @include md {
+                        padding-left: 12px;
                         margin-left: 8px;
                     }
                 }

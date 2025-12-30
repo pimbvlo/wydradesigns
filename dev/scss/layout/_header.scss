@@ -90,7 +90,8 @@ header {
             // gap: 20px;
 
             a {
-                padding: 20px 20px 16px;
+                padding: 20px 20px;
+                align-items: center;
                 text-decoration: none;
                 font-size: 24px;
                 color: $primary;
@@ -98,11 +99,11 @@ header {
                 transition: 0.25s;
 
                 @include md {
-                    padding: 20px 40px 16px;
+                    padding: 20px 40px;
                 }
 
                 @include lg {
-                    padding: 32px 40px 20px;
+                    padding: 32px 40px;
                     font-size: 32px;
                 }
 

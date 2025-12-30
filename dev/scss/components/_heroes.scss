@@ -35,12 +35,24 @@
     }
 }
 
-.inset-page.hero {
+.hero.inset-page {
     background-position: bottom center;
     background-image: linear-gradient($outline-variant 1px, transparent 1px), linear-gradient(to right, $outline-variant 1px, $background 1px);
     background-size: 24px 24px;
     border-top: 1px solid $outline-variant;
     border-bottom: 1px solid $outline-variant;
+
+    article {
+        height: 36vh;
+
+        @include md {
+            height: 24vh;
+        }
+
+        @include lg {
+            height: 40vh;
+        }
+    }
 }
 
 .article.hero.inset-page {

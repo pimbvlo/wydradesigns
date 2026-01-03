@@ -2159,7 +2159,7 @@ footer > div aside > div h5 {
     padding: 16px;
     border-radius: 16px;
     background-color: rgba(253, 253, 253, 0.001);
-    backdrop-filter: blur(10px);
+    backdrop-filter: blur(4px);
   }
 }
 .index-project article div > div h3 {

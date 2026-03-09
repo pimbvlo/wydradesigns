@@ -39,5 +39,10 @@
     background-color: $secondary;
     color: $on-secondary;
     padding: 0px 6px 0px 8px;
+}
 
+.chip.chip-grey {
+    border: 1px solid rgba($outline-variant, 0.15);
+    background-color: $surface-variant;
+    color: $on-surface-variant;
 }

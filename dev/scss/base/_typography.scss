@@ -18,8 +18,8 @@ p {
 
 // Display
 h1 {
-    font-size: rem-calc(60);
-    line-height: rem-calc(60);
+    font-size: rem-calc(48);
+    line-height: rem-calc(48);
     font-variation-settings: "slnt"0, "wdth"100, "wght"800, "INKT"100;
     margin: 0;
     letter-spacing: 1px;
@@ -30,8 +30,8 @@ h1 {
     }
 
     @include lg {
-        font-size: rem-calc(128);
-        line-height: rem-calc(128);
+        font-size: rem-calc(104);
+        line-height: rem-calc(104);
     }
 }
 

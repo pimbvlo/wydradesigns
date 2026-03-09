@@ -39,9 +39,9 @@
 
 .article-gallery.inverse,
 .article-text.inverse {
-    background-color: $inverse-surface;
+    background-color: $surface-variant;
 
-    color: $on-inverse-surface;
+    color: $on-surface-variant;
 
     p {
         >a {

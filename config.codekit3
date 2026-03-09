@@ -117,6 +117,14 @@
       "oAP" : "\/deploy\/Fender.html",
       "oF" : 0
     },
+    "\/deploy\/HelixDesignSystem.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/HelixDesignSystem.html",
+      "oF" : 0
+    },
     "\/deploy\/IceCreamMuseum.html" : {
       "cB" : 0,
       "ft" : 8192,
@@ -2227,6 +2235,45 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/rdd\/rddAirbnbDashboard.jpg" : {
+      "ft" : 16384,
+      "iS" : 100016,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/rdd\/rddAirbnbDashboard.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/rdd\/rddAirbnbSearch.png" : {
+      "ft" : 32768,
+      "iS" : 790749,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/rdd\/rddAirbnbSearch.png",
+      "oF" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/case-studies\/rdd\/rddHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 282820,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/case-studies\/rdd\/rddHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -4712,6 +4759,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/index\/indexProjectFour.png" : {
+      "ft" : 32768,
+      "iS" : 629459,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/indexProjectFour.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/index\/indexProjectOne.png" : {
       "ft" : 32768,
       "iS" : 937607,
@@ -4806,6 +4866,19 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/index\/projects\/BKCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/index\/projects\/BLCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 206700,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/index\/projects\/BLCover.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -7136,6 +7209,45 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/case-studies\/rdd\/rddAirbnbDashboard.jpg" : {
+      "ft" : 16384,
+      "iS" : 664980,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/rdd\/rddAirbnbDashboard.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/rdd\/rddAirbnbSearch.png" : {
+      "ft" : 32768,
+      "iS" : 3505787,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/rdd\/rddAirbnbSearch.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/case-studies\/rdd\/rddHero.jpg" : {
+      "ft" : 16384,
+      "iS" : 2207024,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/case-studies\/rdd\/rddHero.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/case-studies\/sa\/saCover1.jpg" : {
       "ft" : 16384,
       "iS" : 685240,
@@ -9410,6 +9522,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/imglg\/index\/indexProjectFour.png" : {
+      "ft" : 32768,
+      "iS" : 1957010,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/indexProjectFour.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/imglg\/index\/indexProjectOne.jpg" : {
       "ft" : 16384,
       "iS" : 619162,
@@ -9510,6 +9635,19 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/imglg\/index\/projects\/BLCover.jpg" : {
+      "ft" : 16384,
+      "iS" : 102771,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/imglg\/index\/projects\/BLCover.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -10105,12 +10243,36 @@
       "oAP" : "\/deploy\/PageNotFound.html",
       "oF" : 0
     },
+    "\/deploy\/PfizerFlagship.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/PfizerFlagship.html",
+      "oF" : 0
+    },
+    "\/deploy\/PfizerPrime.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/PfizerPrime.html",
+      "oF" : 0
+    },
     "\/deploy\/QueenVillage.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/deploy\/QueenVillage.html",
+      "oF" : 0
+    },
+    "\/deploy\/RandDDashboard.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/RandDDashboard.html",
       "oF" : 0
     },
     "\/deploy\/resume.html" : {
@@ -10505,22 +10667,6 @@
       "oAP" : "\/dev\/case-studies\/bk\/bkHero.html",
       "oF" : 0
     },
-    "\/dev\/case-studies\/bl\/blAudience.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blAudience.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blBranding.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blBranding.html",
-      "oF" : 0
-    },
     "\/dev\/case-studies\/bl\/blHero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -10535,54 +10681,6 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/bl\/blIntro.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blOutcomes.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blOutcomes.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blProblem.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blProblem.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blProcess.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blProcess.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blPrototyping.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blPrototyping.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blRoles.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blRoles.html",
-      "oF" : 0
-    },
-    "\/dev\/case-studies\/bl\/blScope.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dev\/case-studies\/bl\/blScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/cft\/cftBranding.kit" : {
@@ -10775,6 +10873,78 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/case-studies\/qv\/qvText1.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddAudience.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddAudience.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddBranding.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddBranding.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddHero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddHero.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddIntro.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddIntro.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddOutcomes.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddOutcomes.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddProblem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddProblem.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddProcess.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddProcess.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddPrototyping.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddPrototyping.html",
+      "oF" : 0
+    },
+    "\/dev\/case-studies\/rdd\/rddScope.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/case-studies\/rdd\/rddScope.html",
       "oF" : 0
     },
     "\/dev\/case-studies\/sa\/saGallery.kit" : {
@@ -11471,6 +11641,14 @@
       "oAP" : "\/dev\/global\/logo.html",
       "oF" : 0
     },
+    "\/dev\/HelixDesignSystem.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/HelixDesignSystem.html",
+      "oF" : 2
+    },
     "\/dev\/IceCreamMuseum.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -11511,12 +11689,12 @@
       "oAP" : "\/dev\/index\/indexMarquee.txt",
       "oF" : 0
     },
-    "\/dev\/index\/indexProjectFour.txt" : {
+    "\/dev\/index\/indexProjectFour.kit" : {
       "cB" : 0,
-      "ft" : 8192,
+      "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/index\/indexProjectFour.txt",
+      "oA" : 1,
+      "oAP" : "\/dev\/index\/indexProjectFour.html",
       "oF" : 0
     },
     "\/dev\/index\/indexProjectOne.kit" : {
@@ -11712,12 +11890,36 @@
       "oAP" : "\/deploy\/404.html",
       "oF" : 2
     },
+    "\/dev\/PfizerFlagship.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/PfizerFlagship.html",
+      "oF" : 2
+    },
+    "\/dev\/PfizerPrime.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/PfizerPrime.html",
+      "oF" : 2
+    },
     "\/dev\/QueenVillage.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/QueenVillage.html",
+      "oF" : 2
+    },
+    "\/dev\/RandDDashboard.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/RandDDashboard.html",
       "oF" : 2
     },
     "\/dev\/resume.kit" : {
@@ -12532,6 +12734,19 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/sections\/case-studies\/_qvText1.css",
+      "oF" : 0,
+      "oS" : 1,
+      "pg" : 0
+    },
+    "\/dev\/scss\/sections\/case-studies\/_rddHero.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/sections\/case-studies\/_rddHero.css",
       "oF" : 0,
       "oS" : 1,
       "pg" : 0

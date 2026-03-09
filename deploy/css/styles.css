@@ -580,8 +580,8 @@ p {
 }
 
 h1 {
-  font-size: 3.75rem;
-  line-height: 3.75rem;
+  font-size: 3rem;
+  line-height: 3rem;
   font-variation-settings: "slnt" 0, "wdth" 100, "wght" 800, "INKT" 100;
   margin: 0;
   letter-spacing: 1px;
@@ -594,8 +594,8 @@ h1 {
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   h1 {
-    font-size: 8rem;
-    line-height: 8rem;
+    font-size: 6.5rem;
+    line-height: 6.5rem;
   }
 }
 
@@ -860,6 +860,13 @@ ol li::marker {
   fill: rgb(229, 0, 69);
 }
 
+.button.disabled {
+  opacity: 30%;
+}
+.button.disabled:hover {
+  transform: none;
+}
+
 .button-icon-left > a {
   flex-direction: row-reverse;
   padding-top: 16px;
@@ -1027,6 +1034,12 @@ ol li::marker {
   background-color: rgb(0, 177, 230);
   color: rgb(255, 255, 255);
   padding: 0px 6px 0px 8px;
+}
+
+.chip.chip-grey {
+  border: 1px solid rgba(171, 171, 171, 0.15);
+  background-color: rgb(239, 239, 239);
+  color: rgb(43, 43, 43);
 }
 
 /* =============
@@ -1205,8 +1218,8 @@ textarea {
 
 .article-gallery.inverse,
 .article-text.inverse {
-  background-color: rgb(43, 43, 43);
-  color: rgb(239, 239, 239);
+  background-color: rgb(239, 239, 239);
+  color: rgb(43, 43, 43);
 }
 .article-gallery.inverse p > a,
 .article-text.inverse p > a {
@@ -2396,6 +2409,16 @@ footer > div aside > div h5 {
 }
 #indexProjectThree article div {
   z-index: 1;
+}
+
+/* =============
+    Index Project Four
+============= */
+#indexProjectFour {
+  background-color: rgb(239, 239, 239);
+}
+#indexProjectFour figure img {
+  object-fit: contain;
 }
 
 /* =============
@@ -3655,6 +3678,22 @@ footer > div aside > div h5 {
 }
 #qvGallery > div article ul li:nth-child(7) p {
   width: 100%;
+}
+
+/* =============
+    R&D DASHBOARD Hero
+============= */
+#rddHero {
+  background-image: url("../img/case-studies/rdd/rddHero.jpg");
+  background-position: center;
+}
+#rddHero article h1 {
+  hyphens: manual;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #rddHero article h1 {
+    hyphens: none;
+  }
 }
 
 /* =============

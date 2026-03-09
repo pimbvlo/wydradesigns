@@ -115,6 +115,14 @@
     }
 }
 
+.button.disabled {
+    opacity: 30%;
+
+    &:hover {
+        transform: none;
+    }
+}
+
 .button-icon-left {
     >a {
         flex-direction: row-reverse;

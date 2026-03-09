@@ -5,4 +5,9 @@
 
 #indexProjectFour{
     background-color: $surface-variant;
+    figure{
+        img{
+            object-fit: contain;
+        }
+    }
 }

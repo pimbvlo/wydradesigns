@@ -37,6 +37,7 @@
 @use "sections/index/_indexProjectOne";
 @use "sections/index/_indexProjectTwo";
 @use "sections/index/_indexProjectThree";
+@use "sections/index/_indexProjectFour";
 @use "sections/index/_indexMarquee";
 @use "sections/index/_indexProjectList";
 
@@ -104,6 +105,9 @@
 @use "sections/case-studies/_qvHero";
 @use "sections/case-studies/_qvText1";
 @use "sections/case-studies/_qvGallery";
+
+// R&D DASHBOARD
+@use "sections/case-studies/_rddHero";
 
 // SALT&AGE
 @use "sections/case-studies/_saHero";

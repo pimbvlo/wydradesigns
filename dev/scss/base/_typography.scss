@@ -28,11 +28,6 @@ h1 {
         font-size: rem-calc(88);
         line-height: rem-calc(88);
     }
-
-    @include lg {
-        font-size: rem-calc(104);
-        line-height: rem-calc(104);
-    }
 }
 
 // Headline

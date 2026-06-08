@@ -1,13 +1,19 @@
 /* =============
     Index Project Four
 ============= */
-@use '../../abstracts' as *;
+@use '../../abstracts'as *;
 
-#indexProjectFour{
+#indexProjectFour {
+    // overflow: hidden;
     background-color: $surface-variant;
-    figure{
-        img{
+
+    figure {
+        img {
             object-fit: contain;
+
+            @include lg {
+                max-height: 704px;
+            }
         }
     }
 }

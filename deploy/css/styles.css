@@ -592,12 +592,6 @@ h1 {
     line-height: 5.5rem;
   }
 }
-@media (min-device-width: 1024px) and (orientation: landscape) {
-  h1 {
-    font-size: 6.5rem;
-    line-height: 6.5rem;
-  }
-}
 
 h2 {
   font-size: 2.5rem;
@@ -1704,14 +1698,12 @@ footer .button {
   align-self: flex-start;
   background-color: rgb(204, 239, 250);
   width: 100%;
-  border-radius: 16px;
 }
 footer .button > a {
   height: 100%;
   width: 100%;
   padding: 0px;
   align-items: center;
-  border-radius: 16px;
   font-weight: 400;
   color: rgb(0, 35, 46);
 }
@@ -1759,21 +1751,24 @@ footer > div {
   footer > div {
     display: grid;
     margin-top: 104px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
-    grid-template-areas: "h h h" "e e n" "a a a";
+    grid-template-areas: "h h" "e n" "a a";
   }
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div {
     margin-top: 160px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto auto;
+    grid-template-areas: "h h h h" "e n n a";
   }
 }
 @media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-template-rows: auto auto;
-    grid-template-areas: "h h h h" "e e n a";
+    grid-template-areas: "h h h h h" "e . n . a";
   }
 }
 footer > div h2 {
@@ -1822,6 +1817,11 @@ footer > div nav .button {
   height: 8vh;
   width: 100%;
 }
+@media (min-device-width: 768px) {
+  footer > div nav .button {
+    height: 6vh;
+  }
+}
 @media (min-device-width: 1440px) and (orientation: landscape) {
   footer > div nav .button {
     height: 100%;
@@ -1862,7 +1862,7 @@ footer > div aside {
     justify-content: space-between;
   }
 }
-@media (min-device-width: 1440px) and (orientation: landscape) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside {
     flex-direction: column;
   }
@@ -1872,7 +1872,7 @@ footer > div aside ul {
   grid-template-columns: repeat(4, 1fr);
   width: 100%;
 }
-@media (min-device-width: 1440px) and (orientation: landscape) {
+@media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside ul {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1891,8 +1891,8 @@ footer > div aside ul .button {
 }
 @media (min-device-width: 1024px) and (orientation: landscape) {
   footer > div aside ul .button {
-    height: 108px;
-    width: 108px;
+    height: 80px;
+    width: 80px;
   }
 }
 footer > div aside ul .button > a {
@@ -1926,7 +1926,7 @@ footer > div aside > div {
     width: -webkit-fill-available;
   }
 }
-footer > div aside > div h5 {
+footer > div aside > div p {
   text-align: center;
   color: rgb(51, 48, 0);
 }
@@ -2419,6 +2419,11 @@ footer > div aside > div h5 {
 }
 #indexProjectFour figure img {
   object-fit: contain;
+}
+@media (min-device-width: 1024px) and (orientation: landscape) {
+  #indexProjectFour figure img {
+    max-height: 704px;
+  }
 }
 
 /* =============

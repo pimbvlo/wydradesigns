@@ -20,14 +20,12 @@ footer {
         align-self: flex-start;
         background-color: $secondary-container;
         width: 100%;
-        border-radius: $radius-md;
 
         >a {
             height: 100%;
             width: 100%;
             padding: 0px;
             align-items: center;
-            border-radius: $radius-md;
 
             font-weight: 400;
             color: $on-secondary-container;
@@ -47,15 +45,16 @@ footer {
         &:visited {
             >a {
                 color: $on-secondary-container;
-                            >svg {
-                fill: $on-secondary-container;
 
-                >path {
-
+                >svg {
                     fill: $on-secondary-container;
 
+                    >path {
+
+                        fill: $on-secondary-container;
+
+                    }
                 }
-            }
 
             }
         }
@@ -64,15 +63,16 @@ footer {
             >a {
                 background-color: rgba($secondary, $state-hovered);
                 color: $on-secondary-container;
-                            >svg {
-                fill: $on-secondary-container;
 
-                >path {
-
+                >svg {
                     fill: $on-secondary-container;
 
+                    >path {
+
+                        fill: $on-secondary-container;
+
+                    }
                 }
-            }
 
             }
         }
@@ -81,15 +81,16 @@ footer {
             >a {
                 background-color: rgba($secondary, $state-pressed);
                 color: $on-secondary-container;
-                            >svg {
-                fill: $on-secondary-container;
 
-                >path {
-
+                >svg {
                     fill: $on-secondary-container;
 
+                    >path {
+
+                        fill: $on-secondary-container;
+
+                    }
                 }
-            }
 
             }
         }
@@ -103,25 +104,33 @@ footer {
         @include md {
             display: grid;
             margin-top: 104px;
-            grid-template-columns: repeat(3, 1fr);
+            grid-template-columns: repeat(2, 1fr);
             grid-template-rows: auto auto auto;
             grid-template-areas:
-                "h h h"
-                "e e n"
-                "a a a";
+                "h h"
+                "e n"
+                "a a";
         }
 
         @include lg {
             margin-top: 160px;
-        }
-
-        @include xl {
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: auto auto;
 
             grid-template-areas:
                 "h h h h"
-                "e e n a";
+                "e n n a";
+
+
+        }
+
+        @include xl {
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: auto auto;
+
+            grid-template-areas:
+                "h h h h h"
+                "e . n . a";
 
         }
 
@@ -172,6 +181,10 @@ footer {
                 height: 8vh;
                 width: 100%;
 
+                @include md {
+                    height: 6vh;
+                }
+
                 @include xl {
                     height: 100%;
                 }
@@ -212,7 +225,7 @@ footer {
                 justify-content: space-between;
             }
 
-            @include xl {
+            @include lg {
                 flex-direction: column;
             }
 
@@ -221,7 +234,7 @@ footer {
                 grid-template-columns: repeat(4, 1fr);
                 width: 100%;
 
-                @include xl {
+                @include lg {
                     grid-template-columns: repeat(2, 1fr);
                 }
 
@@ -237,8 +250,8 @@ footer {
                     }
 
                     @include lg {
-                        height: 108px;
-                        width: 108px;
+                        height: 80px;
+                        width: 80px;
                     }
 
                     >a {
@@ -247,6 +260,7 @@ footer {
 
                     svg {
                         margin: 0px;
+
                         @include lg {
                             height: 2em;
                         }
@@ -272,7 +286,7 @@ footer {
                     width: -webkit-fill-available;
                 }
 
-                h5 {
+                p {
                     text-align: center;
                     color: $on-tertiary-container;
                 }
